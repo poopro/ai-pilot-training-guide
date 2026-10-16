@@ -11,9 +11,13 @@
 
 ## 本次 ASUS LAN 測試決定（2026-10-17）
 
-使用者已同意本次採用預設值作為**測試候選埠**：ASUS 接收 OBS 的 UDP 8199；主電腦接收 CMD 的 UDP 8099。請依這組值準備套件外的 ASUS LAN 設定，但只有主電腦 Host 端也確認使用這兩個埠後才啟動 Player。這項同意不表示 Host 已監聽、網路已通、防火牆已開或一場對戰已完成。
+使用者已同意本次採用預設值作為**測試候選埠**：ASUS 接收 OBS 的 UDP 8199；主電腦接收 CMD 的 UDP 8099。依私人網路交接檔取得兩端 IP；ASUS Codex 仍需即時核對 ASUS 使用中的網卡與位址，不能只信文件。
 
-兩台電腦的實際私有 IP 由使用者在 ASUS 的私人 Codex 對話提供，並由 ASUS 即時核對網卡。**不要在這個公開 GitHub 文件放 IP、電腦名稱、路徑、log 或機器報告。**若 ASUS Codex 看不到私人聊天中的主電腦 IP，只需在私人對話一次詢問，不要猜。若 Host 尚未開啟，仍完成 ASUS 的本機自檢、外部設定檔與限時啟動器的 fail-closed 預檢，狀態保持 LAN_PENDING；不要開無期限 Player，也不要改防火牆或網路類型。
+私人端點資料在 [LAN_ENDPOINTS_PRIVATE.md](./reports/asus-cpu-player-setup-2026-10-17/LAN_ENDPOINTS_PRIVATE.md)。讀取前確認此 repo 仍是 private；如 repo 變成 public，不要讀取或複製其私人內容到公開頁面，改請使用者在私人對話提供端點。
+
+**重要限制：主電腦 portable_host_v4 僅允許 127.0.0.1 loopback，且目前主電腦沒有 Host/Player listener。不能拿 v4 直接做跨電腦測試，也不能改它或原 ZIP 來繞過凍結。** ASUS 端請先完成套件核對、自檢、LAN 設定檔與 600 秒啟動器的 fail-closed 預檢，狀態保持 LAN_PENDING，不啟動 Player、不改防火牆或網路類型。等主電腦另行完成獨立 LAN Host profile、監督與收證預檢後，再由私人對話通知你安排限時彩排。
+
+這項同意只授權用 8199／8099 作為候選測試埠，不代表 Host 已監聽、網路已通、防火牆已開或一場對戰已完成。私人 IP、電腦名稱、日誌與機器報告不得放入公開文件。
 
 ## 唯一文件入口
 
