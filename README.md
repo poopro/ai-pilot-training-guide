@@ -1,5 +1,16 @@
 # 從競賽範例到可驗證的 AI 飛行員
 
+## ASUS 第二台電腦：交給 Codex 一次完成設定
+
+請讀取 [CODEX_SECOND_PC_SETUP.md](./CODEX_SECOND_PC_SETUP.md)。這是第二台 Windows 電腦的套件下載、自檢、LAN 設定與限時彩排交接入口；不是重新安裝整套訓練環境。
+
+可直接貼給 ASUS 上的 Codex：
+
+> 請讀取 https://github.com/poopro/ai-pilot-training-guide/blob/main/CODEX_SECOND_PC_SETUP.md ，幫我一次完成第二台電腦的下載、核對、CPU Player 檢查、LAN 設定準備及限時啟動器。主電腦可配合且端點核對後完成一次 LAN 彩排；若還缺資料，先做完其餘設定，最後一次列出需要我配合的事項，並產出交接報告。全程繁體中文，登入由我本人處理。
+
+---
+
+
 > 給 AI coding agent 與參賽者的建置、訓練、評估及進階改良指南。本文是執行計畫，不代表所列改良已實作或已證明能獲勝。
 
 ## 核心原則
