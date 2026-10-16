@@ -1,0 +1,19 @@
+{
+  "status": "LAN_PENDING",
+  "local_interface": "Wi-Fi",
+  "local_ipv4": null,
+  "host_ipv4": null,
+  "host_obs_udp_port": null,
+  "asus_cmd_udp_port": null,
+  "same_router_confirmed": false,
+  "host_supervised_window": null,
+  "missing_items": [
+    "main PC Host IPv4",
+    "Host OBS output UDP port",
+    "ASUS CMD receive UDP port",
+    "main PC supervised test window",
+    "confirmation that both PCs are on the intended LAN"
+  ],
+  "private_network_values_redacted": true,
+  "player_started": false
+}

@@ -1,0 +1,18 @@
+{
+  "scope": "local package integrity and synthetic CPU timing only",
+  "platform": "ASUS Vivobook; Windows 11; x64",
+  "processor": "AMD Ryzen 7 5800H",
+  "ram_gib": 15.4,
+  "python_bits": 64,
+  "self_check_passed": true,
+  "checked_package_files": 2115,
+  "synthetic_samples": 2000,
+  "p99_ms": 0.4119,
+  "max_ms": 0.7366,
+  "synthetic_CPU_margin_pass": true,
+  "real_60Hz_network_verified": false,
+  "new_FDM_ticks": 0,
+  "network_started": false,
+  "player_started": false,
+  "local_identifiers_and_paths_redacted": true
+}
