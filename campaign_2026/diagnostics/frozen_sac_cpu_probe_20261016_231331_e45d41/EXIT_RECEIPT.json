@@ -1,0 +1,10 @@
+{
+  "actual_worker_exit": 1,
+  "watchdog_finished_normally": true,
+  "elapsed_seconds": 15.682568550109863,
+  "termination_reason": null,
+  "worker_identity_absent": true,
+  "result_sha256": null,
+  "source_unchanged": true,
+  "new_FDM_ticks": 0
+}

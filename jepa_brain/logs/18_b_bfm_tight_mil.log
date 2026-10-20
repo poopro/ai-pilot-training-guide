@@ -1,0 +1,198 @@
+[1/84] mil_t/guide timeout winner=blue atk 0/0 margin 4.5
+[2/84] mil_t/guide timeout winner=blue atk 0/0 margin 1.3
+[3/84] mil_t/guide timeout winner=red atk 0/0 margin -1910.8
+[4/84] mil_t/guide timeout winner=red atk 0/0 margin -1741.1
+[5/84] mil_t/guide timeout winner=red atk 0/0 margin -0.3
+[6/84] mil_t/guide timeout winner=blue atk 0/0 margin 7.1
+[7/84] mil_t/guide timeout winner=red atk 0/0 margin -1481.3
+[8/84] mil_t/guide timeout winner=blue atk 0/0 margin 9.8
+[9/84] mil_t/guide timeout winner=red atk 0/0 margin -3.2
+[10/84] mil_t/guide timeout winner=red atk 0/0 margin -1496.6
+[11/84] mil_t/guide timeout winner=red atk 0/0 margin -0.3
+[12/84] mil_t/guide timeout winner=red atk 0/0 margin -10.0
+[13/84] mil_t/lead red_kill winner=red atk 0/180 margin -86459.1
+[14/84] mil_t/lead timeout winner=red atk 0/0 margin -26186.1
+[15/84] mil_t/lead timeout winner=red atk 0/23 margin -17776.9
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[16/84] mil_t/lead red_kill winner=red atk 0/180 margin -87359.0
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[17/84] mil_t/lead timeout winner=red atk 0/0 margin -14626.9
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[18/84] mil_t/lead timeout winner=red atk 0/0 margin -4270.5
+[19/84] mil_t/lead timeout winner=red atk 0/35 margin -26170.1
+[20/84] mil_t/lead timeout winner=red atk 0/0 margin -3971.0
+[21/84] mil_t/lead timeout winner=red atk 0/0 margin -26393.0
+[22/84] mil_t/lead timeout winner=red atk 0/0 margin -10303.3
+[23/84] mil_t/lead timeout winner=red atk 0/0 margin -28582.1
+[24/84] mil_t/lead timeout winner=red atk 0/0 margin -14369.3
+[25/84] mil_t/lag timeout winner=red atk 0/0 margin -483.7
+[26/84] mil_t/lag timeout winner=blue atk 0/0 margin 542.0
+[27/84] mil_t/lag timeout winner=blue atk 0/0 margin 5.2
+[28/84] mil_t/lag timeout winner=blue atk 0/0 margin 290.1
+[29/84] mil_t/lag timeout winner=blue atk 0/0 margin 830.2
+[30/84] mil_t/lag timeout winner=blue atk 0/0 margin 34.8
+[31/84] mil_t/lag timeout winner=blue atk 0/0 margin 90.4
+[32/84] mil_t/lag timeout winner=blue atk 0/0 margin 822.1
+[33/84] mil_t/lag timeout winner=blue atk 0/0 margin 26.9
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[34/84] mil_t/lag timeout winner=blue atk 0/0 margin 673.6
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[35/84] mil_t/lag timeout winner=blue atk 0/0 margin 908.9
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[36/84] mil_t/lag timeout winner=red atk 0/0 margin -10.0
+[37/84] mil_t/mix timeout winner=red atk 5/0 margin -1504.1
+[38/84] mil_t/mix timeout winner=blue atk 0/0 margin 499.9
+[39/84] mil_t/mix timeout winner=blue atk 0/0 margin 1283.1
+[40/84] mil_t/mix timeout winner=blue atk 0/0 margin 1175.4
+[41/84] mil_t/mix timeout winner=blue atk 0/0 margin 232.3
+[42/84] mil_t/mix timeout winner=blue atk 0/0 margin 1687.1
+[43/84] mil_t/mix timeout winner=blue atk 0/0 margin 1039.9
+[44/84] mil_t/mix timeout winner=blue atk 0/0 margin 278.9
+[45/84] mil_t/mix timeout winner=blue atk 0/0 margin 5911.7
+[46/84] mil_t/mix timeout winner=red atk 0/0 margin -1859.4
+[47/84] mil_t/mix timeout winner=red atk 0/0 margin -2095.5
+[48/84] mil_t/mix timeout winner=red atk 0/0 margin -493.0
+[49/84] mil_t/breaker timeout winner=blue atk 0/0 margin 4647.0
+[50/84] mil_t/breaker timeout winner=red atk 0/0 margin -225.2
+[51/84] mil_t/breaker timeout winner=red atk 0/0 margin -230.7
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[52/84] mil_t/breaker timeout winner=blue atk 0/0 margin 1208.6
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[53/84] mil_t/breaker timeout winner=blue atk 0/0 margin 472.0
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[54/84] mil_t/breaker timeout winner=red atk 0/0 margin -1857.3
+[55/84] mil_t/breaker timeout winner=red atk 0/0 margin -328.8
+[56/84] mil_t/breaker timeout winner=blue atk 0/0 margin 1857.0
+[57/84] mil_t/breaker timeout winner=blue atk 0/0 margin 2051.6
+[58/84] mil_t/breaker timeout winner=red atk 0/0 margin -70.9
+[59/84] mil_t/level blue_kill winner=blue atk 180/0 margin 82588.1
+[60/84] mil_t/level blue_kill winner=blue atk 180/0 margin 81084.9
+[61/84] mil_t/breaker timeout winner=blue atk 13/0 margin 3480.4
+[62/84] mil_t/breaker timeout winner=blue atk 0/0 margin 1034.9
+[63/84] mil_t/level blue_kill winner=blue atk 180/0 margin 82180.8
+[64/84] mil_t/level blue_kill winner=blue atk 180/0 margin 81900.0
+[65/84] mil_t/level blue_kill winner=blue atk 180/0 margin 81984.9
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[66/84] mil_t/level blue_kill winner=blue atk 180/0 margin 81369.2
+[67/84] mil_t/level blue_kill winner=blue atk 180/0 margin 80911.6
+[68/84] mil_t/level blue_kill winner=blue atk 180/0 margin 82545.9
+[69/84] mil_t/level blue_kill winner=blue atk 180/0 margin 81950.0
+[70/84] mil_t/level blue_kill winner=blue atk 180/0 margin 82459.5
+[71/84] mil_t/level blue_kill winner=blue atk 180/0 margin 80847.4
+[72/84] mil_t/level blue_kill winner=blue atk 180/0 margin 81893.8
+[73/84] mil_t/sac314 red_crash winner=blue atk 0/0 margin -376.4
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[74/84] mil_t/sac314 red_crash winner=blue atk 0/0 margin 1849.3
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[75/84] mil_t/sac314 timeout winner=blue atk 0/0 margin 689.5
+[76/84] mil_t/sac314 red_crash winner=blue atk 0/0 margin -1030.9
+[77/84] mil_t/sac314 red_crash winner=blue atk 0/0 margin 1783.2
+[78/84] mil_t/sac314 red_crash winner=blue atk 0/0 margin -1850.0
+[79/84] mil_t/sac314 red_crash winner=blue atk 0/0 margin 1571.5
+[80/84] mil_t/sac314 red_crash winner=blue atk 0/0 margin -33.0
+[81/84] mil_t/sac314 red_crash winner=blue atk 0/0 margin 599.1
+[82/84] mil_t/sac314 red_crash winner=blue atk 0/0 margin -466.7
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[83/84] mil_t/sac314 red_crash winner=blue atk 0/0 margin -942.7
+[84/84] mil_t/sac314 red_crash winner=blue atk 0/0 margin -771.2
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+opp      policy      n  win loss draw  atkB  atkR  margin   minAGLm
+breaker  mil_t      12    7    5    0     1     0    1003      2489
+guide    mil_t      12    4    8    0     0     0    -552      2289
+lag      mil_t      12   10    2    0     0     0     311      2511
+lead     mil_t      12    0   12    0     0    35  -28872      2771
+level    mil_t      12   12    0    0   180     0   81810      2969
+mix      mil_t      12    8    4    0     0     0     513      2538
+sac314   mil_t      12   12    0    0     0     0      85      1731

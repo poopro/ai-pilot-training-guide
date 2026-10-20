@@ -1,0 +1,14 @@
+test_atomic_and_checksum (__main__.SupervisorTests) ... ok
+test_complete_and_count (__main__.SupervisorTests) ... ok
+test_completion_runs_next_stage (__main__.SupervisorTests) ... ok
+test_duplicate_lock (__main__.SupervisorTests) ... ok
+test_error_exit (__main__.SupervisorTests) ... ok
+test_resume_counts_only_increment (__main__.SupervisorTests) ... ok
+test_stale_progress_is_not_counted_twice (__main__.SupervisorTests) ... ok
+test_stop_and_save (__main__.SupervisorTests) ... ok
+test_timeout_owned_only (__main__.SupervisorTests) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 3.378s
+
+OK

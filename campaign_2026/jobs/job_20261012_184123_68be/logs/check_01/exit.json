@@ -1,0 +1,38 @@
+{
+  "name": "check_01",
+  "command": [
+    "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "E:\\ai_pilot\\campaign_2026\\repair_v1\\verify_saved.py",
+    "--bundle",
+    "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_01\\final_0000074000",
+    "--out",
+    "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\verified_01.json"
+  ],
+  "folder": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\check_01",
+  "training": false,
+  "start_decisions": 0,
+  "requested_decisions": 0,
+  "counted_decisions": 0,
+  "started_epoch": 1791802485.9445336,
+  "status": "finished",
+  "process": {
+    "pid": 23012,
+    "creation_epoch": 1791802485.950759,
+    "cmdline": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\repair_v1\\verify_saved.py",
+      "--bundle",
+      "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_01\\final_0000074000",
+      "--out",
+      "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\verified_01.json"
+    ]
+  },
+  "exit_code": 0,
+  "finished_epoch": 1791802505.9650857
+}

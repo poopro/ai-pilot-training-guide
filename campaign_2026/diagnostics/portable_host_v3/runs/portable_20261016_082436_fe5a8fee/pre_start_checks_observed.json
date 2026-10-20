@@ -1,0 +1,17 @@
+{
+  "mark_start_actual_exit_code": 0,
+  "mark_start_tool_chunk": "f8288c",
+  "inventory_before_START": {
+    "session_token_matches": true,
+    "prelaunch_cache_receipt_matches": true,
+    "all_owned_children_captured": true,
+    "cached_gui_captured": true,
+    "cached_internal_p2_captured": true,
+    "all_direct_parent_chains_verified": true,
+    "all_executable_snapshots_match": true
+  },
+  "watchdog_wait_attached": true,
+  "HOST_RUNNING_UI_observed": true,
+  "source_unchanged": true,
+  "no_unrelated_programs_stopped": true
+}

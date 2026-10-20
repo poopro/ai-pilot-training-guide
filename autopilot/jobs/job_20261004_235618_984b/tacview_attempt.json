@@ -1,0 +1,9 @@
+{
+  "first_error": "failed to activate captured window",
+  "reason": "Control panel outside captured bounds; one refreshed retry failed; no further UI inputs",
+  "retry_error": "point (1695, 500) is outside window bounds (1426 x 746)",
+  "application_started": true,
+  "status": "pending_manual",
+  "file_loaded": false,
+  "utc": "2026-10-04T16:25:07.7428818Z"
+}

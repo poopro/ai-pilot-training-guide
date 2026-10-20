@@ -1,0 +1,18 @@
+test_access_denied_remains_unknown_and_cannot_pass (test_guard_repair.GuardRepair) ... ok
+test_atomic_replace_permanent_failure_bounded_eight (test_guard_repair.GuardRepair) ... ok
+test_atomic_replace_transient_retry_preserves_bytes (test_guard_repair.GuardRepair) ... ok
+test_forged_active_receipt_never_stops_unowned_process (test_guard_repair.GuardRepair) ... ok
+test_identity_pid_reuse_or_access_denied_never_matches (test_guard_repair.GuardRepair) ... ok
+test_initial_publication_failure_still_cleans_owned_tree (test_guard_repair.GuardRepair) ... ok
+test_late_guard_does_not_restart_reserved_clock (test_guard_repair.GuardRepair) ... ok
+test_launcher_repeated_timeouts_preserve_unknown_actual_exit (test_guard_repair.GuardRepair) ... ok
+test_parent_exit_enumeration_race_still_cleans_known_children (test_guard_repair.GuardRepair) ... ok
+test_permanent_publication_failure_still_original_deadline (test_guard_repair.GuardRepair) ... ok
+test_permanent_publication_failure_still_stop_and_descendant_cleanup (test_guard_repair.GuardRepair) ... ok
+test_transient_publication_recovers_and_saves_error_evidence (test_guard_repair.GuardRepair) ... ok
+test_worker_deadline_cleans_its_owned_descendants (test_guard_repair.GuardRepair) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.241s
+
+OK

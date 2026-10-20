@@ -1,0 +1,15 @@
+{
+  "pid": 16564,
+  "create": 1792189870.3058043,
+  "cmd": [
+    "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "E:\\ai_pilot\\campaign_2026\\diagnostics\\frozen_sac_fdm_v1\\probe.py",
+    "--worker",
+    "E:\\ai_pilot\\campaign_2026\\diagnostics\\frozen_sac_fdm_v1\\run_20261017_063110_af2e25"
+  ],
+  "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+  "parent": 20812
+}

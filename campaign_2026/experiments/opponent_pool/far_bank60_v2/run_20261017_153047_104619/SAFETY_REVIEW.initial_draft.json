@@ -1,0 +1,765 @@
+{
+  "status": "completed_verified_development_review",
+  "updated_utc": "2026-10-17T07:37:01.582851+00:00",
+  "comparison_sha256": "6b2add7e6c526cfb148538876aa3d261e3cecb6baa136a925559b068d4360057",
+  "results": [
+    {
+      "case": {
+        "id": "normal_station_zero_2026310400",
+        "opening": 0,
+        "side": "normal",
+        "seed": 2026310400,
+        "actor": "station_zero",
+        "red": "sac5000",
+        "distance_ft": 6000,
+        "max_ticks": 18000
+      },
+      "initial_sha256": "534f2219807519a2380358d0390733bc55ecb0254c3347161e2e646347ebfad8",
+      "event": "timeout",
+      "winner": "blue",
+      "ticks": 18000,
+      "attack_ticks": [
+        0,
+        0
+      ],
+      "over9G": [
+        0,
+        0
+      ],
+      "total_score": [
+        1481.961438276131,
+        1471.575417043272
+      ],
+      "score_margin": 10.386021232859093,
+      "peak_abs_g": [
+        2.8825051231043703,
+        2.8901648552425656
+      ],
+      "min_agl_m": [
+        3762.6350492704782,
+        3762.2501717535088
+      ],
+      "side_transform": {
+        "side": "normal",
+        "normal_cross_track_m": -1828.8000000008888,
+        "actual_cross_track_m": -1828.8000000008888,
+        "distance_m": 1828.8312992285842
+      },
+      "minimum_distance_m": 1256.9948213136458,
+      "inside_attack_range_ticks": 0,
+      "inside_attack_cone_ticks": 0,
+      "actual_goal_changed_ticks": 0,
+      "blue_kill": 0,
+      "blue_death": 0,
+      "blue_crash": 0,
+      "collision": 0,
+      "mean_absolute_bank_deg": 69.96637272282973,
+      "mean_absolute_heading_rate_deg_s": 7.160097619551831,
+      "saved_windows": [
+        {
+          "tick": 60,
+          "range_m": 1872.9321362802336,
+          "blue_angle_deg": 103.23347172397946,
+          "red_angle_deg": 103.22856123676348,
+          "bank_deg": -54.768781962287115,
+          "heading_deg": 54.23015384187538,
+          "cas_kts": 335.30921884322754,
+          "score_margin": -0.0005339206242038763
+        },
+        {
+          "tick": 3600,
+          "range_m": 3557.8857589063105,
+          "blue_angle_deg": 110.91183853358122,
+          "red_angle_deg": 110.70708003657302,
+          "bank_deg": -70.11503907115657,
+          "heading_deg": 355.3567980425953,
+          "cas_kts": 290.57520024405125,
+          "score_margin": 1.623152784578565
+        },
+        {
+          "tick": 7200,
+          "range_m": 4410.476975404459,
+          "blue_angle_deg": 87.90420612876092,
+          "red_angle_deg": 87.81502846845751,
+          "bank_deg": -70.10600575119486,
+          "heading_deg": 284.5628897975792,
+          "cas_kts": 290.0648514913478,
+          "score_margin": 3.206773961561794
+        },
+        {
+          "tick": 10800,
+          "range_m": 3775.3684424161193,
+          "blue_angle_deg": 63.487688431462736,
+          "red_angle_deg": 63.74160091693951,
+          "bank_deg": -70.11401071200802,
+          "heading_deg": 212.8057536232102,
+          "cas_kts": 290.0428807030069,
+          "score_margin": 4.969404276790215
+        },
+        {
+          "tick": 14400,
+          "range_m": 1980.72201755495,
+          "blue_angle_deg": 53.45132776405832,
+          "red_angle_deg": 53.80562398331128,
+          "bank_deg": -70.13129370997824,
+          "heading_deg": 140.41255243104146,
+          "cas_kts": 290.0900755559349,
+          "score_margin": 7.430897386835113
+        },
+        {
+          "tick": 18000,
+          "range_m": 1680.3677393573187,
+          "blue_angle_deg": 114.11243267702015,
+          "red_angle_deg": 114.17696731927076,
+          "bank_deg": -70.14458014039114,
+          "heading_deg": 67.39008875172387,
+          "cas_kts": 290.13578566900594,
+          "score_margin": 10.386021232859093
+        }
+      ]
+    },
+    {
+      "case": {
+        "id": "normal_far_bank60_2026310400",
+        "opening": 0,
+        "side": "normal",
+        "seed": 2026310400,
+        "actor": "far_bank60",
+        "red": "sac5000",
+        "distance_ft": 6000,
+        "max_ticks": 18000
+      },
+      "initial_sha256": "534f2219807519a2380358d0390733bc55ecb0254c3347161e2e646347ebfad8",
+      "event": "timeout",
+      "winner": "red",
+      "ticks": 18000,
+      "attack_ticks": [
+        0,
+        0
+      ],
+      "over9G": [
+        0,
+        0
+      ],
+      "total_score": [
+        60.939916841377936,
+        16117.863441554315
+      ],
+      "score_margin": -16056.923524712936,
+      "peak_abs_g": [
+        4.308631676201041,
+        5.700367686091996
+      ],
+      "min_agl_m": [
+        3922.1678714277928,
+        3897.954455078523
+      ],
+      "side_transform": {
+        "side": "normal",
+        "normal_cross_track_m": -1828.8000000008888,
+        "actual_cross_track_m": -1828.8000000008888,
+        "distance_m": 1828.8312992285842
+      },
+      "minimum_distance_m": 455.9069282858997,
+      "inside_attack_range_ticks": 7604,
+      "inside_attack_cone_ticks": 0,
+      "actual_goal_changed_ticks": 10397,
+      "blue_kill": 0,
+      "blue_death": 0,
+      "blue_crash": 0,
+      "collision": 0,
+      "mean_absolute_bank_deg": 60.472985199774264,
+      "mean_absolute_heading_rate_deg_s": 5.1350114371048114,
+      "saved_windows": [
+        {
+          "tick": 60,
+          "range_m": 1873.316731145554,
+          "blue_angle_deg": 103.11234279630968,
+          "red_angle_deg": 103.2335182817371,
+          "bank_deg": -46.87923838500663,
+          "heading_deg": 54.10414805437406,
+          "cas_kts": 336.1571327744328,
+          "score_margin": 0.0006692173488604958
+        },
+        {
+          "tick": 3600,
+          "range_m": 1102.1329643224324,
+          "blue_angle_deg": 171.50592605755847,
+          "red_angle_deg": 68.30054625091591,
+          "bank_deg": -56.90684198172836,
+          "heading_deg": 156.88726654160038,
+          "cas_kts": 317.69214744266066,
+          "score_margin": -914.0198606516526
+        },
+        {
+          "tick": 7200,
+          "range_m": 493.69203201153806,
+          "blue_angle_deg": 146.21991367441206,
+          "red_angle_deg": 25.088465572693426,
+          "bank_deg": 70.11045094679736,
+          "heading_deg": 255.91342406815517,
+          "cas_kts": 321.8867865518367,
+          "score_margin": -4513.444181781806
+        },
+        {
+          "tick": 10800,
+          "range_m": 1054.2041880094014,
+          "blue_angle_deg": 138.55939010814774,
+          "red_angle_deg": 65.78819701884416,
+          "bank_deg": 57.45581536155074,
+          "heading_deg": 204.9460853434765,
+          "cas_kts": 309.9840696808302,
+          "score_margin": -8494.60017647463
+        },
+        {
+          "tick": 14400,
+          "range_m": 1041.3017253769542,
+          "blue_angle_deg": 124.19940953475592,
+          "red_angle_deg": 42.96511830809891,
+          "bank_deg": -58.893476857477154,
+          "heading_deg": 274.00590967474955,
+          "cas_kts": 298.2122638087668,
+          "score_margin": -12314.720405960159
+        },
+        {
+          "tick": 18000,
+          "range_m": 765.9082333169981,
+          "blue_angle_deg": 111.9714134638201,
+          "red_angle_deg": 21.764146214180833,
+          "bank_deg": 69.16864323382782,
+          "heading_deg": 269.5742849095972,
+          "cas_kts": 304.31289208215946,
+          "score_margin": -16056.923524712936
+        }
+      ]
+    },
+    {
+      "case": {
+        "id": "mirrored_station_zero_2026310401",
+        "opening": 1,
+        "side": "mirrored",
+        "seed": 2026310401,
+        "actor": "station_zero",
+        "red": "sac5000",
+        "distance_ft": 6000,
+        "max_ticks": 18000
+      },
+      "initial_sha256": "9c62480b3a4b31507555d67c1c3f214f2a82ad7e96257c099f8d4328919ccc34",
+      "event": "timeout",
+      "winner": "red",
+      "ticks": 18000,
+      "attack_ticks": [
+        0,
+        0
+      ],
+      "over9G": [
+        0,
+        0
+      ],
+      "total_score": [
+        1334.5995226915395,
+        1342.067041071277
+      ],
+      "score_margin": -7.467518379737385,
+      "peak_abs_g": [
+        2.8392437086869506,
+        2.839190088844675
+      ],
+      "min_agl_m": [
+        4357.6802898861815,
+        4355.927074168745
+      ],
+      "side_transform": {
+        "side": "mirrored",
+        "normal_cross_track_m": -1828.799999998784,
+        "actual_cross_track_m": 1828.7999999998192,
+        "distance_m": 1828.8303445638942
+      },
+      "minimum_distance_m": 1187.6379049797104,
+      "inside_attack_range_ticks": 0,
+      "inside_attack_cone_ticks": 0,
+      "actual_goal_changed_ticks": 0,
+      "blue_kill": 0,
+      "blue_death": 0,
+      "blue_crash": 0,
+      "collision": 0,
+      "mean_absolute_bank_deg": 69.38209876831056,
+      "mean_absolute_heading_rate_deg_s": 6.681168843936584,
+      "saved_windows": [
+        {
+          "tick": 60,
+          "range_m": 1883.6057271218133,
+          "blue_angle_deg": 102.08761378020334,
+          "red_angle_deg": 102.0884272871005,
+          "bank_deg": 55.180897955470904,
+          "heading_deg": 344.4598581377568,
+          "cas_kts": 343.0251176722923,
+          "score_margin": 3.015563797692522e-05
+        },
+        {
+          "tick": 3600,
+          "range_m": 2698.31331673551,
+          "blue_angle_deg": 117.01405540089623,
+          "red_angle_deg": 117.09638644325523,
+          "bank_deg": 69.50233836713241,
+          "heading_deg": 14.977013031034783,
+          "cas_kts": 290.52571538157906,
+          "score_margin": -1.4754432150426737
+        },
+        {
+          "tick": 7200,
+          "range_m": 3847.4001580510744,
+          "blue_angle_deg": 111.69269204939131,
+          "red_angle_deg": 111.75675428121751,
+          "bank_deg": 69.49168054968074,
+          "heading_deg": 52.97529951603646,
+          "cas_kts": 290.2650382087428,
+          "score_margin": -2.8005571788332873
+        },
+        {
+          "tick": 10800,
+          "range_m": 4728.064729216932,
+          "blue_angle_deg": 99.00125298715388,
+          "red_angle_deg": 98.92941747590379,
+          "bank_deg": 69.48667222615602,
+          "heading_deg": 94.23960022580003,
+          "cas_kts": 290.2858296267625,
+          "score_margin": -4.23375137776361
+        },
+        {
+          "tick": 14400,
+          "range_m": 5048.2240924102625,
+          "blue_angle_deg": 82.73262456890616,
+          "red_angle_deg": 82.45722346057856,
+          "bank_deg": 69.47417970207076,
+          "heading_deg": 138.84345893593357,
+          "cas_kts": 290.3082144119774,
+          "score_margin": -5.784774492108909
+        },
+        {
+          "tick": 18000,
+          "range_m": 4597.269637323724,
+          "blue_angle_deg": 64.67350540996709,
+          "red_angle_deg": 64.2421696956871,
+          "bank_deg": 69.45240376432281,
+          "heading_deg": 186.9855141073612,
+          "cas_kts": 290.3139213892508,
+          "score_margin": -7.467518379737385
+        }
+      ]
+    },
+    {
+      "case": {
+        "id": "mirrored_far_bank60_2026310401",
+        "opening": 1,
+        "side": "mirrored",
+        "seed": 2026310401,
+        "actor": "far_bank60",
+        "red": "sac5000",
+        "distance_ft": 6000,
+        "max_ticks": 18000
+      },
+      "initial_sha256": "9c62480b3a4b31507555d67c1c3f214f2a82ad7e96257c099f8d4328919ccc34",
+      "event": "timeout",
+      "winner": "red",
+      "ticks": 18000,
+      "attack_ticks": [
+        0,
+        0
+      ],
+      "over9G": [
+        0,
+        0
+      ],
+      "total_score": [
+        53.49173276958884,
+        15543.459130572897
+      ],
+      "score_margin": -15489.967397803308,
+      "peak_abs_g": [
+        4.3218444969822905,
+        5.234613736927434
+      ],
+      "min_agl_m": [
+        5366.938832310375,
+        5338.211342950096
+      ],
+      "side_transform": {
+        "side": "mirrored",
+        "normal_cross_track_m": -1828.799999998784,
+        "actual_cross_track_m": 1828.7999999998192,
+        "distance_m": 1828.8303445638942
+      },
+      "minimum_distance_m": 453.31026728989934,
+      "inside_attack_range_ticks": 7536,
+      "inside_attack_cone_ticks": 0,
+      "actual_goal_changed_ticks": 10465,
+      "blue_kill": 0,
+      "blue_death": 0,
+      "blue_crash": 0,
+      "collision": 0,
+      "mean_absolute_bank_deg": 61.029160813502244,
+      "mean_absolute_heading_rate_deg_s": 4.8591521268019875,
+      "saved_windows": [
+        {
+          "tick": 60,
+          "range_m": 1883.3904132640582,
+          "blue_angle_deg": 102.44002569742501,
+          "red_angle_deg": 102.08439705628999,
+          "bank_deg": 47.20515712467573,
+          "heading_deg": 344.1049091144735,
+          "cas_kts": 342.4331353356169,
+          "score_margin": -0.03563180188787829
+        },
+        {
+          "tick": 3600,
+          "range_m": 1125.9021342005174,
+          "blue_angle_deg": 106.10050249020554,
+          "red_angle_deg": 2.7285680121945424,
+          "bank_deg": 58.380796433416236,
+          "heading_deg": 218.61109686256262,
+          "cas_kts": 290.2734542514591,
+          "score_margin": -525.2206750735648
+        },
+        {
+          "tick": 7200,
+          "range_m": 936.0945600676796,
+          "blue_angle_deg": 119.43502400463701,
+          "red_angle_deg": 34.901877064892766,
+          "bank_deg": -58.94915159742006,
+          "heading_deg": 214.7969038647669,
+          "cas_kts": 298.63772327993,
+          "score_margin": -3996.306054255613
+        },
+        {
+          "tick": 10800,
+          "range_m": 459.8994516610177,
+          "blue_angle_deg": 142.04543275932878,
+          "red_angle_deg": 24.894695263335507,
+          "bank_deg": 70.33726772972057,
+          "heading_deg": 248.5126148825725,
+          "cas_kts": 309.05692798641525,
+          "score_margin": -7840.464395183332
+        },
+        {
+          "tick": 14400,
+          "range_m": 1122.7492675106319,
+          "blue_angle_deg": 129.76615678716018,
+          "red_angle_deg": 60.60902127310666,
+          "bank_deg": 58.88186357015165,
+          "heading_deg": 202.04691867997798,
+          "cas_kts": 308.2956526667228,
+          "score_margin": -11723.619121926282
+        },
+        {
+          "tick": 18000,
+          "range_m": 843.2081805955872,
+          "blue_angle_deg": 116.5488113254335,
+          "red_angle_deg": 33.24264553204662,
+          "bank_deg": -68.71559835710221,
+          "heading_deg": 246.6753428185769,
+          "cas_kts": 298.95467084432767,
+          "score_margin": -15489.967397803308
+        }
+      ]
+    }
+  ],
+  "pairs": [
+    {
+      "opening": 0,
+      "side": "normal",
+      "baseline_event": "timeout",
+      "candidate_event": "timeout",
+      "baseline_winner": "blue",
+      "candidate_winner": "red",
+      "baseline_attacks": [
+        0,
+        0
+      ],
+      "candidate_attacks": [
+        0,
+        0
+      ],
+      "baseline_over9G": [
+        0,
+        0
+      ],
+      "candidate_over9G": [
+        0,
+        0
+      ],
+      "baseline_margin": 10.386021232859093,
+      "candidate_margin": -16056.923524712936,
+      "baseline_range_min_m": 1256.9948213136458,
+      "candidate_range_min_m": 455.9069282858997,
+      "baseline_in_range_ticks": 0,
+      "candidate_in_range_ticks": 7604,
+      "common_minimum_AGL_delta_m": 159.5328221573145,
+      "common_score_margin_delta": -16067.309545945795,
+      "common_ticks": 18000,
+      "first_actual_command_difference_tick": 14,
+      "baseline_common_heading_rate_deg_s": 7.160097619551831,
+      "candidate_common_heading_rate_deg_s": 5.1350114371048114
+    },
+    {
+      "opening": 1,
+      "side": "mirrored",
+      "baseline_event": "timeout",
+      "candidate_event": "timeout",
+      "baseline_winner": "red",
+      "candidate_winner": "red",
+      "baseline_attacks": [
+        0,
+        0
+      ],
+      "candidate_attacks": [
+        0,
+        0
+      ],
+      "baseline_over9G": [
+        0,
+        0
+      ],
+      "candidate_over9G": [
+        0,
+        0
+      ],
+      "baseline_margin": -7.467518379737385,
+      "candidate_margin": -15489.967397803308,
+      "baseline_range_min_m": 1187.6379049797104,
+      "candidate_range_min_m": 453.31026728989934,
+      "baseline_in_range_ticks": 0,
+      "candidate_in_range_ticks": 7536,
+      "common_minimum_AGL_delta_m": 1009.2585424241934,
+      "common_score_margin_delta": -15482.49987942357,
+      "common_ticks": 18000,
+      "first_actual_command_difference_tick": 14,
+      "baseline_common_heading_rate_deg_s": 6.681168843936584,
+      "candidate_common_heading_rate_deg_s": 4.8591521268019875
+    }
+  ],
+  "gate": "mixed_development_signal_no_promotion",
+  "unsafe": false,
+  "improvement_signal": true,
+  "regression_present": true,
+  "actual_parent_exit": 0,
+  "actual_verifier_exit": 0,
+  "terminal_identity_audit": [
+    {
+      "identity": {
+        "pid": 23364,
+        "create": 1792222246.74811,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_bank60_v2\\battle.py",
+          "--launch"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 23884
+      },
+      "state": "absent_no_exit_inferred"
+    },
+    {
+      "identity": {
+        "pid": 25432,
+        "create": 1792222531.6846688,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_bank60_v2\\verify.py",
+          "--internal",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_bank60_v2\\run_20261017_153047_104619",
+          "0"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 14596
+      },
+      "state": "absent_no_exit_inferred"
+    },
+    {
+      "identity": {
+        "pid": 1708,
+        "create": 1792222248.263328,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_bank60_v2\\battle.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_bank60_v2\\run_20261017_153047_104619\\cases\\normal_station_zero_2026310400"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 23364
+      },
+      "state": "absent_no_exit_inferred"
+    },
+    {
+      "identity": {
+        "pid": 8136,
+        "create": 1792222248.2766092,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 1708
+      },
+      "state": "absent_no_exit_inferred"
+    },
+    {
+      "identity": {
+        "pid": 22380,
+        "create": 1792222317.1189017,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_bank60_v2\\battle.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_bank60_v2\\run_20261017_153047_104619\\cases\\normal_far_bank60_2026310400"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 23364
+      },
+      "state": "absent_no_exit_inferred"
+    },
+    {
+      "identity": {
+        "pid": 1928,
+        "create": 1792222317.1410103,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 22380
+      },
+      "state": "absent_no_exit_inferred"
+    },
+    {
+      "identity": {
+        "pid": 23332,
+        "create": 1792222386.336888,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_bank60_v2\\battle.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_bank60_v2\\run_20261017_153047_104619\\cases\\mirrored_station_zero_2026310401"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 23364
+      },
+      "state": "absent_no_exit_inferred"
+    },
+    {
+      "identity": {
+        "pid": 23908,
+        "create": 1792222386.3601382,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 23332
+      },
+      "state": "absent_no_exit_inferred"
+    },
+    {
+      "identity": {
+        "pid": 19836,
+        "create": 1792222455.6413562,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_bank60_v2\\battle.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_bank60_v2\\run_20261017_153047_104619\\cases\\mirrored_far_bank60_2026310401"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 23364
+      },
+      "state": "absent_no_exit_inferred"
+    },
+    {
+      "identity": {
+        "pid": 8144,
+        "create": 1792222455.65319,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 19836
+      },
+      "state": "absent_no_exit_inferred"
+    }
+  ],
+  "prior_failed_identity_audit": [
+    {
+      "identity": {
+        "pid": 6688,
+        "create": 1792222156.4675093,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_bank60_v1\\battle.py",
+          "--launch"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 18632
+      },
+      "state": "absent_no_exit_inferred"
+    },
+    {
+      "identity": {
+        "pid": 6672,
+        "create": 1792222158.012186,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_bank60_v1\\battle.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_bank60_v1\\run_20261017_152917_6fba7c\\cases\\normal_station_zero_2026310300"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 6688
+      },
+      "state": "absent_no_exit_inferred"
+    },
+    {
+      "identity": {
+        "pid": 25344,
+        "create": 1792222158.024885,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 6672
+      },
+      "state": "absent_no_exit_inferred"
+    }
+  ],
+  "training_started": false,
+  "deployment_allowed": false,
+  "retained_deployment": "repair_guide",
+  "holdout": false,
+  "official_validation": false,
+  "opening_confounded_with_seed": true
+}

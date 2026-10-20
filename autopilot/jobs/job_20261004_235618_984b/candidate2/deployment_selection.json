@@ -1,0 +1,12 @@
+{
+  "decision": "retain_guide",
+  "bundle": null,
+  "evaluation_selection": {
+    "decision": "policy_candidate",
+    "bundle": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\candidate1_to_199000\\final_0000148682",
+    "utc": "2026-10-04T17:48:42.982652+00:00"
+  },
+  "reason": "保留測試擊殺與存活均未優於純引導器，未證明 SAC 可靠改善；依原任務發布門檻保留純引導器。",
+  "holdout_not_reused_for_training": true,
+  "utc": "2026-10-04T21:06:58.608590+00:00"
+}

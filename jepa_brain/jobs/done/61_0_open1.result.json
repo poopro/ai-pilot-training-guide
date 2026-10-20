@@ -1,0 +1,1 @@
+{"id": "61_0_open1", "script": "rollout_open.py", "args": ["eval", "--arms", "tuned,topen:lead:6,topen:lag:6,topen:out:6,topen:break_in:6,topen:hy:6,topen:ly:6,topen:extend:6", "--n", "48", "--side", "-1", "--workers", "3", "--seed0", "960000", "--opponents", "sac:25600000", "--out", "runs/open1"], "exit_code": 0, "reason": null, "seconds": 2433.3}

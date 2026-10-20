@@ -1,0 +1,24 @@
+{
+  "phase_exits": {
+    "PRECHECK": 0,
+    "WORKER": 2
+  },
+  "error": "RuntimeError('Phase failed WORKER')",
+  "seeds_claimed": true,
+  "source_fixed": true,
+  "wall_seconds": 19.437000000005355,
+  "guardian": {
+    "pid": 21844,
+    "create": 1792320123.4116437,
+    "cmd": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_train_v1\\guard.py"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent": 8564
+  },
+  "guardian_return_intended": 2
+}

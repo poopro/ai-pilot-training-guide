@@ -1,0 +1,8 @@
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+{"report": "E:\\ai_pilot\\autopilot\\combat_fix\\evaluations\\model_vs_guide\\candidate_rule_20276000\\report.json", "steps": 18000, "final": {"outcome": "timeout", "attack_seconds": 0.0, "enemy_attack_seconds": 0.0, "survived": 1, "min_altitude_m": 3415.638542078697, "guard_fraction": 0.0}, "diagnostics": {"range_seconds_10hz": 0.0, "best_angle_in_range": null, "minimum_altitude": 3415.648598921934}}

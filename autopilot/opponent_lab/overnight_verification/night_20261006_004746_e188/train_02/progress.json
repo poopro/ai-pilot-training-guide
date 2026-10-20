@@ -1,0 +1,11 @@
+{
+  "status": "saving_final",
+  "run_dir": "E:\\ai_pilot\\autopilot\\opponent_lab\\overnight_verification\\night_20261006_004746_e188\\train_02",
+  "pid": 13868,
+  "timesteps": 256,
+  "target": 256,
+  "updates": 26,
+  "heartbeat_epoch": 1791218891.8025904,
+  "stop_file": "E:\\ai_pilot\\autopilot\\opponent_lab\\overnight_verification\\night_20261006_004746_e188\\train_02\\STOP",
+  "episode_samples": 0
+}

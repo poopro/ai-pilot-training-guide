@@ -1,0 +1,21 @@
+{
+  "format": "smoke_executor_v2_predecessor_contract",
+  "created_utc": "2026-10-14T11:54:13.039711+00:00",
+  "legacy_tools_sha256": {
+    "common.py": "8c945fbf88d38ed3061595bdfe786bcfac0cff436500d18febe62d4be0af8415",
+    "guard.py": "84883543ad2327c226fce06a2b48b7abf6a4d74278617e7ca6b12f675211d14c",
+    "launch_smoke.py": "1055331d155e6d76a39e8ce0264e5e8e4ed69394cfee8f074fbdae3f549f29f7",
+    "run_smoke.py": "e0763c1841dd1a46431dbd2b81f09ca7448f3655283099d956aae0df13fbd207",
+    "test_smoke_executor.py": "196bf85a5c6717628c9462ffa22c9b3fcb4a08965b01749b6ff9db697a86390a",
+    "verify_smoke.py": "4e49f42c03dca0d5b2c07668ead8190f70d91d16638e434cfe1509f0a233f26e"
+  },
+  "failed_run": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\run_20261014_195159_f7d760",
+  "original_evidence_sha256": {
+    "report.json": "816224c6055f7acbab1dc19cd1664fb4e25caea4713f572fc63d9d1e78fa6a3d",
+    "guard.log": "50c5298e57ef60765c505a87c2c1b2fd154b98de1fb435756bf110b9bca1e38d",
+    "guard.json": "506e5b00becc7b96701854b0845a3aebed681fc5db55375898538a9dcf489ebd",
+    "guard_identity.json": "b3a11cfe11239878ebed523649c37ea7eeeb5e89bdeb1870cbf2a48b7478ff46",
+    "launcher_receipt.json": "8195fc68c72a57af83dfaac13e05ba5703302a56a476266160226ca84324aa22"
+  },
+  "reason": "WinError 5 during atomic guard receipt replace caused guard exit1; third worker rejected missing live guard before FDM"
+}

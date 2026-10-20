@@ -1,0 +1,20 @@
+{
+  "profile": "portable_repair_guide_rehearsal_v4",
+  "updated_utc": "2026-10-16T01:48:40.313919+00:00",
+  "stage": "first_valid_packageHost_complete_1of6",
+  "sources_frozen": 15,
+  "freeze": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\BRANCH_FREEZE.json",
+  "tests": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\STATIC_VALIDATION.json",
+  "actual_exit_code": 0,
+  "new_Host_rounds": 1,
+  "new_FDM_ticks": 0,
+  "old_v3_failed_raw_retained": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v3\\runs\\portable_20261016_082436_fe5a8fee\\FAILURE_REVIEW.json",
+  "fix": "Capture only exact own cachedGUI taskkill /PID direct-owned-internalP2 /T /F, with frozen prelaunch WindowsbinarySHA/snapshot and saved target identity;never invoke taskkill or grant global process access",
+  "next": "Fresh bounded v4 arm; attach real wait observer, INIT, all inventory true, mark-start actual0, then separate UI START action. Never click START after failed mark gate.",
+  "deployment_allowed": false,
+  "valid_packaged_rounds": 1,
+  "latest_run": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\runs\\portable_20261016_094406_3a3b7d3a",
+  "latest_actual_watchdog_exit": 0,
+  "latest_actual_collector_exit": 0,
+  "gate": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\GATE_LATEST.json"
+}

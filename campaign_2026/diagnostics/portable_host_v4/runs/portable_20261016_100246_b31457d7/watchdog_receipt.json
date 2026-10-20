@@ -1,0 +1,180 @@
+{
+  "status": "finished",
+  "token": "portable_20261016_100246_b31457d7",
+  "profile": "portable_repair_guide_rehearsal_v4",
+  "identity": {
+    "pid": 22036,
+    "create_time": 1792116166.1040852,
+    "command": [
+      "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+      "-I",
+      "-S",
+      "-B",
+      "-X",
+      "utf8",
+      "-u",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\portable_host.py",
+      "watchdog",
+      "--folder",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\runs\\portable_20261016_100246_b31457d7"
+    ],
+    "exe": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+    "parent_pid": 16956
+  },
+  "folder": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\runs\\portable_20261016_100246_b31457d7",
+  "deadline_epoch": 1792116886.0943894,
+  "deadline_monotonic": 7088.296,
+  "terminal_reason": "collector_terminal",
+  "finished_utc": "2026-10-16T02:05:35.440959+00:00",
+  "cleanup": {
+    "results": [
+      {
+        "role": "collector_root",
+        "identity": {
+          "pid": 23168,
+          "create_time": 1792116327.9356012,
+          "command": [
+            "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+            "-I",
+            "-S",
+            "-B",
+            "-X",
+            "utf8",
+            "-u",
+            "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\portable_host.py",
+            "collect",
+            "--folder",
+            "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\runs\\portable_20261016_100246_b31457d7"
+          ],
+          "exe": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+          "parent_pid": 22036
+        },
+        "before": "absent",
+        "descendants_unknown": false,
+        "action": "none",
+        "after": "absent",
+        "actual_exit_code": 0
+      },
+      {
+        "role": "owned_cached_internal_p2",
+        "identity": {
+          "pid": 2724,
+          "create_time": 1792116203.5360124,
+          "command": [
+            "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe",
+            "--internal-player2"
+          ],
+          "exe": "C:\\Users\\USER\\AppData\\Local\\JSBsimHost_1_0_0_0\\JSB_host_GUI_publish.exe",
+          "parent_pid": 19148
+        },
+        "before": "absent",
+        "descendants_unknown": false,
+        "action": "none",
+        "after": "absent"
+      },
+      {
+        "role": "owned_host_descendant",
+        "identity": {
+          "pid": 19148,
+          "create_time": 1792116202.8902197,
+          "command": [
+            "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe",
+            "--internal-player2"
+          ],
+          "exe": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe",
+          "parent_pid": 21620
+        },
+        "before": "absent",
+        "descendants_unknown": false,
+        "action": "none",
+        "after": "absent"
+      },
+      {
+        "role": "owned_console_helper",
+        "identity": {
+          "pid": 17028,
+          "create_time": 1792116171.6483548,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 2740
+        },
+        "before": "same_process",
+        "descendants_unknown": false,
+        "action": "terminated_or_killed",
+        "after": "absent"
+      },
+      {
+        "role": "player_root",
+        "identity": {
+          "pid": 2740,
+          "create_time": 1792116171.6393456,
+          "command": [
+            "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+            "-I",
+            "-S",
+            "-B",
+            "-X",
+            "utf8",
+            "-u",
+            "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\tools\\player.py",
+            "--guide",
+            "--network",
+            "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\network.json",
+            "--max-seconds",
+            "720"
+          ],
+          "exe": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+          "parent_pid": 22036
+        },
+        "before": "same_process",
+        "descendants_unknown": false,
+        "action": "terminated_or_killed",
+        "after": "absent",
+        "actual_exit_code": 15
+      },
+      {
+        "role": "owned_cached_gui",
+        "identity": {
+          "pid": 21620,
+          "create_time": 1792116171.0705168,
+          "command": [
+            "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe"
+          ],
+          "exe": "C:\\Users\\USER\\AppData\\Local\\JSBsimHost_1_0_0_0\\JSB_host_GUI_publish.exe",
+          "parent_pid": 14684
+        },
+        "before": "same_process",
+        "descendants_unknown": false,
+        "action": "terminated_or_killed",
+        "after": "absent"
+      },
+      {
+        "role": "host_root",
+        "identity": {
+          "pid": 14684,
+          "create_time": 1792116170.5774453,
+          "command": [
+            "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe"
+          ],
+          "exe": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe",
+          "parent_pid": 22036
+        },
+        "before": "same_process",
+        "descendants_unknown": false,
+        "action": "terminated_or_killed",
+        "after": "absent",
+        "actual_exit_code": 15
+      }
+    ],
+    "all_known_processes_stopped": true
+  },
+  "errors": [],
+  "portable_rehearsal_complete": true,
+  "actual_collector_exit_code": 0,
+  "new_packaged_rounds": 1,
+  "eligible_for_old_six_round_gate": false,
+  "packaged_six_round_gate_complete": false
+}

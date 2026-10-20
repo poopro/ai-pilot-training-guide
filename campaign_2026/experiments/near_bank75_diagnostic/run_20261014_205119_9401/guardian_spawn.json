@@ -1,0 +1,32 @@
+{
+  "identity": {
+    "pid": 19416,
+    "create_time": 1791982279.2985551,
+    "cmdline": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank75_diagnostic\\launch_diagnostic.py",
+      "guard",
+      "--job",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank75_diagnostic\\run_20261014_205119_9401"
+    ],
+    "parent_pid": 1704,
+    "identity_observed": true
+  },
+  "command": [
+    "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank75_diagnostic\\launch_diagnostic.py",
+    "guard",
+    "--job",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank75_diagnostic\\run_20261014_205119_9401"
+  ],
+  "source_sha256": "4ca0b9032d622bbd7ad939c12e0151004cefade5e6897ffdd367532aaae5276b",
+  "spawned_epoch": 1791982279.283446,
+  "popen_handle_owned_by_start": true,
+  "exit_not_yet_observed": true
+}

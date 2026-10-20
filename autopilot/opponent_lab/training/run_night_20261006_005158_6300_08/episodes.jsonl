@@ -1,0 +1,13 @@
+{"r": -52.075801, "l": 18000, "t": 95.437633, "p2": "rule", "distance_ft": 9000, "outcome": "timeout", "attack_seconds": 0.0, "enemy_attack_seconds": 0.0, "survived": 1, "is_kill": 0, "own_crash": 0}
+{"r": -55.556271, "l": 18000, "t": 191.024387, "p2": "rule", "distance_ft": 3000, "outcome": "timeout", "attack_seconds": 0.0, "enemy_attack_seconds": 0.0, "survived": 1, "is_kill": 0, "own_crash": 0}
+{"r": -55.575821, "l": 18000, "t": 299.566244, "p2": "rule", "distance_ft": 6000, "outcome": "timeout", "attack_seconds": 0.0, "enemy_attack_seconds": 0.0, "survived": 1, "is_kill": 0, "own_crash": 0}
+{"r": -51.794679, "l": 18000, "t": 407.685275, "p2": "rule", "distance_ft": 9000, "outcome": "timeout", "attack_seconds": 0.0, "enemy_attack_seconds": 0.0, "survived": 1, "is_kill": 0, "own_crash": 0}
+{"r": -41.890744, "l": 18000, "t": 534.047998, "p2": "rl", "distance_ft": 3000, "outcome": "timeout", "attack_seconds": 0.08333333333333333, "enemy_attack_seconds": 0.11666666666666667, "survived": 1, "is_kill": 0, "own_crash": 0}
+{"r": -54.643529, "l": 18000, "t": 642.708197, "p2": "rule", "distance_ft": 3000, "outcome": "timeout", "attack_seconds": 0.0, "enemy_attack_seconds": 0.0, "survived": 1, "is_kill": 0, "own_crash": 0}
+{"r": -56.677498, "l": 18000, "t": 750.794718, "p2": "rule", "distance_ft": 9000, "outcome": "timeout", "attack_seconds": 0.0, "enemy_attack_seconds": 0.0, "survived": 1, "is_kill": 0, "own_crash": 0}
+{"r": -54.189167, "l": 18000, "t": 859.461638, "p2": "rule", "distance_ft": 6000, "outcome": "timeout", "attack_seconds": 0.0, "enemy_attack_seconds": 0.0, "survived": 1, "is_kill": 0, "own_crash": 0}
+{"r": -55.573368, "l": 18000, "t": 969.058057, "p2": "rule", "distance_ft": 6000, "outcome": "timeout", "attack_seconds": 0.0, "enemy_attack_seconds": 0.0, "survived": 1, "is_kill": 0, "own_crash": 0}
+{"r": -60.161119, "l": 18000, "t": 1096.496247, "p2": "rl", "distance_ft": 6000, "outcome": "timeout", "attack_seconds": 0.0, "enemy_attack_seconds": 0.0, "survived": 1, "is_kill": 0, "own_crash": 0}
+{"r": -55.012263, "l": 18000, "t": 1206.351404, "p2": "rule", "distance_ft": 6000, "outcome": "timeout", "attack_seconds": 0.0, "enemy_attack_seconds": 0.0, "survived": 1, "is_kill": 0, "own_crash": 0}
+{"r": -61.062446, "l": 18000, "t": 1343.213126, "p2": "rl", "distance_ft": 3000, "outcome": "timeout", "attack_seconds": 0.0, "enemy_attack_seconds": 0.21666666666666667, "survived": 1, "is_kill": 0, "own_crash": 0}
+{"r": -51.749974, "l": 18000, "t": 1453.536685, "p2": "rule", "distance_ft": 3000, "outcome": "timeout", "attack_seconds": 0.0, "enemy_attack_seconds": 0.0, "survived": 1, "is_kill": 0, "own_crash": 0}

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Local\JSBSIM~1\JSB_host_GUI_publish.py", line 508, in <module>
+  File "C:\Users\USER\AppData\Local\JSBSIM~1\JSB_host_GUI_publish.py", line 504, in main
+  File "C:\Users\USER\AppData\Local\JSBSIM~1\JSB_host_GUI_publish.py", line 479, in run_publish_gui
+  File "C:\Users\USER\AppData\Local\JSBSIM~1\host_GUI.py", line 1174, in run
+  File "C:\Users\USER\AppData\Local\JSBSIM~1\tkinter\__init__.py", line 1505, in mainloop
+  File "C:\Users\USER\AppData\Local\JSBSIM~1\tkinter\__init__.py", line 1963, in __call__
+KeyboardInterrupt

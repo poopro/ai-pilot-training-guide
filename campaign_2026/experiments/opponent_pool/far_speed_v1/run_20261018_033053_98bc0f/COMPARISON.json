@@ -1,0 +1,227 @@
+{
+  "verified_comparison": true,
+  "errors": [],
+  "complete_games": 4,
+  "new_FDM_ticks": 72000,
+  "actual_parent_exit": 0,
+  "actual_worker_exits": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "source_contract_sha256": "f701e7a09afe6fe0173d938afe4fe6da3ef72e5e0ae0e924e710d2191a05956a",
+  "results": [
+    {
+      "case": {
+        "id": "normal_station_zero_2026310700",
+        "opening": 0,
+        "side": "normal",
+        "seed": 2026310700,
+        "actor": "station_zero",
+        "red": "sac5000",
+        "distance_ft": 6000,
+        "max_ticks": 18000
+      },
+      "initial_sha256": "8207e6e193f779bae81933be26a81267fb545cdd9916efd8ef43f52e29c5ae24",
+      "event": "timeout",
+      "winner": "red",
+      "ticks": 18000,
+      "attack_ticks": [
+        0,
+        0
+      ],
+      "over9G": [
+        0,
+        0
+      ],
+      "total_score": [
+        1134.3078420928018,
+        1139.9299644020848
+      ],
+      "score_margin": -5.622122309282986,
+      "peak_abs_g": [
+        2.9608323357062867,
+        2.9489226678637213
+      ],
+      "min_agl_m": [
+        5904.055733936899,
+        5904.140535349554
+      ],
+      "side_transform": {
+        "side": "normal",
+        "normal_cross_track_m": -1828.8000000001327,
+        "actual_cross_track_m": -1828.8000000001327,
+        "distance_m": 1828.7837787504343
+      }
+    },
+    {
+      "case": {
+        "id": "normal_far_speed_unclipped_2026310700",
+        "opening": 0,
+        "side": "normal",
+        "seed": 2026310700,
+        "actor": "far_speed_unclipped",
+        "red": "sac5000",
+        "distance_ft": 6000,
+        "max_ticks": 18000
+      },
+      "initial_sha256": "8207e6e193f779bae81933be26a81267fb545cdd9916efd8ef43f52e29c5ae24",
+      "event": "timeout",
+      "winner": "red",
+      "ticks": 18000,
+      "attack_ticks": [
+        0,
+        0
+      ],
+      "over9G": [
+        0,
+        0
+      ],
+      "total_score": [
+        104.75275634602362,
+        5384.646320342672
+      ],
+      "score_margin": -5279.8935639966485,
+      "peak_abs_g": [
+        3.7447762294212494,
+        3.732629066678411
+      ],
+      "min_agl_m": [
+        5909.84875549298,
+        5904.849020432693
+      ],
+      "side_transform": {
+        "side": "normal",
+        "normal_cross_track_m": -1828.8000000001327,
+        "actual_cross_track_m": -1828.8000000001327,
+        "distance_m": 1828.7837787504343
+      }
+    },
+    {
+      "case": {
+        "id": "mirrored_station_zero_2026310701",
+        "opening": 1,
+        "side": "mirrored",
+        "seed": 2026310701,
+        "actor": "station_zero",
+        "red": "sac5000",
+        "distance_ft": 6000,
+        "max_ticks": 18000
+      },
+      "initial_sha256": "ffddf0854c4d0b6b478af84eec0ff0c2337fc32790d2f1385a6a9c82c14e5929",
+      "event": "timeout",
+      "winner": "blue",
+      "ticks": 18000,
+      "attack_ticks": [
+        0,
+        0
+      ],
+      "over9G": [
+        0,
+        0
+      ],
+      "total_score": [
+        1567.7337633343138,
+        1559.3708871574875
+      ],
+      "score_margin": 8.362876176826376,
+      "peak_abs_g": [
+        2.7987530170612116,
+        2.79483442273296
+      ],
+      "min_agl_m": [
+        2737.601277541122,
+        2736.871642979339
+      ],
+      "side_transform": {
+        "side": "mirrored",
+        "normal_cross_track_m": -1828.8000000003299,
+        "actual_cross_track_m": 1828.7999999989104,
+        "distance_m": 1828.80486678639
+      }
+    },
+    {
+      "case": {
+        "id": "mirrored_far_speed_unclipped_2026310701",
+        "opening": 1,
+        "side": "mirrored",
+        "seed": 2026310701,
+        "actor": "far_speed_unclipped",
+        "red": "sac5000",
+        "distance_ft": 6000,
+        "max_ticks": 18000
+      },
+      "initial_sha256": "ffddf0854c4d0b6b478af84eec0ff0c2337fc32790d2f1385a6a9c82c14e5929",
+      "event": "timeout",
+      "winner": "red",
+      "ticks": 18000,
+      "attack_ticks": [
+        0,
+        0
+      ],
+      "over9G": [
+        0,
+        0
+      ],
+      "total_score": [
+        68.01346070145114,
+        5085.333151463944
+      ],
+      "score_margin": -5017.319690762492,
+      "peak_abs_g": [
+        3.0830192754227537,
+        2.9192210868566453
+      ],
+      "min_agl_m": [
+        3378.436782604328,
+        3381.442328155524
+      ],
+      "side_transform": {
+        "side": "mirrored",
+        "normal_cross_track_m": -1828.8000000003299,
+        "actual_cross_track_m": 1828.7999999989104,
+        "distance_m": 1828.80486678639
+      }
+    }
+  ],
+  "paired_tradeoffs": [
+    {
+      "opening": 0,
+      "side": "normal",
+      "candidate": "far_speed_unclipped",
+      "baseline": "station_zero",
+      "candidate_event": "timeout",
+      "baseline_event": "timeout",
+      "candidate_winner": "red",
+      "baseline_winner": "red",
+      "attack_delta": 0,
+      "full_score_margin_delta": -5274.271441687366,
+      "common_ticks": 18000,
+      "common_minimum_AGL_delta_m": 5.79302155608093,
+      "common_score_margin_delta": -5274.271441687366
+    },
+    {
+      "opening": 1,
+      "side": "mirrored",
+      "candidate": "far_speed_unclipped",
+      "baseline": "station_zero",
+      "candidate_event": "timeout",
+      "baseline_event": "timeout",
+      "candidate_winner": "red",
+      "baseline_winner": "blue",
+      "attack_delta": 0,
+      "full_score_margin_delta": -5025.682566939318,
+      "common_ticks": 18000,
+      "common_minimum_AGL_delta_m": 640.8355050632063,
+      "common_score_margin_delta": -5025.682566939318
+    }
+  ],
+  "all_frozen_red_policy_decisions_independently_recomputed": true,
+  "all_blue_zero_tactical_decisions_verified": true,
+  "all_goal_mappings_verified": true,
+  "full_60Hz_controller_replay_performed": false,
+  "nonzero_attack_counter_exercised": false,
+  "deployment_allowed": false,
+  "official_validation": false
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "name": "baseline_guide",
+    "command": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "E:\\ai_pilot\\autopilot\\experiment.py",
+      "eval",
+      "--out",
+      "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\baseline_guide",
+      "--episodes",
+      "5"
+    ],
+    "folder": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\baseline_guide",
+    "timeout": 1800,
+    "result": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\baseline_guide\\report.json",
+    "store_as": "guide_evaluation"
+  }
+]

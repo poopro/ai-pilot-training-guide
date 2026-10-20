@@ -1,0 +1,22 @@
+{
+  "verifier_exit_tool": "d708f9",
+  "actual_parent_exit": 0,
+  "actual_worker_exit": 0,
+  "actual_verifier_exit": 0,
+  "parent_exit_tool": "eb2570/session74217",
+  "observed_utc": "2026-10-16T22:33:05.7740093Z",
+  "audit": [
+    {
+      "pid": 20812,
+      "state": "absent_exit_not_inferred"
+    },
+    {
+      "pid": 16564,
+      "state": "absent_exit_not_inferred"
+    },
+    {
+      "pid": 2744,
+      "state": "absent_exit_not_inferred"
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "verified_comparison": true,
+  "errors": [],
+  "complete_games": 4,
+  "new_FDM_ticks": 72000,
+  "actual_parent_exit": 0,
+  "actual_worker_exits": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "source_contract_sha256": "c0e9aa8175f89cfd9904f380ec9cafd80e8888d67d3c861a61585f55ee7a3654",
+  "results": [
+    {
+      "case": {
+        "id": "normal_bank60_2026310600",
+        "opening": 0,
+        "side": "normal",
+        "seed": 2026310600,
+        "actor": "bank60",
+        "red": "sac5000",
+        "distance_ft": 6000,
+        "max_ticks": 18000
+      },
+      "initial_sha256": "5b3ce097a8bfe78ab63d2b405875a5b5257a11049e22e196396a69bd46f4e63d",
+      "event": "timeout",
+      "winner": "red",
+      "ticks": 18000,
+      "attack_ticks": [
+        0,
+        3
+      ],
+      "over9G": [
+        0,
+        0
+      ],
+      "total_score": [
+        61.0641127735166,
+        17093.219142341095
+      ],
+      "score_margin": -17032.155029567577,
+      "peak_abs_g": [
+        4.53236306906112,
+        5.269022046254356
+      ],
+      "min_agl_m": [
+        3024.0077054242884,
+        2989.3145742190777
+      ],
+      "side_transform": {
+        "side": "normal",
+        "normal_cross_track_m": -1828.7999999994386,
+        "actual_cross_track_m": -1828.7999999994386,
+        "distance_m": 1828.831497059749
+      }
+    },
+    {
+      "case": {
+        "id": "normal_latch60_2026310600",
+        "opening": 0,
+        "side": "normal",
+        "seed": 2026310600,
+        "actor": "latch60",
+        "red": "sac5000",
+        "distance_ft": 6000,
+        "max_ticks": 18000
+      },
+      "initial_sha256": "5b3ce097a8bfe78ab63d2b405875a5b5257a11049e22e196396a69bd46f4e63d",
+      "event": "timeout",
+      "winner": "red",
+      "ticks": 18000,
+      "attack_ticks": [
+        0,
+        0
+      ],
+      "over9G": [
+        0,
+        0
+      ],
+      "total_score": [
+        61.0641127735166,
+        23050.846693688924
+      ],
+      "score_margin": -22989.782580915406,
+      "peak_abs_g": [
+        3.019527144347855,
+        5.269022046254356
+      ],
+      "min_agl_m": [
+        2638.1538904741274,
+        2591.1263839205344
+      ],
+      "side_transform": {
+        "side": "normal",
+        "normal_cross_track_m": -1828.7999999994386,
+        "actual_cross_track_m": -1828.7999999994386,
+        "distance_m": 1828.831497059749
+      }
+    },
+    {
+      "case": {
+        "id": "mirrored_bank60_2026310601",
+        "opening": 1,
+        "side": "mirrored",
+        "seed": 2026310601,
+        "actor": "bank60",
+        "red": "sac5000",
+        "distance_ft": 6000,
+        "max_ticks": 18000
+      },
+      "initial_sha256": "3a1b3865d132ef85c5d4d907e03147149122cd6df5029d2a0f4536b745319af1",
+      "event": "timeout",
+      "winner": "red",
+      "ticks": 18000,
+      "attack_ticks": [
+        0,
+        0
+      ],
+      "over9G": [
+        0,
+        0
+      ],
+      "total_score": [
+        51.759604712565256,
+        15617.931660021764
+      ],
+      "score_margin": -15566.1720553092,
+      "peak_abs_g": [
+        4.288566548628446,
+        4.960631084177581
+      ],
+      "min_agl_m": [
+        4648.4959918023505,
+        4611.150155134537
+      ],
+      "side_transform": {
+        "side": "mirrored",
+        "normal_cross_track_m": -1828.8000000000022,
+        "actual_cross_track_m": 1828.7999999989756,
+        "distance_m": 1828.7786608324002
+      }
+    },
+    {
+      "case": {
+        "id": "mirrored_latch60_2026310601",
+        "opening": 1,
+        "side": "mirrored",
+        "seed": 2026310601,
+        "actor": "latch60",
+        "red": "sac5000",
+        "distance_ft": 6000,
+        "max_ticks": 18000
+      },
+      "initial_sha256": "3a1b3865d132ef85c5d4d907e03147149122cd6df5029d2a0f4536b745319af1",
+      "event": "timeout",
+      "winner": "red",
+      "ticks": 18000,
+      "attack_ticks": [
+        0,
+        59
+      ],
+      "over9G": [
+        0,
+        0
+      ],
+      "total_score": [
+        51.759604712565256,
+        32621.218835610933
+      ],
+      "score_margin": -32569.459230898367,
+      "peak_abs_g": [
+        3.3648766329089206,
+        3.7656277721424662
+      ],
+      "min_agl_m": [
+        4626.068353866353,
+        4511.520872276049
+      ],
+      "side_transform": {
+        "side": "mirrored",
+        "normal_cross_track_m": -1828.8000000000022,
+        "actual_cross_track_m": 1828.7999999989756,
+        "distance_m": 1828.7786608324002
+      }
+    }
+  ],
+  "paired_tradeoffs": [
+    {
+      "latch_prefix": {
+        "first_trigger_tick": 3458,
+        "first_goal_difference_tick": 3458,
+        "first_actual_command_difference_tick": 3458,
+        "actual_pretrigger_command_and_both_packet_identical_ticks": 3457
+      },
+      "opening": 0,
+      "side": "normal",
+      "candidate": "latch60",
+      "baseline": "bank60",
+      "candidate_event": "timeout",
+      "baseline_event": "timeout",
+      "candidate_winner": "red",
+      "baseline_winner": "red",
+      "attack_delta": 0,
+      "full_score_margin_delta": -5957.627551347829,
+      "common_ticks": 18000,
+      "common_minimum_AGL_delta_m": -385.853814950161,
+      "common_score_margin_delta": -5957.627551347829
+    },
+    {
+      "latch_prefix": {
+        "first_trigger_tick": 3854,
+        "first_goal_difference_tick": 3854,
+        "first_actual_command_difference_tick": 3854,
+        "actual_pretrigger_command_and_both_packet_identical_ticks": 3853
+      },
+      "opening": 1,
+      "side": "mirrored",
+      "candidate": "latch60",
+      "baseline": "bank60",
+      "candidate_event": "timeout",
+      "baseline_event": "timeout",
+      "candidate_winner": "red",
+      "baseline_winner": "red",
+      "attack_delta": 0,
+      "full_score_margin_delta": -17003.28717558917,
+      "common_ticks": 18000,
+      "common_minimum_AGL_delta_m": -22.427637935997154,
+      "common_score_margin_delta": -17003.28717558917
+    }
+  ],
+  "all_frozen_red_policy_decisions_independently_recomputed": true,
+  "all_blue_zero_tactical_decisions_verified": true,
+  "all_goal_mappings_verified": true,
+  "full_60Hz_controller_replay_performed": false,
+  "nonzero_attack_counter_exercised": true,
+  "deployment_allowed": false,
+  "official_validation": false,
+  "audit_only_coordinate_mapping_correction": true,
+  "original_failed_comparison_preserved": true
+}

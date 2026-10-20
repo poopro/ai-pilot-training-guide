@@ -1,0 +1,264 @@
+{
+  "observed_utc": "2026-10-17T12:50:51.108118+00:00",
+  "identities": [
+    {
+      "identity": {
+        "pid": 22728,
+        "create": 1792240754.48949,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v2\\battle.py",
+          "--launch"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 26876
+      },
+      "current": null,
+      "status": "absent",
+      "original_core_still_live": false
+    },
+    {
+      "identity": {
+        "pid": 21856,
+        "create": 1792240756.0367625,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v2\\battle.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v2\\run_20261017_203915_d840e7\\cases\\normal_bank60_2026310600"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 22728
+      },
+      "current": null,
+      "status": "absent",
+      "original_core_still_live": false
+    },
+    {
+      "identity": {
+        "pid": 22708,
+        "create": 1792240756.049338,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 21856
+      },
+      "current": null,
+      "status": "absent",
+      "original_core_still_live": false
+    },
+    {
+      "identity": {
+        "pid": 23916,
+        "create": 1792240827.974624,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v2\\battle.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v2\\run_20261017_203915_d840e7\\cases\\normal_latch60_2026310600"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 22728
+      },
+      "current": null,
+      "status": "absent",
+      "original_core_still_live": false
+    },
+    {
+      "identity": {
+        "pid": 25844,
+        "create": 1792240828.003924,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 23916
+      },
+      "current": null,
+      "status": "absent",
+      "original_core_still_live": false
+    },
+    {
+      "identity": {
+        "pid": 22948,
+        "create": 1792240900.5553565,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v2\\battle.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v2\\run_20261017_203915_d840e7\\cases\\mirrored_bank60_2026310601"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 22728
+      },
+      "current": null,
+      "status": "absent",
+      "original_core_still_live": false
+    },
+    {
+      "identity": {
+        "pid": 20088,
+        "create": 1792240900.567335,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 22948
+      },
+      "current": null,
+      "status": "absent",
+      "original_core_still_live": false
+    },
+    {
+      "identity": {
+        "pid": 26836,
+        "create": 1792240972.8939395,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v2\\battle.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v2\\run_20261017_203915_d840e7\\cases\\mirrored_latch60_2026310601"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 22728
+      },
+      "current": null,
+      "status": "absent",
+      "original_core_still_live": false
+    },
+    {
+      "identity": {
+        "pid": 25476,
+        "create": 1792240972.9073648,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 26836
+      },
+      "current": null,
+      "status": "absent",
+      "original_core_still_live": false
+    },
+    {
+      "identity": {
+        "pid": 24544,
+        "create": 1792241054.1124678,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v2\\verify.py",
+          "--internal",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v2\\run_20261017_203915_d840e7",
+          "0"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 14800
+      },
+      "current": null,
+      "status": "absent",
+      "original_core_still_live": false
+    },
+    {
+      "identity": {
+        "pid": 14800,
+        "create": 1792241053.85598,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v2\\verify.py",
+          "--guarded",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v2\\run_20261017_203915_d840e7",
+          "0"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 6800
+      },
+      "current": null,
+      "status": "absent",
+      "original_core_still_live": false
+    },
+    {
+      "identity": {
+        "pid": 6048,
+        "create": 1792241282.2847242,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\diagnostics\\saved_latch_audit_guardian_v1.py"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 8280
+      },
+      "current": null,
+      "status": "absent",
+      "original_core_still_live": false
+    },
+    {
+      "identity": {
+        "pid": 15300,
+        "create": 1792241283.5084937,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\diagnostics\\saved_latch_audit_guardian_v1.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\diagnostics\\saved_latch_audit_v1_20261017_204803_78cf4a"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 6048
+      },
+      "current": null,
+      "status": "absent",
+      "original_core_still_live": false
+    },
+    {
+      "identity": {
+        "pid": 26360,
+        "create": 1792241283.5214815,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 15300
+      },
+      "current": null,
+      "status": "absent",
+      "original_core_still_live": false
+    }
+  ],
+  "exact_recorded_identity_count": 14,
+  "all_original_identities_absent": true,
+  "other_campaign_workloads": [],
+  "source_unchanged": true,
+  "formal_deployment": "repair_guide"
+}

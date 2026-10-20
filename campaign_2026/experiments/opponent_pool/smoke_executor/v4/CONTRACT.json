@@ -1,0 +1,52 @@
+{
+  "format": "smoke_executor_v4_contract",
+  "created_utc": "2026-10-14T12:33:03.347020+00:00",
+  "single_case_only": true,
+  "case_wall_seconds": 30,
+  "diagnostic_total_wall_seconds": 60,
+  "maximum_batch_wall_seconds": 900,
+  "max_ticks": 300,
+  "executor_sha256": {
+    "common.py": "ce1ca5d8dafd23476dc751bf07c9c03fb0cea37b03bd890565d6e2bd8d694700",
+    "guard.py": "4b55459d638f33c01b768e12c14f1baed0e99e360319625081104a0cc9797eeb",
+    "launch_smoke.py": "72c99e6eb398faed003e0ee48fd4ec1e309ac8c52eb962ec54df0130f958e7b3",
+    "run_smoke.py": "f180838159cfc4fd429b6b626a1ff5a278d453ca683e2c90b32215eb84d9749a",
+    "test_guard_repair.py": "2c84e117ddc48eefc89824cf2395063bdcc2980beafc05ba91d05c0d280d2b9d",
+    "verify_smoke.py": "d7fc22a16fe2220bb115173aac9b6eb6c9e735d5682b826bf25f524d083de7f0"
+  },
+  "readme_sha256": "4dbe5af8f0cad41cba17e23fa595687e5bebdc4c0b5bcb01c3ddbdd3d0d9c18c",
+  "v3_snapshot_sha256": {
+    "common.py": "8a9b08b20a0fcfbfd49c57875db5b760ce77f4772a9bf9e53c75c73030af251b",
+    "CONTRACT.json": "5ef5aafbf3c01fea48be16db489a16b1025a3dcfa0e88df5ff14147dbc79e700",
+    "guard.py": "804ce93d8fe7dc3382bc3c84d87c436da95b5834cb0615dfb2fba9e0c1e1ee70",
+    "launch_smoke.py": "04e8f83b97084412d4a8213b9d2190cf7a156f8ebaecd3ff23c52ae6ddc49ded",
+    "README.md": "67dbfde54ed46af935f070d7d4547b03dff7e8ace65fec6cf235fc5afdd622fb",
+    "run_smoke.py": "f180838159cfc4fd429b6b626a1ff5a278d453ca683e2c90b32215eb84d9749a",
+    "test_guard_repair.py": "a74c0275edceae4c90e657f8811e0ca68b8553a86a910ba9aa7fd7f6fc89d8e9",
+    "verify_smoke.py": "d7fc22a16fe2220bb115173aac9b6eb6c9e735d5682b826bf25f524d083de7f0"
+  },
+  "v3_failed_run": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\v3\\run_20261014_202846_6d8021",
+  "v3_failed_evidence_sha256": {
+    "guard.json": "cd909caf95be3f3e8298df0585319f2ce97a78c03d4f17262d87d8e232ff42ce",
+    "guard.log": "c38e062936a1e16a50d32baf75bb728f31ae05ed14ea500054df298126059f2a",
+    "guard_identity.json": "d9068ad2812af1919b161ddd012ee8c84b2a662974ee1629bfe5dbeeb0ad2254",
+    "launch.json": "2da8e6f0f18d74c8832c6208af42d645cec0b39b2bfc35c81f2f4bb0a9643099",
+    "launcher_receipt.json": "836c5318ff9b04e9466427c7e9487c49f6026b9137b3e416a4bb45fa2e70a6b7",
+    "reservation.json": "49437dfb32ded9f18c633da424f84aed237a2f2079a4af5a638bfeaf37a76418",
+    "supervisor.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "supervisor_exit.json": "8b18aed90d5dc914dbfa99fe84c3c62fed4bd3ef802334697e671bc0a7943ba0"
+  },
+  "preserved_v3_trial": "guide_pool_smoke_v3_2026102500_diagnostic_2",
+  "preserved_v3_seed": 2026102501,
+  "preserved_v3_reserved_hours": 0.016666666666666666,
+  "new_base_seed": 2026102600,
+  "new_case_index": 2,
+  "new_actual_seed": 2026102601,
+  "root_cause": "V3 read all child.parents ancestor identities before truncating at target; unrelated above-target svchost AccessDenied stopped supervisor before FDM",
+  "repair": "Walk parent() one level at a time; verify identities and stop immediately at exact supervisor; necessary-chain AccessDenied remains unknown",
+  "unchanged_v3_run_smoke_sha256": "f180838159cfc4fd429b6b626a1ff5a278d453ca683e2c90b32215eb84d9749a",
+  "unchanged_v3_verifier_sha256": "d7fc22a16fe2220bb115173aac9b6eb6c9e735d5682b826bf25f524d083de7f0",
+  "new_fdm_ticks": 0,
+  "score_eligible": false,
+  "official_validation": false
+}

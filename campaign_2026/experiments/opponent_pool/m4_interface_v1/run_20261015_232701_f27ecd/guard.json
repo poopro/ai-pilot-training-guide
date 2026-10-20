@@ -1,0 +1,314 @@
+{
+  "status": "finished",
+  "guard": {
+    "pid": 12172,
+    "creation_epoch": 1792078022.7112508,
+    "cmdline": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_interface_v1\\guard.py",
+      "--out",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_interface_v1\\run_20261015_232701_f27ecd"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent_pid": 2016
+  },
+  "target": {
+    "pid": 24060,
+    "creation_epoch": 1792078022.6826084,
+    "cmdline": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_interface_v1\\run_smoke.py",
+      "--out",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_interface_v1\\run_20261015_232701_f27ecd"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent_pid": 2016
+  },
+  "deadline_epoch": 1792078202.6533134,
+  "deadline_monotonic": 93248.843,
+  "total_wall_seconds": 180,
+  "stopped": [],
+  "unknown": [],
+  "observed_descendants": [
+    {
+      "identity": {
+        "pid": 19868,
+        "creation_epoch": 1792078022.6966465,
+        "cmdline": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent_pid": 24060
+      },
+      "ancestors": [
+        {
+          "pid": 24060,
+          "creation_epoch": 1792078022.6826084,
+          "cmdline": [
+            "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_interface_v1\\run_smoke.py",
+            "--out",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_interface_v1\\run_20261015_232701_f27ecd"
+          ],
+          "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "parent_pid": 2016
+        }
+      ],
+      "observed_epoch": 1792078023.4358475
+    },
+    {
+      "identity": {
+        "pid": 24436,
+        "creation_epoch": 1792078024.1845183,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_interface_v1\\run_smoke.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_interface_v1\\run_20261015_232701_f27ecd\\cases\\m4_rule_2026103100\\input.json"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent_pid": 24060
+      },
+      "ancestors": [
+        {
+          "pid": 24060,
+          "creation_epoch": 1792078022.6826084,
+          "cmdline": [
+            "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_interface_v1\\run_smoke.py",
+            "--out",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_interface_v1\\run_20261015_232701_f27ecd"
+          ],
+          "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "parent_pid": 2016
+        }
+      ],
+      "observed_epoch": 1792078024.4948018
+    },
+    {
+      "identity": {
+        "pid": 14588,
+        "creation_epoch": 1792078024.2036047,
+        "cmdline": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent_pid": 24436
+      },
+      "ancestors": [
+        {
+          "pid": 24436,
+          "creation_epoch": 1792078024.1845183,
+          "cmdline": [
+            "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_interface_v1\\run_smoke.py",
+            "--worker",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_interface_v1\\run_20261015_232701_f27ecd\\cases\\m4_rule_2026103100\\input.json"
+          ],
+          "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "parent_pid": 24060
+        },
+        {
+          "pid": 24060,
+          "creation_epoch": 1792078022.6826084,
+          "cmdline": [
+            "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_interface_v1\\run_smoke.py",
+            "--out",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_interface_v1\\run_20261015_232701_f27ecd"
+          ],
+          "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "parent_pid": 2016
+        }
+      ],
+      "observed_epoch": 1792078024.5505066
+    },
+    {
+      "identity": {
+        "pid": 24492,
+        "creation_epoch": 1792078041.018333,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_interface_v1\\run_smoke.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_interface_v1\\run_20261015_232701_f27ecd\\cases\\m4_mirror_2026103101\\input.json"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent_pid": 24060
+      },
+      "ancestors": [
+        {
+          "pid": 24060,
+          "creation_epoch": 1792078022.6826084,
+          "cmdline": [
+            "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_interface_v1\\run_smoke.py",
+            "--out",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_interface_v1\\run_20261015_232701_f27ecd"
+          ],
+          "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "parent_pid": 2016
+        }
+      ],
+      "observed_epoch": 1792078041.1195376
+    },
+    {
+      "identity": {
+        "pid": 15732,
+        "creation_epoch": 1792078041.0358884,
+        "cmdline": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent_pid": 24492
+      },
+      "ancestors": [
+        {
+          "pid": 24492,
+          "creation_epoch": 1792078041.018333,
+          "cmdline": [
+            "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_interface_v1\\run_smoke.py",
+            "--worker",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_interface_v1\\run_20261015_232701_f27ecd\\cases\\m4_mirror_2026103101\\input.json"
+          ],
+          "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "parent_pid": 24060
+        },
+        {
+          "pid": 24060,
+          "creation_epoch": 1792078022.6826084,
+          "cmdline": [
+            "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_interface_v1\\run_smoke.py",
+            "--out",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_interface_v1\\run_20261015_232701_f27ecd"
+          ],
+          "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "parent_pid": 2016
+        }
+      ],
+      "observed_epoch": 1792078041.53934
+    },
+    {
+      "identity": {
+        "pid": 18612,
+        "creation_epoch": 1792078055.868718,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_interface_v1\\run_smoke.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_interface_v1\\run_20261015_232701_f27ecd\\cases\\m4_rl_2026103102\\input.json"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent_pid": 24060
+      },
+      "ancestors": [
+        {
+          "pid": 24060,
+          "creation_epoch": 1792078022.6826084,
+          "cmdline": [
+            "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_interface_v1\\run_smoke.py",
+            "--out",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_interface_v1\\run_20261015_232701_f27ecd"
+          ],
+          "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "parent_pid": 2016
+        }
+      ],
+      "observed_epoch": 1792078056.053187
+    },
+    {
+      "identity": {
+        "pid": 10236,
+        "creation_epoch": 1792078055.8813772,
+        "cmdline": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent_pid": 18612
+      },
+      "ancestors": [
+        {
+          "pid": 18612,
+          "creation_epoch": 1792078055.868718,
+          "cmdline": [
+            "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_interface_v1\\run_smoke.py",
+            "--worker",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_interface_v1\\run_20261015_232701_f27ecd\\cases\\m4_rl_2026103102\\input.json"
+          ],
+          "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "parent_pid": 24060
+        },
+        {
+          "pid": 24060,
+          "creation_epoch": 1792078022.6826084,
+          "cmdline": [
+            "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_interface_v1\\run_smoke.py",
+            "--out",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_interface_v1\\run_20261015_232701_f27ecd"
+          ],
+          "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "parent_pid": 2016
+        }
+      ],
+      "observed_epoch": 1792078056.1081228
+    }
+  ],
+  "publication_error_count": 0,
+  "publication_errors": [],
+  "reason": "supervisor_missing",
+  "wall_seconds": 57.13999999999942
+}

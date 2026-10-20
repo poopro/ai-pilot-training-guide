@@ -1,0 +1,73 @@
+{
+  "hypothesis": "Production frozen model and private controller factories obey packet interface and RNG isolation before FDM wiring",
+  "single_change": "Exercise existing immutable production factories with synthetic repeated legal packet; no control changes",
+  "source_sha256": {
+    "E:\\ai_pilot\\campaign_2026\\diagnostics\\frozen_sac_cpu_probe_20261016.py": "1f1691cdd19e36deecff14934e7abc8409168fd2eff3d69492a70df47e78e0ca",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_opponent_v1\\CONTRACT.json": "f01a6efe10dcff42500810ab57df7cdd11591c95f14864ed2a3ceecd4e766f0e",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_opponent_v1\\adapter.py": "e23e37b65d46bc601a79d30d2f213e1b8f524b17e64fc64685048635cf647398",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_opponent_v1\\factory.py": "cd92426d72483ad82a41404431561ca31c9e14dec0564b5abe1aa46974a57b71",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_opponent_v1\\packet_features.py": "7e43ee18ad962981b782c3d62841b0e91807729398c2724a46b3d33d91e26b34",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_opponent_v1\\test_adapter.py": "dbddff432f2117e59f24f3a2798f2f8b733225b523b090ca592ffb4ed5923ff8",
+    "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\combat_v3\\interface.py": "50f63ee563a8cb13b9bb472b0de7905579bcc9c70bc69efc571681879eb02555",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\m4_tactical_v4\\m4_tactical_rl.py": "4475c8b94eee0ee94a17010004930b8ae286f0a6a299064dc34864e45ca0d1f7",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\m4_tactical_v4\\m1_station.py": "fcda220748b0a64413d10c987df850ea975d2925994b556157c62331e97795fc",
+    "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+    "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\combat_v3\\controller.py": "d772bf49a8d8408aaafec691c981d0612de7dada6450e0afcecbc3d958b7813b",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_train_pilot_v1\\run_20261016_003919_a5c748\\cases\\fresh_sac_5000\\model.zip": "9f93eb56483558ad56283c00b1ba34af96a236583bc977ef7d9fad375d9a0fea",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_actor_transfer_10k_v1\\run_20261016_102640_412524\\cases\\actor_transfer_10000\\model.zip": "6c7ceea74457557be60f4156313cf1d75ffff20196159ae8fe22a7809190c012",
+    "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\combat_v3\\config.json": "d4fba053617240e07ffc67fe389d944313ba12dff491e569a0ae764e0f7b88ec",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_20261016_104729_96f65a\\cases\\final_mirror_sac5000_2026300303\\result.json": "f234e6e70ba1b8965fb203123c39eba270534e9f22e8358555f25c836eca8814"
+  },
+  "settings_path": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\combat_v3\\config.json",
+  "packet_source": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_20261016_104729_96f65a\\cases\\final_mirror_sac5000_2026300303\\result.json",
+  "watchdog": {
+    "pid": 12396,
+    "create": 1792163606.191634,
+    "cmd": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\frozen_sac_cpu_probe_20261016.py"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent": 21116
+  },
+  "deadline_epoch": 1792163731.0788918,
+  "resources": {
+    "ram_gib": 2.700115203857422,
+    "disk_gib": 181.50714492797852,
+    "cpu_percent": 52.7,
+    "GPU_used": false
+  },
+  "seed_role": "no new random opening; saved development legal packet only",
+  "models_fixed": {
+    "sac5000": {
+      "model_path": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_train_pilot_v1\\run_20261016_003919_a5c748\\cases\\fresh_sac_5000\\model.zip",
+      "model_sha256": "9f93eb56483558ad56283c00b1ba34af96a236583bc977ef7d9fad375d9a0fea",
+      "manifest_path": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_train_pilot_v1\\run_20261016_003919_a5c748\\BUNDLE_MANIFEST.json",
+      "manifest_sha256": "72ee3d82d4bd3c435f1f942d314cb85865f19a7c7ea7679725391508eedfd0ef"
+    },
+    "transfer10000": {
+      "model_path": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_actor_transfer_10k_v1\\run_20261016_102640_412524\\cases\\actor_transfer_10000\\model.zip",
+      "model_sha256": "6c7ceea74457557be60f4156313cf1d75ffff20196159ae8fe22a7809190c012",
+      "training_run": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_actor_transfer_10k_v1\\run_20261016_102640_412524",
+      "training_evidence_sha256": {
+        "VERIFICATION.json": "72d6a8440519cce916530acf0279c9ba07ce4c6750a987eb6ba060bbb87139ab",
+        "launcher_receipt.json": "6035df9047c3e0e8e2370b5a90c63c21d459e7cfc25819a615b84977f4cd240b",
+        "supervisor_exit.json": "ac6c60df1e87166cdb33ede85d59758b20ae9fde398af6779f1775dbda9744a0",
+        "guard.json": "1d6d979cb8e17dfcb64c19b8da4aa1ea3b71ebdf4c02066afda69f64578ec9b8",
+        "report.json": "6c7ab130c2ddc39bef088804b5ceafd4fb4fb0ea6b828e5a0efa0ff79f17acbb",
+        "launch.json": "ded692cdd5441da326533afe2c65d674c6c845d51f9da0682efdafabbffe2963",
+        "reservation.json": "687eff4dd7763f0d3a237c91f2f8066ebf8ce589e531943cc84cd719140c9408"
+      }
+    }
+  },
+  "usage_observation": {
+    "captured_utc": "2026-10-16T15:13:31.209194+00:00",
+    "five_hour_remaining": 82,
+    "weekly_remaining": 55,
+    "primary_reset": 1792169034,
+    "weekly_reset": 1792654206
+  }
+}

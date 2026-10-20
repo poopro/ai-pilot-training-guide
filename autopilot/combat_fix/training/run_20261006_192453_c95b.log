@@ -1,0 +1,36 @@
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+修復訓練 decision 1/24000；critic更新 0；stage rear
+修復訓練 decision 1469/24000；critic更新 117；stage rear
+修復訓練 decision 2507/24000；critic更新 376；stage rear
+修復訓練 decision 3468/24000；critic更新 616；stage rear
+修復訓練 decision 4507/24000；critic更新 876；stage rear
+已完整儲存：E:\ai_pilot\autopilot\combat_fix\training\run_20261006_192453_c95b\checkpoint_0000005000
+修復訓練 decision 5545/24000；critic更新 1136；stage rear
+修復訓練 decision 6469/24000；critic更新 1367；stage rear
+修復訓練 decision 7449/24000；critic更新 1612；stage rear
+修復訓練 decision 8500/24000；critic更新 1874；stage maneuver
+修復訓練 decision 9583/24000；critic更新 2145；stage maneuver
+已完整儲存：E:\ai_pilot\autopilot\combat_fix\training\run_20261006_192453_c95b\checkpoint_0000010000
+修復訓練 decision 10639/24000；critic更新 2409；stage maneuver
+修復訓練 decision 11655/24000；critic更新 2663；stage maneuver
+修復訓練 decision 12713/24000；critic更新 2928；stage maneuver
+修復訓練 decision 13782/24000；critic更新 3195；stage maneuver
+修復訓練 decision 14848/24000；critic更新 3461；stage maneuver
+已完整儲存：E:\ai_pilot\autopilot\combat_fix\training\run_20261006_192453_c95b\checkpoint_0000015000
+修復訓練 decision 15913/24000；critic更新 3728；stage maneuver
+修復訓練 decision 16982/24000；critic更新 3995；stage official
+修復訓練 decision 18025/24000；critic更新 4256；stage official
+修復訓練 decision 19085/24000；critic更新 4521；stage official
+已完整儲存：E:\ai_pilot\autopilot\combat_fix\training\run_20261006_192453_c95b\checkpoint_0000020000
+修復訓練 decision 20142/24000；critic更新 4785；stage official
+修復訓練 decision 21207/24000；critic更新 5051；stage official
+修復訓練 decision 22231/24000；critic更新 5307；stage official
+修復訓練 decision 23285/24000；critic更新 5571；stage official
+已完整儲存：E:\ai_pilot\autopilot\combat_fix\training\run_20261006_192453_c95b\final_0000024000
+{"status": "completed", "run_dir": "E:\\ai_pilot\\autopilot\\combat_fix\\training\\run_20261006_192453_c95b", "final_bundle": "E:\\ai_pilot\\autopilot\\combat_fix\\training\\run_20261006_192453_c95b\\final_0000024000", "decision_repeat": 4, "decision_steps": 24000, "physics_ticks": 95929, "critic_updates": 5750, "actor_updates": 5250, "stop_file": "E:\\ai_pilot\\autopilot\\combat_fix\\training\\run_20261006_192453_c95b\\STOP", "wall_seconds": 343.8119999999908, "official_validation": false}

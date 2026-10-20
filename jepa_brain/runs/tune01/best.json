@@ -1,0 +1,23 @@
+{
+ "params": {
+  "kp_head": 2.1047394901637024,
+  "bank_lim": 72.22805324866029,
+  "hold_m": 683.0684541552596,
+  "close_gain": 0.08832200094446549,
+  "lead_blend": 0.5782281696598863,
+  "near_m": 1135.4293314199383,
+  "elev_rate_gain": 0.45344146668067126,
+  "ff_gain": 1.2286144927801426
+ },
+ "gen": 13,
+ "default": {
+  "kp_head": 1.8,
+  "bank_lim": 72.0,
+  "hold_m": 600.0,
+  "close_gain": 0.07,
+  "lead_blend": 0.35,
+  "near_m": 1100.0,
+  "elev_rate_gain": 0.5,
+  "ff_gain": 1.0
+ }
+}

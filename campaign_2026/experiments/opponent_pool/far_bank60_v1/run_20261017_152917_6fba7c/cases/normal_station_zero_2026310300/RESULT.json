@@ -1,0 +1,18 @@
+{
+  "status": "failed",
+  "case": {
+    "id": "normal_station_zero_2026310300",
+    "opening": 0,
+    "side": "normal",
+    "seed": 2026310300,
+    "actor": "station_zero",
+    "red": "sac5000",
+    "distance_ft": 6000,
+    "max_ticks": 18000
+  },
+  "training_started": false,
+  "official_validation": false,
+  "deployment_allowed": false,
+  "error": "ImportError(\"cannot import name 'project_goal' from 'candidate' (E:\\\\ai_pilot\\\\campaign_2026\\\\experiments\\\\near_bank80\\\\candidate.py)\")",
+  "wall_seconds": 14.860000000000582
+}

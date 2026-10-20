@@ -1,0 +1,42 @@
+{
+  "created_utc": "2026-10-15T16:48:08.777266+00:00",
+  "executor_sha256": {
+    "common.py": "1785295909f126dcb1091660276e2fda71de25dc79c3fd4a5f7d5cb0cf8e4a35",
+    "guard.py": "4b55459d638f33c01b768e12c14f1baed0e99e360319625081104a0cc9797eeb",
+    "launch_smoke.py": "ea3604870d3f6662d30d91d589b55a3aafc9308271c9c0df5a9b64d6b2da5a94",
+    "run_smoke.py": "e64501e0c557fb1b0dcb36bb99b5b0c8b97227dad2f2de7c938dbf09189db272",
+    "test_plan.py": "1cb5f0be464cb1b55cd5fae915b7c4a712f3fbe2410c200049e45e305eee8e64",
+    "verify_final.py": "e504c4c79db42f520c2bcebfb7c41b1a05ea476579a368c89202e2c9709c3057"
+  },
+  "readme_sha256": "a24395d4f0a6e5c7b2bc4ed4cc4413b4a0aae49b023bf0ec30c482c185d19723",
+  "mode_contract": {
+    "m4_final6": {
+      "cases": 6,
+      "distinct_seeds": 3,
+      "total_wall_seconds": 600,
+      "case_wall_seconds": 90,
+      "max_ticks": 18000,
+      "reset_repeats": 1
+    }
+  },
+  "m4_sources_sha256": {
+    "experiments/m4_tactical_v3/judge_adapter.py": "94067c9b38ef25d15022996d7a7f0fd1c8cb250e849e80da6c30c78a25506b19",
+    "experiments/m4_tactical_v3/m1_station.py": "5d53e18676d18158f3e0bc278e02ed7d42ecca1b1c7c7a6562611184454717ef",
+    "experiments/m4_tactical_v3/m3_mirror_league.py": "e6f47242eb344dacbb68b78d0b229ca5018b787c71d3ee94d660e25ead0371c1",
+    "experiments/m4_tactical_v3/m4_tactical_rl.py": "4475c8b94eee0ee94a17010004930b8ae286f0a6a299064dc34864e45ca0d1f7",
+    "experiments/m4_tactical_v3/test_adapter.py": "8a2aad48dc4e2f05e1e213c31785d7723e2b755fdf8f182affa19b2c43f03a0c",
+    "experiments/m4_tactical_v4/judge_adapter.py": "94067c9b38ef25d15022996d7a7f0fd1c8cb250e849e80da6c30c78a25506b19",
+    "experiments/m4_tactical_v4/m1_station.py": "fcda220748b0a64413d10c987df850ea975d2925994b556157c62331e97795fc",
+    "experiments/m4_tactical_v4/m3_mirror_league.py": "e6f47242eb344dacbb68b78d0b229ca5018b787c71d3ee94d660e25ead0371c1",
+    "experiments/m4_tactical_v4/m4_tactical_rl.py": "4475c8b94eee0ee94a17010004930b8ae286f0a6a299064dc34864e45ca0d1f7",
+    "experiments/m4_tactical_v4/reward_wrapper.py": "daf74a4b643530efd4fae0719cf005611d53d665959c4df48c1b10abfd131431",
+    "experiments/m4_tactical_v4/test_candidate.py": "80be785a8b6573c04b71bc709a2e4e3fcf82b79af60c4a4f5ef328c036b78e32",
+    "experiments/rules_v20261014/judge.py": "11694e29c54fecfa9d39750839688a4c870636e729dd33923a6f78450e837a06",
+    "experiments/opponent_pool/m4_train_pilot_v1/run_20261016_003919_a5c748/cases/fresh_sac_5000/model.zip": "9f93eb56483558ad56283c00b1ba34af96a236583bc977ef7d9fad375d9a0fea",
+    "experiments/opponent_pool/m4_train_pilot_v1/run_20261016_003919_a5c748/BUNDLE_MANIFEST.json": "72ee3d82d4bd3c435f1f942d314cb85865f19a7c7ea7679725391508eedfd0ef"
+  },
+  "score_eligible": false,
+  "official_validation": false,
+  "deployment_allowed": false,
+  "format": "m4_final_eval_v1"
+}

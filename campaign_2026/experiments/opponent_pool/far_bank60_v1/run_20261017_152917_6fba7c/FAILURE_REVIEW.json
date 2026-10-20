@@ -1,0 +1,16 @@
+{
+  "complete_games": 0,
+  "guardian_return_intended": 2,
+  "status": "failed_import_collision_before_recorded_combat",
+  "fixed_in": "far_bank60_v2 by binding absolute file path before framework imports",
+  "actual_worker_exit": 2,
+  "physical_initialization_may_have_occurred": true,
+  "no_original_source_changes": true,
+  "error": "Generic candidate import resolved experiments/near_bank80/candidate.py instead of the new projection file after m4 imports modified sys.path",
+  "seed_attempts": [
+    2026310300,
+    2026310301
+  ],
+  "actual_shell_exit": 1,
+  "reservation_retained_seconds": 600
+}

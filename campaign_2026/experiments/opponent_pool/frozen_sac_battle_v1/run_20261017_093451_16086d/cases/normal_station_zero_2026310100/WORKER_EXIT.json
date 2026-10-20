@@ -1,0 +1,100 @@
+{
+  "case": {
+    "id": "normal_station_zero_2026310100",
+    "opening": 0,
+    "side": "normal",
+    "seed": 2026310100,
+    "actor": "station_zero",
+    "red": "sac5000",
+    "distance_ft": 6000,
+    "max_ticks": 18000
+  },
+  "actual_worker_exit": 1,
+  "identity": {
+    "pid": 24852,
+    "create": 1792200891.9198377,
+    "cmd": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_battle_v1\\battle.py",
+      "--worker",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_battle_v1\\run_20261017_093451_16086d\\cases\\normal_station_zero_2026310100"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent": 9748
+  },
+  "reason": "STOP_or_original_case_deadline",
+  "worker_and_descendants_absent": true,
+  "descendants": [
+    {
+      "identity": {
+        "pid": 8088,
+        "create": 1792200891.931774,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 24852
+      },
+      "chain": [
+        {
+          "pid": 8088,
+          "create": 1792200891.931774,
+          "cmd": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent": 24852
+        }
+      ],
+      "worker": {
+        "pid": 24852,
+        "create": 1792200891.9198377,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_battle_v1\\battle.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_battle_v1\\run_20261017_093451_16086d\\cases\\normal_station_zero_2026310100"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 9748
+      }
+    }
+  ],
+  "cleanup_actions": [
+    {
+      "pid": 8088,
+      "create": 1792200891.931774,
+      "cmd": [
+        "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+        "0x4"
+      ],
+      "exe": "C:\\Windows\\System32\\conhost.exe",
+      "parent": 24852
+    },
+    {
+      "pid": 24852,
+      "create": 1792200891.9198377,
+      "cmd": [
+        "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_battle_v1\\battle.py",
+        "--worker",
+        "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_battle_v1\\run_20261017_093451_16086d\\cases\\normal_station_zero_2026310100"
+      ],
+      "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "parent": 9748
+    }
+  ],
+  "input_sha256": "749f995e246244f89e8bf8e796bd0fb15e235376d061832bc629e04d5acf70a8",
+  "result_sha256": "4e8f60c377dbd4107b6937105baedb17131c2011c61c19d9c4c352867b9381ef"
+}

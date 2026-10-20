@@ -1,0 +1,10 @@
+{
+  "phase": "post_verification_metadata_helper_parse_only",
+  "actual_tool_exit": 1,
+  "chunk_id": "36d1d0",
+  "error": "SyntaxError: keyword argument repeated: episodes",
+  "effect": "Python parse failed before execution; no new FDM, source/model changes or metadata helper mutations occurred.",
+  "repair": "Rename scalar count to episode_count in isolated metadata helper; original completed guard/worker/verifier receipts remain unchanged.",
+  "FDM_restarted": false,
+  "original_FDM_parent_exit_remains": 0
+}

@@ -1,0 +1,21 @@
+{
+  "format": "guide_pool_smoke_verification_v1",
+  "verified_interface_smoke": true,
+  "verified_single_case_diagnostic": false,
+  "errors": [],
+  "case_count": 24,
+  "geometry_pair_count": 12,
+  "per_opponent_case_count": {
+    "rule": 6,
+    "rl": 6,
+    "repair_guide": 6,
+    "rule_bank60": 6
+  },
+  "self_play_cases": 6,
+  "new_fdm_ticks": 7200,
+  "score_eligible": false,
+  "win_rate_evidence": false,
+  "official_validation": false,
+  "deployment_allowed": false,
+  "report_sha256": "04776a92bff00bdc8afead2172be2d939621d2d89933073e1be3f03790c94dae"
+}

@@ -1,0 +1,13 @@
+{
+  "release": "20261016",
+  "checked_manifest_files": 2115,
+  "baseline_manifest_sha256": "bf24309b4f0f8180632ea070e82c7f124ecfaac484d8dea50578021d492d0454",
+  "ASUS_execution_verified": false,
+  "LAN_verified": false,
+  "main_PC_portable_Host_completed": 6,
+  "helper_sha256": {
+    "ASUS_先檢查.cmd": "cc47db01dd1e9bb27792653c9f83ff9a1cfdb10e6b919bd1a0a5e0d7a4546d1a",
+    "check_vivobook.py": "d12c35fc10920e23a2a707be5bc2e4d88d5225e565e74556e0104a85c2a43797",
+    "先讀我.md": "64e1dfe13d9cc694fe0965596f56183b906dea8ecbf56a082d8dd796ff8f491b"
+  }
+}

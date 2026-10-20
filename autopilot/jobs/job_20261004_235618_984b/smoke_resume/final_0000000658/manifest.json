@@ -1,0 +1,48 @@
+{
+  "format": "guided_combat_v3",
+  "timesteps": 658,
+  "config": {
+    "schema": "guided_combat_v3",
+    "opponent": "mixed",
+    "safety": true,
+    "seed": 20261010,
+    "envs": 2,
+    "requested_steps": 128,
+    "run_status": "completed",
+    "action_semantics": "bounded_v3_bank_pitch_rudder_speed_residual",
+    "dependency_sha256": {
+      "combat_v2/env.py": "82658ca2500cf138cb48f594c7f805d6d7f833445fdcc1c820b68a2b7673d7fc",
+      "combat_v2/controller.py": "11e1605b161b223bd5fc4cbd589b285539c48d10dac6a2fba960bf1facdf4404",
+      "envs/jsbsimEnv/jsbsimEnv.py": "8e401095eaf6c70c960c50377495cb1c7c17de9f7fb301efc81534a9d2e108a8",
+      "envs/jsbsimEnv/jsbsimFdm.py": "6d193634ccaff77db6f3d1e248b2276c4a7177c47dbfa82fd466154b67d8c541"
+    },
+    "curriculum_thresholds": [
+      40000,
+      80000
+    ],
+    "source_sha256": {
+      "env.py": "4b4e91dd8168517039ed7092a0536dcefd5297582c4f3722be8d7ca5d3b9d7b4",
+      "fdm.py": "779f27049b9f702dea34d473567aa363bc775421246bbcee3eb03e2ce6e66ee7",
+      "controller.py": "d772bf49a8d8408aaafec691c981d0612de7dada6450e0afcecbc3d958b7813b",
+      "interface.py": "50f63ee563a8cb13b9bb472b0de7905579bcc9c70bc69efc571681879eb02555",
+      "rules.py": "40857e278e8f3902fc9e8c39acf0aebb7bc8e02fafb9627a3f5561512a2f4e05",
+      "train.py": "85bea0e48b1e9f8ad89714fd4d82f244d5a4ec1b0baf36a3349f9a9f6949bad6",
+      "config.json": "d4fba053617240e07ffc67fe389d944313ba12dff491e569a0ae764e0f7b88ec",
+      "compare.py": "271d0442e8f6f4b010b7751e4f78b59025395c5a7a7aa09fd3bf566e5060e8b5",
+      "player.py": "a8641bbf03b560e352317d7c176a8bda29e297558d268f896d984e7ac985f1f5"
+    },
+    "gamma": 0.999,
+    "learning_rate": 5e-05,
+    "vec_mode": "dummy",
+    "learning_starts": 64,
+    "buffer_size": 2000,
+    "entropy_coefficient": 0.001,
+    "checkpoint_seconds": 300.0,
+    "batch_size": 256,
+    "start_timesteps": 530
+  },
+  "model_sha256": "8c6b7603d6cbe5408bffecbc6a0f6e01fce34d14e2f74853292528104638d6b2",
+  "replay_sha256": "e6c80d466e3d2caa3f0155b629770024b9e32f94d05b49833e31e1bab3c62f21",
+  "n_updates": 35,
+  "replay_size": 326
+}

@@ -1,0 +1,1458 @@
+{
+  "created_utc": "2026-10-12T15:04:14.630907+00:00",
+  "verified_input_comparison": "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\COMPARISON.json",
+  "comparison_sha256": "1bc8b60d149c17909d2da062a6bd62fea05c439473690bbd381f3087239eb16d",
+  "input_sha256": {
+    "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\cases\\r000_rule_3000_mirrored_2026101100_guide\\telemetry.csv": "13e95e0a006118df4eadd26937f8ea0095aa6c63d769d06b32f8034dc8cc0f7e",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\cases\\r000_rule_3000_mirrored_2026101100_guide\\duel.acmi": "4b3e1a06c5095831d054d2d9ad714765bd4aef463908dda5b48bcf012b7b5f1d",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\cases\\r000_rule_3000_mirrored_2026101100_guide\\result.json": "f2f93d13f688e6f9943de689bd5228d98afc7a41760a1a8205cf8deef474fbe9",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\cases\\r000_rule_3000_mirrored_2026101100_candidate\\telemetry.csv": "e0399252ecea249aaab6d27639a4b317d259dd527eff9fa5db3cab90c4aaeca0",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\cases\\r000_rule_3000_mirrored_2026101100_candidate\\duel.acmi": "ae68a1c161158d688bae4c2d77f2b95d58729f170f789d2a5702f64e824edaa8",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\cases\\r000_rule_3000_mirrored_2026101100_candidate\\result.json": "a5ca58393fd4056de0734c8737a64cbd34b52c7371298defbeb8b274c6bb292c",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\cases\\r000_rl_6000_mirrored_2026101111_guide\\telemetry.csv": "40a55850f31237ec29f0208a7410296184d34269ba8e7949e14ba877e8a9c291",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\cases\\r000_rl_6000_mirrored_2026101111_guide\\duel.acmi": "4b07db08e6fd085bc5722ad8d4c6b848a71741a832e4fa2c75b96d60890f3a33",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\cases\\r000_rl_6000_mirrored_2026101111_guide\\result.json": "edecda2be09143db8f9882bd8609b9cc8f60ef88823e283e79a3247413ea68bc",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\cases\\r000_rl_6000_mirrored_2026101111_candidate\\telemetry.csv": "c9f1656b0860d8e319472a09cdbf42d4a6f125aad8eabbab24697a040f33ff9a",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\cases\\r000_rl_6000_mirrored_2026101111_candidate\\duel.acmi": "be7fa90dbcb88e60bdfc68b36ed7d714ab15a0e01a036efe6388fb8c343bb4c4",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\cases\\r000_rl_6000_mirrored_2026101111_candidate\\result.json": "f54c3c96f999833a81f0e119e8f9c266b81cde5797745b388510ae57f1360503"
+  },
+  "inputs_unchanged_after_analysis": true,
+  "new_fdm_ticks": 0,
+  "learner_started": false,
+  "selected_pairs": [
+    {
+      "pair": "r000_rule_3000_mirrored_2026101100",
+      "same_initial_sha": "c44e1a0037e66a7b3a4692226dd3d68a6d074a0658b6d8c442467a944bea8389",
+      "common_window_s": 229.31666666666666,
+      "first_observed_attitude_divergence_over0p1deg": {
+        "time_s": 1.0,
+        "candidate_minus_guide": {
+          "roll_deg": 4.728537675237966,
+          "pitch_deg": -0.009682687320649475,
+          "yaw_deg": 0.30350566451755867,
+          "altitude_m": -0.31228767999709817
+        }
+      },
+      "arms": {
+        "guide": {
+          "metrics": {
+            "kills": 1,
+            "deaths": 0,
+            "own_crashes": 0,
+            "enemy_crashes": 0,
+            "survival": 1,
+            "attack_seconds": 3.0,
+            "enemy_attack_seconds": 0.0,
+            "over_9g_seconds": 0.0,
+            "min_altitude_m": 2665.3177718466663
+          },
+          "steps": 13759,
+          "close_passes": [
+            {
+              "first_logged_s": 1.0,
+              "last_logged_s": 1.0,
+              "logged_rows": 1,
+              "closest": {
+                "tick": 60,
+                "time_s": 1.0,
+                "range_m": 1009.425663308453,
+                "nose_deg": 112.21771967576068,
+                "altitude_m": 4091.51998685284,
+                "load": 1.777712903576397,
+                "attack_s": 0.0,
+                "mode": "track",
+                "roll_deg": 54.258388049858105,
+                "pitch_deg": 2.472676932405309,
+                "yaw_deg": 332.19250748209265
+              },
+              "best_nose": {
+                "tick": 60,
+                "time_s": 1.0,
+                "range_m": 1009.425663308453,
+                "nose_deg": 112.21771967576068,
+                "altitude_m": 4091.51998685284,
+                "load": 1.777712903576397,
+                "attack_s": 0.0,
+                "mode": "track",
+                "roll_deg": 54.258388049858105,
+                "pitch_deg": 2.472676932405309,
+                "yaw_deg": 332.19250748209265
+              },
+              "mode_counts": {
+                "track": 1
+              },
+              "nose_under45_rows": 0,
+              "nose_under3_rows": 0,
+              "attack_increase_between_first_last_logged_s": 0.0
+            },
+            {
+              "first_logged_s": 106.0,
+              "last_logged_s": 108.0,
+              "logged_rows": 3,
+              "closest": {
+                "tick": 6420,
+                "time_s": 107.0,
+                "range_m": 936.9724490382646,
+                "nose_deg": 69.39003414592673,
+                "altitude_m": 3371.207465623105,
+                "load": 1.7022820264327094,
+                "attack_s": 0.0,
+                "mode": "track",
+                "roll_deg": 74.6098053454781,
+                "pitch_deg": -1.4702271668833988,
+                "yaw_deg": 248.16655330985918
+              },
+              "best_nose": {
+                "tick": 6360,
+                "time_s": 106.0,
+                "range_m": 1053.2236680434182,
+                "nose_deg": 44.87774290710121,
+                "altitude_m": 3384.846170073152,
+                "load": 0.25676864747280087,
+                "attack_s": 0.0,
+                "mode": "track",
+                "roll_deg": 74.30225680131255,
+                "pitch_deg": -0.3732477802609991,
+                "yaw_deg": 247.35699910681677
+              },
+              "mode_counts": {
+                "track": 3
+              },
+              "nose_under45_rows": 1,
+              "nose_under3_rows": 0,
+              "attack_increase_between_first_last_logged_s": 0.0
+            },
+            {
+              "first_logged_s": 158.0,
+              "last_logged_s": 161.0,
+              "logged_rows": 4,
+              "closest": {
+                "tick": 9540,
+                "time_s": 159.0,
+                "range_m": 739.0088751659528,
+                "nose_deg": 57.266773444198144,
+                "altitude_m": 2973.7195060765475,
+                "load": 1.100092908125065,
+                "attack_s": 0.0,
+                "mode": "track",
+                "roll_deg": 75.40381604059209,
+                "pitch_deg": -4.752521561423378,
+                "yaw_deg": 180.3323814984558
+              },
+              "best_nose": {
+                "tick": 9480,
+                "time_s": 158.0,
+                "range_m": 955.3597137871703,
+                "nose_deg": 26.84065430410293,
+                "altitude_m": 2993.0385784869254,
+                "load": 1.448013190085245,
+                "attack_s": 0.0,
+                "mode": "track",
+                "roll_deg": 74.58860264706863,
+                "pitch_deg": -1.8158705169785951,
+                "yaw_deg": 187.2168005675456
+              },
+              "mode_counts": {
+                "track": 4
+              },
+              "nose_under45_rows": 1,
+              "nose_under3_rows": 0,
+              "attack_increase_between_first_last_logged_s": 0.0
+            },
+            {
+              "first_logged_s": 184.0,
+              "last_logged_s": 189.0,
+              "logged_rows": 6,
+              "closest": {
+                "tick": 11160,
+                "time_s": 186.0,
+                "range_m": 770.6169533916127,
+                "nose_deg": 50.16548253216941,
+                "altitude_m": 2842.7989469111503,
+                "load": 5.471733745205746,
+                "attack_s": 0.0,
+                "mode": "track",
+                "roll_deg": -73.27195535703906,
+                "pitch_deg": -4.784442204786567,
+                "yaw_deg": 302.9521514493637
+              },
+              "best_nose": {
+                "tick": 11040,
+                "time_s": 184.0,
+                "range_m": 978.6755663204608,
+                "nose_deg": 12.783037207555289,
+                "altitude_m": 2902.9318987581614,
+                "load": 2.369982037194361,
+                "attack_s": 0.0,
+                "mode": "track",
+                "roll_deg": -71.45033173787895,
+                "pitch_deg": -2.3264395820218446,
+                "yaw_deg": 303.78847347425756
+              },
+              "mode_counts": {
+                "track": 6
+              },
+              "nose_under45_rows": 2,
+              "nose_under3_rows": 0,
+              "attack_increase_between_first_last_logged_s": 0.0
+            },
+            {
+              "first_logged_s": 200.0,
+              "last_logged_s": 229.31666666666666,
+              "logged_rows": 31,
+              "closest": {
+                "tick": 13500,
+                "time_s": 225.0,
+                "range_m": 536.7117806356946,
+                "nose_deg": 0.5767075114497868,
+                "altitude_m": 2778.8953367329896,
+                "load": 1.9886684687966378,
+                "attack_s": 1.0333333333333332,
+                "mode": "track",
+                "roll_deg": 32.29398726334055,
+                "pitch_deg": 2.6739636126857063,
+                "yaw_deg": 291.1709707141577
+              },
+              "best_nose": {
+                "tick": 13500,
+                "time_s": 225.0,
+                "range_m": 536.7117806356946,
+                "nose_deg": 0.5767075114497868,
+                "altitude_m": 2778.8953367329896,
+                "load": 1.9886684687966378,
+                "attack_s": 1.0333333333333332,
+                "mode": "track",
+                "roll_deg": 32.29398726334055,
+                "pitch_deg": 2.6739636126857063,
+                "yaw_deg": 291.1709707141577
+              },
+              "mode_counts": {
+                "track": 31
+              },
+              "nose_under45_rows": 31,
+              "nose_under3_rows": 11,
+              "attack_increase_between_first_last_logged_s": 3.0
+            }
+          ],
+          "terminal_sample": {
+            "tick": 13759,
+            "time_s": 229.31666666666666,
+            "range_m": 540.4164943252683,
+            "nose_deg": 0.8859068727092415,
+            "altitude_m": 2812.3129520327034,
+            "load": 1.915793813314007,
+            "attack_s": 3.0,
+            "mode": "track",
+            "roll_deg": 25.11837242316866,
+            "pitch_deg": 4.824250005873778,
+            "yaw_deg": 298.63500174550137
+          },
+          "attack_increase_intervals": [
+            {
+              "tick": 13260,
+              "time_s": 221.0,
+              "range_m": 564.932854905605,
+              "nose_deg": 1.6189260121217814,
+              "altitude_m": 2797.074242320043,
+              "load": 1.8239913321963397,
+              "attack_s": 0.4166666666666667,
+              "mode": "track",
+              "roll_deg": 66.10937770506169,
+              "pitch_deg": 0.39671623826049035,
+              "yaw_deg": 273.70989284031845,
+              "increase_since_previous_logged_s": 0.4166666666666667
+            },
+            {
+              "tick": 13500,
+              "time_s": 225.0,
+              "range_m": 536.7117806356946,
+              "nose_deg": 0.5767075114497868,
+              "altitude_m": 2778.8953367329896,
+              "load": 1.9886684687966378,
+              "attack_s": 1.0333333333333332,
+              "mode": "track",
+              "roll_deg": 32.29398726334055,
+              "pitch_deg": 2.6739636126857063,
+              "yaw_deg": 291.1709707141577,
+              "increase_since_previous_logged_s": 0.6166666666666665
+            },
+            {
+              "tick": 13560,
+              "time_s": 226.0,
+              "range_m": 539.5065080665369,
+              "nose_deg": 0.6369214928353782,
+              "altitude_m": 2785.119360145873,
+              "load": 0.8054882606895267,
+              "attack_s": 2.033333333333333,
+              "mode": "track",
+              "roll_deg": 21.357406284703792,
+              "pitch_deg": 3.0022195206454647,
+              "yaw_deg": 292.38279372091466,
+              "increase_since_previous_logged_s": 1.0
+            },
+            {
+              "tick": 13620,
+              "time_s": 227.0,
+              "range_m": 543.1393724917615,
+              "nose_deg": 1.2086599218390242,
+              "altitude_m": 2790.8372499165685,
+              "load": 1.3579589918336654,
+              "attack_s": 2.8166666666666664,
+              "mode": "track",
+              "roll_deg": 44.26001632623827,
+              "pitch_deg": 3.695245588860245,
+              "yaw_deg": 294.0579625461315,
+              "increase_since_previous_logged_s": 0.7833333333333332
+            },
+            {
+              "tick": 13759,
+              "time_s": 229.31666666666666,
+              "range_m": 540.4164943252683,
+              "nose_deg": 0.8859068727092415,
+              "altitude_m": 2812.3129520327034,
+              "load": 1.915793813314007,
+              "attack_s": 3.0,
+              "mode": "track",
+              "roll_deg": 25.11837242316866,
+              "pitch_deg": 4.824250005873778,
+              "yaw_deg": 298.63500174550137,
+              "increase_since_previous_logged_s": 0.18333333333333357
+            }
+          ],
+          "first_logged_recover": null
+        },
+        "candidate": {
+          "metrics": {
+            "kills": 0,
+            "deaths": 0,
+            "own_crashes": 0,
+            "enemy_crashes": 0,
+            "survival": 1,
+            "attack_seconds": 0.0,
+            "enemy_attack_seconds": 0.0,
+            "over_9g_seconds": 0.0,
+            "min_altitude_m": 1932.4799711306837
+          },
+          "steps": 18000,
+          "close_passes": [
+            {
+              "first_logged_s": 1.0,
+              "last_logged_s": 1.0,
+              "logged_rows": 1,
+              "closest": {
+                "tick": 60,
+                "time_s": 1.0,
+                "range_m": 1009.590697192448,
+                "nose_deg": 111.91428934708856,
+                "altitude_m": 4091.2076991728427,
+                "load": 1.7956826897586164,
+                "attack_s": 0.0,
+                "mode": "track",
+                "roll_deg": 58.98692572509607,
+                "pitch_deg": 2.4629942450846594,
+                "yaw_deg": 332.4960131466102
+              },
+              "best_nose": {
+                "tick": 60,
+                "time_s": 1.0,
+                "range_m": 1009.590697192448,
+                "nose_deg": 111.91428934708856,
+                "altitude_m": 4091.2076991728427,
+                "load": 1.7956826897586164,
+                "attack_s": 0.0,
+                "mode": "track",
+                "roll_deg": 58.98692572509607,
+                "pitch_deg": 2.4629942450846594,
+                "yaw_deg": 332.4960131466102
+              },
+              "mode_counts": {
+                "track": 1
+              },
+              "nose_under45_rows": 0,
+              "nose_under3_rows": 0,
+              "attack_increase_between_first_last_logged_s": 0.0
+            },
+            {
+              "first_logged_s": 106.0,
+              "last_logged_s": 108.0,
+              "logged_rows": 3,
+              "closest": {
+                "tick": 6420,
+                "time_s": 107.0,
+                "range_m": 955.0243960049369,
+                "nose_deg": 71.24268524883207,
+                "altitude_m": 3372.6103530563328,
+                "load": 1.980175629265554,
+                "attack_s": 0.0,
+                "mode": "track",
+                "roll_deg": 81.75898780471753,
+                "pitch_deg": -1.631422435275852,
+                "yaw_deg": 249.62002988670116
+              },
+              "best_nose": {
+                "tick": 6360,
+                "time_s": 106.0,
+                "range_m": 1047.7881248335707,
+                "nose_deg": 48.15465372997077,
+                "altitude_m": 3386.9657426056538,
+                "load": 0.22990634590458583,
+                "attack_s": 0.0,
+                "mode": "track",
+                "roll_deg": 77.2274454893637,
+                "pitch_deg": -0.6936320239275546,
+                "yaw_deg": 247.18238685723188
+              },
+              "mode_counts": {
+                "track": 3
+              },
+              "nose_under45_rows": 0,
+              "nose_under3_rows": 0,
+              "attack_increase_between_first_last_logged_s": 0.0
+            },
+            {
+              "first_logged_s": 158.0,
+              "last_logged_s": 160.0,
+              "logged_rows": 3,
+              "closest": {
+                "tick": 9540,
+                "time_s": 159.0,
+                "range_m": 986.2540289318971,
+                "nose_deg": 71.22312801115665,
+                "altitude_m": 2991.8651548704297,
+                "load": 2.040573496770896,
+                "attack_s": 0.0,
+                "mode": "track",
+                "roll_deg": 82.20756794541839,
+                "pitch_deg": -2.480068239430996,
+                "yaw_deg": 200.09254846322074
+              },
+              "best_nose": {
+                "tick": 9480,
+                "time_s": 158.0,
+                "range_m": 1010.7179018265482,
+                "nose_deg": 51.977772998575695,
+                "altitude_m": 3010.01077441805,
+                "load": 1.5983721451190378,
+                "attack_s": 0.0,
+                "mode": "track",
+                "roll_deg": 80.12043117253697,
+                "pitch_deg": -2.015112456725314,
+                "yaw_deg": 195.4944143392591
+              },
+              "mode_counts": {
+                "track": 3
+              },
+              "nose_under45_rows": 0,
+              "nose_under3_rows": 0,
+              "attack_increase_between_first_last_logged_s": 0.0
+            }
+          ],
+          "terminal_sample": {
+            "tick": 18000,
+            "time_s": 300.0,
+            "range_m": 2063.1814399709065,
+            "nose_deg": 62.61406402369039,
+            "altitude_m": 1932.4856531136097,
+            "load": 2.19367393411647,
+            "attack_s": 0.0,
+            "mode": "intercept",
+            "roll_deg": 72.82809037978934,
+            "pitch_deg": 0.09335851815134438,
+            "yaw_deg": 310.0272148575267
+          },
+          "attack_increase_intervals": [],
+          "first_logged_recover": null
+        }
+      },
+      "aligned_examples": [
+        {
+          "time_s": 1.0,
+          "guide": {
+            "tick": 60,
+            "time_s": 1.0,
+            "range_m": 1009.425663308453,
+            "nose_deg": 112.21771967576068,
+            "altitude_m": 4091.51998685284,
+            "load": 1.777712903576397,
+            "attack_s": 0.0,
+            "mode": "track",
+            "roll_deg": 54.258388049858105,
+            "pitch_deg": 2.472676932405309,
+            "yaw_deg": 332.19250748209265
+          },
+          "candidate": {
+            "tick": 60,
+            "time_s": 1.0,
+            "range_m": 1009.590697192448,
+            "nose_deg": 111.91428934708856,
+            "altitude_m": 4091.2076991728427,
+            "load": 1.7956826897586164,
+            "attack_s": 0.0,
+            "mode": "track",
+            "roll_deg": 58.98692572509607,
+            "pitch_deg": 2.4629942450846594,
+            "yaw_deg": 332.4960131466102
+          }
+        },
+        {
+          "time_s": 2.0,
+          "guide": {
+            "tick": 120,
+            "time_s": 2.0,
+            "range_m": 1243.7248072940404,
+            "nose_deg": 126.05506366087916,
+            "altitude_m": 4083.9833094411138,
+            "load": 1.8168466115616924,
+            "attack_s": 0.0,
+            "mode": "intercept",
+            "roll_deg": 68.72718681990013,
+            "pitch_deg": 2.2961524969908957,
+            "yaw_deg": 337.02976710506977
+          },
+          "candidate": {
+            "tick": 120,
+            "time_s": 2.0,
+            "range_m": 1243.3071398059108,
+            "nose_deg": 124.46020093874705,
+            "altitude_m": 4082.4321187815785,
+            "load": 2.121322423489991,
+            "attack_s": 0.0,
+            "mode": "intercept",
+            "roll_deg": 71.13440016323455,
+            "pitch_deg": 2.1325197059734355,
+            "yaw_deg": 338.65571759929
+          }
+        },
+        {
+          "time_s": 10.0,
+          "guide": {
+            "tick": 600,
+            "time_s": 10.0,
+            "range_m": 3897.819727118574,
+            "nose_deg": 125.28309291331756,
+            "altitude_m": 4006.224663085458,
+            "load": 2.710851290820711,
+            "attack_s": 0.0,
+            "mode": "intercept",
+            "roll_deg": 69.66590940766405,
+            "pitch_deg": 2.8779984686874034,
+            "yaw_deg": 31.6951777652009
+          },
+          "candidate": {
+            "tick": 600,
+            "time_s": 10.0,
+            "range_m": 3871.6729247394433,
+            "nose_deg": 123.49438198039168,
+            "altitude_m": 4006.787849503157,
+            "load": 2.698120847288752,
+            "attack_s": 0.0,
+            "mode": "intercept",
+            "roll_deg": 69.66921826159866,
+            "pitch_deg": 3.058411824775097,
+            "yaw_deg": 34.28959833830299
+          }
+        },
+        {
+          "time_s": 20.0,
+          "guide": {
+            "tick": 1200,
+            "time_s": 20.0,
+            "range_m": 6231.634715482389,
+            "nose_deg": 93.4149683824421,
+            "altitude_m": 3952.6495276615624,
+            "load": 2.357178284511204,
+            "attack_s": 0.0,
+            "mode": "intercept",
+            "roll_deg": 69.56991913453746,
+            "pitch_deg": 3.6448630973397513,
+            "yaw_deg": 100.60879457563253
+          },
+          "candidate": {
+            "tick": 1200,
+            "time_s": 20.0,
+            "range_m": 6191.530127668376,
+            "nose_deg": 92.35319556024817,
+            "altitude_m": 3955.659938854015,
+            "load": 2.3547908581717785,
+            "attack_s": 0.0,
+            "mode": "intercept",
+            "roll_deg": 69.5785707403468,
+            "pitch_deg": 3.633287762040602,
+            "yaw_deg": 102.71684587093738
+          }
+        },
+        {
+          "time_s": 100.0,
+          "guide": {
+            "tick": 6000,
+            "time_s": 100.0,
+            "range_m": 3010.8517069450895,
+            "nose_deg": 11.891638711449446,
+            "altitude_m": 3437.156088772336,
+            "load": 1.9724176684773114,
+            "attack_s": 0.0,
+            "mode": "intercept",
+            "roll_deg": 74.71203912531895,
+            "pitch_deg": 0.9490579730432958,
+            "yaw_deg": 221.13215135244545
+          },
+          "candidate": {
+            "tick": 6000,
+            "time_s": 100.0,
+            "range_m": 2956.480263749033,
+            "nose_deg": 12.017454832131978,
+            "altitude_m": 3440.1722735404283,
+            "load": 2.0144398931687397,
+            "attack_s": 0.0,
+            "mode": "intercept",
+            "roll_deg": 74.69915091275296,
+            "pitch_deg": 0.8810416179570608,
+            "yaw_deg": 221.98841981174954
+          }
+        },
+        {
+          "time_s": 180.0,
+          "guide": {
+            "tick": 10800,
+            "time_s": 180.0,
+            "range_m": 1945.937368558153,
+            "nose_deg": 22.74381660795163,
+            "altitude_m": 2914.902793422425,
+            "load": 0.7672244059438825,
+            "attack_s": 0.0,
+            "mode": "intercept",
+            "roll_deg": -22.78058947007454,
+            "pitch_deg": 0.5418921179887779,
+            "yaw_deg": 303.16338857708615
+          },
+          "candidate": {
+            "tick": 10800,
+            "time_s": 180.0,
+            "range_m": 4741.473059273572,
+            "nose_deg": 45.56955107418772,
+            "altitude_m": 2818.9919000916484,
+            "load": 2.244058096183702,
+            "attack_s": 0.0,
+            "mode": "intercept",
+            "roll_deg": 69.17871662249699,
+            "pitch_deg": 2.532427612249574,
+            "yaw_deg": 358.7032798549785
+          }
+        },
+        {
+          "time_s": 205.0,
+          "guide": {
+            "tick": 12300,
+            "time_s": 205.0,
+            "range_m": 715.3818864477776,
+            "nose_deg": 9.578765019608552,
+            "altitude_m": 2693.2390203415366,
+            "load": 4.867695457328267,
+            "attack_s": 0.0,
+            "mode": "track",
+            "roll_deg": 72.60454417587522,
+            "pitch_deg": -1.2742964310881606,
+            "yaw_deg": 254.459414040709
+          },
+          "candidate": {
+            "tick": 12300,
+            "time_s": 205.0,
+            "range_m": 1743.9291465692975,
+            "nose_deg": 33.49645551337382,
+            "altitude_m": 2672.6661620755344,
+            "load": 2.418033630507012,
+            "attack_s": 0.0,
+            "mode": "intercept",
+            "roll_deg": 74.44690820169615,
+            "pitch_deg": -0.028315074856189358,
+            "yaw_deg": 123.51206674839642
+          }
+        },
+        {
+          "time_s": 210.0,
+          "guide": {
+            "tick": 12600,
+            "time_s": 210.0,
+            "range_m": 669.3856466082165,
+            "nose_deg": 6.803852745943649,
+            "altitude_m": 2724.8262169264644,
+            "load": 0.3883032880711161,
+            "attack_s": 0.0,
+            "mode": "track",
+            "roll_deg": -55.214824081388485,
+            "pitch_deg": 7.068876665185479,
+            "yaw_deg": 271.8930010575051
+          },
+          "candidate": {
+            "tick": 12600,
+            "time_s": 210.0,
+            "range_m": 1664.648209381812,
+            "nose_deg": 73.14598454383953,
+            "altitude_m": 2618.8050307284684,
+            "load": 2.349278460360589,
+            "attack_s": 0.0,
+            "mode": "intercept",
+            "roll_deg": 73.35930437930207,
+            "pitch_deg": 0.1370212822957452,
+            "yaw_deg": 148.6433771009169
+          }
+        },
+        {
+          "time_s": 220.0,
+          "guide": {
+            "tick": 13200,
+            "time_s": 220.0,
+            "range_m": 579.1318216013526,
+            "nose_deg": 2.600644744414289,
+            "altitude_m": 2803.945313282517,
+            "load": 0.9341546682133516,
+            "attack_s": 0.0,
+            "mode": "track",
+            "roll_deg": 41.79743124538816,
+            "pitch_deg": -0.18558984670769152,
+            "yaw_deg": 271.1411084029419
+          },
+          "candidate": {
+            "tick": 13200,
+            "time_s": 220.0,
+            "range_m": 3538.1757036604063,
+            "nose_deg": 79.64522452545252,
+            "altitude_m": 2512.2435158472867,
+            "load": 2.5688789608389344,
+            "attack_s": 0.0,
+            "mode": "intercept",
+            "roll_deg": 70.26697545590018,
+            "pitch_deg": 1.3816389490037493,
+            "yaw_deg": 210.85615957292217
+          }
+        },
+        {
+          "time_s": 229.0,
+          "guide": {
+            "tick": 13740,
+            "time_s": 229.0,
+            "range_m": 541.3496208511394,
+            "nose_deg": 1.111282091699513,
+            "altitude_m": 2807.87163835195,
+            "load": 2.0528730368432955,
+            "attack_s": 2.8166666666666664,
+            "mode": "track",
+            "roll_deg": 35.7040940239409,
+            "pitch_deg": 4.735732906063586,
+            "yaw_deg": 298.2663671325643
+          },
+          "candidate": {
+            "tick": 13740,
+            "time_s": 229.0,
+            "range_m": 4687.129942647645,
+            "nose_deg": 47.66925183976078,
+            "altitude_m": 2435.388103953141,
+            "load": 2.2833588619047096,
+            "attack_s": 0.0,
+            "mode": "intercept",
+            "roll_deg": 69.29425788265583,
+            "pitch_deg": 2.533744467464744,
+            "yaw_deg": 276.4236514165336
+          }
+        }
+      ]
+    },
+    {
+      "pair": "r000_rl_6000_mirrored_2026101111",
+      "same_initial_sha": "a19c7430a73ae89edd8d1596a73502ed5406a68ba6479c6016aa2ce9978cd1a5",
+      "common_window_s": 184.18333333333334,
+      "first_observed_attitude_divergence_over0p1deg": {
+        "time_s": 91.5,
+        "candidate_minus_guide": {
+          "roll_deg": -3.9066190519714326,
+          "pitch_deg": -0.029047123476563463,
+          "yaw_deg": -0.12902327956032877,
+          "altitude_m": 0.02893261466306285
+        }
+      },
+      "arms": {
+        "guide": {
+          "metrics": {
+            "kills": 0,
+            "deaths": 0,
+            "own_crashes": 0,
+            "enemy_crashes": 0,
+            "survival": 1,
+            "attack_seconds": 0.0,
+            "enemy_attack_seconds": 0.0,
+            "over_9g_seconds": 0.0,
+            "min_altitude_m": 787.9388020177194
+          },
+          "steps": 18000,
+          "close_passes": [
+            {
+              "first_logged_s": 91.0,
+              "last_logged_s": 200.0,
+              "logged_rows": 110,
+              "closest": {
+                "tick": 11400,
+                "time_s": 190.0,
+                "range_m": 499.1658792621461,
+                "nose_deg": 10.86459827630608,
+                "altitude_m": 797.3261118011803,
+                "load": 5.561244656834203,
+                "attack_s": 0.0,
+                "mode": "recover",
+                "roll_deg": 70.01953959114662,
+                "pitch_deg": -1.9612836605909656,
+                "yaw_deg": 346.60950400621203
+              },
+              "best_nose": {
+                "tick": 6180,
+                "time_s": 103.0,
+                "range_m": 704.6269733690646,
+                "nose_deg": 1.1679643975925174,
+                "altitude_m": 2677.2278217240037,
+                "load": 0.8296924465585401,
+                "attack_s": 0.0,
+                "mode": "track",
+                "roll_deg": 65.41935108339993,
+                "pitch_deg": -3.8815483231710024,
+                "yaw_deg": 301.49911355797155
+              },
+              "mode_counts": {
+                "recover": 9,
+                "track": 101
+              },
+              "nose_under45_rows": 104,
+              "nose_under3_rows": 2,
+              "attack_increase_between_first_last_logged_s": 0.0
+            },
+            {
+              "first_logged_s": 217.0,
+              "last_logged_s": 223.0,
+              "logged_rows": 7,
+              "closest": {
+                "tick": 13140,
+                "time_s": 219.0,
+                "range_m": 621.499456487948,
+                "nose_deg": 49.33232249983553,
+                "altitude_m": 1116.7027208507807,
+                "load": 3.8503768867805026,
+                "attack_s": 0.0,
+                "mode": "track",
+                "roll_deg": -71.85967917564346,
+                "pitch_deg": -8.483971212771074,
+                "yaw_deg": 39.4830274906241
+              },
+              "best_nose": {
+                "tick": 13020,
+                "time_s": 217.0,
+                "range_m": 935.2420335403916,
+                "nose_deg": 6.201393755214468,
+                "altitude_m": 1183.1557790369868,
+                "load": 2.813217134861756,
+                "attack_s": 0.0,
+                "mode": "track",
+                "roll_deg": -62.78725041944455,
+                "pitch_deg": -5.95547470393414,
+                "yaw_deg": 38.93472932625804
+              },
+              "mode_counts": {
+                "track": 7
+              },
+              "nose_under45_rows": 2,
+              "nose_under3_rows": 0,
+              "attack_increase_between_first_last_logged_s": 0.0
+            },
+            {
+              "first_logged_s": 236.0,
+              "last_logged_s": 242.0,
+              "logged_rows": 7,
+              "closest": {
+                "tick": 14280,
+                "time_s": 238.0,
+                "range_m": 768.439382402387,
+                "nose_deg": 47.343315833686944,
+                "altitude_m": 982.9920785743743,
+                "load": 3.241859206606683,
+                "attack_s": 0.0,
+                "mode": "track",
+                "roll_deg": 72.5174029015823,
+                "pitch_deg": -6.5187110877342125,
+                "yaw_deg": 298.52054069380796
+              },
+              "best_nose": {
+                "tick": 14160,
+                "time_s": 236.0,
+                "range_m": 955.271363341817,
+                "nose_deg": 10.181673526540404,
+                "altitude_m": 1036.1141399682642,
+                "load": 2.3067500238422727,
+                "attack_s": 0.0,
+                "mode": "track",
+                "roll_deg": 68.64543574401803,
+                "pitch_deg": -3.8567584788936013,
+                "yaw_deg": 299.00684633822004
+              },
+              "mode_counts": {
+                "track": 7
+              },
+              "nose_under45_rows": 2,
+              "nose_under3_rows": 0,
+              "attack_increase_between_first_last_logged_s": 0.0
+            },
+            {
+              "first_logged_s": 254.0,
+              "last_logged_s": 262.0,
+              "logged_rows": 9,
+              "closest": {
+                "tick": 15420,
+                "time_s": 257.0,
+                "range_m": 786.6222028980686,
+                "nose_deg": 31.75189100602076,
+                "altitude_m": 901.3612123723806,
+                "load": 2.2320527633467324,
+                "attack_s": 0.0,
+                "mode": "track",
+                "roll_deg": -71.99629293811164,
+                "pitch_deg": -4.613213632724942,
+                "yaw_deg": 27.016364175844025
+              },
+              "best_nose": {
+                "tick": 15240,
+                "time_s": 254.0,
+                "range_m": 1037.4399670354846,
+                "nose_deg": 7.068002748502347,
+                "altitude_m": 965.7450274213314,
+                "load": 0.90030799310042,
+                "attack_s": 0.0,
+                "mode": "track",
+                "roll_deg": -56.46475197754993,
+                "pitch_deg": -2.320707847252438,
+                "yaw_deg": 32.05589777811135
+              },
+              "mode_counts": {
+                "track": 9
+              },
+              "nose_under45_rows": 9,
+              "nose_under3_rows": 0,
+              "attack_increase_between_first_last_logged_s": 0.0
+            },
+            {
+              "first_logged_s": 296.0,
+              "last_logged_s": 300.0,
+              "logged_rows": 5,
+              "closest": {
+                "tick": 17940,
+                "time_s": 299.0,
+                "range_m": 973.6039514845565,
+                "nose_deg": 33.28924248331475,
+                "altitude_m": 1152.8308216831863,
+                "load": 1.9306826637959014,
+                "attack_s": 0.0,
+                "mode": "track",
+                "roll_deg": 72.78166170636416,
+                "pitch_deg": 0.7037576154234698,
+                "yaw_deg": 336.5639052228058
+              },
+              "best_nose": {
+                "tick": 17760,
+                "time_s": 296.0,
+                "range_m": 1076.028611732025,
+                "nose_deg": 10.813047852193614,
+                "altitude_m": 1172.5536891490817,
+                "load": 2.3265454492270465,
+                "attack_s": 0.0,
+                "mode": "track",
+                "roll_deg": 72.6273014588757,
+                "pitch_deg": 1.131159396795454,
+                "yaw_deg": 324.05414402411105
+              },
+              "mode_counts": {
+                "track": 5
+              },
+              "nose_under45_rows": 5,
+              "nose_under3_rows": 0,
+              "attack_increase_between_first_last_logged_s": 0.0
+            }
+          ],
+          "terminal_sample": {
+            "tick": 18000,
+            "time_s": 300.0,
+            "range_m": 995.8988135474924,
+            "nose_deg": 40.6183972661354,
+            "altitude_m": 1145.1199999625803,
+            "load": 1.7344845444284787,
+            "attack_s": 0.0,
+            "mode": "track",
+            "roll_deg": 72.83338996967721,
+            "pitch_deg": 0.3718513067869596,
+            "yaw_deg": 340.1055772978108
+          },
+          "attack_increase_intervals": [],
+          "first_logged_recover": {
+            "tick": 11400,
+            "time_s": 190.0,
+            "range_m": 499.1658792621461,
+            "nose_deg": 10.86459827630608,
+            "altitude_m": 797.3261118011803,
+            "load": 5.561244656834203,
+            "attack_s": 0.0,
+            "mode": "recover",
+            "roll_deg": 70.01953959114662,
+            "pitch_deg": -1.9612836605909656,
+            "yaw_deg": 346.60950400621203
+          }
+        },
+        "candidate": {
+          "metrics": {
+            "kills": 1,
+            "deaths": 0,
+            "own_crashes": 0,
+            "enemy_crashes": 0,
+            "survival": 1,
+            "attack_seconds": 3.0,
+            "enemy_attack_seconds": 0.0,
+            "over_9g_seconds": 0.0,
+            "min_altitude_m": 781.3509453039474
+          },
+          "steps": 11051,
+          "close_passes": [
+            {
+              "first_logged_s": 91.0,
+              "last_logged_s": 184.18333333333334,
+              "logged_rows": 95,
+              "closest": {
+                "tick": 10800,
+                "time_s": 180.0,
+                "range_m": 610.7524076801562,
+                "nose_deg": 11.914785073204497,
+                "altitude_m": 904.1681126027853,
+                "load": 1.9608284153383144,
+                "attack_s": 2.9833333333333334,
+                "mode": "track",
+                "roll_deg": 79.35992982520463,
+                "pitch_deg": -4.294748226540642,
+                "yaw_deg": 335.8237652399284
+              },
+              "best_nose": {
+                "tick": 7920,
+                "time_s": 132.0,
+                "range_m": 659.965856272785,
+                "nose_deg": 0.8253909279873256,
+                "altitude_m": 1971.4222467992754,
+                "load": 1.9407475303775346,
+                "attack_s": 1.4666666666666666,
+                "mode": "track",
+                "roll_deg": 31.301887736363877,
+                "pitch_deg": -0.48722901964182125,
+                "yaw_deg": 103.03915071193192
+              },
+              "mode_counts": {
+                "recover": 2,
+                "track": 93
+              },
+              "nose_under45_rows": 95,
+              "nose_under3_rows": 26,
+              "attack_increase_between_first_last_logged_s": 3.0
+            }
+          ],
+          "terminal_sample": {
+            "tick": 11051,
+            "time_s": 184.18333333333334,
+            "range_m": 629.9379055370997,
+            "nose_deg": 0.9118505610810278,
+            "altitude_m": 781.3532542390645,
+            "load": 5.2275666302647235,
+            "attack_s": 3.0,
+            "mode": "recover",
+            "roll_deg": 28.65327549958145,
+            "pitch_deg": 0.25121168643778785,
+            "yaw_deg": 15.551689296225822
+          },
+          "attack_increase_intervals": [
+            {
+              "tick": 7260,
+              "time_s": 121.0,
+              "range_m": 667.1832785584118,
+              "nose_deg": 1.039368800061898,
+              "altitude_m": 2223.5346073682695,
+              "load": 1.6694467038026632,
+              "attack_s": 0.7166666666666667,
+              "mode": "track",
+              "roll_deg": 29.06978995567801,
+              "pitch_deg": -0.40102327395640575,
+              "yaw_deg": 47.81904109989848,
+              "increase_since_previous_logged_s": 0.7166666666666667
+            },
+            {
+              "tick": 7920,
+              "time_s": 132.0,
+              "range_m": 659.965856272785,
+              "nose_deg": 0.8253909279873256,
+              "altitude_m": 1971.4222467992754,
+              "load": 1.9407475303775346,
+              "attack_s": 1.4666666666666666,
+              "mode": "track",
+              "roll_deg": 31.301887736363877,
+              "pitch_deg": -0.48722901964182125,
+              "yaw_deg": 103.03915071193192,
+              "increase_since_previous_logged_s": 0.7499999999999999
+            },
+            {
+              "tick": 7980,
+              "time_s": 133.0,
+              "range_m": 656.0303788381318,
+              "nose_deg": 1.898233982586699,
+              "altitude_m": 1962.8676864643874,
+              "load": 0.773721471740812,
+              "attack_s": 1.6166666666666667,
+              "mode": "track",
+              "roll_deg": 34.92910061988586,
+              "pitch_deg": -1.0213980640443592,
+              "yaw_deg": 103.43300838356595,
+              "increase_since_previous_logged_s": 0.15000000000000013
+            },
+            {
+              "tick": 8580,
+              "time_s": 143.0,
+              "range_m": 654.2039718113597,
+              "nose_deg": 0.9131540007309269,
+              "altitude_m": 1721.923123338443,
+              "load": 2.0089177991548905,
+              "attack_s": 2.35,
+              "mode": "track",
+              "roll_deg": 33.143309845465325,
+              "pitch_deg": -0.6085311189173616,
+              "yaw_deg": 158.30126195971178,
+              "increase_since_previous_logged_s": 0.7333333333333334
+            },
+            {
+              "tick": 8640,
+              "time_s": 144.0,
+              "range_m": 650.5434808196394,
+              "nose_deg": 1.8454733611347918,
+              "altitude_m": 1712.8768593569846,
+              "load": 0.8045579387292332,
+              "attack_s": 2.433333333333333,
+              "mode": "track",
+              "roll_deg": 35.780794629169385,
+              "pitch_deg": -1.0527532790692362,
+              "yaw_deg": 158.80513332757656,
+              "increase_since_previous_logged_s": 0.08333333333333304
+            },
+            {
+              "tick": 9240,
+              "time_s": 154.0,
+              "range_m": 646.6773362352545,
+              "nose_deg": 1.1760038008162925,
+              "altitude_m": 1473.300409780741,
+              "load": 1.8432203028844176,
+              "attack_s": 2.9833333333333334,
+              "mode": "track",
+              "roll_deg": 33.86730914743944,
+              "pitch_deg": -0.6981428936900359,
+              "yaw_deg": 213.83569530639713,
+              "increase_since_previous_logged_s": 0.5500000000000003
+            },
+            {
+              "tick": 11051,
+              "time_s": 184.18333333333334,
+              "range_m": 629.9379055370997,
+              "nose_deg": 0.9118505610810278,
+              "altitude_m": 781.3532542390645,
+              "load": 5.2275666302647235,
+              "attack_s": 3.0,
+              "mode": "recover",
+              "roll_deg": 28.65327549958145,
+              "pitch_deg": 0.25121168643778785,
+              "yaw_deg": 15.551689296225822,
+              "increase_since_previous_logged_s": 0.016666666666666607
+            }
+          ],
+          "first_logged_recover": {
+            "tick": 11040,
+            "time_s": 184.0,
+            "range_m": 628.6490335591354,
+            "nose_deg": 2.539160353052339,
+            "altitude_m": 784.3783618795753,
+            "load": 5.862526557945174,
+            "attack_s": 2.9833333333333334,
+            "mode": "recover",
+            "roll_deg": 40.46326471026044,
+            "pitch_deg": -1.7194429884197635,
+            "yaw_deg": 14.37471169074596
+          }
+        }
+      },
+      "aligned_examples": [
+        {
+          "time_s": 1.0,
+          "guide": {
+            "tick": 60,
+            "time_s": 1.0,
+            "range_m": 1876.836290543453,
+            "nose_deg": 101.06244078212278,
+            "altitude_m": 3684.3607801034154,
+            "load": 1.3904981976745503,
+            "attack_s": 0.0,
+            "mode": "intercept",
+            "roll_deg": 54.13754376786322,
+            "pitch_deg": 1.0907039941560006,
+            "yaw_deg": 289.0642439557509
+          },
+          "candidate": {
+            "tick": 60,
+            "time_s": 1.0,
+            "range_m": 1876.836290543453,
+            "nose_deg": 101.06244078212278,
+            "altitude_m": 3684.3607801034154,
+            "load": 1.3904981976745503,
+            "attack_s": 0.0,
+            "mode": "intercept",
+            "roll_deg": 54.13754376786322,
+            "pitch_deg": 1.0907039941560006,
+            "yaw_deg": 289.0642439557509
+          }
+        },
+        {
+          "time_s": 2.0,
+          "guide": {
+            "tick": 120,
+            "time_s": 2.0,
+            "range_m": 2004.5699845724134,
+            "nose_deg": 108.21128581894212,
+            "altitude_m": 3674.083925757301,
+            "load": 1.7939049472141197,
+            "attack_s": 0.0,
+            "mode": "intercept",
+            "roll_deg": 68.67810841617867,
+            "pitch_deg": 1.0664964786520659,
+            "yaw_deg": 293.94646735764525
+          },
+          "candidate": {
+            "tick": 120,
+            "time_s": 2.0,
+            "range_m": 2004.5699845724134,
+            "nose_deg": 108.21128581894212,
+            "altitude_m": 3674.083925757301,
+            "load": 1.7939049472141197,
+            "attack_s": 0.0,
+            "mode": "intercept",
+            "roll_deg": 68.67810841617867,
+            "pitch_deg": 1.0664964786520659,
+            "yaw_deg": 293.94646735764525
+          }
+        },
+        {
+          "time_s": 10.0,
+          "guide": {
+            "tick": 600,
+            "time_s": 10.0,
+            "range_m": 4026.6960542634174,
+            "nose_deg": 105.97112323102726,
+            "altitude_m": 3589.4920438443573,
+            "load": 2.6073931363447826,
+            "attack_s": 0.0,
+            "mode": "intercept",
+            "roll_deg": 69.66600519306888,
+            "pitch_deg": 2.6695304552861843,
+            "yaw_deg": 351.41482343225056
+          },
+          "candidate": {
+            "tick": 600,
+            "time_s": 10.0,
+            "range_m": 4026.6960542634174,
+            "nose_deg": 105.97112323102726,
+            "altitude_m": 3589.4920438443573,
+            "load": 2.6073931363447826,
+            "attack_s": 0.0,
+            "mode": "intercept",
+            "roll_deg": 69.66600519306888,
+            "pitch_deg": 2.6695304552861843,
+            "yaw_deg": 351.41482343225056
+          }
+        },
+        {
+          "time_s": 20.0,
+          "guide": {
+            "tick": 1200,
+            "time_s": 20.0,
+            "range_m": 6002.721901634566,
+            "nose_deg": 79.12690374931846,
+            "altitude_m": 3505.9944132922415,
+            "load": 2.2676388958253253,
+            "attack_s": 0.0,
+            "mode": "intercept",
+            "roll_deg": 69.5858984179492,
+            "pitch_deg": 1.7672433860898729,
+            "yaw_deg": 57.18342131475783
+          },
+          "candidate": {
+            "tick": 1200,
+            "time_s": 20.0,
+            "range_m": 6002.721901634566,
+            "nose_deg": 79.12690374931846,
+            "altitude_m": 3505.9944132922415,
+            "load": 2.2676388958253253,
+            "attack_s": 0.0,
+            "mode": "intercept",
+            "roll_deg": 69.5858984179492,
+            "pitch_deg": 1.7672433860898729,
+            "yaw_deg": 57.18342131475783
+          }
+        },
+        {
+          "time_s": 100.0,
+          "guide": {
+            "tick": 6000,
+            "time_s": 100.0,
+            "range_m": 829.0794211798778,
+            "nose_deg": 12.17961000736276,
+            "altitude_m": 2724.3540772122324,
+            "load": 1.1358849739997947,
+            "attack_s": 0.0,
+            "mode": "track",
+            "roll_deg": 4.785504323693397,
+            "pitch_deg": -1.7046240088364921,
+            "yaw_deg": 300.69177211616125
+          },
+          "candidate": {
+            "tick": 6000,
+            "time_s": 100.0,
+            "range_m": 811.8548280992371,
+            "nose_deg": 1.470925374809724,
+            "altitude_m": 2732.5239569124074,
+            "load": 0.5045833746395402,
+            "attack_s": 0.0,
+            "mode": "track",
+            "roll_deg": 46.54611273696879,
+            "pitch_deg": -2.262426606794879,
+            "yaw_deg": 296.95844561101916
+          }
+        },
+        {
+          "time_s": 170.0,
+          "guide": {
+            "tick": 10200,
+            "time_s": 170.0,
+            "range_m": 774.5008329282873,
+            "nose_deg": 26.57814510124281,
+            "altitude_m": 1228.3234259946407,
+            "load": 1.4239333709480724,
+            "attack_s": 0.0,
+            "mode": "track",
+            "roll_deg": 20.68097408249637,
+            "pitch_deg": 0.10452922367416342,
+            "yaw_deg": 25.85185268445519
+          },
+          "candidate": {
+            "tick": 10200,
+            "time_s": 170.0,
+            "range_m": 617.7205090964233,
+            "nose_deg": 13.245985951758064,
+            "altitude_m": 1132.153898741287,
+            "load": 2.3063785724876307,
+            "attack_s": 2.9833333333333334,
+            "mode": "track",
+            "roll_deg": 79.58075508004441,
+            "pitch_deg": -4.577629527361041,
+            "yaw_deg": 283.25167641305967
+          }
+        },
+        {
+          "time_s": 180.0,
+          "guide": {
+            "tick": 10800,
+            "time_s": 180.0,
+            "range_m": 783.0352507387878,
+            "nose_deg": 42.96411326953994,
+            "altitude_m": 1009.5486722698242,
+            "load": 3.149966726602585,
+            "attack_s": 0.0,
+            "mode": "track",
+            "roll_deg": -70.66566202867773,
+            "pitch_deg": -2.6801296788778095,
+            "yaw_deg": 346.5632726385592
+          },
+          "candidate": {
+            "tick": 10800,
+            "time_s": 180.0,
+            "range_m": 610.7524076801562,
+            "nose_deg": 11.914785073204497,
+            "altitude_m": 904.1681126027853,
+            "load": 1.9608284153383144,
+            "attack_s": 2.9833333333333334,
+            "mode": "track",
+            "roll_deg": 79.35992982520463,
+            "pitch_deg": -4.294748226540642,
+            "yaw_deg": 335.8237652399284
+          }
+        },
+        {
+          "time_s": 183.0,
+          "guide": {
+            "tick": 10980,
+            "time_s": 183.0,
+            "range_m": 842.0704729193837,
+            "nose_deg": 32.370524443859104,
+            "altitude_m": 947.6984034867436,
+            "load": 1.6835261976259914,
+            "attack_s": 0.0,
+            "mode": "track",
+            "roll_deg": -60.92722649604691,
+            "pitch_deg": -2.297406710774408,
+            "yaw_deg": 330.2173354800349
+          },
+          "candidate": {
+            "tick": 10980,
+            "time_s": 183.0,
+            "range_m": 622.0533287156435,
+            "nose_deg": 9.353071069411396,
+            "altitude_m": 813.8035291962058,
+            "load": 3.90686007866562,
+            "attack_s": 2.9833333333333334,
+            "mode": "track",
+            "roll_deg": 78.84994894273594,
+            "pitch_deg": -5.0568795227676855,
+            "yaw_deg": 1.4433509827925755
+          }
+        },
+        {
+          "time_s": 184.0,
+          "guide": {
+            "tick": 11040,
+            "time_s": 184.0,
+            "range_m": 811.0603038110776,
+            "nose_deg": 29.414866194867905,
+            "altitude_m": 927.6849089066595,
+            "load": 1.500408019497861,
+            "attack_s": 0.0,
+            "mode": "track",
+            "roll_deg": -27.800443522512456,
+            "pitch_deg": -2.132875535032299,
+            "yaw_deg": 328.92631162475607
+          },
+          "candidate": {
+            "tick": 11040,
+            "time_s": 184.0,
+            "range_m": 628.6490335591354,
+            "nose_deg": 2.539160353052339,
+            "altitude_m": 784.3783618795753,
+            "load": 5.862526557945174,
+            "attack_s": 2.9833333333333334,
+            "mode": "recover",
+            "roll_deg": 40.46326471026044,
+            "pitch_deg": -1.7194429884197635,
+            "yaw_deg": 14.37471169074596
+          }
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Two selected observed development pairs; not generalization or win-rate estimate.",
+    "Repeated terminal ACMI timestamps are accepted only when both poses are identical.",
+    "CSV about1Hz and ACMI0.5s; close-pass endpoints and first divergence are sampled, not exact onset or durations.",
+    "Uses authoritative logged judge nose angle for diagnosis only; no reconstruction from geodetic latitude and no policy input change.",
+    "Observed bank/pitch/yaw do not reveal actual target commands, trim or integrator state.",
+    "No counterfactual proves that adding angular eligibility restores lost kill."
+  ],
+  "decision": "Keep bank80 frozen for scheduled fresh development trial. Consider only afterward a single-factor angular eligibility experiment if repeated intercept regressions persist; do not mix pitch/trim/safety changes."
+}

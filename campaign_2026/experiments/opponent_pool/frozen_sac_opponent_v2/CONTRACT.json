@@ -1,0 +1,56 @@
+{
+  "created_utc": "2026-10-16T02:53:53.438563+00:00",
+  "source_sha256": {
+    "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\combat_v3\\interface.py": "50f63ee563a8cb13b9bb472b0de7905579bcc9c70bc69efc571681879eb02555",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\m4_tactical_v4\\m4_tactical_rl.py": "4475c8b94eee0ee94a17010004930b8ae286f0a6a299064dc34864e45ca0d1f7",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\m4_tactical_v4\\m1_station.py": "fcda220748b0a64413d10c987df850ea975d2925994b556157c62331e97795fc",
+    "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+    "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\combat_v3\\controller.py": "d772bf49a8d8408aaafec691c981d0612de7dada6450e0afcecbc3d958b7813b"
+  },
+  "models": {
+    "sac5000": {
+      "model_path": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_train_pilot_v1\\run_20261016_003919_a5c748\\cases\\fresh_sac_5000\\model.zip",
+      "model_sha256": "9f93eb56483558ad56283c00b1ba34af96a236583bc977ef7d9fad375d9a0fea",
+      "manifest_path": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_train_pilot_v1\\run_20261016_003919_a5c748\\BUNDLE_MANIFEST.json",
+      "manifest_sha256": "72ee3d82d4bd3c435f1f942d314cb85865f19a7c7ea7679725391508eedfd0ef"
+    },
+    "transfer10000": {
+      "model_path": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_actor_transfer_10k_v1\\run_20261016_102640_412524\\cases\\actor_transfer_10000\\model.zip",
+      "model_sha256": "6c7ceea74457557be60f4156313cf1d75ffff20196159ae8fe22a7809190c012",
+      "training_run": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_actor_transfer_10k_v1\\run_20261016_102640_412524",
+      "training_evidence_sha256": {
+        "VERIFICATION.json": "72d6a8440519cce916530acf0279c9ba07ce4c6750a987eb6ba060bbb87139ab",
+        "launcher_receipt.json": "6035df9047c3e0e8e2370b5a90c63c21d459e7cfc25819a615b84977f4cd240b",
+        "supervisor_exit.json": "ac6c60df1e87166cdb33ede85d59758b20ae9fde398af6779f1775dbda9744a0",
+        "guard.json": "1d6d979cb8e17dfcb64c19b8da4aa1ea3b71ebdf4c02066afda69f64578ec9b8",
+        "report.json": "6c7ab130c2ddc39bef088804b5ceafd4fb4fb0ea6b828e5a0efa0ff79f17acbb",
+        "launch.json": "ded692cdd5441da326533afe2c65d674c6c845d51f9da0682efdafabbffe2963",
+        "reservation.json": "687eff4dd7763f0d3a237c91f2f8066ebf8ce589e531943cc84cd719140c9408"
+      }
+    }
+  },
+  "model_provenance_freeze_path": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\MODEL_FREEZE.json",
+  "model_provenance_freeze_sha256": "a9451aa9ae671583dd54532a77e031eaf41cdb9713cb8e9a3b108d14cd3dcf1c",
+  "consumed_packet_values": 26,
+  "own_values": 20,
+  "enemy_values": 6,
+  "physics_hz": 60,
+  "decision_interval_ticks": 20,
+  "deployment_allowed": false,
+  "FDM_wiring_complete": false,
+  "learned_selfplay_verified": false,
+  "frozen_utc": "2026-10-16T02:58:25.071189+00:00",
+  "executor_sha256": {
+    "adapter.py": "e23e37b65d46bc601a79d30d2f213e1b8f524b17e64fc64685048635cf647398",
+    "factory.py": "22109b67b7924b615e807589f481b1976a61e6ca64013f4afb4448d31d55f838",
+    "packet_features.py": "7e43ee18ad962981b782c3d62841b0e91807729398c2724a46b3d33d91e26b34",
+    "test_adapter.py": "dbddff432f2117e59f24f3a2798f2f8b733225b523b090ca592ffb4ed5923ff8"
+  },
+  "readme_sha256": "b92dc967a5262b1cfbe97c53b1b2479e99d692518fbc3410c5c1f6b51253a203",
+  "completed_tick_contract": "0=reset,no attack; n>0 contiguous completed physical state then own attack count then decision if n%20==0 then exactly1act; cachedduplicates no mutation",
+  "real_station_or_model_inference_tested": false,
+  "synthetic_tests_only": true,
+  "first_FDM_frame_verified": false,
+  "revision": "v2: stable_baselines3 cold import moved inside Python/NumPy/Torch RNG restoration scope; no control math, model or packet changes",
+  "parent_contract_sha256": "f01a6efe10dcff42500810ab57df7cdd11591c95f14864ed2a3ceecd4e766f0e"
+}

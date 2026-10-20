@@ -1,0 +1,16 @@
+test_attack_threshold_does_not_relabel_crash_win (__main__.ContractTests) ... ok
+test_callback_counts_done_and_best_ticks_in_actual_on_step (__main__.ContractTests) ... ok
+test_corrected_parent_receives_only_zero_residual_and_one_call (__main__.ContractTests) ... ok
+test_empty_or_unknown_pool_rejected (__main__.ContractTests) ... ok
+test_guard_observation_and_post_step_g_follow_actual_tick (__main__.ContractTests) ... ok
+test_invalid_action_rejected_before_any_control_call (__main__.ContractTests) ... ok
+test_judge_counter_used_instead_of_second_geometry_counter (__main__.ContractTests) ... ok
+test_original_double_calls_reproduced_at_boundary (__main__.ContractTests) ... ok
+test_parent_shaping_reward_is_not_silently_added (__main__.ContractTests) ... ok
+test_pool_rotates_on_reset_and_explicit_seed_reproduces (__main__.ContractTests) ... ok
+test_reset_clears_mirror_controller_and_guard_memory (__main__.ContractTests) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.031s
+
+OK

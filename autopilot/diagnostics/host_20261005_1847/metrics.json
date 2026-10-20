@@ -1,0 +1,153 @@
+{
+  "source_csv": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\飛行競賽Host端Record_20261005_1847.csv",
+  "source_sha256": "603e1f7310af2b6d600fa9ffa91804fd4f19cbca1ed5f6f4936735967c0c93fe",
+  "rows": 18002,
+  "first_time_s": 0.033,
+  "last_time_s": 300.05,
+  "time_remaining_final": 0.0,
+  "winner_code_final": 1.0,
+  "winner_code_mapping": "Not verified from official documentation; do not infer a named winner from this field alone.",
+  "initial": {
+    "range_ft_tangent_plane": 8198.915393664216,
+    "range_method": "short-range tangent plane, radius 6378137m, mean-latitude cosine; not the unavailable official Host distance implementation",
+    "p1_to_p2_bearing_deg": 212.52264181524,
+    "p1_yaw_deg": 302.9999741262444,
+    "p2_yaw_deg": 123.00002585168359,
+    "p1_nose_angle_deg": 90.47733231030665,
+    "p2_nose_angle_deg": 90.47738403567843,
+    "p1_altitude_ft": 15327.992159124464,
+    "p2_altitude_ft": 15327.992246106267,
+    "p1_ias_kts": 339.85157721857775,
+    "p2_ias_kts": 339.8515763888822
+  },
+  "range_window_s_at_60hz": 62.93333333333333,
+  "players": {
+    "1": {
+      "hp_initial": 180.0,
+      "hp_final": 180.0,
+      "damage_inflicted_ticks": 125.0,
+      "official_score_kills_field_final": 2.0833333333333335,
+      "damage_equivalent_seconds": 2.0833333333333335,
+      "score_equals_hp_damage_div_60_max_error": 0.0,
+      "seconds_short_of_3s_damage_threshold": 0.9166666666666666,
+      "observed_damage_intervals": [
+        {
+          "start_s": 202.333,
+          "last_sample_s": 202.5,
+          "ticks": 11,
+          "seconds_at_60hz": 0.18333333333333332
+        },
+        {
+          "start_s": 268.4,
+          "last_sample_s": 269.4,
+          "ticks": 61,
+          "seconds_at_60hz": 1.0166666666666666
+        },
+        {
+          "start_s": 275.5,
+          "last_sample_s": 276.133,
+          "ticks": 39,
+          "seconds_at_60hz": 0.65
+        },
+        {
+          "start_s": 290.9,
+          "last_sample_s": 291.117,
+          "ticks": 14,
+          "seconds_at_60hz": 0.23333333333333334
+        }
+      ],
+      "geometry_attack_s_at_60hz_diagnostic": 12.716666666666667,
+      "geometry_vs_damage_mask_disagreements": 638,
+      "angle_le_5deg_in_range_s": 20.983333333333334,
+      "angle_le_10deg_in_range_s": 36.083333333333336,
+      "median_nose_error_deg_in_range": 8.168118158852515,
+      "min_altitude_ft": 12220.116877131164,
+      "max_abs_bank_deg": 72.6119298579185,
+      "yaw_unwrapped_travel_deg": 733.988153802981,
+      "final_advantage_field": 34526.37504333498,
+      "gforce_overload_field_final": 0.0,
+      "threshold_checks_deg": {
+        "0.5": {
+          "geometry_seconds": 0.0,
+          "disagreements_with_actual_damage": 125,
+          "actual_damage_outside_prediction": 125
+        },
+        "1.0": {
+          "geometry_seconds": 2.0833333333333335,
+          "disagreements_with_actual_damage": 0,
+          "actual_damage_outside_prediction": 0
+        },
+        "1.5": {
+          "geometry_seconds": 8.8,
+          "disagreements_with_actual_damage": 403,
+          "actual_damage_outside_prediction": 0
+        },
+        "2.0": {
+          "geometry_seconds": 12.716666666666667,
+          "disagreements_with_actual_damage": 638,
+          "actual_damage_outside_prediction": 0
+        },
+        "5.0": {
+          "geometry_seconds": 20.983333333333334,
+          "disagreements_with_actual_damage": 1134,
+          "actual_damage_outside_prediction": 0
+        }
+      }
+    },
+    "2": {
+      "hp_initial": 180.0,
+      "hp_final": 55.0,
+      "damage_inflicted_ticks": 0.0,
+      "official_score_kills_field_final": 0.0,
+      "damage_equivalent_seconds": 0.0,
+      "score_equals_hp_damage_div_60_max_error": 0.0,
+      "seconds_short_of_3s_damage_threshold": 3.0,
+      "observed_damage_intervals": [],
+      "geometry_attack_s_at_60hz_diagnostic": 0.0,
+      "geometry_vs_damage_mask_disagreements": 0,
+      "angle_le_5deg_in_range_s": 0.0,
+      "angle_le_10deg_in_range_s": 0.0,
+      "median_nose_error_deg_in_range": 173.66072729343733,
+      "min_altitude_ft": 15046.491066657007,
+      "max_abs_bank_deg": 59.811803339065754,
+      "yaw_unwrapped_travel_deg": 483.6135562638392,
+      "final_advantage_field": 1563.2950551890258,
+      "gforce_overload_field_final": 0.0,
+      "threshold_checks_deg": {
+        "0.5": {
+          "geometry_seconds": 0.0,
+          "disagreements_with_actual_damage": 0,
+          "actual_damage_outside_prediction": 0
+        },
+        "1.0": {
+          "geometry_seconds": 0.0,
+          "disagreements_with_actual_damage": 0,
+          "actual_damage_outside_prediction": 0
+        },
+        "1.5": {
+          "geometry_seconds": 0.0,
+          "disagreements_with_actual_damage": 0,
+          "actual_damage_outside_prediction": 0
+        },
+        "2.0": {
+          "geometry_seconds": 0.0,
+          "disagreements_with_actual_damage": 0,
+          "actual_damage_outside_prediction": 0
+        },
+        "5.0": {
+          "geometry_seconds": 0.0,
+          "disagreements_with_actual_damage": 0,
+          "actual_damage_outside_prediction": 0
+        }
+      }
+    }
+  },
+  "p2_log": {
+    "random_level_flight_pid_boot_message_present": true,
+    "observed_modes": [
+      "Straight",
+      "Turn Left",
+      "Turn Right"
+    ]
+  }
+}

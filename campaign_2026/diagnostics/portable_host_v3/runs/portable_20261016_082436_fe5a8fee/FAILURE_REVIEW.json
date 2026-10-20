@@ -1,0 +1,145 @@
+{
+  "observed_utc": "2026-10-16T00:32:42.825618+00:00",
+  "raw_complete_Host_round": true,
+  "raw_rows": 10384,
+  "raw_sim_seconds": 173.083,
+  "raw_host_winner": "1.0",
+  "actual_collector_exit": 2,
+  "actual_watchdog_exit": 2,
+  "actual_exit_observer_shell_exit": 1,
+  "actual_exit_observer_tool_chunk": "8eeeac",
+  "artifact_checks_except_inventory_passed": true,
+  "reason": "Official cached GUI spawned taskkill.exe /PID7396 /T /F for its own recorded direct internal-P2; helper not in v3 prelaunch executable snapshots, so descendants_unknown rejected completeness",
+  "new_eligible_packaged_rounds": 0,
+  "no_reclassification_after_fix": true,
+  "original_identity_audit": [
+    {
+      "identity": {
+        "pid": 3364,
+        "create_time": 1792110282.512767,
+        "command": [
+          "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe"
+        ],
+        "exe": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe",
+        "parent_pid": 19708
+      },
+      "state": "absent"
+    },
+    {
+      "identity": {
+        "pid": 20464,
+        "create_time": 1792110286.7278836,
+        "command": [
+          "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+          "-I",
+          "-S",
+          "-B",
+          "-X",
+          "utf8",
+          "-u",
+          "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\tools\\player.py",
+          "--guide",
+          "--network",
+          "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\network.json",
+          "--max-seconds",
+          "720"
+        ],
+        "exe": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+        "parent_pid": 19708
+      },
+      "state": "absent"
+    },
+    {
+      "identity": {
+        "pid": 12632,
+        "create_time": 1792110286.7468483,
+        "command": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent_pid": 20464
+      },
+      "state": "absent"
+    },
+    {
+      "identity": {
+        "pid": 7180,
+        "create_time": 1792110298.9322188,
+        "command": [
+          "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe"
+        ],
+        "exe": "C:\\Users\\USER\\AppData\\Local\\JSBsimHost_1_0_0_0\\JSB_host_GUI_publish.exe",
+        "parent_pid": 3364
+      },
+      "state": "absent"
+    },
+    {
+      "identity": {
+        "pid": 7396,
+        "create_time": 1792110328.6540365,
+        "command": [
+          "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe",
+          "--internal-player2"
+        ],
+        "exe": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe",
+        "parent_pid": 7180
+      },
+      "state": "absent"
+    },
+    {
+      "identity": {
+        "pid": 14680,
+        "create_time": 1792110329.5350788,
+        "command": [
+          "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe",
+          "--internal-player2"
+        ],
+        "exe": "C:\\Users\\USER\\AppData\\Local\\JSBsimHost_1_0_0_0\\JSB_host_GUI_publish.exe",
+        "parent_pid": 7396
+      },
+      "state": "absent"
+    },
+    {
+      "identity": {
+        "pid": 19708,
+        "create_time": 1792110276.8828807,
+        "command": [
+          "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+          "-I",
+          "-S",
+          "-B",
+          "-X",
+          "utf8",
+          "-u",
+          "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v3\\portable_host.py",
+          "watchdog",
+          "--folder",
+          "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v3\\runs\\portable_20261016_082436_fe5a8fee"
+        ],
+        "exe": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+        "parent_pid": 2708
+      },
+      "state": "absent"
+    },
+    {
+      "identity": {
+        "pid": 18088,
+        "create_time": 1792110525.6738741,
+        "command": [
+          "taskkill.exe",
+          "/PID",
+          "7396",
+          "/T",
+          "/F"
+        ],
+        "exe": "C:\\Windows\\System32\\taskkill.exe",
+        "parent_pid": 7180
+      },
+      "state": "absent"
+    }
+  ],
+  "all_original_identities_absent_or_reused": true,
+  "next_version": "portable_host_v4",
+  "new_host_runs_in_v4": 0
+}

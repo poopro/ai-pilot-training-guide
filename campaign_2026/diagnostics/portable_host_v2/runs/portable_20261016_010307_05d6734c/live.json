@@ -1,0 +1,3898 @@
+{
+  "status": "armed",
+  "token": "portable_20261016_010307_05d6734c",
+  "profile": "portable_repair_guide_rehearsal_v2",
+  "identity": {
+    "pid": 6384,
+    "create_time": 1792083787.6440256,
+    "command": [
+      "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+      "-I",
+      "-S",
+      "-B",
+      "-X",
+      "utf8",
+      "-u",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v2\\portable_host.py",
+      "watchdog",
+      "--folder",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v2\\runs\\portable_20261016_010307_05d6734c"
+    ],
+    "exe": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+    "parent_pid": 11460
+  },
+  "folder": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v2\\runs\\portable_20261016_010307_05d6734c",
+  "deadline_epoch": 1792084507.6293173,
+  "deadline_monotonic": 99553.828,
+  "tracked": {
+    "24896:1792083793.699503": {
+      "role": "host_root",
+      "identity": {
+        "pid": 24896,
+        "create_time": 1792083793.6995032,
+        "command": [
+          "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe"
+        ],
+        "exe": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe",
+        "parent_pid": 6384
+      },
+      "last_state": "same_process"
+    },
+    "20948:1792083795.942640": {
+      "role": "player_root",
+      "identity": {
+        "pid": 20948,
+        "create_time": 1792083795.9426396,
+        "command": [
+          "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+          "-I",
+          "-S",
+          "-B",
+          "-X",
+          "utf8",
+          "-u",
+          "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\tools\\player.py",
+          "--guide",
+          "--network",
+          "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\network.json",
+          "--max-seconds",
+          "720"
+        ],
+        "exe": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+        "parent_pid": 6384
+      },
+      "last_state": "same_process",
+      "descendants_unknown": true,
+      "unrecognized_owned_children": [
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        },
+        {
+          "pid": 6396,
+          "create_time": 1792083795.95425,
+          "command": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent_pid": 20948
+        }
+      ]
+    },
+    "10720:1792083809.927850": {
+      "role": "owned_cached_gui",
+      "identity": {
+        "pid": 10720,
+        "create_time": 1792083809.9278502,
+        "command": [
+          "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe"
+        ],
+        "exe": "C:\\Users\\USER\\AppData\\Local\\JSBsimHost_1_0_0_0\\JSB_host_GUI_publish.exe",
+        "parent_pid": 24896
+      },
+      "discovered_from": "24896:1792083793.699503",
+      "observed_utc": "2026-10-15T17:03:30.146157+00:00",
+      "parent_identity_at_observation": {
+        "pid": 24896,
+        "create_time": 1792083793.6995032,
+        "command": [
+          "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe"
+        ],
+        "exe": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe",
+        "parent_pid": 6384
+      },
+      "direct_link_observed": true,
+      "executable_snapshot": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v2\\runs\\portable_20261016_010307_05d6734c\\cachedHost_executable.bin",
+      "executable_sha256": "00d29bf4ae4b98ad97211076320953bc27c436b6a9bcc680c731172304162a44",
+      "snapshot_phase": "before_host_Popen",
+      "last_state": "same_process"
+    },
+    "16016:1792083840.301178": {
+      "role": "owned_host_descendant",
+      "identity": {
+        "pid": 16016,
+        "create_time": 1792083840.3011785,
+        "command": [
+          "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe",
+          "--internal-player2"
+        ],
+        "exe": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe",
+        "parent_pid": 10720
+      },
+      "discovered_from": "10720:1792083809.927850",
+      "observed_utc": "2026-10-15T17:04:01.157202+00:00",
+      "parent_identity_at_observation": {
+        "pid": 10720,
+        "create_time": 1792083809.9278502,
+        "command": [
+          "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe"
+        ],
+        "exe": "C:\\Users\\USER\\AppData\\Local\\JSBsimHost_1_0_0_0\\JSB_host_GUI_publish.exe",
+        "parent_pid": 24896
+      },
+      "direct_link_observed": true,
+      "executable_snapshot": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v2\\runs\\portable_20261016_010307_05d6734c\\JSB_host_GUI_publish.exe",
+      "executable_sha256": "635b0ca956695a74e662f7f3a91e50d17ddeffb6e6be468ed8b916d305c19013",
+      "snapshot_phase": "before_host_Popen",
+      "last_state": "same_process"
+    },
+    "12336:1792083841.025256": {
+      "role": "owned_cached_internal_p2",
+      "identity": {
+        "pid": 12336,
+        "create_time": 1792083841.025256,
+        "command": [
+          "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe",
+          "--internal-player2"
+        ],
+        "exe": "C:\\Users\\USER\\AppData\\Local\\JSBsimHost_1_0_0_0\\JSB_host_GUI_publish.exe",
+        "parent_pid": 16016
+      },
+      "discovered_from": "16016:1792083840.301178",
+      "observed_utc": "2026-10-15T17:04:01.269017+00:00",
+      "parent_identity_at_observation": {
+        "pid": 16016,
+        "create_time": 1792083840.3011785,
+        "command": [
+          "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe",
+          "--internal-player2"
+        ],
+        "exe": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe",
+        "parent_pid": 10720
+      },
+      "direct_link_observed": true,
+      "executable_snapshot": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v2\\runs\\portable_20261016_010307_05d6734c\\cachedHost_executable.bin",
+      "executable_sha256": "00d29bf4ae4b98ad97211076320953bc27c436b6a9bcc680c731172304162a44",
+      "snapshot_phase": "before_host_Popen",
+      "last_state": "same_process"
+    }
+  },
+  "observed_utc": "2026-10-15T17:05:08.408950+00:00"
+}

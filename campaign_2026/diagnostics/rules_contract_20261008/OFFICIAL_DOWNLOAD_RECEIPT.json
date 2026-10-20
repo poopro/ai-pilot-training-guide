@@ -1,0 +1,43 @@
+{
+  "observed_utc": "2026-10-15T15:48:41.739615+00:00",
+  "url": "https://www.defense-ai.tw/contest-materials/aiPilot/download",
+  "headers": {
+    "Content-Type": "application/zip",
+    "Content-Length": "27618830"
+  },
+  "retrieved_archive_prefix_bytes": 27618734,
+  "first_member_zip_sha256": "458223858092ba4226ecf9d23639fe4e7fb705713b555c61929cf6f5ba3a6ede",
+  "outer_member_crc_verified": true,
+  "nested_zip_crc_verified": true,
+  "entries": [
+    {
+      "name": "AI空戰競賽系統安裝及測試指引.zip",
+      "size": 26244272
+    },
+    {
+      "name": "報名文件/",
+      "size": 0
+    },
+    {
+      "name": "報名文件/個人資料蒐集、處理或利用同意書_1150908.pdf",
+      "size": 176429,
+      "local_file": "E:\\ai_pilot\\campaign_2026\\diagnostics\\rules_contract_20261008\\official_download_2.pdf"
+    },
+    {
+      "name": "報名文件/參賽同意書_1150909v2.pdf",
+      "size": 195276,
+      "local_file": "E:\\ai_pilot\\campaign_2026\\diagnostics\\rules_contract_20261008\\official_download_3.pdf"
+    },
+    {
+      "name": "2026 AI空戰競賽活動辦法_1150909.pdf",
+      "size": 137417,
+      "local_file": "E:\\ai_pilot\\campaign_2026\\diagnostics\\rules_contract_20261008\\official_download_4.pdf"
+    },
+    {
+      "name": "AI空戰飛行競賽公告文件_1008.pdf",
+      "size": 1038644,
+      "local_file": "E:\\ai_pilot\\campaign_2026\\diagnostics\\rules_contract_20261008\\official_download_5.pdf"
+    }
+  ],
+  "executed_downloaded_code": false
+}

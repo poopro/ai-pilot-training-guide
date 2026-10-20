@@ -1,0 +1,21 @@
+{
+  "status": "completed",
+  "supervisor": {
+    "pid": 16272,
+    "create_time": 1791910071.1162677,
+    "cmdline": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\overload_60hz\\launch_diagnostic.py",
+      "run",
+      "--job",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\overload_60hz\\run_20261014_004750_fdbe"
+    ],
+    "parent_pid": 20324
+  },
+  "worker": null,
+  "case_id": "r000_rl_6000_mirrored_2026101311_candidate",
+  "finished_epoch": 1791910184.5676868
+}

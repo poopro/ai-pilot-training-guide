@@ -1,0 +1,1 @@
+{"id": "15_b_baseline_vs_sac314", "script": "rollout_sac.py", "args": ["eval", "--opponents", "sac314", "--n", "12", "--workers", "3", "--seed0", "900000", "--out", "runs/eval_baseline_sac314"], "exit_code": 0, "reason": null, "seconds": 84.3}

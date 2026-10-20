@@ -1,0 +1,107 @@
+{
+  "job_id": "job_20261012_184123_68be",
+  "job_dir": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be",
+  "status": "preparing",
+  "phase": "準備啟動",
+  "started_epoch": 1791801683.7165139,
+  "deadline_epoch": 1791816083.7165139,
+  "training_deadline_epoch": 1791814283.7165139,
+  "deadline_taipei": "2026-10-12T22:41:23.716514+08:00",
+  "decision_budget": 150000,
+  "segment_decisions": 50000,
+  "new_decisions": 0,
+  "initial_bundle": "E:\\ai_pilot\\autopilot\\combat_fix\\training\\run_20261006_192453_c95b\\final_0000024000",
+  "last_bundle": "E:\\ai_pilot\\autopilot\\combat_fix\\training\\run_20261006_192453_c95b\\final_0000024000",
+  "source_sha256": {
+    "runner": {
+      "path": "E:\\ai_pilot\\campaign_2026\\runner.py",
+      "sha256": "e992a28ec5f8ce0da47bb52c1fc2ae5c2a63dffe7b47457e7af3fa02022468eb"
+    },
+    "benchmark": {
+      "path": "E:\\ai_pilot\\campaign_2026\\benchmark.py",
+      "sha256": "9b351910b28b3057eadabca4cddb4e734aa6678937ce9f900903e7ec36bfb3de"
+    },
+    "repair/artifacts.py": {
+      "path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\artifacts.py",
+      "sha256": "938c184366b55843e59250e2d1b544c10ebb67daca451e2701e8e631c7fd041e"
+    },
+    "repair/controller.py": {
+      "path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+      "sha256": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f"
+    },
+    "repair/env.py": {
+      "path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\env.py",
+      "sha256": "8bb9078809d28ab2117abc3b928c138acf1da1dc4442e69de4c4632d8c3c9607"
+    },
+    "repair/evaluate.py": {
+      "path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\evaluate.py",
+      "sha256": "4d9d70d241f8629562bd21ba38b92782a2a25960199c944f1bcd2b36c2a63d8e"
+    },
+    "repair/player.py": {
+      "path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\player.py",
+      "sha256": "28571c396ef067bbd01f8fb6f41763cb41e2a2c9c001e7bf3114da81677cd825"
+    },
+    "repair/train.py": {
+      "path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\train.py",
+      "sha256": "1c009fa225446866ab5c78fdbd2201761215415cbf6a1cacda4bd0fcffe9aee6"
+    },
+    "repair/verify_saved.py": {
+      "path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\verify_saved.py",
+      "sha256": "077eb73d42eedb5efc0f441471334d09692c0d148269abd4023c1701f1961d7c"
+    },
+    "repair/verify_udp.py": {
+      "path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\verify_udp.py",
+      "sha256": "6494856c12649ccbe1b75907df3fc05e332fb02c77d5ec36dd539a545f9d1f4a"
+    },
+    "dependency/repair/controller.py": {
+      "path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+      "sha256": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f"
+    },
+    "dependency/repair/env.py": {
+      "path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\env.py",
+      "sha256": "8bb9078809d28ab2117abc3b928c138acf1da1dc4442e69de4c4632d8c3c9607"
+    },
+    "dependency/lab/duel_lab.py": {
+      "path": "E:\\ai_pilot\\autopilot\\opponent_lab\\duel_lab.py",
+      "sha256": "9f358a7a04b09728199ac33de120146e3aa0bcbb37fe18dbae2a2b5a7cfcb9a6"
+    },
+    "dependency/base/combat_v3/env.py": {
+      "path": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\combat_v3\\env.py",
+      "sha256": "4b4e91dd8168517039ed7092a0536dcefd5297582c4f3722be8d7ca5d3b9d7b4"
+    },
+    "dependency/base/combat_v3/controller.py": {
+      "path": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\combat_v3\\controller.py",
+      "sha256": "d772bf49a8d8408aaafec691c981d0612de7dada6450e0afcecbc3d958b7813b"
+    },
+    "dependency/base/combat_v3/interface.py": {
+      "path": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\combat_v3\\interface.py",
+      "sha256": "50f63ee563a8cb13b9bb472b0de7905579bcc9c70bc69efc571681879eb02555"
+    },
+    "dependency/base/combat_v3/fdm.py": {
+      "path": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\combat_v3\\fdm.py",
+      "sha256": "c59e705d248f1678f64ba6788639260c739a1b1a6e8f6830d62e4a11f3a1dba6"
+    },
+    "dependency/base/combat_v3/rules.py": {
+      "path": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\combat_v3\\rules.py",
+      "sha256": "40857e278e8f3902fc9e8c39acf0aebb7bc8e02fafb9627a3f5561512a2f4e05"
+    },
+    "dependency/base/combat_v3/config.json": {
+      "path": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\combat_v3\\config.json",
+      "sha256": "d4fba053617240e07ffc67fe389d944313ba12dff491e569a0ae764e0f7b88ec"
+    },
+    "dependency/base/envs/jsbsimEnv/jsbsimFdm.py": {
+      "path": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\envs\\jsbsimEnv\\jsbsimFdm.py",
+      "sha256": "6d193634ccaff77db6f3d1e248b2276c4a7177c47dbfa82fd466154b67d8c541"
+    }
+  },
+  "poll_seconds": 20,
+  "stall_seconds": 600,
+  "save_grace_seconds": 180,
+  "stages": [],
+  "evaluations": [],
+  "retries": 0,
+  "supervisor": null,
+  "child": null,
+  "candidate_gate": "review_pending",
+  "official_validation": false
+}

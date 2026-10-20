@@ -1,0 +1,12 @@
+{
+  "status": "static_AST_only_no_new_FDM",
+  "physics_worker_AST_unchanged": true,
+  "guard_AST_unchanged": true,
+  "actor_unchanged": true,
+  "proposed_seed": 2026300100,
+  "planned_games": 4,
+  "planned_pairs": 2,
+  "hard_wall_seconds": 240,
+  "training_started": false,
+  "deployment_allowed": false
+}

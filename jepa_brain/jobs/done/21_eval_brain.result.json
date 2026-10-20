@@ -1,0 +1,1 @@
+{"id": "21_eval_brain", "script": "rollout.py", "args": ["eval", "--n", "12", "--workers", "3", "--seed0", "900000", "--model", "brain_v1.pt", "--out", "runs/eval_brain_v1"], "exit_code": 0, "reason": null, "seconds": 1116.1}

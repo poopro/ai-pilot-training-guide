@@ -1,0 +1,34 @@
+{
+  "identity": {
+    "pid": 7556,
+    "create_time": 1792115046.2888224,
+    "command": [
+      "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+      "-I",
+      "-S",
+      "-B",
+      "-X",
+      "utf8",
+      "-u",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\portable_host.py",
+      "watchdog",
+      "--folder",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\runs\\portable_20261016_094406_3a3b7d3a"
+    ],
+    "exe": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+    "parent_pid": 20560
+  },
+  "command": [
+    "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+    "-I",
+    "-S",
+    "-B",
+    "-X",
+    "utf8",
+    "-u",
+    "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\portable_host.py",
+    "watchdog",
+    "--folder",
+    "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\runs\\portable_20261016_094406_3a3b7d3a"
+  ]
+}

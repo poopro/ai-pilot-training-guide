@@ -1,0 +1,1 @@
+{"script": "rollout_bfm.py", "args": ["eval", "--arms", "base_t3,tuned", "--workers", "3", "--n", "12", "--seed0", "1000000", "--opponents", "lead,mix,breaker,level,sac314", "--out", "runs/val_rest"], "max_minutes": 60}

@@ -1,0 +1,23 @@
+{
+  "profile": "portable_repair_guide_rehearsal_v3",
+  "created_utc": "2026-10-16T00:24:09.546219+00:00",
+  "files_sha256": {
+    "portable_host.py": "4fe563841d5e020053a9671e2d800a1702f7f58114eefe049bb11db1d411be03",
+    "p2_terminal_evidence.py": "5e7f9fc20e8732b0959997af9e18814066eeb30d31a1d9538841f62ee9cf8db1",
+    "vendor/psutil/__init__.py": "7b6a0675824eb1fa2ff0cb1eb36e358dc454703e51dfa4e9a0e6ccd26a159f0c",
+    "vendor/psutil/_common.py": "6fc6bf5f86491ba962521374472570238929003cebea8e9b6c55224084b52bb0",
+    "vendor/psutil/_ntuples.py": "96f42bc24549636b5707a949b7cc92e89c87f7cea7d343a6d17821ac670dfcd2",
+    "vendor/psutil/_psaix.py": "a51e0031f92ba5dab84f7750a0315e41b4b0bba545b6e62a8fb5d357dc8a0346",
+    "vendor/psutil/_psbsd.py": "68de935cb6556674a09f6106b36d70c18c4cc82ed9f8236b895ad98d869c33aa",
+    "vendor/psutil/_pslinux.py": "571c6cd7919971df4c1381cfd514808ff934f7f7fc79c312b52278fcd0c7dd10",
+    "vendor/psutil/_psosx.py": "c766ad9002385269c313afb8a1fa883364e1f951b46b54dde72a8de4896d85fc",
+    "vendor/psutil/_psposix.py": "3bad08a5eaec4e081fce822e1c4a3f95b1d54d9d0b0d5ca31583fbcdc7574809",
+    "vendor/psutil/_pssunos.py": "5b9be0b2790a0313c68f52a7a730aa15dd9f467ed0f849f79ec73d92b4c3a147",
+    "vendor/psutil/_psutil_windows.pyd": "0035450801bd7d938e9e146c5ec28e619cb5a5f4a18cdc53ac7e9734c7f94f78",
+    "vendor/psutil/_pswindows.py": "0bbd52dcb214735be4168d11a2ae192d5bc7265c8cf72c611179476479687f54",
+    "vendor/psutil_license/LICENSE": "c7adc4d5d1337a548b967421f1fbe258b93033a0417708fd6f4e38f8ecbceb80",
+    "vendor/psutil_license/METADATA": "a263a40220d921d9cb963fc636d34f817aa2eb72c2696e3e3465d088cdb1976b"
+  },
+  "stage": "static_validation_pending",
+  "host_runs_completed": 0
+}

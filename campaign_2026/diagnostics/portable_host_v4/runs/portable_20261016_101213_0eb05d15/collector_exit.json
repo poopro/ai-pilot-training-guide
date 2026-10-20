@@ -1,0 +1,39 @@
+{
+  "command": [
+    "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+    "-I",
+    "-S",
+    "-B",
+    "-X",
+    "utf8",
+    "-u",
+    "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\portable_host.py",
+    "collect",
+    "--folder",
+    "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\runs\\portable_20261016_101213_0eb05d15"
+  ],
+  "identity": {
+    "pid": 11768,
+    "create_time": 1792116952.6816213,
+    "command": [
+      "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+      "-I",
+      "-S",
+      "-B",
+      "-X",
+      "utf8",
+      "-u",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\portable_host.py",
+      "collect",
+      "--folder",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\runs\\portable_20261016_101213_0eb05d15"
+    ],
+    "exe": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+    "parent_pid": 7032
+  },
+  "actual_exit_code": 0,
+  "started_utc": "2026-10-16T02:15:52.703485+00:00",
+  "exited_utc": "2026-10-16T02:16:01.059775+00:00",
+  "collector_source_sha256": "7c978152d0fc2694f44e1dc236c7f47aa32a0bc6a3e233d75860647a9c16c784",
+  "input_sha256": "ff6adafc764f785f78aeec94f202212867c7d1205254e892422f3ea7e95f9f67"
+}

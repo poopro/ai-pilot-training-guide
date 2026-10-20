@@ -1,0 +1,19 @@
+{
+  "identity": {
+    "pid": 2892,
+    "creation_epoch": 1791981949.6035016,
+    "cmdline": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\v5\\run_smoke.py",
+      "--worker",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\v5\\run_20261014_204421_9a31c4\\cases\\smoke_repair_guide_3000_mirrored_2026102720\\input.json"
+    ]
+  },
+  "actual_worker_exit_code": 0,
+  "case_id": "smoke_repair_guide_3000_mirrored_2026102720",
+  "input_sha256": "b150c8c22327acf349dd1032c63b5193c17046379581ed8e74a13e3595dc40bd",
+  "result_sha256": "ff90f6e48a5ab269bfe71a558f5df767de3a1be58a8029aa4d7e1c47f5340946"
+}

@@ -1,0 +1,148 @@
+{
+  "format": "smoke_executor_v5_preparation_audit",
+  "created_utc": "2026-10-14T12:39:58.700763+00:00",
+  "tests_command": [
+    "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\v5",
+    "-p",
+    "test_*.py",
+    "-v"
+  ],
+  "tests_actual_exit_code": 0,
+  "test_count": 28,
+  "tests_log_sha256": "a0079c3377391a092e0ea95383a8c5eff519ff4d988dec39b8b24b203010ca8c",
+  "test_scope": "20 inherited fault injections plus 8 mode/plan/gate equivalence checks; no FDM or actual workload termination",
+  "check_command": [
+    "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\v5\\launch_smoke.py",
+    "--check-only",
+    "--seed",
+    "2026102700"
+  ],
+  "check_actual_exit_code": 0,
+  "check_stdout": "{\"resources\": {\"available_ram_bytes\": 7316668416, \"free_disk_bytes\": 208816066560}, \"seeds\": {\"requested\": [2026102700, 2026102701, 2026102702, 2026102710, 2026102711, 2026102712, 2026102720, 2026102721, 2026102722, 2026102730, 2026102731, 2026102732], \"observed_or_attempted_collisions\": [], \"holdout_collisions\": [], \"fresh_relative_to_registry\": true, \"seed_trials_claimed\": 0, \"seed_role\": \"planned_development_diagnostic_not_holdout\"}, \"occupied\": [{\"pid\": 6696, \"creation_epoch\": 1791981541.7933545, \"cmdline\": [\"E:\\\\ai_pilot\\\\campaign_2026\\\\deployment\\\\repair_guide_portable_20261012\\\\runtime\\\\python.exe\", \"-I\", \"-S\", \"-B\", \"-X\", \"utf8\", \"E:\\\\ai_pilot\\\\campaign_2026\\\\diagnostics\\\\portable_host_v1\\\\portable_host.py\", \"observe-watchdog\", \"--folder\", \"E:\\\\ai_pilot\\\\campaign_2026\\\\diagnostics\\\\portable_host_v1\\\\runs\\\\portable_20261014_203837_2976b892\"]}, {\"pid\": 8208, \"creation_epoch\": 1791981517.4078307, \"cmdline\": [\"E:\\\\ai_pilot\\\\campaign_2026\\\\deployment\\\\repair_guide_portable_20261012\\\\runtime\\\\python.exe\", \"-I\", \"-S\", \"-B\", \"-X\", \"utf8\", \"-u\", \"E:\\\\ai_pilot\\\\campaign_2026\\\\diagnostics\\\\portable_host_v1\\\\portable_host.py\", \"watchdog\", \"--folder\", \"E:\\\\ai_pilot\\\\campaign_2026\\\\diagnostics\\\\portable_host_v1\\\\runs\\\\portable_20261014_203837_2976b892\"]}, {\"pid\": 13676, \"creation_epoch\": 1791981525.909881, \"cmdline\": [\"E:\\\\ai_pilot\\\\campaign_2026\\\\deployment\\\\repair_guide_portable_20261012\\\\runtime\\\\python.exe\", \"-I\", \"-S\", \"-B\", \"-X\", \"utf8\", \"-u\", \"E:\\\\ai_pilot\\\\campaign_2026\\\\deployment\\\\repair_guide_portable_20261012\\\\tools\\\\player.py\", \"--guide\", \"--network\", \"E:\\\\ai_pilot\\\\campaign_2026\\\\deployment\\\\repair_guide_portable_20261012\\\\network.json\", \"--max-seconds\", \"720\"]}], \"execution_allowed\": false, \"score_eligible\": false, \"official_validation\": false, \"new_fdm_ticks\": 0, \"diagnostic_only\": false, \"diagnostic_case_index\": null, \"base_seed\": 2026102700, \"execution_mode\": \"full24\", \"mode_contract\": {\"cases\": 24, \"geometry_pairs\": 12, \"distinct_seeds\": 12, \"self_play_cases\": 6, \"total_wall_seconds\": 900, \"case_wall_seconds\": 30, \"max_ticks\": 300}, \"planned_case_count\": 24}",
+  "check_stderr": "",
+  "preflight": {
+    "resources": {
+      "available_ram_bytes": 7316668416,
+      "free_disk_bytes": 208816066560
+    },
+    "seeds": {
+      "requested": [
+        2026102700,
+        2026102701,
+        2026102702,
+        2026102710,
+        2026102711,
+        2026102712,
+        2026102720,
+        2026102721,
+        2026102722,
+        2026102730,
+        2026102731,
+        2026102732
+      ],
+      "observed_or_attempted_collisions": [],
+      "holdout_collisions": [],
+      "fresh_relative_to_registry": true,
+      "seed_trials_claimed": 0,
+      "seed_role": "planned_development_diagnostic_not_holdout"
+    },
+    "occupied": [
+      {
+        "pid": 6696,
+        "creation_epoch": 1791981541.7933545,
+        "cmdline": [
+          "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+          "-I",
+          "-S",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v1\\portable_host.py",
+          "observe-watchdog",
+          "--folder",
+          "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v1\\runs\\portable_20261014_203837_2976b892"
+        ]
+      },
+      {
+        "pid": 8208,
+        "creation_epoch": 1791981517.4078307,
+        "cmdline": [
+          "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+          "-I",
+          "-S",
+          "-B",
+          "-X",
+          "utf8",
+          "-u",
+          "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v1\\portable_host.py",
+          "watchdog",
+          "--folder",
+          "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v1\\runs\\portable_20261014_203837_2976b892"
+        ]
+      },
+      {
+        "pid": 13676,
+        "creation_epoch": 1791981525.909881,
+        "cmdline": [
+          "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+          "-I",
+          "-S",
+          "-B",
+          "-X",
+          "utf8",
+          "-u",
+          "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\tools\\player.py",
+          "--guide",
+          "--network",
+          "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\network.json",
+          "--max-seconds",
+          "720"
+        ]
+      }
+    ],
+    "execution_allowed": false,
+    "score_eligible": false,
+    "official_validation": false,
+    "new_fdm_ticks": 0,
+    "diagnostic_only": false,
+    "diagnostic_case_index": null,
+    "base_seed": 2026102700,
+    "execution_mode": "full24",
+    "mode_contract": {
+      "cases": 24,
+      "geometry_pairs": 12,
+      "distinct_seeds": 12,
+      "self_play_cases": 6,
+      "total_wall_seconds": 900,
+      "case_wall_seconds": 30,
+      "max_ticks": 300
+    },
+    "planned_case_count": 24
+  },
+  "contract_sha256": "5544178d407f40bc033acf8700795b733dfebe2d5f5d09c0555b3216bfcd33c0",
+  "v4_source_readme_contract_unchanged": true,
+  "v4_success_18_artifacts_unchanged": true,
+  "v4_verified_single_case_diagnostic": true,
+  "v4_diagnostic_fdm_ticks": 300,
+  "new_v5_trial_registered": false,
+  "v5_new_fdm_ticks": 0,
+  "complete24_executed": false,
+  "launch_permitted_now": false,
+  "read_only_preparation_complete": true,
+  "score_eligible": false,
+  "win_rate_evidence": false,
+  "official_validation": false,
+  "deployment_allowed": false
+}

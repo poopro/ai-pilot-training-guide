@@ -1,0 +1,222 @@
+{
+  "token": "20261014_145406_4e887a81",
+  "status": "finished",
+  "pid": 9176,
+  "create_time": 1791960846.635523,
+  "command": [
+    "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "E:\\ai_pilot\\campaign_2026\\diagnostics\\host_watchdog.py",
+    "--token",
+    "20261014_145406_4e887a81",
+    "--deadline-epoch",
+    "1791961566.632695"
+  ],
+  "armed_utc": "2026-10-14T06:54:06.836695+00:00",
+  "deadline_epoch": 1791961566.632695,
+  "poll_seconds": 0.25,
+  "finished_utc": "2026-10-14T06:58:33.873430+00:00",
+  "terminal_reason": "auto_collection_terminal",
+  "tracked": {
+    "13812:1791960847.526958": {
+      "role": "host_root",
+      "identity": {
+        "pid": 13812,
+        "create_time": 1791960847.5269575,
+        "command": [
+          "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe"
+        ],
+        "exe": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe"
+      },
+      "last_state": "same_process"
+    },
+    "6592:1791960848.047084": {
+      "role": "player_root",
+      "identity": {
+        "pid": 6592,
+        "create_time": 1791960848.0470843,
+        "command": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-X",
+          "utf8",
+          "-u",
+          "E:\\ai_pilot\\autopilot\\combat_fix\\player.py",
+          "--guide",
+          "--network",
+          "E:\\ai_pilot\\autopilot\\combat_fix\\udp_config.json"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe"
+      },
+      "last_state": "same_process"
+    },
+    "17704:1791960848.238216": {
+      "role": "owned_host_descendant",
+      "identity": {
+        "pid": 17704,
+        "parent_pid": 13812,
+        "create_time": 1791960848.2382157,
+        "command": [
+          "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe"
+        ],
+        "exe": "C:\\Users\\USER\\AppData\\Local\\JSBsimHost_1_0_0_0\\JSB_host_GUI_publish.exe"
+      },
+      "discovered_from": "13812:1791960847.526958",
+      "discovered_utc": "2026-10-14T06:54:08.498582+00:00",
+      "last_state": "same_process"
+    },
+    "15796:1791960872.408240": {
+      "role": "owned_host_descendant",
+      "identity": {
+        "pid": 15796,
+        "parent_pid": 17704,
+        "create_time": 1791960872.4082403,
+        "command": [
+          "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe",
+          "--internal-player2"
+        ],
+        "exe": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe"
+      },
+      "discovered_from": "13812:1791960847.526958",
+      "discovered_utc": "2026-10-14T06:54:32.564012+00:00",
+      "last_state": "absent"
+    },
+    "18320:1791960873.228340": {
+      "role": "owned_host_descendant",
+      "identity": {
+        "pid": 18320,
+        "parent_pid": 15796,
+        "create_time": 1791960873.2283401,
+        "command": [
+          "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe",
+          "--internal-player2"
+        ],
+        "exe": "C:\\Users\\USER\\AppData\\Local\\JSBsimHost_1_0_0_0\\JSB_host_GUI_publish.exe"
+      },
+      "discovered_from": "13812:1791960847.526958",
+      "discovered_utc": "2026-10-14T06:54:33.463782+00:00",
+      "last_state": "absent"
+    }
+  },
+  "events": [
+    {
+      "type": "tracked_host_root",
+      "pid": 13812
+    },
+    {
+      "type": "tracked_player_root",
+      "pid": 6592
+    },
+    {
+      "type": "tracked_descendant",
+      "pid": 17704,
+      "parent_pid": 13812
+    },
+    {
+      "type": "tracked_descendant",
+      "pid": 15796,
+      "parent_pid": 17704
+    },
+    {
+      "type": "tracked_descendant",
+      "pid": 18320,
+      "parent_pid": 15796
+    },
+    {
+      "type": "auto_collection_started",
+      "utc": "2026-10-14T06:58:31.066328+00:00"
+    },
+    {
+      "type": "auto_collection_exited",
+      "actual_exit_code": 0,
+      "timed_out": false
+    }
+  ],
+  "cleanup": {
+    "reason": "auto_collection_terminal",
+    "results": [
+      {
+        "role": "owned_host_descendant",
+        "identity": {
+          "pid": 17704,
+          "parent_pid": 13812,
+          "create_time": 1791960848.2382157,
+          "command": [
+            "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe"
+          ],
+          "exe": "C:\\Users\\USER\\AppData\\Local\\JSBsimHost_1_0_0_0\\JSB_host_GUI_publish.exe"
+        },
+        "before": "same_process",
+        "action": "terminated",
+        "after": "absent"
+      },
+      {
+        "role": "owned_host_descendant",
+        "identity": {
+          "pid": 15796,
+          "parent_pid": 17704,
+          "create_time": 1791960872.4082403,
+          "command": [
+            "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe",
+            "--internal-player2"
+          ],
+          "exe": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe"
+        },
+        "before": "absent",
+        "action": "none"
+      },
+      {
+        "role": "owned_host_descendant",
+        "identity": {
+          "pid": 18320,
+          "parent_pid": 15796,
+          "create_time": 1791960873.2283401,
+          "command": [
+            "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe",
+            "--internal-player2"
+          ],
+          "exe": "C:\\Users\\USER\\AppData\\Local\\JSBsimHost_1_0_0_0\\JSB_host_GUI_publish.exe"
+        },
+        "before": "absent",
+        "action": "none"
+      },
+      {
+        "role": "host_root",
+        "identity": {
+          "pid": 13812,
+          "create_time": 1791960847.5269575,
+          "command": [
+            "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe"
+          ],
+          "exe": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe"
+        },
+        "before": "same_process",
+        "action": "terminated",
+        "after": "absent"
+      },
+      {
+        "role": "player_root",
+        "identity": {
+          "pid": 6592,
+          "create_time": 1791960848.0470843,
+          "command": [
+            "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+            "-X",
+            "utf8",
+            "-u",
+            "E:\\ai_pilot\\autopilot\\combat_fix\\player.py",
+            "--guide",
+            "--network",
+            "E:\\ai_pilot\\autopilot\\combat_fix\\udp_config.json"
+          ],
+          "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe"
+        },
+        "before": "same_process",
+        "action": "terminated",
+        "after": "absent"
+      }
+    ]
+  },
+  "all_known_live_processes_stopped": true
+}

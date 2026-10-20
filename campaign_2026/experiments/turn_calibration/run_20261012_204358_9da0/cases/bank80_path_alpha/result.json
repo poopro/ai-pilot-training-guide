@@ -1,0 +1,240 @@
+{
+  "case_id": "bank80_path_alpha",
+  "bank_deg": 80.0,
+  "pitch_spec": "path_alpha",
+  "speed_target_cas_kts": 320.0,
+  "dt_s": 0.016666666666666666,
+  "warmup_ticks": 900,
+  "test_ticks": 1200,
+  "expected_ticks": 2100,
+  "wall_budget_s": 150.0,
+  "controller_variant": "unchanged_repair",
+  "official_validation": false,
+  "combat_score_eligible": false,
+  "status": "complete",
+  "complete": true,
+  "reason": "",
+  "ticks_executed": 2100,
+  "csv_path": "E:\\ai_pilot\\campaign_2026\\experiments\\turn_calibration\\run_20261012_204358_9da0\\cases\\bank80_path_alpha\\bank80_path_alpha.csv",
+  "caveats": [
+    "short 1200 tick calibration, not an 18000 tick combat comparison; official_validation=False and combat_score_eligible=False on every record",
+    "sec_bank_denominator_observed only mirrors the controller trim denominator:1/cos(bank) and |pilot load| are NOT asserted calibrated here",
+    "Euler singularity |cos(theta)|<0.05 fails this calibration (not cos(phi)=0); a median bank error is not a roll rate; 8.5G guard != 9G scoring",
+    "AGL and enemy attitude are absent from the ICD and are not synthesized"
+  ],
+  "initial_state_sha": "5bffd586f4ac988e4812451e61810cf98b23b4c90c46d4bc0c64c084ac75b428",
+  "warmup_boundary_sha": "c2ef63198a1e2f0822e4f37a4345c2530e4ac31d6c79aae51d3a51bcb032a68c",
+  "csv_rows": 2100,
+  "wall_s": 1.625,
+  "warmup": {
+    "status": "completed",
+    "ticks_executed": 900,
+    "min_cas_kts": 319.9232789432446,
+    "max_abs_pilot_load": 1.1053134239584737,
+    "boundary_state": {
+      "mode": "track",
+      "recovering": false,
+      "pitch_integral": 0.015555969765749562,
+      "speed_integral": -0.13024663300790473
+    }
+  },
+  "warmup_stability_flags": [],
+  "tick_counts": {
+    "guard": 0,
+    "recovering": 0,
+    "cas_lt_180kts": 0,
+    "abs_nz_gt_8p5": 0,
+    "abs_nz_gt_9": 0,
+    "euler_roll_singular": 0,
+    "warmup_guard": 0,
+    "warmup_recovering": 0
+  },
+  "test_mode_ticks": {
+    "track": 1200
+  },
+  "test_statistics": {
+    "alpha_deg": {
+      "n": 1200,
+      "n_nonfinite_dropped": 0,
+      "min": 1.1844516200124917,
+      "p10": 4.385853674949861,
+      "median": 12.148747346083297,
+      "p90": 13.663308275175872,
+      "max": 13.714248541337584,
+      "mean": 11.25041536274845
+    },
+    "bank_error_deg": {
+      "n": 1200,
+      "n_nonfinite_dropped": 0,
+      "min": 2.0578284624063485,
+      "p10": 2.682733249203429,
+      "median": 3.4204897367225513,
+      "p90": 3.9203903117148178,
+      "max": 80.00063577436877,
+      "mean": 6.136895322515304
+    },
+    "beta_deg": {
+      "n": 1200,
+      "n_nonfinite_dropped": 0,
+      "min": -0.044441240400013425,
+      "p10": 2.2259894377844702,
+      "median": 2.277381042743925,
+      "p90": 2.834835297048272,
+      "max": 3.3664944319073467,
+      "mean": 2.3183150115759434
+    },
+    "cas_kts": {
+      "n": 1200,
+      "n_nonfinite_dropped": 0,
+      "min": 309.33769308286446,
+      "p10": 309.56899651408446,
+      "median": 313.21939996816786,
+      "p90": 344.333736270315,
+      "max": 345.8909392896008,
+      "mean": 320.81072713232123
+    },
+    "euler_pitch_rate_deg_s": {
+      "n": 1200,
+      "n_nonfinite_dropped": 0,
+      "min": -0.9477981279948953,
+      "p10": -0.06337434454948992,
+      "median": 0.16585837963433936,
+      "p90": 0.6563106465731919,
+      "max": 2.0515663616436255,
+      "mean": 0.22520163650893646
+    },
+    "euler_roll_rate_deg_s": {
+      "n": 1200,
+      "n_nonfinite_dropped": 0,
+      "min": -0.6922132400019301,
+      "p10": -0.4018334441499294,
+      "median": 0.042003241083847176,
+      "p90": 4.597617620564315,
+      "max": 93.27361376607722,
+      "mean": 3.851067851254354
+    },
+    "euler_yaw_rate_deg_s": {
+      "n": 1200,
+      "n_nonfinite_dropped": 0,
+      "min": 0.0025836439918145737,
+      "p10": 8.412054363449993,
+      "median": 10.34544140523656,
+      "p90": 12.498713906262992,
+      "max": 13.509000152236316,
+      "mean": 10.261299707591922
+    },
+    "fd_pitch_rate_deg_s": {
+      "n": 1200,
+      "n_nonfinite_dropped": 0,
+      "min": -0.958104925129839,
+      "p10": -0.06180408489197653,
+      "median": 0.16735600923947658,
+      "p90": 0.658684683439539,
+      "max": 2.017185925299514,
+      "mean": 0.22521107142518956
+    },
+    "fd_roll_rate_deg_s": {
+      "n": 1200,
+      "n_nonfinite_dropped": 0,
+      "min": -0.6904262854584431,
+      "p10": -0.4009622545669913,
+      "median": 0.04238896110877022,
+      "p90": 4.596888589507013,
+      "max": 93.26945069404019,
+      "mean": 3.851646937038385
+    },
+    "fd_yaw_rate_deg_s": {
+      "n": 1200,
+      "n_nonfinite_dropped": 0,
+      "min": 0.002584180477924747,
+      "p10": 8.411577777911077,
+      "median": 10.346135861305186,
+      "p90": 12.498906063224355,
+      "max": 13.509296667444914,
+      "mean": 10.262158417812584
+    },
+    "pilot_load_signed": {
+      "n": 1200,
+      "n_nonfinite_dropped": 0,
+      "min": -4.358258788052217,
+      "p10": -4.207523413736583,
+      "median": -3.563383386551302,
+      "p90": -2.0297856950953825,
+      "max": 1.2490207564125586,
+      "mean": -3.4167749477622267
+    },
+    "pitch_error_deg": {
+      "n": 1200,
+      "n_nonfinite_dropped": 0,
+      "min": 0.12494927044630821,
+      "p10": 3.1316673109870043,
+      "median": 6.965881807094926,
+      "p90": 10.676623463337624,
+      "max": 11.174495233638234,
+      "mean": 7.235164584803521
+    },
+    "pre_phi_deg": {
+      "n": 1200,
+      "n_nonfinite_dropped": 0,
+      "min": -0.0006357743687706708,
+      "p10": 76.07960968828519,
+      "median": 76.57951026327746,
+      "p90": 77.31726675079658,
+      "max": 77.94217153759365,
+      "mean": 73.8631046774847
+    },
+    "pre_psi_deg": {
+      "n": 1200,
+      "n_nonfinite_dropped": 0,
+      "min": 0.03580780229043588,
+      "p10": 8.038348397142345,
+      "median": 103.40956873479594,
+      "p90": 185.21977786747027,
+      "max": 205.11235714876972,
+      "mean": 100.31133804072405
+    },
+    "pre_theta_deg": {
+      "n": 1200,
+      "n_nonfinite_dropped": 0,
+      "min": 0.9036853672231525,
+      "p10": 1.1420513482536496,
+      "median": 4.842761038817089,
+      "p90": 5.7940347625361115,
+      "max": 5.822232604222215,
+      "mean": 4.015250777944928
+    },
+    "speed_error_cas_kts": {
+      "n": 1200,
+      "n_nonfinite_dropped": 0,
+      "min": -25.890939289600794,
+      "p10": -24.333736270314983,
+      "median": 6.780600031832137,
+      "p90": 10.431003485915523,
+      "max": 10.662306917135538,
+      "mean": -0.8107271323212353
+    }
+  },
+  "source_sha256": {
+    "repair/controller.py": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+    "repair/env.py": "8bb9078809d28ab2117abc3b928c138acf1da1dc4442e69de4c4632d8c3c9607",
+    "lab/duel_lab.py": "9f358a7a04b09728199ac33de120146e3aa0bcbb37fe18dbae2a2b5a7cfcb9a6",
+    "base/combat_v3/env.py": "4b4e91dd8168517039ed7092a0536dcefd5297582c4f3722be8d7ca5d3b9d7b4",
+    "base/combat_v3/controller.py": "d772bf49a8d8408aaafec691c981d0612de7dada6450e0afcecbc3d958b7813b",
+    "base/combat_v3/interface.py": "50f63ee563a8cb13b9bb472b0de7905579bcc9c70bc69efc571681879eb02555",
+    "base/combat_v3/fdm.py": "c59e705d248f1678f64ba6788639260c739a1b1a6e8f6830d62e4a11f3a1dba6",
+    "base/combat_v3/rules.py": "40857e278e8f3902fc9e8c39acf0aebb7bc8e02fafb9627a3f5561512a2f4e05",
+    "base/combat_v3/config.json": "d4fba053617240e07ffc67fe389d944313ba12dff491e569a0ae764e0f7b88ec",
+    "base/envs/jsbsimEnv/jsbsimFdm.py": "6d193634ccaff77db6f3d1e248b2276c4a7177c47dbfa82fd466154b67d8c541",
+    "repair/artifacts.py": "938c184366b55843e59250e2d1b544c10ebb67daca451e2701e8e631c7fd041e",
+    "calibration/calibrate.py": "d116ea811eb8215b8e6439d68cd774aff8d1b39251f806e887c6320f243ab5d4",
+    "calibration/calibrate80.py": "225cb0b31e36f3f236a315bb10376cfdc5c9c6959139424989554861adf41c50",
+    "calibration/calibration_worker.py": "3122c447ea5846cf402ae5a9b167a16d796c456361dcabb54811373246ce7196",
+    "calibration/calibration_adapter.py": "36365f9da7de2d7a6f0950ec09b5277983b1d0fa7478adc95dc258a4f378eadc",
+    "campaign/benchmark.py": "9b351910b28b3057eadabca4cddb4e734aa6678937ce9f900903e7ec36bfb3de"
+  },
+  "seed": 2026101200,
+  "fdm_dt_s": [
+    0.016666666666666666,
+    0.016666666666666666
+  ]
+}

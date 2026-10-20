@@ -1,0 +1,19 @@
+{
+  "job_id": "job_20261004_235618_984b",
+  "first_started_epoch": 1791129095,
+  "deadline_epoch": 1791157895,
+  "deadline_taipei": "2026-10-05T07:51:35+08:00",
+  "step_budget": 200000,
+  "config": {
+    "envs": 2,
+    "vec_mode": "dummy",
+    "max_candidates": 2,
+    "checkpoint_steps": 10000,
+    "checkpoint_seconds": 300,
+    "stall_seconds": 600,
+    "save_grace_seconds": 180,
+    "min_commit_free_gb": 3,
+    "min_available_ram_gb": 0.35,
+    "resource_wait_seconds": 1800
+  }
+}

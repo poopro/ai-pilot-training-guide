@@ -1,0 +1,59 @@
+{
+  "scope": "read-only aggregation of saved rows; no new FDM/controller/model execution or independent trajectory audit",
+  "matched_initial_fields": [
+    "seed",
+    "red",
+    "distance_ft",
+    "side",
+    "altitude_ft"
+  ],
+  "matched_both_initial_sha": false,
+  "mlp_extra_rows_not_used": 48,
+  "results": {
+    "tuned": {
+      "games": 216,
+      "winners": {
+        "blue": 158,
+        "red": 58
+      },
+      "events": {
+        "timeout": 207,
+        "collision": 9
+      },
+      "blue_over9G_ticks": 0,
+      "blue_attack_ticks": 105,
+      "red_attack_ticks": 49,
+      "source_relative": "flybrain/runs/c1_feat1/results.jsonl"
+    },
+    "ridge_v1_tuned": {
+      "games": 216,
+      "winners": {
+        "blue": 209,
+        "red": 7
+      },
+      "events": {
+        "timeout": 212,
+        "collision": 4
+      },
+      "blue_over9G_ticks": 0,
+      "blue_attack_ticks": 434,
+      "red_attack_ticks": 31,
+      "source_relative": "flybrain/runs/c1_feat1/results.jsonl"
+    },
+    "mlp_v4_tuned": {
+      "games": 216,
+      "winners": {
+        "blue": 209,
+        "red": 7
+      },
+      "events": {
+        "timeout": 215,
+        "blue_kill": 1
+      },
+      "blue_over9G_ticks": 0,
+      "blue_attack_ticks": 2099,
+      "red_attack_ticks": 19,
+      "source_relative": "flybrain/runs/c3_mlp4/results.jsonl"
+    }
+  }
+}

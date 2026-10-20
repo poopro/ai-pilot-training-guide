@@ -1,0 +1,9 @@
+{
+  "updated_at": "2026-10-12T10:59:39.028075+00:00",
+  "phase": "completed",
+  "case_id": "r000_rule_9000_normal_2026101102_candidate",
+  "steps": 18000,
+  "wall_seconds": 33.812000000000126,
+  "pid": 12516,
+  "official_validation": false
+}

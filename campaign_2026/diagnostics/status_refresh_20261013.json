@@ -1,0 +1,22 @@
+{
+  "updated_utc": "2026-10-12T16:05:55.963246+00:00",
+  "change": "human status launcher reads research/training/current-day budget and saved schedule; no simulation or process mutation",
+  "backup": "E:\\ai_pilot\\campaign_2026\\查看競賽進度.cmd.before_status_20261013.bak",
+  "checks": [
+    "actual completed comparison accepted",
+    "incomplete pair count rejected",
+    "unknown actual exit rejected",
+    "live read-only status displays current results and next schedule",
+    "watched frozen source and comparison hashes unchanged"
+  ],
+  "source": "E:\\ai_pilot\\campaign_2026\\status_campaign.py",
+  "source_sha256": "da3981632f2cf3c6a220b42d18a3a3c2bff98421c292f8e131d42ff3a5da2037",
+  "watched_sha256": {
+    "E:\\ai_pilot\\campaign_2026\\runner.py": "e992a28ec5f8ce0da47bb52c1fc2ae5c2a63dffe7b47457e7af3fa02022468eb",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\fresh_bank80\\launch_fresh.py": "9d12310d6f9314ff5d2533e2910efd6ad2ef39615477ccd2d32b8610cb0a1f16",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\POOL_FREEZE.json": "97240ad6e62dc465ee0e8992956e2c8727407f57c0e73a0b2d6e4fff8a5eb4c0",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\COMPARISON.json": "1bc8b60d149c17909d2da062a6bd62fea05c439473690bbd381f3087239eb16d"
+  },
+  "research_compute_started": false,
+  "official_validation": false
+}

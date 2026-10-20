@@ -1,0 +1,17 @@
+{
+  "before": {
+    "python": "b935f8a9c61eb17b2bb8d1a913b774920351da581042723f25b418c03cb028f0",
+    "numpy": "11f5bbb8211e9d0c71e3400f038e2ded0a22b2fb6163ea056f83110bee2e376b",
+    "torch_cpu": "e5e9d75d10f6aa8ce676591547c8b56a3ecd80b60de225d02d42254e3ab11ca7"
+  },
+  "after_construct": {
+    "python": "b935f8a9c61eb17b2bb8d1a913b774920351da581042723f25b418c03cb028f0",
+    "numpy": "11f5bbb8211e9d0c71e3400f038e2ded0a22b2fb6163ea056f83110bee2e376b",
+    "torch_cpu": "e5e9d75d10f6aa8ce676591547c8b56a3ecd80b60de225d02d42254e3ab11ca7"
+  },
+  "equal_by_stream": {
+    "python": true,
+    "numpy": true,
+    "torch_cpu": true
+  }
+}

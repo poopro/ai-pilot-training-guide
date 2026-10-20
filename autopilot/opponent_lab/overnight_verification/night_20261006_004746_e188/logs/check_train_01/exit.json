@@ -1,0 +1,30 @@
+{
+  "name": "check_train_01",
+  "command": [
+    "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "-X",
+    "utf8",
+    "E:\\ai_pilot\\autopilot\\opponent_lab\\check_bundle.py",
+    "E:\\ai_pilot\\autopilot\\opponent_lab\\overnight_verification\\night_20261006_004746_e188\\train_01\\final_0000000128"
+  ],
+  "folder": "E:\\ai_pilot\\autopilot\\opponent_lab\\overnight_verification\\night_20261006_004746_e188\\check_train_01",
+  "log_dir": "E:\\ai_pilot\\autopilot\\opponent_lab\\overnight_verification\\night_20261006_004746_e188\\logs\\check_train_01",
+  "start_step": 0,
+  "counted_steps": 0,
+  "started_epoch": 1791218876.2186148,
+  "status": "finished",
+  "process": {
+    "pid": 25076,
+    "create_time": 1791218876.2255151,
+    "command": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\autopilot\\opponent_lab\\check_bundle.py",
+      "E:\\ai_pilot\\autopilot\\opponent_lab\\overnight_verification\\night_20261006_004746_e188\\train_01\\final_0000000128"
+    ]
+  },
+  "exit_code": 0,
+  "reason": null,
+  "finished_epoch": 1791218883.9211934
+}

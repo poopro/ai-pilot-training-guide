@@ -1,0 +1,1 @@
+{"id": "10_baseline_eval", "script": "rollout.py", "args": ["eval", "--n", "12", "--workers", "3", "--seed0", "900000", "--out", "runs/eval_baseline"], "exit_code": 0, "reason": null, "seconds": 400.1}

@@ -1,0 +1,15 @@
+{
+  "pid": 21856,
+  "create": 1792240756.0367625,
+  "cmd": [
+    "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v2\\battle.py",
+    "--worker",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v2\\run_20261017_203915_d840e7\\cases\\normal_bank60_2026310600"
+  ],
+  "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+  "parent": 22728
+}

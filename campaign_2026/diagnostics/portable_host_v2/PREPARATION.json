@@ -1,0 +1,25 @@
+{
+  "updated_utc": "2026-10-15T04:36:30.041921+00:00",
+  "stage": "static_18_pass_actual_Host_pending",
+  "validation": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v2\\STATIC_VALIDATION.json",
+  "branch_freeze": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v2\\BRANCH_FREEZE.json",
+  "source_files_frozen": 15,
+  "actual_test_exit_code": 0,
+  "fixes_under_static_test": [
+    "Direct-child cached Host/P2 ancestry and prelaunch executable hash snapshots",
+    "Three-key terminal identity kept separate from full process identity",
+    "Missed cache, foreign same-name process, changed bytes, PID reuse, AccessDenied, missing actual exit receipt all reject eligibility"
+  ],
+  "old_v1_result_retained_ineligible": true,
+  "old_package_2115_and_ZIP_not_modified": true,
+  "new_FDM_ticks": 0,
+  "new_Host_rounds": 0,
+  "deployment_allowed": false,
+  "pending_human_cleanup_question": true,
+  "unverified": [
+    "Real v2 cached Host/P2 capture and cleanup",
+    "Real v2 collector/watchdog exit0",
+    "Packaged six-round gate",
+    "LAN/other PC/two clean rehearsals"
+  ]
+}

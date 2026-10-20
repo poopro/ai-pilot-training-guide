@@ -1,0 +1,10 @@
+{
+  "pid": 2648,
+  "create_time": 1791130033.745703,
+  "command": [
+    "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "-u",
+    "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\combat_v3\\player.py",
+    "--guide"
+  ]
+}

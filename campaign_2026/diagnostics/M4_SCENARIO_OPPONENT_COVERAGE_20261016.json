@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-10-16T02:53:16.332168+00:00",
+  "scope": "Read-only source coverage audit, no FDM",
+  "opening_source": "E:/ai_pilot/autopilot/opponent_lab/duel_lab.py DuelLab.reset",
+  "opening": "side_by_side_opposite_headings, blue lateral offset relative to red heading -90deg, fixed side",
+  "explicit_left_right_coverage": false,
+  "current_mirror_source": "experiments/m4_tactical_v4/m4_tactical_rl.py _red_action -> MirrorP2Controller(settings,.72,6,9)",
+  "current_mirror_is_learned_SAC": false,
+  "rule_maneuvers": "RuleFighter.act uses altitude_controlled_pursuit/precision_track/defensive_break and own recovery, not old straight-line JsbsimFdm opponent branch",
+  "tactical_attack_feature_legality": "Current blue tactical self.ticks originates judge attack but is exactly recomputable from own legal packet bodyX/range under named LINE1deg contract; future red adapter must compute its own counter independently, never read judge/env attack truth. Host feature remains estimate under uncertain formal version.",
+  "next_contracts": [
+    "Independent learned-SAC red adapter with ownpacket/counter/clock/controller, static then bounded realFDM interface test",
+    "Separately frozen mirrored-lateral initial scenario contract, same paired blue/red SHA; no mutation of current running grid"
+  ],
+  "not_claimed": [
+    "learned selfplay completed",
+    "formal opening conformance",
+    "holdout/general win rate"
+  ]
+}

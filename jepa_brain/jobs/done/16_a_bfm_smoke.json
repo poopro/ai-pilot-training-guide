@@ -1,0 +1,1 @@
+{"script": "rollout_bfm.py", "args": ["smoke_bfm"], "max_minutes": 20}

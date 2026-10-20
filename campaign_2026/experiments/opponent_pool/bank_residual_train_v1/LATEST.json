@@ -1,0 +1,17 @@
+{
+  "out": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_train_v1\\run_20261018_184204_2af616",
+  "guardian": {
+    "pid": 21844,
+    "create": 1792320123.4116437,
+    "cmd": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_train_v1\\guard.py"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent": 8564
+  },
+  "deadline_epoch": 1792321024.3057888
+}

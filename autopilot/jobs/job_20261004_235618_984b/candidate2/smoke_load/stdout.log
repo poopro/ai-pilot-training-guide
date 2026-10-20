@@ -1,0 +1,1 @@
+{"load_passed": true, "n_updates": 27, "timesteps": 512, "control_p50_ms": 1.4281499998105573, "control_p95_ms": 1.932664999912958, "control_p99_ms": 2.4129229997379302, "control_max_ms": 14.317299999675015, "scope": "local policy+feature+controller only; NOT actual Host or network"}

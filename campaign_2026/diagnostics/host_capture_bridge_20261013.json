@@ -1,0 +1,22 @@
+{
+  "updated_utc": "2026-10-12T16:15:28.077279+00:00",
+  "checks_passed": [
+    "legacy launch refused before Player start",
+    "real start check-only rejects current old launch without spawning Player",
+    "real collector check rejects historical active session without mutation",
+    "actual child exit 0 and 23 observed via wait; no Host process",
+    "Player launch Popen AST unchanged"
+  ],
+  "actual_start_check_exit": 1,
+  "actual_collector_check_exit": 1,
+  "files_sha256": {
+    "E:\\ai_pilot\\campaign_2026\\diagnostics\\start_host_player_recorded.py": "bc16a84ff9642b526b00bc0f19db8715c86024ecf932bd454d052a44778751ba",
+    "E:\\ai_pilot\\campaign_2026\\diagnostics\\collect_host_recorded.py": "5c16d1d10055d812aa5dbe296286360f7d70ed236c267adc346001ebc31f34d2"
+  },
+  "new_host_rounds": 0,
+  "player_started": false,
+  "new_fdm_ticks": 0,
+  "positive_Host_session_capture_verified": false,
+  "scope": "Bridge implementation and refusal of old/noncaptured data plus real synthetic child exit handling. Not a successful Host round.",
+  "initial_check_failure": "Expected old-launch guard text, but active_host_launch.json was absent. No process started; added explicit missing-launch guard and verified real rejection."
+}

@@ -1,0 +1,30 @@
+{
+  "wrapper": {
+    "pid": 17080,
+    "create": 1792265725.2045588,
+    "cmd": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\verify_far_speed_locked_v1.py",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\run_20261018_033053_98bc0f"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent": 5028
+  },
+  "source_sha256": "f59745f9282fe4d751acf520743c042e8913c9c62a62f5f7acb34ceb9558e1d4",
+  "limits": {
+    "deadline_monotonic": 11583.5,
+    "deadline_epoch": 1792265846.3103397
+  },
+  "resources": {
+    "ram_bytes": 6580117504,
+    "disk_bytes": 193373966336,
+    "cpu_percent": 51.8,
+    "GPU_used": false
+  },
+  "original_contract_sha256": "f701e7a09afe6fe0173d938afe4fe6da3ef72e5e0ae0e924e710d2191a05956a",
+  "OS_lock": true,
+  "worker_compute_pre_reserved_in_original_600s": true
+}

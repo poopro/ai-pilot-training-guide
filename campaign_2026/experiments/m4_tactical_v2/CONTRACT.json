@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-10-15T15:20:30.030202+00:00",
+  "stage": "static11_and_real_FDM_interface1800_pass_training_disabled",
+  "basis": "M4 slow SAC tactical controls; same copied M1 controller, corrected command boundary and bookkeeping",
+  "source_files_sha256": {
+    "m4_tactical_rl.py": "4911a27a68c325c9767e08fad1cc93935e06394679f21f6023ab8cb34b4929a0",
+    "m1_station.py": "5d53e18676d18158f3e0bc278e02ed7d42ecca1b1c7c7a6562611184454717ef",
+    "m3_mirror_league.py": "e6f47242eb344dacbb68b78d0b229ca5018b787c71d3ee94d660e25ead0371c1",
+    "test_contract.py": "db4bbe0ede0a3214b3e23040d567adc6dadcf8cec1ab87afa5a280ba47405929"
+  },
+  "validation": "E:\\ai_pilot\\campaign_2026\\experiments\\m4_tactical_v2\\STATIC_VALIDATION.json",
+  "interface_tests": 11,
+  "new_FDM_ticks": 1800,
+  "training_launch_allowed": false,
+  "deployment_allowed": false,
+  "remaining_gates": [
+    "Bounded training worker/supervisor with source/XML/model freeze, OS lock, STOP, resources, independent wall deadline, unique outputs",
+    "Nonzero attack-counter path, Gym rotation and actual callback checks beyond short interface smoke",
+    "Explicit formal collision/crash/priority/START/timeout S_advantage judge contract",
+    "Same-seed and same-initial-SHA baseline/candidate small paired comparison before new bounded training"
+  ],
+  "old_bundle_rule": "Preserve all nine ZIPs. No exact resume or deployment of ambiguous shared-output bundle. Actor transfer only after compatibility/provenance validation.",
+  "real_FDM_interface": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_interface_v1\\run_20261015_232701_f27ecd\\VERIFICATION.json"
+}

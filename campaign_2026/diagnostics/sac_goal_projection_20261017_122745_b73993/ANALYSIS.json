@@ -1,0 +1,682 @@
+{
+  "status": "completed_offline_goal_projection",
+  "results": [
+    {
+      "case": {
+        "id": "normal_station_zero_2026310200",
+        "opening": 0,
+        "side": "normal",
+        "seed": 2026310200,
+        "actor": "station_zero",
+        "red": "sac5000",
+        "distance_ft": 6000,
+        "max_ticks": 18000
+      },
+      "counts": {
+        "frames": 18000,
+        "bank_binding": 18000,
+        "heading_speed_cap_binding": 18000,
+        "near": 0,
+        "in_band": 0,
+        "break_threshold": 0
+      },
+      "minmax": {
+        "bank_raw": [
+          -297.79862976394065,
+          -172.7728586668025
+        ],
+        "speed_before_heading_cap": [
+          358.2322858911666,
+          450.6090263018807
+        ],
+        "heading_abs": [
+          59.96675490739611,
+          126.52164425512842
+        ]
+      },
+      "samples": [
+        {
+          "tick": 1,
+          "tactical": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "bank_raw": -174.59761235268547,
+          "requested_goal": [
+            -72.0,
+            -1.3623229812265779e-11,
+            290.0,
+            0.0
+          ],
+          "speed_before_heading_cap": 449.7742122436994,
+          "heading_error": -96.99867352926971
+        },
+        {
+          "tick": 6000,
+          "tactical": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "bank_raw": -291.32440760761943,
+          "requested_goal": [
+            -72.0,
+            5.476645345465939,
+            290.0,
+            0.0
+          ],
+          "speed_before_heading_cap": 400.48839884968794,
+          "heading_error": -125.24682016597382
+        },
+        {
+          "tick": 12000,
+          "tactical": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "bank_raw": -280.3503563147652,
+          "requested_goal": [
+            -72.0,
+            5.392934408027985,
+            290.0,
+            0.0
+          ],
+          "speed_before_heading_cap": 401.0320582032342,
+          "heading_error": -122.0242836854469
+        },
+        {
+          "tick": 18000,
+          "tactical": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "bank_raw": -262.5072535192774,
+          "requested_goal": [
+            -72.0,
+            5.308914902414824,
+            290.0,
+            0.0
+          ],
+          "speed_before_heading_cap": 401.7144610430615,
+          "heading_error": -113.90812363222551
+        }
+      ],
+      "requested_goal_sha256": "23000aa859cad67449061596983a9093be33b0066dff4c89c5defb5327ff2bf3",
+      "preclip_bank_sha256": "20ef999768cd8c9cd727bf3c69f4f6bf8bfa52a6bb31226a9bc5486f93947775",
+      "controller_module_path": "E:\\ai_pilot\\campaign_2026\\experiments\\m4_tactical_v4\\m1_station.py",
+      "controller_sha256": "fcda220748b0a64413d10c987df850ea975d2925994b556157c62331e97795fc",
+      "tactical_values_delivered_exactly": true
+    },
+    {
+      "case": {
+        "id": "normal_sac5000_2026310200",
+        "opening": 0,
+        "side": "normal",
+        "seed": 2026310200,
+        "actor": "sac5000",
+        "red": "sac5000",
+        "distance_ft": 6000,
+        "max_ticks": 18000
+      },
+      "counts": {
+        "frames": 18000,
+        "bank_binding": 18000,
+        "heading_speed_cap_binding": 18000,
+        "near": 0,
+        "in_band": 0,
+        "break_threshold": 0
+      },
+      "minmax": {
+        "bank_raw": [
+          -294.3064798091171,
+          -168.97674846049182
+        ],
+        "speed_before_heading_cap": [
+          357.29000856866685,
+          450.6090263018807
+        ],
+        "heading_abs": [
+          57.871498465564514,
+          124.55759300252487
+        ]
+      },
+      "samples": [
+        {
+          "tick": 1,
+          "tactical": [
+            -0.5635806918144226,
+            -0.41724109649658203,
+            0.030560748651623726
+          ],
+          "bank_raw": -170.33694232256843,
+          "requested_goal": [
+            -72.0,
+            -1.3623229812265779e-11,
+            290.0,
+            0.0
+          ],
+          "speed_before_heading_cap": 449.7742122436994,
+          "heading_error": -94.63163462364913
+        },
+        {
+          "tick": 6000,
+          "tactical": [
+            -0.47999894618988037,
+            -0.4444972574710846,
+            0.06996437162160873
+          ],
+          "bank_raw": -287.6955457645668,
+          "requested_goal": [
+            -72.0,
+            5.476645345465939,
+            290.0,
+            0.0
+          ],
+          "speed_before_heading_cap": 400.48839884968794,
+          "heading_error": -123.23082459197633
+        },
+        {
+          "tick": 12000,
+          "tactical": [
+            -0.49786636233329773,
+            -0.4866011440753937,
+            0.04729524627327919
+          ],
+          "bank_raw": -276.58634009440465,
+          "requested_goal": [
+            -72.0,
+            5.392934408027985,
+            290.0,
+            0.0
+          ],
+          "speed_before_heading_cap": 401.0320582032342,
+          "heading_error": -119.93324496364698
+        },
+        {
+          "tick": 18000,
+          "tactical": [
+            -0.5154017210006714,
+            -0.530606210231781,
+            0.019769595935940742
+          ],
+          "bank_raw": -258.61065747561474,
+          "requested_goal": [
+            -72.0,
+            5.308914902414824,
+            290.0,
+            0.0
+          ],
+          "speed_before_heading_cap": 401.7144610430615,
+          "heading_error": -111.7434364040227
+        }
+      ],
+      "requested_goal_sha256": "23000aa859cad67449061596983a9093be33b0066dff4c89c5defb5327ff2bf3",
+      "preclip_bank_sha256": "4bbc5c3028101236a4580321b898094c9292dd3565c8b1870d7813e48fd4d1c7",
+      "controller_module_path": "E:\\ai_pilot\\campaign_2026\\experiments\\m4_tactical_v4\\m1_station.py",
+      "controller_sha256": "fcda220748b0a64413d10c987df850ea975d2925994b556157c62331e97795fc",
+      "tactical_values_delivered_exactly": true
+    },
+    {
+      "case": {
+        "id": "normal_transfer10000_2026310200",
+        "opening": 0,
+        "side": "normal",
+        "seed": 2026310200,
+        "actor": "transfer10000",
+        "red": "sac5000",
+        "distance_ft": 6000,
+        "max_ticks": 18000
+      },
+      "counts": {
+        "frames": 18000,
+        "bank_binding": 18000,
+        "heading_speed_cap_binding": 18000,
+        "near": 0,
+        "in_band": 0,
+        "break_threshold": 0
+      },
+      "minmax": {
+        "bank_raw": [
+          -297.01609620878065,
+          -169.88073148525837
+        ],
+        "speed_before_heading_cap": [
+          366.2966765937842,
+          450.6090263018807
+        ],
+        "heading_abs": [
+          58.36401541235713,
+          126.026442636159
+        ]
+      },
+      "samples": [
+        {
+          "tick": 1,
+          "tactical": [
+            -0.14540547132492065,
+            -0.05327686667442322,
+            -0.23029249906539917
+          ],
+          "bank_raw": -173.4983469894691,
+          "requested_goal": [
+            -72.0,
+            -1.3623229812265779e-11,
+            290.0,
+            0.0
+          ],
+          "speed_before_heading_cap": 449.7742122436994,
+          "heading_error": -96.38797054970505
+        },
+        {
+          "tick": 6000,
+          "tactical": [
+            -0.14944593608379364,
+            -0.2787676751613617,
+            -0.3319459557533264
+          ],
+          "bank_raw": -290.1945481306112,
+          "requested_goal": [
+            -72.0,
+            5.476645345465939,
+            290.0,
+            0.0
+          ],
+          "speed_before_heading_cap": 400.48839884968794,
+          "heading_error": -124.61914723442186
+        },
+        {
+          "tick": 12000,
+          "tactical": [
+            -0.19268247485160828,
+            -0.28969892859458923,
+            -0.3267419636249542
+          ],
+          "bank_raw": -278.8934046858413,
+          "requested_goal": [
+            -72.0,
+            5.392934408027985,
+            290.0,
+            0.0
+          ],
+          "speed_before_heading_cap": 401.0320582032342,
+          "heading_error": -121.21501729107013
+        },
+        {
+          "tick": 18000,
+          "tactical": [
+            -0.25074830651283264,
+            -0.2873198688030243,
+            -0.3160751163959503
+          ],
+          "bank_raw": -260.6111338800776,
+          "requested_goal": [
+            -72.0,
+            5.308914902414824,
+            290.0,
+            0.0
+          ],
+          "speed_before_heading_cap": 401.7144610430615,
+          "heading_error": -112.85498074487163
+        }
+      ],
+      "requested_goal_sha256": "23000aa859cad67449061596983a9093be33b0066dff4c89c5defb5327ff2bf3",
+      "preclip_bank_sha256": "70297800c1003bab40de6e259d3b911e967190333a08e1f946c35bb2ac468056",
+      "controller_module_path": "E:\\ai_pilot\\campaign_2026\\experiments\\m4_tactical_v4\\m1_station.py",
+      "controller_sha256": "fcda220748b0a64413d10c987df850ea975d2925994b556157c62331e97795fc",
+      "tactical_values_delivered_exactly": true
+    },
+    {
+      "case": {
+        "id": "mirrored_station_zero_2026310201",
+        "opening": 1,
+        "side": "mirrored",
+        "seed": 2026310201,
+        "actor": "station_zero",
+        "red": "sac5000",
+        "distance_ft": 6000,
+        "max_ticks": 18000
+      },
+      "counts": {
+        "frames": 18000,
+        "bank_binding": 18000,
+        "heading_speed_cap_binding": 18000,
+        "near": 0,
+        "in_band": 0,
+        "break_threshold": 0
+      },
+      "minmax": {
+        "bank_raw": [
+          156.68191517057738,
+          296.3269464533676
+        ],
+        "speed_before_heading_cap": [
+          351.9360236360029,
+          445.19582969471907
+        ],
+        "heading_abs": [
+          51.47405644521362,
+          127.05059025926744
+        ]
+      },
+      "samples": [
+        {
+          "tick": 1,
+          "tactical": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "bank_raw": 174.60094429964275,
+          "requested_goal": [
+            72.0,
+            3.5301675225073273e-15,
+            290.0,
+            0.0
+          ],
+          "speed_before_heading_cap": 440.57211967191375,
+          "heading_error": 97.00052461091263
+        },
+        {
+          "tick": 6000,
+          "tactical": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "bank_raw": 180.65632396071788,
+          "requested_goal": [
+            72.0,
+            9.945649615494,
+            290.0,
+            0.0
+          ],
+          "speed_before_heading_cap": 392.17026214430626,
+          "heading_error": 59.45919210806957
+        },
+        {
+          "tick": 12000,
+          "tactical": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "bank_raw": 158.2018343336748,
+          "requested_goal": [
+            72.0,
+            9.87405046704667,
+            290.0,
+            0.0
+          ],
+          "speed_before_heading_cap": 394.1004256672045,
+          "heading_error": 53.272155706244405
+        },
+        {
+          "tick": 18000,
+          "tactical": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "bank_raw": 162.55694899049158,
+          "requested_goal": [
+            72.0,
+            9.823044196116157,
+            290.0,
+            0.0
+          ],
+          "speed_before_heading_cap": 396.2509024226845,
+          "heading_error": 58.44993019083927
+        }
+      ],
+      "requested_goal_sha256": "e401a582947dc33b3feb683cc0fe74b4398e61289a16252c24a5ee29fe63bcc1",
+      "preclip_bank_sha256": "7e15c6e693714ec6974d0e7b87b3560555c1d52a9d16446ca5ebf97c9f7bd8e6",
+      "controller_module_path": "E:\\ai_pilot\\campaign_2026\\experiments\\m4_tactical_v4\\m1_station.py",
+      "controller_sha256": "fcda220748b0a64413d10c987df850ea975d2925994b556157c62331e97795fc",
+      "tactical_values_delivered_exactly": true
+    },
+    {
+      "case": {
+        "id": "mirrored_sac5000_2026310201",
+        "opening": 1,
+        "side": "mirrored",
+        "seed": 2026310201,
+        "actor": "sac5000",
+        "red": "sac5000",
+        "distance_ft": 6000,
+        "max_ticks": 18000
+      },
+      "counts": {
+        "frames": 18000,
+        "bank_binding": 18000,
+        "heading_speed_cap_binding": 18000,
+        "near": 0,
+        "in_band": 0,
+        "break_threshold": 0
+      },
+      "minmax": {
+        "bank_raw": [
+          152.33899006091622,
+          292.13306260385434
+        ],
+        "speed_before_heading_cap": [
+          349.96823380685436,
+          445.19582969471907
+        ],
+        "heading_abs": [
+          49.085285066219626,
+          124.71016719980389
+        ]
+      },
+      "samples": [
+        {
+          "tick": 1,
+          "tactical": [
+            -0.6263788342475891,
+            -0.3611230254173279,
+            0.24354836344718933
+          ],
+          "bank_raw": 169.86552031273104,
+          "requested_goal": [
+            72.0,
+            3.5301675225073273e-15,
+            290.0,
+            0.0
+          ],
+          "speed_before_heading_cap": 440.57211967191375,
+          "heading_error": 94.3697335070728
+        },
+        {
+          "tick": 6000,
+          "tactical": [
+            -0.570189893245697,
+            -0.30113399028778076,
+            0.08490604162216187
+          ],
+          "bank_raw": 176.34565060458033,
+          "requested_goal": [
+            72.0,
+            9.945649615494,
+            290.0,
+            0.0
+          ],
+          "speed_before_heading_cap": 392.17026214430626,
+          "heading_error": 57.064394556437634
+        },
+        {
+          "tick": 12000,
+          "tactical": [
+            -0.577555239200592,
+            -0.35095471143722534,
+            0.05527307838201523
+          ],
+          "bank_raw": 153.8356946899945,
+          "requested_goal": [
+            72.0,
+            9.87405046704667,
+            290.0,
+            0.0
+          ],
+          "speed_before_heading_cap": 394.1004256672045,
+          "heading_error": 50.84642370160191
+        },
+        {
+          "tick": 18000,
+          "tactical": [
+            -0.5952302813529968,
+            -0.38226190209388733,
+            0.04286310821771622
+          ],
+          "bank_raw": 158.05728739501845,
+          "requested_goal": [
+            72.0,
+            9.823044196116157,
+            290.0,
+            0.0
+          ],
+          "speed_before_heading_cap": 396.2509024226845,
+          "heading_error": 55.949963009156676
+        }
+      ],
+      "requested_goal_sha256": "e401a582947dc33b3feb683cc0fe74b4398e61289a16252c24a5ee29fe63bcc1",
+      "preclip_bank_sha256": "4011bfc3036e65722dd54b1783e4e218882d7972fa29e2078bb153a73d74e45d",
+      "controller_module_path": "E:\\ai_pilot\\campaign_2026\\experiments\\m4_tactical_v4\\m1_station.py",
+      "controller_sha256": "fcda220748b0a64413d10c987df850ea975d2925994b556157c62331e97795fc",
+      "tactical_values_delivered_exactly": true
+    },
+    {
+      "case": {
+        "id": "mirrored_transfer10000_2026310201",
+        "opening": 1,
+        "side": "mirrored",
+        "seed": 2026310201,
+        "actor": "transfer10000",
+        "red": "sac5000",
+        "distance_ft": 6000,
+        "max_ticks": 18000
+      },
+      "counts": {
+        "frames": 18000,
+        "bank_binding": 18000,
+        "heading_speed_cap_binding": 18000,
+        "near": 0,
+        "in_band": 0,
+        "break_threshold": 9820
+      },
+      "minmax": {
+        "bank_raw": [
+          173.31993553404848,
+          296.3862787962718
+        ],
+        "speed_before_heading_cap": [
+          353.261587997016,
+          445.19582969471907
+        ],
+        "heading_abs": [
+          60.891783235463606,
+          127.07380265962558
+        ]
+      },
+      "samples": [
+        {
+          "tick": 1,
+          "tactical": [
+            -0.03793702274560928,
+            0.1252080202102661,
+            -0.18484477698802948
+          ],
+          "bank_raw": 174.31414040768598,
+          "requested_goal": [
+            72.0,
+            3.5301675225073273e-15,
+            290.0,
+            0.0
+          ],
+          "speed_before_heading_cap": 440.57211967191375,
+          "heading_error": 96.8411891153811
+        },
+        {
+          "tick": 6000,
+          "tactical": [
+            -0.12617002427577972,
+            0.3067351281642914,
+            -0.03154734894633293
+          ],
+          "bank_raw": 199.02691135631085,
+          "requested_goal": [
+            72.0,
+            9.945649615494,
+            290.0,
+            0.0
+          ],
+          "speed_before_heading_cap": 392.17026214430626,
+          "heading_error": 69.66500749186147
+        },
+        {
+          "tick": 12000,
+          "tactical": [
+            -0.1721390336751938,
+            0.2888931930065155,
+            -0.03066135011613369
+          ],
+          "bank_raw": 175.10073025272928,
+          "requested_goal": [
+            72.0,
+            9.87405046704667,
+            290.0,
+            0.0
+          ],
+          "speed_before_heading_cap": 394.1004256672045,
+          "heading_error": 62.660433520036634
+        },
+        {
+          "tick": 18000,
+          "tactical": [
+            -0.19391176104545593,
+            0.26930591464042664,
+            -0.03311184421181679
+          ],
+          "bank_raw": 178.05710963964154,
+          "requested_goal": [
+            72.0,
+            9.823044196116157,
+            290.0,
+            0.0
+          ],
+          "speed_before_heading_cap": 396.2509024226845,
+          "heading_error": 67.06120780686328
+        }
+      ],
+      "requested_goal_sha256": "e401a582947dc33b3feb683cc0fe74b4398e61289a16252c24a5ee29fe63bcc1",
+      "preclip_bank_sha256": "ff7f328b6234e9a1ad8b54aac82655398a8de6fcedbe6d53650a151b91b32465",
+      "controller_module_path": "E:\\ai_pilot\\campaign_2026\\experiments\\m4_tactical_v4\\m1_station.py",
+      "controller_sha256": "fcda220748b0a64413d10c987df850ea975d2925994b556157c62331e97795fc",
+      "tactical_values_delivered_exactly": true
+    }
+  ],
+  "equivalence": [
+    {
+      "opening": 0,
+      "identical_requested_goals": true,
+      "different_preclip_bank": true
+    },
+    {
+      "opening": 1,
+      "identical_requested_goals": true,
+      "different_preclip_bank": true
+    }
+  ],
+  "source_run": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_battle_v2\\run_20261017_093943_16bee6",
+  "prior_full_battle_comparison": "E:\\ai_pilot\\campaign_2026\\diagnostics\\saved_sac_battle_audit_20261017_094917_10fc24\\COMPARISON.json",
+  "no_new_FDM_ticks": true,
+  "no_new_model_inference": true,
+  "new_training_started": false,
+  "inner_command_replayed": false,
+  "stub_return_was_saved_command": true,
+  "runtime_identity_limit": "Resolved frozen import path in this offline process; not a missing runtime module receipt retroactively added to old workers",
+  "conclusion": "Recorded tactic setter reaches act. Guidance clipping counters and goal equivalence below describe saved trajectories only; no improved combat result or intervention claim.",
+  "deployment_allowed": false,
+  "wall_seconds": 66.25
+}

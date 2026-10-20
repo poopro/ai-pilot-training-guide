@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "run_dir": "E:\\ai_pilot\\autopilot\\opponent_lab\\verification_training\\resume_current",
+  "final_bundle": "E:\\ai_pilot\\autopilot\\opponent_lab\\verification_training\\resume_current\\final_0000000384",
+  "pid": 24028,
+  "timesteps": 384,
+  "updates": 42,
+  "stop_file": "E:\\ai_pilot\\autopilot\\opponent_lab\\verification_training\\resume_current\\STOP",
+  "heartbeat_epoch": 1791218021.0690823,
+  "official_validation": false
+}

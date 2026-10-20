@@ -1,0 +1,146 @@
+{
+  "verified_bounded_prefix_activation_search": true,
+  "errors": [],
+  "results": [
+    {
+      "case": "normal_station_zero_2026310700",
+      "history_reconstruction_ticks": 300,
+      "new_suffix_ticks": 3300,
+      "tested_prefix_ticks": 3600,
+      "first_counterfactual_command_difference": null,
+      "goal_difference_ticks": 0,
+      "last_requested_goals": {
+        "station_zero": [
+          -72.0,
+          6.430536206722651,
+          290.0,
+          0.0
+        ],
+        "pure_guide": [
+          -72.0,
+          6.430536206722651,
+          290.0,
+          0.0
+        ]
+      },
+      "source_artifact_sha256": "f9b624195e03d5b28e31c05d455f4a450c97fcd2858454207faa5fdb4722aa99",
+      "prefix_output_sha256": {
+        "station_zero": "590b67378a331fbf8a160b133fb2b41e3b6532e630a52af80a947f750da8f30c",
+        "pure_guide": "590b67378a331fbf8a160b133fb2b41e3b6532e630a52af80a947f750da8f30c"
+      },
+      "runtime_receipts": {
+        "station_zero": {
+          "class_name": "StationController",
+          "class_path": "E:\\ai_pilot\\campaign_2026\\experiments\\m4_tactical_v4\\m1_station.py",
+          "class_sha256": "fcda220748b0a64413d10c987df850ea975d2925994b556157c62331e97795fc",
+          "act_path": "E:\\ai_pilot\\campaign_2026\\experiments\\m4_tactical_v4\\m1_station.py",
+          "act_sha256": "fcda220748b0a64413d10c987df850ea975d2925994b556157c62331e97795fc",
+          "command_path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+          "command_sha256": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+          "MRO": [
+            {
+              "name": "StationController",
+              "path": "E:\\ai_pilot\\campaign_2026\\experiments\\m4_tactical_v4\\m1_station.py"
+            },
+            {
+              "name": "RepairController",
+              "path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py"
+            }
+          ]
+        },
+        "pure_guide": {
+          "class_name": "RepairController",
+          "class_path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+          "class_sha256": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+          "act_path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+          "act_sha256": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+          "command_path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+          "command_sha256": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+          "MRO": [
+            {
+              "name": "RepairController",
+              "path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py"
+            }
+          ]
+        }
+      },
+      "baseline_saved_actual_commands_exact": true
+    },
+    {
+      "case": "mirrored_station_zero_2026310701",
+      "history_reconstruction_ticks": 300,
+      "new_suffix_ticks": 3300,
+      "tested_prefix_ticks": 3600,
+      "first_counterfactual_command_difference": null,
+      "goal_difference_ticks": 0,
+      "last_requested_goals": {
+        "station_zero": [
+          72.0,
+          9.978877474188199,
+          290.0,
+          0.0
+        ],
+        "pure_guide": [
+          72.0,
+          9.978877474188199,
+          290.0,
+          0.0
+        ]
+      },
+      "source_artifact_sha256": "5b65004a97ca1ff3a8a117fd0873631002bc314131c38bfc78f9d4933bdb805f",
+      "prefix_output_sha256": {
+        "station_zero": "ba52bdc68e230422895ac9de17f7d40271fb578ba3d0ac2bf92afcaf2ff83e73",
+        "pure_guide": "ba52bdc68e230422895ac9de17f7d40271fb578ba3d0ac2bf92afcaf2ff83e73"
+      },
+      "runtime_receipts": {
+        "station_zero": {
+          "class_name": "StationController",
+          "class_path": "E:\\ai_pilot\\campaign_2026\\experiments\\m4_tactical_v4\\m1_station.py",
+          "class_sha256": "fcda220748b0a64413d10c987df850ea975d2925994b556157c62331e97795fc",
+          "act_path": "E:\\ai_pilot\\campaign_2026\\experiments\\m4_tactical_v4\\m1_station.py",
+          "act_sha256": "fcda220748b0a64413d10c987df850ea975d2925994b556157c62331e97795fc",
+          "command_path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+          "command_sha256": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+          "MRO": [
+            {
+              "name": "StationController",
+              "path": "E:\\ai_pilot\\campaign_2026\\experiments\\m4_tactical_v4\\m1_station.py"
+            },
+            {
+              "name": "RepairController",
+              "path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py"
+            }
+          ]
+        },
+        "pure_guide": {
+          "class_name": "RepairController",
+          "class_path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+          "class_sha256": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+          "act_path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+          "act_sha256": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+          "command_path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+          "command_sha256": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+          "MRO": [
+            {
+              "name": "RepairController",
+              "path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py"
+            }
+          ]
+        }
+      },
+      "baseline_saved_actual_commands_exact": true
+    }
+  ],
+  "max_ticks_per_prefix": 3600,
+  "total_tested_saved_frames": 7200,
+  "history_only_frames": 600,
+  "new_suffix_saved_frames": 6600,
+  "command_difference_observed": false,
+  "new_FDM_ticks": 0,
+  "model_inference_calls": 0,
+  "training_started": false,
+  "seed_claims": [],
+  "deployment_allowed": false,
+  "scope": "History-only prefix300 needed to extend stateful comparison; no repeated combat/static/safety precheck, no controller traces beyond3600/case.",
+  "next_gate": "No controller-family effect through60s; do not launch duplicate four-game family comparison. Not proof of equality for all300s."
+}

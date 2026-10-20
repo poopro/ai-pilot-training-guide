@@ -1,0 +1,31 @@
+{
+  "profile": "portable_repair_guide_rehearsal_v4",
+  "guard_spawn_sha256": "f71832f70c2defb7763b81345aea9461f48cd4c708b117d34d5015d59e2199ef",
+  "guard_source_sha256": "7c978152d0fc2694f44e1dc236c7f47aa32a0bc6a3e233d75860647a9c16c784",
+  "actual_exit_code": 0,
+  "identity": {
+    "pid": 1704,
+    "create_time": 1792116360.5015595,
+    "command": [
+      "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+      "-I",
+      "-S",
+      "-B",
+      "-X",
+      "utf8",
+      "-u",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\portable_host.py",
+      "watchdog",
+      "--folder",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\runs\\portable_20261016_100600_e4616010"
+    ],
+    "exe": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+    "parent_pid": 15440
+  },
+  "process_creation_epoch_from_handle": 1792116360.5015595,
+  "wait_handle_acquired": true,
+  "attached_utc": "2026-10-16T02:06:14.179060+00:00",
+  "method": "verified Windows handle + WaitForSingleObject + GetExitCodeProcess",
+  "exited_utc": "2026-10-16T02:11:50.544213+00:00",
+  "timed_out": false
+}

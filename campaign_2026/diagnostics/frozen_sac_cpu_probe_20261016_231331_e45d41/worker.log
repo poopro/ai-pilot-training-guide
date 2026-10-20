@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "E:\ai_pilot\campaign_2026\diagnostics\frozen_sac_cpu_probe_20261016.py", line 100, in <module>
+    try:raise SystemExit(main())
+  File "E:\ai_pilot\campaign_2026\diagnostics\frozen_sac_cpu_probe_20261016.py", line 58, in main
+    if len(sys.argv)==3 and sys.argv[1]=='--worker':return worker(Path(sys.argv[2]))
+  File "E:\ai_pilot\campaign_2026\diagnostics\frozen_sac_cpu_probe_20261016.py", line 36, in worker
+    assert rng()==before,'RNG changed on factory construction'
+AssertionError: RNG changed on factory construction

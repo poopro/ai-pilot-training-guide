@@ -1,0 +1,162 @@
+{
+  "verified_paired_final_policy": true,
+  "errors": [],
+  "new_FDM_ticks": 70471,
+  "cases": [
+    {
+      "case_id": "final_rule_zero_2026300100",
+      "pair_key": "final_rule_2026300100",
+      "actor_id": "zero",
+      "heading_error_deg": null,
+      "initial_blue_sha256": "b34dfe50c14201d04f285aeb03a4019f4103ef7fef75ce2027c1b48478d90818",
+      "initial_red_sha256": "55afeaedff6d7920218a9648cb67b539d4ed0cdc7a82cf8a6dade8054c89c1f4",
+      "stage": "official",
+      "opponent": "rule",
+      "ticks_per_reset": 18000,
+      "attack_ticks_per_reset": 0,
+      "event": "timeout",
+      "winner": "blue",
+      "one_full_round": true,
+      "score_eligible": false
+    },
+    {
+      "case_id": "final_rule_sac5000_2026300100",
+      "pair_key": "final_rule_2026300100",
+      "actor_id": "sac5000",
+      "heading_error_deg": null,
+      "initial_blue_sha256": "b34dfe50c14201d04f285aeb03a4019f4103ef7fef75ce2027c1b48478d90818",
+      "initial_red_sha256": "55afeaedff6d7920218a9648cb67b539d4ed0cdc7a82cf8a6dade8054c89c1f4",
+      "stage": "official",
+      "opponent": "rule",
+      "ticks_per_reset": 18000,
+      "attack_ticks_per_reset": 0,
+      "event": "timeout",
+      "winner": "blue",
+      "one_full_round": true,
+      "score_eligible": false
+    },
+    {
+      "case_id": "final_mirror_sac5000_2026300101",
+      "pair_key": "final_mirror_2026300101",
+      "actor_id": "sac5000",
+      "heading_error_deg": null,
+      "initial_blue_sha256": "0516b35d2c42355e82230c526c0655fa19ebe4e39938bf4b964746a4632782d2",
+      "initial_red_sha256": "ab471226595df9e1a981d80211ab40736d8996ee98d9d84d08d2dc0751bd058b",
+      "stage": "official",
+      "opponent": "mirror",
+      "ticks_per_reset": 16471,
+      "attack_ticks_per_reset": 180,
+      "event": "blue_kill",
+      "winner": "blue",
+      "one_full_round": true,
+      "score_eligible": false
+    },
+    {
+      "case_id": "final_mirror_zero_2026300101",
+      "pair_key": "final_mirror_2026300101",
+      "actor_id": "zero",
+      "heading_error_deg": null,
+      "initial_blue_sha256": "0516b35d2c42355e82230c526c0655fa19ebe4e39938bf4b964746a4632782d2",
+      "initial_red_sha256": "ab471226595df9e1a981d80211ab40736d8996ee98d9d84d08d2dc0751bd058b",
+      "stage": "official",
+      "opponent": "mirror",
+      "ticks_per_reset": 18000,
+      "attack_ticks_per_reset": 4,
+      "event": "timeout",
+      "winner": "blue",
+      "one_full_round": true,
+      "score_eligible": false
+    }
+  ],
+  "complete_worker_count": 4,
+  "paired_openings": 2,
+  "comparisons": [
+    {
+      "pair_key": "final_rule_2026300100",
+      "initial_heading_error_deg": null,
+      "same_initial_blue_red_SHA": true,
+      "common_exposure_ticks": 18000,
+      "actors": {
+        "zero": {
+          "ticks": 18000,
+          "attack_ticks": 0,
+          "event": "timeout",
+          "winner": "blue",
+          "red_attack_ticks": 0,
+          "final_advantage_blue": 6657.055720820365,
+          "final_advantage_red": 945.7485000563681,
+          "red_over9G_ticks": 0,
+          "min_TA_deg": 2.1076882303283715,
+          "max_abs_G": 7.693139312553483,
+          "over9G_ticks": 0,
+          "min_AGL_m": 4138.990308412754,
+          "common_min_AGL_m": 4138.990308412754,
+          "common_attack_ticks": 0
+        },
+        "sac5000": {
+          "ticks": 18000,
+          "attack_ticks": 0,
+          "event": "timeout",
+          "winner": "blue",
+          "red_attack_ticks": 0,
+          "final_advantage_blue": 4279.4149232395275,
+          "final_advantage_red": 750.1998264380976,
+          "red_over9G_ticks": 0,
+          "min_TA_deg": 4.488465261956217,
+          "max_abs_G": 7.270045743268042,
+          "over9G_ticks": 0,
+          "min_AGL_m": 4150.625007759834,
+          "common_min_AGL_m": 4150.625007759834,
+          "common_attack_ticks": 0
+        }
+      }
+    },
+    {
+      "pair_key": "final_mirror_2026300101",
+      "initial_heading_error_deg": null,
+      "same_initial_blue_red_SHA": true,
+      "common_exposure_ticks": 16471,
+      "actors": {
+        "sac5000": {
+          "ticks": 16471,
+          "attack_ticks": 180,
+          "event": "blue_kill",
+          "winner": "blue",
+          "red_attack_ticks": 0,
+          "final_advantage_blue": 45273.46945285695,
+          "final_advantage_red": 69.18118320459402,
+          "red_over9G_ticks": 0,
+          "min_TA_deg": 0.06600505367450234,
+          "max_abs_G": 3.558818604691458,
+          "over9G_ticks": 0,
+          "min_AGL_m": 5216.648974892021,
+          "common_min_AGL_m": 5216.648974892021,
+          "common_attack_ticks": 180
+        },
+        "zero": {
+          "ticks": 18000,
+          "attack_ticks": 4,
+          "event": "timeout",
+          "winner": "blue",
+          "red_attack_ticks": 0,
+          "final_advantage_blue": 16522.025949314066,
+          "final_advantage_red": 71.15823844393812,
+          "red_over9G_ticks": 0,
+          "min_TA_deg": 0.4115615514305995,
+          "max_abs_G": 4.8124288641538735,
+          "over9G_ticks": 0,
+          "min_AGL_m": 5167.1642000147995,
+          "common_min_AGL_m": 5210.147244878985,
+          "common_attack_ticks": 0
+        }
+      }
+    }
+  ],
+  "actual_observed_launcher_exit_code": 0,
+  "training_started": false,
+  "frozen_actor_model_sha256": "9f93eb56483558ad56283c00b1ba34af96a236583bc977ef7d9fad375d9a0fea",
+  "official_Host_conformance_verified": false,
+  "combat_win_rate_evidence": false,
+  "deployment_allowed": false,
+  "report_sha256": "9b4ca42c8661a1e6bc6e8dc500739e263218f9c83b17b90744b3a4689f7f1c10"
+}

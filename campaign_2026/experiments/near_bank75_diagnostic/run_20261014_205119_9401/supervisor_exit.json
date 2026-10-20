@@ -1,0 +1,21 @@
+{
+  "actual_exit_code": 1,
+  "wait_return_observed": true,
+  "identity": {
+    "pid": 21796,
+    "create_time": 1791982280.2204072,
+    "cmdline": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank75_diagnostic\\launch_diagnostic.py",
+      "run",
+      "--job",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank75_diagnostic\\run_20261014_205119_9401"
+    ],
+    "parent_pid": 19416,
+    "identity_observed": true
+  },
+  "wait_reason": "workload_overlap"
+}

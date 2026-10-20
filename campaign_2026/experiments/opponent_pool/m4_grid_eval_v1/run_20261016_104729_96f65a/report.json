@@ -1,0 +1,387 @@
+{
+  "status": "completed",
+  "cases": [
+    {
+      "identity": {
+        "pid": 14032,
+        "creation_epoch": 1792118850.8546617,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_smoke.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_20261016_104729_96f65a\\cases\\final_rule_sac5000_2026300300\\input.json"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent_pid": 22504
+      },
+      "actual_worker_exit_code": 0,
+      "case_id": "final_rule_sac5000_2026300300",
+      "input_sha256": "99d9fe458e8b7b8c059b073b3dedab7fc189b262c1f233f25f09dfdb78ac664f",
+      "result_sha256": "df5916887a22ba40830394da9d0582f7e9820d7eba5b09d165e6b43bd9edbccc"
+    },
+    {
+      "identity": {
+        "pid": 15036,
+        "creation_epoch": 1792118889.3640523,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_smoke.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_20261016_104729_96f65a\\cases\\final_rule_transfer10000_2026300300\\input.json"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent_pid": 22504
+      },
+      "actual_worker_exit_code": 0,
+      "case_id": "final_rule_transfer10000_2026300300",
+      "input_sha256": "9bdd9d9e1cb1fd7d82f2a9357b591d748f3bce93c0c666a59100aab4cb88db34",
+      "result_sha256": "16cd83d825090315e75b928acc2809ee390366ccdf38e2955d0cd6f0731c59e1"
+    },
+    {
+      "identity": {
+        "pid": 2632,
+        "creation_epoch": 1792118927.613907,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_smoke.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_20261016_104729_96f65a\\cases\\final_rule_transfer10000_2026300301\\input.json"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent_pid": 22504
+      },
+      "actual_worker_exit_code": 0,
+      "case_id": "final_rule_transfer10000_2026300301",
+      "input_sha256": "b823e793872630f4964f1b3fd5ab68948e9491f262b67d76c7c4a12b154aa469",
+      "result_sha256": "8d86095369eb6b3cd1a7fecaf58c901be1139c0892e97a1e35c8a13d7a3154ec"
+    },
+    {
+      "identity": {
+        "pid": 23960,
+        "creation_epoch": 1792118967.1679401,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_smoke.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_20261016_104729_96f65a\\cases\\final_rule_sac5000_2026300301\\input.json"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent_pid": 22504
+      },
+      "actual_worker_exit_code": 0,
+      "case_id": "final_rule_sac5000_2026300301",
+      "input_sha256": "f40586757665af8b13c2b55dc5e8a12bb0311b2ea12ca2591966eec4389727ea",
+      "result_sha256": "5efa892a715d483fcb918508432a0498cda7515ec0696a8b0bd6199d7372f033"
+    },
+    {
+      "identity": {
+        "pid": 23600,
+        "creation_epoch": 1792119014.516857,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_smoke.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_20261016_104729_96f65a\\cases\\final_rule_sac5000_2026300302\\input.json"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent_pid": 22504
+      },
+      "actual_worker_exit_code": 0,
+      "case_id": "final_rule_sac5000_2026300302",
+      "input_sha256": "7aa7f6faf801dafb86547a4c38fbe252574c686be7f59ca5c82d5ff4519bdc9a",
+      "result_sha256": "d342078b8cf7f05a2bf26711fe87e8409747f00edcb0b8cfdf7c7effa4b22f0e"
+    },
+    {
+      "identity": {
+        "pid": 21160,
+        "creation_epoch": 1792119052.9347684,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_smoke.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_20261016_104729_96f65a\\cases\\final_rule_transfer10000_2026300302\\input.json"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent_pid": 22504
+      },
+      "actual_worker_exit_code": 0,
+      "case_id": "final_rule_transfer10000_2026300302",
+      "input_sha256": "0d715913189d1e6a95f3302db5477e837f5113019a4f34a167a9792a7588011f",
+      "result_sha256": "f28e301d0ef15e854d744fbfda58c49400b0ab04295c2ce78be60b63e456f378"
+    },
+    {
+      "identity": {
+        "pid": 4028,
+        "creation_epoch": 1792119093.6980257,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_smoke.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_20261016_104729_96f65a\\cases\\final_mirror_transfer10000_2026300303\\input.json"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent_pid": 22504
+      },
+      "actual_worker_exit_code": 0,
+      "case_id": "final_mirror_transfer10000_2026300303",
+      "input_sha256": "2d8a6b2e94a761651cb15f6722d97523469aa34cc7d732798d6e5ffaa207848c",
+      "result_sha256": "1b3f5e20167b234d5010865964c5cc343c3557626e70d227117b582429eb3597"
+    },
+    {
+      "identity": {
+        "pid": 23432,
+        "creation_epoch": 1792119132.1409192,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_smoke.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_20261016_104729_96f65a\\cases\\final_mirror_sac5000_2026300303\\input.json"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent_pid": 22504
+      },
+      "actual_worker_exit_code": 0,
+      "case_id": "final_mirror_sac5000_2026300303",
+      "input_sha256": "209ff963ef5ac50ad436591fe8278062ae9f4355e304f6032b8e302c42073176",
+      "result_sha256": "f234e6e70ba1b8965fb203123c39eba270534e9f22e8358555f25c836eca8814"
+    },
+    {
+      "identity": {
+        "pid": 6192,
+        "creation_epoch": 1792119171.5504608,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_smoke.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_20261016_104729_96f65a\\cases\\final_mirror_sac5000_2026300304\\input.json"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent_pid": 22504
+      },
+      "actual_worker_exit_code": 0,
+      "case_id": "final_mirror_sac5000_2026300304",
+      "input_sha256": "ad05c1bbf2566a7ccd817bd54938e87c3d59a60cdeab99b5af75517043d7a2e5",
+      "result_sha256": "b6b73157cacf297f961213ed30b613cd90c598949f297e581ad85b5733d94f86"
+    },
+    {
+      "identity": {
+        "pid": 23592,
+        "creation_epoch": 1792119210.6650283,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_smoke.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_20261016_104729_96f65a\\cases\\final_mirror_transfer10000_2026300304\\input.json"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent_pid": 22504
+      },
+      "actual_worker_exit_code": 0,
+      "case_id": "final_mirror_transfer10000_2026300304",
+      "input_sha256": "67b735fa7e49c3e7c9d4e4ee70b943c936855fc9342a20bee8b75a2cbb2d4552",
+      "result_sha256": "bf4f0323c322404b796eee5fcb27dd1008a75ae125532ff44fa2e3d73ba48b9f"
+    },
+    {
+      "identity": {
+        "pid": 17232,
+        "creation_epoch": 1792119241.7708335,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_smoke.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_20261016_104729_96f65a\\cases\\final_mirror_transfer10000_2026300305\\input.json"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent_pid": 22504
+      },
+      "actual_worker_exit_code": 0,
+      "case_id": "final_mirror_transfer10000_2026300305",
+      "input_sha256": "2af1e3e0b13c11005fdea6874f9001907d509ca15aa58c823d9b9536c5c6e8d6",
+      "result_sha256": "1af863c90844a859d0ee4da9d537dba831d62ff5866c008a65ebde9bbf5121ca"
+    },
+    {
+      "identity": {
+        "pid": 17540,
+        "creation_epoch": 1792119273.1204836,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_smoke.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_20261016_104729_96f65a\\cases\\final_mirror_sac5000_2026300305\\input.json"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent_pid": 22504
+      },
+      "actual_worker_exit_code": 0,
+      "case_id": "final_mirror_sac5000_2026300305",
+      "input_sha256": "12d940d5de72c14fc240cb27f2ff757494085589122f2e9d927d7b41c169be7a",
+      "result_sha256": "0dbe5abf23daf45dfa307f60e9d7c93a21e7f4238b165ca199c66502e02b739f"
+    },
+    {
+      "identity": {
+        "pid": 18232,
+        "creation_epoch": 1792119312.2193916,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_smoke.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_20261016_104729_96f65a\\cases\\final_rl_sac5000_2026300306\\input.json"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent_pid": 22504
+      },
+      "actual_worker_exit_code": 0,
+      "case_id": "final_rl_sac5000_2026300306",
+      "input_sha256": "dc5d4666ed2be821de90e01d56f7d8d6b56469ea9619ed6ddad5aa14220f4b0b",
+      "result_sha256": "e4741aaf607cc69414877580d28790bf9637e1e4fc0c3b339a9350f3617db440"
+    },
+    {
+      "identity": {
+        "pid": 18620,
+        "creation_epoch": 1792119370.5348327,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_smoke.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_20261016_104729_96f65a\\cases\\final_rl_transfer10000_2026300306\\input.json"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent_pid": 22504
+      },
+      "actual_worker_exit_code": 0,
+      "case_id": "final_rl_transfer10000_2026300306",
+      "input_sha256": "435490d3b4a90339079113cc7293aa41a1bda2ea67470c76c19e80f22a201bbd",
+      "result_sha256": "86c607b82772eaf06bcc6ff4176c6757fd81de39da8cfbf984444c82eb4d9c8c"
+    },
+    {
+      "identity": {
+        "pid": 7792,
+        "creation_epoch": 1792119431.4541852,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_smoke.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_20261016_104729_96f65a\\cases\\final_rl_transfer10000_2026300307\\input.json"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent_pid": 22504
+      },
+      "actual_worker_exit_code": 0,
+      "case_id": "final_rl_transfer10000_2026300307",
+      "input_sha256": "f6dc8fec92c4364f4d15ebe2c58dc968a76096a8a5b46af047a5b1b16edda8a4",
+      "result_sha256": "0c4f6ee66c0232843f27349559101e90237ab5c3a1a924d1f83bfe6ea13d4376"
+    },
+    {
+      "identity": {
+        "pid": 23156,
+        "creation_epoch": 1792119488.8176548,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_smoke.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_20261016_104729_96f65a\\cases\\final_rl_sac5000_2026300307\\input.json"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent_pid": 22504
+      },
+      "actual_worker_exit_code": 0,
+      "case_id": "final_rl_sac5000_2026300307",
+      "input_sha256": "75b79093598d8ce620db49d979064600d1702197e93640291261b8682f91c466",
+      "result_sha256": "8d3fed3655d64771cbcdd316c81cf3eef2ba636f6a68a17b144d668b1b4e2311"
+    },
+    {
+      "identity": {
+        "pid": 8548,
+        "creation_epoch": 1792119548.676857,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_smoke.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_20261016_104729_96f65a\\cases\\final_rl_sac5000_2026300308\\input.json"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent_pid": 22504
+      },
+      "actual_worker_exit_code": 0,
+      "case_id": "final_rl_sac5000_2026300308",
+      "input_sha256": "fff5885d61e14c34d89b2c91aafa853e4ece204cd317a07cf6a34b8ed5403661",
+      "result_sha256": "27e19e58925aaafaa8400334f43c6d103bfad77d6c196f65cf5cc16cbfe51fcb"
+    },
+    {
+      "identity": {
+        "pid": 21084,
+        "creation_epoch": 1792119612.3144689,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_smoke.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_20261016_104729_96f65a\\cases\\final_rl_transfer10000_2026300308\\input.json"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent_pid": 22504
+      },
+      "actual_worker_exit_code": 0,
+      "case_id": "final_rl_transfer10000_2026300308",
+      "input_sha256": "ef125053f1fa77f156226b92c5da296e2cc0a51e6b5dbbbdf75838ac61d43fb7",
+      "result_sha256": "137eccc1e5b1d452bffb9158494f31a3e2c476aeaac8dee362eea0b222a93481"
+    }
+  ],
+  "score_eligible": false,
+  "official_validation": false,
+  "plan_sha256": "e93b60ba1c9ac2feb95d7fed2ab693a79e4b4736ecc9cf22121b4e0545c6bcbc",
+  "wall_seconds": 820.9840000000004
+}

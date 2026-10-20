@@ -1,0 +1,30 @@
+{
+  "source_csv_sha256": "1a53b0702a2c2b8774288a735314728a007868537fae62eaa6b19e20eb7c84c6",
+  "rows": 10384,
+  "hypothesis": "Each angle index=(180-angle)/180 if angle<=90, else0; multiply each by distancefactor. Positionangle=180-other_noseTA. Empirical inference pending publication reconciliation.",
+  "stats": [
+    {
+      "attack_max": 4.537941171167681e-06,
+      "position_max": 6.449384137352521e-06,
+      "attack_error_sum": 0.015989588256159176,
+      "position_error_sum": 0.01843397323866798,
+      "legacy_Pt_error_sum": 425.96833370948883
+    },
+    {
+      "attack_max": 0.0,
+      "position_max": 6.4439523353998496e-06,
+      "attack_error_sum": 0.0,
+      "position_error_sum": 0.00176305165482573,
+      "legacy_Pt_error_sum": 95.58814853277582
+    }
+  ],
+  "bodyX_1deg_damage_predicted_ticks": 180,
+  "bodyX_2deg_damage_predicted_ticks": 1201,
+  "observed_blue_damage_ticks": 180,
+  "one_degree_frame_mismatch": 0,
+  "frozen_rules_not_changed": true,
+  "old_SAC_reward_not_Host_position_consistent": true,
+  "requires_new_contract_before_more_training": true,
+  "formal_conformance_certified": false,
+  "source_round_package_gate_remains_ineligible": true
+}

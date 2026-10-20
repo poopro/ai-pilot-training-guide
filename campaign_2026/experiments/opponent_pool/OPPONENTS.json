@@ -1,0 +1,47 @@
+{
+  "format": "campaign_frozen_opponent_pool_v1",
+  "opponents": [
+    {
+      "id": "rule",
+      "kind": "original RuleFighter",
+      "change": null
+    },
+    {
+      "id": "rl",
+      "kind": "frozen existing SAC residual + original PacketController",
+      "bundle": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\candidate1_to_199000\\final_0000148682"
+    },
+    {
+      "id": "repair_guide",
+      "kind": "original RepairController without residual",
+      "change": null
+    },
+    {
+      "id": "rule_bank60",
+      "kind": "RuleFighter isolated copy",
+      "change": "Far range pursuit bank clipping72 to60; break/near/altitude/speed unchanged"
+    }
+  ],
+  "rounds": 3,
+  "distances_ft": [
+    3000,
+    6000,
+    9000
+  ],
+  "sides": [
+    "normal",
+    "mirrored"
+  ],
+  "actors": [
+    "guide",
+    "candidate"
+  ],
+  "planned_pairs": 72,
+  "planned_cases": 144,
+  "max_wall_hours": 2,
+  "case_wall_seconds": 150,
+  "round_ticks": 18000,
+  "seed_role": "expanded_development_not_holdout",
+  "official_validation": false,
+  "deployment_allowed": false
+}

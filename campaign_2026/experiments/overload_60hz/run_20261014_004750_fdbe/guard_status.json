@@ -1,0 +1,21 @@
+{
+  "status": "finished",
+  "reason": "terminal",
+  "cleanup": [],
+  "identity": {
+    "pid": 4064,
+    "create_time": 1791910070.7607875,
+    "cmdline": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\overload_60hz\\launch_diagnostic.py",
+      "guard",
+      "--job",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\overload_60hz\\run_20261014_004750_fdbe"
+    ],
+    "parent_pid": 20324
+  },
+  "deadline_epoch": 1791911270.7545707
+}

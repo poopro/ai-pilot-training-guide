@@ -1,0 +1,24 @@
+{
+  "actual_all_worker_exits": [
+    1
+  ],
+  "guardian": {
+    "pid": 9748,
+    "create": 1792200890.383885,
+    "cmd": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_battle_v1\\battle.py",
+      "--launch"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent": 18664
+  },
+  "status": "failed_partial",
+  "wall_seconds": 90.6720000000023,
+  "error": "RuntimeError('Incomplete/failed worker normal_station_zero_2026310100')",
+  "source_unchanged": true,
+  "guardian_return_intended": 2
+}

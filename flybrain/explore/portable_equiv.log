@@ -1,0 +1,42 @@
+
+
+     JSBSim Flight Dynamics Model v1.3.3 Oct 16 2026 00:34:01
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.3.3 Oct 16 2026 00:34:01
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+............
+
+     JSBSim Flight Dynamics Model v1.3.3 Oct 16 2026 00:34:01
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.3.3 Oct 16 2026 00:34:01
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+............
+popt:opt_ridge         guide    1020000  DIFF | portable timeout blue   3703.6 [0, 0, 0, 0, 0, 0, 0, 0] | harness timeout blue   3703.6 [387, 417, 6, 60, 0, 0, 18, 12]
+popt:opt_ridge         guide    1020001  DIFF | portable timeout blue   5560.1 [0, 0, 0, 0, 0, 0, 0, 0] | harness timeout blue   5560.1 [384, 468, 6, 18, 0, 0, 24, 0]
+popt:opt_ridge         lead     1020000  DIFF | portable timeout blue   1099.6 [0, 0, 0, 0, 0, 0, 0, 0] | harness timeout blue   1099.6 [387, 261, 84, 108, 0, 0, 48, 12]
+popt:opt_ridge         lead     1020001  DIFF | portable timeout blue   1412.2 [0, 0, 0, 0, 0, 0, 0, 0] | harness timeout blue   1412.2 [396, 216, 54, 198, 0, 0, 36, 0]
+popt:opt_ridge:tuned   guide    1020000  DIFF | portable timeout blue   8016.7 [0, 0, 0, 0, 0, 0, 0, 0] | harness timeout blue   8016.7 [387, 471, 12, 24, 0, 0, 6, 0]
+popt:opt_ridge:tuned   guide    1020001  DIFF | portable timeout blue   8555.5 [0, 0, 0, 0, 0, 0, 0, 0] | harness timeout blue   8555.5 [383, 493, 6, 12, 0, 0, 6, 0]
+popt:opt_ridge:tuned   lead     1020000  DIFF | portable timeout blue   1874.2 [0, 0, 0, 0, 0, 0, 0, 0] | harness timeout blue   1874.2 [355, 269, 48, 168, 0, 6, 54, 0]
+popt:opt_ridge:tuned   lead     1020001  DIFF | portable timeout blue   2329.3 [0, 0, 0, 0, 0, 0, 0, 0] | harness timeout blue   2329.3 [418, 230, 54, 132, 6, 0, 54, 6]
+popt:opt_mlp:tuned     guide    1020000  DIFF | portable timeout blue   8374.2 [0, 0, 0, 0, 0, 0, 0, 0] | harness timeout blue   8374.2 [387, 501, 12, 0, 0, 0, 0, 0]
+popt:opt_mlp:tuned     guide    1020001  DIFF | portable timeout blue   1732.9 [0, 0, 0, 0, 0, 0, 0, 0] | harness timeout blue   1732.9 [414, 390, 12, 30, 0, 6, 36, 12]
+popt:opt_mlp:tuned     lead     1020000  DIFF | portable timeout blue   2618.8 [0, 0, 0, 0, 0, 0, 0, 0] | harness timeout blue   2618.8 [342, 420, 42, 66, 0, 6, 18, 6]
+popt:opt_mlp:tuned     lead     1020001  DIFF | portable timeout red  -1948.8 [0, 0, 0, 0, 0, 0, 0, 0] | harness timeout red  -1948.8 [322, 422, 60, 24, 0, 0, 24, 48]
+games differing: 12

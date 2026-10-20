@@ -1,0 +1,666 @@
+{
+  "updated_utc": "2026-10-12T13:02:44.921927+00:00",
+  "report": "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\report.json",
+  "report_sha256": "fdc77919d2eb7003b3a6030b8c527a5d51aa675214d13c1cf91a34cffefa4c1b",
+  "actual_parent_exit_code": 0,
+  "verified_comparison": true,
+  "guide_reproduces_original_development": true,
+  "matched_pairs": 12,
+  "eligible_cases": 24,
+  "actor_policy_used": false,
+  "candidate_factor": "near distance <1100m bank ceiling 72 to 80 only",
+  "source_sha256": {
+    "repair/controller.py": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+    "repair/env.py": "8bb9078809d28ab2117abc3b928c138acf1da1dc4442e69de4c4632d8c3c9607",
+    "lab/duel_lab.py": "9f358a7a04b09728199ac33de120146e3aa0bcbb37fe18dbae2a2b5a7cfcb9a6",
+    "base/combat_v3/env.py": "4b4e91dd8168517039ed7092a0536dcefd5297582c4f3722be8d7ca5d3b9d7b4",
+    "base/combat_v3/controller.py": "d772bf49a8d8408aaafec691c981d0612de7dada6450e0afcecbc3d958b7813b",
+    "base/combat_v3/interface.py": "50f63ee563a8cb13b9bb472b0de7905579bcc9c70bc69efc571681879eb02555",
+    "base/combat_v3/fdm.py": "c59e705d248f1678f64ba6788639260c739a1b1a6e8f6830d62e4a11f3a1dba6",
+    "base/combat_v3/rules.py": "40857e278e8f3902fc9e8c39acf0aebb7bc8e02fafb9627a3f5561512a2f4e05",
+    "base/combat_v3/config.json": "d4fba053617240e07ffc67fe389d944313ba12dff491e569a0ae764e0f7b88ec",
+    "base/envs/jsbsimEnv/jsbsimFdm.py": "6d193634ccaff77db6f3d1e248b2276c4a7177c47dbfa82fd466154b67d8c541",
+    "repair/artifacts.py": "938c184366b55843e59250e2d1b544c10ebb67daca451e2701e8e631c7fd041e",
+    "candidate/near_bank80.py": "7ddbf0893840289fbd876e7d8b88e3e97e733a847a8ba808df9f7db0c31d5e02",
+    "candidate/benchmark_bank80.py": "b64d22483afa16713fbab8198957b455ef0af9386e17f76e268fbf4819562702",
+    "fdm_model_xml/aircraft/f16/f16.xml": "78edd90534338204913c35ed50d7c222eecac1b83c454c73ad70bf6d4907ea2f",
+    "fdm_model_xml/aircraft/f16/reset00.xml": "738c7d0f3495b072bcdb570c203c92cbd7ae5af3c4213f01183a46dd861a0c85",
+    "fdm_model_xml/aircraft/f16/Systems/hook.xml": "9067ea104820d9d2d2f438b0361cbfdc9cea28a7969bd46eaa540fd7d9dfdd62",
+    "fdm_model_xml/aircraft/f16/Systems/pushback.xml": "a3c0e2fc8a494b18b7158718cfc96d51fb34aac440965c0c73a1b7f33bb1a64b",
+    "fdm_model_xml/engine/AJ26-33_nozzle.xml": "8c6aa8e988370475628d75b613692edda14c188557a743738027edb50c2e45bb",
+    "fdm_model_xml/engine/AJ26-33A.xml": "48c0076425e1bf9822694916fd0d6e323d7a7cda7cf71622873061c2b1349917",
+    "fdm_model_xml/engine/avco_lycoming_t53.xml": "4be5d58e38543bcf345bf98cfbd3fb1e4b0aa1f0bc4ab280117123481f9dd096",
+    "fdm_model_xml/engine/BR-725.xml": "88fbe99ec4732bed8da2161507dfd4d698e772e8d2abc835a2580d5c0abea688",
+    "fdm_model_xml/engine/BR710.xml": "32d973dfaf579b9051bdaff021deb8d32c3f6cbf2614be10b3191bb0073c7dc2",
+    "fdm_model_xml/engine/CamelProp.xml": "6ce1ab866defb0a81a51d79428cbb75cffcc5dab842aec36b451391daa74717a",
+    "fdm_model_xml/engine/CF6-80C2.xml": "b784c040a13da2fa728101588ff51f0bd0d8b349c562d5e98c35695866387a55",
+    "fdm_model_xml/engine/CFM56.xml": "953efe535c5daf7fc7674dd39799b8a600b7d3a730b38b1db4884288c6d2a7d7",
+    "fdm_model_xml/engine/CFM56_5.xml": "a5423c17d9236fd3ceba41736cf60d02cdc150a6afcadf6c7503494504a7055d",
+    "fdm_model_xml/engine/Clerget9B.xml": "00a4c7b4b63621119ac3171fdb008cfe34a1c90f836e8023ce71cb81155e8969",
+    "fdm_model_xml/engine/direct.xml": "f116b6f6d25d4b2b46c2f0faa713e85d0064db7a634105bc96e391fb52e4dde5",
+    "fdm_model_xml/engine/DJI_9450.xml": "377252ae1d93146e24277ab3fb00ea2ce15d559293e317ab7fba0db1c70e7eff",
+    "fdm_model_xml/engine/DJI_E305.xml": "25c5488ca17632f0a64c303da485af752e85b8a555d4f840ed870233b1ad5d7a",
+    "fdm_model_xml/engine/dowty-rotol-aero.xml": "d9344eda82a8799bedf3801a4c4879da3fac5c87228c05d936be1600f33b00d8",
+    "fdm_model_xml/engine/Dr1_propeller.xml": "2c3cb038fc78f2628af0e915008c6898be726da4327d98d4ac8ecaf353b257b3",
+    "fdm_model_xml/engine/dummy.xml": "ded67d439dc1edc1074ed6f1ffa8a3ee94a4ae32b7a37cb296c0d50f798bec9b",
+    "fdm_model_xml/engine/electric147kW.xml": "aa8f38c940badef63a0723eca85e4a80e9fa7ce98907ef7eaf85bc2a3c5487da",
+    "fdm_model_xml/engine/electric_1mw.xml": "00d1f08f67cd9e5c66fae7fb1d3fd9b2dc8c7cc79e458492c76c9fa610fa0e16",
+    "fdm_model_xml/engine/eng_io320.xml": "0cedc1e356a7a572a175f351a4abb952ba91081219a37dc7192bce3a2181d8c6",
+    "fdm_model_xml/engine/eng_O-200.xml": "9eeca22294b374889a64f589b98dce441fbda162aa3ec7ec0e34bf74b9c70cdc",
+    "fdm_model_xml/engine/eng_PegasusXc.xml": "e040f2dfd96cda4459d23b27c3a592474e0e12a2e2c203a29aba7f44035a5b5a",
+    "fdm_model_xml/engine/eng_RRhawk.xml": "8d72cb0894b2a8ffff167773f132a894e07dc54dcdf68033d6249d043b56e7c4",
+    "fdm_model_xml/engine/engIO360C.xml": "fb6bb746b2c9ec9851c16957c7db3134e034945cf010834c154756aa18efefef",
+    "fdm_model_xml/engine/engIO470D.xml": "93ea4f9efd5e5ad1b8491615a635836edd7e7e12709157f26faa70df0184d34d",
+    "fdm_model_xml/engine/engIO540AB1A5.xml": "9d417d8e50ec9a3532e6db42d5ea4060dc971c6c3b32f5dd8383f124176ad67f",
+    "fdm_model_xml/engine/engRRMerlin61.xml": "b4b21ed61c3155f86ac8657397870afd1a114e8a2196a7d413af9ff1f6d419d1",
+    "fdm_model_xml/engine/engRRMerlinXII.xml": "2a991655d84c7725daefe3ddebb0b1e589f849d9b10e630ff5af876f0aa97112",
+    "fdm_model_xml/engine/engtm601.xml": "2aa5375e6c62308fd42ce2f89e8ec4a9e4eb8ffb8a1633605d63a6976e834b52",
+    "fdm_model_xml/engine/Estes_E9.xml": "0bc565c7447a66d8283287506b9ee8282a4fca3bce4a9f1664048972b3a3bbb6",
+    "fdm_model_xml/engine/F100-PW-229.xml": "92fd101fdcc60dc8f41f449a297e134419ff062f5293c2e58678fd07d8127e69",
+    "fdm_model_xml/engine/F119-PW-1.xml": "dedbf51904be53523aa191f59f686dd88b956a8fa41ebbbf5706a796f28ec954",
+    "fdm_model_xml/engine/GE-CF6-80C2-B1F.xml": "4b63dde10ba1cccd518068162eb05681ee4ba7b939bf13ed2362dd5a5d596942",
+    "fdm_model_xml/engine/HamiltonStd6243A-3.xml": "7226b65ecbc47e465f2cdb7812f6f202db9ac90bc5474b212f25a96c5d9ef18d",
+    "fdm_model_xml/engine/J33-A-35.xml": "f2177b7912ce407a4ba12af9eee4bc93d5050e3eef589779d2639c8bd4a11a9d",
+    "fdm_model_xml/engine/J52.xml": "9093242207385be275451461ba10f0f8172c97ada3d9e514fb0175657c5aa0b1",
+    "fdm_model_xml/engine/J69-T25.xml": "d24b3e74ede24048874b69f2a7e6536fde58ec014c64bf229011d07bf78830c1",
+    "fdm_model_xml/engine/J79-GE-11A.xml": "22121567e476805b80672fb85f3254f58084ca4c6d41a52b7775e2fe3b3cbbba",
+    "fdm_model_xml/engine/J85-GE-5.xml": "8633e590e3d6313b6186f4517208c83c2afd726fbf448d2009e91347434a233e",
+    "fdm_model_xml/engine/JT9D-3.xml": "f711c9f9204dbeeb14a1ffe2b2f0e4eb30a7dbb4883ec57fdc38defd780fe0e4",
+    "fdm_model_xml/engine/LM_descent_nozzle.xml": "f1714b54e6762170a69eef8086281cc0454ed7f8cf42235c8907c14dd69b4f37",
+    "fdm_model_xml/engine/LMdescent.xml": "c394d0f5656be627855784a29d4155d0c3da1bda6b34cc6ddf572c40aa54d8dd",
+    "fdm_model_xml/engine/MerlinV1650.xml": "a95ac99a481ffd2cb1a80cd5f6aa0e27191e2d8587fa87aa2539bf3f618a783b",
+    "fdm_model_xml/engine/Oberursel-UrII.xml": "ef1c335bd03fad41d94980cb8a53afb9e529d124be21c47ed11a74de67911338",
+    "fdm_model_xml/engine/Olympus593Mrk610.xml": "c2845686b6f3e4833d1c085783e8e9a7b32174971b7256298337de8508dfb798",
+    "fdm_model_xml/engine/P51prop.xml": "ced69be8be39a7a9deeb7b6643cef96c065cd2cbad7bb6b6fb6ec2e859f637ef",
+    "fdm_model_xml/engine/prop30FP2B.xml": "0ab15c00740b4dd6a491e4349fa0ad7352b59080acfed85c31e8515d050b9545",
+    "fdm_model_xml/engine/prop_75in2f.xml": "6481edf1da940fdea5358913d226c3e25d3e6b8209b4805370258a9a65ca7403",
+    "fdm_model_xml/engine/prop_81in2v.xml": "e7b74fda750529dd04f0a9072699862f18e8d1f1a89881ea6e788de11910e906",
+    "fdm_model_xml/engine/prop_Clark_Y7570.xml": "b8b071294196f5ab66b980aeae088ba0fec5d847506e77a2f0c6216d4a46ffb9",
+    "fdm_model_xml/engine/prop_deHavilland5000.xml": "ee74179b1bba712ba9bd740ce5b85e4f153d90e7a74e12758ee0dbd4fc5f4c9c",
+    "fdm_model_xml/engine/prop_generic2f.xml": "1c3a61a26d436401ec7956e32d7a53935774d6759df1f79fff1213a088864de0",
+    "fdm_model_xml/engine/prop_PT6.xml": "fd788a33fe03735c87a6cd18a8bcb964a4be0fce26c0a6102c173f371b2bd266",
+    "fdm_model_xml/engine/prop_SSZ.xml": "e28322c5acdd83c2829d4b945a109eb054ab2d65d24753361d8959f604c5c106",
+    "fdm_model_xml/engine/propC10v.xml": "4cbd672edefa5b935deb42ee5578b8bd98fe18b78ca6b400f90c8094f14dc432",
+    "fdm_model_xml/engine/propC6v.xml": "3225c45ca113fce826b6c002d58bde867f348c4cc6d2759d0b5bd063e59b9198",
+    "fdm_model_xml/engine/propC8v.xml": "272ae23ac70c3c0a48923c059e80c182756680adb2806ca2a3ed8fb40781ddab",
+    "fdm_model_xml/engine/propDA-R352_6-123-F_2.xml": "2e1094546cf581593c1a38685f21aafea62d1bf9ea7d7aa4764d59a737be83f1",
+    "fdm_model_xml/engine/propHO-V373-D.xml": "1b46f84d92d3607f104a4d39bb3fc21d8573b524efaaf0cd8d64156d96bb598a",
+    "fdm_model_xml/engine/propHS139v.xml": "a34c5969d652955194959c27b4c14a6cc4cb1aa5babb6a84ebe0d6d28121e464",
+    "fdm_model_xml/engine/PT6A-27.xml": "62c343ddfd566d48f8d210d228861f64cb4216a189d7d71bab333e40f70e2b7d",
+    "fdm_model_xml/engine/PT6A-68.xml": "033bacf06e3dbd41b2d384c442e614ae70ebbcd3868540266cee7a3ef5bfc400",
+    "fdm_model_xml/engine/PW125B.xml": "3653736c3416a17b4aa930b34698b04651b4a512572ab25882fe8c5cd3a22ed0",
+    "fdm_model_xml/engine/PW125BX.xml": "40353d863a2024cf57ac19897a87ad21bd02ab8d9afb209c9f00576ae1449a58",
+    "fdm_model_xml/engine/R-1820-97.xml": "d607a67e6886637d7789ec0c349be36988bc469dec4bf9ca029a2f518a436801",
+    "fdm_model_xml/engine/RB211-524.xml": "0fa7a8363e76f6fdd01b609a32d4477d31450fd26937f996a22f7891b021cf00",
+    "fdm_model_xml/engine/RL10.xml": "6b4ca7e94ca1e123ceeeb8b6a492cb55f738170c365f97f75ead3818d2d46e27",
+    "fdm_model_xml/engine/RL10_nozzle.xml": "7bf96a5822aff9c2a40b4ee1ccb6077df03f2640892b2a4c382607b41b331138",
+    "fdm_model_xml/engine/RollsRoyce.xml": "5d9be44edb3aebf5204f6881eb08b9da2910aec2e97a9310c14e19c67663f6d2",
+    "fdm_model_xml/engine/s64_rotor.xml": "7869cb3c474dd0f5fe8cdfd43f3932e7f571aca7bb60906223eaaef4bdadbe70",
+    "fdm_model_xml/engine/SRB.xml": "5ea309751035a3d6dd034340a697cb865f6007286831203b54b4f56d2987d88c",
+    "fdm_model_xml/engine/SRB_nozzle.xml": "bd00636251cb2b1f004f7412223610470ba8b4f376d670e499b45da2db406ae9",
+    "fdm_model_xml/engine/SSME.xml": "0f4bf385e9289816a9bd32a096951a0212c9b2ffca1ef55237d6514aa2ec4d0e",
+    "fdm_model_xml/engine/SSME_nozzle.xml": "f7fc78e75fc11740d7cec7c3c161b84ec92e225176d278c5850e3c25f257f601",
+    "fdm_model_xml/engine/t56.xml": "ca7796081ab35e5e3d764149a73adb74e3c4b9e0c65ee14a54714e360b0109b1",
+    "fdm_model_xml/engine/t56_prop.xml": "9d9d23f2efbd01c0e58e6d7c7c58ac7697867474ff894139210814d4e0fa29d3",
+    "fdm_model_xml/engine/T76.xml": "7e705ef3ad097b977f2e66b17f822768db7b63e9acaab7060bd60e5b0efa62b9",
+    "fdm_model_xml/engine/Tay-620.xml": "cd021e1c0c2f7269b249928acb39d46506275ffcf2ebebf53dfe66821946a8f2",
+    "fdm_model_xml/engine/Tay-651.xml": "5c803e35696ae3e32e5fbdce080cddae87ce9a39284c64a53617abb8dfbe9674",
+    "fdm_model_xml/engine/test_turbine.xml": "1080224e7e931e4bfbbf9e974669d6a7cff9ad82f301dfd188cc33a276ff0b58",
+    "fdm_model_xml/engine/TRENT-900.xml": "c07f21abeb724c3368472eef3e224c0c3baeefae4989ec93a849778ea7cea0c5",
+    "fdm_model_xml/engine/trent_1000.xml": "63fc1ce52b97d2a493bc49bdd269a9370020317d5446db3760ae465871be05a3",
+    "fdm_model_xml/engine/twin_pratt_and_whitney_t73.xml": "369eb181f105937531d2249a5e89225c0a5bd5047b875e51c4d142cae4dcde0b",
+    "fdm_model_xml/engine/vrtule2.xml": "1d76984d3a8cf4074faf9ce184a97119169880dc4f52ef31db81129c7a1cc8af",
+    "fdm_model_xml/engine/wright1903_engine.xml": "bbaeede806135c3c6c1a82f1ecfa57796c0c6461576c1704506fc6a67cd1ee78",
+    "fdm_model_xml/engine/wright1903_propellers.xml": "03dd5fee094187900120a7e5162c94e07e91e274020ae29d2ea11d46f026afd7",
+    "fdm_model_xml/engine/wright1905_engine.xml": "8cb75fda36db35a0925cb50c658b4a25cdef55d1f077e2e270daef8b69a67e69",
+    "fdm_model_xml/engine/WrightGR-2600.xml": "95642c7a96614271ba2b768a8ede703bd89d0d4e081d78bb72a9af1d4ffac387",
+    "fdm_model_xml/engine/XLR99.xml": "6a434bad4f1c0d4e5f19d45a6aef5eab1ddd980242c86c63fe8f5b8ac9a6aec3",
+    "fdm_model_xml/engine/xlr99_nozzle.xml": "2e536d56a3684137582e41a482fe4365221e80016bbef85e9a2cb27090b8bf86",
+    "fdm_model_xml/engine/YJ93-GE-3.xml": "7ef4549e217f1863efc271c9be735e5edb45fa03da6472ae6b68d5c75d5017c1",
+    "fdm_model_xml/engine/Zenoah_G-26A.xml": "72d265659bcab24ba7b959c98b6cd4da2b04ed134745c6201a0126b44f84d150",
+    "fdm_model_xml/systems/accelerometers.xml": "47058250ea2c224d5a7871a2f1ff1e51e42c359c666f65aa67f5072a02120430",
+    "fdm_model_xml/systems/afcs.xml": "c178d474ca9ec3e04884ea793cd25733870ecfd20d76e402830df36e9030f88f",
+    "fdm_model_xml/systems/airship-mooring.xml": "d2eb95fe3ac7b9f55c882ecd3e750692555a565e52bf32221fe8e51c3e98644a",
+    "fdm_model_xml/systems/airship_added_mass.xml": "f406437e5b96752e0c5b0d1ec2579c1ff47f78db4de2941bcfd5143f80ba41e0",
+    "fdm_model_xml/systems/alpha_buffet.xml": "3f551976f9b92e5747fc1bb491e5c293e1fb8beba0ace96f8acad43155601bb4",
+    "fdm_model_xml/systems/Autopilot.xml": "85e3fa86fff554ad262c1108ddd49a112eb16561a0c349e1f48e26cb0a65c7be",
+    "fdm_model_xml/systems/BLC.xml": "f931ceba6661db7c6b845d88fa098b1253a610d8fcba6c4053d42fa6b2ffe7b7",
+    "fdm_model_xml/systems/catapult.xml": "4e232a08b02f5d487127d5800ade1f275cdea692b8f236154535ed9021bb56e7",
+    "fdm_model_xml/systems/FCS-pitch.xml": "e7b5e85b63a83b1cc471e68e71bc4557cc041882cc11b30e5022ea60f25bb735",
+    "fdm_model_xml/systems/FCS-roll.xml": "996723cc0c5e436410bd896973bbaf0b50e4e05d1820bb73a78cfd350942bf9b",
+    "fdm_model_xml/systems/FCS-yaw.xml": "7c3dbcc5bfdc0e95efcb0cb7b6d7cb632048c0da26783d05423f07ed1411d861",
+    "fdm_model_xml/systems/flaps.xml": "fed87b3fda080133f71d3b2b2470d0031a02c74ce0a5539a8b5defaed6c93b76",
+    "fdm_model_xml/systems/gear.xml": "4d21523feda6b4d0c7d3328891887785559064515fd141ea504e54b565e0aed9",
+    "fdm_model_xml/systems/GNCUtilities.xml": "5ca437aa4a21b6d0c41840b2e367818357336dc1eb3e51fa8bd23104223d0d1c",
+    "fdm_model_xml/systems/holdback.xml": "1e97f40ef3236fd98143777c99cf7c2b5d8783bee01c00417be30e5e56ac208a",
+    "fdm_model_xml/systems/hook.xml": "9067ea104820d9d2d2f438b0361cbfdc9cea28a7969bd46eaa540fd7d9dfdd62",
+    "fdm_model_xml/systems/hydrodynamic-planing-floats.xml": "2c43a1b22c38e3ced8224671b6c2bf0803c17a0a20fa0f75f6d1a57aec8bebec",
+    "fdm_model_xml/systems/hydrodynamic-planing.xml": "cea6196b0f63c0d585891d99cbca85123f8c800b947b7ad780a309a0bdca8ad8",
+    "fdm_model_xml/systems/hydrodynamics.xml": "0a25a82863cdbd57809fbcf05bb81cca889eb2e1a2bc7fc1c10f90c071eeb002",
+    "fdm_model_xml/systems/jsb_glue.xml": "7d882d648e488a13f1c35520ee41c60b559eca41ee5d9895edba393b7968edca",
+    "fdm_model_xml/systems/NWS.xml": "e2c15ba145c4c4fe3aa746af0b9b3ac74cad536f9b44156e9c1f1c037e33d2bb",
+    "fdm_model_xml/systems/refuel.xml": "cc35f13b6593e010aa140dd5a16dbc15d6474725e13c9b57faaf401434e39372",
+    "fdm_model_xml/systems/rpm_governor.xml": "3d1f497089070adbb4a1a02aef8bec34998f00cc555ef25688b521d2edddda30",
+    "fdm_model_xml/systems/SensorBaro.xml": "ae423a2eefa60998fe7f8d0b297ee2154b72b0c0392ffc5e9fd70648e6ef52b6",
+    "fdm_model_xml/systems/SensorGps.xml": "34ef5c0867d59d4d5bc62a955ff89db1c576c826717893a70c4b8265dd184f9a",
+    "fdm_model_xml/systems/SensorImu.xml": "08f74d8235df8a6ee1e5471cc02b504867302fab8c06bc32e44b8e3b68393d13",
+    "fdm_model_xml/systems/speedbrakes.xml": "92456aade49292276219ca3b61e95b83bc27234a56e99093c633ef8a0394c3e8",
+    "fdm_model_xml/systems/sperry-a2-autopilot.xml": "172f030e040b61a515221f37724a2ba3cbaa5aafc2ed898037cd8456d5e8574c",
+    "fdm_model_xml/systems/tail_wheel_lock.xml": "1cb463bb2ae8c3fda084dfa2255934de01d1d3faf34fba05b262c6900904623a",
+    "fdm_model_xml/systems/visual-reference-point-extensions.xml": "3bffcf1350bd50b532fc2e49dd92fdeeaa625f6e1537fd17f98b2a3d0bcc8ee5"
+  },
+  "original_guide_report": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_01\\report.json",
+  "original_guide_report_sha256": "bf8923919b6a6d118fdb1f64d6b9e3209b14eff082528b35cc28936a5719e1a3",
+  "by_opponent": {
+    "rule": {
+      "guide": {
+        "kills": 3,
+        "deaths": 0,
+        "own_crashes": 0,
+        "survival": 6,
+        "attack_seconds": 9.033333333333333,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0,
+        "cases": 6,
+        "min_altitude_m": 1936.9003751167145
+      },
+      "candidate": {
+        "kills": 3,
+        "deaths": 0,
+        "own_crashes": 0,
+        "survival": 6,
+        "attack_seconds": 9.0,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0,
+        "cases": 6,
+        "min_altitude_m": 1932.4799711306837
+      }
+    },
+    "rl": {
+      "guide": {
+        "kills": 0,
+        "deaths": 0,
+        "own_crashes": 0,
+        "survival": 6,
+        "attack_seconds": 0.9666666666666667,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0,
+        "cases": 6,
+        "min_altitude_m": 777.9412333805521
+      },
+      "candidate": {
+        "kills": 1,
+        "deaths": 0,
+        "own_crashes": 0,
+        "survival": 6,
+        "attack_seconds": 4.5,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0,
+        "cases": 6,
+        "min_altitude_m": 764.4834132628295
+      }
+    }
+  },
+  "totals": {
+    "guide": {
+      "completed_cases": 12,
+      "kills": 3,
+      "deaths": 0,
+      "own_crashes": 0,
+      "enemy_crashes": 0,
+      "survival": 12,
+      "attack_seconds": 10.0,
+      "enemy_attack_seconds": 0.0,
+      "over_9g_seconds": 0.0,
+      "min_altitude_m": 777.9412333805521,
+      "mean_attack_seconds": 0.8333333333333334,
+      "mean_enemy_attack_seconds": 0.0,
+      "survival_rate": 1.0
+    },
+    "candidate": {
+      "completed_cases": 12,
+      "kills": 4,
+      "deaths": 0,
+      "own_crashes": 0,
+      "enemy_crashes": 0,
+      "survival": 12,
+      "attack_seconds": 13.5,
+      "enemy_attack_seconds": 0.0,
+      "over_9g_seconds": 0.0,
+      "min_altitude_m": 764.4834132628295,
+      "mean_attack_seconds": 1.125,
+      "mean_enemy_attack_seconds": 0.0,
+      "survival_rate": 1.0
+    }
+  },
+  "paired_deltas": [
+    {
+      "pair_key": "r000_rule_3000_normal_2026101100",
+      "opponent": "rule",
+      "delta": {
+        "kills": 1,
+        "deaths": 0,
+        "own_crashes": 0,
+        "enemy_crashes": 0,
+        "survival": 0,
+        "attack_seconds": 2.966666666666667,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0,
+        "min_altitude_m": 740.9876645686309
+      }
+    },
+    {
+      "pair_key": "r000_rule_3000_mirrored_2026101100",
+      "opponent": "rule",
+      "delta": {
+        "kills": -1,
+        "deaths": 0,
+        "own_crashes": 0,
+        "enemy_crashes": 0,
+        "survival": 0,
+        "attack_seconds": -3.0,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0,
+        "min_altitude_m": -732.8378007159827
+      }
+    },
+    {
+      "pair_key": "r000_rule_6000_normal_2026101101",
+      "opponent": "rule",
+      "delta": {
+        "kills": 0,
+        "deaths": 0,
+        "own_crashes": 0,
+        "enemy_crashes": 0,
+        "survival": 0,
+        "attack_seconds": 0.0,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0,
+        "min_altitude_m": 139.04553448007164
+      }
+    },
+    {
+      "pair_key": "r000_rule_6000_mirrored_2026101101",
+      "opponent": "rule",
+      "delta": {
+        "kills": 0,
+        "deaths": 0,
+        "own_crashes": 0,
+        "enemy_crashes": 0,
+        "survival": 0,
+        "attack_seconds": 0.0,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0,
+        "min_altitude_m": 0.0
+      }
+    },
+    {
+      "pair_key": "r000_rule_9000_normal_2026101102",
+      "opponent": "rule",
+      "delta": {
+        "kills": 0,
+        "deaths": 0,
+        "own_crashes": 0,
+        "enemy_crashes": 0,
+        "survival": 0,
+        "attack_seconds": 0.0,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0,
+        "min_altitude_m": 208.9155763016406
+      }
+    },
+    {
+      "pair_key": "r000_rule_9000_mirrored_2026101102",
+      "opponent": "rule",
+      "delta": {
+        "kills": 0,
+        "deaths": 0,
+        "own_crashes": 0,
+        "enemy_crashes": 0,
+        "survival": 0,
+        "attack_seconds": 0.0,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0,
+        "min_altitude_m": 0.0
+      }
+    },
+    {
+      "pair_key": "r000_rl_3000_normal_2026101110",
+      "opponent": "rl",
+      "delta": {
+        "kills": 0,
+        "deaths": 0,
+        "own_crashes": 0,
+        "enemy_crashes": 0,
+        "survival": 0,
+        "attack_seconds": 0.2666666666666667,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0,
+        "min_altitude_m": -13.45782011772269
+      }
+    },
+    {
+      "pair_key": "r000_rl_3000_mirrored_2026101110",
+      "opponent": "rl",
+      "delta": {
+        "kills": 0,
+        "deaths": 0,
+        "own_crashes": 0,
+        "enemy_crashes": 0,
+        "survival": 0,
+        "attack_seconds": 0.0,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0,
+        "min_altitude_m": -18.343361337404986
+      }
+    },
+    {
+      "pair_key": "r000_rl_6000_normal_2026101111",
+      "opponent": "rl",
+      "delta": {
+        "kills": 0,
+        "deaths": 0,
+        "own_crashes": 0,
+        "enemy_crashes": 0,
+        "survival": 0,
+        "attack_seconds": 0.04999999999999999,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0,
+        "min_altitude_m": -12.818011266517601
+      }
+    },
+    {
+      "pair_key": "r000_rl_6000_mirrored_2026101111",
+      "opponent": "rl",
+      "delta": {
+        "kills": 1,
+        "deaths": 0,
+        "own_crashes": 0,
+        "enemy_crashes": 0,
+        "survival": 0,
+        "attack_seconds": 3.0,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0,
+        "min_altitude_m": -6.587856713771998
+      }
+    },
+    {
+      "pair_key": "r000_rl_9000_normal_2026101112",
+      "opponent": "rl",
+      "delta": {
+        "kills": 0,
+        "deaths": 0,
+        "own_crashes": 0,
+        "enemy_crashes": 0,
+        "survival": 0,
+        "attack_seconds": 0.23333333333333334,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0,
+        "min_altitude_m": 13.517477635816249
+      }
+    },
+    {
+      "pair_key": "r000_rl_9000_mirrored_2026101112",
+      "opponent": "rl",
+      "delta": {
+        "kills": 0,
+        "deaths": 0,
+        "own_crashes": 0,
+        "enemy_crashes": 0,
+        "survival": 0,
+        "attack_seconds": -0.016666666666666666,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0,
+        "min_altitude_m": -2.446488214650003
+      }
+    }
+  ],
+  "artifact_hashes": [
+    {
+      "case_id": "r000_rule_3000_normal_2026101100_guide",
+      "telemetry_sha256": "aa7c41a10afa5baf4092e4cf15482078d2c44f1600e3accc8fba3e0f25c915f0",
+      "acmi_sha256": "2c9c2f4c480ec9e883ecf1b2f7b3cc2654debb704253f6f35e55051500ea73f7",
+      "csv_rows": 300
+    },
+    {
+      "case_id": "r000_rule_3000_normal_2026101100_candidate",
+      "telemetry_sha256": "97ab2965f456580100fa92da5a73e265c6a67cd711e7a32566f9a2822cfad131",
+      "acmi_sha256": "566e504410f8cca991011cd47b7c90772e1910a40db6f0b91270bed2bab9495c",
+      "csv_rows": 209
+    },
+    {
+      "case_id": "r000_rule_3000_mirrored_2026101100_guide",
+      "telemetry_sha256": "13e95e0a006118df4eadd26937f8ea0095aa6c63d769d06b32f8034dc8cc0f7e",
+      "acmi_sha256": "4b3e1a06c5095831d054d2d9ad714765bd4aef463908dda5b48bcf012b7b5f1d",
+      "csv_rows": 230
+    },
+    {
+      "case_id": "r000_rule_3000_mirrored_2026101100_candidate",
+      "telemetry_sha256": "e0399252ecea249aaab6d27639a4b317d259dd527eff9fa5db3cab90c4aaeca0",
+      "acmi_sha256": "ae68a1c161158d688bae4c2d77f2b95d58729f170f789d2a5702f64e824edaa8",
+      "csv_rows": 300
+    },
+    {
+      "case_id": "r000_rule_6000_normal_2026101101_guide",
+      "telemetry_sha256": "94cef01cdf4a4b772ea8671ff69c68a322a55fcfa1b9b9156992427273694367",
+      "acmi_sha256": "1133ca15206893259f0f8a82eeec941c79be08f90c2866b4ea1b80c28b4e552b",
+      "csv_rows": 262
+    },
+    {
+      "case_id": "r000_rule_6000_normal_2026101101_candidate",
+      "telemetry_sha256": "f80cacf35f08a6a96f5079e144f250fb44edee8d9da99cc7a8a531ec551dd0d4",
+      "acmi_sha256": "4875bb4b5bdefd8cac68074a8a051c47e9b647e82b84800ea3431f93f003a7ff",
+      "csv_rows": 256
+    },
+    {
+      "case_id": "r000_rule_6000_mirrored_2026101101_guide",
+      "telemetry_sha256": "a596d557aa3dab1b68177afceb82cd7871d5770098e5132c1cb072868c5305d2",
+      "acmi_sha256": "660ebfc14d6b03a55ed8e30817b759dac8c4c097628c24499ab17d5ab90bc1cb",
+      "csv_rows": 300
+    },
+    {
+      "case_id": "r000_rule_6000_mirrored_2026101101_candidate",
+      "telemetry_sha256": "a596d557aa3dab1b68177afceb82cd7871d5770098e5132c1cb072868c5305d2",
+      "acmi_sha256": "25e3d55b3b0fd16f9556e26fc46c00c6445962bb79dbec9bd0612c06b4a48671",
+      "csv_rows": 300
+    },
+    {
+      "case_id": "r000_rule_9000_normal_2026101102_guide",
+      "telemetry_sha256": "0b7adaf2953b5f4fc81e3bd3598fda41339f741e24cbd57a9b88933a2594ac98",
+      "acmi_sha256": "b859f6879d6c0548f0aa4e299f806ac3a0e3c542bd78b27d5221f107051405d0",
+      "csv_rows": 265
+    },
+    {
+      "case_id": "r000_rule_9000_normal_2026101102_candidate",
+      "telemetry_sha256": "7b797cd96a90e556cb0a84b7073ad9989d9ea23ac7b706f42aad0b69adff9a0f",
+      "acmi_sha256": "ee787d6f435d70ba8182abb3775190629d6c9ebcc20f5b51e5d3c21095bfd036",
+      "csv_rows": 288
+    },
+    {
+      "case_id": "r000_rule_9000_mirrored_2026101102_guide",
+      "telemetry_sha256": "b0c0ca6826a6ae3e576495287c96cf65e6bbdce5ff7d74b898785167fbf010a5",
+      "acmi_sha256": "d89b1e2d1514c83a78c44b896cf88833fb6ce9600ca9b7224fbf3a8a750914d0",
+      "csv_rows": 300
+    },
+    {
+      "case_id": "r000_rule_9000_mirrored_2026101102_candidate",
+      "telemetry_sha256": "b0c0ca6826a6ae3e576495287c96cf65e6bbdce5ff7d74b898785167fbf010a5",
+      "acmi_sha256": "1e1b9a98a1faea61fd06dca1a136be57cb808d360144485c15984efa651626c9",
+      "csv_rows": 300
+    },
+    {
+      "case_id": "r000_rl_3000_normal_2026101110_guide",
+      "telemetry_sha256": "b0bdbe061bf16a0e00847c8c9b092aaf3455e37348894c1fcbf45a52f0d3beb2",
+      "acmi_sha256": "695d1702550a7e7fd063f95f8e8b51bb4aa7f0f99c05f9b239694f0e1197c0a4",
+      "csv_rows": 300
+    },
+    {
+      "case_id": "r000_rl_3000_normal_2026101110_candidate",
+      "telemetry_sha256": "ebc22c94d97da026364bcd5043e87947a88ff3536ae121367983eac887d713d9",
+      "acmi_sha256": "bebc886832ba6c8195397e56ac6eee8bae21d6c6e734d6ac1ea74b98a935a509",
+      "csv_rows": 300
+    },
+    {
+      "case_id": "r000_rl_3000_mirrored_2026101110_guide",
+      "telemetry_sha256": "b2bf106b2e1df474149c448a8945f3f39c26da26a72a7883f9a94e7e6bc8b6b2",
+      "acmi_sha256": "8eab94d552497b9e1dfc19d62ce55e87841015e660641d0fcb9799f32d04211a",
+      "csv_rows": 300
+    },
+    {
+      "case_id": "r000_rl_3000_mirrored_2026101110_candidate",
+      "telemetry_sha256": "fa13135936148f5e79cbbcb272854d15e94c6e7f68d84db764bb9ef14c0106be",
+      "acmi_sha256": "4e7e90e5b42f3839d5ad094b617f1b039da07c40c8642ed4b192a24d882f1917",
+      "csv_rows": 300
+    },
+    {
+      "case_id": "r000_rl_6000_normal_2026101111_guide",
+      "telemetry_sha256": "5c3845205dbbaed9ea564507a04668022f36b91467c9ec8e4e8cf7110bae8939",
+      "acmi_sha256": "6ce365d65cef5f3314c378bac9171ba4ca2516cf896dca347a957159cb786c09",
+      "csv_rows": 300
+    },
+    {
+      "case_id": "r000_rl_6000_normal_2026101111_candidate",
+      "telemetry_sha256": "35ab6da53cbd9e285428349752a5c79d72d39939bd98ca78e981a8c3e9fb4d30",
+      "acmi_sha256": "837397c3d4ec28688788944e39abd900eaac707c89ef433569120a3027fb62e5",
+      "csv_rows": 300
+    },
+    {
+      "case_id": "r000_rl_6000_mirrored_2026101111_guide",
+      "telemetry_sha256": "40a55850f31237ec29f0208a7410296184d34269ba8e7949e14ba877e8a9c291",
+      "acmi_sha256": "4b07db08e6fd085bc5722ad8d4c6b848a71741a832e4fa2c75b96d60890f3a33",
+      "csv_rows": 300
+    },
+    {
+      "case_id": "r000_rl_6000_mirrored_2026101111_candidate",
+      "telemetry_sha256": "c9f1656b0860d8e319472a09cdbf42d4a6f125aad8eabbab24697a040f33ff9a",
+      "acmi_sha256": "be7fa90dbcb88e60bdfc68b36ed7d714ab15a0e01a036efe6388fb8c343bb4c4",
+      "csv_rows": 185
+    },
+    {
+      "case_id": "r000_rl_9000_normal_2026101112_guide",
+      "telemetry_sha256": "e38559c0bf1e50d8ee33f1b23408f193e812edcfe5382d2f04536e49ebbb5c97",
+      "acmi_sha256": "9ae46b9ced8da481148e9a80e23e342c62ab936ebb554ed3fe744e31c02cd81c",
+      "csv_rows": 300
+    },
+    {
+      "case_id": "r000_rl_9000_normal_2026101112_candidate",
+      "telemetry_sha256": "30dc38556e4dd0dee742d8d2fac06fc930a6a13284a97cee97e30b5fdd88663d",
+      "acmi_sha256": "288441a6696d6da3de598ca78e89eba90bd3491e36a53ff627aaed7c876a0917",
+      "csv_rows": 300
+    },
+    {
+      "case_id": "r000_rl_9000_mirrored_2026101112_guide",
+      "telemetry_sha256": "a5f2f213b492a9af0d4088f3ed8dc9d086a776b7b93e1cc0737ef426a433a233",
+      "acmi_sha256": "9eace0c0c46e37ca82bc75fb9d53932a10ce55f37f07a539cd11d8191ac1f667",
+      "csv_rows": 300
+    },
+    {
+      "case_id": "r000_rl_9000_mirrored_2026101112_candidate",
+      "telemetry_sha256": "a5dc578e91fde035f62831d14477ea4c198fcfb15ec85621c48fb4dbfde729b0",
+      "acmi_sha256": "2a983b367ef693bfa7c86cbf5c5ae9b492fa221018a5c25ef89aab4fe9ac51ef",
+      "csv_rows": 300
+    }
+  ],
+  "altitude_regressions_requiring_review": [
+    {
+      "pair_key": "r000_rule_3000_mirrored_2026101100",
+      "opponent": "rule",
+      "delta": {
+        "kills": -1,
+        "deaths": 0,
+        "own_crashes": 0,
+        "enemy_crashes": 0,
+        "survival": 0,
+        "attack_seconds": -3.0,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0,
+        "min_altitude_m": -732.8378007159827
+      }
+    },
+    {
+      "pair_key": "r000_rl_3000_normal_2026101110",
+      "opponent": "rl",
+      "delta": {
+        "kills": 0,
+        "deaths": 0,
+        "own_crashes": 0,
+        "enemy_crashes": 0,
+        "survival": 0,
+        "attack_seconds": 0.2666666666666667,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0,
+        "min_altitude_m": -13.45782011772269
+      }
+    },
+    {
+      "pair_key": "r000_rl_3000_mirrored_2026101110",
+      "opponent": "rl",
+      "delta": {
+        "kills": 0,
+        "deaths": 0,
+        "own_crashes": 0,
+        "enemy_crashes": 0,
+        "survival": 0,
+        "attack_seconds": 0.0,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0,
+        "min_altitude_m": -18.343361337404986
+      }
+    },
+    {
+      "pair_key": "r000_rl_6000_normal_2026101111",
+      "opponent": "rl",
+      "delta": {
+        "kills": 0,
+        "deaths": 0,
+        "own_crashes": 0,
+        "enemy_crashes": 0,
+        "survival": 0,
+        "attack_seconds": 0.04999999999999999,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0,
+        "min_altitude_m": -12.818011266517601
+      }
+    },
+    {
+      "pair_key": "r000_rl_6000_mirrored_2026101111",
+      "opponent": "rl",
+      "delta": {
+        "kills": 1,
+        "deaths": 0,
+        "own_crashes": 0,
+        "enemy_crashes": 0,
+        "survival": 0,
+        "attack_seconds": 3.0,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0,
+        "min_altitude_m": -6.587856713771998
+      }
+    },
+    {
+      "pair_key": "r000_rl_9000_mirrored_2026101112",
+      "opponent": "rl",
+      "delta": {
+        "kills": 0,
+        "deaths": 0,
+        "own_crashes": 0,
+        "enemy_crashes": 0,
+        "survival": 0,
+        "attack_seconds": -0.016666666666666666,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0,
+        "min_altitude_m": -2.446488214650003
+      }
+    }
+  ],
+  "gate": "development_pass_safety_review_pending",
+  "gates": {
+    "metric": true,
+    "outcome_safety": true,
+    "per_opponent": true
+  },
+  "deployment_allowed": false,
+  "official_validation": false,
+  "daily_compute_reserved_hours": 5.75,
+  "next_action": "Review altitude regressions, then freeze candidate and design unseen-seed/opponent validation on a new daily budget; no deployment yet."
+}

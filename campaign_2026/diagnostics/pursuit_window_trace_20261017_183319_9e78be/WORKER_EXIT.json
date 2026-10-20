@@ -1,0 +1,64 @@
+{
+  "actual_worker_exit": 1,
+  "reason": null,
+  "identity": {
+    "pid": 26620,
+    "create": 1792233199.8446243,
+    "cmd": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\pursuit_window_trace_v1.py",
+      "--worker",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\pursuit_window_trace_20261017_183319_9e78be"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent": 24688
+  },
+  "descendants": [
+    {
+      "identity": {
+        "pid": 25240,
+        "create": 1792233199.8558536,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 26620
+      },
+      "chain": [
+        {
+          "pid": 25240,
+          "create": 1792233199.8558536,
+          "cmd": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent": 26620
+        }
+      ],
+      "worker": {
+        "pid": 26620,
+        "create": 1792233199.8446243,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\diagnostics\\pursuit_window_trace_v1.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\diagnostics\\pursuit_window_trace_20261017_183319_9e78be"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 24688
+      }
+    }
+  ],
+  "absent": true,
+  "cleanup_actions": [],
+  "wall_seconds": 27.17199999999866,
+  "guardian_return_intended": 2
+}

@@ -1,0 +1,38 @@
+{
+  "case": {
+    "round_index": 0,
+    "opponent": "rule",
+    "distance_ft": 9000,
+    "side": "normal",
+    "seed": 2026101102,
+    "actor": "guide"
+  },
+  "out": "E:\\ai_pilot\\campaign_2026\\experiments\\residual_gate\\run_20261012_191703_f102",
+  "repair_root": "E:\\ai_pilot\\campaign_2026\\repair_v1",
+  "bundle": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_01\\final_0000074000",
+  "max_steps": 18000,
+  "case_seconds": 150.0,
+  "source_sha256": {
+    "repair/controller.py": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+    "repair/env.py": "8bb9078809d28ab2117abc3b928c138acf1da1dc4442e69de4c4632d8c3c9607",
+    "lab/duel_lab.py": "9f358a7a04b09728199ac33de120146e3aa0bcbb37fe18dbae2a2b5a7cfcb9a6",
+    "base/combat_v3/env.py": "4b4e91dd8168517039ed7092a0536dcefd5297582c4f3722be8d7ca5d3b9d7b4",
+    "base/combat_v3/controller.py": "d772bf49a8d8408aaafec691c981d0612de7dada6450e0afcecbc3d958b7813b",
+    "base/combat_v3/interface.py": "50f63ee563a8cb13b9bb472b0de7905579bcc9c70bc69efc571681879eb02555",
+    "base/combat_v3/fdm.py": "c59e705d248f1678f64ba6788639260c739a1b1a6e8f6830d62e4a11f3a1dba6",
+    "base/combat_v3/rules.py": "40857e278e8f3902fc9e8c39acf0aebb7bc8e02fafb9627a3f5561512a2f4e05",
+    "base/combat_v3/config.json": "d4fba053617240e07ffc67fe389d944313ba12dff491e569a0ae764e0f7b88ec",
+    "base/envs/jsbsimEnv/jsbsimFdm.py": "6d193634ccaff77db6f3d1e248b2276c4a7177c47dbfa82fd466154b67d8c541",
+    "repair/artifacts.py": "938c184366b55843e59250e2d1b544c10ebb67daca451e2701e8e631c7fd041e",
+    "ablation/gate.py": "7043a138a10c81cfd5b995d766af2ff8d1edcb2807f1b3b91f412a20e9325c2e",
+    "ablation/benchmark_gate.py": "5d0cd182a175d9638cd7711450fde0fb656b475aa4fb36d62d8c5e6374fd3519"
+  },
+  "candidate_bundle_sha256": {
+    "model.zip": "adc9ce0a29f0b0afb5dc939812f88326deaabfcf32d4f8d9d9d789e6f9e52c55",
+    "manifest.json": "c3cd24a8807bc1c3a90828e9826b9e6029f907f504bf9bfe893487818fa93d08"
+  },
+  "red_bundle_sha256": {
+    "model.zip": "f79e711c704978e462bb9b42b27c0a1f1bdf74e3914d6a2dd7f1b29edad01b94",
+    "manifest.json": "a5807f905466dc5b9d54967b44d86c1d8a22c28278dab150abc69ac518600931"
+  }
+}

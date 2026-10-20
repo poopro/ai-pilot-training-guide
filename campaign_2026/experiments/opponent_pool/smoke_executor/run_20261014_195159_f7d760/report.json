@@ -1,0 +1,66 @@
+{
+  "status": "partial",
+  "cases": [
+    {
+      "identity": {
+        "pid": 1940,
+        "creation_epoch": 1791978720.528643,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\run_smoke.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\run_20261014_195159_f7d760\\cases\\smoke_rule_3000_normal_2026102400\\input.json"
+        ]
+      },
+      "actual_worker_exit_code": 0,
+      "case_id": "smoke_rule_3000_normal_2026102400",
+      "input_sha256": "f340401ed2a74ce1e1d0d5204838e09a851b8a4b19429dc2cd87e4cb68f07c48",
+      "result_sha256": "cf472550aab18ecefe78519233b6cf00bce118efc2a79123bf8c21ad008f47ee"
+    },
+    {
+      "identity": {
+        "pid": 17260,
+        "creation_epoch": 1791978723.0433228,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\run_smoke.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\run_20261014_195159_f7d760\\cases\\smoke_rule_3000_mirrored_2026102400\\input.json"
+        ]
+      },
+      "actual_worker_exit_code": 0,
+      "case_id": "smoke_rule_3000_mirrored_2026102400",
+      "input_sha256": "476f867cd58c17f53fbc9f1655de35badc04b2d3d6a5e8ad761e79856ffede71",
+      "result_sha256": "ad61614f433386a90f11bbf48273608cf20356a4f1bee5dd09ae93dc86858ea0"
+    },
+    {
+      "identity": {
+        "pid": 9888,
+        "creation_epoch": 1791978725.316098,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\run_smoke.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\run_20261014_195159_f7d760\\cases\\smoke_rule_6000_normal_2026102401\\input.json"
+        ]
+      },
+      "actual_worker_exit_code": 1,
+      "case_id": "smoke_rule_6000_normal_2026102401",
+      "input_sha256": "4dece7113e5457caa7a68954f30b73f6f3e05fae41cf2aefa1bd2d422e459c16",
+      "result_sha256": null
+    }
+  ],
+  "score_eligible": false,
+  "official_validation": false,
+  "plan_sha256": "a1b6b4f8e74c5682dd84ec3a678a238b7d8790773f0614223372665decf396f5",
+  "wall_seconds": 5.672000000005937
+}

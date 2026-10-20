@@ -1,0 +1,406 @@
+{
+  "observed_utc": "2026-10-15T15:17:14.158170+00:00",
+  "source_session": "ses_f4d2c7e29ffejvW9acmlrdTBEd",
+  "source_title": "Defense AI Pilot training setup",
+  "session_read_only": true,
+  "external_model_request_sent": false,
+  "opencode_last_relevant_user_request": "make me a rl version asap that uses a suitable slow decision model locally and train it rn? why previous trains wont work? and how to fix",
+  "source_files_sha256": {
+    "m1_station.py": "5d53e18676d18158f3e0bc278e02ed7d42ecca1b1c7c7a6562611184454717ef",
+    "m3_mirror_league.py": "e6f47242eb344dacbb68b78d0b229ca5018b787c71d3ee94d660e25ead0371c1",
+    "m4_tactical_rl.py": "15a2079d4cec75bc6ca83e3cb965fc2f60dbde6b3a35d6f3f7a713d893e9e159",
+    "win_loop.py": "ff6278ab88e1b69805f56e66ed1c78526adcec3432af2e16ecb345b470c92179"
+  },
+  "new_branch": "E:\\ai_pilot\\campaign_2026\\experiments\\m4_tactical_v2",
+  "findings": [
+    {
+      "id": "finished_commands_reused_as_residuals",
+      "severity": "blocking",
+      "evidence": "TacticalDuel._tactical_control calls StationController.act; TacticalDuel.step then passes cmd to super().step. CombatEnvV3.step calls packet_controller.act again treating action as four residual values."
+    },
+    {
+      "id": "opponent_chosen_once",
+      "severity": "blocking",
+      "evidence": "make_env calls TacticalGym(random.choice(opps)) once; subsequent resets preserve self.opponent."
+    },
+    {
+      "id": "two_attack_clocks_and_mixed_reward",
+      "severity": "blocking",
+      "evidence": "self.ticks uses pre-step blue_obs while parent judge uses post-step geometry; total adds inherited r as well as +1 despite prose claiming reward is counter itself."
+    },
+    {
+      "id": "unused_telemetry_callback",
+      "severity": "diagnostic",
+      "evidence": "_on_episode_end is not invoked by Telemetry._on_step; ep and model._best_ticks remain0 independently of actual episode endings."
+    },
+    {
+      "id": "mirror_state_not_reset",
+      "severity": "reproducibility",
+      "evidence": "_mirror_p2 created lazily and retained across TacticalDuel.reset."
+    },
+    {
+      "id": "station_unsigned_nose_feedback",
+      "severity": "unvalidated_control_change",
+      "evidence": "m1_station adds positive blue_angle magnitude to signed bank; requires left/right paired FDM, no claim of defect proved dynamically."
+    },
+    {
+      "id": "unpaired_mirror_reports",
+      "severity": "comparison_blocker",
+      "evidence": "runner seed=a.seed+len(report.cases) gives different actor initial seeds; old runner modified over time and only3dependency hashes recorded."
+    }
+  ],
+  "reports": [
+    {
+      "run": "run1",
+      "report_sha256": "0038c4f50349954904d554d2da6c355030b5375d75d9c27477c4f23f1940a4e6",
+      "status_reported": "failed",
+      "planned_cases": 54,
+      "saved_cases": 9,
+      "shared_seeds_between_actor_cells": 0,
+      "actor_cell_comparisons": 0,
+      "cells_reported": null,
+      "fixed_current_runner_hash_recorded": false,
+      "verified_comparison": false
+    },
+    {
+      "run": "run2",
+      "report_sha256": "6625c2bf6ad7bcbd429c9840db6c4666fbc9f9bed974068abc740d2b066d0849",
+      "status_reported": "completed",
+      "planned_cases": 90,
+      "saved_cases": 90,
+      "shared_seeds_between_actor_cells": 0,
+      "actor_cell_comparisons": 9,
+      "cells_reported": {
+        "guide|rule": {
+          "n": 15,
+          "kills": 6,
+          "survived": 15,
+          "own_crashes": 0,
+          "was_hit": 0,
+          "attack_seconds": 23.767,
+          "best_attack_ticks": 180,
+          "enemy_attack_seconds": 0.0,
+          "over_9g_seconds": 0.0,
+          "min_altitude_m": 1468.4
+        },
+        "guide|rl": {
+          "n": 15,
+          "kills": 0,
+          "survived": 15,
+          "own_crashes": 0,
+          "was_hit": 0,
+          "attack_seconds": 1.85,
+          "best_attack_ticks": 56,
+          "enemy_attack_seconds": 0.0,
+          "over_9g_seconds": 0.0,
+          "min_altitude_m": 770.5
+        },
+        "guide|mirror": {
+          "n": 15,
+          "kills": 0,
+          "survived": 15,
+          "own_crashes": 0,
+          "was_hit": 0,
+          "attack_seconds": 0.0,
+          "best_attack_ticks": 0,
+          "enemy_attack_seconds": 0.0,
+          "over_9g_seconds": 0.0,
+          "min_altitude_m": 2912.9
+        },
+        "latch|rule": {
+          "n": 15,
+          "kills": 7,
+          "survived": 15,
+          "own_crashes": 0,
+          "was_hit": 0,
+          "attack_seconds": 27.3,
+          "best_attack_ticks": 180,
+          "enemy_attack_seconds": 0.0,
+          "over_9g_seconds": 0.0,
+          "min_altitude_m": 1278.9
+        },
+        "latch|rl": {
+          "n": 15,
+          "kills": 0,
+          "survived": 15,
+          "own_crashes": 0,
+          "was_hit": 0,
+          "attack_seconds": 2.483,
+          "best_attack_ticks": 53,
+          "enemy_attack_seconds": 0.0,
+          "over_9g_seconds": 0.0,
+          "min_altitude_m": 772.6
+        },
+        "latch|mirror": {
+          "n": 15,
+          "kills": 0,
+          "survived": 15,
+          "own_crashes": 0,
+          "was_hit": 0,
+          "attack_seconds": 0.0,
+          "best_attack_ticks": 0,
+          "enemy_attack_seconds": 0.0,
+          "over_9g_seconds": 0.0,
+          "min_altitude_m": 3030.0
+        }
+      },
+      "fixed_current_runner_hash_recorded": false,
+      "verified_comparison": false
+    },
+    {
+      "run": "run3_perturbed",
+      "report_sha256": "04fa43b881db4ac6c48753200b5855cb92a260ec591d737096dbe339c8b603dc",
+      "status_reported": "completed",
+      "planned_cases": 90,
+      "saved_cases": 90,
+      "shared_seeds_between_actor_cells": 0,
+      "actor_cell_comparisons": 9,
+      "cells_reported": {
+        "guide|rule": {
+          "n": 15,
+          "kills": 6,
+          "survived": 15,
+          "own_crashes": 0,
+          "was_hit": 0,
+          "attack_seconds": 21.733,
+          "best_attack_ticks": 180,
+          "enemy_attack_seconds": 0.0,
+          "over_9g_seconds": 0.0,
+          "min_altitude_m": 1477.5
+        },
+        "guide|rl": {
+          "n": 15,
+          "kills": 0,
+          "survived": 15,
+          "own_crashes": 0,
+          "was_hit": 0,
+          "attack_seconds": 1.4,
+          "best_attack_ticks": 17,
+          "enemy_attack_seconds": 0.0,
+          "over_9g_seconds": 0.0,
+          "min_altitude_m": 771.0
+        },
+        "guide|mirror": {
+          "n": 15,
+          "kills": 12,
+          "survived": 15,
+          "own_crashes": 0,
+          "was_hit": 0,
+          "attack_seconds": 36.7,
+          "best_attack_ticks": 180,
+          "enemy_attack_seconds": 0.0,
+          "over_9g_seconds": 0.0,
+          "min_altitude_m": 2994.1
+        },
+        "latch|rule": {
+          "n": 15,
+          "kills": 5,
+          "survived": 15,
+          "own_crashes": 0,
+          "was_hit": 0,
+          "attack_seconds": 20.45,
+          "best_attack_ticks": 180,
+          "enemy_attack_seconds": 0.0,
+          "over_9g_seconds": 0.0,
+          "min_altitude_m": 1385.0
+        },
+        "latch|rl": {
+          "n": 15,
+          "kills": 0,
+          "survived": 15,
+          "own_crashes": 0,
+          "was_hit": 0,
+          "attack_seconds": 3.083,
+          "best_attack_ticks": 72,
+          "enemy_attack_seconds": 0.0,
+          "over_9g_seconds": 0.0,
+          "min_altitude_m": 770.4
+        },
+        "latch|mirror": {
+          "n": 15,
+          "kills": 12,
+          "survived": 15,
+          "own_crashes": 0,
+          "was_hit": 0,
+          "attack_seconds": 36.667,
+          "best_attack_ticks": 180,
+          "enemy_attack_seconds": 0.0,
+          "over_9g_seconds": 0.0,
+          "min_altitude_m": 3190.6
+        }
+      },
+      "fixed_current_runner_hash_recorded": false,
+      "verified_comparison": false
+    },
+    {
+      "run": "run4_4actor",
+      "report_sha256": "a07074cf65b22b4d1d7a456bd4d0375cd423fa2cb31e36a9a01612b8b30a605e",
+      "status_reported": "completed",
+      "planned_cases": 180,
+      "saved_cases": 180,
+      "shared_seeds_between_actor_cells": 0,
+      "actor_cell_comparisons": 54,
+      "cells_reported": {
+        "guide|rule": {
+          "n": 15,
+          "kills": 3,
+          "survived": 15,
+          "own_crashes": 0,
+          "was_hit": 0,
+          "attack_seconds": 11.833,
+          "best_attack_ticks": 180,
+          "enemy_attack_seconds": 0.0,
+          "over_9g_seconds": 0.0,
+          "min_altitude_m": 1219.8
+        },
+        "guide|rl": {
+          "n": 15,
+          "kills": 0,
+          "survived": 15,
+          "own_crashes": 0,
+          "was_hit": 0,
+          "attack_seconds": 1.384,
+          "best_attack_ticks": 19,
+          "enemy_attack_seconds": 0.0,
+          "over_9g_seconds": 0.0,
+          "min_altitude_m": 771.3
+        },
+        "guide|mirror": {
+          "n": 15,
+          "kills": 13,
+          "survived": 15,
+          "own_crashes": 0,
+          "was_hit": 0,
+          "attack_seconds": 41.85,
+          "best_attack_ticks": 180,
+          "enemy_attack_seconds": 0.0,
+          "over_9g_seconds": 0.0,
+          "min_altitude_m": 2837.8
+        },
+        "latch|rule": {
+          "n": 15,
+          "kills": 13,
+          "survived": 15,
+          "own_crashes": 0,
+          "was_hit": 0,
+          "attack_seconds": 42.433,
+          "best_attack_ticks": 180,
+          "enemy_attack_seconds": 0.0,
+          "over_9g_seconds": 0.0,
+          "min_altitude_m": 1676.3
+        },
+        "latch|rl": {
+          "n": 15,
+          "kills": 0,
+          "survived": 15,
+          "own_crashes": 0,
+          "was_hit": 0,
+          "attack_seconds": 3.333,
+          "best_attack_ticks": 54,
+          "enemy_attack_seconds": 0.0,
+          "over_9g_seconds": 0.0,
+          "min_altitude_m": 766.0
+        },
+        "latch|mirror": {
+          "n": 15,
+          "kills": 13,
+          "survived": 15,
+          "own_crashes": 0,
+          "was_hit": 0,
+          "attack_seconds": 39.0,
+          "best_attack_ticks": 180,
+          "enemy_attack_seconds": 0.0,
+          "over_9g_seconds": 0.0,
+          "min_altitude_m": 2786.6
+        },
+        "station|rule": {
+          "n": 15,
+          "kills": 0,
+          "survived": 15,
+          "own_crashes": 0,
+          "was_hit": 0,
+          "attack_seconds": 7.267,
+          "best_attack_ticks": 138,
+          "enemy_attack_seconds": 0.0,
+          "over_9g_seconds": 0.0,
+          "min_altitude_m": 977.6
+        },
+        "station|rl": {
+          "n": 15,
+          "kills": 0,
+          "survived": 15,
+          "own_crashes": 0,
+          "was_hit": 0,
+          "attack_seconds": 3.517,
+          "best_attack_ticks": 27,
+          "enemy_attack_seconds": 0.0,
+          "over_9g_seconds": 0.0,
+          "min_altitude_m": 772.2
+        },
+        "station|mirror": {
+          "n": 15,
+          "kills": 3,
+          "survived": 15,
+          "own_crashes": 0,
+          "was_hit": 0,
+          "attack_seconds": 11.6,
+          "best_attack_ticks": 180,
+          "enemy_attack_seconds": 0.0,
+          "over_9g_seconds": 0.0,
+          "min_altitude_m": 2990.2
+        },
+        "station_latch|rule": {
+          "n": 15,
+          "kills": 0,
+          "survived": 15,
+          "own_crashes": 0,
+          "was_hit": 0,
+          "attack_seconds": 5.083,
+          "best_attack_ticks": 128,
+          "enemy_attack_seconds": 0.0,
+          "over_9g_seconds": 0.0,
+          "min_altitude_m": 1422.0
+        },
+        "station_latch|rl": {
+          "n": 15,
+          "kills": 0,
+          "survived": 15,
+          "own_crashes": 0,
+          "was_hit": 0,
+          "attack_seconds": 4.683,
+          "best_attack_ticks": 96,
+          "enemy_attack_seconds": 0.0,
+          "over_9g_seconds": 0.0,
+          "min_altitude_m": 770.2
+        },
+        "station_latch|mirror": {
+          "n": 15,
+          "kills": 5,
+          "survived": 15,
+          "own_crashes": 0,
+          "was_hit": 0,
+          "attack_seconds": 20.917,
+          "best_attack_ticks": 180,
+          "enemy_attack_seconds": 0.0,
+          "over_9g_seconds": 0.0,
+          "min_altitude_m": 2830.6
+        }
+      },
+      "fixed_current_runner_hash_recorded": false,
+      "verified_comparison": false
+    }
+  ],
+  "old_shared_M4_models": "Preserved; historical training source/PID provenance ambiguous, no deployment or exact resume.",
+  "v2_status": "11_static_contract_tests_pass_no_FDM_no_training",
+  "formal_deployment": "repair_guide",
+  "new_FDM_ticks": 0,
+  "new_learner_launched": false,
+  "v2_static_validation": "E:\\ai_pilot\\campaign_2026\\experiments\\m4_tactical_v2\\STATIC_VALIDATION.json",
+  "interpretation": {
+    "m2_regate": "Original promote=true is explicitly advance-to-mirror-testing, not formal deployment. Accept that distinction; paired altitude tradeoffs still remain documented.",
+    "m3_reports": "Saved reports include9 partial +90 +90 +180 cases. None have shared actor-cell seeds; retain as exploratory data, not paired candidate promotion.",
+    "prior_training_claims": "The current RuleFighter maneuvers. A claim about an earlier straight-flight jsbsimFdm does not establish all later rule/RL opponents were stationary.",
+    "m4_progress": "episodes0/best_ticks0 can arise from callback bug; cannot conclude zero kills or learning from these fields.",
+    "mirror_strength": "Perturbed gain0.72/bias6/period9 is a designed opponent, not a measurement against professional teams."
+  }
+}

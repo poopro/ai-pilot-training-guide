@@ -1,0 +1,16 @@
+{
+  "status": "proposed_not_implemented",
+  "basis": "E:\\ai_pilot\\campaign_2026\\diagnostics\\sac_goal_projection_20261017_122745_b73993\\VERIFICATION.json",
+  "hypothesis": "在本批持續72度/290節的閉迴路幾何中，降低單方遠距bank可能改變雙方相位而進入射程；可能變好或變差，必須完整對戰。",
+  "proposed_single_factor": "Only blue StationController requested roll target: outside distance>914.4m, clamp to ±60 instead of ±72 before unchanged RepairController.command; all other goals, safety, G protection, trim and opponents unchanged.",
+  "baseline": "station_zero signed-yaw StationController, not pure repair_guide",
+  "opponent": "frozen sac5000",
+  "development_design": "2 unused seed openings including opposite sides; baseline/candidate same full initial SHA within each opening; 4 complete games max18000tick,90s/worker,600s whole; independent watchdog and sources/XML/model freeze.",
+  "seed_status": "not_selected_or_claimed",
+  "no_run_started": true,
+  "acceptance": "逐開局進入射程/1度命中/完整event與timeout score/kill/death/crash/collision/over9G/共同曝光AGL；任何candidate過9G拒絕，勝負或高度退步需獨立審查，不能平均掩蓋。無改善則否決，不以步數補救。",
+  "rationale_for_60": "Single predeclared doctrine probe using an already represented bank60 opponent setting; not a parameter sweep or known optimum.",
+  "training_contract": "任何控制契約變更均不精確續用critic/optimizer/replay；本項先用規則，不開始訓練。",
+  "formal_deployment": "repair_guide",
+  "deployment_allowed": false
+}

@@ -1,0 +1,713 @@
+{
+  "job_id": "job_20261012_184123_68be",
+  "job_dir": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be",
+  "status": "futility_stop",
+  "phase": "已保存並收尾",
+  "started_epoch": 1791801683.7165139,
+  "deadline_epoch": 1791816083.7165139,
+  "training_deadline_epoch": 1791814283.7165139,
+  "deadline_taipei": "2026-10-12T22:41:23.716514+08:00",
+  "decision_budget": 150000,
+  "segment_decisions": 50000,
+  "new_decisions": 100000,
+  "initial_bundle": "E:\\ai_pilot\\autopilot\\combat_fix\\training\\run_20261006_192453_c95b\\final_0000024000",
+  "last_bundle": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_02\\final_0000124000",
+  "source_sha256": {
+    "runner": {
+      "path": "E:\\ai_pilot\\campaign_2026\\runner.py",
+      "sha256": "e992a28ec5f8ce0da47bb52c1fc2ae5c2a63dffe7b47457e7af3fa02022468eb"
+    },
+    "benchmark": {
+      "path": "E:\\ai_pilot\\campaign_2026\\benchmark.py",
+      "sha256": "9b351910b28b3057eadabca4cddb4e734aa6678937ce9f900903e7ec36bfb3de"
+    },
+    "repair/artifacts.py": {
+      "path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\artifacts.py",
+      "sha256": "938c184366b55843e59250e2d1b544c10ebb67daca451e2701e8e631c7fd041e"
+    },
+    "repair/controller.py": {
+      "path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+      "sha256": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f"
+    },
+    "repair/env.py": {
+      "path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\env.py",
+      "sha256": "8bb9078809d28ab2117abc3b928c138acf1da1dc4442e69de4c4632d8c3c9607"
+    },
+    "repair/evaluate.py": {
+      "path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\evaluate.py",
+      "sha256": "4d9d70d241f8629562bd21ba38b92782a2a25960199c944f1bcd2b36c2a63d8e"
+    },
+    "repair/player.py": {
+      "path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\player.py",
+      "sha256": "28571c396ef067bbd01f8fb6f41763cb41e2a2c9c001e7bf3114da81677cd825"
+    },
+    "repair/train.py": {
+      "path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\train.py",
+      "sha256": "1c009fa225446866ab5c78fdbd2201761215415cbf6a1cacda4bd0fcffe9aee6"
+    },
+    "repair/verify_saved.py": {
+      "path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\verify_saved.py",
+      "sha256": "077eb73d42eedb5efc0f441471334d09692c0d148269abd4023c1701f1961d7c"
+    },
+    "repair/verify_udp.py": {
+      "path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\verify_udp.py",
+      "sha256": "6494856c12649ccbe1b75907df3fc05e332fb02c77d5ec36dd539a545f9d1f4a"
+    },
+    "dependency/repair/controller.py": {
+      "path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+      "sha256": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f"
+    },
+    "dependency/repair/env.py": {
+      "path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\env.py",
+      "sha256": "8bb9078809d28ab2117abc3b928c138acf1da1dc4442e69de4c4632d8c3c9607"
+    },
+    "dependency/lab/duel_lab.py": {
+      "path": "E:\\ai_pilot\\autopilot\\opponent_lab\\duel_lab.py",
+      "sha256": "9f358a7a04b09728199ac33de120146e3aa0bcbb37fe18dbae2a2b5a7cfcb9a6"
+    },
+    "dependency/base/combat_v3/env.py": {
+      "path": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\combat_v3\\env.py",
+      "sha256": "4b4e91dd8168517039ed7092a0536dcefd5297582c4f3722be8d7ca5d3b9d7b4"
+    },
+    "dependency/base/combat_v3/controller.py": {
+      "path": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\combat_v3\\controller.py",
+      "sha256": "d772bf49a8d8408aaafec691c981d0612de7dada6450e0afcecbc3d958b7813b"
+    },
+    "dependency/base/combat_v3/interface.py": {
+      "path": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\combat_v3\\interface.py",
+      "sha256": "50f63ee563a8cb13b9bb472b0de7905579bcc9c70bc69efc571681879eb02555"
+    },
+    "dependency/base/combat_v3/fdm.py": {
+      "path": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\combat_v3\\fdm.py",
+      "sha256": "c59e705d248f1678f64ba6788639260c739a1b1a6e8f6830d62e4a11f3a1dba6"
+    },
+    "dependency/base/combat_v3/rules.py": {
+      "path": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\combat_v3\\rules.py",
+      "sha256": "40857e278e8f3902fc9e8c39acf0aebb7bc8e02fafb9627a3f5561512a2f4e05"
+    },
+    "dependency/base/combat_v3/config.json": {
+      "path": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\combat_v3\\config.json",
+      "sha256": "d4fba053617240e07ffc67fe389d944313ba12dff491e569a0ae764e0f7b88ec"
+    },
+    "dependency/base/envs/jsbsimEnv/jsbsimFdm.py": {
+      "path": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\envs\\jsbsimEnv\\jsbsimFdm.py",
+      "sha256": "6d193634ccaff77db6f3d1e248b2276c4a7177c47dbfa82fd466154b67d8c541"
+    }
+  },
+  "poll_seconds": 20,
+  "stall_seconds": 600,
+  "save_grace_seconds": 180,
+  "stages": [
+    {
+      "name": "train_01",
+      "command": [
+        "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "E:\\ai_pilot\\campaign_2026\\repair_v1\\train.py",
+        "--resume",
+        "E:\\ai_pilot\\autopilot\\combat_fix\\training\\run_20261006_192453_c95b\\final_0000024000",
+        "--run-dir",
+        "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_01",
+        "--decisions",
+        "50000",
+        "--max-minutes",
+        "60",
+        "--checkpoint-decisions",
+        "10000",
+        "--checkpoint-seconds",
+        "300",
+        "--device",
+        "cuda",
+        "--seed",
+        "2026110101"
+      ],
+      "folder": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_01",
+      "training": true,
+      "start_decisions": 24000,
+      "requested_decisions": 50000,
+      "counted_decisions": 50000,
+      "started_epoch": 1791801684.845374,
+      "status": "finished",
+      "process": {
+        "pid": 11252,
+        "creation_epoch": 1791801684.8529046,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\repair_v1\\train.py",
+          "--resume",
+          "E:\\ai_pilot\\autopilot\\combat_fix\\training\\run_20261006_192453_c95b\\final_0000024000",
+          "--run-dir",
+          "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_01",
+          "--decisions",
+          "50000",
+          "--max-minutes",
+          "60",
+          "--checkpoint-decisions",
+          "10000",
+          "--checkpoint-seconds",
+          "300",
+          "--device",
+          "cuda",
+          "--seed",
+          "2026110101"
+        ]
+      },
+      "exit_code": 0,
+      "learner_status": "completed",
+      "saved_bundle": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_01\\final_0000074000",
+      "finished_epoch": 1791802485.868919
+    },
+    {
+      "name": "check_01",
+      "command": [
+        "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "E:\\ai_pilot\\campaign_2026\\repair_v1\\verify_saved.py",
+        "--bundle",
+        "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_01\\final_0000074000",
+        "--out",
+        "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\verified_01.json"
+      ],
+      "folder": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\check_01",
+      "training": false,
+      "start_decisions": 0,
+      "requested_decisions": 0,
+      "counted_decisions": 0,
+      "started_epoch": 1791802485.9445336,
+      "status": "finished",
+      "process": {
+        "pid": 23012,
+        "creation_epoch": 1791802485.950759,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\repair_v1\\verify_saved.py",
+          "--bundle",
+          "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_01\\final_0000074000",
+          "--out",
+          "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\verified_01.json"
+        ]
+      },
+      "exit_code": 0,
+      "finished_epoch": 1791802505.9650857
+    },
+    {
+      "name": "dev_01",
+      "command": [
+        "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "E:\\ai_pilot\\campaign_2026\\benchmark.py",
+        "--repair-root",
+        "E:\\ai_pilot\\campaign_2026\\repair_v1",
+        "--bundle",
+        "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_01\\final_0000074000",
+        "--out",
+        "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_01",
+        "--rounds",
+        "1",
+        "--seed",
+        "2026101100",
+        "--mirror",
+        "both",
+        "--max-minutes",
+        "40"
+      ],
+      "folder": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_01",
+      "training": false,
+      "start_decisions": 0,
+      "requested_decisions": 0,
+      "counted_decisions": 0,
+      "started_epoch": 1791802505.9985356,
+      "status": "finished",
+      "process": {
+        "pid": 12124,
+        "creation_epoch": 1791802506.0044193,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\benchmark.py",
+          "--repair-root",
+          "E:\\ai_pilot\\campaign_2026\\repair_v1",
+          "--bundle",
+          "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_01\\final_0000074000",
+          "--out",
+          "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_01",
+          "--rounds",
+          "1",
+          "--seed",
+          "2026101100",
+          "--mirror",
+          "both",
+          "--max-minutes",
+          "40"
+        ]
+      },
+      "exit_code": 0,
+      "finished_epoch": 1791803446.6629133
+    },
+    {
+      "name": "train_02",
+      "command": [
+        "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "E:\\ai_pilot\\campaign_2026\\repair_v1\\train.py",
+        "--resume",
+        "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_01\\final_0000074000",
+        "--run-dir",
+        "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_02",
+        "--decisions",
+        "50000",
+        "--max-minutes",
+        "60",
+        "--checkpoint-decisions",
+        "10000",
+        "--checkpoint-seconds",
+        "300",
+        "--device",
+        "cuda",
+        "--seed",
+        "2026110102"
+      ],
+      "folder": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_02",
+      "training": true,
+      "start_decisions": 74000,
+      "requested_decisions": 50000,
+      "counted_decisions": 50000,
+      "started_epoch": 1791803446.7234054,
+      "status": "finished",
+      "process": {
+        "pid": 3968,
+        "creation_epoch": 1791803446.729956,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\repair_v1\\train.py",
+          "--resume",
+          "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_01\\final_0000074000",
+          "--run-dir",
+          "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_02",
+          "--decisions",
+          "50000",
+          "--max-minutes",
+          "60",
+          "--checkpoint-decisions",
+          "10000",
+          "--checkpoint-seconds",
+          "300",
+          "--device",
+          "cuda",
+          "--seed",
+          "2026110102"
+        ]
+      },
+      "exit_code": 0,
+      "learner_status": "completed",
+      "saved_bundle": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_02\\final_0000124000",
+      "finished_epoch": 1791804267.8885028
+    },
+    {
+      "name": "check_02",
+      "command": [
+        "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "E:\\ai_pilot\\campaign_2026\\repair_v1\\verify_saved.py",
+        "--bundle",
+        "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_02\\final_0000124000",
+        "--out",
+        "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\verified_02.json"
+      ],
+      "folder": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\check_02",
+      "training": false,
+      "start_decisions": 0,
+      "requested_decisions": 0,
+      "counted_decisions": 0,
+      "started_epoch": 1791804267.914086,
+      "status": "finished",
+      "process": {
+        "pid": 2616,
+        "creation_epoch": 1791804267.9250636,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\repair_v1\\verify_saved.py",
+          "--bundle",
+          "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_02\\final_0000124000",
+          "--out",
+          "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\verified_02.json"
+        ]
+      },
+      "exit_code": 0,
+      "finished_epoch": 1791804287.9524186
+    },
+    {
+      "name": "dev_02",
+      "command": [
+        "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "E:\\ai_pilot\\campaign_2026\\benchmark.py",
+        "--repair-root",
+        "E:\\ai_pilot\\campaign_2026\\repair_v1",
+        "--bundle",
+        "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_02\\final_0000124000",
+        "--out",
+        "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_02",
+        "--rounds",
+        "1",
+        "--seed",
+        "2026101100",
+        "--mirror",
+        "both",
+        "--max-minutes",
+        "40"
+      ],
+      "folder": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_02",
+      "training": false,
+      "start_decisions": 0,
+      "requested_decisions": 0,
+      "counted_decisions": 0,
+      "started_epoch": 1791804287.9931886,
+      "status": "finished",
+      "process": {
+        "pid": 5312,
+        "creation_epoch": 1791804288.0012653,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\benchmark.py",
+          "--repair-root",
+          "E:\\ai_pilot\\campaign_2026\\repair_v1",
+          "--bundle",
+          "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_02\\final_0000124000",
+          "--out",
+          "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_02",
+          "--rounds",
+          "1",
+          "--seed",
+          "2026101100",
+          "--mirror",
+          "both",
+          "--max-minutes",
+          "40"
+        ]
+      },
+      "exit_code": 0,
+      "finished_epoch": 1791805629.1988196
+    }
+  ],
+  "evaluations": [
+    {
+      "name": "dev_01",
+      "folder": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_01",
+      "status": "completed",
+      "summary": {
+        "score_eligible_cases": 24,
+        "planned_cases": 24,
+        "complete": true,
+        "totals": {
+          "guide": {
+            "completed_cases": 12,
+            "kills": 3,
+            "deaths": 0,
+            "own_crashes": 0,
+            "enemy_crashes": 0,
+            "survival": 12,
+            "attack_seconds": 10.0,
+            "enemy_attack_seconds": 0.0,
+            "over_9g_seconds": 0.0,
+            "min_altitude_m": 777.9412333805521,
+            "mean_attack_seconds": 0.8333333333333334,
+            "mean_enemy_attack_seconds": 0.0,
+            "survival_rate": 1.0
+          },
+          "candidate": {
+            "completed_cases": 12,
+            "kills": 0,
+            "deaths": 0,
+            "own_crashes": 0,
+            "enemy_crashes": 0,
+            "survival": 12,
+            "attack_seconds": 2.5166666666666666,
+            "enemy_attack_seconds": 0.0,
+            "over_9g_seconds": 0.0,
+            "min_altitude_m": 773.4738341656938,
+            "mean_attack_seconds": 0.20972222222222223,
+            "mean_enemy_attack_seconds": 0.0,
+            "survival_rate": 1.0
+          }
+        },
+        "paired_completed": 12,
+        "paired_metric_changes": {
+          "kills": {
+            "improved": 0,
+            "regressed": 3,
+            "tied": 9
+          },
+          "deaths": {
+            "improved": 0,
+            "regressed": 0,
+            "tied": 12
+          },
+          "own_crashes": {
+            "improved": 0,
+            "regressed": 0,
+            "tied": 12
+          },
+          "enemy_crashes": {
+            "improved": 0,
+            "regressed": 0,
+            "tied": 12
+          },
+          "survival": {
+            "improved": 0,
+            "regressed": 0,
+            "tied": 12
+          },
+          "attack_seconds": {
+            "improved": 4,
+            "regressed": 5,
+            "tied": 3
+          },
+          "enemy_attack_seconds": {
+            "improved": 0,
+            "regressed": 0,
+            "tied": 12
+          },
+          "over_9g_seconds": {
+            "improved": 0,
+            "regressed": 0,
+            "tied": 12
+          },
+          "min_altitude_m": {
+            "improved": 9,
+            "regressed": 3,
+            "tied": 0
+          }
+        },
+        "paired_excluded": [],
+        "interpretation": "Local simulation only. Metric directions are diagnostic; no deployment decision or official win probability.",
+        "guide": {
+          "completed_cases": 12,
+          "kills": 3,
+          "deaths": 0,
+          "own_crashes": 0,
+          "enemy_crashes": 0,
+          "survival": 12,
+          "attack_seconds": 10.0,
+          "enemy_attack_seconds": 0.0,
+          "over_9g_seconds": 0.0,
+          "min_altitude_m": 777.9412333805521,
+          "mean_attack_seconds": 0.8333333333333334,
+          "mean_enemy_attack_seconds": 0.0,
+          "survival_rate": 1.0
+        },
+        "candidate": {
+          "completed_cases": 12,
+          "kills": 0,
+          "deaths": 0,
+          "own_crashes": 0,
+          "enemy_crashes": 0,
+          "survival": 12,
+          "attack_seconds": 2.5166666666666666,
+          "enemy_attack_seconds": 0.0,
+          "over_9g_seconds": 0.0,
+          "min_altitude_m": 773.4738341656938,
+          "mean_attack_seconds": 0.20972222222222223,
+          "mean_enemy_attack_seconds": 0.0,
+          "survival_rate": 1.0
+        }
+      },
+      "gate": "review_pending",
+      "bundle": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_01\\final_0000074000"
+    },
+    {
+      "name": "dev_02",
+      "folder": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_02",
+      "status": "completed",
+      "summary": {
+        "score_eligible_cases": 24,
+        "planned_cases": 24,
+        "complete": true,
+        "totals": {
+          "guide": {
+            "completed_cases": 12,
+            "kills": 3,
+            "deaths": 0,
+            "own_crashes": 0,
+            "enemy_crashes": 0,
+            "survival": 12,
+            "attack_seconds": 10.0,
+            "enemy_attack_seconds": 0.0,
+            "over_9g_seconds": 0.0,
+            "min_altitude_m": 777.9412333805521,
+            "mean_attack_seconds": 0.8333333333333334,
+            "mean_enemy_attack_seconds": 0.0,
+            "survival_rate": 1.0
+          },
+          "candidate": {
+            "completed_cases": 12,
+            "kills": 0,
+            "deaths": 0,
+            "own_crashes": 0,
+            "enemy_crashes": 0,
+            "survival": 12,
+            "attack_seconds": 0.4,
+            "enemy_attack_seconds": 0.0,
+            "over_9g_seconds": 0.0,
+            "min_altitude_m": 772.224981877269,
+            "mean_attack_seconds": 0.03333333333333333,
+            "mean_enemy_attack_seconds": 0.0,
+            "survival_rate": 1.0
+          }
+        },
+        "paired_completed": 12,
+        "paired_metric_changes": {
+          "kills": {
+            "improved": 0,
+            "regressed": 3,
+            "tied": 9
+          },
+          "deaths": {
+            "improved": 0,
+            "regressed": 0,
+            "tied": 12
+          },
+          "own_crashes": {
+            "improved": 0,
+            "regressed": 0,
+            "tied": 12
+          },
+          "enemy_crashes": {
+            "improved": 0,
+            "regressed": 0,
+            "tied": 12
+          },
+          "survival": {
+            "improved": 0,
+            "regressed": 0,
+            "tied": 12
+          },
+          "attack_seconds": {
+            "improved": 1,
+            "regressed": 7,
+            "tied": 4
+          },
+          "enemy_attack_seconds": {
+            "improved": 0,
+            "regressed": 0,
+            "tied": 12
+          },
+          "over_9g_seconds": {
+            "improved": 0,
+            "regressed": 0,
+            "tied": 12
+          },
+          "min_altitude_m": {
+            "improved": 7,
+            "regressed": 5,
+            "tied": 0
+          }
+        },
+        "paired_excluded": [],
+        "interpretation": "Local simulation only. Metric directions are diagnostic; no deployment decision or official win probability.",
+        "guide": {
+          "completed_cases": 12,
+          "kills": 3,
+          "deaths": 0,
+          "own_crashes": 0,
+          "enemy_crashes": 0,
+          "survival": 12,
+          "attack_seconds": 10.0,
+          "enemy_attack_seconds": 0.0,
+          "over_9g_seconds": 0.0,
+          "min_altitude_m": 777.9412333805521,
+          "mean_attack_seconds": 0.8333333333333334,
+          "mean_enemy_attack_seconds": 0.0,
+          "survival_rate": 1.0
+        },
+        "candidate": {
+          "completed_cases": 12,
+          "kills": 0,
+          "deaths": 0,
+          "own_crashes": 0,
+          "enemy_crashes": 0,
+          "survival": 12,
+          "attack_seconds": 0.4,
+          "enemy_attack_seconds": 0.0,
+          "over_9g_seconds": 0.0,
+          "min_altitude_m": 772.224981877269,
+          "mean_attack_seconds": 0.03333333333333333,
+          "mean_enemy_attack_seconds": 0.0,
+          "survival_rate": 1.0
+        }
+      },
+      "gate": "review_pending",
+      "bundle": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_02\\final_0000124000"
+    }
+  ],
+  "retries": 0,
+  "supervisor": {
+    "pid": 5160,
+    "creation_epoch": 1791801684.0066648,
+    "cmdline": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\runner.py",
+      "run",
+      "--job",
+      "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\state.json"
+    ]
+  },
+  "child": null,
+  "candidate_gate": "review_pending",
+  "official_validation": false,
+  "heartbeat_epoch": 1791805629.2204149,
+  "ready_epoch": 1791801684.7886512,
+  "keep_awake_enabled": true,
+  "training_progress": {
+    "status": "training",
+    "pid": 3968,
+    "decision_steps": 122717,
+    "target_decisions": 124000,
+    "physics_ticks": 490797,
+    "critic_updates": 30429,
+    "actor_updates": 29929,
+    "training_stage": "official",
+    "stop_file": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_02\\STOP",
+    "heartbeat_epoch": 1791804235.2064304,
+    "official_validation": false
+  },
+  "resources": {
+    "available_ram_gb": 6.127086639404297,
+    "free_disk_gb": 195.40864181518555
+  },
+  "checked_bundle": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_02\\final_0000124000",
+  "error": "連續兩次配對評估擊落較少且攻擊時間低於純引導器一半；停止追加並檢討。",
+  "finished_epoch": 1791805629.2204149
+}

@@ -1,0 +1,115 @@
+{
+  "case": {
+    "id": "mirror_neutral",
+    "pair": 2,
+    "episode": 0,
+    "seed": 2026315002,
+    "opponent": "mirror",
+    "side": "normal",
+    "distance_ft": 6000,
+    "mode": "neutral",
+    "max_ticks": 18000
+  },
+  "initial": [
+    [
+      23.076015461913254,
+      121.9545841536434,
+      13325.164882618934,
+      -5.889846357241438e-15,
+      -1.7667656644067244e-15,
+      289.7349739248675,
+      233.16895384704637,
+      -649.9652370508613,
+      9.910039635194898e-15,
+      0.0,
+      0.0,
+      0.0,
+      573.8553514144071,
+      690.5234032331623,
+      -0.4681919336841692,
+      690.5234032331623,
+      2.842170943040401e-14,
+      -2.842170943040401e-14,
+      -2.358274881466197e-15,
+      2.358274881466197e-15,
+      23.06055200000001,
+      121.94855500000001,
+      13325.164882618934,
+      -233.16895384704648,
+      649.9652370508619,
+      -7.138137594480523e-14
+    ],
+    [
+      23.06055200000001,
+      121.94855500000001,
+      13325.164882618934,
+      1.4768737974022334e-14,
+      2.664698987944914e-15,
+      109.73497392486752,
+      -233.16895384704648,
+      649.9652370508619,
+      -7.138137594480523e-14,
+      0.0,
+      0.0,
+      0.0,
+      573.8553514144071,
+      690.5234032331628,
+      -0.46819193366428924,
+      690.5234032331628,
+      -2.842170943040401e-14,
+      -4.263256414560601e-14,
+      -3.5374123221992937e-15,
+      -1.385142112464436e-16,
+      23.076015461913254,
+      121.9545841536434,
+      13325.164882618934,
+      233.16895384704637,
+      -649.9652370508613,
+      9.910039635194898e-15
+    ]
+  ],
+  "initial_sha256": "2d0513461798e7a366014d4199082eebff769014439ee93dd2a5b3c50abda996",
+  "side_transform": {
+    "side": "normal",
+    "normal_cross_track_m": -1828.7999999998538,
+    "actual_cross_track_m": -1828.7999999998538,
+    "distance_m": 1828.788019099693
+  },
+  "blue": {
+    "class_name": "RepairController",
+    "class_path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+    "class_sha256": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+    "act_path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+    "act_sha256": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+    "command_path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+    "command_sha256": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+    "MRO": [
+      {
+        "name": "RepairController",
+        "path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py"
+      }
+    ]
+  },
+  "command_source": {
+    "path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+    "sha256": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f"
+  },
+  "red": {
+    "class_name": "MirrorP2Controller",
+    "module": "bank_eval_exact_mirror",
+    "path": "E:\\ai_pilot\\campaign_2026\\experiments\\m4_tactical_v4\\m3_mirror_league.py",
+    "sha256": "e6f47242eb344dacbb68b78d0b229ca5018b787c71d3ee94d660e25ead0371c1"
+  },
+  "red_rng_state": {
+    "bit_generator": "PCG64",
+    "state": {
+      "state": 124372825687299986269216312849735597065,
+      "inc": 178543009953478876375766948283101719525
+    },
+    "has_uint32": 1,
+    "uinteger": 1073862727
+  },
+  "candidate_model_sha256": "b9bcce79185343c4fdf1b022feb42c4dceb62c8e312da29962c07ae34513b176",
+  "parent_step_path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\env.py",
+  "opponent_fallback": false
+}

@@ -1,0 +1,38 @@
+{
+  "created_utc": "2026-10-15T15:26:44.893823+00:00",
+  "actual_static_test_exit_code": 0,
+  "tests": 8,
+  "guard_algorithm_donor": "completed v5 guard byte-identical; new identity adds exe/parent fields",
+  "new_FDM_ticks": 1800,
+  "planned_FDM_ticks": 1800,
+  "total_wall_seconds": 180,
+  "case_wall_seconds": 45,
+  "launch_allowed_only_after_live_preflight": true,
+  "new_seeds": [
+    2026103100,
+    2026103101,
+    2026103102
+  ],
+  "seed_role": "development_interface_diagnostic_not_holdout",
+  "usage_observation": {
+    "observed_utc": "2026-10-15T15:22:14Z",
+    "lower_remaining_percent": 87,
+    "five_hour_reset_epoch": 1792094944,
+    "weekly_reset_epoch": 1792654206
+  },
+  "stage": "verified_three_opponents_two_resets_interface_only",
+  "run": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_interface_v1\\run_20261015_232701_f27ecd",
+  "verification": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_interface_v1\\run_20261015_232701_f27ecd\\VERIFICATION.json",
+  "actual_launcher_exit_code": 0,
+  "actual_guard_exit_code": 0,
+  "actual_verifier_exit_code": 0,
+  "all_worker_exit_codes": [
+    0,
+    0,
+    0
+  ],
+  "nonzero_attack_increment_path_verified_in_FDM": false,
+  "attack_ticks_all_zero_short_smoke": true,
+  "training_started": false,
+  "deployment_allowed": false
+}

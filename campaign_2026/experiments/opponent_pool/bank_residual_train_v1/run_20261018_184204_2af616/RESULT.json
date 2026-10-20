@@ -1,0 +1,131 @@
+{
+  "status": "failed_partial_training",
+  "fresh_actor": true,
+  "fresh_critic_optimizer_replay": true,
+  "exact_resume": false,
+  "actor_transfer": false,
+  "training_started": true,
+  "formal_deployment": "repair_guide",
+  "deployment_allowed": false,
+  "initial_actor_sha256": "2a8bb8f02edd0c59302b662becdb5d2fb9a186a01cd553d048b9da1a7c7133b8",
+  "error": "TypeError(\"<class 'frozen_opponent_station_v1.StationController'> is a built-in class\")",
+  "actual_decisions": 0,
+  "gradient_updates": 0,
+  "replay_size": 0,
+  "final_actor_sha256": "2a8bb8f02edd0c59302b662becdb5d2fb9a186a01cd553d048b9da1a7c7133b8",
+  "bundle_reload_exact": true,
+  "probe_observations": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.4571981430053711,
+      0.0,
+      -2.723901957324415e-07,
+      1.0,
+      2.723901957324415e-07,
+      1.0,
+      -5.608378046417783e-07,
+      -5.538750758201585e-17,
+      1.0,
+      -0.05225322023034096,
+      0.0,
+      0.0,
+      1.0,
+      0.691069483757019,
+      0.6770136952400208,
+      -1.0,
+      -2.723901957324415e-07
+    ]
+  ],
+  "probe_outputs": [
+    [
+      -0.03565359115600586
+    ],
+    [
+      -0.12690997123718262
+    ]
+  ],
+  "artifact_sha256": {
+    "model.zip": "0df986247d9a6556af63a8b267575e2871175e4961a2d53d14728b11f1346201",
+    "replay.pkl": "8c1b9d9dfb753a6a80d77987253b1f1c00a7c55e9d231d8d85ae5360b69aaf42",
+    "physics.csv": "47374dc348511b9612b8d5748b8d47f984bdcd5b05e67a935b87b3347fe9fe8c",
+    "decisions.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "decisions": 0,
+  "new_FDM_ticks": 0,
+  "episode_starts": [],
+  "completed_episodes": [],
+  "last_episode": {
+    "case": {
+      "episode": 0,
+      "seed": 2026311000,
+      "opponent": "sac5000",
+      "distance_ft": 6000,
+      "side": "normal"
+    },
+    "ticks": 0,
+    "final": {
+      "profile": {
+        "angle_source": "line_20261014_1deg",
+        "altitude_basis": "AGL",
+        "distance_edge_policy": "right_bin"
+      },
+      "ticks": 0,
+      "seconds": 0.0,
+      "event": "ongoing",
+      "winner": null,
+      "rematch": false,
+      "attack_ticks": [
+        0,
+        0
+      ],
+      "over_g_ticks": [
+        0,
+        0
+      ],
+      "position_sum": [
+        0.0,
+        0.0
+      ],
+      "advantage": [
+        0.0,
+        0.0
+      ],
+      "kill_score": [
+        0.0,
+        0.0
+      ],
+      "total_score": [
+        0.0,
+        0.0
+      ],
+      "unresolved": [],
+      "runtime_Host_conformance_verified": false
+    }
+  },
+  "blue_over9G": 0,
+  "peak_abs_blue_G": 0.0,
+  "min_AGL_m": null,
+  "actual_reached_cells": [],
+  "episode_physics_ticks": {
+    "0": 0
+  },
+  "wall_seconds": 3.312000000005355
+}

@@ -1,0 +1,126 @@
+{
+  "token": "20261014_144140_a18e50bb",
+  "status": "armed",
+  "pid": 9464,
+  "create_time": 1791960100.9381957,
+  "command": [
+    "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "E:\\ai_pilot\\campaign_2026\\diagnostics\\host_watchdog.py",
+    "--token",
+    "20261014_144140_a18e50bb",
+    "--deadline-epoch",
+    "1791960820.9360545"
+  ],
+  "armed_utc": "2026-10-14T06:41:41.152819+00:00",
+  "deadline_epoch": 1791960820.9360545,
+  "poll_seconds": 0.25,
+  "observed_utc": "2026-10-14T06:45:09.227264+00:00",
+  "tracked": {
+    "20348:1791960101.994058": {
+      "role": "host_root",
+      "identity": {
+        "pid": 20348,
+        "create_time": 1791960101.9940577,
+        "command": [
+          "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe"
+        ],
+        "exe": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe"
+      },
+      "last_state": "same_process"
+    },
+    "3004:1791960102.573559": {
+      "role": "player_root",
+      "identity": {
+        "pid": 3004,
+        "create_time": 1791960102.573559,
+        "command": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-X",
+          "utf8",
+          "-u",
+          "E:\\ai_pilot\\autopilot\\combat_fix\\player.py",
+          "--guide",
+          "--network",
+          "E:\\ai_pilot\\autopilot\\combat_fix\\udp_config.json"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe"
+      },
+      "last_state": "same_process"
+    },
+    "14212:1791960102.739502": {
+      "role": "owned_host_descendant",
+      "identity": {
+        "pid": 14212,
+        "parent_pid": 20348,
+        "create_time": 1791960102.7395024,
+        "command": [
+          "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe"
+        ],
+        "exe": "C:\\Users\\USER\\AppData\\Local\\JSBsimHost_1_0_0_0\\JSB_host_GUI_publish.exe"
+      },
+      "discovered_from": "20348:1791960101.994058",
+      "discovered_utc": "2026-10-14T06:41:42.787737+00:00",
+      "last_state": "same_process"
+    },
+    "20144:1791960126.606483": {
+      "role": "owned_host_descendant",
+      "identity": {
+        "pid": 20144,
+        "parent_pid": 14212,
+        "create_time": 1791960126.6064832,
+        "command": [
+          "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe",
+          "--internal-player2"
+        ],
+        "exe": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe"
+      },
+      "discovered_from": "20348:1791960101.994058",
+      "discovered_utc": "2026-10-14T06:42:06.846811+00:00",
+      "last_state": "absent"
+    },
+    "16352:1791960127.318839": {
+      "role": "owned_host_descendant",
+      "identity": {
+        "pid": 16352,
+        "parent_pid": 20144,
+        "create_time": 1791960127.3188393,
+        "command": [
+          "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe",
+          "--internal-player2"
+        ],
+        "exe": "C:\\Users\\USER\\AppData\\Local\\JSBsimHost_1_0_0_0\\JSB_host_GUI_publish.exe"
+      },
+      "discovered_from": "20348:1791960101.994058",
+      "discovered_utc": "2026-10-14T06:42:07.431898+00:00",
+      "last_state": "absent"
+    }
+  },
+  "events": [
+    {
+      "type": "tracked_host_root",
+      "pid": 20348
+    },
+    {
+      "type": "tracked_player_root",
+      "pid": 3004
+    },
+    {
+      "type": "tracked_descendant",
+      "pid": 14212,
+      "parent_pid": 20348
+    },
+    {
+      "type": "tracked_descendant",
+      "pid": 20144,
+      "parent_pid": 14212
+    },
+    {
+      "type": "tracked_descendant",
+      "pid": 16352,
+      "parent_pid": 20144
+    }
+  ]
+}

@@ -1,0 +1,752 @@
+{
+  "status": "completed_development_review",
+  "created_utc": "2026-10-17T01:51:09.590440+00:00",
+  "comparison_sha256": "6a8b86c3290e52f51fe56708ee5bc429f582099366106e3576b87233c741efbd",
+  "independent_audit": "E:\\ai_pilot\\campaign_2026\\diagnostics\\saved_sac_battle_audit_20261017_094917_10fc24",
+  "results": [
+    {
+      "case": {
+        "id": "normal_station_zero_2026310200",
+        "opening": 0,
+        "side": "normal",
+        "seed": 2026310200,
+        "actor": "station_zero",
+        "red": "sac5000",
+        "distance_ft": 6000,
+        "max_ticks": 18000
+      },
+      "initial_sha256": "7a879438030dcead49829c705578b7c78ba8270236022c8f5b0fd29dfac336a8",
+      "event": "timeout",
+      "winner": "red",
+      "ticks": 18000,
+      "attack_ticks": [
+        0,
+        0
+      ],
+      "over9G": [
+        0,
+        0
+      ],
+      "total_score": [
+        1670.4361086019726,
+        1672.4275102054908
+      ],
+      "score_margin": -1.9914016035181703,
+      "peak_abs_g": [
+        2.8447710021186343,
+        2.856998887381622
+      ],
+      "min_agl_m": [
+        2677.2932986105075,
+        2676.7633354761083
+      ],
+      "side_transform": {
+        "side": "normal",
+        "normal_cross_track_m": -1828.8000000006618,
+        "actual_cross_track_m": -1828.8000000006618,
+        "distance_m": 1828.8257717709394
+      },
+      "csv_sha256": "a538538c33d0f4ce6dcb073562ca0b4351990830a247b2e3aa0da043d857164b",
+      "actual_blue_commands_sha256": "ea239496fd46e8a13bc27261ff2cfa0067c3bdf438ead3fc50164fce2181dc5d",
+      "first_command": [
+        -0.12,
+        -0.03499999999952237,
+        0.0,
+        0.775
+      ],
+      "last_command": [
+        -0.046928243277863144,
+        -0.4053842896270223,
+        0.0,
+        0.40451049081978047
+      ],
+      "range_min_m": 1166.8095840571273,
+      "range_max_m": 4164.953172547902,
+      "in_attack_range_ticks": 0,
+      "in_attack_range_percent": 0.0,
+      "best_nose_angle_deg": 53.06131862705141,
+      "best_nose_angle_inside_range_deg": null,
+      "unique_tactical_actions": 1,
+      "tactical_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tactical_max": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": {
+        "id": "normal_sac5000_2026310200",
+        "opening": 0,
+        "side": "normal",
+        "seed": 2026310200,
+        "actor": "sac5000",
+        "red": "sac5000",
+        "distance_ft": 6000,
+        "max_ticks": 18000
+      },
+      "initial_sha256": "7a879438030dcead49829c705578b7c78ba8270236022c8f5b0fd29dfac336a8",
+      "event": "timeout",
+      "winner": "red",
+      "ticks": 18000,
+      "attack_ticks": [
+        0,
+        0
+      ],
+      "over9G": [
+        0,
+        0
+      ],
+      "total_score": [
+        1670.4361086019726,
+        1672.4275102054908
+      ],
+      "score_margin": -1.9914016035181703,
+      "peak_abs_g": [
+        2.8447710021186343,
+        2.856998887381622
+      ],
+      "min_agl_m": [
+        2677.2932986105075,
+        2676.7633354761083
+      ],
+      "side_transform": {
+        "side": "normal",
+        "normal_cross_track_m": -1828.8000000006618,
+        "actual_cross_track_m": -1828.8000000006618,
+        "distance_m": 1828.8257717709394
+      },
+      "csv_sha256": "a538538c33d0f4ce6dcb073562ca0b4351990830a247b2e3aa0da043d857164b",
+      "actual_blue_commands_sha256": "ea239496fd46e8a13bc27261ff2cfa0067c3bdf438ead3fc50164fce2181dc5d",
+      "first_command": [
+        -0.12,
+        -0.03499999999952237,
+        0.0,
+        0.775
+      ],
+      "last_command": [
+        -0.046928243277863144,
+        -0.4053842896270223,
+        0.0,
+        0.40451049081978047
+      ],
+      "range_min_m": 1166.8095840571273,
+      "range_max_m": 4164.953172547902,
+      "in_attack_range_ticks": 0,
+      "in_attack_range_percent": 0.0,
+      "best_nose_angle_deg": 53.06131862705141,
+      "best_nose_angle_inside_range_deg": null,
+      "unique_tactical_actions": 900,
+      "tactical_min": [
+        -0.5651912093162537,
+        -0.5708526372909546,
+        0.019769595935940742
+      ],
+      "tactical_max": [
+        -0.45855650305747986,
+        -0.41724109649658203,
+        0.09312444925308228
+      ]
+    },
+    {
+      "case": {
+        "id": "normal_transfer10000_2026310200",
+        "opening": 0,
+        "side": "normal",
+        "seed": 2026310200,
+        "actor": "transfer10000",
+        "red": "sac5000",
+        "distance_ft": 6000,
+        "max_ticks": 18000
+      },
+      "initial_sha256": "7a879438030dcead49829c705578b7c78ba8270236022c8f5b0fd29dfac336a8",
+      "event": "timeout",
+      "winner": "red",
+      "ticks": 18000,
+      "attack_ticks": [
+        0,
+        0
+      ],
+      "over9G": [
+        0,
+        0
+      ],
+      "total_score": [
+        1670.4361086019726,
+        1672.4275102054908
+      ],
+      "score_margin": -1.9914016035181703,
+      "peak_abs_g": [
+        2.8447710021186343,
+        2.856998887381622
+      ],
+      "min_agl_m": [
+        2677.2932986105075,
+        2676.7633354761083
+      ],
+      "side_transform": {
+        "side": "normal",
+        "normal_cross_track_m": -1828.8000000006618,
+        "actual_cross_track_m": -1828.8000000006618,
+        "distance_m": 1828.8257717709394
+      },
+      "csv_sha256": "a538538c33d0f4ce6dcb073562ca0b4351990830a247b2e3aa0da043d857164b",
+      "actual_blue_commands_sha256": "ea239496fd46e8a13bc27261ff2cfa0067c3bdf438ead3fc50164fce2181dc5d",
+      "first_command": [
+        -0.12,
+        -0.03499999999952237,
+        0.0,
+        0.775
+      ],
+      "last_command": [
+        -0.046928243277863144,
+        -0.4053842896270223,
+        0.0,
+        0.40451049081978047
+      ],
+      "range_min_m": 1166.8095840571273,
+      "range_max_m": 4164.953172547902,
+      "in_attack_range_ticks": 0,
+      "in_attack_range_percent": 0.0,
+      "best_nose_angle_deg": 53.06131862705141,
+      "best_nose_angle_inside_range_deg": null,
+      "unique_tactical_actions": 900,
+      "tactical_min": [
+        -0.38305696845054626,
+        -0.29646819829940796,
+        -0.346892774105072
+      ],
+      "tactical_max": [
+        -0.1175554022192955,
+        -0.05327686667442322,
+        -0.22328412532806396
+      ]
+    },
+    {
+      "case": {
+        "id": "mirrored_station_zero_2026310201",
+        "opening": 1,
+        "side": "mirrored",
+        "seed": 2026310201,
+        "actor": "station_zero",
+        "red": "sac5000",
+        "distance_ft": 6000,
+        "max_ticks": 18000
+      },
+      "initial_sha256": "863528803bae7e3b6e287714117b288c806da7ed5c3f4cb2c1fcf945d8835580",
+      "event": "timeout",
+      "winner": "red",
+      "ticks": 18000,
+      "attack_ticks": [
+        0,
+        0
+      ],
+      "over9G": [
+        0,
+        0
+      ],
+      "total_score": [
+        1397.130543901107,
+        1401.7417173349263
+      ],
+      "score_margin": -4.611173433819204,
+      "peak_abs_g": [
+        2.83260031629275,
+        2.8206316479449853
+      ],
+      "min_agl_m": [
+        3763.6461067042674,
+        3762.2080820488995
+      ],
+      "side_transform": {
+        "side": "mirrored",
+        "normal_cross_track_m": -1828.80000000039,
+        "actual_cross_track_m": 1828.799999999775,
+        "distance_m": 1828.8026042417837
+      },
+      "csv_sha256": "75ec8474c22fce3601d6c96ab9043e38708e3a0a2b82ea292c591ae381185d17",
+      "actual_blue_commands_sha256": "e425c3452ee987f7df9dcb244a07c7d32d224eb906a7f526d0dd808908d0faab",
+      "first_command": [
+        0.12,
+        -0.03500000000000015,
+        0.0,
+        0.775
+      ],
+      "last_command": [
+        0.06520920073105227,
+        -0.5479047697261087,
+        0.0,
+        0.39199400031634996
+      ],
+      "range_min_m": 1144.4296350716775,
+      "range_max_m": 5095.022222426771,
+      "in_attack_range_ticks": 0,
+      "in_attack_range_percent": 0.0,
+      "best_nose_angle_deg": 44.63412760575472,
+      "best_nose_angle_inside_range_deg": null,
+      "unique_tactical_actions": 1,
+      "tactical_min": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tactical_max": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": {
+        "id": "mirrored_sac5000_2026310201",
+        "opening": 1,
+        "side": "mirrored",
+        "seed": 2026310201,
+        "actor": "sac5000",
+        "red": "sac5000",
+        "distance_ft": 6000,
+        "max_ticks": 18000
+      },
+      "initial_sha256": "863528803bae7e3b6e287714117b288c806da7ed5c3f4cb2c1fcf945d8835580",
+      "event": "timeout",
+      "winner": "red",
+      "ticks": 18000,
+      "attack_ticks": [
+        0,
+        0
+      ],
+      "over9G": [
+        0,
+        0
+      ],
+      "total_score": [
+        1397.130543901107,
+        1401.7417173349263
+      ],
+      "score_margin": -4.611173433819204,
+      "peak_abs_g": [
+        2.83260031629275,
+        2.8206316479449853
+      ],
+      "min_agl_m": [
+        3763.6461067042674,
+        3762.2080820488995
+      ],
+      "side_transform": {
+        "side": "mirrored",
+        "normal_cross_track_m": -1828.80000000039,
+        "actual_cross_track_m": 1828.799999999775,
+        "distance_m": 1828.8026042417837
+      },
+      "csv_sha256": "75ec8474c22fce3601d6c96ab9043e38708e3a0a2b82ea292c591ae381185d17",
+      "actual_blue_commands_sha256": "e425c3452ee987f7df9dcb244a07c7d32d224eb906a7f526d0dd808908d0faab",
+      "first_command": [
+        0.12,
+        -0.03500000000000015,
+        0.0,
+        0.775
+      ],
+      "last_command": [
+        0.06520920073105227,
+        -0.5479047697261087,
+        0.0,
+        0.39199400031634996
+      ],
+      "range_min_m": 1144.4296350716775,
+      "range_max_m": 5095.022222426771,
+      "in_attack_range_ticks": 0,
+      "in_attack_range_percent": 0.0,
+      "best_nose_angle_deg": 44.63412760575472,
+      "best_nose_angle_inside_range_deg": null,
+      "unique_tactical_actions": 900,
+      "tactical_min": [
+        -0.6263788342475891,
+        -0.39211344718933105,
+        0.01795125938951969
+      ],
+      "tactical_max": [
+        -0.528357207775116,
+        -0.23110951483249664,
+        0.24354836344718933
+      ]
+    },
+    {
+      "case": {
+        "id": "mirrored_transfer10000_2026310201",
+        "opening": 1,
+        "side": "mirrored",
+        "seed": 2026310201,
+        "actor": "transfer10000",
+        "red": "sac5000",
+        "distance_ft": 6000,
+        "max_ticks": 18000
+      },
+      "initial_sha256": "863528803bae7e3b6e287714117b288c806da7ed5c3f4cb2c1fcf945d8835580",
+      "event": "timeout",
+      "winner": "red",
+      "ticks": 18000,
+      "attack_ticks": [
+        0,
+        0
+      ],
+      "over9G": [
+        0,
+        0
+      ],
+      "total_score": [
+        1397.130543901107,
+        1401.7417173349263
+      ],
+      "score_margin": -4.611173433819204,
+      "peak_abs_g": [
+        2.83260031629275,
+        2.8206316479449853
+      ],
+      "min_agl_m": [
+        3763.6461067042674,
+        3762.2080820488995
+      ],
+      "side_transform": {
+        "side": "mirrored",
+        "normal_cross_track_m": -1828.80000000039,
+        "actual_cross_track_m": 1828.799999999775,
+        "distance_m": 1828.8026042417837
+      },
+      "csv_sha256": "75ec8474c22fce3601d6c96ab9043e38708e3a0a2b82ea292c591ae381185d17",
+      "actual_blue_commands_sha256": "e425c3452ee987f7df9dcb244a07c7d32d224eb906a7f526d0dd808908d0faab",
+      "first_command": [
+        0.12,
+        -0.03500000000000015,
+        0.0,
+        0.775
+      ],
+      "last_command": [
+        0.06520920073105227,
+        -0.5479047697261087,
+        0.0,
+        0.39199400031634996
+      ],
+      "range_min_m": 1144.4296350716775,
+      "range_max_m": 5095.022222426771,
+      "in_attack_range_ticks": 0,
+      "in_attack_range_percent": 0.0,
+      "best_nose_angle_deg": 44.63412760575472,
+      "best_nose_angle_inside_range_deg": null,
+      "unique_tactical_actions": 900,
+      "tactical_min": [
+        -0.19391176104545593,
+        0.0955294519662857,
+        -0.18904843926429749
+      ],
+      "tactical_max": [
+        0.07631995528936386,
+        0.30813759565353394,
+        -0.014803304336965084
+      ]
+    }
+  ],
+  "within_opening_equivalence": [
+    {
+      "opening": 0,
+      "side": "normal",
+      "same_initial_sha": true,
+      "identical_all_numeric_telemetry": true,
+      "identical_all_actual_blue_commands": true
+    },
+    {
+      "opening": 1,
+      "side": "mirrored",
+      "same_initial_sha": true,
+      "identical_all_numeric_telemetry": true,
+      "identical_all_actual_blue_commands": true
+    }
+  ],
+  "actual_parent_exit": 0,
+  "actual_saved_data_audit_exit": 0,
+  "original_60s_verifier_exit": 1,
+  "terminal_process_audit": [
+    {
+      "identity": {
+        "pid": 12400,
+        "create": 1792201182.5515168,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_battle_v2\\battle.py",
+          "--launch"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 25052
+      },
+      "state": "absent_no_exit_inferred"
+    },
+    {
+      "identity": {
+        "pid": 23688,
+        "create": 1792201757.5054936,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\diagnostics\\saved_sac_battle_audit_v1.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\diagnostics\\saved_sac_battle_audit_20261017_094917_10fc24"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 5128
+      },
+      "state": "absent_no_exit_inferred"
+    },
+    {
+      "identity": {
+        "pid": 8924,
+        "create": 1792201632.2171867,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_battle_v2\\verify.py",
+          "--internal",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_battle_v2\\run_20261017_093943_16bee6",
+          "0"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 23612
+      },
+      "state": "absent_no_exit_inferred"
+    },
+    {
+      "identity": {
+        "pid": 5128,
+        "create": 1792201757.0355632,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\diagnostics\\saved_sac_battle_audit_v1.py"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 14196
+      },
+      "state": "absent_no_exit_inferred"
+    },
+    {
+      "identity": {
+        "pid": 1564,
+        "create": 1792201757.5189848,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 23688
+      },
+      "state": "absent_no_exit_inferred"
+    },
+    {
+      "identity": {
+        "pid": 24560,
+        "create": 1792201184.0899704,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_battle_v2\\battle.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_battle_v2\\run_20261017_093943_16bee6\\cases\\normal_station_zero_2026310200"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 12400
+      },
+      "state": "absent_no_exit_inferred"
+    },
+    {
+      "identity": {
+        "pid": 25220,
+        "create": 1792201184.1021545,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 24560
+      },
+      "state": "absent_no_exit_inferred"
+    },
+    {
+      "identity": {
+        "pid": 24716,
+        "create": 1792201256.2521844,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_battle_v2\\battle.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_battle_v2\\run_20261017_093943_16bee6\\cases\\normal_sac5000_2026310200"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 12400
+      },
+      "state": "absent_no_exit_inferred"
+    },
+    {
+      "identity": {
+        "pid": 6840,
+        "create": 1792201256.265724,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 24716
+      },
+      "state": "absent_no_exit_inferred"
+    },
+    {
+      "identity": {
+        "pid": 25384,
+        "create": 1792201331.6618624,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_battle_v2\\battle.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_battle_v2\\run_20261017_093943_16bee6\\cases\\normal_transfer10000_2026310200"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 12400
+      },
+      "state": "absent_no_exit_inferred"
+    },
+    {
+      "identity": {
+        "pid": 3840,
+        "create": 1792201331.685022,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 25384
+      },
+      "state": "absent_no_exit_inferred"
+    },
+    {
+      "identity": {
+        "pid": 5560,
+        "create": 1792201407.3536708,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_battle_v2\\battle.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_battle_v2\\run_20261017_093943_16bee6\\cases\\mirrored_station_zero_2026310201"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 12400
+      },
+      "state": "absent_no_exit_inferred"
+    },
+    {
+      "identity": {
+        "pid": 25188,
+        "create": 1792201407.3667374,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 5560
+      },
+      "state": "absent_no_exit_inferred"
+    },
+    {
+      "identity": {
+        "pid": 24756,
+        "create": 1792201480.121055,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_battle_v2\\battle.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_battle_v2\\run_20261017_093943_16bee6\\cases\\mirrored_sac5000_2026310201"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 12400
+      },
+      "state": "absent_no_exit_inferred"
+    },
+    {
+      "identity": {
+        "pid": 24564,
+        "create": 1792201480.1347382,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 24756
+      },
+      "state": "absent_no_exit_inferred"
+    },
+    {
+      "identity": {
+        "pid": 12092,
+        "create": 1792201553.8712516,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_battle_v2\\battle.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_battle_v2\\run_20261017_093943_16bee6\\cases\\mirrored_transfer10000_2026310201"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 12400
+      },
+      "state": "absent_no_exit_inferred"
+    },
+    {
+      "identity": {
+        "pid": 24224,
+        "create": 1792201553.8839686,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 12092
+      },
+      "state": "absent_no_exit_inferred"
+    }
+  ],
+  "gate": "no_model_advantage_in_this_development_batch_no_promotion",
+  "decision": "不晉級、不盲續訓練；先確認戰術輸出經控制器後的實際影響與進入攻擊距離的能力。",
+  "causal_limit": "相同實際命令可證明本批未產生控制差異；bank/速度裁切是待逐支路驗證的假設，尚非根因定論。",
+  "opening_limit": "兩個開發開局各使用不同seed，不能把開局間差異單獨歸因左右側。",
+  "not_pure_repair_guide": true,
+  "holdout": false,
+  "official_validation": false,
+  "training_started": false,
+  "deployment_allowed": false,
+  "retained_deployment": "repair_guide"
+}

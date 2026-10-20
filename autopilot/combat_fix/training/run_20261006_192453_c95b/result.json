@@ -1,0 +1,13 @@
+{
+  "status": "completed",
+  "run_dir": "E:\\ai_pilot\\autopilot\\combat_fix\\training\\run_20261006_192453_c95b",
+  "final_bundle": "E:\\ai_pilot\\autopilot\\combat_fix\\training\\run_20261006_192453_c95b\\final_0000024000",
+  "decision_repeat": 4,
+  "decision_steps": 24000,
+  "physics_ticks": 95929,
+  "critic_updates": 5750,
+  "actor_updates": 5250,
+  "stop_file": "E:\\ai_pilot\\autopilot\\combat_fix\\training\\run_20261006_192453_c95b\\STOP",
+  "wall_seconds": 343.8119999999908,
+  "official_validation": false
+}

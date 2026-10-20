@@ -1,0 +1,58 @@
+{
+  "guardian": {
+    "pid": 7124,
+    "create": 1792298346.2602756,
+    "cmd": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\bank_authority_guardian_v1.py"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent": 19816
+  },
+  "deadline_epoch": 1792298467.1358185,
+  "deadline_monotonic": 44204.328,
+  "seconds": 120,
+  "diagnostic_source_sha256": "001d827d15e5e47c76177abe3307ee7e1bb46d700ef70d204cd1f02a2cf26822",
+  "source_run": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\run_20261018_033053_98bc0f",
+  "original_source_contract_sha256": "f701e7a09afe6fe0173d938afe4fe6da3ef72e5e0ae0e924e710d2191a05956a",
+  "resources": {
+    "ram_bytes": 6902616064,
+    "disk_bytes": 193370087424,
+    "cpu_percent": 23.5,
+    "GPU_used": false
+  },
+  "usage_observation": {
+    "observed_utc": "2026-10-18 04:37:04 UTC",
+    "remaining_percent": 96,
+    "primary": {
+      "usedPercent": 0,
+      "windowDurationMins": 300,
+      "resetsAt": 1792316224
+    },
+    "weekly": {
+      "usedPercent": 4,
+      "windowDurationMins": 10080,
+      "resetsAt": 1792879134
+    },
+    "reset_credit_used": false
+  },
+  "new_FDM_ticks": 0,
+  "seed_claims": [],
+  "training_started": false,
+  "comparison_path": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\run_20261018_033053_98bc0f\\COMPARISON.json",
+  "comparison_sha256": "813f5f205448a112e3dbb06d3b11971c808731cd0163434e5770faff7a3b0560",
+  "analysis_worker_sha256": "911a4f85aace2e6dcd3e98535dfed2549086fb13aadb362a8cd81a4fefc61dcf",
+  "window_definitions": "Two saved baseline first300packet prefixes, neutral history and independent pre-act clones",
+  "hypothesis": "Existing original RepairController bank-only residual can change real command under saturated guidance; neutral must exactly fall back",
+  "model_inference_calls": 0,
+  "controller_calls": "real original act/command only, no FDM",
+  "new_sources": {
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rule_family_v1\\policy.py": "85648cff99986d78245aa5fb75388f541edfcf1febb38eb7e65eb331d5118576",
+    "E:\\ai_pilot\\campaign_2026\\diagnostics\\bank_authority_worker_v1.py": "911a4f85aace2e6dcd3e98535dfed2549086fb13aadb362a8cd81a4fefc61dcf",
+    "E:\\ai_pilot\\campaign_2026\\diagnostics\\bank_authority_guardian_v1.py": "001d827d15e5e47c76177abe3307ee7e1bb46d700ef70d204cd1f02a2cf26822"
+  },
+  "single_factor": "Original API first residual dimension -1/0/+1, other0, original source limits unchanged"
+}

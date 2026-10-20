@@ -1,0 +1,73 @@
+E:\ai_pilot\jepa_brain\brain.py:89: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(str(path), map_location='cpu')
+[1/24] brain/sac314 red_crash winner=blue atk 0/0
+[2/24] baseline/sac314 red_crash winner=blue atk 0/0
+[3/24] baseline/sac314 red_crash winner=blue atk 0/0
+E:\ai_pilot\jepa_brain\brain.py:89: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(str(path), map_location='cpu')
+[4/24] baseline/sac314 timeout winner=blue atk 0/0
+[5/24] brain/sac314 red_crash winner=blue atk 0/0
+[6/24] brain/sac314 timeout winner=blue atk 0/0
+[7/24] baseline/sac314 red_crash winner=blue atk 0/0
+[8/24] baseline/sac314 red_crash winner=blue atk 0/0
+[9/24] brain/sac314 red_crash winner=blue atk 0/0
+[10/24] baseline/sac314 red_crash winner=blue atk 0/0
+[11/24] brain/sac314 red_crash winner=blue atk 0/0
+[12/24] baseline/sac314 red_crash winner=blue atk 0/0
+[13/24] brain/sac314 timeout winner=blue atk 0/0
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[14/24] brain/sac314 red_crash winner=blue atk 0/0
+[15/24] baseline/sac314 red_crash winner=blue atk 0/0
+E:\ai_pilot\jepa_brain\brain.py:89: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(str(path), map_location='cpu')
+[16/24] brain/sac314 red_crash winner=blue atk 0/0
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[17/24] baseline/sac314 red_crash winner=blue atk 0/0
+[18/24] baseline/sac314 red_crash winner=blue atk 0/0
+E:\ai_pilot\jepa_brain\brain.py:89: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(str(path), map_location='cpu')
+[19/24] baseline/sac314 red_crash winner=blue atk 0/0
+E:\ai_pilot\jepa_brain\brain.py:89: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ck = torch.load(str(path), map_location='cpu')
+[20/24] brain/sac314 red_crash winner=blue atk 0/0
+[21/24] baseline/sac314 red_crash winner=blue atk 0/0
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[22/24] brain/sac314 timeout winner=blue atk 0/0
+[23/24] brain/sac314 red_crash winner=blue atk 0/0
+[24/24] brain/sac314 red_crash winner=blue atk 0/0
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+opp      policy      n  win loss draw  atkB  atkR  margin   minAGLm
+sac314   baseline   12   12    0    0     0     0     101      1731
+sac314   brain      12   12    0    0     0     0     239      1887

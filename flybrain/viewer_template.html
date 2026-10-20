@@ -1,0 +1,316 @@
+<title>果蠅腦空戰重播</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&display=swap">
+<style>
+/* Layout: one big 3-D brain on the left, instruments on the right, transport bar + timeline underneath.
+   Single dark look on purpose: the brain is drawn with additive light. */
+:root{
+  --bg:#0a0e13; --panel:#10161e; --panel2:#151d27; --line:#222d3a; --fg:#dbe5ef; --mute:#8696a8;
+  --hot:#ffb347; --hot2:#ff6b4a; --inR:#4cc9f0; --inL:#b388ff; --dn:#ff4d8d; --good:#6ee7a8;
+  --f-disp:'Chakra Petch',system-ui,sans-serif; --f-body:'IBM Plex Sans',system-ui,sans-serif; --f-mono:'IBM Plex Mono',ui-monospace,Consolas,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.5 var(--f-body);
+  padding-block:12px; padding-left:max(16px,env(safe-area-inset-left,0px)); padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1{font:600 22px/1.2 var(--f-disp);margin:0;letter-spacing:.02em;text-wrap:balance}
+h2{font:500 12px/1.2 var(--f-disp);margin:0 0 8px;letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
+.wrap{max-width:1280px;margin:0 auto;display:flex;flex-direction:column;gap:12px}
+header{display:flex;flex-wrap:wrap;gap:6px 24px;align-items:baseline;justify-content:space-between}
+header p{margin:0;color:var(--mute);max-width:70ch;font-size:13px}
+.grid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(300px,1fr);gap:12px;align-items:start}
+@media (max-width:860px){.grid{grid-template-columns:minmax(0,1fr)} #stage{position:relative;top:0;height:62vh}}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:12px;min-width:0}
+#stage{position:sticky;top:12px;height:min(82vh,720px);min-height:340px;padding:0;overflow:hidden;background:radial-gradient(ellipse at 50% 45%,#121b27 0%,#0a0e13 70%)}
+#gl{position:absolute;inset:0;width:100%;height:100%;display:block;touch-action:none;cursor:grab}
+#gl:active{cursor:grabbing}
+.hud{position:absolute;left:10px;top:8px;font:12px/1.5 var(--f-mono);color:var(--mute);pointer-events:none}
+.hud b{color:var(--fg);font-weight:500}
+.legend{position:absolute;left:10px;bottom:8px;display:flex;flex-wrap:wrap;gap:4px 12px;font-size:11px;color:var(--mute);pointer-events:none;max-width:70%}
+.legend i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px;vertical-align:baseline}
+.tools{position:absolute;right:8px;top:8px;display:flex;gap:4px;flex-wrap:wrap;justify-content:flex-end}
+@media (max-width:560px){.tools{left:8px;right:8px;justify-content:flex-start}.hud{top:78px}}
+button,select{font:500 12px var(--f-body);color:var(--fg);background:var(--panel2);border:1px solid var(--line);border-radius:4px;padding:5px 9px;cursor:pointer}
+button:hover{border-color:var(--mute)} button:focus-visible,select:focus-visible,input:focus-visible,canvas:focus-visible{outline:2px solid var(--hot);outline-offset:1px}
+button[aria-pressed=true]{border-color:var(--hot);color:var(--hot)}
+.side{display:flex;flex-direction:column;gap:12px;min-width:0}
+.nums{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.num{display:flex;flex-direction:column}
+.num span{font:11px var(--f-body);color:var(--mute)}
+.num b{font:500 20px/1.2 var(--f-mono);font-variant-numeric:tabular-nums}
+.num em{font:11px var(--f-mono);color:var(--mute);font-style:normal}
+.tag{display:inline-block;padding:1px 8px;border-radius:10px;font:500 12px var(--f-body);border:1px solid var(--line)}
+.bars{display:grid;grid-template-columns:78px minmax(0,1fr);gap:2px 8px;align-items:center;font-size:11px;color:var(--mute)}
+.bars .g{grid-column:1/-1;margin-top:6px;font:500 11px var(--f-disp);letter-spacing:.1em;color:var(--fg)}
+.bar{position:relative;height:8px;background:var(--panel2);border-radius:2px}
+.bar::after{content:"";position:absolute;left:50%;top:-2px;bottom:-2px;width:1px;background:var(--line)}
+.bar i{position:absolute;top:0;bottom:0;border-radius:2px}
+.dnrow{display:grid;grid-template-columns:86px minmax(0,1fr) 34px;gap:8px;align-items:center;font:12px var(--f-mono);padding:1px 0}
+.dnrow .b{height:8px;background:var(--panel2);border-radius:2px;position:relative}
+.dnrow .b i{position:absolute;left:0;top:0;bottom:0;background:var(--dn);border-radius:2px}
+.dnrow span:last-child{text-align:right;color:var(--mute)}
+.transport{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.transport input[type=range]{flex:1 1 220px;min-width:0;accent-color:var(--hot)}
+#clock{font:500 13px var(--f-mono);min-width:130px;font-variant-numeric:tabular-nums}
+#tl{width:100%;height:96px;display:block;cursor:pointer}
+.note{color:var(--mute);font-size:12px;max-width:90ch;margin:0}
+.note b{color:var(--fg);font-weight:500}
+.empty{color:var(--mute);font-size:12px}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>果蠅腦空戰重播</h1>
+    <p id="sub"></p>
+  </header>
+
+  <div class="grid">
+    <div class="panel" id="stage">
+      <canvas id="gl" tabindex="0" aria-label="果蠅全腦 3D 視圖，拖曳旋轉，滾輪縮放"></canvas>
+      <div class="hud" id="hud"></div>
+      <div class="tools" role="group" aria-label="視圖工具">
+        <button id="bRot" aria-pressed="true">自動旋轉</button>
+        <button id="bFront">正面</button><button id="bSide">側面</button><button id="bTop">上方</button>
+        <button id="bAll" aria-pressed="true">全部神經元</button>
+      </div>
+      <div class="legend">
+        <span><i style="background:var(--inR)"></i>輸入（右側感覺神經元）</span>
+        <span><i style="background:var(--inL)"></i>輸入（左側）</span>
+        <span><i style="background:var(--dn)"></i>下行神經元 DN（輸出）</span>
+        <span><i style="background:var(--hot)"></i>正在放電</span>
+      </div>
+    </div>
+
+    <div class="side">
+      <div class="panel">
+        <h2>戰況（來自錄下的對戰）</h2>
+        <div class="nums">
+          <div class="num"><span>距離</span><b id="nDist">–</b><em>m</em></div>
+          <div class="num"><span>機鼻偏角</span><b id="nOff">–</b><em>度</em></div>
+          <div class="num"><span>接近速度</span><b id="nClose">–</b><em>m/s</em></div>
+          <div class="num"><span>高度</span><b id="nAlt">–</b><em>m</em></div>
+        </div>
+        <div style="margin-top:8px;display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+          <span class="empty">這場實際飛的戰術：</span><span class="tag" id="tTac">–</span>
+          <span class="tag" id="tBand" hidden>在有效攻擊距離內</span>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>送進果蠅腦的 27 個合法特徵</h2>
+        <div class="bars" id="bars"></div>
+      </div>
+
+      <div class="panel">
+        <h2>此刻最活躍的下行神經元</h2>
+        <div id="dnList"></div>
+        <p class="empty" id="dnHint" style="margin:8px 0 0"></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="transport">
+      <button id="bPlay" aria-pressed="false">播放</button>
+      <input id="seek" type="range" min="0" max="0" value="0" step="1" aria-label="時間軸">
+      <select id="speed" aria-label="播放速度"><option value="1">1×</option><option value="3" selected>3×</option><option value="8">8×</option><option value="20">20×</option></select>
+      <span id="clock"></span>
+    </div>
+    <canvas id="tl" aria-label="距離、下行神經元放電量與戰術時間軸，點擊跳轉"></canvas>
+    <p class="note" id="foot"></p>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+/*__DATA__*/
+(function(){
+'use strict';
+const D = DATA, N = D.n, T = D.T;
+const b64 = s => { const bin = atob(s), u = new Uint8Array(bin.length); for (let i = 0; i < bin.length; i++) u[i] = bin.charCodeAt(i); return u.buffer; };
+const POS = new Int16Array(b64(D.pos)), CLS = new Uint8Array(b64(D.cls));
+const INP = new Uint32Array(b64(D.inp)), DNI = new Uint32Array(b64(D.dn));
+const PTR = new Uint32Array(b64(D.ptr)), SIDX = new Uint32Array(b64(D.sidx)), SCNT = new Uint8Array(b64(D.scnt));
+const FEAT = new Float32Array(b64(D.feat)), Z = new Int8Array(b64(D.z)), TAC = new Uint8Array(b64(D.tactic));
+const K = D.k, NF = D.featNames.length;
+const $ = id => document.getElementById(id);
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+
+/* ---------- per-frame summaries ---------- */
+const dnPos = new Int32Array(N).fill(-1); DNI.forEach((g, i) => dnPos[g] = i);
+const nAct = new Float32Array(T), dnSum = new Float32Array(T);
+for (let t = 0; t < T; t++) { nAct[t] = PTR[t + 1] - PTR[t]; let s = 0; for (let j = PTR[t]; j < PTR[t + 1]; j++) if (dnPos[SIDX[j]] >= 0) s += SCNT[j]; dnSum[t] = s; }
+
+/* ---------- three.js brain ---------- */
+const canvas = $('gl');
+const renderer = new THREE.WebGLRenderer({canvas, antialias:false, alpha:false});
+renderer.setClearColor(0x0b1118, 1);
+renderer.setPixelRatio(Math.min(devicePixelRatio || 1, 2));
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(38, 1, 0.05, 50);
+const pos = new Float32Array(N * 3), base = new Float32Array(N * 3), size = new Float32Array(N), lev = new Float32Array(N);
+const hex = c => { const v = parseInt(c.replace('#',''), 16); return [(v>>16&255)/255, (v>>8&255)/255, (v&255)/255]; };
+const cBase = {0:hex('#6f86a3'), 1:hex('#4f6280'), 2:hex('#7f93ad'), 3:hex('#8aa0c0'), 4:hex(css('--dn')||'#ff4d8d'), 5:hex('#6f86a3')};
+const cInR = hex(css('--inR')||'#4cc9f0'), cInL = hex(css('--inL')||'#b388ff');
+for (let i = 0; i < N; i++) {
+  pos[3*i] = POS[3*i] / 32767; pos[3*i+1] = POS[3*i+1] / 32767; pos[3*i+2] = POS[3*i+2] / 32767;
+  if (CLS[i] === 6) { size[i] = 0; continue; }
+  const c = cBase[CLS[i]] || cBase[0], dim = CLS[i] === 1 ? 0.34 : 0.5;
+  base[3*i] = c[0]*dim; base[3*i+1] = c[1]*dim; base[3*i+2] = c[2]*dim; size[i] = CLS[i] === 1 ? 1.1 : 1.4;
+}
+for (let a = 0; a < INP.length; a++) { const i = INP[a], sgn = Math.floor(a / K) % 2, c = sgn === 0 ? cInR : cInL; base[3*i]=c[0]*0.9; base[3*i+1]=c[1]*0.9; base[3*i+2]=c[2]*0.9; size[i] = 3.2; }
+DNI.forEach(i => { const c = cBase[4]; base[3*i]=c[0]*0.9; base[3*i+1]=c[1]*0.9; base[3*i+2]=c[2]*0.9; size[i] = 3.2; });
+const geo = new THREE.BufferGeometry();
+geo.setAttribute('position', new THREE.BufferAttribute(pos, 3));
+geo.setAttribute('aBase', new THREE.BufferAttribute(base, 3));
+geo.setAttribute('aSize', new THREE.BufferAttribute(size, 1));
+const levAttr = new THREE.BufferAttribute(lev, 1); levAttr.setUsage(THREE.DynamicDrawUsage);
+geo.setAttribute('aLev', levAttr);
+const hot = hex(css('--hot')||'#ffb347');
+const mat = new THREE.ShaderMaterial({
+  transparent:true, depthWrite:false, depthTest:false, blending:THREE.CustomBlending, blendEquation:THREE.AddEquation, blendSrc:THREE.OneFactor, blendDst:THREE.OneFactor,
+  uniforms:{uScale:{value:300}, uHot:{value:new THREE.Vector3(hot[0],hot[1],hot[2])}, uAll:{value:1}},
+  vertexShader:`attribute vec3 aBase; attribute float aSize; attribute float aLev; uniform float uScale; uniform float uAll;
+    varying vec3 vC; varying float vA;
+    void main(){ vec4 mv = modelViewMatrix * vec4(position,1.0);
+      if (aSize < 0.01) { gl_Position = vec4(2.0,2.0,2.0,1.0); gl_PointSize = 0.0; vC = aBase; vA = 0.0; return; }
+      gl_PointSize = max(1.0, aSize * uScale / -mv.z);
+      float keep = (aSize > 2.0) ? 1.0 : uAll;
+      vC = aBase; vA = keep * 0.6; gl_Position = projectionMatrix * mv; }`,
+  fragmentShader:`uniform vec3 uHot; varying vec3 vC; varying float vA;
+    void main(){ vec2 d = gl_PointCoord - 0.5; float r = dot(d,d); if (r > 0.25) discard;
+      float f = smoothstep(0.25, 0.0, r); gl_FragColor = vec4(vC * vA * f * 1.5, 1.0); }`
+});
+/* the activity layer is a second Points object that shares geometry but draws the hot colour */
+const matHot = mat.clone();
+matHot.fragmentShader = `uniform vec3 uHot; varying vec3 vC; varying float vA;
+  void main(){ vec2 d = gl_PointCoord - 0.5; float r = dot(d,d); if (r > 0.25) discard; float f = smoothstep(0.25, 0.0, r);
+    gl_FragColor = vec4(uHot * f * vA * 0.75, 1.0); }`;
+matHot.vertexShader = `attribute vec3 aBase; attribute float aSize; attribute float aLev; uniform float uScale; uniform float uAll;
+  varying vec3 vC; varying float vA;
+  void main(){ vec4 mv = modelViewMatrix * vec4(position,1.0); float l = clamp(aLev,0.0,1.0);
+    if (aSize < 0.01 || l < 0.03) { gl_Position = vec4(2.0,2.0,2.0,1.0); gl_PointSize = 0.0; vC = aBase; vA = 0.0; return; }
+    gl_PointSize = max(1.0, (1.8 + l*3.2) * uScale / -mv.z); vC = aBase; vA = l; gl_Position = projectionMatrix * mv; }`;
+matHot.uniforms = {uScale:mat.uniforms.uScale, uHot:mat.uniforms.uHot, uAll:mat.uniforms.uAll};
+const root = new THREE.Group(); root.rotation.x = 0.0;
+root.add(new THREE.Points(geo, mat)); root.add(new THREE.Points(geo, matHot)); scene.add(root);
+
+/* orbit controls (tiny, no dependency) */
+let yaw = 0.35, pitch = 0.12, dist = 3.1, auto = !matchMedia('(prefers-reduced-motion: reduce)').matches;
+let drag = null;
+canvas.addEventListener('pointerdown', e => { drag = {x:e.clientX, y:e.clientY, yaw, pitch}; canvas.setPointerCapture(e.pointerId); setAuto(false); });
+canvas.addEventListener('pointermove', e => { if (!drag) return; yaw = drag.yaw + (e.clientX - drag.x) * 0.006; pitch = Math.max(-1.4, Math.min(1.4, drag.pitch + (e.clientY - drag.y) * 0.006)); });
+canvas.addEventListener('pointerup', () => drag = null);
+canvas.addEventListener('wheel', e => { e.preventDefault(); dist = Math.max(1.2, Math.min(6, dist * Math.exp(e.deltaY * 0.001))); }, {passive:false});
+canvas.addEventListener('keydown', e => { const s = 0.08; if (e.key === 'ArrowLeft') yaw -= s; if (e.key === 'ArrowRight') yaw += s; if (e.key === 'ArrowUp') pitch -= s; if (e.key === 'ArrowDown') pitch += s; });
+function setAuto(v){ auto = v; $('bRot').setAttribute('aria-pressed', String(v)); }
+$('bRot').onclick = () => setAuto(!auto);
+$('bFront').onclick = () => { yaw = 0; pitch = 0; setAuto(false); };
+$('bSide').onclick = () => { yaw = Math.PI/2; pitch = 0; setAuto(false); };
+$('bTop').onclick = () => { yaw = 0; pitch = -1.45; setAuto(false); };
+$('bAll').onclick = e => { const on = e.currentTarget.getAttribute('aria-pressed') !== 'true'; e.currentTarget.setAttribute('aria-pressed', String(on)); mat.uniforms.uAll.value = on ? 1 : 0; };
+function resize(){ const r = canvas.getBoundingClientRect(); const w = Math.max(1, r.width), h = Math.max(1, r.height); renderer.setSize(w, h, false); camera.aspect = w / h; camera.updateProjectionMatrix(); mat.uniforms.uScale.value = (h / 700) * 3.1 * renderer.getPixelRatio(); }
+addEventListener('resize', resize);
+
+/* ---------- instruments ---------- */
+const groups = [['敵情 → 視覺投射神經元 LC / LPLC', D.groupEnemy], ['本機狀態 → 翼膜風重力 / 頭部剛毛神經元', D.groupOwn], ['任務狀態 → 味覺神經元', D.groupState]];
+const bars = $('bars'), barEls = [];
+groups.forEach(([name, ids]) => {
+  const g = document.createElement('div'); g.className = 'g'; g.textContent = name; bars.appendChild(g);
+  ids.forEach(f => {
+    const l = document.createElement('div'); l.textContent = D.featNames[f]; l.title = 'feature ' + f;
+    const b = document.createElement('div'); b.className = 'bar'; const i = document.createElement('i'); b.appendChild(i);
+    bars.appendChild(l); bars.appendChild(b); barEls[f] = i;
+  });
+});
+function setBar(el, z){ const w = Math.abs(z) * 50; el.style.width = w + '%'; el.style.left = z >= 0 ? '50%' : (50 - w) + '%'; el.style.background = z >= 0 ? css('--inR') : css('--inL'); }
+
+const dnRows = [];
+for (let r = 0; r < 8; r++) { const row = document.createElement('div'); row.className = 'dnrow'; row.innerHTML = '<span></span><div class="b"><i></i></div><span></span>'; $('dnList').appendChild(row); dnRows.push(row); }
+
+let cur = 0, playing = false, lastT = 0, accum = 0;
+function show(t){
+  cur = t; $('seek').value = t;
+  // decay sources: new frame lights its spikers
+  for (let j = PTR[t]; j < PTR[t + 1]; j++) lev[SIDX[j]] = Math.min(1, 0.35 + 0.22 * Math.log2(1 + SCNT[j]));
+  levAttr.needsUpdate = true;
+  const f = t * 27;
+  $('nDist').textContent = Math.round(FEAT[f] * 5000).toLocaleString();
+  $('nOff').textContent = (FEAT[f + 2] * 180).toFixed(0);
+  $('nClose').textContent = (FEAT[f + 1] * 340).toFixed(0);
+  $('nAlt').textContent = Math.round(FEAT[f + 15] * 6000).toLocaleString();
+  $('tTac').textContent = D.tacticNames[TAC[t]];
+  $('tBand').hidden = !(FEAT[f + 25] > 0.5);
+  for (let i = 0; i < NF; i++) if (barEls[i]) setBar(barEls[i], Z[f + i] / 100);
+  // top DNs
+  const list = [];
+  for (let j = PTR[t]; j < PTR[t + 1]; j++) { const p = dnPos[SIDX[j]]; if (p >= 0) list.push([p, SCNT[j]]); }
+  list.sort((a, b) => b[1] - a[1]);
+  const mx = list.length ? list[0][1] : 1;
+  dnRows.forEach((row, r) => {
+    const it = list[r], c = row.children;
+    if (!it) { c[0].textContent = ''; c[1].firstChild.style.width = '0'; c[2].textContent = ''; return; }
+    c[0].textContent = D.dnLabel[it[0]]; c[1].firstChild.style.width = (100 * it[1] / mx) + '%'; c[2].textContent = (it[1] / D.windowS).toFixed(0);
+  });
+  $('dnHint').textContent = list.length ? ('數字 = 放電頻率 Hz；本幀共 ' + list.length + ' 個 DN 放電（共 ' + D.nDN + ' 個）') : '這一幀沒有任何下行神經元放電';
+  const sec = t * D.dt;
+  $('clock').textContent = Math.floor(sec / 60) + ':' + String(Math.floor(sec % 60)).padStart(2, '0') + ' / ' + Math.floor(T * D.dt / 60) + ':' + String(Math.floor(T * D.dt % 60)).padStart(2, '0');
+  $('hud').innerHTML = '放電神經元 <b>' + nAct[t] + '</b> / ' + N.toLocaleString() + '<br>DN 放電 <b>' + dnSum[t] + '</b>（' + D.windowMs + ' ms 視窗）';
+  drawTL();
+}
+$('seek').max = T - 1;
+$('seek').oninput = e => { show(+e.target.value); };
+$('bPlay').onclick = () => { playing = !playing; $('bPlay').textContent = playing ? '暫停' : '播放'; $('bPlay').setAttribute('aria-pressed', String(playing)); if (playing && cur >= T - 1) show(0); };
+
+/* ---------- timeline ---------- */
+const tl = $('tl'), tctx = tl.getContext('2d');
+const tacCols = ['#8aa0c0','#6ee7a8','#4cc9f0','#ff6b4a','#ffb347','#b388ff','#5eead4','#f472b6'];
+function drawTL(){
+  const dpr = Math.min(devicePixelRatio || 1, 2), w = tl.clientWidth, h = tl.clientHeight;
+  if (tl.width !== Math.round(w * dpr)) { tl.width = Math.round(w * dpr); tl.height = Math.round(h * dpr); }
+  tctx.setTransform(dpr, 0, 0, dpr, 0, 0); tctx.clearRect(0, 0, w, h);
+  const padL = 4, padR = 4, top = 4, band = 52, strip = 10, gap = 6;
+  const X = t => padL + (w - padL - padR) * t / Math.max(1, T - 1);
+  // distance (log) line
+  const dmin = Math.log(60), dmax = Math.log(12000);
+  tctx.strokeStyle = css('--mute'); tctx.lineWidth = 1.2; tctx.beginPath();
+  for (let t = 0; t < T; t++){ const d = Math.max(60, FEAT[t * 27] * 5000); const y = top + band * (1 - (Math.log(d) - dmin) / (dmax - dmin)); t ? tctx.lineTo(X(t), y) : tctx.moveTo(X(t), y); }
+  tctx.stroke();
+  // DN activity (filled)
+  let mx = 1; for (let t = 0; t < T; t++) mx = Math.max(mx, dnSum[t]);
+  tctx.fillStyle = css('--dn'); tctx.globalAlpha = 0.55; tctx.beginPath(); tctx.moveTo(X(0), top + band);
+  for (let t = 0; t < T; t++) tctx.lineTo(X(t), top + band - band * 0.9 * dnSum[t] / mx);
+  tctx.lineTo(X(T - 1), top + band); tctx.closePath(); tctx.fill(); tctx.globalAlpha = 1;
+  // tactic strip
+  const y0 = top + band + gap;
+  for (let t = 0; t < T; t++){ tctx.fillStyle = tacCols[TAC[t]]; tctx.fillRect(X(t), y0, Math.max(1, (w - padL - padR) / T + 0.5), strip); }
+  tctx.fillStyle = css('--mute'); tctx.font = '10px ' + css('--f-mono'); tctx.textBaseline = 'top';
+  tctx.fillText('距離（對數）', padL + 2, top); tctx.fillStyle = css('--dn'); tctx.fillText('DN 放電', padL + 90, top);
+  tctx.fillStyle = css('--mute'); tctx.fillText('實際戰術', padL + 2, y0 + strip + 3);
+  // playhead
+  tctx.strokeStyle = css('--hot'); tctx.lineWidth = 1.5; tctx.beginPath(); tctx.moveTo(X(cur), 0); tctx.lineTo(X(cur), h); tctx.stroke();
+}
+function seekFrom(e){ const r = tl.getBoundingClientRect(); show(Math.max(0, Math.min(T - 1, Math.round((e.clientX - r.left - 4) / (r.width - 8) * (T - 1))))); }
+let tlDrag = false; tl.addEventListener('pointerdown', e => { tlDrag = true; tl.setPointerCapture(e.pointerId); seekFrom(e); });
+tl.addEventListener('pointermove', e => { if (tlDrag) seekFrom(e); }); tl.addEventListener('pointerup', () => tlDrag = false);
+addEventListener('resize', drawTL);
+
+/* ---------- loop ---------- */
+$('sub').textContent = D.subtitle;
+$('foot').innerHTML = D.footer;
+let prev = performance.now();
+function frame(now){
+  if (window.__STILL) { root.rotation.y = yaw; root.rotation.x = pitch; camera.position.set(0, 0, dist); camera.lookAt(0, 0, 0); renderer.render(scene, camera); window.__PNG = canvas.toDataURL('image/png'); window.__DONE = true; return; }
+  const dt = Math.min(0.1, (now - prev) / 1000); prev = now;
+  if (playing) { accum += dt * +$('speed').value / D.dt; while (accum >= 1) { accum -= 1; if (cur < T - 1) show(cur + 1); else { playing = false; $('bPlay').textContent = '播放'; $('bPlay').setAttribute('aria-pressed','false'); } } }
+  const k = Math.pow(0.5, dt / 0.22); for (let i = 0; i < N; i++) lev[i] *= k; levAttr.needsUpdate = true;
+  if (auto) yaw += dt * 0.18;
+  root.rotation.y = yaw; root.rotation.x = pitch; camera.position.set(0, 0, dist); camera.lookAt(0, 0, 0);
+  renderer.render(scene, camera); requestAnimationFrame(frame);
+}
+resize(); show(Math.min(D.startAt || 0, T - 1)); requestAnimationFrame(frame);
+})();
+</script>

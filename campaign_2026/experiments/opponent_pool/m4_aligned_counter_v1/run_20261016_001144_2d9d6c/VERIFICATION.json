@@ -1,0 +1,25 @@
+{
+  "verified_aligned_counter_FDM": true,
+  "errors": [],
+  "new_FDM_ticks": 360,
+  "cases": [
+    {
+      "case_id": "aligned_counter_2026101610",
+      "stage": "rear",
+      "opponent": "rule",
+      "ticks_per_reset": 180,
+      "attack_ticks_per_reset": 180,
+      "event": "blue_kill",
+      "winner": "blue",
+      "same_seed_reset_reproduced": true,
+      "score_eligible": false
+    }
+  ],
+  "complete_worker_count": 1,
+  "actual_observed_launcher_exit_code": 0,
+  "training_started": false,
+  "official_Host_conformance_verified": false,
+  "combat_win_rate_evidence": false,
+  "deployment_allowed": false,
+  "report_sha256": "12d12f3b41352a913df07de6e08d03aeea63c5c6e805bca06ac46cb5cffe0c1b"
+}

@@ -1,0 +1,15 @@
+{
+  "command": [
+    "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "E:\\ai_pilot\\autopilot\\combat_fix\\collect_host_test.py"
+  ],
+  "folder": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_20261014_063034_6f22",
+  "input_session_sha256": "bbd3147f62d5cf068e0c191ae93b1d0f0be339dafd006d6dc0b61089505b2481",
+  "collector_sha256": "a33490912a91c963a1a1743afd28c5087f203c900d6750b5428cd67c803c6a3e",
+  "started_utc": "2026-10-13T22:33:01.709149+00:00",
+  "pid": 20780,
+  "create_time": 1791930781.712068
+}

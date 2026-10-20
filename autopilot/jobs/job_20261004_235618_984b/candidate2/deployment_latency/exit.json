@@ -1,0 +1,33 @@
+{
+  "name": "c2_deployment_latency",
+  "folder": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\deployment_latency",
+  "command": [
+    "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "E:\\ai_pilot\\autopilot\\experiment.py",
+    "modelcheck",
+    "--out",
+    "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\deployment_latency",
+    "--bundle",
+    "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\candidate1_to_199000\\final_0000148682"
+  ],
+  "started_utc": "2026-10-04T18:21:11.539484+00:00",
+  "training": false,
+  "start_step": 0,
+  "counted_steps": 0,
+  "process": {
+    "pid": 24592,
+    "create_time": 1791138071.5446997,
+    "command": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "E:\\ai_pilot\\autopilot\\experiment.py",
+      "modelcheck",
+      "--out",
+      "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\deployment_latency",
+      "--bundle",
+      "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\candidate1_to_199000\\final_0000148682"
+    ]
+  },
+  "exit_code": 0,
+  "finished_utc": "2026-10-04T18:21:21.642710+00:00",
+  "reason": null
+}

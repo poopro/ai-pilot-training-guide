@@ -1,0 +1,71 @@
+{
+  "updated_utc": "2026-10-13T16:39:15.159822+00:00",
+  "run": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_20261013_234621_6d0b",
+  "controller": "repair_guide",
+  "actual_collector_exit_code": 1,
+  "actual_validation_exit_code": 0,
+  "combat_result": {
+    "published_host_round_completed": true,
+    "host_winner_raw": "1.0",
+    "sim_seconds": 116.633,
+    "rows": 6997,
+    "player1": {
+      "hp": 180.0,
+      "score_kills": 3.0,
+      "advantage": 35496.521738686744,
+      "attack_advantage": 0.9957327813829748,
+      "position_advantage": 0.9945236155159162,
+      "gforce_overload": 0.0,
+      "min_altitude_m": 5392.592039437965
+    },
+    "player2": {
+      "hp": 0.0,
+      "score_kills": 0.0,
+      "advantage": 790.9604150522467,
+      "attack_advantage": 0.0,
+      "position_advantage": 0.0,
+      "gforce_overload": 0.0,
+      "min_altitude_m": 5446.685189703343
+    }
+  },
+  "evidence_gate": {
+    "eligible_for_six_round_fixed_source_gate": false,
+    "only_failed_check": "host_game_over_logged",
+    "checks": {
+      "finite_csv": true,
+      "strictly_increasing_time": true,
+      "full_round_or_early_adjudication": true,
+      "host_game_over_logged": false,
+      "csv_terminal_log_consistent": true,
+      "csv_sha_matches": true,
+      "reported_rows_match": true,
+      "reported_duration_matches": true,
+      "observed_player1_ready": true,
+      "observed_player1_moved": true,
+      "host_stderr_exists": true,
+      "acmi_hash_and_terminal_time": true
+    },
+    "capture_receipt_checks": {
+      "setting_snapshot_matches": true,
+      "player_snapshot_matches": true,
+      "source_snapshots_match": true,
+      "host_exe_snapshot_matches": true,
+      "prelaunch_receipt_matches": true,
+      "collector_receipt_matches": true
+    },
+    "fixed_metadata_checks": {
+      "source_hashes_valid": true,
+      "player_hash_valid": true,
+      "host_exe_hash_valid": true,
+      "host_setting_hash_valid": true,
+      "actual_validation_exit_zero": true
+    }
+  },
+  "watchdog": {
+    "terminal_reason": "deadline",
+    "all_known_live_processes_stopped": true,
+    "receipt": "E:\\ai_pilot\\campaign_2026\\diagnostics\\host_watchdog_20261013_234619_27b04100.json"
+  },
+  "decision": "do_not_count_toward_six_round_gate; fix independent terminal corroboration then run a new round",
+  "note": "Published Host CSV shows early adjudication P1 win, but main Host stdout lacks [GAME OVER]. Player2 runtime log stopped on Host STOPPED before watchdog deadline, yet it was not part of the prelaunch receipt, so this round remains incomplete evidence."
+}

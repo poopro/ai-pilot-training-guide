@@ -1,0 +1,86 @@
+{
+  "format": "smoke_executor_v5_contract",
+  "created_utc": "2026-10-14T12:39:09.907065+00:00",
+  "mode_contract": {
+    "full24": {
+      "cases": 24,
+      "geometry_pairs": 12,
+      "distinct_seeds": 12,
+      "self_play_cases": 6,
+      "total_wall_seconds": 900,
+      "case_wall_seconds": 30,
+      "max_ticks": 300
+    },
+    "single_case_diagnostic": {
+      "cases": 1,
+      "total_wall_seconds": 60,
+      "case_wall_seconds": 30,
+      "max_ticks": 300
+    }
+  },
+  "executor_sha256": {
+    "common.py": "cc755b8f6b787d8cef27ee87a813a8bcebbf6f34239dd90acab4726563c07fa2",
+    "guard.py": "4b55459d638f33c01b768e12c14f1baed0e99e360319625081104a0cc9797eeb",
+    "launch_smoke.py": "4b7fcf2db3116edb5ac738fa9c992b66de2952b268b3740910a0e6bba27a2427",
+    "run_smoke.py": "ffcb82398a2e27931595356f07f0d20e87e45a914ee5268c76758aaf7e0461a8",
+    "test_full_plan.py": "510eb241fe97fa7b501ce83f620af1fd802e39c819029b7874ad1d628bf1cb2a",
+    "test_guard_repair.py": "2c84e117ddc48eefc89824cf2395063bdcc2980beafc05ba91d05c0d280d2b9d",
+    "verify_smoke.py": "5e28d9d24178dc81c9856e5d930c2a05aad8f113d76ae5905aaf186931b346ff"
+  },
+  "readme_sha256": "66fd3021d668f131dc1d7d9ba96e7d52813a1571c3cd229a059fe2058d3014cb",
+  "v4_snapshot_sha256": {
+    "common.py": "ce1ca5d8dafd23476dc751bf07c9c03fb0cea37b03bd890565d6e2bd8d694700",
+    "CONTRACT.json": "bea7811f863a0d7d275cf566a86c5b12a74d1aa93d9bd006844b2a72fd0f28a6",
+    "guard.py": "4b55459d638f33c01b768e12c14f1baed0e99e360319625081104a0cc9797eeb",
+    "launch_smoke.py": "72c99e6eb398faed003e0ee48fd4ec1e309ac8c52eb962ec54df0130f958e7b3",
+    "README.md": "4dbe5af8f0cad41cba17e23fa595687e5bebdc4c0b5bcb01c3ddbdd3d0d9c18c",
+    "run_smoke.py": "f180838159cfc4fd429b6b626a1ff5a278d453ca683e2c90b32215eb84d9749a",
+    "test_guard_repair.py": "2c84e117ddc48eefc89824cf2395063bdcc2980beafc05ba91d05c0d280d2b9d",
+    "verify_smoke.py": "d7fc22a16fe2220bb115173aac9b6eb6c9e735d5682b826bf25f524d083de7f0"
+  },
+  "v4_true_diagnostic_run": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\v4\\run_20261014_203352_611acd",
+  "v4_true_diagnostic_evidence_sha256": {
+    "active_worker.json": "ea500df3de3270254a90a2b63b715f32ed1a1f44c388b1216ab2d6154c03b3b4",
+    "cases\\smoke_rule_6000_normal_2026102601\\duel.acmi": "80b6f3984616ec9464723411687ef15f3b950a578f9ac5f64212e00b179fa8bd",
+    "cases\\smoke_rule_6000_normal_2026102601\\heartbeat.json": "d79cd7b4acbd25fe1782d20ff9dd53f7d96aa80f47f770dc6d597faa8bf71ebf",
+    "cases\\smoke_rule_6000_normal_2026102601\\input.json": "c7133cc727555396edafde0532b3c9af8155f58ad122da6ea70fd4a1626f0807",
+    "cases\\smoke_rule_6000_normal_2026102601\\result.json": "d51de863ca9ce45791961fcd4584cac1da0b30457b2d6b1225020886a0a96269",
+    "cases\\smoke_rule_6000_normal_2026102601\\telemetry.csv": "d2ae2de29b96f92fcf785a8983b7b1545c72025385ea564c47aed9c55df5b22e",
+    "cases\\smoke_rule_6000_normal_2026102601\\worker.log": "a9ca360da5e8d8a7536c49a75bf995f854dca2dbd6e4dfaf7933329c40bd5edd",
+    "cases\\smoke_rule_6000_normal_2026102601\\worker_exit.json": "2eee8beea1fc0366a8405b7cf5813460a87233e0178fddfd6a63c84956ae5095",
+    "guard.json": "851c913625da04fb4c98a29f209241f07b1339a6a5a6f7fe52df17aafa179642",
+    "guard.log": "4fac7c4008adb9b9e2a6abf678c7b68ad8d05f09127802bf77aa348e1bddc38d",
+    "guard_identity.json": "e6eae0906e30564b049ec73624793beb520c50ba403fbce4c39d7afced97f833",
+    "launch.json": "6246b5c0bd7e0ec35aa763b2355f3302c98b513fdcfd0639707918f616219ce5",
+    "launcher_receipt.json": "ff406c7fbe8dc3d86e34502e86c2f80de7741de1d8001ff280bbbc23a6e6d5d1",
+    "report.json": "31e3cde72079bfbb6dec56fb584640c79d8905a7a17220d297b62ea711f12275",
+    "reservation.json": "461ebf0c0f752566b3ca3cab1491a4dfa051cb8ea69501fca3949bc5c0a99cd8",
+    "supervisor.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "supervisor_exit.json": "f264d10d954991786eac6106e3fb000f561c0b9df39081f73102d1bb0c46d570",
+    "VERIFICATION.json": "07ca0b0b1d2bbd3d4a137c2d33665581f76d5b9e5369753ac846a7595f395291"
+  },
+  "v4_verified_single_case_diagnostic": true,
+  "v4_diagnostic_fdm_ticks": 300,
+  "v5_new_fdm_ticks": 0,
+  "new_base_seed": 2026102700,
+  "new_full_seeds": [
+    2026102700,
+    2026102701,
+    2026102702,
+    2026102710,
+    2026102711,
+    2026102712,
+    2026102720,
+    2026102721,
+    2026102722,
+    2026102730,
+    2026102731,
+    2026102732
+  ],
+  "complete24_executed": false,
+  "guard_v4_bytes_unchanged": true,
+  "score_eligible": false,
+  "win_rate_evidence": false,
+  "official_validation": false,
+  "deployment_allowed": false
+}

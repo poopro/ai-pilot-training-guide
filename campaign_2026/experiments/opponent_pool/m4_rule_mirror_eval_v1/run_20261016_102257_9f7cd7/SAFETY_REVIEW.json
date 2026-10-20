@@ -1,0 +1,59 @@
+{
+  "verified_development_only": true,
+  "decision": "allow_one_bounded_actor_transfer_training_not_promotion",
+  "note": "完整4場2配對、真parent/guard/workers/verifier退出0、同雙方initial與逐tick核對通過。mirror候選180命中/擊落，zero4命中/timeout；rule兩者0命中且候選積分優勢退步，不能平均掩蓋。兩對均零過9G、候選共同最低高度較高，無部署晉級。允許一次actor-only轉移的一萬decision上限新訓練，假設補足混合對手與距離完整coverage可改善泛化，完成後以新開局比較舊5000與新候選，不能把更新步數當戰力。",
+  "pairs": [
+    {
+      "pair": "final_rule_2026300100",
+      "same_exposure_ticks": 18000,
+      "actors": {
+        "zero": {
+          "common_margin": 5711.307220763997,
+          "common_attack": 0,
+          "common_min_AGL_m": 4138.990308412754,
+          "full_event": "timeout",
+          "full_winner": "blue",
+          "over9G_ticks": 0
+        },
+        "sac5000": {
+          "common_margin": 3529.21509680143,
+          "common_attack": 0,
+          "common_min_AGL_m": 4150.625007759834,
+          "full_event": "timeout",
+          "full_winner": "blue",
+          "over9G_ticks": 0
+        }
+      },
+      "common_margin_delta": -2182.0921239625673,
+      "common_altitude_delta_m": 11.634699347080641
+    },
+    {
+      "pair": "final_mirror_2026300101",
+      "same_exposure_ticks": 16471,
+      "actors": {
+        "sac5000": {
+          "common_margin": 45204.28826965236,
+          "common_attack": 180,
+          "common_min_AGL_m": 5216.648974892021,
+          "full_event": "blue_kill",
+          "full_winner": "blue",
+          "over9G_ticks": 0
+        },
+        "zero": {
+          "common_margin": 13800.069723213544,
+          "common_attack": 0,
+          "common_min_AGL_m": 5210.147244878985,
+          "full_event": "timeout",
+          "full_winner": "blue",
+          "over9G_ticks": 0
+        }
+      },
+      "common_margin_delta": 31404.218546438817,
+      "common_altitude_delta_m": 6.501730013036649
+    }
+  ],
+  "verification_sha256": "586c7f1f94d96c132edb5a9bfc516e7c0c7ec2978f1004c8822490a780b705ac",
+  "model_sha256": "9f93eb56483558ad56283c00b1ba34af96a236583bc977ef7d9fad375d9a0fea",
+  "deployment_allowed": false,
+  "professional_win_probability_unknown": true
+}

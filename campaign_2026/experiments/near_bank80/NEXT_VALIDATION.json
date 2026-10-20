@@ -1,0 +1,42 @@
+{
+  "status": "tool_ready_runtime_pending",
+  "candidate_snapshot": "E:\\ai_pilot\\campaign_2026\\candidates\\near_bank80_20261012",
+  "next_development_seed": 2026101300,
+  "seed_label": "Proposed fresh development, not holdout; verify against registry before launch",
+  "first_stage": {
+    "planned_pairs": 12,
+    "planned_cases": 24,
+    "opponents": [
+      "rule",
+      "frozen RL"
+    ],
+    "distance_ft": [
+      3000,
+      6000,
+      9000
+    ],
+    "sides": [
+      "normal",
+      "mirrored"
+    ],
+    "case_max_seconds": 150,
+    "total_max_minutes": 40,
+    "no_training": true
+  },
+  "required_changes_to_runner": "Implemented isolated supervisor copy with OS lock, source and direct-worker identity gate, dated budget/seed reservation. Positive FDM run still pending.",
+  "focus": [
+    "RL kill occurred during recovery: cannot claim near-aim control solved",
+    "Lost rule/3000/mirrored kill: compare common-time trajectories",
+    "RL floor overshoot 764.48m vs original777.94m; both recovered, candidate has more low logged samples",
+    "Count exact judge outcomes and full-round data; no mean hides per-opponent regression"
+  ],
+  "expand_after_fresh_development": "Implement frozen 4-opponent pool with 72 matched starts/144 full cases, then untouched holdout and >=6 official Host rounds",
+  "no_deployment_before": "Fresh validation, safety review, untouched holdout, official Host and UDP/reset checks",
+  "required_codex_remaining_percent": 35,
+  "daily_compute_limit_hours": 6,
+  "today_additional_compute_allowed_minutes": 15,
+  "launcher": "E:\\ai_pilot\\campaign_2026\\experiments\\fresh_bank80\\launch_fresh.py",
+  "verifier": "E:\\ai_pilot\\campaign_2026\\experiments\\fresh_bank80\\verify_fresh.py",
+  "preparation": "E:\\ai_pilot\\campaign_2026\\experiments\\fresh_bank80\\PREPARATION.json",
+  "seed_registry": "E:\\ai_pilot\\campaign_2026\\seed_registry.json"
+}

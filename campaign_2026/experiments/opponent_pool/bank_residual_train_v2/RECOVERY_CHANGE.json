@@ -1,0 +1,8 @@
+{
+  "failed_run": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_train_v1\\run_20261018_184204_2af616",
+  "failed_receipt_sha256": "2c3f42be9e4f7c8806b24b413e2efcecb0ef1fede7c79ab4f2a8b72a66cf52e6",
+  "unique_production_fix": "Reflection uses actual bound act method code path instead of class module registry lookup; control/reward/learner unchanged",
+  "new_seedpool": true,
+  "old_source_untouched": true,
+  "static_syntax_files": 7
+}

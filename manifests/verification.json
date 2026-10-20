@@ -1,0 +1,21 @@
+{
+  "observed_utc": "2026-10-20T16:59:55.128065+00:00",
+  "new_FDM_or_training_or_model_inference": false,
+  "part_join_actual_exit": 0,
+  "archive_full_objects_and_all_7775_restored_file_sha256_check_actual_exit": 0,
+  "canonical_git_indexed_files": 4360,
+  "unindexed_snapshot_files": 0,
+  "duplicate_aliases": 1081,
+  "new_helpers_syntax_and_path_checks": "passed",
+  "credential_pattern_scan_scope": "exported text and explicit credential-assignment contexts; not model deserialization",
+  "credential_pattern_matches_after_context_review": 0,
+  "known_private_mail_id_redacted": true,
+  "original_model_hashes_checked": {
+    "bank17": "b9bcce79185343c4fdf1b022feb42c4dceb62c8e312da29962c07ae34513b176",
+    "old5000": "9f93eb56483558ad56283c00b1ba34af96a236583bc977ef7d9fad375d9a0fea",
+    "actor_transfer10000": "6c7ceea74457557be60f4156313cf1d75ffff20196159ae8fe22a7809190c012"
+  },
+  "saved_claude_216_case_aggregation_reproduced_from_restored_copy": true,
+  "frozen_original_research_sources_modified": false,
+  "formal_controller_replaced": false
+}

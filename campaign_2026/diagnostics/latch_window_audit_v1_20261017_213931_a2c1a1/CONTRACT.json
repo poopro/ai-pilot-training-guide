@@ -1,0 +1,61 @@
+{
+  "guardian": {
+    "pid": 28088,
+    "create": 1792244369.823191,
+    "cmd": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\latch_window_audit_guardian_v1.py"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent": 27944
+  },
+  "deadline_epoch": 1792244491.2314117,
+  "deadline_monotonic": 62789.984,
+  "seconds": 120,
+  "diagnostic_source_sha256": "0453c4b9f87828cb0e659fb2856c7ed6f08041eb9c6ad28a52912ed5201e77af",
+  "source_run": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v2\\run_20261017_203915_d840e7",
+  "original_source_contract_sha256": "c0e9aa8175f89cfd9904f380ec9cafd80e8888d67d3c861a61585f55ee7a3654",
+  "resources": {
+    "ram_bytes": 2893250560,
+    "disk_bytes": 193651363840,
+    "cpu_percent": 66.7,
+    "GPU_used": false
+  },
+  "usage_observation": {
+    "observed_utc": "2026-10-17 13:34:23 UTC",
+    "remaining_percent": 22,
+    "primary": {
+      "usedPercent": 25,
+      "windowDurationMins": 300,
+      "resetsAt": 1792258256
+    },
+    "weekly": {
+      "usedPercent": 78,
+      "windowDurationMins": 10080,
+      "resetsAt": 1792654206
+    }
+  },
+  "new_FDM_ticks": 0,
+  "seed_claims": [],
+  "training_started": false,
+  "comparison_path": "E:\\ai_pilot\\campaign_2026\\diagnostics\\saved_latch_audit_v1_20261017_204803_78cf4a\\COMPARISON.json",
+  "comparison_sha256": "1cd83b75f02b06f1e4562767e9552e024d1beabba72ccb9b13276bbbc0fae05d",
+  "analysis_worker_sha256": "45d9fd80bd81fce3aad0e62ca593907c8458a5f4c538ee02245281d542ef570c",
+  "anchors": {
+    "0": 3458,
+    "1": 3854
+  },
+  "window_seconds": [
+    -5,
+    0,
+    5,
+    10,
+    20,
+    40
+  ],
+  "extract_path": "E:\\ai_pilot\\campaign_2026\\diagnostics\\latch_window_v1_20261017_213638_941961",
+  "extract_analysis_sha256": "03b12c7e625d08af47d88aeb372b1bd1ba1bb466d8d6c1e135c60714b95c84d3"
+}

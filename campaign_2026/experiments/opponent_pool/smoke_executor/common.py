@@ -1,0 +1,98 @@
+"""Shared smoke gates. Importing this file never constructs an FDM."""
+from pathlib import Path
+import sys, os, json, time, math, copy
+from datetime import datetime, timezone, timedelta
+import psutil
+HERE=Path(__file__).resolve().parent
+POOL=HERE.parent
+ROOT=POOL.parents[1]
+sys.path.insert(0,str(POOL));sys.path.insert(0,str(ROOT))
+import prepare_smoke as prep
+import benchmark_pool as bench
+from runner import JobLock
+TAIPEI=timezone(timedelta(hours=8))
+NO_WINDOW=getattr(__import__('subprocess'),'CREATE_NO_WINDOW',0)
+read=prep.read
+write=bench.atomic_json
+sha=bench.file_hash
+jsha=bench.json_hash
+
+def identity(pid=None):
+    p=psutil.Process(pid or os.getpid())
+    return {'pid':p.pid,'creation_epoch':p.create_time(),'cmdline':p.cmdline()}
+
+def matching(record):
+    try:
+        p=psutil.Process(record['pid'])
+        return p if abs(p.create_time()-record['creation_epoch'])<.01 and p.cmdline()==record['cmdline'] else None
+    except psutil.NoSuchProcess:return None
+    # AccessDenied deliberately propagates: unknown identity is never dead.
+
+def stop(out):return any(p.exists() for p in (ROOT/'STOP',POOL/'STOP',HERE/'STOP',Path(out)/'STOP'))
+
+def resource_gate():
+    ram=psutil.virtual_memory().available;disk=psutil.disk_usage(str(ROOT)).free
+    if ram<2*1024**3 or disk<10*1024**3:raise RuntimeError('Resource floor: RAM 2GiB, disk 10GiB')
+    return {'available_ram_bytes':ram,'free_disk_bytes':disk}
+
+def occupied(exclude=()):
+    found=[]
+    for p in psutil.process_iter(['name']):
+        if p.pid in set(exclude)|{os.getpid()}:continue
+        name=(p.info['name'] or '').lower()
+        if not ('python' in name or name.startswith(('host','jsbsim'))):continue
+        try:cmd=p.cmdline()
+        except psutil.NoSuchProcess:continue
+        except psutil.AccessDenied:raise RuntimeError('Workload identity unreadable; occupancy unknown')
+        args=[s.replace('\\','/').lower() for s in cmd]
+        if any('e:/ai_pilot/' in s for s in args):
+            names=[s.rsplit('/',1)[-1] for s in args]
+            if any(n.endswith(('.py','.exe')) and any(v in n for v in ('host','player','train','runner','benchmark','launch','smoke','calibrat','guard','watchdog')) for n in names):
+                found.append(identity(p.pid))
+    return found
+
+def tools():return {p.name:sha(p) for p in sorted(HERE.glob('*.py'))}
+
+def source_gate(expected=None):
+    source=prep.frozen_status()
+    if not source['verified']:raise RuntimeError('Frozen source mismatch: '+str(source['changed']))
+    if expected and source!=expected:raise RuntimeError('Frozen runtime/model inventory changed')
+    return source
+
+def check(seed,exclude=()):
+    cases=prep.plan_cases(seed);prep.assert_plan(cases)
+    seeds=prep.seed_status(read(ROOT/'seed_registry.json'),cases)
+    if stop(HERE):raise RuntimeError('STOP exists')
+    jobs=occupied(exclude)
+    return {'cases':cases,'source_freeze':source_gate(),'tools_sha256':tools(),'resources':resource_gate(),
+            'seeds':seeds,'occupied':jobs,'execution_allowed':not jobs and seeds['fresh_relative_to_registry'],
+            'score_eligible':False,'official_validation':False,'new_fdm_ticks':0}
+
+def reserve(seed,out,remaining,usage_epoch):
+    if not math.isfinite(remaining) or not 0<=remaining<=100 or not 0<=time.time()-usage_epoch<=600:raise ValueError('Fresh quota observation required; quota only warns')
+    state=check(seed)
+    day_now=datetime.now(TAIPEI).date().isoformat()
+    if not '2026-10-14'<=day_now<='2026-11-03':raise RuntimeError('Outside authorized research dates')
+    if not state['execution_allowed']:raise RuntimeError('Occupied or seed previously attempted/reserved')
+    trial='guide_pool_smoke_'+str(seed)
+    registry=copy.deepcopy(read(ROOT/'seed_registry.json'))
+    registry.setdefault('trials',{})[trial]={'seeds':state['seeds']['requested'],'status':'reserved','seed_role':'development_interface_smoke_not_holdout','output':str(out)}
+    day=datetime.now(TAIPEI).date().isoformat();ledger_path=ROOT/'compute_budgets'/(day+'.json')
+    ledger=read(ledger_path) if ledger_path.exists() else {'date_taipei':day,'daily_limit_hours':6.,'reserved_hours':0.,'items':[]}
+    hours=[x['hours'] for x in ledger['items']]
+    if any(isinstance(h,bool) or not isinstance(h,(int,float)) or not math.isfinite(h) or h<0 for h in hours):raise RuntimeError('Invalid ledger item hours')
+    if not math.isfinite(float(ledger['reserved_hours'])):raise RuntimeError('Invalid ledger total')
+    total=sum(hours)
+    if ledger['date_taipei']!=day or abs(total-float(ledger['reserved_hours']))>1e-8:raise RuntimeError('Invalid daily ledger')
+    if any(x['id']==trial for x in ledger['items']):raise RuntimeError('Trial budget already reserved')
+    ledger['items'].append({'id':trial,'hours':.25,'status':'reserved','output':str(out),'warning_only_daily_policy':True})
+    ledger['reserved_hours']=total+.25
+    write(ledger_path,ledger);write(ROOT/'seed_registry.json',registry)
+    state.update(trial_id=trial,ledger=str(ledger_path),remaining_percent=remaining,usage_epoch=usage_epoch,
+        quota_warning=remaining<=10,daily_warning=ledger['reserved_hours']>6,total_wall_seconds=900,case_wall_seconds=30,launcher=identity())
+    return state
+
+def legal_command(command):
+    values=[float(x) for x in command]
+    if len(values)!=4 or not all(math.isfinite(x) for x in values) or any(abs(x)>1 for x in values[:3]) or not 0<=values[3]<=1:raise ValueError('Invalid finite bounded command')
+    return values

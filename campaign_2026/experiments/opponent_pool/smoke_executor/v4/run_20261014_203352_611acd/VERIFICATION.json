@@ -1,0 +1,18 @@
+{
+  "format": "guide_pool_smoke_verification_v1",
+  "verified_interface_smoke": false,
+  "verified_single_case_diagnostic": true,
+  "errors": [],
+  "case_count": 1,
+  "geometry_pair_count": 1,
+  "per_opponent_case_count": {
+    "rule": 1
+  },
+  "self_play_cases": 0,
+  "new_fdm_ticks": 300,
+  "score_eligible": false,
+  "win_rate_evidence": false,
+  "official_validation": false,
+  "deployment_allowed": false,
+  "report_sha256": "31e3cde72079bfbb6dec56fb584640c79d8905a7a17220d297b62ea711f12275"
+}

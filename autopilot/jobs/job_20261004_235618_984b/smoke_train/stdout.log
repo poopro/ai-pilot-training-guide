@@ -1,0 +1,14 @@
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+Using cuda device
+藍色＝你；紅色＝mixed 對手。
+輸出資料夾：E:\ai_pilot\autopilot\jobs\job_20261004_235618_984b\smoke_train
+第三版動作為引導飛控修正量；使用全新 critic、optimizer 和 replay。
+Logging to E:\ai_pilot\autopilot\jobs\job_20261004_235618_984b\smoke_train\tensorboard\SAC_1
+進度 2/512；階段 0；SAC 更新 0
+已完整儲存：E:\ai_pilot\autopilot\jobs\job_20261004_235618_984b\smoke_train\final_0000000512

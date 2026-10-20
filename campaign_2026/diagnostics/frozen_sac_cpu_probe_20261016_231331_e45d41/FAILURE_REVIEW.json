@@ -1,0 +1,14 @@
+{
+  "actual_watchdog_shell_exit": 1,
+  "actual_worker_exit": 1,
+  "observed_tool_chunk": "56b840",
+  "scope": "real production factory failed RNG preservation before any command or FDM",
+  "observed_failure": "RNG changed on factory construction",
+  "verified_first_model_inference": false,
+  "verified_StationController_act": false,
+  "hypothesis": "factory.py imports stable_baselines3 before taking RNG snapshots; first-import side effects may escape restoration. Not yet isolated per RNG stream; do not claim confirmed cause.",
+  "next_action": "New isolated v2 must snapshot RNG before first stable_baselines3 import and record Python/NumPy/Torch fingerprints separately; preserve v1 frozen sources and failed run. New bounded CPU test before FDM.",
+  "source_unchanged": true,
+  "new_FDM_ticks": 0,
+  "deployment_changed": false
+}

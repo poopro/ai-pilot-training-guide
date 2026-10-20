@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-10-15T16:16:26.518673+00:00",
+  "stage": "normal3_partial_and_aligned_counter_verified_not_training_ready",
+  "source_sha256": {
+    "judge_adapter.py": "94067c9b38ef25d15022996d7a7f0fd1c8cb250e849e80da6c30c78a25506b19",
+    "m1_station.py": "5d53e18676d18158f3e0bc278e02ed7d42ecca1b1c7c7a6562611184454717ef",
+    "m3_mirror_league.py": "e6f47242eb344dacbb68b78d0b229ca5018b787c71d3ee94d660e25ead0371c1",
+    "m4_tactical_rl.py": "4475c8b94eee0ee94a17010004930b8ae286f0a6a299064dc34864e45ca0d1f7",
+    "test_adapter.py": "8a2aad48dc4e2f05e1e213c31785d7723e2b755fdf8f182affa19b2c43f03a0c"
+  },
+  "rules_profile": {
+    "angle_source": "line_20261014_1deg",
+    "altitude_basis": "AGL",
+    "distance_edge_policy": "right_bin"
+  },
+  "tactical_observation_dim": 13,
+  "new_feature": "own elapsed clock only",
+  "partial_integration": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_rules_interface_v1\\run_20261016_000620_fffa59\\PARTIAL_AUDIT.json",
+  "aligned_counter_FDM": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_aligned_counter_v1\\run_20261016_001144_2d9d6c\\VERIFICATION.json",
+  "training_started": false,
+  "deployment_allowed": false,
+  "remaining": [
+    "V3 unsigned bank tracking failure, prepare one-factor signed yaw candidate before fresh paired comparison",
+    "V3 diagnostic reward terminal180 does not establish outcome-preserving training objective; add potential-based winner reward wrapper with matched gamma",
+    "Independent bounded training worker/learner, unique outputs/source/model/seed/STOP/resource/true exits",
+    "Current package Host/LAN/conformance remain unverified"
+  ]
+}

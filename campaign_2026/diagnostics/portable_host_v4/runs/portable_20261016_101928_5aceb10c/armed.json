@@ -1,0 +1,27 @@
+{
+  "status": "armed",
+  "token": "portable_20261016_101928_5aceb10c",
+  "profile": "portable_repair_guide_rehearsal_v4",
+  "identity": {
+    "pid": 18568,
+    "create_time": 1792117168.7457287,
+    "command": [
+      "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+      "-I",
+      "-S",
+      "-B",
+      "-X",
+      "utf8",
+      "-u",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\portable_host.py",
+      "watchdog",
+      "--folder",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\runs\\portable_20261016_101928_5aceb10c"
+    ],
+    "exe": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+    "parent_pid": 23568
+  },
+  "folder": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\runs\\portable_20261016_101928_5aceb10c",
+  "deadline_epoch": 1792117888.7340682,
+  "deadline_monotonic": 8090.937
+}

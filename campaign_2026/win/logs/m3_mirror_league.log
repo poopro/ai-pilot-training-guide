@@ -1,0 +1,26 @@
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[  1/54] guide vs rule   3000ft seed=2026110100 -> timeout  atk=0.000s (0/180) enemyAtk=0.000s
+[  2/54] guide vs rule   3000ft seed=2026110101 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+[  3/54] guide vs rule   3000ft seed=2026110102 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+[  4/54] guide vs rule   6000ft seed=2026110103 -> timeout  atk=0.000s (0/180) enemyAtk=0.000s
+[  5/54] guide vs rule   6000ft seed=2026110104 -> timeout  atk=0.450s (27/180) enemyAtk=0.000s
+[  6/54] guide vs rule   6000ft seed=2026110105 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+[  7/54] guide vs rule   9000ft seed=2026110106 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+[  8/54] guide vs rule   9000ft seed=2026110107 -> timeout  atk=1.333s (80/180) enemyAtk=0.000s
+[  9/54] guide vs rule   9000ft seed=2026110108 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+Traceback (most recent call last):
+  File "E:\ai_pilot\campaign_2026\win\m3_mirror_league.py", line 260, in <module>
+    main()
+  File "E:\ai_pilot\campaign_2026\win\m3_mirror_league.py", line 215, in main
+    item = run_case(actor, opponent, dist, seed, out, a.acmi)
+  File "E:\ai_pilot\campaign_2026\win\m3_mirror_league.py", line 104, in run_case
+    obs, info = env.reset(seed=seed)
+  File "E:\ai_pilot\campaign_2026\repair_v1\env.py", line 53, in reset
+    if self.p2_type=='rl' and self.frozen_policy is None: raise ValueError('Frozen P2 policy required')
+ValueError: Frozen P2 policy required

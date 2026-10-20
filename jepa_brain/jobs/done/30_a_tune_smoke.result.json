@@ -1,0 +1,1 @@
+{"id": "30_a_tune_smoke", "script": "tune.py", "args": ["--smoke", "--out", "runs/tune_smoke"], "exit_code": 0, "reason": null, "seconds": 18.1}

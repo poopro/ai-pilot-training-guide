@@ -1,0 +1,11 @@
+{
+  "status": "saving_final",
+  "run_dir": "E:\\ai_pilot\\autopilot\\opponent_lab\\verification_training\\actor_transfer_current",
+  "pid": 16164,
+  "timesteps": 256,
+  "target": 256,
+  "updates": 27,
+  "heartbeat_epoch": 1791217874.4440186,
+  "stop_file": "E:\\ai_pilot\\autopilot\\opponent_lab\\verification_training\\actor_transfer_current\\STOP",
+  "episode_samples": 0
+}

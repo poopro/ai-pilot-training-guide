@@ -1,0 +1,39 @@
+36 games
+[connectome] 138639 neurons, 15091983 edges, annotations OK
+replayed 179s
+dn_p1            value   20.2  (lam 3000 tau 0) n_in 1299
+dn_p3            value   20.1  (lam 1000 tau 0) n_in 1299
+dn_p1_ens3       value   23.9  (lam 3000 tau 5) n_in 1299
+dn_p3_ens3       value   16.2  (lam 1000 tau 10) n_in 1299
+feat_e0          value   23.2  (lam 1000 tau 0) n_in 27
+feat_e0.9        value   28.8  (lam 1000 tau 0) n_in 54
+feat_e0.97       value   25.7  (lam 3000 tau 0) n_in 54
+hyb_p1_e0.9      value   26.5  (lam 1000 tau 0) n_in 1353
+hyb_ens_e0.9     value   26.9  (lam 3000 tau 0) n_in 1353
+avg(dn_p1,feat_e0.9) tau 0 value 26.8
+avg(dn_p1,feat_e0.9) tau 5 value 26.2
+avg(dn_p1,feat_e0.9) tau 10 value 25.1
+avg(dn_p3_ens3,feat_e0.9) tau 0 value 23.3
+avg(dn_p3_ens3,feat_e0.9) tau 5 value 23.1
+avg(dn_p3_ens3,feat_e0.9) tau 10 value 20.8
+  dn_p1            - feat_e0.9 =   -7.0  [-14.6, -1.1]
+  dn_p3            - feat_e0.9 =   -7.6  [-16.1, -0.4]
+  dn_p1_ens3       - feat_e0.9 =   -4.1  [-8.2, -0.8]
+  dn_p3_ens3       - feat_e0.9 =   -9.3  [-29.3, +2.6]
+  feat_e0          - feat_e0.9 =   -5.2  [-13.3, -0.7]
+  feat_e0.9        - feat_e0.9 =   +0.0  [+0.0, +0.0]
+  feat_e0.97       - feat_e0.9 =   -2.5  [-6.9, +0.7]
+  hyb_p1_e0.9      - feat_e0.9 =   -2.4  [-5.5, -0.3]
+  hyb_ens_e0.9     - feat_e0.9 =   -1.6  [-4.2, +0.7]
+  dn_p1            - dn_p1     =   +0.0  [+0.0, +0.0]
+  dn_p3            - dn_p1     =   -0.6  [-5.0, +2.9]
+  dn_p1_ens3       - dn_p1     =   +2.9  [-0.4, +6.7]
+  dn_p3_ens3       - dn_p1     =   -2.3  [-18.5, +8.3]
+  feat_e0          - dn_p1     =   +1.8  [-4.0, +8.8]
+  feat_e0.9        - dn_p1     =   +7.0  [+0.9, +14.2]
+  feat_e0.97       - dn_p1     =   +4.5  [+0.2, +10.2]
+  hyb_p1_e0.9      - dn_p1     =   +4.5  [-0.9, +11.0]
+  hyb_ens_e0.9     - dn_p1     =   +5.4  [-0.4, +11.5]
+dn_p1 {np.str_('breaker'): 37.6, np.str_('guide'): 18.0, np.str_('lag'): 23.4, np.str_('lead'): 4.5, np.str_('level'): 0.0, np.str_('mix'): 89.5}
+feat_e0.9 {np.str_('breaker'): 109.3, np.str_('guide'): 19.8, np.str_('lag'): 22.7, np.str_('lead'): 4.9, np.str_('level'): 3.2, np.str_('mix'): 133.0}
+always LEAD per opp {np.str_('breaker'): 73.3, np.str_('guide'): 19.9, np.str_('lag'): 26.5, np.str_('lead'): -8.2, np.str_('level'): -3.2, np.str_('mix'): -2.1}

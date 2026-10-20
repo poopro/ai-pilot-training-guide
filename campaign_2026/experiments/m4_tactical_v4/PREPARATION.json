@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-10-15T16:16:26.518673+00:00",
+  "stage": "signed_yaw_and_reward_static8_pass_no_candidate_FDM",
+  "basis": "E:\\ai_pilot\\campaign_2026\\experiments\\m4_tactical_v3",
+  "unique_control_change": "near/in-band bank feedback uses signed heading_error instead of nonnegative3D nose-angle magnitude",
+  "evidence": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_rules_interface_v1\\run_20261016_000620_fffa59\\PARTIAL_AUDIT.json",
+  "source_sha256": {
+    "judge_adapter.py": "94067c9b38ef25d15022996d7a7f0fd1c8cb250e849e80da6c30c78a25506b19",
+    "m1_station.py": "fcda220748b0a64413d10c987df850ea975d2925994b556157c62331e97795fc",
+    "m3_mirror_league.py": "e6f47242eb344dacbb68b78d0b229ca5018b787c71d3ee94d660e25ead0371c1",
+    "m4_tactical_rl.py": "4475c8b94eee0ee94a17010004930b8ae286f0a6a299064dc34864e45ca0d1f7",
+    "reward_wrapper.py": "daf74a4b643530efd4fae0719cf005611d53d665959c4df48c1b10abfd131431",
+    "test_candidate.py": "80be785a8b6573c04b71bc709a2e4e3fcf82b79af60c4a4f5ef328c036b78e32"
+  },
+  "new_FDM_ticks": 0,
+  "deployment_allowed": false,
+  "training_allowed": false,
+  "next_step": "New paired mirrored rear yaw-error +/-1.2deg physical cases, v3 unsigned vs v4 signed, identical commands otherwise. Fresh seeds, fixed source, watchdog. Not old-batch rerun or competition win-rate claim.",
+  "static_validation": "E:\\ai_pilot\\campaign_2026\\experiments\\m4_tactical_v4\\STATIC_VALIDATION.json",
+  "reward_wrapper": "WinPotentialReward; true terminal bonus+/-10, gamma*Phi(next)-Phi(current),terminalPhi0, gamma must match learner. Prepared, not used in prior diagnostics.",
+  "recommended_fresh_learner_gamma": 0.9995,
+  "observation_dim": 13,
+  "old_actor_exact_resume_allowed": false,
+  "signed_yaw_FDM_verified": true,
+  "fresh_training_technical_verified": true,
+  "latest_training_manifest": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_train_pilot_v1\\run_20261016_003919_a5c748\\BUNDLE_MANIFEST.json",
+  "not_strength_evidence": true
+}

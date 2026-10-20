@@ -1,0 +1,38 @@
+{
+  "scope": "real frozen SAC and StationController on repeated legal packet; synthetic clock only",
+  "new_FDM_ticks": 0,
+  "training_started": false,
+  "models": {
+    "sac5000": {
+      "load_seconds": 15.396344699999645,
+      "unique_packet_commands": 100,
+      "real_controller_act_calls_before_reset": 100,
+      "real_actor_predictions_before_reset": 5,
+      "duplicate_cache_verified": true,
+      "rng_restore_and_no_sampling_verified": true,
+      "reset_fresh_controller_actor_verified": true,
+      "reset_command_exact_reproduction": true,
+      "max_full_command_ms": 39.4495000000461,
+      "p99_full_command_ms": 3.883599999426224,
+      "commands_sha256": "f74283e745c9a2643e09fc02d28c40bfec0a7f38bd95153bec960d37b51e5f23",
+      "simulator_wiring_verified": false
+    },
+    "transfer10000": {
+      "load_seconds": 0.054703499999959604,
+      "unique_packet_commands": 100,
+      "real_controller_act_calls_before_reset": 100,
+      "real_actor_predictions_before_reset": 5,
+      "duplicate_cache_verified": true,
+      "rng_restore_and_no_sampling_verified": true,
+      "reset_fresh_controller_actor_verified": true,
+      "reset_command_exact_reproduction": true,
+      "max_full_command_ms": 6.902400000399211,
+      "p99_full_command_ms": 2.8998999996474595,
+      "commands_sha256": "f74283e745c9a2643e09fc02d28c40bfec0a7f38bd95153bec960d37b51e5f23",
+      "simulator_wiring_verified": false
+    }
+  },
+  "FDM_timing_verified": false,
+  "strength_verified": false,
+  "source_unchanged": true
+}

@@ -1,0 +1,17 @@
+{
+  "out": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_battle_v1\\run_20261017_093451_16086d",
+  "case": {
+    "id": "normal_station_zero_2026310100",
+    "opening": 0,
+    "side": "normal",
+    "seed": 2026310100,
+    "actor": "station_zero",
+    "red": "sac5000",
+    "distance_ft": 6000,
+    "max_ticks": 18000
+  },
+  "limits": {
+    "deadline_monotonic": 19283.109,
+    "deadline_epoch": 1792200981.9147651
+  }
+}

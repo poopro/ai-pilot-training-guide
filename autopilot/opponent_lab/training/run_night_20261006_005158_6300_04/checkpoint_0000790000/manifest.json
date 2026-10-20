@@ -1,0 +1,73 @@
+{
+  "format": "opponent_lab_sac_v1",
+  "timesteps": 790000,
+  "n_updates": 98121,
+  "replay_size": 50000,
+  "model_sha256": "b1bafd91995f26fa38c5420f57d677392d5bfc1ea3e83016d0445f00155b5da1",
+  "replay_sha256": "9fa25c40f2f786de28b01c1aad7979c8b7373a6885089bb5b3171605c1b76186",
+  "config": {
+    "environment_fingerprint": "f3ac360ba365b5f9a6b3edfcc755db5a02a69fcc250682dbe4a7afb62411964c",
+    "environment": {
+      "sources": {
+        "base": {
+          "env.py": "4b4e91dd8168517039ed7092a0536dcefd5297582c4f3722be8d7ca5d3b9d7b4",
+          "controller.py": "d772bf49a8d8408aaafec691c981d0612de7dada6450e0afcecbc3d958b7813b",
+          "interface.py": "50f63ee563a8cb13b9bb472b0de7905579bcc9c70bc69efc571681879eb02555",
+          "fdm.py": "c59e705d248f1678f64ba6788639260c739a1b1a6e8f6830d62e4a11f3a1dba6",
+          "rules.py": "40857e278e8f3902fc9e8c39acf0aebb7bc8e02fafb9627a3f5561512a2f4e05",
+          "config.json": "d4fba053617240e07ffc67fe389d944313ba12dff491e569a0ae764e0f7b88ec"
+        },
+        "original_fdm": "6d193634ccaff77db6f3d1e248b2276c4a7177c47dbfa82fd466154b67d8c541",
+        "lab": "9f358a7a04b09728199ac33de120146e3aa0bcbb37fe18dbae2a2b5a7cfcb9a6",
+        "trainer": "a75973e230080b386213096a51101b7a7ec70818d956caa1d8a54b72d4652f1c"
+      },
+      "p2_pool": "mixed",
+      "red_model_sha256": "f79e711c704978e462bb9b42b27c0a1f1bdf74e3914d6a2dd7f1b29edad01b94",
+      "attack_angle": 1.0,
+      "distance_schedule": [
+        3000,
+        6000,
+        9000
+      ],
+      "mixed_probabilities": [
+        0.75,
+        0.25
+      ],
+      "action_semantics": "v3_bounded_residual"
+    },
+    "base_source_sha256": {
+      "env.py": "4b4e91dd8168517039ed7092a0536dcefd5297582c4f3722be8d7ca5d3b9d7b4",
+      "controller.py": "d772bf49a8d8408aaafec691c981d0612de7dada6450e0afcecbc3d958b7813b",
+      "interface.py": "50f63ee563a8cb13b9bb472b0de7905579bcc9c70bc69efc571681879eb02555",
+      "fdm.py": "c59e705d248f1678f64ba6788639260c739a1b1a6e8f6830d62e4a11f3a1dba6",
+      "rules.py": "40857e278e8f3902fc9e8c39acf0aebb7bc8e02fafb9627a3f5561512a2f4e05",
+      "config.json": "d4fba053617240e07ffc67fe389d944313ba12dff491e569a0ae764e0f7b88ec"
+    },
+    "actor_from": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\candidate1_to_199000\\final_0000148682",
+    "resume_parent": "E:\\ai_pilot\\autopilot\\opponent_lab\\training\\run_night_20261006_005158_6300_03\\final_0000750000",
+    "red_bundle": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\candidate1_to_199000\\final_0000148682",
+    "new_requested_steps": 250000,
+    "run_status": "training",
+    "max_minutes": 60.0,
+    "seed": 20266000,
+    "official_validation": false,
+    "critic_reused": true,
+    "old_v3_replay_reused": false,
+    "resume_replay_reused": true,
+    "transfer_checks": {
+      "actor_weights_exactly_copied": true,
+      "new_replay_empty": true,
+      "new_actor_optimizer_empty": true,
+      "new_critic_optimizer_empty": true,
+      "new_update_count_zero": true,
+      "old_model_timesteps": 148682,
+      "new_model_timesteps": 0
+    },
+    "start_timesteps": 750000,
+    "device": "cuda",
+    "learning_starts": 5000,
+    "buffer_size": 50000,
+    "batch_size": 256
+  },
+  "official_validation": false
+}

@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-10-16T02:39:04.770913+00:00",
+  "scope": "Exact copy of baseline portable package plus external CPU readiness helper; no controller/model change",
+  "checked_manifest_files": 2115,
+  "original_manifest_sha256": "bf24309b4f0f8180632ea070e82c7f124ecfaac484d8dea50578021d492d0454",
+  "copied_manifest_sha256": "bf24309b4f0f8180632ea070e82c7f124ecfaac484d8dea50578021d492d0454",
+  "ASUS_execution_verified": false,
+  "LAN_verified": false,
+  "helper_sha256": {
+    "ASUS_先檢查.cmd": "cc47db01dd1e9bb27792653c9f83ff9a1cfdb10e6b919bd1a0a5e0d7a4546d1a",
+    "check_vivobook.py": "d12c35fc10920e23a2a707be5bc2e4d88d5225e565e74556e0104a85c2a43797",
+    "先讀我.md": "d2afd5246511cb4d5af0499a003f0d451239db9ce791f1a2262f448a591ff86a"
+  },
+  "main_PC_zip_extract_probe_verified": true,
+  "main_PC_batch_exit_success0_missing1": true,
+  "updated_utc": "2026-10-16T02:46:46.732967+00:00"
+}

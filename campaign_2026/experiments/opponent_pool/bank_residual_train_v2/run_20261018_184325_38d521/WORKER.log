@@ -1,0 +1,34 @@
+Traceback (most recent call last):
+  File "E:\ai_pilot\campaign_2026\experiments\opponent_pool\bank_residual_train_v2\train.py", line 26, in run
+    model.learn(total_timesteps=c.DECISIONS,callback=Progress())
+  File "C:\Users\USER\anaconda3\envs\F16_ai\lib\site-packages\stable_baselines3\sac\sac.py", line 307, in learn
+    return super().learn(
+  File "C:\Users\USER\anaconda3\envs\F16_ai\lib\site-packages\stable_baselines3\common\off_policy_algorithm.py", line 328, in learn
+    rollout = self.collect_rollouts(
+  File "C:\Users\USER\anaconda3\envs\F16_ai\lib\site-packages\stable_baselines3\common\off_policy_algorithm.py", line 560, in collect_rollouts
+    new_obs, rewards, dones, infos = env.step(actions)
+  File "C:\Users\USER\anaconda3\envs\F16_ai\lib\site-packages\stable_baselines3\common\vec_env\base_vec_env.py", line 206, in step
+    return self.step_wait()
+  File "C:\Users\USER\anaconda3\envs\F16_ai\lib\site-packages\stable_baselines3\common\vec_env\dummy_vec_env.py", line 58, in step_wait
+    obs, self.buf_rews[env_idx], terminated, truncated, self.buf_infos[env_idx] = self.envs[env_idx].step(
+  File "C:\Users\USER\anaconda3\envs\F16_ai\lib\site-packages\stable_baselines3\common\monitor.py", line 94, in step
+    observation, reward, terminated, truncated, info = self.env.step(action)
+  File "E:\ai_pilot\campaign_2026\experiments\opponent_pool\bank_residual_train_v2\environment.py", line 99, in step
+    _,_,term,trunc,_=m.RepairDuel.step(env,residual)
+  File "E:\ai_pilot\campaign_2026\repair_v1\env.py", line 88, in step
+    observation,reward,terminated,truncated,info=super().step(action)
+  File "E:\ai_pilot\autopilot\opponent_lab\duel_lab.py", line 163, in step
+    observation, reward, terminated, truncated, info = super().step(action)
+  File "E:\ai_pilot\2026 AI 飛行員  相關資料\AI空戰競賽系統安裝及測試指引\AI空戰競賽系統安裝及測試指引\AirCombat_Train_Test\combat_v3\env.py", line 130, in step
+    self.fdm1.sendAction(cmd);self.fdm2.sendAction(self._red_action())
+  File "E:\ai_pilot\campaign_2026\experiments\opponent_pool\bank_residual_train_v2\environment.py", line 65, in red_action
+    elif case['opponent']=='rule':value,guard=self.red.act(packet,n/60.);mode=self.red.mode
+ValueError: too many values to unpack (expected 2)
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+{"status": "failed_partial_training", "decisions": 900, "updates": 75, "new_FDM_ticks": 18000, "error": "ValueError('too many values to unpack (expected 2)')"}

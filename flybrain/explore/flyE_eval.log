@@ -1,0 +1,8 @@
+[connectome] 138639 neurons, 15091983 edges, annotations OK
+replayed 83s (1 seeds)
+36 games 2110 states
+raw+ema ridge (ref)          core  13.8 all  28.4 tau 5 {'guide': 19.8, 'lag': 22.6, 'lead': 4.7, 'breaker': 111.7, 'mix': 124.4} (0s)
+flyE DN ridge lam3000        core  11.6 all  11.6 tau 0 {'guide': 20.6, 'lag': 17.7, 'lead': 2.2, 'breaker': 88.3, 'mix': -64.7} (3s)
+flyE DN ridge lam300         core   8.9 all   2.9 tau 0 {'guide': 15.5, 'lag': 12.8, 'lead': 2.3, 'breaker': 96.9, 'mix': -167.3} (3s)
+flyE DN pca32 mlp a3         core  12.1 all  19.7 tau 0 {'guide': 20.7, 'lag': 17.8, 'lead': 3.1, 'breaker': 75.0, 'mix': 61.4} (130s)
+flyE DN pca64 mlp a3         core  11.9 all  15.7 tau 0 {'guide': 20.1, 'lag': 18.7, 'lead': 2.5, 'breaker': 94.8, 'mix': -16.2} (135s)

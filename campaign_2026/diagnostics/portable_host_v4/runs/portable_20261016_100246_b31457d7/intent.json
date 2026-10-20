@@ -1,0 +1,73 @@
+{
+  "profile": "portable_repair_guide_rehearsal_v4",
+  "token": "portable_20261016_100246_b31457d7",
+  "fixed_profile": {
+    "profile": "portable_repair_guide_rehearsal_v4",
+    "package": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012",
+    "archive": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012.zip",
+    "package_manifest_sha256": "bf24309b4f0f8180632ea070e82c7f124ecfaac484d8dea50578021d492d0454",
+    "archive_sha256": "64f0787e5aec7c804a19d884ae1313196dc386c1cec669ef890cf18017f71f6e",
+    "runtime_sha256": "5812759bdd07062547301f59c2aaffeb4b4f50618601238380fcf3c9928ee6bb",
+    "player_sha256": "340e2d17acbbbe4257f8fa4e59bb6afd68913bf1df8764386ca838fd1ba743dd",
+    "network_sha256": "034d0d60ee1b3558b6cee47708160ea86f20111b042a8e97aad35c7ecf229687",
+    "host_dir": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線",
+    "host_inputs_sha256": {
+      "JSB_host_GUI_publish.exe": "635b0ca956695a74e662f7f3a91e50d17ddeffb6e6be468ed8b916d305c19013",
+      "Setting.txt": "c5236a1fc9db2ae18d4cb2b310da72dfceb1a569f916f1ad9bc6c02ba6efb418",
+      "readme_part1.txt": "6a76268c0df6444027df7292b6dadec97897924cf97471e02e81f64c34a180c0",
+      "readme_part2.txt": "787cab0e4adf58705bd52ea2c37bf42fa153e91248008528ddd95b07fdbc982c"
+    },
+    "cached_host_executable": "C:\\Users\\USER\\AppData\\Local\\JSBsimHost_1_0_0_0\\JSB_host_GUI_publish.exe",
+    "cached_host_sha256": "00d29bf4ae4b98ad97211076320953bc27c436b6a9bcc680c731172304162a44",
+    "cached_hash_is_not_assumed_equal_to_original": true,
+    "observer_sources_sha256": {
+      "portable_host.py": "7c978152d0fc2694f44e1dc236c7f47aa32a0bc6a3e233d75860647a9c16c784",
+      "p2_terminal_evidence.py": "5e7f9fc20e8732b0959997af9e18814066eeb30d31a1d9538841f62ee9cf8db1",
+      "vendor/psutil/__init__.py": "7b6a0675824eb1fa2ff0cb1eb36e358dc454703e51dfa4e9a0e6ccd26a159f0c",
+      "vendor/psutil/_common.py": "6fc6bf5f86491ba962521374472570238929003cebea8e9b6c55224084b52bb0",
+      "vendor/psutil/_ntuples.py": "96f42bc24549636b5707a949b7cc92e89c87f7cea7d343a6d17821ac670dfcd2",
+      "vendor/psutil/_psaix.py": "a51e0031f92ba5dab84f7750a0315e41b4b0bba545b6e62a8fb5d357dc8a0346",
+      "vendor/psutil/_psbsd.py": "68de935cb6556674a09f6106b36d70c18c4cc82ed9f8236b895ad98d869c33aa",
+      "vendor/psutil/_pslinux.py": "571c6cd7919971df4c1381cfd514808ff934f7f7fc79c312b52278fcd0c7dd10",
+      "vendor/psutil/_psosx.py": "c766ad9002385269c313afb8a1fa883364e1f951b46b54dde72a8de4896d85fc",
+      "vendor/psutil/_psposix.py": "3bad08a5eaec4e081fce822e1c4a3f95b1d54d9d0b0d5ca31583fbcdc7574809",
+      "vendor/psutil/_pssunos.py": "5b9be0b2790a0313c68f52a7a730aa15dd9f467ed0f849f79ec73d92b4c3a147",
+      "vendor/psutil/_psutil_windows.pyd": "0035450801bd7d938e9e146c5ec28e619cb5a5f4a18cdc53ac7e9734c7f94f78",
+      "vendor/psutil/_pswindows.py": "0bbd52dcb214735be4168d11a2ae192d5bc7265c8cf72c611179476479687f54",
+      "vendor/psutil_license/LICENSE": "c7adc4d5d1337a548b967421f1fbe258b93033a0417708fd6f4e38f8ecbceb80",
+      "vendor/psutil_license/METADATA": "a263a40220d921d9cb963fc636d34f817aa2eb72c2696e3e3465d088cdb1976b"
+    },
+    "checked_package_files": 2115,
+    "console_helper_executable": "C:\\WINDOWS\\System32\\conhost.exe",
+    "console_helper_sha256": "c86146188b78e484f32cc29e2331689659943b47689a85570342044f499938ac",
+    "terminal_cleanup_executable": "C:\\WINDOWS\\System32\\taskkill.exe",
+    "terminal_cleanup_sha256": "1249717315fc8f4d2df17d5db9da0444795fdb9fb83dfb1f763c3f39282244f7",
+    "fixed_profile_hash": "15e0bd4a1783a1071a7a43456e2d871593299707886157054cf110bd756ed76a"
+  },
+  "deadline_seconds": 720,
+  "deadline_epoch": 1792116886.0943894,
+  "deadline_monotonic": 7088.296,
+  "launcher_identity": {
+    "pid": 16956,
+    "create_time": 1792116163.0275755,
+    "command": [
+      "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+      "-I",
+      "-S",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\portable_host.py",
+      "arm",
+      "--deadline-seconds",
+      "720",
+      "--remaining-percent",
+      "72"
+    ],
+    "exe": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+    "parent_pid": 11276
+  },
+  "remaining_percent": 72.0,
+  "ledger_path": "E:\\ai_pilot\\campaign_2026\\compute_budgets\\2026-10-16.json",
+  "warnings": []
+}

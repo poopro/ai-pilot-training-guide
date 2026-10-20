@@ -1,0 +1,31 @@
+{
+  "format": "m4_interface_v1",
+  "created_utc": "2026-10-15T15:26:44.169917+00:00",
+  "executor_sha256": {
+    "common.py": "207f77334aa74535da7c0abaa8588ff584f3ea7ff812a28b9231413b1d2fff9e",
+    "guard.py": "4b55459d638f33c01b768e12c14f1baed0e99e360319625081104a0cc9797eeb",
+    "launch_smoke.py": "dc862a2d54e9223f666ea876479edbe0d2305db7accbf07f1ea3d1568c87733d",
+    "run_smoke.py": "c843f1ccb10a48965dbb056983c633e061140a3c000161233a7787954d1aadfd",
+    "test_plan.py": "bb5f84a0d3e9516b80015c3bdd95fec9cc827e0e675127782a4a39d16e23bd15",
+    "verify_interface.py": "4f6ddd1add87c0e5458ca01e4b550c7f0cac231141c64c0de0ad8aa913960c9b"
+  },
+  "readme_sha256": "8d4ed4fbb1a4582d02b8472b69a88e96a4b7efb1062c1fcc24d90c023f4fea3c",
+  "mode_contract": {
+    "m4_interface3": {
+      "cases": 3,
+      "distinct_seeds": 3,
+      "total_wall_seconds": 180,
+      "case_wall_seconds": 45,
+      "max_ticks": 300,
+      "reset_repeats": 2
+    }
+  },
+  "m4_sources_sha256": {
+    "experiments/m4_tactical_v2/m1_station.py": "5d53e18676d18158f3e0bc278e02ed7d42ecca1b1c7c7a6562611184454717ef",
+    "experiments/m4_tactical_v2/m3_mirror_league.py": "e6f47242eb344dacbb68b78d0b229ca5018b787c71d3ee94d660e25ead0371c1",
+    "experiments/m4_tactical_v2/m4_tactical_rl.py": "4911a27a68c325c9767e08fad1cc93935e06394679f21f6023ab8cb34b4929a0",
+    "experiments/m4_tactical_v2/test_contract.py": "db4bbe0ede0a3214b3e23040d567adc6dadcf8cec1ab87afa5a280ba47405929"
+  },
+  "official_validation": false,
+  "deployment_allowed": false
+}

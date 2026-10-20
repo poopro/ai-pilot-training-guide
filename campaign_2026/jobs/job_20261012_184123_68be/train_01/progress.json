@@ -1,0 +1,13 @@
+{
+  "status": "saving_final",
+  "pid": 11252,
+  "decision_steps": 74000,
+  "target_decisions": 74000,
+  "physics_ticks": 295929,
+  "critic_updates": 18250,
+  "actor_updates": 17750,
+  "training_stage": "official",
+  "stop_file": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_01\\STOP",
+  "heartbeat_epoch": 1791802471.5283465,
+  "official_validation": false
+}

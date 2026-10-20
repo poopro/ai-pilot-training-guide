@@ -1,0 +1,20 @@
+{
+  "status": "saved_data_review_planned_no_new_simulation",
+  "source": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\run_20261018_033053_98bc0f\\SAFETY_REVIEW.json",
+  "gate": "reject_position_score_regression",
+  "next_action": "否決本速度候選，使用保存首次命令差異與最差case分析相對航跡/瞄準，先形成一個可檢驗假設；不重跑本批、不掃下一速度或盲續SAC。",
+  "focus": "Use actual changed-speed ticks, actual command difference, in-range body angles, score and common-height exposure; distinguish pursuit geometry from simply being closer/faster.",
+  "new_FDM_started": false,
+  "training_started": false,
+  "no_parameter_sweep": true,
+  "deployment_allowed": false,
+  "priority": "Bounded saved-data diagnosis before choosing any new control factor",
+  "windows": "Use first actual difference tick1 and selected early0–10s/late240–260s windows plus minimum-range anchors. Do not replay the completed four games or old full72k/108k controller traces.",
+  "questions": [
+    "How often raw speed_trace.raw_speed_kts meets/exceeds final450 ceiling; confirm requested/applied and actualCAS/TAS separately",
+    "Compare actual own heading/course rates with LOS motion and range despite changed speed; enemy course only ENEMY6 velocity proxy",
+    "Check whether inherited enemy-equivalent CAS plus desired-close term repeatedly saturates; do not infer that higher speed improves turning or choose another speed without this evidence"
+  ],
+  "controller_projection_required": false,
+  "new_parameter_selected": false
+}

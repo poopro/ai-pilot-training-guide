@@ -1,0 +1,33 @@
+test_check_only_plan_uses_inherited_gates_and_does_not_reserve (test_full_plan.FullPlan) ... ok
+test_full24_balanced_three_distances_both_sides_four_opponents (test_full_plan.FullPlan) ... ok
+test_full_plan_missing_case_reordered_or_wrong_seed_is_rejected (test_full_plan.FullPlan) ... ok
+test_invalid_diagnostic_index_is_rejected (test_full_plan.FullPlan) ... ok
+test_new_full_plan_seeds_block_observed_attempted_and_holdout (test_full_plan.FullPlan) ... ok
+test_single_diagnostic_classification_cannot_be_full24 (test_full_plan.FullPlan) ... ok
+test_v4_watchdog_and_safety_gate_functions_unchanged (test_full_plan.FullPlan) ... ok
+test_worker_supervisor_only_gain_mode_gate (test_full_plan.FullPlan) ... ok
+test_access_denied_remains_unknown_and_cannot_pass (test_guard_repair.GuardRepair) ... ok
+test_atomic_replace_permanent_failure_bounded_eight (test_guard_repair.GuardRepair) ... ok
+test_atomic_replace_transient_retry_preserves_bytes (test_guard_repair.GuardRepair) ... ok
+test_chain_without_target_cannot_establish_ownership (test_guard_repair.GuardRepair) ... ok
+test_exact_target_stops_traversal_before_its_parent (test_guard_repair.GuardRepair) ... ok
+test_forged_active_receipt_never_stops_unowned_process (test_guard_repair.GuardRepair) ... ok
+test_identity_pid_reuse_or_access_denied_never_matches (test_guard_repair.GuardRepair) ... ok
+test_initial_publication_failure_still_cleans_owned_tree (test_guard_repair.GuardRepair) ... ok
+test_late_guard_does_not_restart_reserved_clock (test_guard_repair.GuardRepair) ... ok
+test_launcher_repeated_timeouts_preserve_unknown_actual_exit (test_guard_repair.GuardRepair) ... ok
+test_parent_cycle_is_bounded_and_rejected (test_guard_repair.GuardRepair) ... ok
+test_parent_exit_enumeration_race_still_cleans_known_children (test_guard_repair.GuardRepair) ... ok
+test_permanent_publication_failure_still_original_deadline (test_guard_repair.GuardRepair) ... ok
+test_permanent_publication_failure_still_stop_and_descendant_cleanup (test_guard_repair.GuardRepair) ... ok
+test_target_pid_with_wrong_creation_or_command_is_rejected (test_guard_repair.GuardRepair) ... ok
+test_transient_publication_recovers_and_saves_error_evidence (test_guard_repair.GuardRepair) ... ok
+test_unreadable_intermediate_ancestor_propagates_access_denied (test_guard_repair.GuardRepair) ... ok
+test_unreadable_necessary_owned_chain_stays_unknown (test_guard_repair.GuardRepair) ... ok
+test_unreadable_service_above_target_does_not_block_owned_tree (test_guard_repair.GuardRepair) ... ok
+test_worker_deadline_cleans_its_owned_descendants (test_guard_repair.GuardRepair) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.354s
+
+OK

@@ -1,0 +1,16 @@
+{
+  "tick": 300,
+  "identity": {
+    "pid": 1588,
+    "creation_epoch": 1791981958.533746,
+    "cmdline": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\v5\\run_smoke.py",
+      "--worker",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\v5\\run_20261014_204421_9a31c4\\cases\\smoke_repair_guide_9000_mirrored_2026102722\\input.json"
+    ]
+  }
+}

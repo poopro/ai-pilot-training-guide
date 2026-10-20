@@ -1,0 +1,1 @@
+{"id": "72_a_val2_mirror", "script": "rollout_open.py", "args": ["eval", "--arms", "tuned,tuned2,base_t3", "--workers", "3", "--seed0", "1300000", "--n", "48", "--opponents", "guide,lag", "--out", "runs/val2_mirror"], "exit_code": 0, "reason": null, "seconds": 1820.0}

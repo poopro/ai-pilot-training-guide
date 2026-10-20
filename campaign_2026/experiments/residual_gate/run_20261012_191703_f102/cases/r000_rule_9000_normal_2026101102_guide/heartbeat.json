@@ -1,0 +1,9 @@
+{
+  "updated_at": "2026-10-12T11:21:53.234392+00:00",
+  "phase": "completed",
+  "case_id": "r000_rule_9000_normal_2026101102_guide",
+  "steps": 15864,
+  "wall_seconds": 23.358999999999924,
+  "pid": 9156,
+  "official_validation": false
+}

@@ -1,0 +1,105 @@
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[  1/90] guide vs rule   3000ft seed=2026110300 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+[  2/90] guide vs rule   3000ft seed=2026110301 -> timeout  atk=2.217s (133/180) enemyAtk=0.000s
+[  3/90] guide vs rule   3000ft seed=2026110302 -> timeout  atk=0.000s (0/180) enemyAtk=0.000s
+[  4/90] guide vs rule   3000ft seed=2026110303 -> timeout  atk=0.750s (45/180) enemyAtk=0.000s
+[  5/90] guide vs rule   3000ft seed=2026110304 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+[  6/90] guide vs rule   6000ft seed=2026110305 -> timeout  atk=0.000s (0/180) enemyAtk=0.000s
+[  7/90] guide vs rule   6000ft seed=2026110306 -> timeout  atk=0.117s (7/180) enemyAtk=0.000s
+[  8/90] guide vs rule   6000ft seed=2026110307 -> timeout  atk=0.000s (0/180) enemyAtk=0.000s
+[  9/90] guide vs rule   6000ft seed=2026110308 -> timeout  atk=0.650s (39/180) enemyAtk=0.000s
+[ 10/90] guide vs rule   6000ft seed=2026110309 -> timeout  atk=0.000s (0/180) enemyAtk=0.000s
+[ 11/90] guide vs rule   9000ft seed=2026110310 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+[ 12/90] guide vs rule   9000ft seed=2026110311 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+[ 13/90] guide vs rule   9000ft seed=2026110312 -> timeout  atk=0.000s (0/180) enemyAtk=0.000s
+[ 14/90] guide vs rule   9000ft seed=2026110313 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+[ 15/90] guide vs rule   9000ft seed=2026110314 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+[ 16/90] guide vs rl     3000ft seed=2026110315 -> timeout  atk=0.217s (13/180) enemyAtk=0.000s
+[ 17/90] guide vs rl     3000ft seed=2026110316 -> timeout  atk=0.167s (10/180) enemyAtk=0.000s
+[ 18/90] guide vs rl     3000ft seed=2026110317 -> timeout  atk=0.000s (0/180) enemyAtk=0.000s
+[ 19/90] guide vs rl     3000ft seed=2026110318 -> timeout  atk=0.050s (3/180) enemyAtk=0.000s
+[ 20/90] guide vs rl     3000ft seed=2026110319 -> timeout  atk=0.283s (17/180) enemyAtk=0.000s
+[ 21/90] guide vs rl     6000ft seed=2026110320 -> timeout  atk=0.000s (0/180) enemyAtk=0.000s
+[ 22/90] guide vs rl     6000ft seed=2026110321 -> timeout  atk=0.033s (2/180) enemyAtk=0.000s
+[ 23/90] guide vs rl     6000ft seed=2026110322 -> timeout  atk=0.217s (13/180) enemyAtk=0.000s
+[ 24/90] guide vs rl     6000ft seed=2026110323 -> timeout  atk=0.167s (10/180) enemyAtk=0.000s
+[ 25/90] guide vs rl     6000ft seed=2026110324 -> timeout  atk=0.000s (0/180) enemyAtk=0.000s
+[ 26/90] guide vs rl     9000ft seed=2026110325 -> timeout  atk=0.000s (0/180) enemyAtk=0.000s
+[ 27/90] guide vs rl     9000ft seed=2026110326 -> timeout  atk=0.267s (16/180) enemyAtk=0.000s
+[ 28/90] guide vs rl     9000ft seed=2026110327 -> timeout  atk=0.000s (0/180) enemyAtk=0.000s
+[ 29/90] guide vs rl     9000ft seed=2026110328 -> timeout  atk=0.000s (0/180) enemyAtk=0.000s
+[ 30/90] guide vs rl     9000ft seed=2026110329 -> timeout  atk=0.000s (0/180) enemyAtk=0.000s
+[ 31/90] guide vs mirror 3000ft seed=2026110330 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+[ 32/90] guide vs mirror 3000ft seed=2026110331 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+[ 33/90] guide vs mirror 3000ft seed=2026110332 -> timeout  atk=0.000s (0/180) enemyAtk=0.000s
+[ 34/90] guide vs mirror 3000ft seed=2026110333 -> timeout  atk=0.000s (0/180) enemyAtk=0.000s
+[ 35/90] guide vs mirror 3000ft seed=2026110334 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+[ 36/90] guide vs mirror 6000ft seed=2026110335 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+[ 37/90] guide vs mirror 6000ft seed=2026110336 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+[ 38/90] guide vs mirror 6000ft seed=2026110337 -> timeout  atk=0.700s (42/180) enemyAtk=0.000s
+[ 39/90] guide vs mirror 6000ft seed=2026110338 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+[ 40/90] guide vs mirror 6000ft seed=2026110339 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+[ 41/90] guide vs mirror 9000ft seed=2026110340 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+[ 42/90] guide vs mirror 9000ft seed=2026110341 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+[ 43/90] guide vs mirror 9000ft seed=2026110342 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+[ 44/90] guide vs mirror 9000ft seed=2026110343 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+[ 45/90] guide vs mirror 9000ft seed=2026110344 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+[ 46/90] latch vs rule   3000ft seed=2026110345 -> timeout  atk=0.983s (59/180) enemyAtk=0.000s
+[ 47/90] latch vs rule   3000ft seed=2026110346 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+[ 48/90] latch vs rule   3000ft seed=2026110347 -> timeout  atk=2.533s (152/180) enemyAtk=0.000s
+[ 49/90] latch vs rule   3000ft seed=2026110348 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+[ 50/90] latch vs rule   3000ft seed=2026110349 -> timeout  atk=1.167s (70/180) enemyAtk=0.000s
+[ 51/90] latch vs rule   6000ft seed=2026110350 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+[ 52/90] latch vs rule   6000ft seed=2026110351 -> timeout  atk=0.000s (0/180) enemyAtk=0.000s
+[ 53/90] latch vs rule   6000ft seed=2026110352 -> timeout  atk=0.000s (0/180) enemyAtk=0.000s
+[ 54/90] latch vs rule   6000ft seed=2026110353 -> timeout  atk=0.367s (22/180) enemyAtk=0.000s
+[ 55/90] latch vs rule   6000ft seed=2026110354 -> timeout  atk=0.000s (0/180) enemyAtk=0.000s
+[ 56/90] latch vs rule   9000ft seed=2026110355 -> timeout  atk=0.000s (0/180) enemyAtk=0.000s
+[ 57/90] latch vs rule   9000ft seed=2026110356 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+[ 58/90] latch vs rule   9000ft seed=2026110357 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+[ 59/90] latch vs rule   9000ft seed=2026110358 -> timeout  atk=0.000s (0/180) enemyAtk=0.000s
+[ 60/90] latch vs rule   9000ft seed=2026110359 -> timeout  atk=0.400s (24/180) enemyAtk=0.000s
+[ 61/90] latch vs rl     3000ft seed=2026110360 -> timeout  atk=0.000s (0/180) enemyAtk=0.000s
+[ 62/90] latch vs rl     3000ft seed=2026110361 -> timeout  atk=0.000s (0/180) enemyAtk=0.000s
+[ 63/90] latch vs rl     3000ft seed=2026110362 -> timeout  atk=0.233s (14/180) enemyAtk=0.000s
+[ 64/90] latch vs rl     3000ft seed=2026110363 -> timeout  atk=0.217s (13/180) enemyAtk=0.000s
+[ 65/90] latch vs rl     3000ft seed=2026110364 -> timeout  atk=0.000s (0/180) enemyAtk=0.000s
+[ 66/90] latch vs rl     6000ft seed=2026110365 -> timeout  atk=1.200s (72/180) enemyAtk=0.000s
+[ 67/90] latch vs rl     6000ft seed=2026110366 -> timeout  atk=0.183s (11/180) enemyAtk=0.000s
+[ 68/90] latch vs rl     6000ft seed=2026110367 -> timeout  atk=0.000s (0/180) enemyAtk=0.000s
+[ 69/90] latch vs rl     6000ft seed=2026110368 -> timeout  atk=0.333s (20/180) enemyAtk=0.000s
+[ 70/90] latch vs rl     6000ft seed=2026110369 -> timeout  atk=0.117s (7/180) enemyAtk=0.000s
+[ 71/90] latch vs rl     9000ft seed=2026110370 -> timeout  atk=0.200s (12/180) enemyAtk=0.000s
+[ 72/90] latch vs rl     9000ft seed=2026110371 -> timeout  atk=0.167s (10/180) enemyAtk=0.000s
+[ 73/90] latch vs rl     9000ft seed=2026110372 -> timeout  atk=0.333s (20/180) enemyAtk=0.000s
+[ 74/90] latch vs rl     9000ft seed=2026110373 -> timeout  atk=0.100s (6/180) enemyAtk=0.000s
+[ 75/90] latch vs rl     9000ft seed=2026110374 -> timeout  atk=0.000s (0/180) enemyAtk=0.000s
+[ 76/90] latch vs mirror 3000ft seed=2026110375 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+[ 77/90] latch vs mirror 3000ft seed=2026110376 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+[ 78/90] latch vs mirror 3000ft seed=2026110377 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+[ 79/90] latch vs mirror 3000ft seed=2026110378 -> timeout  atk=0.667s (40/180) enemyAtk=0.000s
+[ 80/90] latch vs mirror 3000ft seed=2026110379 -> timeout  atk=0.000s (0/180) enemyAtk=0.000s
+[ 81/90] latch vs mirror 6000ft seed=2026110380 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+[ 82/90] latch vs mirror 6000ft seed=2026110381 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+[ 83/90] latch vs mirror 6000ft seed=2026110382 -> timeout  atk=0.000s (0/180) enemyAtk=0.000s
+[ 84/90] latch vs mirror 6000ft seed=2026110383 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+[ 85/90] latch vs mirror 6000ft seed=2026110384 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+[ 86/90] latch vs mirror 9000ft seed=2026110385 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+[ 87/90] latch vs mirror 9000ft seed=2026110386 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+[ 88/90] latch vs mirror 9000ft seed=2026110387 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+[ 89/90] latch vs mirror 9000ft seed=2026110388 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+[ 90/90] latch vs mirror 9000ft seed=2026110389 -> kill     atk=3.000s (180/180) enemyAtk=0.000s
+
+=== mirror league ===
+guide|rule             n=15  kills=6  atk=  21.73s best=180/180 enemyAtk=0.00s crash=0 hit=0
+guide|rl               n=15  kills=0  atk=   1.40s best= 17/180 enemyAtk=0.00s crash=0 hit=0
+guide|mirror           n=15  kills=12 atk=  36.70s best=180/180 enemyAtk=0.00s crash=0 hit=0
+latch|rule             n=15  kills=5  atk=  20.45s best=180/180 enemyAtk=0.00s crash=0 hit=0
+latch|rl               n=15  kills=0  atk=   3.08s best= 72/180 enemyAtk=0.00s crash=0 hit=0
+latch|mirror           n=15  kills=12 atk=  36.67s best=180/180 enemyAtk=0.00s crash=0 hit=0

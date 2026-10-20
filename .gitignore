@@ -1,0 +1,18 @@
+# Research snapshots are restored to a separate disposable workspace.
+/workspace/
+/downloads/
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+*.pem
+*.key
+*.lock
+**/runtime/
+**/site-packages/
+# New machine-local credentials/network settings never belong in this public repo.
+**/network.local.json
+**/network.lan.json
+**/credentials.json
+**/auth.json

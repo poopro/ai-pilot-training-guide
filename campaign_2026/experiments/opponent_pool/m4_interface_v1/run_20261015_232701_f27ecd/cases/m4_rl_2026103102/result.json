@@ -1,0 +1,60 @@
+{
+  "status": "interface_pass",
+  "case": {
+    "case_id": "m4_rl_2026103102",
+    "opponent_id": "rl",
+    "seed": 2026103102,
+    "distance_ft": 6000,
+    "max_steps": 300,
+    "reset_repeats": 2,
+    "score_eligible": false
+  },
+  "episodes": [
+    {
+      "episode": 0,
+      "initial_sha256": "2c05ba5165415372b74c2d2eb7ae526694a2a64a2eba0eae75fe5f4edab9730e",
+      "final_sha256": "38850b4717574f33c43a5ffb6370506fb42dad47e8036ce027769b75dbff4c98",
+      "ticks": 300,
+      "decisions": 15,
+      "counts": {
+        "act": 300,
+        "blue": 300,
+        "red": 300,
+        "judge": 300
+      },
+      "attack_ticks": 0,
+      "tactical_attack_ticks": 0,
+      "reward": 0.0,
+      "max_command_error": 0.0,
+      "fallbacks": 0,
+      "opponent_actual": "rl"
+    },
+    {
+      "episode": 1,
+      "initial_sha256": "2c05ba5165415372b74c2d2eb7ae526694a2a64a2eba0eae75fe5f4edab9730e",
+      "final_sha256": "38850b4717574f33c43a5ffb6370506fb42dad47e8036ce027769b75dbff4c98",
+      "ticks": 300,
+      "decisions": 15,
+      "counts": {
+        "act": 300,
+        "blue": 300,
+        "red": 300,
+        "judge": 300
+      },
+      "attack_ticks": 0,
+      "tactical_attack_ticks": 0,
+      "reward": 0.0,
+      "max_command_error": 0.0,
+      "fallbacks": 0,
+      "opponent_actual": "rl"
+    }
+  ],
+  "score_eligible": false,
+  "official_validation": false,
+  "deployment_allowed": false,
+  "artifact_sha256": {
+    "telemetry.csv": "1df9e701f11057770be87921e301772ae264aa496f406119b406cfe00a6f25cc",
+    "duel.acmi": "3e2f3d1d3077860e3b7c46afaf54b3a181ad1ad6fffb78c88deb247debff781f"
+  },
+  "wall_seconds": 19.656000000002678
+}

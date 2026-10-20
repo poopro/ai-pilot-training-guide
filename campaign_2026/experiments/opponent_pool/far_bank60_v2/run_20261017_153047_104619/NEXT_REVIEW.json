@@ -1,0 +1,8 @@
+{
+  "status": "planned_saved_data_review_not_new_run",
+  "next_action": "否決bank60候選晉級。讀已保存射程內500–900m的首次進入/最差角度視窗，追蹤heading error、LOS rate、feedforward、bank反向與914.4m切換，定位為何敵機位在我機後方；不再只以距離縮短選參數，不盲續訓練或重跑本4場。",
+  "source": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_bank60_v2\\run_20261017_153047_104619\\SAFETY_REVIEW.json",
+  "focus": "用已保存的首次真command差異、共同曝光轉向率、角度/射程/積分時窗定位退步或改善；避免把幾何變化等同有效瞄準。此批與兩seed均已用，不重跑。",
+  "no_new_training": true,
+  "no_automatic_parameter_sweep": true
+}

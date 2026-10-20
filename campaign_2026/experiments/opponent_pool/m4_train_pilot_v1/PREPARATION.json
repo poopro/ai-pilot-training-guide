@@ -1,0 +1,15 @@
+{
+  "static_tests": 6,
+  "static_exit_code": 0,
+  "compile": "all7sources_pass",
+  "FDM_training_started": true,
+  "first_freeze_attempt": "encoding alias utf8-sig rejected before contract; corrected utf-8-sig, no physics/seeds claimed",
+  "next": "fresh usage observation, full preflight then one guarded fresh pilot",
+  "FDM_training_completed": true,
+  "run": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_train_pilot_v1\\run_20261016_003919_a5c748",
+  "verified_fresh_training_pilot": true,
+  "new_fdm_ticks": 100000,
+  "actual_worker_wall_seconds": 279.2969999999914,
+  "actual_launcher_exit": 0,
+  "actual_verifier_exit": 0
+}

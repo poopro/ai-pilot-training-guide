@@ -1,0 +1,125 @@
+{
+  "status": "finished",
+  "token": "portable_20261014_203837_2976b892",
+  "profile": "portable_repair_guide_rehearsal_v1",
+  "identity": {
+    "pid": 8208,
+    "create_time": 1791981517.4078307,
+    "command": [
+      "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+      "-I",
+      "-S",
+      "-B",
+      "-X",
+      "utf8",
+      "-u",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v1\\portable_host.py",
+      "watchdog",
+      "--folder",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v1\\runs\\portable_20261014_203837_2976b892"
+    ],
+    "exe": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe"
+  },
+  "folder": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v1\\runs\\portable_20261014_203837_2976b892",
+  "deadline_epoch": 1791982237.402833,
+  "deadline_monotonic": 42750.593,
+  "terminal_reason": "collector_terminal",
+  "finished_utc": "2026-10-14T12:42:19.345720+00:00",
+  "cleanup": {
+    "results": [
+      {
+        "role": "collector_root",
+        "identity": {
+          "pid": 15048,
+          "create_time": 1791981730.613649,
+          "command": [
+            "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+            "-I",
+            "-S",
+            "-B",
+            "-X",
+            "utf8",
+            "-u",
+            "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v1\\portable_host.py",
+            "collect",
+            "--folder",
+            "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v1\\runs\\portable_20261014_203837_2976b892"
+          ],
+          "exe": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe"
+        },
+        "before": "absent",
+        "descendants_unknown": false,
+        "action": "none",
+        "after": "absent",
+        "actual_exit_code": 2
+      },
+      {
+        "role": "owned_host_descendant",
+        "identity": {
+          "pid": 17324,
+          "create_time": 1791981591.0824633,
+          "command": [
+            "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe",
+            "--internal-player2"
+          ],
+          "exe": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe"
+        },
+        "before": "absent",
+        "descendants_unknown": false,
+        "action": "none",
+        "after": "absent"
+      },
+      {
+        "role": "player_root",
+        "identity": {
+          "pid": 13676,
+          "create_time": 1791981525.909881,
+          "command": [
+            "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+            "-I",
+            "-S",
+            "-B",
+            "-X",
+            "utf8",
+            "-u",
+            "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\tools\\player.py",
+            "--guide",
+            "--network",
+            "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\network.json",
+            "--max-seconds",
+            "720"
+          ],
+          "exe": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe"
+        },
+        "before": "same_process",
+        "descendants_unknown": false,
+        "action": "terminated_or_killed",
+        "after": "absent",
+        "actual_exit_code": 15
+      },
+      {
+        "role": "host_root",
+        "identity": {
+          "pid": 17872,
+          "create_time": 1791981522.1475365,
+          "command": [
+            "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe"
+          ],
+          "exe": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe"
+        },
+        "before": "same_process",
+        "descendants_unknown": false,
+        "action": "terminated_or_killed",
+        "after": "absent",
+        "actual_exit_code": 15
+      }
+    ],
+    "all_known_processes_stopped": true
+  },
+  "errors": [],
+  "portable_rehearsal_complete": false,
+  "actual_collector_exit_code": 2,
+  "new_packaged_rounds": 0,
+  "eligible_for_old_six_round_gate": false,
+  "packaged_six_round_gate_complete": false
+}

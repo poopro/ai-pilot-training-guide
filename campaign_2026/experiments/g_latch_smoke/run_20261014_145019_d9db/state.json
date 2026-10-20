@@ -1,0 +1,21 @@
+{
+  "status": "completed",
+  "supervisor": {
+    "pid": 4084,
+    "create_time": 1791960620.471383,
+    "cmdline": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\g_latch_smoke\\launch_smoke.py",
+      "run",
+      "--job",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\g_latch_smoke\\run_20261014_145019_d9db"
+    ],
+    "parent_pid": 13988
+  },
+  "worker": null,
+  "case_id": "r000_rl_6000_mirrored_2026101311_candidate",
+  "finished_epoch": 1791960737.9553974
+}

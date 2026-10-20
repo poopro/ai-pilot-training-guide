@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "tests": {
+    "init_frozen": true,
+    "initializing_state": true,
+    "ready_state": true,
+    "still_frozen_before_motion": true,
+    "duplicate_preserves_command": true,
+    "no_unsolicited_on_missing_obs": true,
+    "invalid_length_and_nan_ignored": true,
+    "resume_after_missing_obs": true
+  },
+  "scope": "real UDP player loopback; NOT official Host",
+  "bundle": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\candidate1_to_199000\\final_0000148682",
+  "utc": "2026-10-04T21:04:58.563939+00:00",
+  "round_reset": "must restart player before every round; no round ID in published OBS",
+  "network_latency_p50_ms": 1.7544000020279782,
+  "network_latency_p95_ms": 2.2155749997182284,
+  "network_latency_p99_ms": 2.341388998538604,
+  "network_latency_max_ms": 2.512300001399126,
+  "source_sha256": {
+    "player.py": "a8641bbf03b560e352317d7c176a8bda29e297558d268f896d984e7ac985f1f5",
+    "interface.py": "50f63ee563a8cb13b9bb472b0de7905579bcc9c70bc69efc571681879eb02555",
+    "controller.py": "d772bf49a8d8408aaafec691c981d0612de7dada6450e0afcecbc3d958b7813b",
+    "config.json": "d4fba053617240e07ffc67fe389d944313ba12dff491e569a0ae764e0f7b88ec"
+  }
+}

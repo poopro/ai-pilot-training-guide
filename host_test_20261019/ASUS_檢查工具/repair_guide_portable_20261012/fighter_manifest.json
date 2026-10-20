@@ -1,0 +1,9 @@
+{
+ "format": "fighter_overlay_v1",
+ "base_package": "ai-pilot-cpu-player-win64-20261016.zip",
+ "files_sha256": {
+  "policy/fighter.py": "fdb38f946fc21674aa4747fea133d6ea182988325efc968107785c9b7c214a4d",
+  "tools/player_fighter.py": "d9fea4d085143571b9d5758b2f095adc7e4169b6f7fd9f717fc3af02c2bea916",
+  "tools/self_check_fighter.py": "98fe00de577f533d8b7f1f71df59424275c65a788e9d530cbec94e033efc974d"
+ }
+}

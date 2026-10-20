@@ -1,0 +1,52 @@
+{
+  "guardian": {
+    "pid": 4184,
+    "create": 1792276626.520502,
+    "cmd": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\far_speed_window_guardian_v1.py"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent": 11920
+  },
+  "deadline_epoch": 1792276747.418137,
+  "deadline_monotonic": 22484.609,
+  "seconds": 120,
+  "diagnostic_source_sha256": "ac1a61e20fed048629f8ea9eb49173086873d6d9aa677fec3e1e8535f2a1433b",
+  "source_run": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\run_20261018_033053_98bc0f",
+  "original_source_contract_sha256": "f701e7a09afe6fe0173d938afe4fe6da3ef72e5e0ae0e924e710d2191a05956a",
+  "resources": {
+    "ram_bytes": 7368916992,
+    "disk_bytes": 193373921280,
+    "cpu_percent": 1.6,
+    "GPU_used": false
+  },
+  "usage_observation": {
+    "observed_utc": "2026-10-17 22:33:58 UTC",
+    "remaining_percent": 96,
+    "primary": {
+      "usedPercent": 4,
+      "windowDurationMins": 300,
+      "resetsAt": 1792292334
+    },
+    "weekly": {
+      "usedPercent": 1,
+      "windowDurationMins": 10080,
+      "resetsAt": 1792879134
+    },
+    "reset_credit_used": false
+  },
+  "new_FDM_ticks": 0,
+  "seed_claims": [],
+  "training_started": false,
+  "comparison_path": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\run_20261018_033053_98bc0f\\COMPARISON.json",
+  "comparison_sha256": "813f5f205448a112e3dbb06d3b11971c808731cd0163434e5770faff7a3b0560",
+  "analysis_worker_sha256": "983e1b1f4cb6e2138d266876d9ecb7e46740195a14e8785562f5fc9e3fbbcb6f",
+  "window_definitions": "early0to10s/late240to260s/minimum-post-distance+-5s",
+  "hypothesis": "Test whether enemy-equivalentCAS plus desired-close term repeatedly saturates450; distinguish target saturation from actual speed/turn response, no intervention",
+  "model_inference_calls": 0,
+  "controller_calls": 0
+}

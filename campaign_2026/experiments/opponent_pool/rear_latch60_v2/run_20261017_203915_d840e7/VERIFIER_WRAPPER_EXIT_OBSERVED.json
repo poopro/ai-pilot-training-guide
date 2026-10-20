@@ -1,0 +1,7 @@
+{
+  "actual_exit": 1,
+  "tool_session": 10728,
+  "tool_chunk": "68522e",
+  "child_verifier_actual_exit": 2,
+  "reason": "ACMI checker incorrectly assumed geodetic pose latitude equals geocentric OWN packet latitude; original failure preserved"
+}

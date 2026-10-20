@@ -1,0 +1,22 @@
+{
+  "name": "c2_dev_199000",
+  "folder": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_199000",
+  "command": [
+    "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "E:\\ai_pilot\\autopilot\\experiment.py",
+    "eval",
+    "--out",
+    "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_199000",
+    "--episodes",
+    "5",
+    "--seed",
+    "20261200",
+    "--bundle",
+    "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\candidate1_to_199000\\final_0000148682",
+    "--paired"
+  ],
+  "started_utc": "2026-10-04T17:38:35.449594+00:00",
+  "training": false,
+  "start_step": 0,
+  "counted_steps": 0
+}

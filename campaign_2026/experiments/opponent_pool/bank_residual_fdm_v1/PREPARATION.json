@@ -1,0 +1,26 @@
+{
+  "status": "consumed_verified_short_FDM_interface",
+  "hypothesis": "Existing original bank-only residual reaches actual60Hz physics/judge, neutral first100-frame fallback remains exact",
+  "source_freeze": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_fdm_v1\\BRANCH_FREEZE.json",
+  "entry": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_fdm_v1\\guard.py",
+  "FDM_launch_allowed": false,
+  "reason": "Completed600tick interface; do not rerun this seed/probe",
+  "phases": {
+    "precheck_seconds": 30,
+    "worker_seconds": 90,
+    "verifier_seconds": 60,
+    "independent_original_total_seconds": 240
+  },
+  "planned_seed": 2026310800,
+  "seed_claimed": true,
+  "expected_total_FDM_ticks": 600,
+  "closed_loop_strength_claim": false,
+  "training_started": false,
+  "deployment_allowed": false,
+  "precheck": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_fdm_v1\\run_20261018_153511_6fb16a\\PRECHECK.json",
+  "precheck_actual_exit": 0,
+  "run": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_fdm_v1\\run_20261018_153511_6fb16a",
+  "verification": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_fdm_v1\\run_20261018_153511_6fb16a\\VERIFICATION.json",
+  "actual_parent_exit": 0,
+  "new_FDM_ticks": 600
+}

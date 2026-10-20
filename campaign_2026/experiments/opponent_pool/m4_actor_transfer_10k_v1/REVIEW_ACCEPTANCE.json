@@ -1,0 +1,6 @@
+{
+  "decision": "allow_bounded_actor_transfer_10000",
+  "verification_path": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_rule_mirror_eval_v1\\run_20261016_102257_9f7cd7\\VERIFICATION.json",
+  "verification_sha256": "586c7f1f94d96c132edb5a9bfc516e7c0c7ec2978f1004c8822490a780b705ac",
+  "review_note": "完整4場2配對、真parent/guard/workers/verifier退出0、同雙方initial與逐tick核對通過。mirror候選180命中/擊落，zero4命中/timeout；rule兩者0命中且候選積分優勢退步，不能平均掩蓋。兩對均零過9G、候選共同最低高度較高，無部署晉級。允許一次actor-only轉移的一萬decision上限新訓練，假設補足混合對手與距離完整coverage可改善泛化，完成後以新開局比較舊5000與新候選，不能把更新步數當戰力。"
+}

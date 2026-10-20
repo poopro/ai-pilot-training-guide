@@ -1,0 +1,23 @@
+{
+  "pid": 15848,
+  "create_time": 1791197159.734301,
+  "command": [
+    "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "-u",
+    "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\combat_v3\\player.py",
+    "--guide"
+  ],
+  "job_id": "job_20261004_235618_984b",
+  "selection": {
+    "decision": "retain_guide",
+    "bundle": null,
+    "evaluation_selection": {
+      "decision": "policy_candidate",
+      "bundle": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\candidate1_to_199000\\final_0000148682",
+      "utc": "2026-10-04T17:48:42.982652+00:00"
+    },
+    "reason": "保留測試擊殺與存活均未優於純引導器，未證明 SAC 可靠改善；依原任務發布門檻保留純引導器。",
+    "holdout_not_reused_for_training": true,
+    "utc": "2026-10-04T21:06:58.608590+00:00"
+  }
+}

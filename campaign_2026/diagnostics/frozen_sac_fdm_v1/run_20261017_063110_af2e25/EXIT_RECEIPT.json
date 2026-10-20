@@ -1,0 +1,78 @@
+{
+  "actual_worker_exit": 0,
+  "watchdog_identity": {
+    "pid": 20812,
+    "create": 1792189869.107874,
+    "cmd": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\frozen_sac_fdm_v1\\probe.py",
+      "--launch"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent": 18756
+  },
+  "worker_identity": {
+    "pid": 16564,
+    "create": 1792189870.3058043,
+    "cmd": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\frozen_sac_fdm_v1\\probe.py",
+      "--worker",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\frozen_sac_fdm_v1\\run_20261017_063110_af2e25"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent": 20812
+  },
+  "worker_identity_absent": true,
+  "reason": null,
+  "wall_seconds": 25.59400000000005,
+  "source_unchanged": true,
+  "observed_owned_descendants": [
+    {
+      "identity": {
+        "pid": 2744,
+        "create": 1792189870.321706,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 16564
+      },
+      "chain_to_worker": [
+        {
+          "pid": 2744,
+          "create": 1792189870.321706,
+          "cmd": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent": 16564
+        }
+      ],
+      "worker_identity": {
+        "pid": 16564,
+        "create": 1792189870.3058043,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\diagnostics\\frozen_sac_fdm_v1\\probe.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\diagnostics\\frozen_sac_fdm_v1\\run_20261017_063110_af2e25"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 20812
+      }
+    }
+  ],
+  "deadline_cleanup": []
+}

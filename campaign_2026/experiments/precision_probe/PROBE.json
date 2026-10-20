@@ -1,0 +1,11 @@
+{
+  "case_id": "r000_rl_3000_normal_2026101110_guide",
+  "original_result": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_01\\cases\\r000_rl_3000_normal_2026101110_guide\\result.json",
+  "selection": "Largest guide/RL close sample count in previously observed dev set",
+  "new_training_steps": 0,
+  "max_seconds": 150,
+  "sampling_hz": 10,
+  "snapshot_timing": "observations after tick; controller targets calculated immediately before tick",
+  "no_control_change": true,
+  "official_validation": false
+}

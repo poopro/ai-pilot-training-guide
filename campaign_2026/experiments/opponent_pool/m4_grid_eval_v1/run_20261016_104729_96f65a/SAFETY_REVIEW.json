@@ -1,0 +1,265 @@
+{
+  "created_utc": "2026-10-16T03:04:10.153964+00:00",
+  "verified_comparison": true,
+  "complete_games": 18,
+  "paired_openings": 9,
+  "new_FDM_ticks": 313300,
+  "actual_launcher_exit": 0,
+  "actual_verifier_exit": 0,
+  "source_verification_sha256": "05fe0ecc9a1c270851cb32f79d522e95b6075c971dfa6f47cd66d532e0ed9fa5",
+  "by_opponent": {
+    "rule": {
+      "sac5000": {
+        "kills": 1,
+        "deaths": 0,
+        "crashes": 0,
+        "over9G": 0,
+        "attack_ticks": 206
+      },
+      "transfer10000": {
+        "kills": 0,
+        "deaths": 0,
+        "crashes": 0,
+        "over9G": 0,
+        "attack_ticks": 176
+      }
+    },
+    "mirror": {
+      "sac5000": {
+        "kills": 0,
+        "deaths": 0,
+        "crashes": 0,
+        "over9G": 0,
+        "attack_ticks": 209
+      },
+      "transfer10000": {
+        "kills": 2,
+        "deaths": 0,
+        "crashes": 0,
+        "over9G": 0,
+        "attack_ticks": 362
+      }
+    },
+    "rl": {
+      "sac5000": {
+        "kills": 0,
+        "deaths": 0,
+        "crashes": 0,
+        "over9G": 0,
+        "attack_ticks": 4
+      },
+      "transfer10000": {
+        "kills": 0,
+        "deaths": 0,
+        "crashes": 0,
+        "over9G": 0,
+        "attack_ticks": 27
+      }
+    }
+  },
+  "paired_tradeoffs": [
+    {
+      "opponent": "rule",
+      "distance_ft": 3000,
+      "old_event": "timeout",
+      "new_event": "timeout",
+      "old_attack_ticks": 0,
+      "new_attack_ticks": 0,
+      "common_altitude_delta_m": 291.04347313590006,
+      "common_margin_delta": -2670.9451997695505
+    },
+    {
+      "opponent": "rule",
+      "distance_ft": 6000,
+      "old_event": "timeout",
+      "new_event": "timeout",
+      "old_attack_ticks": 26,
+      "new_attack_ticks": 32,
+      "common_altitude_delta_m": 335.86684917237244,
+      "common_margin_delta": 2776.209095346363
+    },
+    {
+      "opponent": "rule",
+      "distance_ft": 9000,
+      "old_event": "blue_kill",
+      "new_event": "timeout",
+      "old_attack_ticks": 180,
+      "new_attack_ticks": 144,
+      "common_altitude_delta_m": -28.975198784200074,
+      "common_margin_delta": -11519.399699009118
+    },
+    {
+      "opponent": "mirror",
+      "distance_ft": 3000,
+      "old_event": "timeout",
+      "new_event": "timeout",
+      "old_attack_ticks": 131,
+      "new_attack_ticks": 2,
+      "common_altitude_delta_m": -113.09729516685411,
+      "common_margin_delta": -21863.777713162905
+    },
+    {
+      "opponent": "mirror",
+      "distance_ft": 6000,
+      "old_event": "timeout",
+      "new_event": "blue_kill",
+      "old_attack_ticks": 51,
+      "new_attack_ticks": 180,
+      "common_altitude_delta_m": 8.149477884575845,
+      "common_margin_delta": 28507.92737378726
+    },
+    {
+      "opponent": "mirror",
+      "distance_ft": 9000,
+      "old_event": "timeout",
+      "new_event": "blue_kill",
+      "old_attack_ticks": 27,
+      "new_attack_ticks": 180,
+      "common_altitude_delta_m": -40.51588178860493,
+      "common_margin_delta": 30420.664127227345
+    },
+    {
+      "opponent": "rl",
+      "distance_ft": 3000,
+      "old_event": "timeout",
+      "new_event": "timeout",
+      "old_attack_ticks": 4,
+      "new_attack_ticks": 13,
+      "common_altitude_delta_m": -7.022726196011945,
+      "common_margin_delta": 1216.597626923558
+    },
+    {
+      "opponent": "rl",
+      "distance_ft": 6000,
+      "old_event": "timeout",
+      "new_event": "timeout",
+      "old_attack_ticks": 0,
+      "new_attack_ticks": 14,
+      "common_altitude_delta_m": 16.80685617345148,
+      "common_margin_delta": 4195.877068367081
+    },
+    {
+      "opponent": "rl",
+      "distance_ft": 9000,
+      "old_event": "timeout",
+      "new_event": "timeout",
+      "old_attack_ticks": 0,
+      "new_attack_ticks": 0,
+      "common_altitude_delta_m": -0.7278752620827618,
+      "common_margin_delta": 745.6872187786557
+    }
+  ],
+  "worst_common_height_regression": {
+    "opponent": "mirror",
+    "distance_ft": 3000,
+    "old_event": "timeout",
+    "new_event": "timeout",
+    "old_attack_ticks": 131,
+    "new_attack_ticks": 2,
+    "common_altitude_delta_m": -113.09729516685411,
+    "common_margin_delta": -21863.777713162905
+  },
+  "lost_kill_cases": [
+    {
+      "opponent": "rule",
+      "distance_ft": 9000,
+      "old_event": "blue_kill",
+      "new_event": "timeout",
+      "old_attack_ticks": 180,
+      "new_attack_ticks": 144,
+      "common_altitude_delta_m": -28.975198784200074,
+      "common_margin_delta": -11519.399699009118
+    }
+  ],
+  "decision": "mixed_candidate_not_promoted_no_blind_training",
+  "reason": "New model improves some mirror/RL cells but loses rule9000 kill and mirror3000 attack131->2. All9pairedinitials/hash/action/judge verified; zeroover9G/death/crash does not erase offense regressions. Single opening per cell, fixed lateral side, perturbed controller mirror not learnedSAC, all development not holdout.",
+  "next": "Analyze two regression cases using saved data; first validate independent frozenSAC red adapter timing with real model and short FDM before stronger-opponent league. Preserve both frozen actors and formalrepair_guide.",
+  "terminal_identity_audit": [
+    {
+      "pid": 21596,
+      "state": "absent"
+    },
+    {
+      "pid": 22504,
+      "state": "absent"
+    },
+    {
+      "pid": 21824,
+      "state": "absent"
+    },
+    {
+      "pid": 14032,
+      "state": "absent"
+    },
+    {
+      "pid": 15036,
+      "state": "absent"
+    },
+    {
+      "pid": 2632,
+      "state": "absent"
+    },
+    {
+      "pid": 23960,
+      "state": "absent"
+    },
+    {
+      "pid": 23600,
+      "state": "absent"
+    },
+    {
+      "pid": 21160,
+      "state": "absent"
+    },
+    {
+      "pid": 4028,
+      "state": "absent"
+    },
+    {
+      "pid": 23432,
+      "state": "absent"
+    },
+    {
+      "pid": 6192,
+      "state": "absent"
+    },
+    {
+      "pid": 23592,
+      "state": "absent"
+    },
+    {
+      "pid": 17232,
+      "state": "absent"
+    },
+    {
+      "pid": 17540,
+      "state": "absent"
+    },
+    {
+      "pid": 18232,
+      "state": "absent"
+    },
+    {
+      "pid": 18620,
+      "state": "absent"
+    },
+    {
+      "pid": 7792,
+      "state": "absent"
+    },
+    {
+      "pid": 23156,
+      "state": "absent"
+    },
+    {
+      "pid": 8548,
+      "state": "absent"
+    },
+    {
+      "pid": 21084,
+      "state": "absent"
+    }
+  ],
+  "deployment_allowed": false,
+  "official_validation": false
+}

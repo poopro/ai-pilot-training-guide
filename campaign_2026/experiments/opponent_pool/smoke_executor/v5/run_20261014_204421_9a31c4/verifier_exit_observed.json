@@ -1,0 +1,6 @@
+{
+  "actual_exit_code": 0,
+  "observed_by": "root tools.exec_command chunk a35661 exit_code0",
+  "verification_sha256": "96a0634bd2858c7899f64c12f0f5efe53d112b7ea81dc8726c2bd92cc204ba0b",
+  "observed_utc": "2026-10-14T12:48:30.754494+00:00"
+}

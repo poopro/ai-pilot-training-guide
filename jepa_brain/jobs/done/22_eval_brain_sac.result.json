@@ -1,0 +1,1 @@
+{"id": "22_eval_brain_sac", "script": "rollout_sac.py", "args": ["eval", "--opponents", "sac314", "--n", "12", "--workers", "3", "--seed0", "900000", "--model", "brain_v1.pt", "--out", "runs/eval_brain_v1_sac314"], "exit_code": 0, "reason": null, "seconds": 192.6}

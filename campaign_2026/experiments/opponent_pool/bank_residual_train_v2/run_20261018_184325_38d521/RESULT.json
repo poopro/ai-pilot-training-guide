@@ -1,0 +1,386 @@
+{
+  "status": "failed_partial_training",
+  "fresh_actor": true,
+  "fresh_critic_optimizer_replay": true,
+  "exact_resume": false,
+  "actor_transfer": false,
+  "training_started": true,
+  "formal_deployment": "repair_guide",
+  "deployment_allowed": false,
+  "initial_actor_sha256": "d1c3d8bb6dd6b2cc6b90629be45e2fd9d27d3166fdd56d46ef64751abad976cd",
+  "error": "ValueError('too many values to unpack (expected 2)')",
+  "actual_decisions": 900,
+  "gradient_updates": 75,
+  "replay_size": 900,
+  "final_actor_sha256": "cdb8e83d4e3ebc0429261a95a4d8ff309e55fe0094630922d70614a09c8fd802",
+  "bundle_reload_exact": true,
+  "probe_observations": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.22859764099121094,
+      1.0,
+      1.1190121767867822e-05,
+      1.0,
+      -1.1190121767867822e-05,
+      -1.0,
+      2.2638883820036426e-05,
+      1.0082370814021866e-16,
+      1.0,
+      -0.052465274930000305,
+      0.0,
+      0.0,
+      1.0,
+      0.691069483757019,
+      0.6691737174987793,
+      1.0,
+      1.1190121767867822e-05
+    ]
+  ],
+  "probe_outputs": [
+    [
+      0.017599105834960938
+    ],
+    [
+      -0.025653839111328125
+    ]
+  ],
+  "artifact_sha256": {
+    "model.zip": "7bd0fb3fb6c301508f87eb7375993a360576880b935a8ba4ee9c7fabb87d99bd",
+    "replay.pkl": "3e14e23b446737ba963ae8e86a9cca78029a857415484b9b9c555a923d12ccce",
+    "physics.csv": "d64012a4c785532805b11fb9c2fd3a648b6c72604bfd970dbde76a06e09fa7d7",
+    "decisions.jsonl": "45d93b0c289568d8739aef9ac1cf828d4a2d058cd970ed49c0d2ac45f0effa5c"
+  },
+  "decisions": 900,
+  "new_FDM_ticks": 18000,
+  "episode_starts": [
+    {
+      "case": {
+        "episode": 0,
+        "seed": 2026312000,
+        "opponent": "sac5000",
+        "distance_ft": 6000,
+        "side": "normal"
+      },
+      "initial": [
+        [
+          23.07524549466749,
+          121.9565411709091,
+          17716.278892230242,
+          7.34387944033345e-15,
+          2.3408029688939046e-15,
+          296.5689811917852,
+          328.9121862399509,
+          -657.7115847284042,
+          -1.3848579265104854e-13,
+          0.0,
+          0.0,
+          0.0,
+          573.8553514144047,
+          735.3691283587392,
+          -0.46020158851827686,
+          735.36912835874,
+          -8.526512829121202e-14,
+          -5.684341886080802e-14,
+          -4.4289158576559315e-15,
+          -6.639298058184507e-15,
+          23.060552000000005,
+          121.94855500000001,
+          17716.278892230242,
+          -328.91218623995195,
+          657.7115847284048,
+          -1.180751992034885e-13
+        ],
+        [
+          23.060552000000005,
+          121.94855500000001,
+          17716.278892230242,
+          1.7063995653538942e-15,
+          4.350956165910468e-15,
+          116.56898119178523,
+          -328.91218623995195,
+          657.7115847284048,
+          -1.180751992034885e-13,
+          0.0,
+          0.0,
+          0.0,
+          573.8553514144071,
+          735.3691283587411,
+          -0.4602015884919824,
+          735.3691283587409,
+          2.5579538487363607e-13,
+          -5.684341886080802e-14,
+          -4.428915857655919e-15,
+          8.045142074923385e-15,
+          23.07524549466749,
+          121.9565411709091,
+          17716.278892230242,
+          328.9121862399509,
+          -657.7115847284042,
+          -1.3848579265104854e-13
+        ]
+      ],
+      "initial_sha256": "28bb374e4a2197ab83250227912ff80f1944fef3a992faaf8bc0077e2ec77c72",
+      "side_transform": {
+        "side": "normal",
+        "normal_cross_track_m": -1828.799999999921,
+        "actual_cross_track_m": -1828.799999999921,
+        "distance_m": 1828.7800257502981
+      },
+      "blue": {
+        "class_name": "RepairController",
+        "class_path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+        "class_sha256": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+        "act_path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+        "act_sha256": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+        "command_path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+        "command_sha256": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+        "MRO": [
+          {
+            "name": "RepairController",
+            "path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py"
+          }
+        ]
+      },
+      "red": {
+        "class_name": "StationController",
+        "module": "frozen_opponent_station_v1",
+        "path": "E:\\ai_pilot\\campaign_2026\\experiments\\m4_tactical_v4\\m1_station.py",
+        "sha256": "fcda220748b0a64413d10c987df850ea975d2925994b556157c62331e97795fc"
+      },
+      "red_kind": "frozen_sac5000",
+      "opponent_fallback": false
+    },
+    {
+      "case": {
+        "episode": 1,
+        "seed": 2026312001,
+        "opponent": "rule",
+        "distance_ft": 3000,
+        "side": "mirrored"
+      },
+      "initial": [
+        [
+          23.06659648816177,
+          121.95460018033437,
+          10533.2404329516,
+          5.7767729324727915e-15,
+          -8.843914779100379e-15,
+          132.62016119618454,
+          -449.4490464791683,
+          488.4271099903696,
+          1.305345912678008e-13,
+          0.0,
+          0.0,
+          0.0,
+          573.8553514144083,
+          663.751073185256,
+          -0.4726214261388327,
+          663.7510731852553,
+          2.2737367544323206e-13,
+          5.684341886080802e-14,
+          4.906791303838122e-15,
+          2.1932333291804995e-14,
+          23.060552,
+          121.94855500000001,
+          10533.240432947874,
+          449.4490464791436,
+          -488.4271099903435,
+          4.52694629765848e-14
+        ],
+        [
+          23.060552,
+          121.94855500000001,
+          10533.240432947874,
+          8.95732761393631e-15,
+          -7.448416248520033e-15,
+          312.62016119618454,
+          449.4490464791436,
+          -488.4271099903435,
+          4.52694629765848e-14,
+          0.0,
+          0.0,
+          0.0,
+          573.8553514144071,
+          663.7510731852195,
+          -0.47262142617845876,
+          663.7510731852195,
+          0.0,
+          -2.842170943040401e-14,
+          -2.4533956519192015e-15,
+          3.610705869534266e-15,
+          23.06659648816177,
+          121.95460018033437,
+          10533.2404329516,
+          -449.4490464791683,
+          488.4271099903696,
+          1.305345912678008e-13
+        ]
+      ],
+      "initial_sha256": "ab915feb2103df479fb178d1a072637c46777b5b13ca06d03498321a5d6ee647",
+      "side_transform": {
+        "side": "mirrored",
+        "normal_cross_track_m": -914.3999999989858,
+        "actual_cross_track_m": 914.3999999998589,
+        "distance_m": 914.3905844743362
+      },
+      "blue": {
+        "class_name": "RepairController",
+        "class_path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+        "class_sha256": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+        "act_path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+        "act_sha256": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+        "command_path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+        "command_sha256": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+        "MRO": [
+          {
+            "name": "RepairController",
+            "path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py"
+          }
+        ]
+      },
+      "red": {
+        "class_name": "RuleFighter",
+        "module": "duel_lab",
+        "path": "E:\\ai_pilot\\autopilot\\opponent_lab\\duel_lab.py",
+        "sha256": "9f358a7a04b09728199ac33de120146e3aa0bcbb37fe18dbae2a2b5a7cfcb9a6"
+      },
+      "red_kind": "RuleFighter",
+      "opponent_fallback": false
+    }
+  ],
+  "completed_episodes": [
+    {
+      "case": {
+        "episode": 0,
+        "seed": 2026312000,
+        "opponent": "sac5000",
+        "distance_ft": 6000,
+        "side": "normal"
+      },
+      "ticks": 18000,
+      "final": {
+        "profile": {
+          "angle_source": "line_20261014_1deg",
+          "altitude_basis": "AGL",
+          "distance_edge_policy": "right_bin"
+        },
+        "ticks": 18000,
+        "seconds": 300.0,
+        "event": "timeout",
+        "winner": "red",
+        "rematch": false,
+        "attack_ticks": [
+          0,
+          0
+        ],
+        "over_g_ticks": [
+          0,
+          0
+        ],
+        "position_sum": [
+          548.8717674008902,
+          2769.8691511592633
+        ],
+        "advantage": [
+          548.8717674008902,
+          2769.8691511592633
+        ],
+        "kill_score": [
+          0.0,
+          0.0
+        ],
+        "total_score": [
+          548.8717674008902,
+          2769.8691511592633
+        ],
+        "unresolved": [],
+        "runtime_Host_conformance_verified": false
+      },
+      "terminated": true,
+      "truncated": false
+    }
+  ],
+  "last_episode": {
+    "case": {
+      "episode": 1,
+      "seed": 2026312001,
+      "opponent": "rule",
+      "distance_ft": 3000,
+      "side": "mirrored"
+    },
+    "ticks": 0,
+    "final": {
+      "profile": {
+        "angle_source": "line_20261014_1deg",
+        "altitude_basis": "AGL",
+        "distance_edge_policy": "right_bin"
+      },
+      "ticks": 0,
+      "seconds": 0.0,
+      "event": "ongoing",
+      "winner": null,
+      "rematch": false,
+      "attack_ticks": [
+        0,
+        0
+      ],
+      "over_g_ticks": [
+        0,
+        0
+      ],
+      "position_sum": [
+        0.0,
+        0.0
+      ],
+      "advantage": [
+        0.0,
+        0.0
+      ],
+      "kill_score": [
+        0.0,
+        0.0
+      ],
+      "total_score": [
+        0.0,
+        0.0
+      ],
+      "unresolved": [],
+      "runtime_Host_conformance_verified": false
+    }
+  },
+  "blue_over9G": 0,
+  "peak_abs_blue_G": 3.2700401360375158,
+  "min_AGL_m": 5304.828697400611,
+  "actual_reached_cells": [
+    {
+      "episode": 0,
+      "seed": 2026312000,
+      "opponent": "sac5000",
+      "distance_ft": 6000,
+      "side": "normal"
+    }
+  ],
+  "episode_physics_ticks": {
+    "0": 18000,
+    "1": 0
+  },
+  "wall_seconds": 52.344000000011874
+}

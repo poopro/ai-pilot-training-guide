@@ -1,0 +1,7 @@
+{
+  "actual_exit": 1,
+  "session_id": 28873,
+  "chunk_id": "652d41",
+  "observed_utc": "2026-10-18T10:43:12.460151+00:00",
+  "observation_source": "Actual unified exec completed shell wait; guardian intended2 is separately recorded"
+}

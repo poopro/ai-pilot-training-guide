@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "bundle": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_02\\final_0000124000",
+  "model_sha_verified": true,
+  "replay_sha_verified": true,
+  "actual_replay_size": 50000,
+  "manifest_replay_size": 50000,
+  "decision_steps": 124000,
+  "physics_ticks": 495929,
+  "n_updates": 30750,
+  "actor_updates": 30250,
+  "sampled_replay_finite": true,
+  "action": [
+    0.4734175205230713,
+    0.33283329010009766,
+    -0.35413408279418945,
+    -0.6754175424575806
+  ],
+  "official_validation": false
+}

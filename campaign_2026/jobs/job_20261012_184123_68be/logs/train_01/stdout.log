@@ -1,0 +1,66 @@
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+修復訓練 decision 24001/74000；critic更新 5750；stage official
+修復訓練 decision 25187/74000；critic更新 6046；stage official
+修復訓練 decision 26253/74000；critic更新 6313；stage official
+修復訓練 decision 27337/74000；critic更新 6584；stage official
+修復訓練 decision 28441/74000；critic更新 6860；stage official
+修復訓練 decision 29582/74000；critic更新 7145；stage official
+修復訓練 decision 30733/74000；critic更新 7433；stage official
+修復訓練 decision 31858/74000；critic更新 7714；stage official
+修復訓練 decision 33002/74000；critic更新 8000；stage official
+修復訓練 decision 33947/74000；critic更新 8236；stage official
+已完整儲存：E:\ai_pilot\campaign_2026\jobs\job_20261012_184123_68be\train_01\checkpoint_0000034000
+修復訓練 decision 35069/74000；critic更新 8517；stage official
+修復訓練 decision 36205/74000；critic更新 8801；stage official
+修復訓練 decision 37377/74000；critic更新 9094；stage official
+修復訓練 decision 38537/74000；critic更新 9384；stage official
+修復訓練 decision 39687/74000；critic更新 9671；stage official
+修復訓練 decision 40845/74000；critic更新 9961；stage official
+修復訓練 decision 42011/74000；critic更新 10252；stage official
+修復訓練 decision 42849/74000；critic更新 10462；stage official
+修復訓練 decision 43701/74000；critic更新 10675；stage official
+已完整儲存：E:\ai_pilot\campaign_2026\jobs\job_20261012_184123_68be\train_01\checkpoint_0000044000
+修復訓練 decision 44552/74000；critic更新 10887；stage official
+修復訓練 decision 45403/74000；critic更新 11100；stage official
+修復訓練 decision 46260/74000；critic更新 11314；stage official
+修復訓練 decision 47105/74000；critic更新 11526；stage official
+修復訓練 decision 47957/74000；critic更新 11739；stage official
+修復訓練 decision 48814/74000；critic更新 11953；stage official
+修復訓練 decision 49666/74000；critic更新 12166；stage official
+修復訓練 decision 50512/74000；critic更新 12377；stage official
+修復訓練 decision 51160/74000；critic更新 12539；stage official
+修復訓練 decision 51925/74000；critic更新 12731；stage official
+修復訓練 decision 52721/74000；critic更新 12930；stage official
+修復訓練 decision 53610/74000；critic更新 13152；stage official
+已完整儲存：E:\ai_pilot\campaign_2026\jobs\job_20261012_184123_68be\train_01\checkpoint_0000054000
+修復訓練 decision 54463/74000；critic更新 13365；stage official
+修復訓練 decision 55358/74000；critic更新 13589；stage official
+修復訓練 decision 56465/74000；critic更新 13866；stage official
+修復訓練 decision 57601/74000；critic更新 14150；stage official
+修復訓練 decision 58678/74000；critic更新 14419；stage official
+修復訓練 decision 59814/74000；critic更新 14703；stage official
+修復訓練 decision 60736/74000；critic更新 14933；stage official
+修復訓練 decision 61533/74000；critic更新 15133；stage official
+修復訓練 decision 62419/74000；critic更新 15354；stage official
+修復訓練 decision 63267/74000；critic更新 15566；stage official
+修復訓練 decision 63997/74000；critic更新 15749；stage official
+已完整儲存：E:\ai_pilot\campaign_2026\jobs\job_20261012_184123_68be\train_01\checkpoint_0000064000
+修復訓練 decision 64773/74000；critic更新 15943；stage official
+修復訓練 decision 65620/74000；critic更新 16154；stage official
+修復訓練 decision 66493/74000；critic更新 16373；stage official
+修復訓練 decision 67305/74000；critic更新 16576；stage official
+修復訓練 decision 68143/74000；critic更新 16785；stage official
+修復訓練 decision 68993/74000；critic更新 16998；stage official
+修復訓練 decision 70073/74000；critic更新 17268；stage official
+修復訓練 decision 71231/74000；critic更新 17557；stage official
+修復訓練 decision 72369/74000；critic更新 17842；stage official
+修復訓練 decision 73419/74000；critic更新 18104；stage official
+已完整儲存：E:\ai_pilot\campaign_2026\jobs\job_20261012_184123_68be\train_01\checkpoint_0000074000
+已完整儲存：E:\ai_pilot\campaign_2026\jobs\job_20261012_184123_68be\train_01\final_0000074000
+{"status": "completed", "run_dir": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_01", "final_bundle": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_01\\final_0000074000", "decision_repeat": 4, "decision_steps": 74000, "physics_ticks": 295929, "critic_updates": 18250, "actor_updates": 17750, "stop_file": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_01\\STOP", "wall_seconds": 777.719, "official_validation": false}

@@ -1,0 +1,1 @@
+This is a connection test containing no private project data. Reply in Traditional Chinese with one short sentence confirming that you received this public test. Do not call tools.

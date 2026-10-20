@@ -1,0 +1,9 @@
+{
+  "updated_at": "2026-10-12T10:58:11.271212+00:00",
+  "phase": "completed",
+  "case_id": "r000_rule_6000_mirrored_2026101101_guide",
+  "steps": 18000,
+  "wall_seconds": 21.8900000000001,
+  "pid": 8456,
+  "official_validation": false
+}

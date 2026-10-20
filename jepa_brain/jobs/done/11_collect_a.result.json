@@ -1,0 +1,1 @@
+{"id": "11_collect_a", "script": "rollout.py", "args": ["collect", "--games", "480", "--workers", "3", "--seed0", "600000", "--out", "runs/collect01"], "exit_code": 0, "reason": null, "seconds": 2686.3}

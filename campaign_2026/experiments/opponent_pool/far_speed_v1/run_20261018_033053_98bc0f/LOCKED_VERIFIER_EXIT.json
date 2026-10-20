@@ -1,0 +1,175 @@
+{
+  "actual_guarded_wrapper_exit": 0,
+  "reason": null,
+  "identity": {
+    "pid": 19804,
+    "create": 1792265726.3232448,
+    "cmd": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\verify.py",
+      "--guarded",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\run_20261018_033053_98bc0f",
+      "0"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent": 17080
+  },
+  "descendants": [
+    {
+      "identity": {
+        "pid": 13684,
+        "create": 1792265726.3372457,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 19804
+      },
+      "chain": [
+        {
+          "pid": 13684,
+          "create": 1792265726.3372457,
+          "cmd": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent": 19804
+        }
+      ],
+      "worker": {
+        "pid": 19804,
+        "create": 1792265726.3232448,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\verify.py",
+          "--guarded",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\run_20261018_033053_98bc0f",
+          "0"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 17080
+      }
+    },
+    {
+      "identity": {
+        "pid": 15796,
+        "create": 1792265726.921258,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\verify.py",
+          "--internal",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\run_20261018_033053_98bc0f",
+          "0"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 19804
+      },
+      "chain": [
+        {
+          "pid": 15796,
+          "create": 1792265726.921258,
+          "cmd": [
+            "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\verify.py",
+            "--internal",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\run_20261018_033053_98bc0f",
+            "0"
+          ],
+          "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "parent": 19804
+        }
+      ],
+      "worker": {
+        "pid": 19804,
+        "create": 1792265726.3232448,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\verify.py",
+          "--guarded",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\run_20261018_033053_98bc0f",
+          "0"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 17080
+      }
+    },
+    {
+      "identity": {
+        "pid": 2536,
+        "create": 1792265726.935243,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 15796
+      },
+      "chain": [
+        {
+          "pid": 2536,
+          "create": 1792265726.935243,
+          "cmd": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent": 15796
+        },
+        {
+          "pid": 15796,
+          "create": 1792265726.921258,
+          "cmd": [
+            "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\verify.py",
+            "--internal",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\run_20261018_033053_98bc0f",
+            "0"
+          ],
+          "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "parent": 19804
+        }
+      ],
+      "worker": {
+        "pid": 19804,
+        "create": 1792265726.3232448,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\verify.py",
+          "--guarded",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\run_20261018_033053_98bc0f",
+          "0"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 17080
+      }
+    }
+  ],
+  "absent": true,
+  "cleanup_actions": [],
+  "wall_seconds": 76.875,
+  "OS_lock_held": true,
+  "original600_and120_limits": true
+}

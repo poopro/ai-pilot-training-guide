@@ -1,0 +1,15 @@
+{
+  "updated_utc": "2026-10-12T15:04:14.912245+00:00",
+  "analysis_exit_code": 0,
+  "new_fdm_ticks": 0,
+  "learner_started": false,
+  "candidate_modified": false,
+  "artifacts": {
+    "aligned_samples.csv": "d0c8a9f7aa082fdd17f91869e8e2dd55949c092004fb4b658991a092c73ea65e",
+    "ANALYSIS.json": "d1bbc7ee197663db2ff160e2677346df24c7ca8c03f3e71ff7fdcf9596ec3d91",
+    "analyze_saved.py": "fa755ed314fd032428419f681cf5a62560311ceb03a729204f80d93ea7fb80b9",
+    "early20s.png": "c23b9321371938a363cd4e751f7e500e0ff1f064fd6137b7f02a9ff7394bae7e",
+    "paired_trajectories.png": "8183b05e4faa84fd3b1dcc33bb689d8713c0990c3732a021deae333d0e2e1ba5",
+    "REVIEW.md": "e054e3c8a0a4424b9cdabab42b4285045943829927d491ac7deea5eac4a261c6"
+  }
+}

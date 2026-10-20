@@ -1,0 +1,108 @@
+{
+  "created_utc": "2026-10-15T15:57:48.841327+00:00",
+  "name": "Publication-and-LINE-derived local scoring v1",
+  "stage": "pure_rules22_and_saved_nonzero_blue_replay_verified_not_integrated",
+  "official_Host_conformance_verified": false,
+  "deployment_allowed": false,
+  "source_files_sha256": {
+    "judge.py": "11694e29c54fecfa9d39750839688a4c870636e729dd33923a6f78450e837a06",
+    "replay_blue_counter.py": "cd9a719528419695ab1abe9be2fb9e535db59a32176458490950e286905ae008",
+    "test_judge.py": "2d703af41d1b1558cba392ed06802bde36a156c851ff34e7961881cb042119c0"
+  },
+  "sources": {
+    "official_download_receipt": "E:\\ai_pilot\\campaign_2026\\diagnostics\\rules_contract_20261008\\OFFICIAL_DOWNLOAD_RECEIPT.json",
+    "official_pdf": "E:\\ai_pilot\\campaign_2026\\diagnostics\\rules_contract_20261008\\official_download_5.pdf",
+    "official_pdf_sha256": "0d7f2717b39e2b74c6a84f287dd0bec9b109772654825055e5a7374e6e79ba33",
+    "official_revision": "2026/10/08",
+    "official_pages_one_based": {
+      "initial_geometry_and_angle": 7,
+      "winners_crash_collision": 8,
+      "score_formulas_weights": 9,
+      "position_index_distance_factor": 10
+    },
+    "LINE_export": "E:\\ai_pilot\\[LINE]2026 AI飛行員擂台賽.txt",
+    "LINE_sha256": "95f3a5fbadce65cab51b10e62a409394f166ca2d6ef09590df779090300cc08b",
+    "LINE_later_answer": "2026-10-14",
+    "LINE_reference": "E:\\ai_pilot\\campaign_2026\\diagnostics\\LINE_RULES_REVIEW_20261015.json"
+  },
+  "derived_rules": {
+    "hz": 60,
+    "round_ticks": 18000,
+    "kill_cumulative_ticks": 180,
+    "range_ft_inclusive": [
+      500,
+      3000
+    ],
+    "collision_m_strictly_less_than": 15,
+    "crash_m_strictly_less_than": 50,
+    "over_G_abs_strictly_greater_than": 9,
+    "weights": {
+      "base": 30000,
+      "time": 10000,
+      "G": 100,
+      "position": 1
+    },
+    "position_accumulation": "raw60Hz per-frame sum, no dt factor",
+    "kill_score": "30000*(1+(300-Tkill)/300)",
+    "event_priority": [
+      "collision",
+      "crash",
+      "kill",
+      "timeout"
+    ],
+    "timeout_collision_simultaneous_kill_winner": "S_advantage only",
+    "start": "first post-START physics tick included; no pre-START accumulation",
+    "terminal_frame_included": true
+  },
+  "explicit_profile_choices": {
+    "angle_sources": [
+      "pdf_20261008_2deg",
+      "line_20261014_1deg"
+    ],
+    "preferred_research_angle_source": "line_20261014_1deg because later explicit administrator answer; not independent Host confirmation",
+    "altitude_basis_choices": [
+      "AGL",
+      "HSL"
+    ],
+    "distance_exact500_1500m_tie_choices": [
+      "left_bin",
+      "right_bin"
+    ]
+  },
+  "unresolved": [
+    {
+      "item": "PDF2deg_vs_later_LINE1deg",
+      "handling": "Keep both named profiles; train/review1deg explicitly, never silently call them equivalent. Need real Host angle-envelope evidence/final clarification before claiming full conformance."
+    },
+    {
+      "item": "altitude_vertical_datum",
+      "handling": "PDF says50metres without AGL/HSL. Explicit profile chooses datum; no fabricated confirmation."
+    },
+    {
+      "item": "distance_factor_shared_table_endpoints500m1500m",
+      "handling": "Explicit left/right bin setting; table not precise about shared endpoints."
+    },
+    {
+      "item": "simultaneous_independent_ground_crashes",
+      "handling": "Winner unknown, report unresolved; collision still has confirmed higher priority."
+    },
+    {
+      "item": "displayed_total_score_for_kill_canceled_by_crash_or_collision",
+      "handling": "Winner uses confirmed event priority; displayed kill/total score returns None rather than inventing bonus."
+    }
+  ],
+  "evidence": {
+    "numeric_tests": "E:\\ai_pilot\\campaign_2026\\experiments\\rules_v20261014\\VALIDATION.json",
+    "saved_real60Hz_blue_counter": "E:\\ai_pilot\\campaign_2026\\experiments\\rules_v20261014\\NONZERO_COUNTER_REPLAY.json",
+    "nonzero_original_frames": 35317,
+    "new_FDM_ticks": 0,
+    "new_training_steps": 0,
+    "new_full_winner_recomputation": false
+  },
+  "next_required": [
+    "Integrate in a new M4 contract/adapter with true judge-only3D angles/altitude, leave all old frozen code intact",
+    "Bounded true-FDM nonzero-counter and event integration check with complete red/blue60Hz telemetry",
+    "New paired baseline/candidate development and bounded fresh trainer; no shared replay/optimizer/critic resume",
+    "Portable preflight45s profiling and current packaged Host comparison; legacy6/6 is not this gate"
+  ]
+}

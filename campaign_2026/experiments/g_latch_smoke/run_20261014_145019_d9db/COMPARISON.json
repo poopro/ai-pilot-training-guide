@@ -1,0 +1,101 @@
+{
+  "updated_utc": "2026-10-14T06:56:31.570449+00:00",
+  "verified_comparison": true,
+  "actual_parent_exit_code": 0,
+  "actual_verifier_exit_code": 0,
+  "actual_guardian_exit_code": 0,
+  "complete_cases": 2,
+  "case_role": "observed development diagnostic case, not holdout",
+  "same_initial_sha256": "3816d7eec07af243f35d1f44f5f5b3582f1fe0f46cc7833e528e97d101c48652",
+  "sole_factor": "8.5 activate /8.0 release G guard latch; original bank80/trim/slew retained",
+  "first_command_divergence": {
+    "tick": 9505,
+    "seconds": 158.41666666666666,
+    "mode": "recover",
+    "baseline_g": 8.186212664946439,
+    "candidate_g": 8.186212664946439,
+    "baseline_elevator": -0.6690529596767857,
+    "candidate_elevator": -0.5090529596767858,
+    "candidate_latched": 1
+  },
+  "baseline": {
+    "actor": "guide",
+    "control": "frozen_bank80",
+    "initial_sha256": "3816d7eec07af243f35d1f44f5f5b3582f1fe0f46cc7833e528e97d101c48652",
+    "metrics": {
+      "kills": 0,
+      "deaths": 0,
+      "own_crashes": 0,
+      "enemy_crashes": 0,
+      "survival": 1,
+      "attack_seconds": 1.45,
+      "enemy_attack_seconds": 0.0,
+      "over_9g_seconds": 0.016666666666666666,
+      "min_altitude_m": 775.704499997588
+    },
+    "peak_abs_g": 9.081203621328315,
+    "overload_events": [
+      {
+        "tick": "14692",
+        "simulation_seconds": "244.86666666666667",
+        "controller_mode": "recover",
+        "guard_active": "1",
+        "aileron": "-0.6457926909629116",
+        "elevator": "-0.5015320267872102",
+        "rudder": "0.0",
+        "throttle": "0.9968288218645374",
+        "signed_g": "-9.081203621328315",
+        "abs_g": "9.081203621328315",
+        "overload_ticks": "1",
+        "altitude_m": "787.579753446731",
+        "cas_kts": "438.2149978161604",
+        "tas_mps": "233.09511421350098",
+        "roll_deg": "58.063733655909424",
+        "pitch_deg": "-3.769098552180607",
+        "alpha_deg": "6.50860276853918",
+        "p_rad_s": "-1.8900824019544784",
+        "q_rad_s": "0.10198176202528021",
+        "r_rad_s": "-0.01344844466698187",
+        "closing_mps": "-36.39161410278885",
+        "distance_m": "907.5770869754563",
+        "blue_angle_deg_judge_only": "27.999115040700303",
+        "bank_target": "0.0",
+        "pitch_target": "12.0",
+        "speed_target": "400.0",
+        "g_guard_latched": "0"
+      }
+    ],
+    "latched_ticks": 0,
+    "telemetry_sha256": "0025bf9bbc3d5b7713cad09d277ab0f4be748ce7aab9ff9330e25fed58f656f7"
+  },
+  "candidate": {
+    "actor": "candidate",
+    "control": "bank80_g_guard_latch_8_5_8_0",
+    "initial_sha256": "3816d7eec07af243f35d1f44f5f5b3582f1fe0f46cc7833e528e97d101c48652",
+    "metrics": {
+      "kills": 0,
+      "deaths": 0,
+      "own_crashes": 0,
+      "enemy_crashes": 0,
+      "survival": 1,
+      "attack_seconds": 1.0666666666666667,
+      "enemy_attack_seconds": 0.0,
+      "over_9g_seconds": 0.0,
+      "min_altitude_m": 775.1043133161503
+    },
+    "peak_abs_g": 8.73806866363506,
+    "overload_events": [],
+    "latched_ticks": 19,
+    "telemetry_sha256": "181c1a8bff5d169c5b62d6440c78f17f205d1d79891527c0175499c832a7d489"
+  },
+  "differences": {
+    "peak_abs_g": -0.3431349576932554,
+    "overload_ticks": -1,
+    "attack_seconds": -0.3833333333333333,
+    "min_altitude_m": -0.6001866814376626
+  },
+  "decision": "known_case_overload_removed_but_generalization_and_attack_tradeoff_unverified",
+  "promotion_allowed": false,
+  "next_action": "Freeze fixed candidate; compare pure repair_guide versus G-latch on new paired development starts, split rule/RL and worst-case safety. Do not rerun completed smoke or label new development seeds holdout.",
+  "causal_limit": "First command divergence158.4167s precedes original244.8667s overload; changed earlier recovery trajectory. Single paired case does not prove local244s unload mechanism or generalized combat benefit."
+}

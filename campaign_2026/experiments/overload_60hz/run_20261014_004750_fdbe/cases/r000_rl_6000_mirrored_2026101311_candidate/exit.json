@@ -1,0 +1,19 @@
+{
+  "exit_code": 0,
+  "wait_reason": "exited",
+  "identity": {
+    "pid": 4668,
+    "create_time": 1791910135.5989113,
+    "cmdline": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\overload_60hz\\launch_diagnostic.py",
+      "worker",
+      "--input",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\overload_60hz\\run_20261014_004750_fdbe\\cases\\r000_rl_6000_mirrored_2026101311_candidate\\input.json"
+    ],
+    "parent_pid": 16272
+  }
+}

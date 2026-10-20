@@ -1,0 +1,17 @@
+{
+  "tests_passed": 8,
+  "duration_seconds": 2.34,
+  "tests": [
+    "atomic_and_checksum",
+    "complete_and_count",
+    "completion_runs_next_stage",
+    "duplicate_lock",
+    "error_exit",
+    "resume_counts_only_increment",
+    "stop_and_save",
+    "timeout_owned_only"
+  ],
+  "exit_code": 0,
+  "verified_utc": "2026-10-04T16:25:07.9950404Z",
+  "scope": "runner test fixtures; real CUDA stop/resume recorded separately"
+}

@@ -1,0 +1,9 @@
+{
+  "scope": "Fresh unzip on MAIN PC only, not ASUS or LAN",
+  "actual_probe_exit": 0,
+  "actual_wall_seconds": 29.54699999999866,
+  "stdout": "套件完整性通過。CPU合成測試 p99：0.646 ms；這不是實際連線或戰力驗證。\n請將 vivobook_readiness.json 帶回這個聊天。\n",
+  "stderr": "",
+  "new_FDM_ticks": 0,
+  "original_zip_unchanged": true
+}

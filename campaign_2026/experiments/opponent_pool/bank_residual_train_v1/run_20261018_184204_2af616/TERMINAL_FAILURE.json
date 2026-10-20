@@ -1,0 +1,126 @@
+{
+  "failure": "Class inspect.getfile failed for dynamically loaded unregistered StationController; reflection only",
+  "actual_parent_shell_exit": 1,
+  "actual_worker_exit": 2,
+  "actual_precheck_exit": 0,
+  "verifier_started": false,
+  "actual_decisions": 0,
+  "gradient_updates": 0,
+  "new_recorded_FDM_ticks": 0,
+  "FDM_initialized": true,
+  "old_sources_unchanged": true,
+  "no_promotion": true,
+  "seedpool_not_reusable": [
+    2026310999,
+    2026311000,
+    2026311001,
+    2026311002,
+    2026311003,
+    2026311004,
+    2026311005,
+    2026311006,
+    2026311007,
+    2026311008,
+    2026311009,
+    2026311010,
+    2026311011,
+    2026311012,
+    2026311013,
+    2026311014,
+    2026311015,
+    2026311016,
+    2026311017,
+    2026311018,
+    2026311019,
+    2026311020,
+    2026311021,
+    2026311022,
+    2026311023,
+    2026311024,
+    2026311025,
+    2026311026,
+    2026311027,
+    2026311028,
+    2026311029,
+    2026311030,
+    2026311031
+  ],
+  "terminal_process_audit": [
+    {
+      "identity": {
+        "pid": 21844,
+        "create": 1792320123.4116437,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_train_v1\\guard.py"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 8564
+      },
+      "original_identity_alive": false
+    },
+    {
+      "identity": {
+        "pid": 4264,
+        "create": 1792320124.3201363,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_train_v1\\test_contract.py",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_train_v1\\run_20261018_184204_2af616"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 21844
+      },
+      "original_identity_alive": false
+    },
+    {
+      "identity": {
+        "pid": 3076,
+        "create": 1792320124.330295,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 4264
+      },
+      "original_identity_alive": false
+    },
+    {
+      "identity": {
+        "pid": 21676,
+        "create": 1792320132.357973,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_train_v1\\train.py",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_train_v1\\run_20261018_184204_2af616"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 21844
+      },
+      "original_identity_alive": false
+    },
+    {
+      "identity": {
+        "pid": 2696,
+        "create": 1792320132.3693855,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 21676
+      },
+      "original_identity_alive": false
+    }
+  ]
+}

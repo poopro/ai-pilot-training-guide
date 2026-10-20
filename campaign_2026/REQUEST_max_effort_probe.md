@@ -1,0 +1,1 @@
+This is a public, bounded configuration verification. Do not use tools or modify any files. Return only the sentence "Configuration probe completed." No source files are attached. No paid model fallback is permitted. The launcher selects the highest catalog-supported reasoning variant; session metadata will verify the selected model and variant.

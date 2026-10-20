@@ -1,0 +1,225 @@
+{
+  "verified_existing_bank_residual_authority": true,
+  "errors": [],
+  "results": [
+    {
+      "case": "normal_station_zero_2026310700",
+      "saved_packet_frames": 300,
+      "source_artifact_sha256": "f9b624195e03d5b28e31c05d455f4a450c97fcd2858454207faa5fdb4722aa99",
+      "runtime_receipt": {
+        "class_name": "RepairController",
+        "class_path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+        "class_sha256": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+        "act_path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+        "act_sha256": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+        "command_path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+        "command_sha256": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+        "MRO": [
+          {
+            "name": "RepairController",
+            "path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py"
+          }
+        ]
+      },
+      "existing_bank_limits": [
+        2.5,
+        8.0
+      ],
+      "neutral_residual_exact": true,
+      "neutral_matches_saved_actual_commands": true,
+      "private_clone_state": true,
+      "single_act_and_command": true,
+      "reset_first_command_exact": true,
+      "actions": {
+        "-1": {
+          "goal_changed_ticks": 0,
+          "command_changed_ticks": 0,
+          "aileron_changed_ticks": 0,
+          "other_surfaces_changed_ticks": 0,
+          "goal_clipped_ticks": 300,
+          "goal_change_masked_ticks": 0,
+          "first_changed_command_tick": null,
+          "slew_mask_ticks": 0,
+          "output_clip_mask_ticks": 0,
+          "safety_mask_ticks": 0
+        },
+        "0": {
+          "goal_changed_ticks": 0,
+          "command_changed_ticks": 0,
+          "aileron_changed_ticks": 0,
+          "other_surfaces_changed_ticks": 0,
+          "goal_clipped_ticks": 0,
+          "goal_change_masked_ticks": 0,
+          "first_changed_command_tick": null,
+          "slew_mask_ticks": 0,
+          "output_clip_mask_ticks": 0,
+          "safety_mask_ticks": 0
+        },
+        "1": {
+          "goal_changed_ticks": 300,
+          "command_changed_ticks": 285,
+          "aileron_changed_ticks": 285,
+          "other_surfaces_changed_ticks": 0,
+          "goal_clipped_ticks": 0,
+          "goal_change_masked_ticks": 15,
+          "first_changed_command_tick": 16,
+          "slew_mask_ticks": 8,
+          "output_clip_mask_ticks": 15,
+          "safety_mask_ticks": 0
+        }
+      }
+    },
+    {
+      "case": "mirrored_station_zero_2026310701",
+      "saved_packet_frames": 300,
+      "source_artifact_sha256": "5b65004a97ca1ff3a8a117fd0873631002bc314131c38bfc78f9d4933bdb805f",
+      "runtime_receipt": {
+        "class_name": "RepairController",
+        "class_path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+        "class_sha256": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+        "act_path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+        "act_sha256": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+        "command_path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+        "command_sha256": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+        "MRO": [
+          {
+            "name": "RepairController",
+            "path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py"
+          }
+        ]
+      },
+      "existing_bank_limits": [
+        2.5,
+        8.0
+      ],
+      "neutral_residual_exact": true,
+      "neutral_matches_saved_actual_commands": true,
+      "private_clone_state": true,
+      "single_act_and_command": true,
+      "reset_first_command_exact": true,
+      "actions": {
+        "-1": {
+          "goal_changed_ticks": 300,
+          "command_changed_ticks": 285,
+          "aileron_changed_ticks": 285,
+          "other_surfaces_changed_ticks": 0,
+          "goal_clipped_ticks": 0,
+          "goal_change_masked_ticks": 15,
+          "first_changed_command_tick": 16,
+          "slew_mask_ticks": 8,
+          "output_clip_mask_ticks": 15,
+          "safety_mask_ticks": 0
+        },
+        "0": {
+          "goal_changed_ticks": 0,
+          "command_changed_ticks": 0,
+          "aileron_changed_ticks": 0,
+          "other_surfaces_changed_ticks": 0,
+          "goal_clipped_ticks": 0,
+          "goal_change_masked_ticks": 0,
+          "first_changed_command_tick": null,
+          "slew_mask_ticks": 0,
+          "output_clip_mask_ticks": 0,
+          "safety_mask_ticks": 0
+        },
+        "1": {
+          "goal_changed_ticks": 0,
+          "command_changed_ticks": 0,
+          "aileron_changed_ticks": 0,
+          "other_surfaces_changed_ticks": 0,
+          "goal_clipped_ticks": 300,
+          "goal_change_masked_ticks": 0,
+          "first_changed_command_tick": null,
+          "slew_mask_ticks": 0,
+          "output_clip_mask_ticks": 0,
+          "safety_mask_ticks": 0
+        }
+      }
+    }
+  ],
+  "unique_saved_input_frames": 600,
+  "alternative_action_rows": 1800,
+  "invalid_input_checks": 4,
+  "synthetic_safety_parity": [
+    {
+      "kind": "low_altitude",
+      "action": -1,
+      "guard": true,
+      "requested_bank": -72.0,
+      "after_safety_bank": 0.0,
+      "non_aileron_channels_unchanged": true
+    },
+    {
+      "kind": "low_altitude",
+      "action": 0,
+      "guard": true,
+      "requested_bank": -72.0,
+      "after_safety_bank": 0.0,
+      "non_aileron_channels_unchanged": true
+    },
+    {
+      "kind": "low_altitude",
+      "action": 1,
+      "guard": true,
+      "requested_bank": -64.0,
+      "after_safety_bank": 0.0,
+      "non_aileron_channels_unchanged": true
+    },
+    {
+      "kind": "low_speed",
+      "action": -1,
+      "guard": true,
+      "requested_bank": -72.0,
+      "after_safety_bank": 0.0,
+      "non_aileron_channels_unchanged": true
+    },
+    {
+      "kind": "low_speed",
+      "action": 0,
+      "guard": true,
+      "requested_bank": -72.0,
+      "after_safety_bank": 0.0,
+      "non_aileron_channels_unchanged": true
+    },
+    {
+      "kind": "low_speed",
+      "action": 1,
+      "guard": true,
+      "requested_bank": -64.0,
+      "after_safety_bank": 0.0,
+      "non_aileron_channels_unchanged": true
+    },
+    {
+      "kind": "overG",
+      "action": -1,
+      "guard": false,
+      "requested_bank": -72.0,
+      "after_safety_bank": -72.0,
+      "non_aileron_channels_unchanged": true
+    },
+    {
+      "kind": "overG",
+      "action": 0,
+      "guard": false,
+      "requested_bank": -72.0,
+      "after_safety_bank": -72.0,
+      "non_aileron_channels_unchanged": true
+    },
+    {
+      "kind": "overG",
+      "action": 1,
+      "guard": false,
+      "requested_bank": -64.0,
+      "after_safety_bank": -64.0,
+      "non_aileron_channels_unchanged": true
+    }
+  ],
+  "independent_aileron_clip_and_slew_math": true,
+  "authority_csv_sha256": "e7662018ad014eda7d05d26544a95e248997186d4db985a514ae7097b63d7001",
+  "new_FDM_ticks": 0,
+  "model_inference_calls": 0,
+  "training_started": false,
+  "seed_claims": [],
+  "deployment_allowed": false,
+  "scope": "Real original act/command calls on saved packets, each alternative private clone of neutral history. No alternative action is sent to a simulator. Synthetic safety parity is not dynamic9G safety or combat advantage."
+}

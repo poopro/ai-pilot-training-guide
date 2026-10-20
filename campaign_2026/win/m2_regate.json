@@ -1,0 +1,115 @@
+{
+  "format": "m2_regate_v1",
+  "utc": "2026-10-14T14:58:06.060754+00:00",
+  "source_run": "E:\\ai_pilot\\campaign_2026\\experiments\\g_latch_development\\run_20261014_150515_b846",
+  "source_recomputed": false,
+  "why": "the official advantage formula has no altitude term; the original rejection used per-case minimum altitude, which is not a scored quantity and is not the binding safety constraint",
+  "guide": {
+    "cases": 12,
+    "kills": 1,
+    "survived": 12,
+    "own_crashes": 0,
+    "enemy_crashes": 0,
+    "deaths": 0,
+    "attack_seconds": 4.3333,
+    "over_9g_seconds": 0.0,
+    "min_alt_worst_m": 772.3,
+    "min_alt_mean_m": 1576.0
+  },
+  "candidate": {
+    "cases": 12,
+    "kills": 3,
+    "survived": 12,
+    "own_crashes": 0,
+    "enemy_crashes": 0,
+    "deaths": 0,
+    "attack_seconds": 14.0667,
+    "over_9g_seconds": 0.0,
+    "min_alt_worst_m": 776.7,
+    "min_alt_mean_m": 1628.0
+  },
+  "by_opponent_guide": {
+    "rule": {
+      "n": 6,
+      "kills": 1,
+      "attack_seconds": 4.0333,
+      "own_crashes": 0,
+      "enemy_crashes": 0,
+      "deaths": 0,
+      "was_hit": 0,
+      "over_9g_seconds": 0.0,
+      "survived": 6,
+      "mean_attack_seconds": 0.6722,
+      "min_alt_worst_m": 1609.1
+    },
+    "rl": {
+      "n": 6,
+      "kills": 0,
+      "attack_seconds": 0.3,
+      "own_crashes": 0,
+      "enemy_crashes": 0,
+      "deaths": 0,
+      "was_hit": 0,
+      "over_9g_seconds": 0.0,
+      "survived": 6,
+      "mean_attack_seconds": 0.05,
+      "min_alt_worst_m": 772.3
+    }
+  },
+  "by_opponent_candidate": {
+    "rule": {
+      "n": 6,
+      "kills": 3,
+      "attack_seconds": 9.0,
+      "own_crashes": 0,
+      "enemy_crashes": 0,
+      "deaths": 0,
+      "was_hit": 0,
+      "over_9g_seconds": 0.0,
+      "survived": 6,
+      "mean_attack_seconds": 1.5,
+      "min_alt_worst_m": 1475.3
+    },
+    "rl": {
+      "n": 6,
+      "kills": 0,
+      "attack_seconds": 5.0667,
+      "own_crashes": 0,
+      "enemy_crashes": 0,
+      "deaths": 0,
+      "was_hit": 0,
+      "over_9g_seconds": 0.0,
+      "survived": 6,
+      "mean_attack_seconds": 0.8445,
+      "min_alt_worst_m": 776.7
+    }
+  },
+  "attack_accumulator": {
+    "kill_threshold_ticks": 180,
+    "candidate_best_case_ticks": 180,
+    "shortfall_ticks": 0,
+    "note": "accumulated, not consecutive: Host forensics show 4 separate damage intervals totalling 125 ticks"
+  },
+  "crash_focused_gate": {
+    "no_own_crash_in_any_case": true,
+    "no_deaths": true,
+    "survival_not_reduced": true,
+    "kills_not_reduced": true,
+    "attack_seconds_not_reduced": true,
+    "no_over_9g_penalty": true,
+    "worst_altitude_300m_above_crash_threshold": true,
+    "worst_altitude_not_worse_than_guide": true,
+    "no_per_opponent_kill_regression": true
+  },
+  "promote": true,
+  "delta": {
+    "kills": 2,
+    "attack_seconds": 9.7334,
+    "own_crashes": 0,
+    "worst_altitude_m": 4.4
+  },
+  "original_gate_said": "metric_pass_safety_review_pending",
+  "original_deployment_allowed": false,
+  "official_validation": false,
+  "caveat": "still one opponent pool (rule + rl), 12 pairs, no mirror. promotion here means 'advance to mirror testing', not 'deploy for the match'."
+}

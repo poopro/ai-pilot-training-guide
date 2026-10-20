@@ -1,0 +1,19 @@
+{
+  "exit_code": 0,
+  "wait_reason": "exited",
+  "identity": {
+    "pid": 10876,
+    "create_time": 1791961573.5437071,
+    "cmdline": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\g_latch_development\\launch_development.py",
+      "worker",
+      "--input",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\g_latch_development\\run_20261014_150515_b846\\cases\\r000_rule_3000_mirrored_2026101400_guide\\input.json"
+    ],
+    "parent_pid": 12908
+  }
+}

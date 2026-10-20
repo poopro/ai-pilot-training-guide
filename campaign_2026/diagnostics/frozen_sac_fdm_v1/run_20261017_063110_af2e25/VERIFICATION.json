@@ -1,0 +1,18 @@
+{
+  "verified_FDM_packet_timing": true,
+  "errors": [],
+  "parent_exit_code_observed": 0,
+  "actual_worker_exit": 0,
+  "new_FDM_ticks": 1200,
+  "models": [
+    "sac5000",
+    "transfer10000"
+  ],
+  "result_sha256": "bea76c9e95ec3e3cfd0154e3ecf53d8024889da7895b5a451b01a7ff8d5cc03f",
+  "contract_sha256": "2bdd630e613d0153dda4c0b6001e89fead35f428d462fcef7a7de0f00cf39723",
+  "exit_receipt_sha256": "5c75f007b05d1ff57ec07f312d9af01377fbeb6d235510f11aaacaa04ef2ddd2",
+  "full_battle_verified": false,
+  "learned_selfplay_training": false,
+  "deployment_allowed": false,
+  "attack_counter_nonzero_exercised": false
+}

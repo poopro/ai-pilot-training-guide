@@ -1,0 +1,319 @@
+[1/144] topen:out:3:side=-1/sac:25600000 timeout winner=blue margin 1603.4
+[2/144] topen:out:6:side=-1/sac:25600000 timeout winner=blue margin 2390.9
+[3/144] tuned/sac:25600000 timeout winner=red margin -10140.3
+[4/144] topen:out:12:side=-1/sac:25600000 timeout winner=blue margin 2337.4
+[5/144] topen:out:9:side=-1/sac:25600000 timeout winner=blue margin 2258.3
+[6/144] topen:hy:6:side=-1/sac:25600000 timeout winner=red margin -4985.5
+[7/144] tuned/sac:25600000 timeout winner=red margin -26512.6
+[8/144] topen:out:3:side=-1/sac:25600000 timeout winner=red margin -806.8
+[9/144] topen:out:6:side=-1/sac:25600000 timeout winner=red margin -10742.8
+[10/144] topen:hy:6:side=-1/sac:25600000 blue_kill winner=blue margin 65554.8
+[11/144] topen:out:12:side=-1/sac:25600000 timeout winner=red margin -3525.4
+[12/144] topen:out:9:side=-1/sac:25600000 timeout winner=blue margin 786.6
+[13/144] topen:out:3:side=-1/sac:25600000 blue_kill winner=blue margin 81514.2
+[14/144] tuned/sac:25600000 timeout winner=blue margin 10308.3
+[15/144] topen:out:6:side=-1/sac:25600000 timeout winner=red margin -16555.3
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[16/144] topen:out:9:side=-1/sac:25600000 timeout winner=blue margin 2350.7
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[17/144] topen:out:12:side=-1/sac:25600000 timeout winner=red margin -1078.3
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[18/144] topen:hy:6:side=-1/sac:25600000 timeout winner=red margin -6461.6
+[19/144] tuned/sac:25600000 timeout winner=red margin -4338.4
+[20/144] topen:out:3:side=-1/sac:25600000 timeout winner=red margin -344.3
+[21/144] topen:out:6:side=-1/sac:25600000 timeout winner=blue margin 2534.4
+[22/144] topen:out:9:side=-1/sac:25600000 timeout winner=blue margin 2281.0
+[23/144] topen:out:12:side=-1/sac:25600000 timeout winner=blue margin 2695.5
+[24/144] topen:hy:6:side=-1/sac:25600000 timeout winner=red margin -27492.3
+[25/144] topen:out:3:side=-1/sac:25600000 blue_kill winner=blue margin 82474.7
+[26/144] tuned/sac:25600000 timeout winner=red margin -6209.1
+[27/144] topen:out:6:side=-1/sac:25600000 timeout winner=red margin -1061.3
+[28/144] topen:out:9:side=-1/sac:25600000 timeout winner=red margin -2671.9
+[29/144] topen:out:12:side=-1/sac:25600000 timeout winner=red margin -2253.0
+[30/144] topen:hy:6:side=-1/sac:25600000 timeout winner=red margin -4667.4
+[31/144] tuned/sac:25600000 timeout winner=red margin -2018.4
+[32/144] topen:out:3:side=-1/sac:25600000 timeout winner=red margin -6224.6
+[33/144] topen:out:6:side=-1/sac:25600000 timeout winner=red margin -17397.0
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[34/144] topen:out:9:side=-1/sac:25600000 timeout winner=red margin -16677.3
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[35/144] topen:out:12:side=-1/sac:25600000 timeout winner=red margin -815.3
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[36/144] topen:hy:6:side=-1/sac:25600000 timeout winner=red margin -3450.8
+[37/144] tuned/sac:25600000 timeout winner=blue margin 3046.1
+[38/144] topen:out:3:side=-1/sac:25600000 timeout winner=blue margin 642.8
+[39/144] topen:out:6:side=-1/sac:25600000 red_crash winner=blue margin 966.6
+[40/144] topen:out:9:side=-1/sac:25600000 timeout winner=blue margin 2286.5
+[41/144] topen:out:12:side=-1/sac:25600000 timeout winner=blue margin 2342.5
+[42/144] topen:hy:6:side=-1/sac:25600000 timeout winner=blue margin 2507.7
+[43/144] tuned/sac:25600000 timeout winner=red margin -7219.0
+[44/144] topen:out:3:side=-1/sac:25600000 timeout winner=red margin -30871.5
+[45/144] topen:out:6:side=-1/sac:25600000 timeout winner=red margin -2528.0
+[46/144] topen:out:9:side=-1/sac:25600000 timeout winner=red margin -762.2
+[47/144] topen:out:12:side=-1/sac:25600000 timeout winner=red margin -810.5
+[48/144] topen:hy:6:side=-1/sac:25600000 timeout winner=red margin -29025.1
+[49/144] tuned/sac:25600000 timeout winner=red margin -27008.4
+[50/144] topen:out:3:side=-1/sac:25600000 timeout winner=red margin -26596.5
+[51/144] topen:out:6:side=-1/sac:25600000 timeout winner=red margin -1182.4
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[52/144] topen:out:9:side=-1/sac:25600000 blue_kill winner=blue margin 74725.2
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[53/144] topen:out:12:side=-1/sac:25600000 timeout winner=blue margin 917.5
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[54/144] topen:hy:6:side=-1/sac:25600000 timeout winner=red margin -26450.3
+[55/144] tuned/sac:25600000 collision winner=blue margin 3659.1
+[56/144] topen:out:3:side=-1/sac:25600000 timeout winner=red margin -6998.6
+[57/144] topen:out:6:side=-1/sac:25600000 timeout winner=blue margin 2926.9
+[58/144] topen:out:9:side=-1/sac:25600000 timeout winner=blue margin 2355.6
+[59/144] topen:out:12:side=-1/sac:25600000 timeout winner=blue margin 2392.8
+[60/144] topen:hy:6:side=-1/sac:25600000 timeout winner=red margin -25804.9
+[61/144] tuned/sac:25600000 timeout winner=red margin -7419.1
+[62/144] topen:out:3:side=-1/sac:25600000 timeout winner=red margin -11201.6
+[63/144] topen:out:6:side=-1/sac:25600000 timeout winner=red margin -7231.3
+[64/144] topen:out:9:side=-1/sac:25600000 timeout winner=red margin -268.7
+[65/144] topen:out:12:side=-1/sac:25600000 timeout winner=red margin -290.7
+[66/144] topen:hy:6:side=-1/sac:25600000 timeout winner=red margin -29284.3
+[67/144] tuned/sac:25600000 timeout winner=red margin -26827.9
+[68/144] topen:out:3:side=-1/sac:25600000 timeout winner=red margin -26452.5
+[69/144] topen:out:6:side=-1/sac:25600000 red_crash winner=blue margin 134.4
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[70/144] topen:out:9:side=-1/sac:25600000 timeout winner=blue margin 1818.4
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[71/144] topen:out:12:side=-1/sac:25600000 timeout winner=blue margin 1413.8
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[72/144] topen:hy:6:side=-1/sac:25600000 timeout winner=red margin -26266.5
+[73/144] tuned/sac:25600000 timeout winner=red margin -1102.8
+[74/144] topen:out:3:side=-1/sac:25600000 timeout winner=blue margin 3006.1
+[75/144] topen:out:6:side=-1/sac:25600000 timeout winner=blue margin 4974.2
+[76/144] topen:out:9:side=-1/sac:25600000 timeout winner=blue margin 2605.1
+[77/144] tuned/sac:25600000 collision winner=red margin -1645.7
+[78/144] topen:out:12:side=-1/sac:25600000 timeout winner=blue margin 2077.0
+[79/144] topen:hy:6:side=-1/sac:25600000 timeout winner=blue margin 785.0
+[80/144] topen:out:3:side=-1/sac:25600000 blue_kill winner=blue margin 82509.9
+[81/144] topen:out:12:side=-1/sac:25600000 blue_kill winner=blue margin 70561.4
+[82/144] topen:out:6:side=-1/sac:25600000 timeout winner=red margin -6087.2
+[83/144] topen:out:9:side=-1/sac:25600000 timeout winner=blue margin 827.0
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[84/144] topen:hy:6:side=-1/sac:25600000 timeout winner=red margin -13298.7
+[85/144] tuned/sac:25600000 timeout winner=red margin -26554.0
+[86/144] topen:out:3:side=-1/sac:25600000 timeout winner=red margin -26024.0
+[87/144] topen:out:9:side=-1/sac:25600000 timeout winner=blue margin 431.3
+[88/144] topen:out:12:side=-1/sac:25600000 timeout winner=red margin -78.8
+[89/144] topen:out:6:side=-1/sac:25600000 timeout winner=red margin -25705.7
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[90/144] topen:hy:6:side=-1/sac:25600000 timeout winner=red margin -25877.5
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[91/144] tuned/sac:25600000 timeout winner=red margin -8289.2
+[92/144] topen:out:3:side=-1/sac:25600000 timeout winner=blue margin 2402.5
+[93/144] topen:out:12:side=-1/sac:25600000 timeout winner=blue margin 2347.3
+[94/144] topen:out:6:side=-1/sac:25600000 timeout winner=blue margin 3009.7
+[95/144] topen:out:9:side=-1/sac:25600000 timeout winner=blue margin 2588.4
+[96/144] topen:hy:6:side=-1/sac:25600000 timeout winner=red margin -11358.8
+[97/144] tuned/sac:25600000 timeout winner=red margin -7163.8
+[98/144] topen:out:3:side=-1/sac:25600000 timeout winner=red margin -8862.1
+[99/144] topen:out:6:side=-1/sac:25600000 blue_kill winner=blue margin 74691.1
+[100/144] topen:out:9:side=-1/sac:25600000 timeout winner=red margin -783.9
+[101/144] topen:out:12:side=-1/sac:25600000 timeout winner=red margin -576.8
+[102/144] topen:out:3:side=-1/sac:25600000 blue_kill winner=blue margin 80031.8
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[103/144] topen:hy:6:side=-1/sac:25600000 timeout winner=red margin -29961.5
+[104/144] tuned/sac:25600000 timeout winner=red margin -5305.9
+[105/144] topen:out:9:side=-1/sac:25600000 collision winner=blue margin 457.3
+[106/144] topen:out:6:side=-1/sac:25600000 timeout winner=red margin -8267.3
+[107/144] topen:out:12:side=-1/sac:25600000 timeout winner=red margin -1036.4
+[108/144] topen:hy:6:side=-1/sac:25600000 timeout winner=red margin -5455.3
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[109/144] tuned/sac:25600000 timeout winner=blue margin 3014.8
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[110/144] topen:out:3:side=-1/sac:25600000 timeout winner=blue margin 645.4
+[111/144] topen:out:6:side=-1/sac:25600000 timeout winner=red margin -4402.0
+[112/144] topen:out:9:side=-1/sac:25600000 timeout winner=blue margin 2553.3
+[113/144] tuned/sac:25600000 blue_kill winner=blue margin 81101.3
+[114/144] topen:out:12:side=-1/sac:25600000 timeout winner=blue margin 2485.6
+[115/144] topen:hy:6:side=-1/sac:25600000 timeout winner=red margin -5855.9
+[116/144] topen:out:3:side=-1/sac:25600000 collision winner=blue margin 508.1
+[117/144] topen:out:9:side=-1/sac:25600000 red_crash winner=blue margin -3288.6
+[118/144] topen:out:6:side=-1/sac:25600000 timeout winner=red margin -1385.4
+[119/144] topen:out:12:side=-1/sac:25600000 timeout winner=red margin -18304.3
+[120/144] tuned/sac:25600000 blue_kill winner=blue margin 80389.3
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[121/144] topen:hy:6:side=-1/sac:25600000 timeout winner=red margin -10126.2
+[122/144] topen:out:3:side=-1/sac:25600000 timeout winner=red margin -3707.9
+[123/144] topen:out:6:side=-1/sac:25600000 timeout winner=red margin -41317.8
+[124/144] topen:hy:6:side=-1/sac:25600000 blue_kill winner=blue margin 78179.4
+[125/144] topen:out:9:side=-1/sac:25600000 timeout winner=red margin -5071.5
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[126/144] topen:out:12:side=-1/sac:25600000 timeout winner=red margin -1011.5
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[127/144] tuned/sac:25600000 timeout winner=red margin -27065.0
+[128/144] topen:out:3:side=-1/sac:25600000 timeout winner=blue margin 876.2
+[129/144] topen:out:6:side=-1/sac:25600000 timeout winner=blue margin 2111.3
+[130/144] topen:out:12:side=-1/sac:25600000 timeout winner=blue margin 2358.5
+[131/144] topen:out:9:side=-1/sac:25600000 timeout winner=blue margin 2382.7
+[132/144] topen:hy:6:side=-1/sac:25600000 timeout winner=red margin -26141.7
+[133/144] topen:out:3:side=-1/sac:25600000 blue_kill winner=blue margin 65225.0
+[134/144] tuned/sac:25600000 timeout winner=red margin -26873.8
+[135/144] topen:out:6:side=-1/sac:25600000 timeout winner=red margin -11083.0
+[136/144] topen:out:9:side=-1/sac:25600000 timeout winner=red margin -163.0
+[137/144] topen:out:12:side=-1/sac:25600000 timeout winner=blue margin 204.3
+[138/144] topen:hy:6:side=-1/sac:25600000 blue_kill winner=blue margin 66145.4
+[139/144] tuned/sac:25600000 blue_kill winner=blue margin 59905.4
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[140/144] topen:out:3:side=-1/sac:25600000 timeout winner=red margin -12925.2
+[141/144] topen:out:6:side=-1/sac:25600000 timeout winner=red margin -10109.1
+[142/144] topen:out:9:side=-1/sac:25600000 timeout winner=red margin -1833.1
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[143/144] topen:hy:6:side=-1/sac:25600000 timeout winner=blue margin 378.7
+[144/144] topen:out:12:side=-1/sac:25600000 timeout winner=red margin -5834.2
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+

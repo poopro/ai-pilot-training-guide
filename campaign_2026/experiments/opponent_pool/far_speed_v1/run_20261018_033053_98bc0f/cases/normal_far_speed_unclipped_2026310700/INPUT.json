@@ -1,0 +1,17 @@
+{
+  "out": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\run_20261018_033053_98bc0f",
+  "case": {
+    "id": "normal_far_speed_unclipped_2026310700",
+    "opening": 0,
+    "side": "normal",
+    "seed": 2026310700,
+    "actor": "far_speed_unclipped",
+    "red": "sac5000",
+    "distance_ft": 6000,
+    "max_ticks": 18000
+  },
+  "limits": {
+    "deadline_monotonic": 11347.078,
+    "deadline_epoch": 1792265609.879481
+  }
+}

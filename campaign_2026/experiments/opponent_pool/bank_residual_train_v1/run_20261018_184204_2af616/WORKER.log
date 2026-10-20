@@ -1,0 +1,32 @@
+Traceback (most recent call last):
+  File "E:\ai_pilot\campaign_2026\experiments\opponent_pool\bank_residual_train_v1\train.py", line 26, in run
+    model.learn(total_timesteps=c.DECISIONS,callback=Progress())
+  File "C:\Users\USER\anaconda3\envs\F16_ai\lib\site-packages\stable_baselines3\sac\sac.py", line 307, in learn
+    return super().learn(
+  File "C:\Users\USER\anaconda3\envs\F16_ai\lib\site-packages\stable_baselines3\common\off_policy_algorithm.py", line 314, in learn
+    total_timesteps, callback = self._setup_learn(
+  File "C:\Users\USER\anaconda3\envs\F16_ai\lib\site-packages\stable_baselines3\common\off_policy_algorithm.py", line 297, in _setup_learn
+    return super()._setup_learn(
+  File "C:\Users\USER\anaconda3\envs\F16_ai\lib\site-packages\stable_baselines3\common\base_class.py", line 423, in _setup_learn
+    self._last_obs = self.env.reset()  # type: ignore[assignment]
+  File "C:\Users\USER\anaconda3\envs\F16_ai\lib\site-packages\stable_baselines3\common\vec_env\dummy_vec_env.py", line 77, in reset
+    obs, self.reset_infos[env_idx] = self.envs[env_idx].reset(seed=self._seeds[env_idx], **maybe_options)
+  File "C:\Users\USER\anaconda3\envs\F16_ai\lib\site-packages\stable_baselines3\common\monitor.py", line 83, in reset
+    return self.env.reset(**kwargs)
+  File "E:\ai_pilot\campaign_2026\experiments\opponent_pool\bank_residual_train_v1\environment.py", line 46, in reset
+    start=dict(case=case,initial=initial,initial_sha256=c.digest(initial),side_transform=side,blue=c.bridge.receipt(blue),red=runtime_receipt(red_obj),red_kind=self.red_kind,opponent_fallback=False);self.starts.append(start);c.write(self.out/f"episode_{case['episode']:03d}_start.json",start)
+  File "E:\ai_pilot\campaign_2026\experiments\opponent_pool\bank_residual_train_v1\environment.py", line 19, in runtime_receipt
+    path=Path(inspect.getfile(type(obj))).resolve();return dict(class_name=type(obj).__name__,path=str(path),sha256=c.sha(path))
+  File "C:\Users\USER\anaconda3\envs\F16_ai\lib\site-packages\torch\package\package_importer.py", line 730, in _patched_getfile
+    return _orig_getfile(object)
+  File "C:\Users\USER\anaconda3\envs\F16_ai\lib\inspect.py", line 786, in getfile
+    raise TypeError('{!r} is a built-in class'.format(object))
+TypeError: <class 'frozen_opponent_station_v1.StationController'> is a built-in class
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+{"status": "failed_partial_training", "decisions": 0, "updates": 0, "new_FDM_ticks": 0, "error": "TypeError(\"<class 'frozen_opponent_station_v1.StationController'> is a built-in class\")"}

@@ -1,0 +1,1 @@
+{"script": "rollout_sac.py", "args": ["eval", "--opponents", "sac314", "--n", "12", "--workers", "3", "--seed0", "900000", "--out", "runs/eval_baseline_sac314"], "max_minutes": 60}

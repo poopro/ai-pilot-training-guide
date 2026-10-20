@@ -1,0 +1,7 @@
+36 games, 2110 near states (1776 core), opponents {np.str_('breaker'): 151, np.str_('guide'): 514, np.str_('lag'): 474, np.str_('lead'): 788, np.str_('level'): 38, np.str_('mix'): 145}
+always LEAD: core 9.2  all 12.8  {np.str_('breaker'): 73.3, np.str_('guide'): 19.9, np.str_('lag'): 26.5, np.str_('lead'): -8.2, np.str_('level'): -3.2, np.str_('mix'): -2.1}
+ridge     core  15.4  all  30.2  tau 0  {np.str_('breaker'): 106.8, np.str_('guide'): 21.1, np.str_('lag'): 22.6, np.str_('lead'): 7.3, np.str_('level'): 11.7, np.str_('mix'): 137.4}  (0s)
+mlp a3    core  20.5  all  34.4  tau 0  {np.str_('breaker'): 96.3, np.str_('guide'): 20.0, np.str_('lag'): 23.5, np.str_('lead'): 19.1, np.str_('level'): 31.2, np.str_('mix'): 141.5}  (100s)
+mlp a10   core  17.2  all  23.3  tau 5  {np.str_('breaker'): 110.1, np.str_('guide'): 20.1, np.str_('lag'): 22.8, np.str_('lead'): 12.0, np.str_('level'): 1.0, np.str_('mix'): 13.2}  (63s)
+chosen: mlp a3 tau 0.0
+saved ro/opt_mlp_b1.npz

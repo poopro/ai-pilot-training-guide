@@ -1,0 +1,115 @@
+{
+  "case": {
+    "id": "sac5000_neutral",
+    "pair": 0,
+    "episode": 0,
+    "seed": 2026315000,
+    "opponent": "sac5000",
+    "side": "normal",
+    "distance_ft": 6000,
+    "mode": "neutral",
+    "max_ticks": 18000
+  },
+  "initial": [
+    [
+      23.044123718302977,
+      121.9484901914238,
+      18884.507483739406,
+      -1.871409601156767e-14,
+      -3.481883497306974e-15,
+      90.20796585556585,
+      -2.7145896120687327,
+      747.8816386496752,
+      -1.1730685631484785e-14,
+      0.0,
+      0.0,
+      0.0,
+      573.8553514144058,
+      747.8865652129898,
+      -0.4578448886470748,
+      747.8865652129911,
+      -3.241851231905457e-14,
+      -2.0650148258027912e-14,
+      -1.5820130973571742e-15,
+      -2.44204165892356e-15,
+      23.060552000000005,
+      121.94855500000001,
+      18884.507483739406,
+      2.714589612068648,
+      -747.8816386496765,
+      3.803910033574492e-14
+    ],
+    [
+      23.060552000000005,
+      121.94855500000001,
+      18884.507483739406,
+      -1.6244052180913177e-14,
+      -9.141484762009671e-15,
+      270.2079658555659,
+      2.714589612068648,
+      -747.8816386496765,
+      3.803910033574492e-14,
+      0.0,
+      0.0,
+      0.0,
+      573.8553514144071,
+      747.8865652129924,
+      -0.457844888647393,
+      747.8865652129921,
+      3.9968028886505635e-15,
+      -3.574918139293004e-14,
+      -2.7387538567151215e-15,
+      2.794002470308354e-16,
+      23.044123718302977,
+      121.9484901914238,
+      18884.507483739406,
+      -2.7145896120687327,
+      747.8816386496752,
+      -1.1730685631484785e-14
+    ]
+  ],
+  "initial_sha256": "b97dbe52c4d6ea23796033ef7fe1176f42ca10fd44f900401aff42e0d5f91fa4",
+  "side_transform": {
+    "side": "normal",
+    "normal_cross_track_m": -1828.8000000006389,
+    "actual_cross_track_m": -1828.8000000006389,
+    "distance_m": 1828.800001470878
+  },
+  "blue": {
+    "class_name": "RepairController",
+    "class_path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+    "class_sha256": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+    "act_path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+    "act_sha256": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+    "command_path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+    "command_sha256": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+    "MRO": [
+      {
+        "name": "RepairController",
+        "path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py"
+      }
+    ]
+  },
+  "command_source": {
+    "path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+    "sha256": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f"
+  },
+  "red": {
+    "class_name": "StationController",
+    "module": "frozen_opponent_station_v1",
+    "path": "E:\\ai_pilot\\campaign_2026\\experiments\\m4_tactical_v4\\m1_station.py",
+    "sha256": "fcda220748b0a64413d10c987df850ea975d2925994b556157c62331e97795fc"
+  },
+  "red_rng_state": {
+    "bit_generator": "PCG64",
+    "state": {
+      "state": 58974054178063194163316856238405851640,
+      "inc": 2545235131591383734718590910347919811
+    },
+    "has_uint32": 1,
+    "uinteger": 530218882
+  },
+  "candidate_model_sha256": "b9bcce79185343c4fdf1b022feb42c4dceb62c8e312da29962c07ae34513b176",
+  "parent_step_path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\env.py",
+  "opponent_fallback": false
+}

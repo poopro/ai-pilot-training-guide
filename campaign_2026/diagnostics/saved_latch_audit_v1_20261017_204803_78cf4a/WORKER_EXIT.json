@@ -1,0 +1,64 @@
+{
+  "actual_worker_exit": 0,
+  "reason": null,
+  "identity": {
+    "pid": 15300,
+    "create": 1792241283.5084937,
+    "cmd": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\saved_latch_audit_guardian_v1.py",
+      "--worker",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\saved_latch_audit_v1_20261017_204803_78cf4a"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent": 6048
+  },
+  "descendants": [
+    {
+      "identity": {
+        "pid": 26360,
+        "create": 1792241283.5214815,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 15300
+      },
+      "chain": [
+        {
+          "pid": 26360,
+          "create": 1792241283.5214815,
+          "cmd": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent": 15300
+        }
+      ],
+      "worker": {
+        "pid": 15300,
+        "create": 1792241283.5084937,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\diagnostics\\saved_latch_audit_guardian_v1.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\diagnostics\\saved_latch_audit_v1_20261017_204803_78cf4a"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 6048
+      }
+    }
+  ],
+  "absent": true,
+  "cleanup_actions": [],
+  "wall_seconds": 91.03199999999924,
+  "guardian_return_intended": 0
+}

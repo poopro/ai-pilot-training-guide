@@ -1,0 +1,31 @@
+{
+  "default_model": "opencode/space-bunny-free",
+  "effort_policy": "highest_supported",
+  "selection": "live catalog, strict zero input/output/cache prices, explicit provider/model#variant",
+  "unknown_price_or_variant_order": "reject_before_request",
+  "models_without_variants": "report no adjustable effort, never claim max",
+  "verified_default_selector": "opencode/space-bunny-free#max",
+  "verification": "E:\\ai_pilot\\campaign_2026\\delegations\\20261012_195711_cb9b\\model_evidence.json",
+  "verified_metadata": [
+    {
+      "model": {
+        "id": "space-bunny-free",
+        "providerID": "opencode",
+        "variant": "max"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 3985,
+        "output": 439,
+        "reasoning": 742,
+        "cache": {
+          "read": 271,
+          "write": 0
+        }
+      }
+    }
+  ],
+  "backup": "E:\\ai_pilot\\campaign_2026\\opencode_task.before_highest_effort_20261012.py",
+  "user_cancelled_unclear_flagship_selection": true,
+  "private_source_scope": "Existing explicit three-file consent to Space Bunny only; no broadened file upload."
+}

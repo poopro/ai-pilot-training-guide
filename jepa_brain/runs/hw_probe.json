@@ -1,0 +1,30 @@
+{
+ "time": "2026-10-17 06:35:43",
+ "platform": "Windows-10-10.0.26100-SP0",
+ "machine": "AMD64",
+ "python": "3.10.21",
+ "logical_cpus": 8,
+ "ram_total_gib": 15.9,
+ "ram_avail_gib": 3.46,
+ "physical_cores": 4,
+ "cpu_mhz": 3801.0,
+ "cpu_name": "AMD Ryzen 3 4100 4-Core Processor",
+ "gpu": "NVIDIA GeForce RTX 3060 | 4GB",
+ "model": "Micro-Star International Co., Ltd. MS-7C52",
+ "nic": "AttributeError(\"'NoneType' object has no attribute 'strip'\")",
+ "torch": "2.5.1+cu121",
+ "cuda": true,
+ "plan_latency": {
+  "H2": {
+   "mean_ms": 4.31,
+   "p99_ms": 6.78,
+   "max_ms": 8.24
+  },
+  "H3": {
+   "mean_ms": 9.44,
+   "p99_ms": 15.45,
+   "max_ms": 15.79
+  }
+ },
+ "n_params": 237028
+}

@@ -1,0 +1,158 @@
+{
+  "date_taipei": "2026-10-14",
+  "reserved_hours": 3.6,
+  "limit_hours": 6.0,
+  "items": [
+    {
+      "id": "run_20261014_004750_fdbe",
+      "hours": 0.3333333333333333,
+      "status": "completed",
+      "kind": "observed_overload_60hz_replay",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\overload_60hz\\run_20261014_004750_fdbe",
+      "actual_wall_seconds": 113.8131160736084,
+      "supervisor_exit_code": "unobserved; workers individually observed exit0"
+    },
+    {
+      "id": "host_auto_capture_20261014_0640",
+      "hours": 0.2,
+      "status": "completed",
+      "kind": "official_host_auto_capture_validation",
+      "deadline_seconds": 720,
+      "actual_wall_seconds": 151.05034184455872,
+      "run": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_20261014_063034_6f22",
+      "auto_collector_exit_code": 0,
+      "watchdog_exit_code": 0
+    },
+    {
+      "id": "host_fixed_round2_1791959798",
+      "hours": 0.2,
+      "status": "completed",
+      "kind": "official_host_fixed_round2",
+      "deadline_seconds": 720,
+      "run": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_20261014_143645_bedc",
+      "actual_wall_seconds": 222.55433702468872,
+      "auto_collector_exit_code": 0,
+      "watchdog_exit_code": 0
+    },
+    {
+      "id": "host_fixed_round3_1791960100706618700",
+      "hours": 0.2,
+      "status": "completed",
+      "kind": "official_host_fixed_round",
+      "deadline_seconds": 720,
+      "run": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_20261014_144142_d414",
+      "actual_wall_seconds": 211.72308945655823,
+      "auto_collector_exit_code": 0,
+      "watchdog_exit_code": 0
+    },
+    {
+      "id": "host_fixed_round4_1791960341145014100",
+      "hours": 0.2,
+      "status": "completed",
+      "kind": "official_host_fixed_round",
+      "deadline_seconds": 720,
+      "run": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_20261014_144542_1cca",
+      "actual_wall_seconds": 245.70936965942383,
+      "auto_collector_exit_code": 0,
+      "watchdog_exit_code": 0
+    },
+    {
+      "id": "run_20261014_145019_d9db",
+      "hours": 0.3333333333333333,
+      "status": "completed",
+      "kind": "g_latch_two_case_smoke",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\g_latch_smoke\\run_20261014_145019_d9db",
+      "actual_wall_seconds": 118.22351241111755,
+      "actual_parent_exit_code": 0,
+      "actual_guardian_exit_code": 0,
+      "actual_verifier_exit_code": 0
+    },
+    {
+      "id": "host_fixed_round5_1791960846258107500",
+      "hours": 0.2,
+      "status": "completed",
+      "kind": "official_host_fixed_round",
+      "deadline_seconds": 720,
+      "run": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_20261014_145407_177e",
+      "actual_wall_seconds": 267.27420949935913,
+      "auto_collector_exit_code": 0,
+      "watchdog_exit_code": 0
+    },
+    {
+      "id": "host_fixed_round6_1791961128343965200",
+      "hours": 0.2,
+      "status": "completed",
+      "kind": "official_host_fixed_round",
+      "deadline_seconds": 720,
+      "run": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_20261014_145849_e0c5",
+      "actual_wall_seconds": 208.1466464996338,
+      "auto_collector_exit_code": 0,
+      "watchdog_exit_code": 0
+    },
+    {
+      "id": "g_latch_development_2026101400_ceacb8b08b05",
+      "hours": 0.6666666666666666,
+      "status": "completed_verified",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\g_latch_development\\run_20261014_150515_b846",
+      "actual_wall_seconds": 922.9875664710999,
+      "actual_parent_exit_code": 0,
+      "actual_guardian_exit_code": 0,
+      "post_audit_passed": true
+    },
+    {
+      "id": "guide_pool_smoke_2026102400",
+      "hours": 0.25,
+      "status": "attempted_terminal",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\run_20261014_195159_f7d760",
+      "warning_only_daily_policy": true,
+      "parent_exit_code": 2,
+      "actual_wall_seconds": 5.672000000005937
+    },
+    {
+      "id": "guide_pool_smoke_v3_2026102500_diagnostic_2",
+      "hours": 0.016666666666666666,
+      "status": "attempted_terminal",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\v3\\run_20261014_202846_6d8021",
+      "warning_only_daily_policy": true,
+      "parent_exit_code": 15
+    },
+    {
+      "id": "guide_pool_smoke_v4_2026102600_diagnostic_2",
+      "hours": 0.016666666666666666,
+      "status": "attempted_terminal",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\v4\\run_20261014_203352_611acd",
+      "warning_only_daily_policy": true,
+      "parent_exit_code": 0,
+      "actual_wall_seconds": 2.4530000000013388
+    },
+    {
+      "id": "portable_20261014_203837_2976b892",
+      "hours": 0.2,
+      "status": "incomplete",
+      "profile": "portable_repair_guide_rehearsal_v1",
+      "warning_only": true,
+      "reserved_utc": "2026-10-14T12:38:37.401834+00:00",
+      "output": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v1\\runs\\portable_20261014_203837_2976b892"
+    },
+    {
+      "id": "guide_pool_smoke_v5_2026102700_full24",
+      "hours": 0.25,
+      "status": "completed_interface_verified",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\v5\\run_20261014_204421_9a31c4",
+      "warning_only_daily_policy": true,
+      "parent_exit_code": 0,
+      "actual_wall_seconds": 111.10900000000402,
+      "actual_parent_exit_code": 0,
+      "actual_guard_exit_code": 0,
+      "actual_verifier_exit_code": 0
+    },
+    {
+      "id": "near75_known_cf_5a197df1ff174636",
+      "hours": 0.3333333333333333,
+      "status": "reserved",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank75_diagnostic\\run_20261014_205119_9401",
+      "kind": "known_development_counterfactual"
+    }
+  ],
+  "policy": "warning_only_original_monotonic_hard_deadline"
+}

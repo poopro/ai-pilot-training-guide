@@ -1,0 +1,36 @@
+{
+  "observed_utc": "2026-10-15T16:32:45.490867+00:00",
+  "verified_paired_yaw_FDM": true,
+  "comparisons": [
+    {
+      "pair": "yaw_0_2026101620",
+      "heading_error_deg": -1.2,
+      "full_attack_delta_ticks": 180,
+      "common_attack_delta_ticks": 180,
+      "common_min_AGL_delta_m": -1.5144238634752583,
+      "candidate_max_abs_G": 1.5080704114788328,
+      "candidate_over9G_ticks": 0,
+      "candidate_crash_margin_m": 3786.871764721628,
+      "candidate_terminal_tick_delta": -119,
+      "same_round_win_when_both_end": false
+    },
+    {
+      "pair": "yaw_1_2026101621",
+      "heading_error_deg": 1.2,
+      "full_attack_delta_ticks": 0,
+      "common_attack_delta_ticks": -3,
+      "common_min_AGL_delta_m": -0.02081322612320946,
+      "candidate_max_abs_G": 1.1115545183925382,
+      "candidate_over9G_ticks": 0,
+      "candidate_crash_margin_m": 5107.947642797952,
+      "candidate_terminal_tick_delta": 3,
+      "same_round_win_when_both_end": true
+    }
+  ],
+  "interpretation": "Left correction failure reproduced and corrected. Right both reach180, candidate3ticks/.05s later; common min altitude -1.5144m left and -.0208m right, far above50m in these fixtures. No over9G. Tradeoffs retained, no new tolerance retrofitted or professional-team win claim.",
+  "allow_bounded_fresh_learning_pilot": true,
+  "reason": "Geometric sign defect is reproduced, isolated, and physically corrected on two paired fixtures; the small right timing/height tradeoff is explicitly reviewed. This supports exploratory bounded training, not formal deployment or a full official-opening gate.",
+  "deployment_allowed": false,
+  "official_opening_safety_validated": false,
+  "source_verification_sha256": "ce67c45d7f4695746bba6a115f0f47180de42ba66f733725eecac54d8d50dda9"
+}

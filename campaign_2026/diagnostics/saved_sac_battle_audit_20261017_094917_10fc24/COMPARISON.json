@@ -1,0 +1,346 @@
+{
+  "verified_comparison": true,
+  "errors": [],
+  "complete_games": 6,
+  "new_FDM_ticks": 108000,
+  "actual_parent_exit": 0,
+  "actual_worker_exits": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "source_contract_sha256": "bb79f2ffeb744d93668384b0a8939c38489dcdbe67cfcaf505f7964737821235",
+  "results": [
+    {
+      "case": {
+        "id": "normal_station_zero_2026310200",
+        "opening": 0,
+        "side": "normal",
+        "seed": 2026310200,
+        "actor": "station_zero",
+        "red": "sac5000",
+        "distance_ft": 6000,
+        "max_ticks": 18000
+      },
+      "initial_sha256": "7a879438030dcead49829c705578b7c78ba8270236022c8f5b0fd29dfac336a8",
+      "event": "timeout",
+      "winner": "red",
+      "ticks": 18000,
+      "attack_ticks": [
+        0,
+        0
+      ],
+      "over9G": [
+        0,
+        0
+      ],
+      "total_score": [
+        1670.4361086019726,
+        1672.4275102054908
+      ],
+      "score_margin": -1.9914016035181703,
+      "peak_abs_g": [
+        2.8447710021186343,
+        2.856998887381622
+      ],
+      "min_agl_m": [
+        2677.2932986105075,
+        2676.7633354761083
+      ],
+      "side_transform": {
+        "side": "normal",
+        "normal_cross_track_m": -1828.8000000006618,
+        "actual_cross_track_m": -1828.8000000006618,
+        "distance_m": 1828.8257717709394
+      }
+    },
+    {
+      "case": {
+        "id": "normal_sac5000_2026310200",
+        "opening": 0,
+        "side": "normal",
+        "seed": 2026310200,
+        "actor": "sac5000",
+        "red": "sac5000",
+        "distance_ft": 6000,
+        "max_ticks": 18000
+      },
+      "initial_sha256": "7a879438030dcead49829c705578b7c78ba8270236022c8f5b0fd29dfac336a8",
+      "event": "timeout",
+      "winner": "red",
+      "ticks": 18000,
+      "attack_ticks": [
+        0,
+        0
+      ],
+      "over9G": [
+        0,
+        0
+      ],
+      "total_score": [
+        1670.4361086019726,
+        1672.4275102054908
+      ],
+      "score_margin": -1.9914016035181703,
+      "peak_abs_g": [
+        2.8447710021186343,
+        2.856998887381622
+      ],
+      "min_agl_m": [
+        2677.2932986105075,
+        2676.7633354761083
+      ],
+      "side_transform": {
+        "side": "normal",
+        "normal_cross_track_m": -1828.8000000006618,
+        "actual_cross_track_m": -1828.8000000006618,
+        "distance_m": 1828.8257717709394
+      }
+    },
+    {
+      "case": {
+        "id": "normal_transfer10000_2026310200",
+        "opening": 0,
+        "side": "normal",
+        "seed": 2026310200,
+        "actor": "transfer10000",
+        "red": "sac5000",
+        "distance_ft": 6000,
+        "max_ticks": 18000
+      },
+      "initial_sha256": "7a879438030dcead49829c705578b7c78ba8270236022c8f5b0fd29dfac336a8",
+      "event": "timeout",
+      "winner": "red",
+      "ticks": 18000,
+      "attack_ticks": [
+        0,
+        0
+      ],
+      "over9G": [
+        0,
+        0
+      ],
+      "total_score": [
+        1670.4361086019726,
+        1672.4275102054908
+      ],
+      "score_margin": -1.9914016035181703,
+      "peak_abs_g": [
+        2.8447710021186343,
+        2.856998887381622
+      ],
+      "min_agl_m": [
+        2677.2932986105075,
+        2676.7633354761083
+      ],
+      "side_transform": {
+        "side": "normal",
+        "normal_cross_track_m": -1828.8000000006618,
+        "actual_cross_track_m": -1828.8000000006618,
+        "distance_m": 1828.8257717709394
+      }
+    },
+    {
+      "case": {
+        "id": "mirrored_station_zero_2026310201",
+        "opening": 1,
+        "side": "mirrored",
+        "seed": 2026310201,
+        "actor": "station_zero",
+        "red": "sac5000",
+        "distance_ft": 6000,
+        "max_ticks": 18000
+      },
+      "initial_sha256": "863528803bae7e3b6e287714117b288c806da7ed5c3f4cb2c1fcf945d8835580",
+      "event": "timeout",
+      "winner": "red",
+      "ticks": 18000,
+      "attack_ticks": [
+        0,
+        0
+      ],
+      "over9G": [
+        0,
+        0
+      ],
+      "total_score": [
+        1397.130543901107,
+        1401.7417173349263
+      ],
+      "score_margin": -4.611173433819204,
+      "peak_abs_g": [
+        2.83260031629275,
+        2.8206316479449853
+      ],
+      "min_agl_m": [
+        3763.6461067042674,
+        3762.2080820488995
+      ],
+      "side_transform": {
+        "side": "mirrored",
+        "normal_cross_track_m": -1828.80000000039,
+        "actual_cross_track_m": 1828.799999999775,
+        "distance_m": 1828.8026042417837
+      }
+    },
+    {
+      "case": {
+        "id": "mirrored_sac5000_2026310201",
+        "opening": 1,
+        "side": "mirrored",
+        "seed": 2026310201,
+        "actor": "sac5000",
+        "red": "sac5000",
+        "distance_ft": 6000,
+        "max_ticks": 18000
+      },
+      "initial_sha256": "863528803bae7e3b6e287714117b288c806da7ed5c3f4cb2c1fcf945d8835580",
+      "event": "timeout",
+      "winner": "red",
+      "ticks": 18000,
+      "attack_ticks": [
+        0,
+        0
+      ],
+      "over9G": [
+        0,
+        0
+      ],
+      "total_score": [
+        1397.130543901107,
+        1401.7417173349263
+      ],
+      "score_margin": -4.611173433819204,
+      "peak_abs_g": [
+        2.83260031629275,
+        2.8206316479449853
+      ],
+      "min_agl_m": [
+        3763.6461067042674,
+        3762.2080820488995
+      ],
+      "side_transform": {
+        "side": "mirrored",
+        "normal_cross_track_m": -1828.80000000039,
+        "actual_cross_track_m": 1828.799999999775,
+        "distance_m": 1828.8026042417837
+      }
+    },
+    {
+      "case": {
+        "id": "mirrored_transfer10000_2026310201",
+        "opening": 1,
+        "side": "mirrored",
+        "seed": 2026310201,
+        "actor": "transfer10000",
+        "red": "sac5000",
+        "distance_ft": 6000,
+        "max_ticks": 18000
+      },
+      "initial_sha256": "863528803bae7e3b6e287714117b288c806da7ed5c3f4cb2c1fcf945d8835580",
+      "event": "timeout",
+      "winner": "red",
+      "ticks": 18000,
+      "attack_ticks": [
+        0,
+        0
+      ],
+      "over9G": [
+        0,
+        0
+      ],
+      "total_score": [
+        1397.130543901107,
+        1401.7417173349263
+      ],
+      "score_margin": -4.611173433819204,
+      "peak_abs_g": [
+        2.83260031629275,
+        2.8206316479449853
+      ],
+      "min_agl_m": [
+        3763.6461067042674,
+        3762.2080820488995
+      ],
+      "side_transform": {
+        "side": "mirrored",
+        "normal_cross_track_m": -1828.80000000039,
+        "actual_cross_track_m": 1828.799999999775,
+        "distance_m": 1828.8026042417837
+      }
+    }
+  ],
+  "paired_tradeoffs": [
+    {
+      "opening": 0,
+      "side": "normal",
+      "candidate": "sac5000",
+      "baseline": "station_zero",
+      "candidate_event": "timeout",
+      "baseline_event": "timeout",
+      "candidate_winner": "red",
+      "baseline_winner": "red",
+      "attack_delta": 0,
+      "full_score_margin_delta": 0.0,
+      "common_ticks": 18000,
+      "common_minimum_AGL_delta_m": 0.0,
+      "common_score_margin_delta": 0.0
+    },
+    {
+      "opening": 0,
+      "side": "normal",
+      "candidate": "transfer10000",
+      "baseline": "station_zero",
+      "candidate_event": "timeout",
+      "baseline_event": "timeout",
+      "candidate_winner": "red",
+      "baseline_winner": "red",
+      "attack_delta": 0,
+      "full_score_margin_delta": 0.0,
+      "common_ticks": 18000,
+      "common_minimum_AGL_delta_m": 0.0,
+      "common_score_margin_delta": 0.0
+    },
+    {
+      "opening": 1,
+      "side": "mirrored",
+      "candidate": "sac5000",
+      "baseline": "station_zero",
+      "candidate_event": "timeout",
+      "baseline_event": "timeout",
+      "candidate_winner": "red",
+      "baseline_winner": "red",
+      "attack_delta": 0,
+      "full_score_margin_delta": 0.0,
+      "common_ticks": 18000,
+      "common_minimum_AGL_delta_m": 0.0,
+      "common_score_margin_delta": 0.0
+    },
+    {
+      "opening": 1,
+      "side": "mirrored",
+      "candidate": "transfer10000",
+      "baseline": "station_zero",
+      "candidate_event": "timeout",
+      "baseline_event": "timeout",
+      "candidate_winner": "red",
+      "baseline_winner": "red",
+      "attack_delta": 0,
+      "full_score_margin_delta": 0.0,
+      "common_ticks": 18000,
+      "common_minimum_AGL_delta_m": 0.0,
+      "common_score_margin_delta": 0.0
+    }
+  ],
+  "all_frozen_policy_decisions_independently_recomputed": true,
+  "full_60Hz_controller_replay_performed": false,
+  "nonzero_attack_counter_exercised": false,
+  "deployment_allowed": false,
+  "official_validation": false,
+  "independent_saved_data_reaudit": "E:\\ai_pilot\\campaign_2026\\diagnostics\\saved_sac_battle_audit_20261017_094917_10fc24",
+  "original_60s_verifier_success": false,
+  "original_verifier_failure_preserved": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_battle_v2\\run_20261017_093943_16bee6\\VERIFIER_EXIT.json"
+}

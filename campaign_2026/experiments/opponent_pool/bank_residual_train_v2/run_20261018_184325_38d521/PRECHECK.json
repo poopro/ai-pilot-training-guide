@@ -1,0 +1,18 @@
+{
+  "verified_training_contract": true,
+  "checks": [
+    "17 exact frozen legal13 plus explicit own speeds and signed LOS",
+    "1D action existing4residual mapping and bounds",
+    "observation has only packet owncounter guard clock arguments",
+    "independent scalar advantage reward/winner/truncation/unresolved gate",
+    "preregistered18 distinct cells in32 private episode seeds",
+    "actual new step method fake-parent20ticks/privateclock/no legacy reward leakage",
+    "fresh private controller/state/settings neutral reset parity",
+    "true frozen model/controller dynamic-module method-source receipt, no FDM or learner",
+    "opponent exceptions failclosed no silent mirror fallback"
+  ],
+  "groups": 9,
+  "fake_parent_physics_calls": 20,
+  "new_FDM_ticks": 0,
+  "learner_started": false
+}

@@ -1,0 +1,23 @@
+{
+  "observed_utc": "2026-10-15T15:18:36.964550+00:00",
+  "command": [
+    "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\m4_tactical_v2\\test_contract.py",
+    "-v"
+  ],
+  "actual_exit_code": 0,
+  "scope": "AST-loaded real methods with fake FDM/parent/gym; no Torch import and no simulated flight",
+  "new_FDM_ticks": 0,
+  "new_learner_launched": false,
+  "deployment_allowed": false,
+  "training_launch_allowed": false,
+  "source_hashes": {
+    "m4_tactical_rl.py": "4911a27a68c325c9767e08fad1cc93935e06394679f21f6023ab8cb34b4929a0",
+    "m1_station.py": "5d53e18676d18158f3e0bc278e02ed7d42ecca1b1c7c7a6562611184454717ef",
+    "m3_mirror_league.py": "e6f47242eb344dacbb68b78d0b229ca5018b787c71d3ee94d660e25ead0371c1",
+    "test_contract.py": "db4bbe0ede0a3214b3e23040d567adc6dadcf8cec1ab87afa5a280ba47405929"
+  }
+}

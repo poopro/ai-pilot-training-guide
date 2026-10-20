@@ -1,0 +1,145 @@
+{
+  "verified_paired_yaw_FDM": true,
+  "errors": [],
+  "new_FDM_ticks": 3960,
+  "cases": [
+    {
+      "case_id": "yaw_0_v3_unsigned_2026101620",
+      "pair_key": "yaw_0_2026101620",
+      "actor_id": "v3_unsigned",
+      "heading_error_deg": -1.2,
+      "initial_blue_sha256": "320b37bf4640fb448acc6fd757f559e6b08c418475b5b84d2ffe12268d58b18a",
+      "initial_red_sha256": "b7cec32037ccac0b369814a9b2e0a483c7770abe08c84f6c2ef627f708f44e6a",
+      "stage": "rear",
+      "opponent": "rule",
+      "ticks_per_reset": 600,
+      "attack_ticks_per_reset": 0,
+      "event": "ongoing",
+      "winner": null,
+      "same_seed_reset_reproduced": true,
+      "score_eligible": false
+    },
+    {
+      "case_id": "yaw_0_v4_signed_2026101620",
+      "pair_key": "yaw_0_2026101620",
+      "actor_id": "v4_signed",
+      "heading_error_deg": -1.2,
+      "initial_blue_sha256": "320b37bf4640fb448acc6fd757f559e6b08c418475b5b84d2ffe12268d58b18a",
+      "initial_red_sha256": "b7cec32037ccac0b369814a9b2e0a483c7770abe08c84f6c2ef627f708f44e6a",
+      "stage": "rear",
+      "opponent": "rule",
+      "ticks_per_reset": 481,
+      "attack_ticks_per_reset": 180,
+      "event": "blue_kill",
+      "winner": "blue",
+      "same_seed_reset_reproduced": true,
+      "score_eligible": false
+    },
+    {
+      "case_id": "yaw_1_v4_signed_2026101621",
+      "pair_key": "yaw_1_2026101621",
+      "actor_id": "v4_signed",
+      "heading_error_deg": 1.2,
+      "initial_blue_sha256": "3179d7fd6cd52737246668ee129bfde503a4401438a61dc58ecefc2677eb02ca",
+      "initial_red_sha256": "ff31ba5d26e272f3d9cbe6e23704493fd66f81efd406e017344b0147e2982e6e",
+      "stage": "rear",
+      "opponent": "rule",
+      "ticks_per_reset": 451,
+      "attack_ticks_per_reset": 180,
+      "event": "blue_kill",
+      "winner": "blue",
+      "same_seed_reset_reproduced": true,
+      "score_eligible": false
+    },
+    {
+      "case_id": "yaw_1_v3_unsigned_2026101621",
+      "pair_key": "yaw_1_2026101621",
+      "actor_id": "v3_unsigned",
+      "heading_error_deg": 1.2,
+      "initial_blue_sha256": "3179d7fd6cd52737246668ee129bfde503a4401438a61dc58ecefc2677eb02ca",
+      "initial_red_sha256": "ff31ba5d26e272f3d9cbe6e23704493fd66f81efd406e017344b0147e2982e6e",
+      "stage": "rear",
+      "opponent": "rule",
+      "ticks_per_reset": 448,
+      "attack_ticks_per_reset": 180,
+      "event": "blue_kill",
+      "winner": "blue",
+      "same_seed_reset_reproduced": true,
+      "score_eligible": false
+    }
+  ],
+  "complete_worker_count": 4,
+  "paired_openings": 2,
+  "comparisons": [
+    {
+      "pair_key": "yaw_0_2026101620",
+      "initial_heading_error_deg": -1.2,
+      "same_initial_blue_red_SHA": true,
+      "common_exposure_ticks": 481,
+      "actors": {
+        "v3_unsigned": {
+          "ticks": 600,
+          "attack_ticks": 0,
+          "event": "ongoing",
+          "winner": null,
+          "min_TA_deg": 1.2065774075256708,
+          "max_abs_G": 1.2699768665813893,
+          "over9G_ticks": 0,
+          "min_AGL_m": 3838.3861885851034,
+          "common_min_AGL_m": 3838.3861885851034,
+          "common_attack_ticks": 0
+        },
+        "v4_signed": {
+          "ticks": 481,
+          "attack_ticks": 180,
+          "event": "blue_kill",
+          "winner": "blue",
+          "min_TA_deg": 0.3640942929664754,
+          "max_abs_G": 1.5080704114788328,
+          "over9G_ticks": 0,
+          "min_AGL_m": 3836.871764721628,
+          "common_min_AGL_m": 3836.871764721628,
+          "common_attack_ticks": 180
+        }
+      }
+    },
+    {
+      "pair_key": "yaw_1_2026101621",
+      "initial_heading_error_deg": 1.2,
+      "same_initial_blue_red_SHA": true,
+      "common_exposure_ticks": 448,
+      "actors": {
+        "v4_signed": {
+          "ticks": 451,
+          "attack_ticks": 180,
+          "event": "blue_kill",
+          "winner": "blue",
+          "min_TA_deg": 0.39639282248980134,
+          "max_abs_G": 1.1115545183925382,
+          "over9G_ticks": 0,
+          "min_AGL_m": 5157.947642797952,
+          "common_min_AGL_m": 5157.949741008611,
+          "common_attack_ticks": 177
+        },
+        "v3_unsigned": {
+          "ticks": 448,
+          "attack_ticks": 180,
+          "event": "blue_kill",
+          "winner": "blue",
+          "min_TA_deg": 0.37804764910481997,
+          "max_abs_G": 1.112517297292925,
+          "over9G_ticks": 0,
+          "min_AGL_m": 5157.970554234735,
+          "common_min_AGL_m": 5157.970554234735,
+          "common_attack_ticks": 180
+        }
+      }
+    }
+  ],
+  "actual_observed_launcher_exit_code": 0,
+  "training_started": false,
+  "official_Host_conformance_verified": false,
+  "combat_win_rate_evidence": false,
+  "deployment_allowed": false,
+  "report_sha256": "01add9ed73ec4096aa84b4576199fffd27db106d7b4c8545fdbd2739206f1be8"
+}

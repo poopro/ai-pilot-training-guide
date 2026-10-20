@@ -1,0 +1,14 @@
+{
+  "observed_utc": "2026-10-17 04:25:43 UTC",
+  "remaining_percent": 32,
+  "primary": {
+    "usedPercent": 35,
+    "windowDurationMins": 300,
+    "resetsAt": 1792218521
+  },
+  "weekly": {
+    "usedPercent": 68,
+    "windowDurationMins": 10080,
+    "resetsAt": 1792654206
+  }
+}

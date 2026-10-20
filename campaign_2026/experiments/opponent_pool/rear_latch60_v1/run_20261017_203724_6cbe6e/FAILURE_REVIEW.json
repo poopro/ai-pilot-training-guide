@@ -1,0 +1,69 @@
+{
+  "status": "failed_partial_preserved_not_restarted",
+  "actual_parent_tool_exit": 1,
+  "actual_workers": [
+    2
+  ],
+  "cause": "NumPy bool_ in latch wrapped/released trace cannot JSON serialize; failure during first case judge logging",
+  "complete_games": 0,
+  "observed_CSV_data_rows": 2,
+  "possible_FDM_initialized_and_stepped": true,
+  "seeds": [
+    2026310500,
+    2026310501
+  ],
+  "reservation_seconds_retained": 600,
+  "verified_comparison": false,
+  "identity_audit": [
+    {
+      "identity": {
+        "pid": 23632,
+        "create": 1792240643.440317,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v1\\battle.py",
+          "--launch"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 18560
+      },
+      "exact_identity_live": false
+    },
+    {
+      "identity": {
+        "pid": 3020,
+        "create": 1792240645.064934,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v1\\battle.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v1\\run_20261017_203724_6cbe6e\\cases\\normal_bank60_2026310500"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 23632
+      },
+      "exact_identity_live": false
+    },
+    {
+      "identity": {
+        "pid": 15196,
+        "create": 1792240645.0774102,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 3020
+      },
+      "exact_identity_live": false
+    }
+  ],
+  "source_unchanged": true,
+  "deployment_allowed": false
+}

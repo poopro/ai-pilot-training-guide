@@ -1,0 +1,441 @@
+[1/192] base/ctl:base timeout winner=red atk 0/0 margin -4.0
+[2/192] base_t3/ctl:base timeout winner=blue atk 0/0 margin 182.7
+[3/192] tuned/ctl:base timeout winner=blue atk 0/0 margin 222.2
+[4/192] base/ctl:base timeout winner=red atk 0/0 margin -2.9
+[5/192] user_nz_t/ctl:base timeout winner=red atk 0/0 margin -30.5
+[6/192] base_t3/ctl:base timeout winner=red atk 0/0 margin -2.9
+[7/192] tuned/ctl:base timeout winner=blue atk 0/0 margin 23.5
+[8/192] base/ctl:base timeout winner=red atk 0/0 margin -11.9
+[9/192] user_nz_t/ctl:base timeout winner=blue atk 0/0 margin 277.7
+[10/192] base_t3/ctl:base timeout winner=red atk 0/0 margin -11.9
+[11/192] tuned/ctl:base timeout winner=red atk 0/0 margin -11.9
+[12/192] user_nz_t/ctl:base timeout winner=red atk 0/0 margin -11.9
+[13/192] base/ctl:base timeout winner=red atk 0/0 margin -3.8
+[14/192] base_t3/ctl:base timeout winner=red atk 0/0 margin -49.9
+[15/192] tuned/ctl:base timeout winner=blue atk 0/0 margin 549.0
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[16/192] user_nz_t/ctl:base timeout winner=blue atk 0/0 margin 429.2
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[17/192] base/ctl:base timeout winner=blue atk 0/0 margin 12.3
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[18/192] base_t3/ctl:base timeout winner=blue atk 0/0 margin 12.3
+[19/192] tuned/ctl:base timeout winner=blue atk 0/0 margin 14.2
+[20/192] base/ctl:base timeout winner=blue atk 0/0 margin 2.1
+[21/192] user_nz_t/ctl:base timeout winner=blue atk 0/0 margin 12.3
+[22/192] base_t3/ctl:base timeout winner=blue atk 0/0 margin 2.1
+[23/192] tuned/ctl:base timeout winner=blue atk 0/0 margin 2.1
+[24/192] user_nz_t/ctl:base timeout winner=blue atk 0/0 margin 2.1
+[25/192] base/ctl:base timeout winner=blue atk 0/0 margin 8.6
+[26/192] base_t3/ctl:base timeout winner=red atk 0/0 margin -42.2
+[27/192] tuned/ctl:base timeout winner=blue atk 0/0 margin 77.4
+[28/192] base/ctl:base timeout winner=red atk 0/0 margin -2.1
+[29/192] user_nz_t/ctl:base timeout winner=red atk 0/0 margin -87.7
+[30/192] base_t3/ctl:base timeout winner=red atk 0/0 margin -2.1
+[31/192] tuned/ctl:base timeout winner=blue atk 0/0 margin 3.4
+[32/192] user_nz_t/ctl:base timeout winner=blue atk 0/0 margin 180.3
+[33/192] base/ctl:base timeout winner=blue atk 0/0 margin 13.0
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[34/192] base_t3/ctl:base timeout winner=blue atk 0/0 margin 13.0
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[35/192] tuned/ctl:base timeout winner=blue atk 0/0 margin 13.0
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[36/192] user_nz_t/ctl:base timeout winner=blue atk 0/0 margin 13.0
+[37/192] base/ctl:base timeout winner=red atk 0/0 margin -4.4
+[38/192] base_t3/ctl:base timeout winner=red atk 0/0 margin -49.2
+[39/192] tuned/ctl:base timeout winner=blue atk 0/0 margin 672.0
+[40/192] user_nz_t/ctl:base timeout winner=red atk 0/0 margin -46.0
+[41/192] base/ctl:base timeout winner=blue atk 0/0 margin 6.6
+[42/192] base_t3/ctl:base timeout winner=blue atk 0/0 margin 6.6
+[43/192] tuned/ctl:base timeout winner=blue atk 0/0 margin 6.6
+[44/192] user_nz_t/ctl:base timeout winner=blue atk 0/0 margin 6.6
+[45/192] base/ctl:base timeout winner=blue atk 0/0 margin 11.4
+[46/192] base_t3/ctl:base timeout winner=blue atk 0/0 margin 11.4
+[47/192] tuned/ctl:base timeout winner=blue atk 0/0 margin 11.4
+[48/192] user_nz_t/ctl:base timeout winner=blue atk 0/0 margin 11.4
+[49/192] base/ctl:base_t3 timeout winner=red atk 0/0 margin -179.4
+[50/192] base_t3/ctl:base_t3 collision winner=red atk 0/0 margin -6.8
+[51/192] tuned/ctl:base_t3 timeout winner=blue atk 0/0 margin 328.5
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[52/192] user_nz_t/ctl:base_t3 timeout winner=blue atk 0/0 margin 30.8
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[53/192] base/ctl:base_t3 timeout winner=red atk 0/0 margin -2.9
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[54/192] base_t3/ctl:base_t3 timeout winner=red atk 0/0 margin -2.9
+[55/192] tuned/ctl:base_t3 timeout winner=blue atk 0/0 margin 23.5
+[56/192] base/ctl:base_t3 timeout winner=red atk 0/0 margin -11.9
+[57/192] user_nz_t/ctl:base_t3 timeout winner=blue atk 0/0 margin 277.7
+[58/192] base_t3/ctl:base_t3 timeout winner=red atk 0/0 margin -11.9
+[59/192] tuned/ctl:base_t3 timeout winner=red atk 0/0 margin -11.9
+[60/192] user_nz_t/ctl:base_t3 timeout winner=red atk 0/0 margin -11.9
+[61/192] base_t3/ctl:base_t3 collision winner=red atk 0/0 margin -3.1
+[62/192] base/ctl:base_t3 timeout winner=blue atk 0/0 margin 49.8
+[63/192] tuned/ctl:base_t3 timeout winner=blue atk 0/0 margin 549.0
+[64/192] user_nz_t/ctl:base_t3 timeout winner=blue atk 0/0 margin 429.2
+[65/192] base/ctl:base_t3 timeout winner=blue atk 0/0 margin 12.3
+[66/192] base_t3/ctl:base_t3 timeout winner=blue atk 0/0 margin 12.3
+[67/192] tuned/ctl:base_t3 timeout winner=blue atk 0/0 margin 14.2
+[68/192] user_nz_t/ctl:base_t3 timeout winner=blue atk 0/0 margin 12.3
+[69/192] base/ctl:base_t3 timeout winner=blue atk 0/0 margin 2.1
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[70/192] base_t3/ctl:base_t3 timeout winner=blue atk 0/0 margin 2.1
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[71/192] tuned/ctl:base_t3 timeout winner=blue atk 0/0 margin 2.1
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[72/192] user_nz_t/ctl:base_t3 timeout winner=blue atk 0/0 margin 2.1
+[73/192] base/ctl:base_t3 timeout winner=blue atk 0/0 margin 60.5
+[74/192] base_t3/ctl:base_t3 timeout winner=blue atk 0/0 margin 7.4
+[75/192] tuned/ctl:base_t3 timeout winner=blue atk 0/0 margin 282.1
+[76/192] user_nz_t/ctl:base_t3 timeout winner=red atk 0/0 margin -87.7
+[77/192] base/ctl:base_t3 timeout winner=red atk 0/0 margin -2.1
+[78/192] base_t3/ctl:base_t3 timeout winner=red atk 0/0 margin -2.1
+[79/192] tuned/ctl:base_t3 timeout winner=blue atk 0/0 margin 3.4
+[80/192] user_nz_t/ctl:base_t3 timeout winner=blue atk 0/0 margin 180.3
+[81/192] base/ctl:base_t3 timeout winner=blue atk 0/0 margin 13.0
+[82/192] base_t3/ctl:base_t3 timeout winner=blue atk 0/0 margin 13.0
+[83/192] tuned/ctl:base_t3 timeout winner=blue atk 0/0 margin 13.0
+[84/192] user_nz_t/ctl:base_t3 timeout winner=blue atk 0/0 margin 13.0
+[85/192] base/ctl:base_t3 timeout winner=blue atk 0/0 margin 40.3
+[86/192] base_t3/ctl:base_t3 timeout winner=red atk 0/0 margin -4.6
+[87/192] tuned/ctl:base_t3 timeout winner=red atk 0/0 margin -68.1
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[88/192] user_nz_t/ctl:base_t3 timeout winner=red atk 0/0 margin -46.0
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[89/192] base/ctl:base_t3 timeout winner=blue atk 0/0 margin 6.6
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[90/192] base_t3/ctl:base_t3 timeout winner=blue atk 0/0 margin 6.6
+[91/192] tuned/ctl:base_t3 timeout winner=blue atk 0/0 margin 6.6
+[92/192] user_nz_t/ctl:base_t3 timeout winner=blue atk 0/0 margin 6.6
+[93/192] base/ctl:base_t3 timeout winner=blue atk 0/0 margin 11.4
+[94/192] base_t3/ctl:base_t3 timeout winner=blue atk 0/0 margin 11.4
+[95/192] tuned/ctl:base_t3 timeout winner=blue atk 0/0 margin 11.4
+[96/192] user_nz_t/ctl:base_t3 timeout winner=blue atk 0/0 margin 11.4
+[97/192] base/ctl:tuned timeout winner=red atk 0/0 margin -529.1
+[98/192] base_t3/ctl:tuned timeout winner=red atk 0/31 margin -5333.2
+[99/192] tuned/ctl:tuned timeout winner=blue atk 0/0 margin 424.1
+[100/192] user_nz_t/ctl:tuned timeout winner=red atk 0/4 margin -1403.4
+[101/192] base/ctl:tuned timeout winner=red atk 0/0 margin -26.1
+[102/192] base_t3/ctl:tuned timeout winner=red atk 0/0 margin -26.1
+[103/192] tuned/ctl:tuned timeout winner=red atk 0/0 margin -0.6
+[104/192] user_nz_t/ctl:tuned timeout winner=blue atk 0/0 margin 276.8
+[105/192] base/ctl:tuned timeout winner=red atk 0/0 margin -11.9
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[106/192] base_t3/ctl:tuned timeout winner=red atk 0/0 margin -11.9
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[107/192] tuned/ctl:tuned timeout winner=red atk 0/0 margin -11.9
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[108/192] user_nz_t/ctl:tuned timeout winner=red atk 0/0 margin -11.9
+[109/192] tuned/ctl:tuned collision winner=red atk 0/0 margin -5.1
+[110/192] base/ctl:tuned timeout winner=red atk 0/0 margin -560.1
+[111/192] base_t3/ctl:tuned timeout winner=red atk 0/0 margin -560.1
+[112/192] user_nz_t/ctl:tuned timeout winner=blue atk 0/0 margin 374.1
+[113/192] base/ctl:tuned timeout winner=blue atk 0/0 margin 10.3
+[114/192] base_t3/ctl:tuned timeout winner=blue atk 0/0 margin 10.3
+[115/192] tuned/ctl:tuned timeout winner=blue atk 0/0 margin 12.2
+[116/192] user_nz_t/ctl:tuned timeout winner=blue atk 0/0 margin 10.3
+[117/192] base/ctl:tuned timeout winner=blue atk 0/0 margin 2.1
+[118/192] base_t3/ctl:tuned timeout winner=blue atk 0/0 margin 2.1
+[119/192] tuned/ctl:tuned timeout winner=blue atk 0/0 margin 2.1
+[120/192] user_nz_t/ctl:tuned timeout winner=blue atk 0/0 margin 2.1
+[121/192] base/ctl:tuned timeout winner=blue atk 0/0 margin 16.2
+[122/192] tuned/ctl:tuned collision winner=blue atk 0/0 margin 9.0
+[123/192] base_t3/ctl:tuned timeout winner=red atk 0/0 margin -55.2
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[124/192] user_nz_t/ctl:tuned timeout winner=red atk 0/0 margin -117.9
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[125/192] base/ctl:tuned timeout winner=red atk 0/0 margin -7.7
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[126/192] base_t3/ctl:tuned timeout winner=red atk 0/0 margin -7.7
+[127/192] tuned/ctl:tuned timeout winner=red atk 0/0 margin -2.2
+[128/192] user_nz_t/ctl:tuned timeout winner=blue atk 0/0 margin 192.9
+[129/192] base/ctl:tuned timeout winner=blue atk 0/0 margin 13.0
+[130/192] base_t3/ctl:tuned timeout winner=blue atk 0/0 margin 13.0
+[131/192] tuned/ctl:tuned timeout winner=blue atk 0/0 margin 13.0
+[132/192] user_nz_t/ctl:tuned timeout winner=blue atk 0/0 margin 13.0
+[133/192] tuned/ctl:tuned collision winner=red atk 0/0 margin -0.8
+[134/192] base/ctl:tuned timeout winner=red atk 0/0 margin -692.5
+[135/192] base_t3/ctl:tuned timeout winner=blue atk 0/0 margin 31.7
+[136/192] user_nz_t/ctl:tuned timeout winner=blue atk 0/0 margin 26.0
+[137/192] base/ctl:tuned timeout winner=blue atk 0/0 margin 6.6
+[138/192] base_t3/ctl:tuned timeout winner=blue atk 0/0 margin 6.6
+[139/192] tuned/ctl:tuned timeout winner=blue atk 0/0 margin 6.6
+[140/192] user_nz_t/ctl:tuned timeout winner=blue atk 0/0 margin 6.6
+[141/192] base/ctl:tuned timeout winner=blue atk 0/0 margin 11.4
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[142/192] base_t3/ctl:tuned timeout winner=blue atk 0/0 margin 11.4
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[143/192] tuned/ctl:tuned timeout winner=blue atk 0/0 margin 11.4
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[144/192] user_nz_t/ctl:tuned timeout winner=blue atk 0/0 margin 11.4
+[145/192] base/ctl:user_nz_t timeout winner=red atk 0/8 margin -1399.3
+[146/192] base_t3/ctl:user_nz_t timeout winner=red atk 0/0 margin -72.6
+[147/192] tuned/ctl:user_nz_t timeout winner=blue atk 0/0 margin 712.2
+[148/192] user_nz_t/ctl:user_nz_t timeout winner=red atk 0/0 margin -6.7
+[149/192] base/ctl:user_nz_t timeout winner=red atk 0/0 margin -251.9
+[150/192] base_t3/ctl:user_nz_t timeout winner=red atk 0/0 margin -251.9
+[151/192] tuned/ctl:user_nz_t timeout winner=red atk 0/0 margin -250.8
+[152/192] user_nz_t/ctl:user_nz_t timeout winner=red atk 0/0 margin -2.1
+[153/192] base/ctl:user_nz_t timeout winner=red atk 0/0 margin -11.9
+[154/192] base_t3/ctl:user_nz_t timeout winner=red atk 0/0 margin -11.9
+[155/192] tuned/ctl:user_nz_t timeout winner=red atk 0/0 margin -11.9
+[156/192] user_nz_t/ctl:user_nz_t timeout winner=red atk 0/0 margin -11.9
+[157/192] base/ctl:user_nz_t timeout winner=red atk 0/0 margin -436.2
+[158/192] base_t3/ctl:user_nz_t timeout winner=red atk 0/0 margin -436.2
+[159/192] tuned/ctl:user_nz_t timeout winner=red atk 0/0 margin -387.9
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[160/192] user_nz_t/ctl:user_nz_t timeout winner=red atk 0/0 margin -11.6
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[161/192] base/ctl:user_nz_t timeout winner=blue atk 0/0 margin 12.3
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[162/192] base_t3/ctl:user_nz_t timeout winner=blue atk 0/0 margin 12.3
+[163/192] tuned/ctl:user_nz_t timeout winner=blue atk 0/0 margin 14.2
+[164/192] user_nz_t/ctl:user_nz_t timeout winner=blue atk 0/0 margin 12.3
+[165/192] base/ctl:user_nz_t timeout winner=blue atk 0/0 margin 2.1
+[166/192] base_t3/ctl:user_nz_t timeout winner=blue atk 0/0 margin 2.1
+[167/192] tuned/ctl:user_nz_t timeout winner=blue atk 0/0 margin 2.1
+[168/192] user_nz_t/ctl:user_nz_t timeout winner=blue atk 0/0 margin 2.1
+[169/192] base/ctl:user_nz_t timeout winner=blue atk 0/0 margin 101.5
+[170/192] base_t3/ctl:user_nz_t timeout winner=blue atk 0/0 margin 101.5
+[171/192] tuned/ctl:user_nz_t timeout winner=blue atk 0/0 margin 133.5
+[172/192] user_nz_t/ctl:user_nz_t timeout winner=blue atk 0/0 margin 7.1
+[173/192] base/ctl:user_nz_t timeout winner=red atk 0/0 margin -177.3
+[174/192] base_t3/ctl:user_nz_t timeout winner=red atk 0/0 margin -177.3
+[175/192] tuned/ctl:user_nz_t timeout winner=red atk 0/0 margin -191.8
+[176/192] user_nz_t/ctl:user_nz_t timeout winner=blue atk 0/0 margin 3.0
+[177/192] base/ctl:user_nz_t timeout winner=blue atk 0/0 margin 13.0
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[178/192] base_t3/ctl:user_nz_t timeout winner=blue atk 0/0 margin 13.0
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[179/192] tuned/ctl:user_nz_t timeout winner=blue atk 0/0 margin 13.0
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[180/192] user_nz_t/ctl:user_nz_t timeout winner=blue atk 0/0 margin 13.0
+[181/192] base/ctl:user_nz_t timeout winner=blue atk 0/0 margin 47.9
+[182/192] base_t3/ctl:user_nz_t timeout winner=blue atk 0/0 margin 47.9
+[183/192] tuned/ctl:user_nz_t timeout winner=red atk 0/0 margin -136.3
+[184/192] user_nz_t/ctl:user_nz_t timeout winner=red atk 0/0 margin -4.6
+[185/192] base/ctl:user_nz_t timeout winner=blue atk 0/0 margin 6.6
+[186/192] base_t3/ctl:user_nz_t timeout winner=blue atk 0/0 margin 6.6
+[187/192] tuned/ctl:user_nz_t timeout winner=blue atk 0/0 margin 6.6
+[188/192] user_nz_t/ctl:user_nz_t timeout winner=blue atk 0/0 margin 6.6
+[189/192] base/ctl:user_nz_t timeout winner=blue atk 0/0 margin 11.4
+[190/192] base_t3/ctl:user_nz_t timeout winner=blue atk 0/0 margin 11.4
+[191/192] tuned/ctl:user_nz_t timeout winner=blue atk 0/0 margin 11.4
+[192/192] user_nz_t/ctl:user_nz_t timeout winner=blue atk 0/0 margin 11.4
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+opp      policy      n  win loss draw  atkB  atkR  margin   minAGLm
+ctl:base base       12    6    6    0     0     0       2      1966
+ctl:base base_t3    12    6    6    0     0     0       6      1966
+ctl:base tuned      12   11    1    0     0     0     132      1996
+ctl:base user_nz_t  12    8    4    0     0     0      63      1906
+ctl:base_t3 base       12    8    4    0     0     0      -0      1966
+ctl:base_t3 base_t3    12    6    6    0     0     0       2      1966
+ctl:base_t3 tuned      12   10    2    0     0     0      96      1996
+ctl:base_t3 user_nz_t  12    9    3    0     0     0      68      1906
+ctl:tuned base       12    6    6    0     0     0    -147      1990
+ctl:tuned base_t3    12    6    6    0     0     3    -493      1990
+ctl:tuned tuned      12    7    5    0     0     0      38      1999
+ctl:tuned user_nz_t  12    9    3    0     0     0     -52      1928
+ctl:user_nz_t base       12    7    5    0     0     1    -173      1934
+ctl:user_nz_t base_t3    12    7    5    0     0     0     -63      1934
+ctl:user_nz_t tuned      12    7    5    0     0     0      -7      1948
+ctl:user_nz_t user_nz_t  12    7    5    0     0     0       2      1886

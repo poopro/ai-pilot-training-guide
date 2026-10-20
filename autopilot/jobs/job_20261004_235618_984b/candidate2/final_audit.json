@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "job_id": "job_20261004_235618_984b",
+  "counted_steps": 199998,
+  "budget": 200000,
+  "pipeline_minutes": 149.7773784995079,
+  "model_timesteps": 148682,
+  "optimizer_updates": 8664,
+  "model_and_replay_checksums": true,
+  "source_frozen_matches": true,
+  "holdout_episodes": 120,
+  "holdout_not_in_development": true,
+  "paired_kill_outcomes": {
+    "easy": {
+      "policy_only_kills": 0,
+      "guide_only_kills": 0,
+      "equal_kill_outcomes": 20
+    },
+    "maneuver": {
+      "policy_only_kills": 0,
+      "guide_only_kills": 0,
+      "equal_kill_outcomes": 20
+    },
+    "duel": {
+      "policy_only_kills": 4,
+      "guide_only_kills": 4,
+      "equal_kill_outcomes": 12
+    }
+  },
+  "pre_holdout_selection_preserved": {
+    "decision": "policy_candidate",
+    "bundle": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\candidate1_to_199000\\final_0000148682",
+    "utc": "2026-10-04T17:48:42.982652+00:00"
+  },
+  "released_selection": {
+    "decision": "retain_guide",
+    "bundle": null,
+    "evaluation_selection": {
+      "decision": "policy_candidate",
+      "bundle": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\candidate1_to_199000\\final_0000148682",
+      "utc": "2026-10-04T17:48:42.982652+00:00"
+    },
+    "reason": "保留測試擊殺與存活均未優於純引導器，未證明 SAC 可靠改善；依原任務發布門檻保留純引導器。",
+    "holdout_not_reused_for_training": true,
+    "utc": "2026-10-04T21:06:58.608590+00:00"
+  },
+  "no_owned_training_or_supervisor_running": true,
+  "official_host": "pending_manual",
+  "tacview": "pending_manual",
+  "udp_reports": {
+    "deployment_udp_final": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\deployment_udp_final\\report.json",
+    "deployment_udp_guide": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\deployment_udp_guide\\report.json"
+  },
+  "utc": "2026-10-04T21:06:58.609651+00:00"
+}

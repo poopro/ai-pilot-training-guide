@@ -1,0 +1,31 @@
+{
+  "captured_utc": "2026-10-11T22:06:56.745051+08:00",
+  "baseline": "frozen repair guide; not a measured tournament win rate",
+  "frozen_repair_root": "E:\\ai_pilot\\campaign_2026\\repair_v1",
+  "source_sha256": {
+    "controller.py": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+    "env.py": "8bb9078809d28ab2117abc3b928c138acf1da1dc4442e69de4c4632d8c3c9607",
+    "train.py": "1c009fa225446866ab5c78fdbd2201761215415cbf6a1cacda4bd0fcffe9aee6",
+    "artifacts.py": "938c184366b55843e59250e2d1b544c10ebb67daca451e2701e8e631c7fd041e",
+    "evaluate.py": "4d9d70d241f8629562bd21ba38b92782a2a25960199c944f1bcd2b36c2a63d8e",
+    "verify_saved.py": "077eb73d42eedb5efc0f441471334d09692c0d148269abd4023c1701f1961d7c",
+    "player.py": "28571c396ef067bbd01f8fb6f41763cb41e2a2c9c001e7bf3114da81677cd825",
+    "verify_udp.py": "6494856c12649ccbe1b75907df3fc05e332fb02c77d5ec36dd539a545f9d1f4a",
+    "udp_config.json": "034d0d60ee1b3558b6cee47708160ea86f20111b042a8e97aad35c7ecf229687"
+  },
+  "initial_training_bundle": "E:\\ai_pilot\\autopilot\\combat_fix\\training\\run_20261006_192453_c95b\\final_0000024000",
+  "initial_bundle_sha256": {
+    "model.zip": "92934de71fa6590f19d4168b893ebd895ed04488b7da91e1dbed166c602c3430",
+    "replay.pkl": "8688fe8d0b833bd4ba6f25a798c442190291cd2036dfe3a5e4ad95324f560d82",
+    "manifest.json": "658a7273bc432246d6afde9aabbf4aa5dc39982cc2bc5cd6af3b810d536f8f8f"
+  },
+  "initial_decisions": 24000,
+  "host_evidence_dir": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_20261006_204436_608d",
+  "host_evidence": "one unchanged local published Host round; internal PID opponent",
+  "competition_date_taipei": "2026-11-07",
+  "research_freeze_taipei": "2026-11-03T23:59:00+08:00",
+  "automation_ids": {
+    "monitor": "ai",
+    "daily_review": "ai-2"
+  }
+}

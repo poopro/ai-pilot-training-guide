@@ -1,0 +1,161 @@
+[1/72] tdef:break:turn_cap=380/sac:25600000 timeout winner=red atk 0/0 margin -639.7
+[2/72] tdef:out/sac:25600000 timeout winner=red atk 0/0 margin -810.2
+[3/72] tdef:hy/sac:25600000 timeout winner=red atk 0/0 margin -7979.3
+[4/72] tdef:hy/sac:25600000 timeout winner=blue atk 0/0 margin 2313.8
+[5/72] tdef:out/sac:25600000 timeout winner=blue atk 0/0 margin 2313.8
+[6/72] tdef:break:turn_cap=380/sac:25600000 timeout winner=red atk 0/0 margin -5506.0
+[7/72] tdef:hy/sac:25600000 timeout winner=red atk 0/0 margin -646.3
+[8/72] tdef:out/sac:25600000 timeout winner=red atk 0/0 margin -6512.2
+[9/72] tdef:break:turn_cap=380/sac:25600000 timeout winner=blue atk 0/0 margin 3193.7
+[10/72] tdef:break:turn_cap=380/sac:25600000 red_crash winner=blue atk 0/0 margin 204.0
+[11/72] tdef:out/sac:25600000 red_kill winner=red atk 0/180 margin -88261.7
+[12/72] tdef:hy/sac:25600000 timeout winner=red atk 0/13 margin -14561.1
+[13/72] tdef:hy/sac:25600000 timeout winner=red atk 0/0 margin -24538.4
+[14/72] tdef:out/sac:25600000 timeout winner=red atk 0/30 margin -13610.7
+[15/72] tdef:break:turn_cap=380/sac:25600000 timeout winner=red atk 0/0 margin -1795.7
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[16/72] tdef:out/sac:25600000 red_kill winner=red atk 0/180 margin -86917.3
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[17/72] tdef:hy/sac:25600000 timeout winner=red atk 0/0 margin -25781.7
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[18/72] tdef:break:turn_cap=380/sac:25600000 timeout winner=red atk 0/0 margin -3997.0
+[19/72] tdef:hy/sac:25600000 timeout winner=blue atk 0/0 margin 1965.5
+[20/72] tdef:out/sac:25600000 timeout winner=blue atk 0/0 margin 1968.2
+[21/72] tdef:break:turn_cap=380/sac:25600000 timeout winner=red atk 0/0 margin -1728.4
+[22/72] tdef:hy/sac:25600000 timeout winner=blue atk 0/0 margin 1244.1
+[23/72] tdef:out/sac:25600000 timeout winner=blue atk 0/0 margin 1244.1
+[24/72] tdef:break:turn_cap=380/sac:25600000 timeout winner=red atk 0/5 margin -2261.5
+[25/72] tdef:hy/sac:25600000 timeout winner=blue atk 0/0 margin 3229.5
+[26/72] tdef:out/sac:25600000 timeout winner=blue atk 0/0 margin 3229.5
+[27/72] tdef:break:turn_cap=380/sac:25600000 timeout winner=red atk 0/0 margin -1341.7
+[28/72] tdef:hy/sac:25600000 timeout winner=red atk 0/0 margin -5206.5
+[29/72] tdef:out/sac:25600000 timeout winner=red atk 0/0 margin -3791.1
+[30/72] tdef:break:turn_cap=380/sac:25600000 timeout winner=blue atk 0/0 margin 1712.0
+[31/72] tdef:hy/sac:25600000 timeout winner=red atk 0/0 margin -17811.7
+[32/72] tdef:out/sac:25600000 timeout winner=red atk 0/0 margin -18399.0
+[33/72] tdef:break:turn_cap=380/sac:25600000 timeout winner=red atk 0/0 margin -577.3
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[34/72] tdef:hy/sac:25600000 timeout winner=red atk 0/24 margin -22315.4
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[35/72] tdef:out/sac:25600000 timeout winner=red atk 0/0 margin -4649.8
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[36/72] tdef:break:turn_cap=380/sac:25600000 timeout winner=red atk 0/0 margin -780.3
+[37/72] tdef:hy/sac:25600000 timeout winner=red atk 0/0 margin -967.1
+[38/72] tdef:out/sac:25600000 timeout winner=red atk 0/0 margin -967.1
+[39/72] tdef:break:turn_cap=380/sac:25600000 timeout winner=red atk 0/0 margin -2205.9
+[40/72] tdef:hy/sac:25600000 timeout winner=blue atk 0/0 margin 3253.1
+[41/72] tdef:out/sac:25600000 timeout winner=blue atk 0/0 margin 3253.1
+[42/72] tdef:break:turn_cap=380/sac:25600000 timeout winner=blue atk 0/0 margin 3176.5
+[43/72] tdef:hy/sac:25600000 timeout winner=blue atk 0/0 margin 3210.8
+[44/72] tdef:out/sac:25600000 timeout winner=blue atk 0/0 margin 3210.8
+[45/72] tdef:break:turn_cap=380/sac:25600000 timeout winner=blue atk 0/0 margin 3182.8
+[46/72] tdef:hy/sac:25600000 timeout winner=red atk 0/0 margin -22082.4
+[47/72] tdef:out/sac:25600000 timeout winner=red atk 0/0 margin -14471.8
+[48/72] tdef:break:turn_cap=380/sac:25600000 timeout winner=red atk 0/0 margin -1303.1
+[49/72] tdef:hy/sac:25600000 timeout winner=red atk 0/0 margin -23921.7
+[50/72] tdef:out/sac:25600000 timeout winner=red atk 0/0 margin -3676.5
+[51/72] tdef:break:turn_cap=380/sac:25600000 timeout winner=red atk 0/0 margin -1888.5
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[52/72] tdef:hy/sac:25600000 timeout winner=red atk 0/0 margin -24193.8
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[53/72] tdef:out/sac:25600000 timeout winner=red atk 0/0 margin -2666.4
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[54/72] tdef:break:turn_cap=380/sac:25600000 timeout winner=red atk 0/0 margin -3306.6
+[55/72] tdef:out/sac:25600000 red_kill winner=red atk 0/180 margin -78796.9
+[56/72] tdef:hy/sac:25600000 timeout winner=red atk 0/0 margin -18397.3
+[57/72] tdef:break:turn_cap=380/sac:25600000 timeout winner=red atk 0/21 margin -11621.6
+[58/72] tdef:hy/sac:25600000 timeout winner=blue atk 0/0 margin 3212.6
+[59/72] tdef:out/sac:25600000 timeout winner=blue atk 0/0 margin 3212.6
+[60/72] tdef:break:turn_cap=380/sac:25600000 timeout winner=blue atk 0/0 margin 3084.8
+[61/72] tdef:hy/sac:25600000 timeout winner=blue atk 0/0 margin 3231.8
+[62/72] tdef:out/sac:25600000 timeout winner=blue atk 0/0 margin 3231.8
+[63/72] tdef:break:turn_cap=380/sac:25600000 timeout winner=red atk 0/0 margin -1067.4
+[64/72] tdef:hy/sac:25600000 timeout winner=red atk 0/0 margin -1877.8
+[65/72] tdef:out/sac:25600000 timeout winner=red atk 0/0 margin -437.7
+[66/72] tdef:break:turn_cap=380/sac:25600000 timeout winner=blue atk 0/0 margin 3015.6
+[67/72] tdef:hy/sac:25600000 timeout winner=blue atk 0/0 margin 2985.4
+[68/72] tdef:out/sac:25600000 timeout winner=blue atk 0/0 margin 2985.4
+[69/72] tdef:break:turn_cap=380/sac:25600000 timeout winner=red atk 0/0 margin -1812.1
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[70/72] tdef:hy/sac:25600000 timeout winner=red atk 0/0 margin -23909.9
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[71/72] tdef:out/sac:25600000 timeout winner=red atk 0/0 margin -5937.0
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[72/72] tdef:break:turn_cap=380/sac:25600000 timeout winner=red atk 0/0 margin -2317.9
+
+opp      policy      n  win loss draw  atkB  atkR  margin   minAGLm
+sac:25600000 tdef:break:turn_cap=380  24    7   17    0     0     1   -1108       794
+sac:25600000 tdef:hy    24    9   15    0     0     2   -8731       791
+sac:25600000 tdef:out   24    9   15    0     0    24  -12719       791

@@ -1,0 +1,74 @@
+{
+  "case": {
+    "id": "normal_sac5000_2026310200",
+    "opening": 0,
+    "side": "normal",
+    "seed": 2026310200,
+    "actor": "sac5000",
+    "red": "sac5000",
+    "distance_ft": 6000,
+    "max_ticks": 18000
+  },
+  "actual_worker_exit": 0,
+  "identity": {
+    "pid": 24716,
+    "create": 1792201256.2521844,
+    "cmd": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_battle_v2\\battle.py",
+      "--worker",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_battle_v2\\run_20261017_093943_16bee6\\cases\\normal_sac5000_2026310200"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent": 12400
+  },
+  "reason": null,
+  "worker_and_descendants_absent": true,
+  "descendants": [
+    {
+      "identity": {
+        "pid": 6840,
+        "create": 1792201256.265724,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 24716
+      },
+      "chain": [
+        {
+          "pid": 6840,
+          "create": 1792201256.265724,
+          "cmd": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent": 24716
+        }
+      ],
+      "worker": {
+        "pid": 24716,
+        "create": 1792201256.2521844,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_battle_v2\\battle.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_battle_v2\\run_20261017_093943_16bee6\\cases\\normal_sac5000_2026310200"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 12400
+      }
+    }
+  ],
+  "cleanup_actions": [],
+  "input_sha256": "575c9ad87607b8ddcc90a021e85798bc43374a1282f6951220c764d6d8634906",
+  "result_sha256": "b689143fa2056dfc84c84bc207e65dfc850061c48af51d40ae2ec1313da3ff0f"
+}

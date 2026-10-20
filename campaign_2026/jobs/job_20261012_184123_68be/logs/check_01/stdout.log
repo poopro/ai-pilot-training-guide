@@ -1,0 +1,8 @@
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+{"passed": true, "bundle": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_01\\final_0000074000", "model_sha_verified": true, "replay_sha_verified": true, "actual_replay_size": 50000, "manifest_replay_size": 50000, "decision_steps": 74000, "physics_ticks": 295929, "n_updates": 18250, "actor_updates": 17750, "sampled_replay_finite": true, "action": [-0.3132486343383789, -0.13245975971221924, -0.2577214241027832, -0.24102091789245605], "official_validation": false}

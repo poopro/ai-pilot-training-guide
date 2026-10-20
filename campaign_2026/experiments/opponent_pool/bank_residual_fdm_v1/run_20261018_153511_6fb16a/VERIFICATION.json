@@ -1,0 +1,70 @@
+{
+  "verified_bank_residual_60Hz_interface": true,
+  "errors": [],
+  "episodes": [
+    {
+      "mode": "neutral",
+      "ticks": 300,
+      "full_blue_act_command_replay": true,
+      "full_red_actor_controller_replay": true,
+      "judge_exact": true,
+      "CSV_all_fields_exact": true,
+      "ACMI_WGS84_exact": true,
+      "peak_g": [
+        2.736379607166583,
+        2.7485474448659737
+      ],
+      "min_AGL_m": [
+        4583.265353181156,
+        4582.973805936844
+      ],
+      "attack": [
+        0,
+        0
+      ],
+      "over9G": [
+        0,
+        0
+      ]
+    },
+    {
+      "mode": "exercise",
+      "ticks": 300,
+      "full_blue_act_command_replay": true,
+      "full_red_actor_controller_replay": true,
+      "judge_exact": true,
+      "CSV_all_fields_exact": true,
+      "ACMI_WGS84_exact": true,
+      "peak_g": [
+        2.493242085017024,
+        2.750227524018339
+      ],
+      "min_AGL_m": [
+        4584.702906934553,
+        4582.9741781506855
+      ],
+      "attack": [
+        0,
+        0
+      ],
+      "over9G": [
+        0,
+        0
+      ]
+    }
+  ],
+  "new_FDM_ticks": 600,
+  "complete_combat_rounds": 0,
+  "same_both_initial_SHA": true,
+  "first100_packet_and_command_exact": true,
+  "first_actual_sent_blue_command_difference_tick": 201,
+  "first_physics_packet_difference_tick": 202,
+  "reset_controller_state_independent": true,
+  "full_blue_and_red_replay": true,
+  "source_XML_model_fixed": true,
+  "training_started": false,
+  "strength_verified": false,
+  "official_validation": false,
+  "deployment_allowed": false,
+  "scope": "One new development opening, two5s resets, preset API sequence, not a tactical policy/league/win-rate evaluation."
+}

@@ -1,0 +1,2 @@
+#{"t_start": 1791132778.3614287, "env_id": "None"}
+r,l,t,outcome,is_kill,was_hit,survived,own_crash,enemy_crash,timeout,attack_seconds,enemy_attack_seconds,over_9g_seconds,guard_fraction,min_altitude_m,opponent,mean_residual,position_mean,advantage_blue_estimate,advantage_red_estimate,estimated_winner,spawn_distance_ft,stage,local_win,failure_reason

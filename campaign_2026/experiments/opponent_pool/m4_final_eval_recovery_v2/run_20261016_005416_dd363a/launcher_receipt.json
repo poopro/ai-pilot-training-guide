@@ -1,0 +1,8 @@
+{
+  "actual_parent_exit_code": 0,
+  "actual_guard_exit_code": 0,
+  "reservation_sha256": "73ccd5ac683f9e1974cfa1d622e7789c769ceafeeab39c0c1bb3964acef04304",
+  "launch_sha256": "dd7fbfd37434d04fd2336ffb7be5ef0967f7f36c3e297b98c3606c073ac23d35",
+  "report_sha256": "f79fde615cd4bc20640d7e0f56c3cdd0227d6d7038b4945980db547b7603d7ee",
+  "guard_sha256": "f0b087d12d5244bce64acca41f687b895385d3de1ba4fe142626d5c2b6654a49"
+}

@@ -1,0 +1,30 @@
+{
+  "profile": "portable_repair_guide_rehearsal_v1",
+  "round_identity": "eca24946cec4ee591b4d8fff2dd7e5c4f17cfb14c0df43f54fe803ab883bf7e7",
+  "fixed_profile_hash": "f5abc53f59d48d3853c676046fd10e4ad1b2eaa0b36014f1b605875490326576",
+  "source_csv": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\飛行競賽Host端Record_20261014_2040.csv",
+  "csv_sha256": "9c839fab554b6e3dd8b17a1577f6970d8e878371e6a963c5029b43f34262018a",
+  "acmi_sha256": "67c581746c1e68e410b3160b83cbcdfde893c29411efab2bd6b5ab21c6d76810",
+  "rows": 6225,
+  "sim_seconds": 103.767,
+  "host_winner_raw": "1.0",
+  "checks": {
+    "finite_csv": true,
+    "strictly_increasing_time": true,
+    "full_or_early_adjudication": true,
+    "player1_ready": true,
+    "player1_moved": true,
+    "csv_matches_terminal_capture": true,
+    "acmi_terminal_time": true,
+    "fresh_owned_p2_terminal": false,
+    "package_runtime_self_check": true,
+    "profile_hash_unchanged": true
+  },
+  "portable_rehearsal_artifacts_complete": false,
+  "eligible_for_old_six_round_gate": false,
+  "packaged_six_round_gate_complete": false,
+  "actual_collector_exit_code": 2,
+  "competition_certification": false,
+  "scope": "Separate portable package vs unchanged published local GUI Host; not legacy six or competition certification.",
+  "portable_rehearsal_complete": false
+}

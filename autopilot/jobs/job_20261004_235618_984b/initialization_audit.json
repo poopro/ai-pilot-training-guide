@@ -1,0 +1,114 @@
+{
+  "rows": [
+    {
+      "seed": 20261200,
+      "requested_distance_ft": 3000,
+      "actual_distance_ft": 3000.0008701934303,
+      "relative_error_percent": 2.9006447666013457e-05,
+      "own_altitude_ft": 15776.818202599883,
+      "own_calibrated_speed_kts": 339.99999999999955,
+      "info_speed_kts": 339.99999999999955,
+      "true_speed_kts": 423.70791097951474,
+      "ic_vc_kts": 340.0000000000003,
+      "ground_speed_kts": 423.70791097951513
+    },
+    {
+      "seed": 20261201,
+      "requested_distance_ft": 3000,
+      "actual_distance_ft": 2999.999512472422,
+      "relative_error_percent": -1.625091927692779e-05,
+      "own_altitude_ft": 10561.79390109703,
+      "own_calibrated_speed_kts": 340.0000000000003,
+      "info_speed_kts": 340.0000000000003,
+      "true_speed_kts": 393.4200683232777,
+      "ic_vc_kts": 340.0000000000003,
+      "ground_speed_kts": 393.42006832327786
+    },
+    {
+      "seed": 20261202,
+      "requested_distance_ft": 3000,
+      "actual_distance_ft": 3000.0098663227063,
+      "relative_error_percent": 0.0003288774235388203,
+      "own_altitude_ft": 11596.484481621534,
+      "own_calibrated_speed_kts": 340.000000000001,
+      "info_speed_kts": 340.000000000001,
+      "true_speed_kts": 399.2108231677235,
+      "ic_vc_kts": 340.0000000000003,
+      "ground_speed_kts": 399.21082316772294
+    },
+    {
+      "seed": 20261200,
+      "requested_distance_ft": 6000,
+      "actual_distance_ft": 6000.003480519931,
+      "relative_error_percent": 5.8008665515529856e-05,
+      "own_altitude_ft": 15776.818202599883,
+      "own_calibrated_speed_kts": 339.99999999999955,
+      "info_speed_kts": 339.99999999999955,
+      "true_speed_kts": 423.70791097951457,
+      "ic_vc_kts": 340.0000000000003,
+      "ground_speed_kts": 423.707910979515
+    },
+    {
+      "seed": 20261201,
+      "requested_distance_ft": 6000,
+      "actual_distance_ft": 5999.998049761343,
+      "relative_error_percent": -3.250397762055712e-05,
+      "own_altitude_ft": 10561.79390109703,
+      "own_calibrated_speed_kts": 340.0000000000003,
+      "info_speed_kts": 340.0000000000003,
+      "true_speed_kts": 393.420068323278,
+      "ic_vc_kts": 340.0000000000003,
+      "ground_speed_kts": 393.420068323278
+    },
+    {
+      "seed": 20261202,
+      "requested_distance_ft": 6000,
+      "actual_distance_ft": 6000.03946266958,
+      "relative_error_percent": 0.0006577111596683949,
+      "own_altitude_ft": 11596.484481621534,
+      "own_calibrated_speed_kts": 340.0000000000003,
+      "info_speed_kts": 340.0000000000003,
+      "true_speed_kts": 399.2108231677234,
+      "ic_vc_kts": 340.0000000000003,
+      "ground_speed_kts": 399.2108231677228
+    },
+    {
+      "seed": 20261200,
+      "requested_distance_ft": 9000,
+      "actual_distance_ft": 9000.007830628312,
+      "relative_error_percent": 8.700698124197714e-05,
+      "own_altitude_ft": 15776.818202596158,
+      "own_calibrated_speed_kts": 339.99999999999955,
+      "info_speed_kts": 339.99999999999955,
+      "true_speed_kts": 423.7079109794922,
+      "ic_vc_kts": 340.0000000000003,
+      "ground_speed_kts": 423.70791097949257
+    },
+    {
+      "seed": 20261201,
+      "requested_distance_ft": 9000,
+      "actual_distance_ft": 8999.995611664348,
+      "relative_error_percent": -4.875928502068305e-05,
+      "own_altitude_ft": 10561.79390109703,
+      "own_calibrated_speed_kts": 340.0000000000003,
+      "info_speed_kts": 340.0000000000003,
+      "true_speed_kts": 393.42006832327763,
+      "ic_vc_kts": 340.0000000000003,
+      "ground_speed_kts": 393.42006832327763
+    },
+    {
+      "seed": 20261202,
+      "requested_distance_ft": 9000,
+      "actual_distance_ft": 9000.088785097441,
+      "relative_error_percent": 0.0009865010826670684,
+      "own_altitude_ft": 11596.484481621534,
+      "own_calibrated_speed_kts": 340.0000000000003,
+      "info_speed_kts": 340.0000000000003,
+      "true_speed_kts": 399.21082316772316,
+      "ic_vc_kts": 340.0000000000003,
+      "ground_speed_kts": 399.21082316772265
+    }
+  ],
+  "max_distance_error_percent": 0.0009865010826670684,
+  "utc": "2026-10-04T16:44:16.476068+00:00"
+}

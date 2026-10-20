@@ -1,0 +1,4 @@
+{"r": 41.079788, "l": 45, "t": 3.941598, "outcome": "kill", "attack_seconds": 3.0, "enemy_attack_seconds": 0.0, "survived": 1, "is_kill": 1, "training_stage": "rear", "p2_type": "rule", "spawn_distance_ft": 2004.813052229761}
+{"r": 3.175693, "l": 50, "t": 4.756337, "outcome": "timeout", "attack_seconds": 0.0, "enemy_attack_seconds": 0.0, "survived": 1, "is_kill": 0, "training_stage": "rear", "p2_type": "rule", "spawn_distance_ft": 1962.3218919294534}
+{"r": 0.110705, "l": 50, "t": 5.768145, "outcome": "timeout", "attack_seconds": 0.0, "enemy_attack_seconds": 0.0, "survived": 1, "is_kill": 0, "training_stage": "maneuver", "p2_type": "rule", "spawn_distance_ft": 3125.4181272588753}
+{"r": -0.298318, "l": 50, "t": 6.537163, "outcome": "timeout", "attack_seconds": 0.0, "enemy_attack_seconds": 0.0, "survived": 1, "is_kill": 0, "training_stage": "official", "p2_type": "rule", "spawn_distance_ft": 6000}

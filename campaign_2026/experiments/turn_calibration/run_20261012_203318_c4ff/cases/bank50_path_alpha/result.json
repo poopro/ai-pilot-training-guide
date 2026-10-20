@@ -1,0 +1,239 @@
+{
+  "case_id": "bank50_path_alpha",
+  "bank_deg": 50.0,
+  "pitch_spec": "path_alpha",
+  "speed_target_cas_kts": 320.0,
+  "dt_s": 0.016666666666666666,
+  "warmup_ticks": 900,
+  "test_ticks": 1200,
+  "expected_ticks": 2100,
+  "wall_budget_s": 150.0,
+  "controller_variant": "unchanged_repair",
+  "official_validation": false,
+  "combat_score_eligible": false,
+  "status": "complete",
+  "complete": true,
+  "reason": "",
+  "ticks_executed": 2100,
+  "csv_path": "E:\\ai_pilot\\campaign_2026\\experiments\\turn_calibration\\run_20261012_203318_c4ff\\cases\\bank50_path_alpha\\bank50_path_alpha.csv",
+  "caveats": [
+    "short 1200 tick calibration, not an 18000 tick combat comparison; official_validation=False and combat_score_eligible=False on every record",
+    "sec_bank_denominator_observed only mirrors the controller trim denominator:1/cos(bank) and |pilot load| are NOT asserted calibrated here",
+    "Euler singularity |cos(theta)|<0.05 fails this calibration (not cos(phi)=0); a median bank error is not a roll rate; 8.5G guard != 9G scoring",
+    "AGL and enemy attitude are absent from the ICD and are not synthesized"
+  ],
+  "initial_state_sha": "5bffd586f4ac988e4812451e61810cf98b23b4c90c46d4bc0c64c084ac75b428",
+  "warmup_boundary_sha": "c2ef63198a1e2f0822e4f37a4345c2530e4ac31d6c79aae51d3a51bcb032a68c",
+  "csv_rows": 2100,
+  "wall_s": 1.625,
+  "warmup": {
+    "status": "completed",
+    "ticks_executed": 900,
+    "min_cas_kts": 319.9232789432446,
+    "max_abs_pilot_load": 1.1053134239584737,
+    "boundary_state": {
+      "mode": "track",
+      "recovering": false,
+      "pitch_integral": 0.015555969765749562,
+      "speed_integral": -0.13024663300790473
+    }
+  },
+  "warmup_stability_flags": [],
+  "tick_counts": {
+    "guard": 0,
+    "recovering": 0,
+    "cas_lt_180kts": 0,
+    "abs_nz_gt_8p5": 0,
+    "abs_nz_gt_9": 0,
+    "euler_roll_singular": 0,
+    "warmup_guard": 0,
+    "warmup_recovering": 0
+  },
+  "test_mode_ticks": {
+    "track": 1200
+  },
+  "test_statistics": {
+    "alpha_deg": {
+      "n": 1200,
+      "n_nonfinite_dropped": 0,
+      "min": 1.1844516200124917,
+      "p10": 2.2330408378151105,
+      "median": 2.8768048751496322,
+      "p90": 3.1091417385187787,
+      "max": 3.1528942407319414,
+      "mean": 2.809117276289363
+    },
+    "bank_error_deg": {
+      "n": 1200,
+      "n_nonfinite_dropped": 0,
+      "min": 0.6063270882814251,
+      "p10": 0.6629976813236098,
+      "median": 0.8480038333433555,
+      "p90": 1.9331696448938323,
+      "max": 50.00063577436877,
+      "mean": 2.498317198894668
+    },
+    "beta_deg": {
+      "n": 1200,
+      "n_nonfinite_dropped": 0,
+      "min": -0.044441240400013425,
+      "p10": 1.9455869260513823,
+      "median": 1.9726794202192397,
+      "p90": 2.0438575505788483,
+      "max": 2.069239728184181,
+      "mean": 1.9189034692659348
+    },
+    "cas_kts": {
+      "n": 1200,
+      "n_nonfinite_dropped": 0,
+      "min": 328.68276323751445,
+      "p10": 329.7313379203964,
+      "median": 335.21824875935386,
+      "p90": 342.75876721337045,
+      "max": 344.27557500404765,
+      "mean": 335.7900115988405
+    },
+    "euler_pitch_rate_deg_s": {
+      "n": 1200,
+      "n_nonfinite_dropped": 0,
+      "min": -0.4344808769540729,
+      "p10": -0.06356466438756356,
+      "median": 0.045354597634947376,
+      "p90": 0.22214903644147274,
+      "max": 1.9275204220310413,
+      "mean": 0.07839346989272454
+    },
+    "euler_roll_rate_deg_s": {
+      "n": 1200,
+      "n_nonfinite_dropped": 0,
+      "min": -0.056112183835478106,
+      "p10": -0.03386739555654506,
+      "median": -0.017129492313446258,
+      "p90": 2.45839493220108,
+      "max": 70.6807843295724,
+      "mean": 2.4514518580296185
+    },
+    "euler_yaw_rate_deg_s": {
+      "n": 1200,
+      "n_nonfinite_dropped": 0,
+      "min": 0.0025836439918145737,
+      "p10": 1.9821411902414308,
+      "median": 2.6854632449829943,
+      "p90": 2.753944440406244,
+      "max": 2.8469866031401376,
+      "mean": 2.5515273359450314
+    },
+    "fd_pitch_rate_deg_s": {
+      "n": 1200,
+      "n_nonfinite_dropped": 0,
+      "min": -0.4335960562593222,
+      "p10": -0.06177694419593124,
+      "median": 0.04716998374562742,
+      "p90": 0.22402767331271806,
+      "max": 1.921342360032332,
+      "mean": 0.0797202020478545
+    },
+    "fd_roll_rate_deg_s": {
+      "n": 1200,
+      "n_nonfinite_dropped": 0,
+      "min": -0.05598190133241587,
+      "p10": -0.03377862649676899,
+      "median": -0.017076548854220164,
+      "p90": 2.4582764030698283,
+      "max": 70.67889653972884,
+      "mean": 2.451477933021511
+    },
+    "fd_yaw_rate_deg_s": {
+      "n": 1200,
+      "n_nonfinite_dropped": 0,
+      "min": 0.002584180477924747,
+      "p10": 1.9820111506127773,
+      "median": 2.6859071612884122,
+      "p90": 2.7540587269166394,
+      "max": 2.8471235202079015,
+      "mean": 2.552145896136666
+    },
+    "pilot_load_signed": {
+      "n": 1200,
+      "n_nonfinite_dropped": 0,
+      "min": -1.438581815292468,
+      "p10": -1.4144902581369334,
+      "median": -1.3777643727238178,
+      "p90": -1.2437162439450433,
+      "max": 1.2490207564125586,
+      "mean": -1.3245170698672954
+    },
+    "pitch_error_deg": {
+      "n": 1200,
+      "n_nonfinite_dropped": 0,
+      "min": 0.12494927044630821,
+      "p10": 0.5176267592726087,
+      "median": 0.6869857865309936,
+      "p90": 1.0002576036193866,
+      "max": 1.6081249494498493,
+      "mean": 0.709594825507331
+    },
+    "pre_phi_deg": {
+      "n": 1200,
+      "n_nonfinite_dropped": 0,
+      "min": -0.0006357743687706708,
+      "p10": 48.06683035510618,
+      "median": 49.151996166656645,
+      "p90": 49.33700231867639,
+      "max": 49.393672911718575,
+      "mean": 47.50168280110533
+    },
+    "pre_psi_deg": {
+      "n": 1200,
+      "n_nonfinite_dropped": 0,
+      "min": 0.03580780229043588,
+      "p10": 3.2563311097412218,
+      "median": 24.144033031145476,
+      "p90": 45.6256017619228,
+      "max": 51.03357433466719,
+      "mean": 24.33656793021579
+    },
+    "pre_theta_deg": {
+      "n": 1200,
+      "n_nonfinite_dropped": 0,
+      "min": 1.0594500582971826,
+      "p10": 1.4844865916804322,
+      "median": 2.116816750946504,
+      "p90": 2.5651282556281787,
+      "max": 2.6531577050062394,
+      "mean": 2.099522450782032
+    },
+    "speed_error_cas_kts": {
+      "n": 1200,
+      "n_nonfinite_dropped": 0,
+      "min": -24.275575004047653,
+      "p10": -22.758767213370437,
+      "median": -15.218248759353884,
+      "p90": -9.731337920396411,
+      "max": -8.68276323751445,
+      "mean": -15.790011598840499
+    }
+  },
+  "source_sha256": {
+    "repair/controller.py": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+    "repair/env.py": "8bb9078809d28ab2117abc3b928c138acf1da1dc4442e69de4c4632d8c3c9607",
+    "lab/duel_lab.py": "9f358a7a04b09728199ac33de120146e3aa0bcbb37fe18dbae2a2b5a7cfcb9a6",
+    "base/combat_v3/env.py": "4b4e91dd8168517039ed7092a0536dcefd5297582c4f3722be8d7ca5d3b9d7b4",
+    "base/combat_v3/controller.py": "d772bf49a8d8408aaafec691c981d0612de7dada6450e0afcecbc3d958b7813b",
+    "base/combat_v3/interface.py": "50f63ee563a8cb13b9bb472b0de7905579bcc9c70bc69efc571681879eb02555",
+    "base/combat_v3/fdm.py": "c59e705d248f1678f64ba6788639260c739a1b1a6e8f6830d62e4a11f3a1dba6",
+    "base/combat_v3/rules.py": "40857e278e8f3902fc9e8c39acf0aebb7bc8e02fafb9627a3f5561512a2f4e05",
+    "base/combat_v3/config.json": "d4fba053617240e07ffc67fe389d944313ba12dff491e569a0ae764e0f7b88ec",
+    "base/envs/jsbsimEnv/jsbsimFdm.py": "6d193634ccaff77db6f3d1e248b2276c4a7177c47dbfa82fd466154b67d8c541",
+    "repair/artifacts.py": "938c184366b55843e59250e2d1b544c10ebb67daca451e2701e8e631c7fd041e",
+    "calibration/calibrate.py": "d116ea811eb8215b8e6439d68cd774aff8d1b39251f806e887c6320f243ab5d4",
+    "calibration/calibration_worker.py": "3122c447ea5846cf402ae5a9b167a16d796c456361dcabb54811373246ce7196",
+    "calibration/calibration_adapter.py": "36365f9da7de2d7a6f0950ec09b5277983b1d0fa7478adc95dc258a4f378eadc",
+    "campaign/benchmark.py": "9b351910b28b3057eadabca4cddb4e734aa6678937ce9f900903e7ec36bfb3de"
+  },
+  "seed": 2026101200,
+  "fdm_dt_s": [
+    0.016666666666666666,
+    0.016666666666666666
+  ]
+}

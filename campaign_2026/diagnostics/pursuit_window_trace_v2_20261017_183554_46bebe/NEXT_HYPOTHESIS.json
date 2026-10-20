@@ -1,0 +1,14 @@
+{
+  "status": "proposed_not_implemented",
+  "basis": "E:\\ai_pilot\\campaign_2026\\diagnostics\\pursuit_window_trace_v2_20261017_183554_46bebe\\VERIFICATION.json",
+  "hypothesis": "When the enemy crosses directly behind, preserving the existing turn direction through ±180 heading-error wrap may avoid repeated left/right reversals and help bring the nose forward; untested closed-loop.",
+  "proposed_single_factor": "Add rear-sector turn-direction latch on wrap event while legal body-X target angle>90deg. Preserve prior nonzero requested turn sign and existing magnitude; release when target enters forward hemisphere <=90deg; reset every episode. All speed/pitch/rudder and inner safety unchanged.",
+  "working_baseline": "Already rejected bank60 zero-tactical controller; compare latch60 vs unlatched60 to isolate latch. This does not prove superiority to station_zero72 or repair_guide.",
+  "comparison_design": "New frozen controller contract and unused initial seeds, two openings, 4 full paired games;90s/worker,600s including preplanned sufficient verifier cap. Both full initial SHA identical within pair; source/model/XML/STOP/resources/OSlock and independent watchdog. No new seeds selected/claimed yet.",
+  "prerequisite": "Before any FDM, isolated latch/reset/sign/magnitude/safety tests plus saved-packet replay proving no change before first qualifying wrap, same original cap and safety invocation. Never silently change near bank or speed while adding latch.",
+  "acceptance": "Measure real latch activation/first changed command, front-hemisphere time/1deg attack, event/score/death/crash/collision/over9G and common AGL per opening. Any candidate>9G reject. Compare to rejected60 only for mechanism; if promising, require new same-initial reference72 comparison and wider frozen opponents before consideration.",
+  "deployment_allowed": false,
+  "training_started": false,
+  "no_parameter_sweep": true,
+  "no_new_FDM_started": true
+}

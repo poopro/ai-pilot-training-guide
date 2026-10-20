@@ -1,0 +1,34 @@
+{
+  "status": "isolated_latch_implementation_prerequisite_verified_no_new_FDM",
+  "hypothesis": "Rear ±180 heading wrap causes reversal; latch direction only until forward hemisphere",
+  "baseline": "rejected bank60 zero-tactical StationController, not original72 or repair_guide",
+  "single_factor": "Rear wrap turn-direction sign latch; all magnitudes far60/near72, pitch/speed/rudder and unchanged inner safety retained",
+  "prerequisite": "E:\\ai_pilot\\campaign_2026\\diagnostics\\rear_latch_precheck_v1_20261017_203552_9a320f\\VERIFICATION.json",
+  "prerequisite_sha256": "8c16923febbd5d72b81d18d22f34d22c72611c7bb9285d7bc3c73ca23d9c1c16",
+  "static_checks": 17,
+  "pretrigger_actual_inner_command_replay_ticks": [
+    3590,
+    3973
+  ],
+  "both_parent_worker_exit": 0,
+  "source_sha256": {
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v1\\battle.py": "5a00a636a533fedb81080a7fb2b2401e8ff9bc7e2a23b816aebf8794fc78c602",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v1\\candidate.py": "1916a2f1a023d00493e5e703a98521126f278d136722da227ad03b313bde1b8e",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v1\\test_static.py": "72dd52e2ac0934c9171719de0ccf572cb4af08c65ba2777abe3fcada65de3363",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v1\\verify.py": "1975872b7e67ee39dd0769d1de70a2f4b0ae6cf0e4b18045a3ad63dfd651ca6f"
+  },
+  "plan_games": 4,
+  "plan_pairs": 2,
+  "seeds": [
+    2026310500,
+    2026310501
+  ],
+  "seeds_claimed": false,
+  "worker_seconds": 90,
+  "whole_seconds": 600,
+  "preplanned_verifier_seconds": 120,
+  "training_started": false,
+  "deployment_allowed": false,
+  "acceptance": "Any >9G rejected; independent events/full scores/common AGL/first trigger and actual command prefix. Superiority to weak60 is not superiority to72 or repair_guide.",
+  "verifier_after_precheck": "Only independent CSV all-fields and ACMI 0/20/terminal packet-pose checks added; runtime controller/worker/helper and pretrigger proof sources unchanged"
+}

@@ -1,0 +1,17 @@
+{
+  "event_id": "portable_v4_ram_floor_20261016",
+  "observed_utc": "2026-10-16T01:35:09.956971+00:00",
+  "arm_actual_exit_code": 1,
+  "arm_exit_tool_chunk": "f5da96",
+  "blocked": [
+    "RAM_below_2GiB"
+  ],
+  "available_RAM_bytes": 897753088,
+  "minimum_RAM_bytes": 2147483648,
+  "DCS_working_set_MiB": 8094,
+  "new_Host_started": false,
+  "new_guard_started": false,
+  "new_budget_reserved": false,
+  "unrelated_processes_stopped": false,
+  "next": "User may normally closeDCS after finishing/saving flight; recheck RAM and unchangedv4 gates then fresharm. Do not lowerfloor or kill DCS."
+}

@@ -1,0 +1,14 @@
+{
+  "pid": 21896,
+  "create": 1792320411.3290732,
+  "cmd": [
+    "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_train_v4\\train.py",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_train_v4\\run_20261018_184640_29092b"
+  ],
+  "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+  "parent": 22444
+}

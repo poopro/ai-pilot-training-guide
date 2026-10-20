@@ -1,0 +1,44 @@
+{
+  "created_utc": "2026-10-15T16:06:05.007132+00:00",
+  "static_tests": [
+    {
+      "name": "adapter",
+      "actual_exit_code": 0,
+      "command": [
+        "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "E:\\ai_pilot\\campaign_2026\\experiments\\m4_tactical_v3\\test_adapter.py",
+        "-v"
+      ]
+    },
+    {
+      "name": "executor",
+      "actual_exit_code": 0,
+      "command": [
+        "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_rules_interface_v1\\test_plan.py",
+        "-v"
+      ]
+    }
+  ],
+  "new_FDM_ticks": 0,
+  "new_training_steps": 0,
+  "max_FDM_ticks": 4200,
+  "total_wall_seconds": 240,
+  "per_worker_seconds": 45,
+  "seed_base": 2026101600,
+  "rear_fixtures_are_not_official_openings": true,
+  "usage_observation": {
+    "observed_utc": "2026-10-15T15:58:49Z",
+    "lower_remaining_percent": 63,
+    "five_hour_reset_epoch": 1792094944,
+    "weekly_reset_epoch": 1792654206
+  },
+  "training_launch_allowed": false,
+  "deployment_allowed": false
+}

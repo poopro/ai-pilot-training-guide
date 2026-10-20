@@ -1,0 +1,234 @@
+{
+  "updated_utc": "2026-10-12T17:54:13.295707+00:00",
+  "comparison": "E:\\ai_pilot\\campaign_2026\\experiments\\fresh_bank80\\run_20261013_013609_5218\\COMPARISON.json",
+  "comparison_sha256": "78192becf6c06caaf7dc1bfbbe1855e666baefdab1205dda35219d9f495bbeff",
+  "verified_comparison": true,
+  "actual_tool_parent_exit_code": 0,
+  "totals": {
+    "guide": {
+      "completed_cases": 12,
+      "kills": 2,
+      "deaths": 0,
+      "own_crashes": 0,
+      "enemy_crashes": 0,
+      "survival": 12,
+      "attack_seconds": 6.633333333333333,
+      "enemy_attack_seconds": 0.0,
+      "over_9g_seconds": 0.0,
+      "min_altitude_m": 770.8404209972939,
+      "mean_attack_seconds": 0.5527777777777777,
+      "mean_enemy_attack_seconds": 0.0,
+      "survival_rate": 1.0
+    },
+    "candidate": {
+      "completed_cases": 12,
+      "kills": 3,
+      "deaths": 0,
+      "own_crashes": 0,
+      "enemy_crashes": 0,
+      "survival": 12,
+      "attack_seconds": 11.55,
+      "enemy_attack_seconds": 0.0,
+      "over_9g_seconds": 0.016666666666666666,
+      "min_altitude_m": 765.1507099477675,
+      "mean_attack_seconds": 0.9625,
+      "mean_enemy_attack_seconds": 0.0,
+      "survival_rate": 1.0
+    }
+  },
+  "by_opponent": {
+    "rule": {
+      "guide": {
+        "kills": 2,
+        "deaths": 0,
+        "own_crashes": 0,
+        "survival": 6,
+        "attack_seconds": 6.0,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0,
+        "cases": 6,
+        "min_altitude_m": 1587.0748702070412
+      },
+      "candidate": {
+        "kills": 3,
+        "deaths": 0,
+        "own_crashes": 0,
+        "survival": 6,
+        "attack_seconds": 9.0,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0,
+        "cases": 6,
+        "min_altitude_m": 1587.0748702070412
+      }
+    },
+    "rl": {
+      "guide": {
+        "kills": 0,
+        "deaths": 0,
+        "own_crashes": 0,
+        "survival": 6,
+        "attack_seconds": 0.6333333333333334,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0,
+        "cases": 6,
+        "min_altitude_m": 770.8404209972939
+      },
+      "candidate": {
+        "kills": 0,
+        "deaths": 0,
+        "own_crashes": 0,
+        "survival": 6,
+        "attack_seconds": 2.55,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.016666666666666666,
+        "cases": 6,
+        "min_altitude_m": 765.1507099477675
+      }
+    }
+  },
+  "gates": {
+    "metric": true,
+    "outcome_safety": false,
+    "per_opponent": false
+  },
+  "decision": "reject_promotion",
+  "deployment": "repair_guide",
+  "official_validation": false,
+  "new_seed_role": "development_not_holdout",
+  "overg_events": [
+    {
+      "case_id": "r000_rl_6000_mirrored_2026101311_candidate",
+      "counter_seconds": 0.016666666666666666,
+      "equivalent_60Hz_ticks": 1.0,
+      "csv_sha256": "2f806eb7cecae347ba2541408f34452354334910aaa4c3db4b500af19921b801",
+      "csv_rows": 300,
+      "sample_interval_seconds": 1.0,
+      "sampled_max_load_factor": 7.3094218546616565,
+      "cumulative_counter_transition_brackets": [
+        [
+          {
+            "tick": "14640",
+            "simulation_seconds": "244.0",
+            "distance_m": "872.1324346791487",
+            "blue_angle_deg_judge_only": "32.70412023184813",
+            "red_angle_deg_judge_only": "169.70673633706727",
+            "altitude_m": "818.5512419674427",
+            "load_factor": "5.641599756076847",
+            "attack_seconds": "1.0833333333333333",
+            "enemy_attack_seconds": "0.0",
+            "over_9g_seconds": "0.0",
+            "controller_mode": "track"
+          },
+          {
+            "tick": "14700",
+            "simulation_seconds": "245.0",
+            "distance_m": "912.2878554058735",
+            "blue_angle_deg_judge_only": "28.434944043416213",
+            "red_angle_deg_judge_only": "173.20910028932354",
+            "altitude_m": "783.9790690599203",
+            "load_factor": "7.3094218546616565",
+            "attack_seconds": "1.0833333333333333",
+            "enemy_attack_seconds": "0.0",
+            "over_9g_seconds": "0.016666666666666666",
+            "controller_mode": "recover"
+          },
+          {
+            "tick": "14760",
+            "simulation_seconds": "246.0",
+            "distance_m": "945.5640366424449",
+            "blue_angle_deg_judge_only": "30.666650357749322",
+            "red_angle_deg_judge_only": "169.95907554991385",
+            "altitude_m": "777.7317597523391",
+            "load_factor": "4.374413737638504",
+            "attack_seconds": "1.0833333333333333",
+            "enemy_attack_seconds": "0.0",
+            "over_9g_seconds": "0.016666666666666666",
+            "controller_mode": "recover"
+          }
+        ]
+      ],
+      "limitation": "1Hz sampled load peak does not reveal the transient 60Hz over9G magnitude or exact controller mode/tick; retain the 60Hz accumulated counter event."
+    }
+  ],
+  "lower_min_altitude_pairs": [
+    {
+      "pair_key": "r000_rl_3000_normal_2026101310",
+      "opponent": "rl",
+      "delta": {
+        "kills": 0,
+        "deaths": 0,
+        "own_crashes": 0,
+        "enemy_crashes": 0,
+        "survival": 0,
+        "attack_seconds": -0.016666666666666666,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0,
+        "min_altitude_m": -30.497142925953767
+      }
+    },
+    {
+      "pair_key": "r000_rl_3000_mirrored_2026101310",
+      "opponent": "rl",
+      "delta": {
+        "kills": 0,
+        "deaths": 0,
+        "own_crashes": 0,
+        "enemy_crashes": 0,
+        "survival": 0,
+        "attack_seconds": 0.5833333333333334,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0,
+        "min_altitude_m": -11.045628021716198
+      }
+    },
+    {
+      "pair_key": "r000_rl_6000_normal_2026101311",
+      "opponent": "rl",
+      "delta": {
+        "kills": 0,
+        "deaths": 0,
+        "own_crashes": 0,
+        "enemy_crashes": 0,
+        "survival": 0,
+        "attack_seconds": 0.5166666666666666,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0,
+        "min_altitude_m": -6.739616217793582
+      }
+    },
+    {
+      "pair_key": "r000_rl_9000_normal_2026101312",
+      "opponent": "rl",
+      "delta": {
+        "kills": 0,
+        "deaths": 0,
+        "own_crashes": 0,
+        "enemy_crashes": 0,
+        "survival": 0,
+        "attack_seconds": 0.0,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0,
+        "min_altitude_m": -29.608700227765098
+      }
+    },
+    {
+      "pair_key": "r000_rl_9000_mirrored_2026101312",
+      "opponent": "rl",
+      "delta": {
+        "kills": 0,
+        "deaths": 0,
+        "own_crashes": 0,
+        "enemy_crashes": 0,
+        "survival": 0,
+        "attack_seconds": -0.03333333333333333,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0,
+        "min_altitude_m": -4.191782644403588
+      }
+    }
+  ],
+  "rl_full_horizon_cases": 12,
+  "rule_kill_gain_pair": "r000_rule_3000_normal_2026101300",
+  "scope": "New seed development comparison only. RL0/6 each; no robust win-rate or aiming-generalization claim. Added rule kill does not outweigh RL safety regression. Existing original-development RL kill and lost rule mirror kill remain earlier evidence.",
+  "next_action": "Daily review: localize the transient overload near track/recover before proposing a single-factor safety candidate. No unchanged full rerun, expanded pool, holdout or Host promotion for this rejected candidate. Keep all source and artifacts frozen."
+}

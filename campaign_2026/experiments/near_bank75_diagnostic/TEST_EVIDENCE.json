@@ -1,0 +1,35 @@
+{
+  "scope": "Static/controller/lifecycle tests only; no FDM, verifier, Host, training or old run rewrite",
+  "observed_utc": "2026-10-14T12:47:36.1489495Z",
+  "command": [
+    "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "-m",
+    "unittest",
+    "-v",
+    "test_diagnostic"
+  ],
+  "actual_exit_code": 0,
+  "tests_run": 12,
+  "test_output_tool_chunk": "05362d",
+  "test_duration_seconds": 0.951,
+  "positive_windows_handle_test": "Actual short mock sleep process: OpenProcess/GetProcessTimes/live PID+create+cmd/WaitForSingleObject/GetExitCodeProcess observed0; no actual experiment guardian",
+  "source_sha256": {
+    "bank75_latch.py": "400e9303aac88fed4304965ec91872e3f833fd4edac886ada570d096bbb6e7c1",
+    "launch_diagnostic.py": "4ca0b9032d622bbd7ad939c12e0151004cefade5e6897ffdd367532aaae5276b",
+    "bank80_latch.py": "ceacb8b08b057f2ede0119d6bb93947b0395d73e9764ff5bdc439a33e790ba50",
+    "test_diagnostic.py": "450fad9345849164f6a6799ee0e94d388bd81889171039834acba06853096c7e"
+  },
+  "prepare_status": "prepared_not_run_after_v5_true_exit",
+  "prepare_block_tool_chunk": "afbb1f",
+  "new_FDM_cases": 0,
+  "dynamic_hypothesis_proven": false,
+  "deployment_allowed": false,
+  "preparation_exit_code": 0,
+  "check_only_exit_code": 0,
+  "preparation_tool_chunk": "b1ee3d",
+  "trial_id": "near75_known_cf_5a197df1ff174636",
+  "ready_to_start_at_check": true
+}

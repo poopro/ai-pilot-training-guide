@@ -1,0 +1,33 @@
+{
+  "verified_independent_window_audit": true,
+  "rows": 10800,
+  "results": [
+    {
+      "case": "normal_bank60_2026310600",
+      "rows": 2700,
+      "independent_unwrapped_rates_units_and_key_medians": true
+    },
+    {
+      "case": "normal_latch60_2026310600",
+      "rows": 2700,
+      "independent_unwrapped_rates_units_and_key_medians": true
+    },
+    {
+      "case": "mirrored_bank60_2026310601",
+      "rows": 2700,
+      "independent_unwrapped_rates_units_and_key_medians": true
+    },
+    {
+      "case": "mirrored_latch60_2026310601",
+      "rows": 2700,
+      "independent_unwrapped_rates_units_and_key_medians": true
+    }
+  ],
+  "extract": "E:\\ai_pilot\\campaign_2026\\diagnostics\\latch_window_v1_20261017_213638_941961",
+  "extract_analysis_sha256": "03b12c7e625d08af47d88aeb372b1bd1ba1bb466d8d6c1e135c60714b95c84d3",
+  "new_FDM_ticks": 0,
+  "controller_projection_calls": 0,
+  "model_inference_calls": 0,
+  "scope": "NumPy unwrapped finite differences, independently vectorized geometry and fps-to-knots conversion; selected 45s windows only",
+  "causality_limit": "No counterfactual intervention or fix tested. Course from enemy velocity is not true nose attitude."
+}

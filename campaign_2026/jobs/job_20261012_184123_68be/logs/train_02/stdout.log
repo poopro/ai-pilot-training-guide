@@ -1,0 +1,68 @@
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+修復訓練 decision 74001/124000；critic更新 18250；stage official
+修復訓練 decision 75225/124000；critic更新 18556；stage official
+修復訓練 decision 76357/124000；critic更新 18839；stage official
+修復訓練 decision 77465/124000；critic更新 19116；stage official
+修復訓練 decision 78594/124000；critic更新 19398；stage official
+修復訓練 decision 79732/124000；critic更新 19682；stage official
+修復訓練 decision 80877/124000；critic更新 19969；stage official
+修復訓練 decision 82001/124000；critic更新 20250；stage official
+修復訓練 decision 83097/124000；critic更新 20524；stage official
+修復訓練 decision 83853/124000；critic更新 20713；stage official
+已完整儲存：E:\ai_pilot\campaign_2026\jobs\job_20261012_184123_68be\train_02\checkpoint_0000084000
+修復訓練 decision 84659/124000；critic更新 20914；stage official
+修復訓練 decision 85529/124000；critic更新 21132；stage official
+修復訓練 decision 86361/124000；critic更新 21340；stage official
+修復訓練 decision 87221/124000；critic更新 21555；stage official
+修復訓練 decision 88214/124000；critic更新 21803；stage official
+修復訓練 decision 89357/124000；critic更新 22089；stage official
+修復訓練 decision 90506/124000；critic更新 22376；stage official
+修復訓練 decision 91650/124000；critic更新 22662；stage official
+修復訓練 decision 92738/124000；critic更新 22934；stage official
+修復訓練 decision 93806/124000；critic更新 23201；stage official
+已完整儲存：E:\ai_pilot\campaign_2026\jobs\job_20261012_184123_68be\train_02\checkpoint_0000094000
+修復訓練 decision 94933/124000；critic更新 23483；stage official
+修復訓練 decision 96073/124000；critic更新 23768；stage official
+修復訓練 decision 97153/124000；critic更新 24038；stage official
+修復訓練 decision 98277/124000；critic更新 24319；stage official
+修復訓練 decision 99393/124000；critic更新 24598；stage official
+修復訓練 decision 100469/124000；critic更新 24867；stage official
+修復訓練 decision 101365/124000；critic更新 25091；stage official
+修復訓練 decision 102113/124000；critic更新 25278；stage official
+修復訓練 decision 102856/124000；critic更新 25463；stage official
+修復訓練 decision 103624/124000；critic更新 25655；stage official
+已完整儲存：E:\ai_pilot\campaign_2026\jobs\job_20261012_184123_68be\train_02\checkpoint_0000104000
+修復訓練 decision 104383/124000；critic更新 25845；stage official
+修復訓練 decision 105149/124000；critic更新 26037；stage official
+修復訓練 decision 106036/124000；critic更新 26258；stage official
+修復訓練 decision 107042/124000；critic更新 26510；stage official
+修復訓練 decision 108049/124000；critic更新 26762；stage official
+修復訓練 decision 109059/124000；critic更新 27014；stage official
+修復訓練 decision 110023/124000；critic更新 27255；stage official
+修復訓練 decision 110805/124000；critic更新 27451；stage official
+修復訓練 decision 111575/124000；critic更新 27643；stage official
+修復訓練 decision 112341/124000；critic更新 27835；stage official
+修復訓練 decision 113093/124000；critic更新 28023；stage official
+修復訓練 decision 113855/124000；critic更新 28213；stage official
+已完整儲存：E:\ai_pilot\campaign_2026\jobs\job_20261012_184123_68be\train_02\checkpoint_0000114000
+修復訓練 decision 114622/124000；critic更新 28405；stage official
+修復訓練 decision 115394/124000；critic更新 28598；stage official
+修復訓練 decision 116162/124000；critic更新 28790；stage official
+修復訓練 decision 116931/124000；critic更新 28982；stage official
+修復訓練 decision 117701/124000；critic更新 29175；stage official
+修復訓練 decision 118433/124000；critic更新 29358；stage official
+修復訓練 decision 119137/124000；critic更新 29534；stage official
+修復訓練 decision 120021/124000；critic更新 29755；stage official
+修復訓練 decision 120889/124000；critic更新 29972；stage official
+修復訓練 decision 121736/124000；critic更新 30183；stage official
+修復訓練 decision 122717/124000；critic更新 30429；stage official
+修復訓練 decision 123725/124000；critic更新 30681；stage official
+已完整儲存：E:\ai_pilot\campaign_2026\jobs\job_20261012_184123_68be\train_02\checkpoint_0000124000
+已完整儲存：E:\ai_pilot\campaign_2026\jobs\job_20261012_184123_68be\train_02\final_0000124000
+{"status": "completed", "run_dir": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_02", "final_bundle": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_02\\final_0000124000", "decision_repeat": 4, "decision_steps": 124000, "physics_ticks": 495929, "critic_updates": 30750, "actor_updates": 30250, "stop_file": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_02\\STOP", "wall_seconds": 802.6399999999999, "official_validation": false}

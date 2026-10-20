@@ -1,0 +1,20 @@
+{
+  "status": "failed",
+  "case": {
+    "case_id": "rear_counter_2026101603",
+    "opponent_id": "rule",
+    "seed": 2026101603,
+    "distance_ft": 6000,
+    "max_steps": 600,
+    "reset_repeats": 2,
+    "stage": "rear",
+    "expect_nonzero": true,
+    "score_eligible": false
+  },
+  "episodes": [],
+  "score_eligible": false,
+  "official_validation": false,
+  "deployment_allowed": false,
+  "error": "RuntimeError('Rear fixture did not exercise nonzero attack counter')",
+  "wall_seconds": 6.0310000000026776
+}

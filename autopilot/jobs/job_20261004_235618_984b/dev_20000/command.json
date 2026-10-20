@@ -1,0 +1,22 @@
+{
+  "name": "dev_20000",
+  "folder": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\dev_20000",
+  "command": [
+    "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "E:\\ai_pilot\\autopilot\\experiment.py",
+    "eval",
+    "--out",
+    "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\dev_20000",
+    "--episodes",
+    "5",
+    "--seed",
+    "20261200",
+    "--bundle",
+    "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate1_to_20000\\final_0000020000",
+    "--paired"
+  ],
+  "started_utc": "2026-10-04T16:22:07.060630+00:00",
+  "training": false,
+  "start_step": 0,
+  "counted_steps": 0
+}

@@ -1,0 +1,6 @@
+{"case": "normal_station_zero_2026310200", "counts": {"frames": 18000, "bank_binding": 18000, "heading_speed_cap_binding": 18000, "near": 0, "in_band": 0, "break_threshold": 0}, "elapsed": 17.5470000000023}
+{"case": "normal_sac5000_2026310200", "counts": {"frames": 18000, "bank_binding": 18000, "heading_speed_cap_binding": 18000, "near": 0, "in_band": 0, "break_threshold": 0}, "elapsed": 27.09400000000096}
+{"case": "normal_transfer10000_2026310200", "counts": {"frames": 18000, "bank_binding": 18000, "heading_speed_cap_binding": 18000, "near": 0, "in_band": 0, "break_threshold": 0}, "elapsed": 37.31200000000172}
+{"case": "mirrored_station_zero_2026310201", "counts": {"frames": 18000, "bank_binding": 18000, "heading_speed_cap_binding": 18000, "near": 0, "in_band": 0, "break_threshold": 0}, "elapsed": 46.75}
+{"case": "mirrored_sac5000_2026310201", "counts": {"frames": 18000, "bank_binding": 18000, "heading_speed_cap_binding": 18000, "near": 0, "in_band": 0, "break_threshold": 0}, "elapsed": 56.34400000000096}
+{"case": "mirrored_transfer10000_2026310201", "counts": {"frames": 18000, "bank_binding": 18000, "heading_speed_cap_binding": 18000, "near": 0, "in_band": 0, "break_threshold": 9820}, "elapsed": 65.9220000000023}

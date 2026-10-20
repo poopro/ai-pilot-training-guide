@@ -1,0 +1,10 @@
+test_collision_reaches_parent_terminal_api (__main__.AdapterTests) ... ok
+test_old_crash_booleans_cannot_override_new50metres (__main__.AdapterTests) ... ok
+test_one_update_per_real_step_and_no_silent_double_update (__main__.AdapterTests) ... ok
+test_real_time_feature_is_legal_clock_and_not_hidden_enemy_state (__main__.AdapterTests) ... ok
+test_short_cutoff_cannot_be_claimed_as_timeout_win (__main__.AdapterTests) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK

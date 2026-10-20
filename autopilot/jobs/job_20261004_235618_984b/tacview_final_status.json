@@ -1,0 +1,9 @@
+{
+  "application_started": true,
+  "user_stopped_computer_use": true,
+  "file_open_requested": true,
+  "utc": "2026-10-04T16:50:48.3784577Z",
+  "status": "pending_manual",
+  "reason": "User pressed physical Escape; no further Computer Use actions",
+  "file_loaded": "unverified"
+}

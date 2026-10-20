@@ -1,0 +1,70 @@
+{
+  "created_utc": "2026-10-16T02:37:40.209327+00:00",
+  "model_path": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_actor_transfer_10k_v1\\run_20261016_102640_412524\\cases\\actor_transfer_10000\\model.zip",
+  "model_sha256": "6c7ceea74457557be60f4156313cf1d75ffff20196159ae8fe22a7809190c012",
+  "replay_path": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_actor_transfer_10k_v1\\run_20261016_102640_412524\\cases\\actor_transfer_10000\\replay.pkl",
+  "replay_sha256": "4082997aff7891b9dded9e409570f2db05612d23e588c2e6e13d9758e5d91f27",
+  "verification_path": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_actor_transfer_10k_v1\\run_20261016_102640_412524\\VERIFICATION.json",
+  "verification_sha256": "72d6a8440519cce916530acf0279c9ba07ce4c6750a987eb6ba060bbb87139ab",
+  "source_contract_sha256": "2382e73c943e164cc16e9d171daab8b8b4a02795a4dc0d7ddafb358fbc418e22",
+  "actor_transfer_audit": {
+    "verified_actor_only_transfer": true,
+    "source_model_sha256": "9f93eb56483558ad56283c00b1ba34af96a236583bc977ef7d9fad375d9a0fea",
+    "source_actor_sha256": "a37472165327cedb11574658a41de968114fcfae2b32142d10fed50b0a240e10",
+    "initial_actor_sha256": "a37472165327cedb11574658a41de968114fcfae2b32142d10fed50b0a240e10",
+    "fresh_critic_unchanged": true,
+    "fresh_actor_optimizer": true,
+    "fresh_critic_optimizer": true,
+    "replay_size": 0,
+    "gradient_updates": 0,
+    "exact_resume": false
+  },
+  "observation_dimensions": 13,
+  "tactical_action_dimensions": 3,
+  "gamma": 0.9995,
+  "decisions": 10000,
+  "new_FDM_ticks": 200000,
+  "gradient_updates": 1125,
+  "completed_episodes": 11,
+  "actual_cells": [
+    [
+      "mirror",
+      3000
+    ],
+    [
+      "mirror",
+      6000
+    ],
+    [
+      "mirror",
+      9000
+    ],
+    [
+      "rl",
+      3000
+    ],
+    [
+      "rl",
+      6000
+    ],
+    [
+      "rl",
+      9000
+    ],
+    [
+      "rule",
+      3000
+    ],
+    [
+      "rule",
+      6000
+    ],
+    [
+      "rule",
+      9000
+    ]
+  ],
+  "exact_resume": false,
+  "deployment_allowed": false,
+  "win_rate_evidence": false
+}

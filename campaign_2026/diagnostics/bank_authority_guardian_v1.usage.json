@@ -1,0 +1,15 @@
+{
+  "observed_utc": "2026-10-18 04:37:04 UTC",
+  "remaining_percent": 96,
+  "primary": {
+    "usedPercent": 0,
+    "windowDurationMins": 300,
+    "resetsAt": 1792316224
+  },
+  "weekly": {
+    "usedPercent": 4,
+    "windowDurationMins": 10080,
+    "resetsAt": 1792879134
+  },
+  "reset_credit_used": false
+}

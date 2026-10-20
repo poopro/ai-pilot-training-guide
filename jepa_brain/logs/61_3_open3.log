@@ -1,0 +1,259 @@
+[1/155] topen:out:3:side=-1/sac:25600000 timeout winner=blue margin 1221.0
+[2/155] tuned/sac:25600000 timeout winner=red margin -8046.6
+[3/155] topen:out:6:side=-1/sac:25600000 timeout winner=blue margin 2404.9
+[4/155] topen:out:9:side=-1/sac:25600000 timeout winner=blue margin 2310.1
+[5/155] topen:out:12:side=-1/sac:25600000 timeout winner=blue margin 2277.6
+[6/155] tuned/sac:25600000 timeout winner=red margin -29622.0
+[7/155] topen:out:6:side=-1/sac:25600000 timeout winner=blue margin 4263.1
+[8/155] topen:out:9:side=-1/sac:25600000 timeout winner=red margin -3322.1
+[9/155] topen:out:3:side=-1/sac:25600000 blue_kill winner=blue margin 62922.9
+[10/155] topen:out:12:side=-1/sac:25600000 timeout winner=red margin -930.2
+[11/155] tuned/sac:25600000 timeout winner=red margin -26980.9
+[12/155] topen:out:3:side=-1/sac:25600000 timeout winner=red margin -26585.9
+[13/155] topen:out:6:side=-1/sac:25600000 timeout winner=red margin -19815.2
+[14/155] topen:out:9:side=-1/sac:25600000 red_crash winner=blue margin 1364.3
+[15/155] topen:out:12:side=-1/sac:25600000 timeout winner=blue margin 837.2
+[16/155] tuned/sac:25600000 timeout winner=red margin -27536.3
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[17/155] topen:out:3:side=-1/sac:25600000 timeout winner=blue margin 1404.1
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[18/155] topen:out:6:side=-1/sac:25600000 timeout winner=blue margin 2480.8
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+C:\Users\USER\anaconda3\envs\F16_ai\lib\site-packages\stable_baselines3\common\buffers.py:241: UserWarning: This system does not have apparently enough memory to store the complete replay buffer 1.72GB > 1.22GB
+  warnings.warn(
+C:\Users\USER\anaconda3\envs\F16_ai\lib\site-packages\stable_baselines3\common\buffers.py:241: UserWarning: This system does not have apparently enough memory to store the complete replay buffer 1.72GB > 1.21GB
+  warnings.warn(
+C:\Users\USER\anaconda3\envs\F16_ai\lib\site-packages\stable_baselines3\common\buffers.py:241: UserWarning: This system does not have apparently enough memory to store the complete replay buffer 1.72GB > 1.18GB
+  warnings.warn(
+[19/155] tuned/sac:25600000 blue_kill winner=blue margin 81980.9
+[20/155] topen:out:12:side=-1/sac:25600000 timeout winner=blue margin 2332.0
+[21/155] topen:out:9:side=-1/sac:25600000 timeout winner=blue margin 1920.6
+[22/155] topen:out:3:side=-1/sac:25600000 red_crash winner=blue margin -193.1
+[23/155] topen:out:6:side=-1/sac:25600000 timeout winner=red margin -2714.3
+[24/155] topen:out:9:side=-1/sac:25600000 timeout winner=red margin -6688.6
+[25/155] topen:out:3:side=-1/sac:25600000 blue_kill winner=blue margin 82173.5
+[26/155] topen:out:12:side=-1/sac:25600000 timeout winner=blue margin 1792.3
+[27/155] tuned/sac:25600000 timeout winner=red margin -777.5
+[28/155] topen:out:6:side=-1/sac:25600000 collision winner=blue margin 35244.7
+[29/155] topen:out:9:side=-1/sac:25600000 red_crash winner=blue margin 4673.9
+[30/155] topen:out:12:side=-1/sac:25600000 blue_kill winner=blue margin 68628.4
+[31/155] tuned/sac:25600000 timeout winner=blue margin 3002.5
+[32/155] topen:out:3:side=-1/sac:25600000 timeout winner=blue margin 835.6
+[33/155] topen:out:6:side=-1/sac:25600000 timeout winner=red margin -1184.2
+[34/155] topen:out:9:side=-1/sac:25600000 timeout winner=blue margin 2396.4
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[35/155] topen:out:12:side=-1/sac:25600000 timeout winner=blue margin 2803.2
+[36/155] tuned/sac:25600000 timeout winner=red margin -11932.6
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[37/155] topen:out:3:side=-1/sac:25600000 timeout winner=red margin -25158.1
+[38/155] topen:out:6:side=-1/sac:25600000 timeout winner=red margin -6705.9
+[39/155] topen:out:9:side=-1/sac:25600000 timeout winner=red margin -7851.0
+[40/155] tuned/sac:25600000 timeout winner=red margin -15161.4
+[41/155] topen:out:12:side=-1/sac:25600000 timeout winner=red margin -731.0
+[42/155] topen:out:3:side=-1/sac:25600000 blue_kill winner=blue margin 66140.3
+[43/155] topen:out:6:side=-1/sac:25600000 timeout winner=red margin -19935.4
+[44/155] topen:out:9:side=-1/sac:25600000 timeout winner=red margin -1653.6
+[45/155] topen:out:12:side=-1/sac:25600000 timeout winner=red margin -4966.0
+[46/155] tuned/sac:25600000 timeout winner=red margin -2753.6
+[47/155] topen:out:3:side=-1/sac:25600000 timeout winner=red margin -1647.4
+[48/155] topen:out:6:side=-1/sac:25600000 timeout winner=blue margin 2592.2
+[49/155] topen:out:12:side=-1/sac:25600000 timeout winner=blue margin 2594.7
+[50/155] topen:out:9:side=-1/sac:25600000 timeout winner=blue margin 2526.8
+[51/155] tuned/sac:25600000 timeout winner=red margin -6498.5
+[52/155] topen:out:6:side=-1/sac:25600000 timeout winner=red margin -1178.3
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[53/155] topen:out:3:side=-1/sac:25600000 timeout winner=red margin -5014.1
+[54/155] topen:out:9:side=-1/sac:25600000 timeout winner=red margin -12006.7
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[55/155] topen:out:3:side=-1/sac:25600000 blue_kill winner=blue margin 82515.4
+[56/155] topen:out:6:side=-1/sac:25600000 collision winner=blue margin 733.2
+[57/155] tuned/sac:25600000 timeout winner=red margin -9045.1
+[58/155] topen:out:12:side=-1/sac:25600000 timeout winner=red margin -1299.7
+[59/155] topen:out:9:side=-1/sac:25600000 collision winner=blue margin 19625.1
+[60/155] tuned/sac:25600000 timeout winner=red margin -8314.7
+[61/155] topen:out:12:side=-1/sac:25600000 timeout winner=blue margin 979.2
+[62/155] topen:out:3:side=-1/sac:25600000 timeout winner=blue margin 2228.6
+[63/155] topen:out:6:side=-1/sac:25600000 timeout winner=blue margin 2598.5
+[64/155] topen:out:9:side=-1/sac:25600000 timeout winner=blue margin 1672.8
+[65/155] topen:out:12:side=-1/sac:25600000 timeout winner=blue margin 2775.5
+[66/155] tuned/sac:25600000 timeout winner=blue margin 10678.1
+[67/155] topen:out:3:side=-1/sac:25600000 timeout winner=blue margin 295.8
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[68/155] topen:out:6:side=-1/sac:25600000 timeout winner=blue margin 2238.3
+[69/155] topen:out:9:side=-1/sac:25600000 timeout winner=blue margin 277.7
+[70/155] topen:out:12:side=-1/sac:25600000 timeout winner=red margin -5572.1
+[71/155] tuned/sac:25600000 timeout winner=red margin -14931.0
+[72/155] topen:out:3:side=-1/sac:25600000 timeout winner=red margin -14247.6
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[73/155] topen:out:6:side=-1/sac:25600000 timeout winner=red margin -4416.6
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[74/155] topen:out:9:side=-1/sac:25600000 timeout winner=red margin -654.1
+[75/155] topen:out:3:side=-1/sac:25600000 red_crash winner=blue margin 596.9
+[76/155] topen:out:12:side=-1/sac:25600000 timeout winner=blue margin 4128.4
+[77/155] tuned/sac:25600000 timeout winner=blue margin 4017.4
+[78/155] topen:out:6:side=-1/sac:25600000 timeout winner=red margin -2691.7
+[79/155] topen:out:9:side=-1/sac:25600000 timeout winner=blue margin 2244.4
+[80/155] topen:out:12:side=-1/sac:25600000 timeout winner=blue margin 2322.1
+[81/155] tuned/sac:25600000 timeout winner=red margin -6543.2
+[82/155] topen:out:3:side=-1/sac:25600000 timeout winner=red margin -27093.0
+[83/155] topen:out:6:side=-1/sac:25600000 timeout winner=red margin -198.2
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[84/155] topen:out:9:side=-1/sac:25600000 red_crash winner=blue margin -469.9
+C:\Users\USER\anaconda3\envs\F16_ai\lib\site-packages\stable_baselines3\common\buffers.py:241: UserWarning: This system does not have apparently enough memory to store the complete replay buffer 1.72GB > 0.87GB
+  warnings.warn(
+[85/155] topen:out:12:side=-1/sac:25600000 timeout winner=red margin -519.9
+[86/155] tuned/sac:25600000 timeout winner=red margin -26635.7
+[87/155] topen:out:9:side=-1/sac:25600000 red_crash winner=blue margin 971.0
+[88/155] topen:out:3:side=-1/sac:25600000 timeout winner=red margin -26136.6
+[89/155] topen:out:6:side=-1/sac:25600000 timeout winner=blue margin 1681.4
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[90/155] topen:out:3:side=-1/sac:25600000 red_crash winner=blue margin 1341.1
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[91/155] topen:out:12:side=-1/sac:25600000 timeout winner=blue margin 919.3
+[92/155] tuned/sac:25600000 timeout winner=red margin -10063.5
+[93/155] topen:out:9:side=-1/sac:25600000 timeout winner=blue margin 2333.2
+[94/155] topen:out:6:side=-1/sac:25600000 timeout winner=blue margin 2432.3
+[95/155] topen:out:12:side=-1/sac:25600000 timeout winner=blue margin 2357.4
+[96/155] tuned/sac:25600000 timeout winner=red margin -1374.0
+[97/155] topen:out:3:side=-1/sac:25600000 timeout winner=red margin -5504.9
+[98/155] topen:out:6:side=-1/sac:25600000 timeout winner=blue margin 960.5
+[99/155] topen:out:9:side=-1/sac:25600000 timeout winner=red margin -6445.1
+[100/155] topen:out:12:side=-1/sac:25600000 blue_kill winner=blue margin 64976.6
+[101/155] tuned/sac:25600000 timeout winner=red margin -4651.1
+[102/155] topen:out:3:side=-1/sac:25600000 timeout winner=red margin -1787.2
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[103/155] topen:out:6:side=-1/sac:25600000 timeout winner=red margin -11288.6
+C:\Users\USER\anaconda3\envs\F16_ai\lib\site-packages\stable_baselines3\common\buffers.py:241: UserWarning: This system does not have apparently enough memory to store the complete replay buffer 1.72GB > 0.45GB
+  warnings.warn(
+[104/155] topen:out:9:side=-1/sac:25600000 timeout winner=blue margin 1599.5
+[105/155] tuned/sac:25600000 timeout winner=red margin -4664.9
+[106/155] topen:out:3:side=-1/sac:25600000 timeout winner=blue margin 2312.4
+[107/155] topen:out:12:side=-1/sac:25600000 timeout winner=red margin -751.4
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[108/155] topen:out:6:side=-1/sac:25600000 timeout winner=blue margin 1128.7
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[109/155] topen:out:9:side=-1/sac:25600000 timeout winner=blue margin 2665.0
+C:\Users\USER\anaconda3\envs\F16_ai\lib\site-packages\stable_baselines3\common\buffers.py:241: UserWarning: This system does not have apparently enough memory to store the complete replay buffer 1.72GB > 0.78GB
+  warnings.warn(
+[110/155] topen:out:12:side=-1/sac:25600000 timeout winner=blue margin 2788.9
+C:\Users\USER\anaconda3\envs\F16_ai\lib\site-packages\stable_baselines3\common\buffers.py:241: UserWarning: This system does not have apparently enough memory to store the complete replay buffer 1.72GB > 0.64GB
+  warnings.warn(
+[111/155] topen:out:6:side=-1/sac:25600000 blue_kill winner=blue margin 69822.9
+[112/155] tuned/sac:25600000 timeout winner=red margin -28719.3
+[113/155] topen:out:3:side=-1/sac:25600000 timeout winner=blue margin 139.2
+[114/155] topen:out:9:side=-1/sac:25600000 timeout winner=red margin -31.9
+[115/155] topen:out:12:side=-1/sac:25600000 timeout winner=blue margin 383.7
+[116/155] tuned/sac:25600000 timeout winner=red margin -8744.6
+[117/155] topen:out:3:side=-1/sac:25600000 timeout winner=red margin -9241.9
+[118/155] topen:out:6:side=-1/sac:25600000 timeout winner=red margin -11785.1
+[119/155] topen:out:9:side=-1/sac:25600000 timeout winner=red margin -3578.1

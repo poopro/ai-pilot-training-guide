@@ -1,0 +1,27 @@
+{
+  "case": {
+    "case_id": "bank70_nose0",
+    "bank_deg": 70,
+    "pitch_spec": "nose0",
+    "speed_kts": 320
+  },
+  "seed": 2026101200,
+  "out": "E:\\ai_pilot\\campaign_2026\\experiments\\turn_calibration\\run_20261012_203318_c4ff",
+  "source_sha256": {
+    "repair/controller.py": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+    "repair/env.py": "8bb9078809d28ab2117abc3b928c138acf1da1dc4442e69de4c4632d8c3c9607",
+    "lab/duel_lab.py": "9f358a7a04b09728199ac33de120146e3aa0bcbb37fe18dbae2a2b5a7cfcb9a6",
+    "base/combat_v3/env.py": "4b4e91dd8168517039ed7092a0536dcefd5297582c4f3722be8d7ca5d3b9d7b4",
+    "base/combat_v3/controller.py": "d772bf49a8d8408aaafec691c981d0612de7dada6450e0afcecbc3d958b7813b",
+    "base/combat_v3/interface.py": "50f63ee563a8cb13b9bb472b0de7905579bcc9c70bc69efc571681879eb02555",
+    "base/combat_v3/fdm.py": "c59e705d248f1678f64ba6788639260c739a1b1a6e8f6830d62e4a11f3a1dba6",
+    "base/combat_v3/rules.py": "40857e278e8f3902fc9e8c39acf0aebb7bc8e02fafb9627a3f5561512a2f4e05",
+    "base/combat_v3/config.json": "d4fba053617240e07ffc67fe389d944313ba12dff491e569a0ae764e0f7b88ec",
+    "base/envs/jsbsimEnv/jsbsimFdm.py": "6d193634ccaff77db6f3d1e248b2276c4a7177c47dbfa82fd466154b67d8c541",
+    "repair/artifacts.py": "938c184366b55843e59250e2d1b544c10ebb67daca451e2701e8e631c7fd041e",
+    "calibration/calibrate.py": "d116ea811eb8215b8e6439d68cd774aff8d1b39251f806e887c6320f243ab5d4",
+    "calibration/calibration_worker.py": "3122c447ea5846cf402ae5a9b167a16d796c456361dcabb54811373246ce7196",
+    "calibration/calibration_adapter.py": "36365f9da7de2d7a6f0950ec09b5277983b1d0fa7478adc95dc258a4f378eadc",
+    "campaign/benchmark.py": "9b351910b28b3057eadabca4cddb4e734aa6678937ce9f900903e7ec36bfb3de"
+  }
+}

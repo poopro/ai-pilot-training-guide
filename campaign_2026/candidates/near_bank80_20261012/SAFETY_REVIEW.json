@@ -1,0 +1,389 @@
+{
+  "verified_comparison": true,
+  "comparison": "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\COMPARISON.json",
+  "details": [
+    {
+      "pair_key": "r000_rule_3000_mirrored_2026101100",
+      "delta_min_altitude_m": -732.8378007159827,
+      "common_window_seconds": 229.31666666666666,
+      "delta_common_window_logged_min_altitude_m": -230.07984177263097,
+      "pair": {
+        "guide": {
+          "min_altitude_m_full_tick_metric": 2665.3177718466663,
+          "logged_samples_below_800m": 0,
+          "logged_samples_below_1000m": 0,
+          "below800_modes": [],
+          "lowest_logged_sample": {
+            "tick": "12420",
+            "simulation_seconds": "207.0",
+            "distance_m": "690.28093575522",
+            "blue_angle_deg_judge_only": "2.406246783401029",
+            "red_angle_deg_judge_only": "177.72455085099975",
+            "altitude_m": "2665.467945725772",
+            "load_factor": "4.932193184279916",
+            "attack_seconds": "0.0",
+            "enemy_attack_seconds": "0.0",
+            "over_9g_seconds": "0.0",
+            "controller_mode": "track"
+          },
+          "logged_recovery_samples": 0,
+          "kills": 1,
+          "death": 0,
+          "crash": 0,
+          "over_9g_seconds": 0.0,
+          "common_window_logged_min_altitude_m": 2665.467945725772,
+          "common_window_logged_samples_below_800m": 0
+        },
+        "candidate": {
+          "min_altitude_m_full_tick_metric": 1932.4799711306837,
+          "logged_samples_below_800m": 0,
+          "logged_samples_below_1000m": 0,
+          "below800_modes": [],
+          "lowest_logged_sample": {
+            "tick": "18000",
+            "simulation_seconds": "300.0",
+            "distance_m": "2063.1814399709065",
+            "blue_angle_deg_judge_only": "62.61406402369039",
+            "red_angle_deg_judge_only": "120.34583400242425",
+            "altitude_m": "1932.4856531136097",
+            "load_factor": "2.19367393411647",
+            "attack_seconds": "0.0",
+            "enemy_attack_seconds": "0.0",
+            "over_9g_seconds": "0.0",
+            "controller_mode": "intercept"
+          },
+          "logged_recovery_samples": 0,
+          "kills": 0,
+          "death": 0,
+          "crash": 0,
+          "over_9g_seconds": 0.0,
+          "common_window_logged_min_altitude_m": 2435.388103953141,
+          "common_window_logged_samples_below_800m": 0
+        }
+      }
+    },
+    {
+      "pair_key": "r000_rl_3000_normal_2026101110",
+      "delta_min_altitude_m": -13.45782011772269,
+      "common_window_seconds": 300.0,
+      "delta_common_window_logged_min_altitude_m": -14.251391527694409,
+      "pair": {
+        "guide": {
+          "min_altitude_m_full_tick_metric": 777.9412333805521,
+          "logged_samples_below_800m": 4,
+          "logged_samples_below_1000m": 39,
+          "below800_modes": [
+            "recover"
+          ],
+          "lowest_logged_sample": {
+            "tick": "17100",
+            "simulation_seconds": "285.0",
+            "distance_m": "815.7673295573134",
+            "blue_angle_deg_judge_only": "33.908325392508715",
+            "red_angle_deg_judge_only": "154.29352370321706",
+            "altitude_m": "779.3387343138456",
+            "load_factor": "4.33243224795364",
+            "attack_seconds": "0.5333333333333333",
+            "enemy_attack_seconds": "0.0",
+            "over_9g_seconds": "0.0",
+            "controller_mode": "recover"
+          },
+          "logged_recovery_samples": 24,
+          "kills": 0,
+          "death": 0,
+          "crash": 0,
+          "over_9g_seconds": 0.0,
+          "common_window_logged_min_altitude_m": 779.3387343138456,
+          "common_window_logged_samples_below_800m": 4
+        },
+        "candidate": {
+          "min_altitude_m_full_tick_metric": 764.4834132628295,
+          "logged_samples_below_800m": 7,
+          "logged_samples_below_1000m": 47,
+          "below800_modes": [
+            "recover"
+          ],
+          "lowest_logged_sample": {
+            "tick": "16860",
+            "simulation_seconds": "281.0",
+            "distance_m": "886.1112878862214",
+            "blue_angle_deg_judge_only": "41.3982485032591",
+            "red_angle_deg_judge_only": "159.2376654743027",
+            "altitude_m": "765.0873427861512",
+            "load_factor": "4.532706086868204",
+            "attack_seconds": "0.8",
+            "enemy_attack_seconds": "0.0",
+            "over_9g_seconds": "0.0",
+            "controller_mode": "recover"
+          },
+          "logged_recovery_samples": 25,
+          "kills": 0,
+          "death": 0,
+          "crash": 0,
+          "over_9g_seconds": 0.0,
+          "common_window_logged_min_altitude_m": 765.0873427861512,
+          "common_window_logged_samples_below_800m": 7
+        }
+      }
+    },
+    {
+      "pair_key": "r000_rl_3000_mirrored_2026101110",
+      "delta_min_altitude_m": -18.343361337404986,
+      "common_window_seconds": 300.0,
+      "delta_common_window_logged_min_altitude_m": -18.65475572274329,
+      "pair": {
+        "guide": {
+          "min_altitude_m_full_tick_metric": 783.108394650646,
+          "logged_samples_below_800m": 3,
+          "logged_samples_below_1000m": 47,
+          "below800_modes": [
+            "recover"
+          ],
+          "lowest_logged_sample": {
+            "tick": "10980",
+            "simulation_seconds": "183.0",
+            "distance_m": "696.1767047557759",
+            "blue_angle_deg_judge_only": "52.95858364114722",
+            "red_angle_deg_judge_only": "158.87089716869488",
+            "altitude_m": "786.225550195536",
+            "load_factor": "3.6933991153970784",
+            "attack_seconds": "0.0",
+            "enemy_attack_seconds": "0.0",
+            "over_9g_seconds": "0.0",
+            "controller_mode": "recover"
+          },
+          "logged_recovery_samples": 17,
+          "kills": 0,
+          "death": 0,
+          "crash": 0,
+          "over_9g_seconds": 0.0,
+          "common_window_logged_min_altitude_m": 786.225550195536,
+          "common_window_logged_samples_below_800m": 3
+        },
+        "candidate": {
+          "min_altitude_m_full_tick_metric": 764.765033313241,
+          "logged_samples_below_800m": 6,
+          "logged_samples_below_1000m": 45,
+          "below800_modes": [
+            "recover"
+          ],
+          "lowest_logged_sample": {
+            "tick": "12180",
+            "simulation_seconds": "203.0",
+            "distance_m": "741.0040169429799",
+            "blue_angle_deg_judge_only": "24.87086169154648",
+            "red_angle_deg_judge_only": "164.88104765681342",
+            "altitude_m": "767.5707944727927",
+            "load_factor": "4.402227436034486",
+            "attack_seconds": "0.21666666666666667",
+            "enemy_attack_seconds": "0.0",
+            "over_9g_seconds": "0.0",
+            "controller_mode": "recover"
+          },
+          "logged_recovery_samples": 18,
+          "kills": 0,
+          "death": 0,
+          "crash": 0,
+          "over_9g_seconds": 0.0,
+          "common_window_logged_min_altitude_m": 767.5707944727927,
+          "common_window_logged_samples_below_800m": 6
+        }
+      }
+    },
+    {
+      "pair_key": "r000_rl_6000_normal_2026101111",
+      "delta_min_altitude_m": -12.818011266517601,
+      "common_window_seconds": 300.0,
+      "delta_common_window_logged_min_altitude_m": -13.733962599304277,
+      "pair": {
+        "guide": {
+          "min_altitude_m_full_tick_metric": 780.4892747610633,
+          "logged_samples_below_800m": 4,
+          "logged_samples_below_1000m": 27,
+          "below800_modes": [
+            "recover"
+          ],
+          "lowest_logged_sample": {
+            "tick": "12420",
+            "simulation_seconds": "207.0",
+            "distance_m": "875.5348543176278",
+            "blue_angle_deg_judge_only": "46.72688327214437",
+            "red_angle_deg_judge_only": "156.16061913576195",
+            "altitude_m": "781.4638649475396",
+            "load_factor": "3.7975865337376575",
+            "attack_seconds": "0.0",
+            "enemy_attack_seconds": "0.0",
+            "over_9g_seconds": "0.0",
+            "controller_mode": "recover"
+          },
+          "logged_recovery_samples": 17,
+          "kills": 0,
+          "death": 0,
+          "crash": 0,
+          "over_9g_seconds": 0.0,
+          "common_window_logged_min_altitude_m": 781.4638649475396,
+          "common_window_logged_samples_below_800m": 4
+        },
+        "candidate": {
+          "min_altitude_m_full_tick_metric": 767.6712634945457,
+          "logged_samples_below_800m": 5,
+          "logged_samples_below_1000m": 44,
+          "below800_modes": [
+            "recover"
+          ],
+          "lowest_logged_sample": {
+            "tick": "13800",
+            "simulation_seconds": "230.0",
+            "distance_m": "728.179980783358",
+            "blue_angle_deg_judge_only": "18.211743931983168",
+            "red_angle_deg_judge_only": "166.99293514558616",
+            "altitude_m": "767.7299023482353",
+            "load_factor": "4.3402479197846064",
+            "attack_seconds": "0.25",
+            "enemy_attack_seconds": "0.0",
+            "over_9g_seconds": "0.0",
+            "controller_mode": "recover"
+          },
+          "logged_recovery_samples": 17,
+          "kills": 0,
+          "death": 0,
+          "crash": 0,
+          "over_9g_seconds": 0.0,
+          "common_window_logged_min_altitude_m": 767.7299023482353,
+          "common_window_logged_samples_below_800m": 5
+        }
+      }
+    },
+    {
+      "pair_key": "r000_rl_6000_mirrored_2026101111",
+      "delta_min_altitude_m": -6.587856713771998,
+      "common_window_seconds": 184.18333333333334,
+      "delta_common_window_logged_min_altitude_m": -146.331654667595,
+      "pair": {
+        "guide": {
+          "min_altitude_m_full_tick_metric": 787.9388020177194,
+          "logged_samples_below_800m": 4,
+          "logged_samples_below_1000m": 46,
+          "below800_modes": [
+            "recover"
+          ],
+          "lowest_logged_sample": {
+            "tick": "11460",
+            "simulation_seconds": "191.0",
+            "distance_m": "514.909442038091",
+            "blue_angle_deg_judge_only": "15.095787938032522",
+            "red_angle_deg_judge_only": "174.23498770118533",
+            "altitude_m": "788.8296544888348",
+            "load_factor": "4.053105134010149",
+            "attack_seconds": "0.0",
+            "enemy_attack_seconds": "0.0",
+            "over_9g_seconds": "0.0",
+            "controller_mode": "recover"
+          },
+          "logged_recovery_samples": 17,
+          "kills": 0,
+          "death": 0,
+          "crash": 0,
+          "over_9g_seconds": 0.0,
+          "common_window_logged_min_altitude_m": 927.6849089066595,
+          "common_window_logged_samples_below_800m": 0
+        },
+        "candidate": {
+          "min_altitude_m_full_tick_metric": 781.3509453039474,
+          "logged_samples_below_800m": 2,
+          "logged_samples_below_1000m": 11,
+          "below800_modes": [
+            "recover"
+          ],
+          "lowest_logged_sample": {
+            "tick": "11051",
+            "simulation_seconds": "184.18333333333334",
+            "distance_m": "629.9379055370997",
+            "blue_angle_deg_judge_only": "0.9118505610810278",
+            "red_angle_deg_judge_only": "173.97224080668542",
+            "altitude_m": "781.3532542390645",
+            "load_factor": "5.2275666302647235",
+            "attack_seconds": "3.0",
+            "enemy_attack_seconds": "0.0",
+            "over_9g_seconds": "0.0",
+            "controller_mode": "recover"
+          },
+          "logged_recovery_samples": 2,
+          "kills": 1,
+          "death": 0,
+          "crash": 0,
+          "over_9g_seconds": 0.0,
+          "common_window_logged_min_altitude_m": 781.3532542390645,
+          "common_window_logged_samples_below_800m": 2
+        }
+      }
+    },
+    {
+      "pair_key": "r000_rl_9000_mirrored_2026101112",
+      "delta_min_altitude_m": -2.446488214650003,
+      "common_window_seconds": 300.0,
+      "delta_common_window_logged_min_altitude_m": -3.615409822243464,
+      "pair": {
+        "guide": {
+          "min_altitude_m_full_tick_metric": 787.5695917758222,
+          "logged_samples_below_800m": 2,
+          "logged_samples_below_1000m": 14,
+          "below800_modes": [
+            "recover"
+          ],
+          "lowest_logged_sample": {
+            "tick": "16860",
+            "simulation_seconds": "281.0",
+            "distance_m": "668.492721529472",
+            "blue_angle_deg_judge_only": "45.31040837044145",
+            "red_angle_deg_judge_only": "164.86526262572505",
+            "altitude_m": "788.8472838179201",
+            "load_factor": "5.082202214580073",
+            "attack_seconds": "0.016666666666666666",
+            "enemy_attack_seconds": "0.0",
+            "over_9g_seconds": "0.0",
+            "controller_mode": "recover"
+          },
+          "logged_recovery_samples": 9,
+          "kills": 0,
+          "death": 0,
+          "crash": 0,
+          "over_9g_seconds": 0.0,
+          "common_window_logged_min_altitude_m": 788.8472838179201,
+          "common_window_logged_samples_below_800m": 2
+        },
+        "candidate": {
+          "min_altitude_m_full_tick_metric": 785.1231035611722,
+          "logged_samples_below_800m": 2,
+          "logged_samples_below_1000m": 18,
+          "below800_modes": [
+            "recover"
+          ],
+          "lowest_logged_sample": {
+            "tick": "16680",
+            "simulation_seconds": "278.0",
+            "distance_m": "741.7915195759888",
+            "blue_angle_deg_judge_only": "2.1105869004397824",
+            "red_angle_deg_judge_only": "173.62346278967368",
+            "altitude_m": "785.2318739956767",
+            "load_factor": "4.7849308440328695",
+            "attack_seconds": "0.0",
+            "enemy_attack_seconds": "0.0",
+            "over_9g_seconds": "0.0",
+            "controller_mode": "recover"
+          },
+          "logged_recovery_samples": 7,
+          "kills": 0,
+          "death": 0,
+          "crash": 0,
+          "over_9g_seconds": 0.0,
+          "common_window_logged_min_altitude_m": 785.2318739956767,
+          "common_window_logged_samples_below_800m": 2
+        }
+      }
+    }
+  ],
+  "logging_limits": "Telemetry about 1Hz. Counts are logged samples, not exact unsafe duration. Minimum altitude metric is accumulated at full physics rate. Full-round minima have unequal exposure when a kill ends one arm early; common-window logged minima are provided and remain sampled, not full-rate.",
+  "scope": "Development only; existing safety command inherited. No proof of safety across unseen starts, opponents, Host boundary or collision behavior.",
+  "decision": "Candidate may enter a fresh development validation if metric/opponent gates passed, while altitude regressions remain a dedicated validation criterion. No deployment approval."
+}

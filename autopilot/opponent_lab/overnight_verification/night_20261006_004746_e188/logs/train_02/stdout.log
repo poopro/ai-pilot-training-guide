@@ -1,0 +1,11 @@
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+Logging to E:\ai_pilot\autopilot\opponent_lab\overnight_verification\night_20261006_004746_e188\train_02\tensorboard\SAC_0
+新環境進度 129/256；更新 11
+已完整儲存：E:\ai_pilot\autopilot\opponent_lab\overnight_verification\night_20261006_004746_e188\train_02\final_0000000256
+訓練結果：E:\ai_pilot\autopilot\opponent_lab\overnight_verification\night_20261006_004746_e188\train_02\result.json

@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "bundle": "E:\\ai_pilot\\autopilot\\combat_fix\\training\\run_20261006_192453_c95b\\final_0000024000",
+  "model_sha_verified": true,
+  "replay_sha_verified": true,
+  "actual_replay_size": 24000,
+  "manifest_replay_size": 24000,
+  "decision_steps": 24000,
+  "physics_ticks": 95929,
+  "n_updates": 5750,
+  "actor_updates": 5250,
+  "sampled_replay_finite": true,
+  "action": [
+    0.1894981861114502,
+    -0.21853190660476685,
+    -0.19686877727508545,
+    -0.5457300543785095
+  ],
+  "official_validation": false
+}

@@ -1,0 +1,55 @@
+{
+  "date_taipei": "2026-10-12",
+  "daily_limit_hours": 6,
+  "reserved_hours": 5.933333333333334,
+  "items": [
+    {
+      "id": "main_training",
+      "hours": 4
+    },
+    {
+      "id": "range_gate",
+      "hours": 0.6666666666666666
+    },
+    {
+      "id": "precision_probe",
+      "hours": 0.041666666666666664
+    },
+    {
+      "id": "range_gate_recovery",
+      "hours": 0.041666666666666664
+    },
+    {
+      "id": "first_calibration",
+      "hours": 0.16666666666666666
+    },
+    {
+      "id": "bank80_calibration",
+      "hours": 0.16666666666666666
+    },
+    {
+      "id": "near_bank80_paired",
+      "hours": 0.6666666666666666
+    },
+    {
+      "id": "portable_guide_release_verification_20261012",
+      "hours": 0.16666666666666666,
+      "status": "completed",
+      "scope": "Offline packaging and two private-loopback deployment checks, no new FDM/research hypothesis",
+      "report": "E:\\ai_pilot\\campaign_2026\\deployment\\portable_guide_verification_20261012\\PREPARATION.json",
+      "actual_exit_codes": [
+        0,
+        0
+      ],
+      "unused_reservation_not_refunded": true
+    },
+    {
+      "id": "host_saved_evidence_guard_check_20261012",
+      "hours": 0.016666666666666666,
+      "status": "completed",
+      "report": "E:\\ai_pilot\\campaign_2026\\diagnostics\\host_history_audit_20261012.json",
+      "unused_reservation_not_refunded": true
+    }
+  ],
+  "accounting": "Conservative reservations include failed/unused time; do not reset by changing run. Future day needs new dated record."
+}

@@ -1,0 +1,7 @@
+{
+  "tool_chunk": "a8fa84",
+  "tool_session": 20860,
+  "observed_utc": "2026-10-17T10:35:52.6753015Z",
+  "note": "Preserve output serialization failure after normal pair trace CSV creation; do not count original diagnostic as passed",
+  "actual_exit": 1
+}

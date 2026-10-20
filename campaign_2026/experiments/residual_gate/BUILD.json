@@ -1,0 +1,13 @@
+{
+  "base_benchmark_sha256": "9b351910b28b3057eadabca4cddb4e734aa6678937ce9f900903e7ec36bfb3de",
+  "gate_benchmark_sha256": "1aaa6c7da75615eca5c72bf627994902e3b84fb18df7d7abd8d3b36debf7a8eb",
+  "original_untouched": true,
+  "changes": [
+    "ROOT = Path(__file__).resolve().parent",
+    "    return hashes\n\n\ndef bundle_hashes",
+    "        observation, initial = reset_initial_side(environment, case.side, runtime)\n",
+    "        columns = (\"tick\",",
+    "                    writer.writerow({\n",
+    "        \"format\": \"campaign_paired_benchmark_v1\", \"status\": \"running\","
+  ]
+}

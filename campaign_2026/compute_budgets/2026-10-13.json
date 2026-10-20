@@ -1,0 +1,31 @@
+{
+  "date_taipei": "2026-10-13",
+  "daily_limit_hours": 6.0,
+  "reserved_hours": 6.567616804970636,
+  "items": [
+    {
+      "id": "bank80_fresh_dev_2026101300_7ddbf0893840",
+      "hours": 0.6666666666666666,
+      "status": "completed",
+      "actual_elapsed_seconds": 812.0,
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\fresh_bank80\\run_20261013_013609_5218"
+    },
+    {
+      "id": "host_guide_six_rounds_20261013_140016",
+      "hours": 5.900950138303969,
+      "status": "expired_before_match_started",
+      "planned_rounds": 6,
+      "scope": "new independent unchanged published Host repair_guide rounds and evidence capture",
+      "reserved_utc": "2026-10-13T06:00:16.477602+00:00",
+      "hard_deadline_epoch": 1791874816.477602,
+      "non_refundable": true,
+      "original_reserved_hours": 1,
+      "actual_elapsed_seconds": 21243.420497894287,
+      "charged_scope": "Conservative full elapsed INIT/READY waiting interval included; exceeds original limit, no new research today",
+      "completed_rounds": 0,
+      "cleanup_completed_utc": "2026-10-13T11:54:19.898100+00:00",
+      "cleanup_receipt": "E:\\ai_pilot\\campaign_2026\\diagnostics\\host_orphan_cleanup_20261013.json"
+    }
+  ],
+  "limit_exceeded_observed": true
+}

@@ -1,0 +1,1 @@
+{"id": "72_b_val2_rest", "script": "rollout_open.py", "args": ["eval", "--arms", "tuned,tuned2,base_t3", "--workers", "3", "--seed0", "1300000", "--n", "24", "--opponents", "defender,pp0,pp2,pp4,lead,mix,breaker", "--out", "runs/val2_rest"], "exit_code": 0, "reason": null, "seconds": 3176.8}

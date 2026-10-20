@@ -1,0 +1,15 @@
+{
+  "out": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_eval_v1\\run_20261018_204527_a6f90a",
+  "case": {
+    "id": "sac5000_neutral",
+    "pair": 0,
+    "episode": 0,
+    "seed": 2026315000,
+    "opponent": "sac5000",
+    "side": "normal",
+    "distance_ft": 6000,
+    "mode": "neutral",
+    "max_ticks": 18000
+  },
+  "phase": "CASE0"
+}

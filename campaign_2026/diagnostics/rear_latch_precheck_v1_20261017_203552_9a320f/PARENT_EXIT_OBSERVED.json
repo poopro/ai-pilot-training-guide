@@ -1,0 +1,7 @@
+{
+  "actual_exit": 0,
+  "tool_session": 10304,
+  "tool_chunk": "484970",
+  "evidence": "Observed write_stdin completion; not inferred from child receipt",
+  "observed_utc": "2026-10-17T12:36:41.423689+00:00"
+}

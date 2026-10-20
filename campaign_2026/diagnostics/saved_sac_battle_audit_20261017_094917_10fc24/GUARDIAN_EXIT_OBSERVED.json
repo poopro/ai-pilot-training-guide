@@ -1,0 +1,8 @@
+{
+  "observed_utc": "2026-10-17T01:50:55.9548045Z",
+  "note": "Actual offline audit guardian completion observed; original 60s auditor exit1 remains preserved",
+  "actual_exit": 0,
+  "tool_chunk": "7e226f",
+  "tool_session": 27865,
+  "wall_seconds": 91.61
+}

@@ -1,0 +1,40 @@
+{
+  "verified_saved_window_extract": true,
+  "selected_rows": 10800,
+  "window_definitions": [
+    [
+      "before5s",
+      -300,
+      0
+    ],
+    [
+      "after0to5s",
+      0,
+      300
+    ],
+    [
+      "after5to10s",
+      300,
+      600
+    ],
+    [
+      "after10to20s",
+      600,
+      1200
+    ],
+    [
+      "after20to40s",
+      1200,
+      2400
+    ]
+  ],
+  "source_fixed": true,
+  "comparison_verified": true,
+  "window_CSV_exact": true,
+  "wrap_boundary_test": true,
+  "metric_units": "rates degree/s, CAS knots, TAS m/s, altitude metres; HSL and AGL separate",
+  "new_FDM_ticks": 0,
+  "controller_projection_calls": 0,
+  "model_inference_calls": 0,
+  "training_started": false
+}

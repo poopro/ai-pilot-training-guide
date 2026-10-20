@@ -1,0 +1,650 @@
+[1/288] tuned/pp0 timeout winner=blue atk 7/0 margin 1633.6
+[2/288] base/pp0 timeout winner=blue atk 0/0 margin 189.7
+[3/288] base_t3/pp0 timeout winner=blue atk 0/0 margin 189.7
+[4/288] base/pp0 timeout winner=blue atk 0/0 margin 5.8
+[5/288] base_t3/pp0 timeout winner=blue atk 0/0 margin 5.8
+[6/288] user_nz_t/pp0 timeout winner=red atk 0/0 margin -42.9
+[7/288] tuned/pp0 timeout winner=blue atk 0/0 margin 31.8
+[8/288] base/pp0 timeout winner=red atk 0/0 margin -11.9
+[9/288] user_nz_t/pp0 timeout winner=blue atk 0/0 margin 275.4
+[10/288] base_t3/pp0 timeout winner=red atk 0/0 margin -11.9
+[11/288] tuned/pp0 timeout winner=red atk 0/0 margin -11.9
+[12/288] user_nz_t/pp0 timeout winner=red atk 0/0 margin -11.9
+[13/288] base/pp0 timeout winner=blue atk 0/0 margin 135.2
+[14/288] base_t3/pp0 timeout winner=blue atk 0/0 margin 135.2
+[15/288] tuned/pp0 timeout winner=blue atk 18/0 margin 3053.1
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[16/288] user_nz_t/pp0 timeout winner=blue atk 0/0 margin 452.0
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[17/288] base/pp0 timeout winner=blue atk 0/0 margin 11.5
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[18/288] base_t3/pp0 timeout winner=blue atk 0/0 margin 11.5
+[19/288] tuned/pp0 timeout winner=blue atk 0/0 margin 12.5
+[20/288] user_nz_t/pp0 timeout winner=blue atk 0/0 margin 11.5
+[21/288] base/pp0 timeout winner=blue atk 0/0 margin 2.1
+[22/288] base_t3/pp0 timeout winner=blue atk 0/0 margin 2.1
+[23/288] tuned/pp0 timeout winner=blue atk 0/0 margin 2.1
+[24/288] user_nz_t/pp0 timeout winner=blue atk 0/0 margin 2.1
+[25/288] base/pp0 timeout winner=blue atk 0/0 margin 101.3
+[26/288] base_t3/pp0 timeout winner=blue atk 0/0 margin 101.3
+[27/288] tuned/pp0 timeout winner=blue atk 0/0 margin 310.1
+[28/288] user_nz_t/pp0 timeout winner=blue atk 0/0 margin 56.5
+[29/288] base/pp0 timeout winner=red atk 0/0 margin -52.8
+[30/288] base_t3/pp0 timeout winner=red atk 0/0 margin -52.8
+[31/288] tuned/pp0 timeout winner=blue atk 0/0 margin 86.8
+[32/288] user_nz_t/pp0 timeout winner=blue atk 0/0 margin 245.3
+[33/288] base/pp0 timeout winner=blue atk 0/0 margin 13.0
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[34/288] base_t3/pp0 timeout winner=blue atk 0/0 margin 13.0
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[35/288] tuned/pp0 timeout winner=blue atk 0/0 margin 13.0
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[36/288] user_nz_t/pp0 timeout winner=blue atk 0/0 margin 13.0
+[37/288] base/pp0 timeout winner=blue atk 0/0 margin 132.1
+[38/288] base_t3/pp0 timeout winner=blue atk 0/0 margin 132.1
+[39/288] tuned/pp0 timeout winner=blue atk 0/0 margin 493.2
+[40/288] user_nz_t/pp0 timeout winner=blue atk 0/0 margin 50.8
+[41/288] base/pp0 timeout winner=blue atk 0/0 margin 0.2
+[42/288] base_t3/pp0 timeout winner=blue atk 0/0 margin 0.2
+[43/288] tuned/pp0 timeout winner=blue atk 0/0 margin 0.2
+[44/288] base/pp0 timeout winner=blue atk 0/0 margin 11.4
+[45/288] user_nz_t/pp0 timeout winner=blue atk 0/0 margin 0.2
+[46/288] base_t3/pp0 timeout winner=blue atk 0/0 margin 11.4
+[47/288] tuned/pp0 timeout winner=blue atk 0/0 margin 11.4
+[48/288] user_nz_t/pp0 timeout winner=blue atk 0/0 margin 11.4
+[49/288] base/pp1 timeout winner=blue atk 0/0 margin 333.6
+[50/288] base_t3/pp1 timeout winner=blue atk 0/0 margin 333.6
+[51/288] tuned/pp1 timeout winner=blue atk 0/0 margin 112.4
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[52/288] user_nz_t/pp1 timeout winner=red atk 0/0 margin -171.4
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[53/288] base/pp1 timeout winner=red atk 0/0 margin -5.3
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[54/288] base_t3/pp1 timeout winner=red atk 0/0 margin -5.3
+[55/288] tuned/pp1 timeout winner=blue atk 0/0 margin 21.6
+[56/288] base/pp1 timeout winner=red atk 0/0 margin -11.9
+[57/288] user_nz_t/pp1 timeout winner=blue atk 0/0 margin 279.5
+[58/288] base_t3/pp1 timeout winner=red atk 0/0 margin -11.9
+[59/288] tuned/pp1 timeout winner=red atk 0/0 margin -11.9
+[60/288] user_nz_t/pp1 timeout winner=red atk 0/0 margin -11.9
+[61/288] base/pp1 timeout winner=blue atk 0/0 margin 244.0
+[62/288] base_t3/pp1 timeout winner=blue atk 0/0 margin 244.0
+[63/288] tuned/pp1 timeout winner=blue atk 0/0 margin 464.1
+[64/288] user_nz_t/pp1 timeout winner=blue atk 0/0 margin 312.9
+[65/288] base/pp1 timeout winner=blue atk 0/0 margin 12.3
+[66/288] base_t3/pp1 timeout winner=blue atk 0/0 margin 12.3
+[67/288] tuned/pp1 timeout winner=blue atk 0/0 margin 14.2
+[68/288] user_nz_t/pp1 timeout winner=blue atk 0/0 margin 12.3
+[69/288] base/pp1 timeout winner=blue atk 0/0 margin 2.1
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[70/288] base_t3/pp1 timeout winner=blue atk 0/0 margin 2.1
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[71/288] tuned/pp1 timeout winner=blue atk 0/0 margin 2.1
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[72/288] user_nz_t/pp1 timeout winner=blue atk 0/0 margin 2.1
+[73/288] base/pp1 timeout winner=blue atk 0/0 margin 139.5
+[74/288] base_t3/pp1 timeout winner=blue atk 0/0 margin 139.5
+[75/288] tuned/pp1 timeout winner=blue atk 0/0 margin 328.5
+[76/288] user_nz_t/pp1 timeout winner=red atk 0/0 margin -114.2
+[77/288] base/pp1 timeout winner=blue atk 0/0 margin 18.7
+[78/288] base_t3/pp1 timeout winner=blue atk 0/0 margin 18.7
+[79/288] tuned/pp1 timeout winner=blue atk 0/0 margin 22.9
+[80/288] user_nz_t/pp1 timeout winner=blue atk 0/0 margin 130.2
+[81/288] base/pp1 timeout winner=blue atk 0/0 margin 13.0
+[82/288] base_t3/pp1 timeout winner=blue atk 0/0 margin 13.0
+[83/288] tuned/pp1 timeout winner=blue atk 0/0 margin 13.0
+[84/288] user_nz_t/pp1 timeout winner=blue atk 0/0 margin 13.0
+[85/288] base/pp1 timeout winner=blue atk 0/0 margin 274.5
+[86/288] base_t3/pp1 timeout winner=blue atk 0/0 margin 274.5
+[87/288] tuned/pp1 timeout winner=blue atk 0/0 margin 458.3
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[88/288] user_nz_t/pp1 timeout winner=red atk 0/0 margin -220.6
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[89/288] base/pp1 timeout winner=blue atk 0/0 margin 6.6
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[90/288] base_t3/pp1 timeout winner=blue atk 0/0 margin 6.6
+[91/288] tuned/pp1 timeout winner=blue atk 0/0 margin 6.6
+[92/288] user_nz_t/pp1 timeout winner=blue atk 0/0 margin 6.6
+[93/288] base/pp1 timeout winner=blue atk 0/0 margin 11.4
+[94/288] base_t3/pp1 timeout winner=blue atk 0/0 margin 11.4
+[95/288] tuned/pp1 timeout winner=blue atk 0/0 margin 11.4
+[96/288] user_nz_t/pp1 timeout winner=blue atk 0/0 margin 11.4
+[97/288] base/pp2 timeout winner=blue atk 0/0 margin 113.3
+[98/288] tuned/pp2 collision winner=blue atk 0/0 margin 153.6
+[99/288] base_t3/pp2 timeout winner=red atk 0/0 margin -242.3
+[100/288] user_nz_t/pp2 timeout winner=red atk 0/0 margin -243.7
+[101/288] base/pp2 timeout winner=red atk 0/0 margin -2.9
+[102/288] base_t3/pp2 timeout winner=red atk 0/0 margin -2.9
+[103/288] tuned/pp2 timeout winner=blue atk 0/0 margin 23.3
+[104/288] user_nz_t/pp2 timeout winner=blue atk 0/0 margin 277.7
+[105/288] base/pp2 timeout winner=red atk 0/0 margin -11.9
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[106/288] base_t3/pp2 timeout winner=red atk 0/0 margin -11.9
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[107/288] tuned/pp2 timeout winner=red atk 0/0 margin -11.9
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[108/288] user_nz_t/pp2 timeout winner=red atk 0/0 margin -11.9
+[109/288] base/pp2 timeout winner=blue atk 0/0 margin 101.8
+[110/288] base_t3/pp2 timeout winner=blue atk 0/0 margin 101.8
+[111/288] tuned/pp2 timeout winner=blue atk 0/0 margin 383.7
+[112/288] user_nz_t/pp2 timeout winner=blue atk 0/0 margin 304.7
+[113/288] base/pp2 timeout winner=blue atk 0/0 margin 12.3
+[114/288] base_t3/pp2 timeout winner=blue atk 0/0 margin 12.3
+[115/288] tuned/pp2 timeout winner=blue atk 0/0 margin 14.2
+[116/288] user_nz_t/pp2 timeout winner=blue atk 0/0 margin 12.3
+[117/288] base/pp2 timeout winner=blue atk 0/0 margin 2.1
+[118/288] base_t3/pp2 timeout winner=blue atk 0/0 margin 2.1
+[119/288] tuned/pp2 timeout winner=blue atk 0/0 margin 2.1
+[120/288] user_nz_t/pp2 timeout winner=blue atk 0/0 margin 2.1
+[121/288] base/pp2 timeout winner=blue atk 0/0 margin 53.2
+[122/288] base_t3/pp2 timeout winner=blue atk 0/0 margin 53.2
+[123/288] tuned/pp2 timeout winner=blue atk 0/0 margin 54.3
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[124/288] user_nz_t/pp2 timeout winner=red atk 0/0 margin -107.8
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[125/288] base/pp2 timeout winner=red atk 0/0 margin -1.2
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[126/288] base_t3/pp2 timeout winner=red atk 0/0 margin -1.2
+[127/288] tuned/pp2 timeout winner=blue atk 0/0 margin 3.0
+[128/288] user_nz_t/pp2 timeout winner=blue atk 0/0 margin 179.7
+[129/288] base/pp2 timeout winner=blue atk 0/0 margin 13.0
+[130/288] base_t3/pp2 timeout winner=blue atk 0/0 margin 13.0
+[131/288] tuned/pp2 timeout winner=blue atk 0/0 margin 13.0
+[132/288] user_nz_t/pp2 timeout winner=blue atk 0/0 margin 13.0
+[133/288] base/pp2 timeout winner=blue atk 0/0 margin 95.1
+[134/288] base_t3/pp2 timeout winner=blue atk 0/0 margin 95.1
+[135/288] tuned/pp2 timeout winner=blue atk 0/0 margin 339.5
+[136/288] user_nz_t/pp2 timeout winner=red atk 0/0 margin -272.3
+[137/288] base/pp2 timeout winner=blue atk 0/0 margin 6.6
+[138/288] base_t3/pp2 timeout winner=blue atk 0/0 margin 6.6
+[139/288] tuned/pp2 timeout winner=blue atk 0/0 margin 6.6
+[140/288] user_nz_t/pp2 timeout winner=blue atk 0/0 margin 6.6
+[141/288] base/pp2 timeout winner=blue atk 0/0 margin 11.4
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[142/288] base_t3/pp2 timeout winner=blue atk 0/0 margin 11.4
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[143/288] tuned/pp2 timeout winner=blue atk 0/0 margin 11.4
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[144/288] user_nz_t/pp2 timeout winner=blue atk 0/0 margin 11.4
+[145/288] base/pp3 timeout winner=blue atk 47/0 margin 21598.9
+[146/288] base_t3/pp3 timeout winner=blue atk 47/0 margin 21598.9
+[147/288] tuned/pp3 timeout winner=blue atk 157/0 margin 41082.2
+[148/288] user_nz_t/pp3 timeout winner=red atk 0/0 margin -882.0
+[149/288] base/pp3 timeout winner=blue atk 51/0 margin 23935.2
+[150/288] base_t3/pp3 timeout winner=blue atk 51/0 margin 23935.2
+[151/288] tuned/pp3 timeout winner=blue atk 15/0 margin 20140.8
+[152/288] user_nz_t/pp3 timeout winner=red atk 0/0 margin -618.2
+[153/288] base/pp3 timeout winner=blue atk 45/0 margin 20954.1
+[154/288] tuned/pp3 blue_kill winner=blue atk 180/0 margin 74789.4
+[155/288] base_t3/pp3 timeout winner=blue atk 45/0 margin 20954.1
+[156/288] user_nz_t/pp3 timeout winner=blue atk 10/0 margin 11053.4
+[157/288] base/pp3 timeout winner=blue atk 45/0 margin 20433.2
+[158/288] tuned/pp3 blue_kill winner=blue atk 180/0 margin 74077.0
+[159/288] base_t3/pp3 timeout winner=blue atk 45/0 margin 20433.2
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[160/288] user_nz_t/pp3 timeout winner=red atk 0/0 margin -192.4
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[161/288] base/pp3 timeout winner=blue atk 53/0 margin 22633.9
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[162/288] base_t3/pp3 timeout winner=blue atk 53/0 margin 22633.9
+[163/288] tuned/pp3 timeout winner=blue atk 163/0 margin 43843.5
+[164/288] user_nz_t/pp3 timeout winner=red atk 0/1 margin -174.6
+[165/288] base/pp3 timeout winner=blue atk 48/0 margin 21524.3
+[166/288] base_t3/pp3 timeout winner=blue atk 48/0 margin 21524.3
+[167/288] tuned/pp3 timeout winner=blue atk 170/0 margin 45620.4
+[168/288] user_nz_t/pp3 timeout winner=blue atk 0/0 margin 1026.6
+[169/288] tuned/pp3 blue_kill winner=blue atk 180/0 margin 78120.3
+[170/288] base/pp3 timeout winner=blue atk 42/0 margin 22403.3
+[171/288] base_t3/pp3 timeout winner=blue atk 42/0 margin 22403.3
+[172/288] user_nz_t/pp3 timeout winner=red atk 0/0 margin -1531.5
+[173/288] base/pp3 timeout winner=blue atk 48/0 margin 21183.9
+[174/288] base_t3/pp3 timeout winner=blue atk 48/0 margin 21183.9
+[175/288] tuned/pp3 blue_kill winner=blue atk 180/0 margin 74495.5
+[176/288] user_nz_t/pp3 timeout winner=blue atk 5/0 margin 1642.7
+[177/288] base/pp3 timeout winner=blue atk 31/0 margin 18209.8
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[178/288] base_t3/pp3 timeout winner=blue atk 31/0 margin 18209.8
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[179/288] tuned/pp3 blue_kill winner=blue atk 180/0 margin 74069.5
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[180/288] user_nz_t/pp3 timeout winner=blue atk 0/0 margin 1214.3
+[181/288] base/pp3 timeout winner=blue atk 43/0 margin 21889.4
+[182/288] base_t3/pp3 timeout winner=blue atk 43/0 margin 21889.4
+[183/288] tuned/pp3 timeout winner=blue atk 0/0 margin 17387.9
+[184/288] user_nz_t/pp3 timeout winner=red atk 0/0 margin -342.5
+[185/288] base/pp3 timeout winner=blue atk 55/0 margin 23419.7
+[186/288] base_t3/pp3 timeout winner=blue atk 55/0 margin 23419.7
+[187/288] tuned/pp3 blue_kill winner=blue atk 180/0 margin 76174.3
+[188/288] user_nz_t/pp3 timeout winner=red atk 0/0 margin -322.5
+[189/288] base/pp3 timeout winner=blue atk 58/0 margin 24801.2
+[190/288] base_t3/pp3 timeout winner=blue atk 58/0 margin 24801.2
+[191/288] tuned/pp3 blue_kill winner=blue atk 180/0 margin 77629.7
+[192/288] user_nz_t/pp3 timeout winner=blue atk 0/0 margin 73.4
+[193/288] base/pp4 timeout winner=blue atk 0/0 margin 2382.3
+[194/288] base_t3/pp4 timeout winner=blue atk 0/0 margin 2382.3
+[195/288] tuned/pp4 timeout winner=blue atk 0/0 margin 2410.2
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[196/288] base/pp4 timeout winner=blue atk 5/0 margin 7616.5
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[197/288] user_nz_t/pp4 timeout winner=red atk 0/0 margin -2371.3
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[198/288] base_t3/pp4 timeout winner=blue atk 5/0 margin 7616.5
+[199/288] tuned/pp4 timeout winner=blue atk 5/0 margin 8360.1
+[200/288] user_nz_t/pp4 timeout winner=red atk 0/0 margin -268.9
+[201/288] base/pp4 timeout winner=blue atk 0/0 margin 3023.6
+[202/288] base_t3/pp4 timeout winner=blue atk 0/0 margin 3023.6
+[203/288] tuned/pp4 timeout winner=blue atk 0/0 margin 3125.6
+[204/288] user_nz_t/pp4 timeout winner=blue atk 0/0 margin 3577.3
+[205/288] base/pp4 timeout winner=blue atk 0/0 margin 1995.1
+[206/288] base_t3/pp4 timeout winner=blue atk 0/0 margin 1995.1
+[207/288] tuned/pp4 timeout winner=blue atk 0/0 margin 1643.0
+[208/288] user_nz_t/pp4 timeout winner=blue atk 0/0 margin 747.7
+[209/288] base/pp4 timeout winner=blue atk 0/0 margin 2777.8
+[210/288] base_t3/pp4 timeout winner=blue atk 0/0 margin 2777.8
+[211/288] tuned/pp4 timeout winner=blue atk 0/0 margin 3158.1
+[212/288] user_nz_t/pp4 timeout winner=blue atk 0/0 margin 1689.1
+[213/288] base/pp4 timeout winner=blue atk 0/0 margin 3305.1
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[214/288] base_t3/pp4 timeout winner=blue atk 0/0 margin 3305.1
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[215/288] tuned/pp4 timeout winner=blue atk 0/0 margin 3486.6
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[216/288] user_nz_t/pp4 timeout winner=blue atk 0/0 margin 3595.5
+[217/288] base/pp4 timeout winner=blue atk 0/0 margin 4874.0
+[218/288] base_t3/pp4 timeout winner=blue atk 0/0 margin 4874.0
+[219/288] tuned/pp4 timeout winner=blue atk 8/0 margin 7027.4
+[220/288] user_nz_t/pp4 timeout winner=red atk 0/0 margin -2423.5
+[221/288] base/pp4 timeout winner=blue atk 0/0 margin 2307.9
+[222/288] base_t3/pp4 timeout winner=blue atk 0/0 margin 2307.9
+[223/288] tuned/pp4 timeout winner=blue atk 0/0 margin 2474.2
+[224/288] user_nz_t/pp4 timeout winner=blue atk 0/0 margin 805.2
+[225/288] base/pp4 timeout winner=blue atk 0/0 margin 2985.5
+[226/288] base_t3/pp4 timeout winner=blue atk 0/0 margin 2985.5
+[227/288] tuned/pp4 timeout winner=blue atk 0/0 margin 3090.8
+[228/288] user_nz_t/pp4 timeout winner=blue atk 0/0 margin 2947.2
+[229/288] base/pp4 timeout winner=blue atk 0/0 margin 3385.4
+[230/288] base_t3/pp4 timeout winner=blue atk 0/0 margin 3020.5
+[231/288] tuned/pp4 timeout winner=blue atk 0/0 margin 2487.1
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[232/288] user_nz_t/pp4 timeout winner=red atk 0/0 margin -888.4
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[233/288] base/pp4 timeout winner=blue atk 0/0 margin 3267.4
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[234/288] base_t3/pp4 timeout winner=blue atk 0/0 margin 1794.1
+[235/288] tuned/pp4 timeout winner=blue atk 0/0 margin 1640.6
+[236/288] user_nz_t/pp4 timeout winner=red atk 0/0 margin -599.5
+[237/288] base/pp4 timeout winner=blue atk 0/0 margin 4035.9
+[238/288] base_t3/pp4 timeout winner=blue atk 0/0 margin 4035.9
+[239/288] tuned/pp4 timeout winner=blue atk 0/0 margin 3886.1
+[240/288] user_nz_t/pp4 timeout winner=blue atk 0/0 margin 2496.2
+[241/288] base/pp5 timeout winner=blue atk 0/0 margin 307.7
+[242/288] tuned/pp5 collision winner=blue atk 0/0 margin 84.9
+[243/288] base_t3/pp5 timeout winner=blue atk 0/0 margin 13.4
+[244/288] user_nz_t/pp5 timeout winner=red atk 0/0 margin -368.7
+[245/288] base/pp5 timeout winner=blue atk 0/0 margin 5.5
+[246/288] base_t3/pp5 timeout winner=blue atk 0/0 margin 5.5
+[247/288] tuned/pp5 timeout winner=blue atk 0/0 margin 30.7
+[248/288] user_nz_t/pp5 timeout winner=blue atk 0/0 margin 283.6
+[249/288] base/pp5 timeout winner=red atk 0/0 margin -11.9
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[250/288] base_t3/pp5 timeout winner=red atk 0/0 margin -11.9
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[251/288] tuned/pp5 timeout winner=red atk 0/0 margin -11.9
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[252/288] user_nz_t/pp5 timeout winner=red atk 0/0 margin -11.9
+[253/288] base/pp5 timeout winner=blue atk 0/0 margin 143.0
+[254/288] base_t3/pp5 timeout winner=blue atk 0/0 margin 12.7
+[255/288] tuned/pp5 timeout winner=blue atk 11/0 margin 2070.3
+[256/288] user_nz_t/pp5 timeout winner=blue atk 0/0 margin 331.8
+[257/288] base/pp5 timeout winner=blue atk 0/0 margin 11.1
+[258/288] base_t3/pp5 timeout winner=blue atk 0/0 margin 11.1
+[259/288] tuned/pp5 timeout winner=red atk 0/0 margin -9.1
+[260/288] user_nz_t/pp5 timeout winner=blue atk 0/0 margin 11.1
+[261/288] base/pp5 timeout winner=blue atk 0/0 margin 2.1
+[262/288] base_t3/pp5 timeout winner=blue atk 0/0 margin 2.1
+[263/288] tuned/pp5 timeout winner=blue atk 0/0 margin 2.1
+[264/288] user_nz_t/pp5 timeout winner=blue atk 0/0 margin 2.1
+[265/288] base/pp5 timeout winner=blue atk 0/0 margin 34.3
+[266/288] base_t3/pp5 timeout winner=blue atk 0/0 margin 34.3
+[267/288] tuned/pp5 timeout winner=blue atk 0/0 margin 19.7
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[268/288] user_nz_t/pp5 timeout winner=blue atk 0/0 margin 1.7
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[269/288] base/pp5 timeout winner=red atk 0/0 margin -39.4
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[270/288] base_t3/pp5 timeout winner=red atk 0/0 margin -39.4
+[271/288] tuned/pp5 timeout winner=blue atk 0/0 margin 92.9
+[272/288] user_nz_t/pp5 timeout winner=blue atk 0/0 margin 375.4
+[273/288] base/pp5 timeout winner=blue atk 0/0 margin 13.0
+[274/288] base_t3/pp5 timeout winner=blue atk 0/0 margin 13.0
+[275/288] tuned/pp5 timeout winner=blue atk 0/0 margin 13.0
+[276/288] user_nz_t/pp5 timeout winner=blue atk 0/0 margin 13.0
+[277/288] base/pp5 timeout winner=blue atk 0/0 margin 10.7
+[278/288] base_t3/pp5 timeout winner=blue atk 0/0 margin 10.7
+[279/288] tuned/pp5 timeout winner=blue atk 0/0 margin 208.3
+[280/288] user_nz_t/pp5 timeout winner=red atk 0/0 margin -113.6
+[281/288] base/pp5 timeout winner=red atk 0/0 margin -1.4
+[282/288] base_t3/pp5 timeout winner=red atk 0/0 margin -1.4
+[283/288] tuned/pp5 timeout winner=blue atk 0/0 margin 0.2
+[284/288] user_nz_t/pp5 timeout winner=red atk 0/0 margin -1.4
+[285/288] base/pp5 timeout winner=blue atk 0/0 margin 11.4
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[286/288] base_t3/pp5 timeout winner=blue atk 0/0 margin 11.4
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[287/288] tuned/pp5 timeout winner=blue atk 0/0 margin 11.4
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[288/288] user_nz_t/pp5 timeout winner=blue atk 0/0 margin 11.4
+
+opp      policy      n  win loss draw  atkB  atkR  margin   minAGLm
+pp0      base       12   10    2    0     0     0      45      1999
+pp0      base_t3    12   10    2    0     0     0      45      1999
+pp0      tuned      12   11    1    0     2     0     470      1999
+pp0      user_nz_t  12   10    2    0     0     0      89      1999
+pp1      base       12   10    2    0     0     0      87      1922
+pp1      base_t3    12   10    2    0     0     0      87      1922
+pp1      tuned      12   11    1    0     0     0     120      1954
+pp1      user_nz_t  12    8    4    0     0     0      21      1877
+pp2      base       12    9    3    0     0     0      33      1965
+pp2      base_t3    12    8    4    0     0     0       3      1965
+pp2      tuned      12   11    1    0     0     0      83      1996
+pp2      user_nz_t  12    8    4    0     0     0      14      1906
+pp3      base       12   12    0    0    47     0   21916      3033
+pp3      base_t3    12   12    0    0    47     0   21916      3033
+pp3      tuned      12   12    0    0   147     0   58119      2939
+pp3      user_nz_t  12    5    7    0     1     0     912      3097
+pp4      base       12   12    0    0     0     0    3496      2909
+pp4      base_t3    12   12    0    0     0     0    3343      2909
+pp4      tuned      12   12    0    0     1     0    3566      2916
+pp4      user_nz_t  12    7    5    0     0     0     776      3006
+pp5      base       12    9    3    0     0     0      41      1999
+pp5      base_t3    12    9    3    0     0     0       5      1999
+pp5      tuned      12   10    2    0     1     0     209      1999
+pp5      user_nz_t  12    8    4    0     0     0      45      1999

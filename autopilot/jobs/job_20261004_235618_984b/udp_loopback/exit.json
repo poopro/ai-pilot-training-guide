@@ -1,0 +1,23 @@
+{
+  "name": "udp_loopback",
+  "folder": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\udp_loopback",
+  "command": [
+    "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\combat_v3\\verify_udp.py"
+  ],
+  "started_utc": "2026-10-04T16:19:34.904524+00:00",
+  "training": false,
+  "start_step": 0,
+  "counted_steps": 0,
+  "process": {
+    "pid": 22472,
+    "create_time": 1791130774.9094625,
+    "command": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\combat_v3\\verify_udp.py"
+    ]
+  },
+  "exit_code": 0,
+  "finished_utc": "2026-10-04T16:19:39.948158+00:00",
+  "reason": null
+}

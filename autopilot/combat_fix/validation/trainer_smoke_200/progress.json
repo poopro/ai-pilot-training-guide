@@ -1,0 +1,13 @@
+{
+  "status": "saving_final",
+  "pid": 8164,
+  "decision_steps": 200,
+  "target_decisions": 200,
+  "physics_ticks": 800,
+  "critic_updates": 42,
+  "actor_updates": 0,
+  "training_stage": "official",
+  "stop_file": "E:\\ai_pilot\\autopilot\\combat_fix\\validation\\trainer_smoke_200\\STOP",
+  "heartbeat_epoch": 1791266974.248119,
+  "official_validation": false
+}

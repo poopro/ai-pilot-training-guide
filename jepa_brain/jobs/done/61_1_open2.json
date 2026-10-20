@@ -1,0 +1,1 @@
+{"script": "rollout_open.py", "args": ["eval", "--arms", "tuned,topen:out:3:side=-1,topen:out:6:side=-1,topen:out:9:side=-1,topen:out:12:side=-1,topen:hy:6:side=-1", "--n", "48", "--side", "-1", "--workers", "3", "--seed0", "980000", "--opponents", "sac:25600000", "--out", "runs/open2"], "max_minutes": 90}

@@ -1,0 +1,18 @@
+{
+  "status": "failed",
+  "case": {
+    "id": "normal_bank60_2026310500",
+    "opening": 0,
+    "side": "normal",
+    "seed": 2026310500,
+    "actor": "bank60",
+    "red": "sac5000",
+    "distance_ft": 6000,
+    "max_ticks": 18000
+  },
+  "training_started": false,
+  "official_validation": false,
+  "deployment_allowed": false,
+  "error": "TypeError('Object of type bool_ is not JSON serializable')",
+  "wall_seconds": 11.860000000000582
+}

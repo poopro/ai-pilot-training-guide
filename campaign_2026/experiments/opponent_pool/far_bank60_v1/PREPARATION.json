@@ -1,0 +1,23 @@
+{
+  "status": "prepared_not_launched",
+  "old_runner_source": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_battle_v2",
+  "old_runner_sha256": "16d6bc6f9039783bab8bb39d01bf02fc2d5296982b2cb942f49fef51cdf07b04",
+  "single_factor": "Far blue roll target cap72→60 at distance>914.4m only; no model learning",
+  "original_worker_seconds": 90,
+  "original_whole_seconds": 600,
+  "verifier_seconds": 120,
+  "source_plan": "Both original frozen validated interface and new batch files locked; no edits to old sources/models",
+  "seed_plan": [
+    2026310300,
+    2026310301
+  ],
+  "seed_claimed": false,
+  "not_holdout": true,
+  "static_validation": {
+    "new_FDM_ticks": 0,
+    "tool_chunk": "78e5d4",
+    "actual_exit": 0,
+    "description": "Boundary and exact original physics/control AST checks; real preflight gate passed; not a combat result",
+    "checks_passed": 12
+  }
+}

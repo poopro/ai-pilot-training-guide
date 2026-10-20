@@ -1,0 +1,1 @@
+{"id": "60_a_def_sweep1", "script": "rollout_bfm.py", "args": ["eval", "--arms", "tuned,tdef:none:turn_cap=350,tdef:none:turn_cap=420,tdef:break,tdef:extend", "--n", "24", "--workers", "3", "--seed0", "960000", "--opponents", "sac:25600000", "--out", "runs/def_sweep1"], "exit_code": 0, "reason": null, "seconds": 1546.2}

@@ -1,0 +1,82 @@
+{
+  "job_id": "job_20261012_184123_68be",
+  "job_dir": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be",
+  "status": "futility_stop",
+  "phase": "已保存並收尾",
+  "new_decisions": 100000,
+  "decision_budget": 150000,
+  "deadline_taipei": "2026-10-12T22:41:23.716514+08:00",
+  "last_bundle": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_02\\final_0000124000",
+  "candidate_gate": "review_pending",
+  "supervisor": {
+    "pid": 5160,
+    "creation_epoch": 1791801684.0066648,
+    "cmdline": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\runner.py",
+      "run",
+      "--job",
+      "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\state.json"
+    ]
+  },
+  "child": null,
+  "heartbeat_epoch": 1791805629.2204149,
+  "error": "連續兩次配對評估擊落較少且攻擊時間低於純引導器一半；停止追加並檢討。",
+  "campaign_latest_20261016": {
+    "status": "completed_verified_grid_mixed_not_promoted",
+    "research_pointer": "E:\\ai_pilot\\campaign_2026\\research_latest.json",
+    "train_manifest": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_actor_transfer_10k_v1\\run_20261016_102640_412524\\BUNDLE_MANIFEST.json",
+    "grid_review": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_20261016_104729_96f65a\\SAFETY_REVIEW.json",
+    "formal_deployment": "repair_guide",
+    "old_pipeline_record_preserved": true
+  },
+  "campaign_latest_20261017": {
+    "status": "completed_verified_development",
+    "research_pointer": "E:\\ai_pilot\\campaign_2026\\research_latest.json",
+    "latest_interface": "E:\\ai_pilot\\campaign_2026\\diagnostics\\frozen_sac_fdm_v1\\run_20261017_063110_af2e25\\VERIFICATION.json",
+    "latest_full_battle_review": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_bank60_v2\\run_20261017_153047_104619\\SAFETY_REVIEW.json",
+    "model_focus": true,
+    "ASUS_LAN_deferred": true,
+    "formal_deployment": "repair_guide",
+    "old_pipeline_record_preserved": true,
+    "latest_comparison": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_bank60_v2\\run_20261017_153047_104619\\COMPARISON.json",
+    "next_research": "E:\\ai_pilot\\campaign_2026\\diagnostics\\pursuit_window_trace_v2_20261017_183554_46bebe\\NEXT_HYPOTHESIS.json",
+    "training_started": false,
+    "latest_diagnostic": "E:\\ai_pilot\\campaign_2026\\diagnostics\\pursuit_window_trace_v2_20261017_183554_46bebe\\VERIFICATION.json",
+    "next_factor_status": "rear_wrap_latch_proposed_not_implemented",
+    "candidate_gate": "reject_promotion_position_score_regression"
+  },
+  "updated_utc": "2026-10-18T10:50:20.986177+00:00",
+  "race_focus_update": {
+    "latest_comparison": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\run_20261018_033053_98bc0f\\COMPARISON.json",
+    "original_failed_comparison": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v2\\run_20261017_203915_d840e7\\COMPARISON.json",
+    "latest_safety_review": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\run_20261018_033053_98bc0f\\SAFETY_REVIEW.json",
+    "candidate_gate": "reject_position_score_regression",
+    "next_research": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_train_v4\\run_20261018_184640_29092b\\NEXT_EVALUATION_PLAN.json",
+    "next_factor_status": "fresh_bank17_pilot_verified_matched_strength_eval_proposed",
+    "formal_deployment": "repair_guide",
+    "training_started": true,
+    "latest_diagnostic": "E:\\ai_pilot\\campaign_2026\\diagnostics\\latch_window_audit_v1_20261017_213931_a2c1a1\\VERIFICATION.json",
+    "latest_saved_diagnostic": "E:\\ai_pilot\\campaign_2026\\diagnostics\\bank_authority_v1_20261018_123907_985ac0\\FINDINGS.json",
+    "latest_verified_interface": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_fdm_v1\\run_20261018_153511_6fb16a\\VERIFICATION.json",
+    "latest_training": {
+      "run": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_train_v4\\run_20261018_184640_29092b",
+      "verification": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_train_v4\\run_20261018_184640_29092b\\VERIFICATION.json",
+      "review": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_train_v4\\run_20261018_184640_29092b\\FINAL_REVIEW.json",
+      "manifest": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_train_v4\\run_20261018_184640_29092b\\BUNDLE_MANIFEST.json",
+      "model": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_train_v4\\run_20261018_184640_29092b\\model.zip",
+      "model_sha256": "b9bcce79185343c4fdf1b022feb42c4dceb62c8e312da29962c07ae34513b176",
+      "actual_decisions": 3000,
+      "gradient_updates": 338,
+      "new_FDM_ticks": 60000,
+      "actual_parent_exit": 0,
+      "actual_worker_exit": 0,
+      "actual_verifier_exit": 0,
+      "strength_verified": false,
+      "deployment_allowed": false
+    }
+  }
+}

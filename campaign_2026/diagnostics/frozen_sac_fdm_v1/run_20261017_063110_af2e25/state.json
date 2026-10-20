@@ -1,0 +1,8 @@
+{
+  "status": "terminal_verified_interface",
+  "actual_parent_exit": 0,
+  "actual_worker_exit": 0,
+  "actual_verifier_exit": 0,
+  "completed_ticks": 1200,
+  "completed_utc": "2026-10-16T22:34:15.180260+00:00"
+}

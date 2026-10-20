@@ -1,0 +1,67 @@
+{
+  "observed_utc": "2026-10-15T01:28:55.712551+00:00",
+  "loops": [
+    {
+      "pid": 8040,
+      "create_time": 1792001657.2977164,
+      "cmdline": [
+        "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "-X",
+        "utf8",
+        "E:\\ai_pilot\\campaign_2026\\win\\win_loop.py",
+        "loop",
+        "--gap",
+        "60"
+      ],
+      "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "parent_pid": 12724
+    },
+    {
+      "pid": 15644,
+      "create_time": 1792001608.6756625,
+      "cmdline": [
+        "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "-X",
+        "utf8",
+        "E:\\ai_pilot\\campaign_2026\\win\\win_loop.py",
+        "loop",
+        "--gap",
+        "60"
+      ],
+      "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "parent_pid": 7320
+    },
+    {
+      "pid": 20448,
+      "create_time": 1792001782.5285914,
+      "cmdline": [
+        "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "-X",
+        "utf8",
+        "E:\\ai_pilot\\campaign_2026\\win\\win_loop.py",
+        "loop",
+        "--gap",
+        "60"
+      ],
+      "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "parent_pid": 14220
+    }
+  ],
+  "learners": [],
+  "hosts": [],
+  "unverifiable_processes": [],
+  "queue": {
+    "steps": []
+  },
+  "available_ram_gib": 7.03,
+  "free_disk_gib": 194.08,
+  "root_stop": false,
+  "usage_observation": {
+    "remaining_percent": 27,
+    "observed_utc": "2026-10-15T01:26:12Z",
+    "five_hour_resets_epoch": 1792045572,
+    "weekly_resets_epoch": 1792475858
+  },
+  "action": "read_only_monitor_no_launch_no_stop",
+  "pending_cleanup_question_unchanged": true
+}

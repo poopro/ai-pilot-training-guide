@@ -1,0 +1,29 @@
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+weave            ongoing    atk   0/0   margin    314.5 minAGL   5730 shield   0 wall   1.4s
+jink             ongoing    atk   0/0   margin    102.9 minAGL   5701 shield   0 wall   1.8s
+vosc             ongoing    atk   0/0   margin    274.5 minAGL   5751 shield   0 wall   1.4s
+hturn            ongoing    atk   0/0   margin     75.5 minAGL   5730 shield   0 wall   1.5s
+defender         ongoing    atk   0/0   margin      0.6 minAGL   5675 shield   0 wall   1.7s
+pp0              ongoing    atk   0/0   margin      0.6 minAGL   5675 shield   0 wall   1.6s
+pp1              ongoing    atk   0/0   margin      0.6 minAGL   5675 shield   0 wall   1.7s
+pp2              ongoing    atk   0/0   margin      0.6 minAGL   5675 shield   0 wall   1.7s
+pp3              ongoing    atk   0/0   margin     94.3 minAGL   5697 shield   0 wall   1.7s
+pp4              ongoing    atk   0/0   margin     57.4 minAGL   5694 shield   0 wall   1.6s
+pp5              ongoing    atk   0/0   margin      0.6 minAGL   5675 shield   0 wall   1.7s
+sac:1600000      ongoing    atk   0/0   margin    214.6 minAGL   5740 shield   0 wall  11.1s
+sac:10400000     ongoing    atk   0/0   margin    171.0 minAGL   4783 shield   0 wall   4.5s
+sac:25600000     ongoing    atk   0/0   margin    268.0 minAGL   5391 shield   0 wall   4.7s
+sac:50400000     ongoing    atk   0/0   margin    159.8 minAGL   4864 shield   0 wall   3.7s
+sacc:1000000     red_crash  atk   0/0   margin    190.1 minAGL   4938 shield   0 wall   3.3s
+ctl:base         ongoing    atk   0/0   margin      0.6 minAGL   5675 shield   0 wall   1.7s
+ctl:base_t3      ongoing    atk   0/0   margin      0.6 minAGL   5675 shield   0 wall   1.7s
+ctl:tuned        ongoing    atk   0/0   margin      0.6 minAGL   5675 shield   0 wall   1.7s
+ctl:user_nz_t    ongoing    atk   0/0   margin      0.6 minAGL   5675 shield   0 wall   1.8s
+saccf            ongoing    atk   0/0   margin    241.6 minAGL   4802 shield   0 wall   3.7s
+SMOKE_POOL2 OK

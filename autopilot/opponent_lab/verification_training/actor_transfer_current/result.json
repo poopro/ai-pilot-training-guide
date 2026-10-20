@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "run_dir": "E:\\ai_pilot\\autopilot\\opponent_lab\\verification_training\\actor_transfer_current",
+  "final_bundle": "E:\\ai_pilot\\autopilot\\opponent_lab\\verification_training\\actor_transfer_current\\final_0000000256",
+  "pid": 16164,
+  "timesteps": 256,
+  "updates": 27,
+  "stop_file": "E:\\ai_pilot\\autopilot\\opponent_lab\\verification_training\\actor_transfer_current\\STOP",
+  "heartbeat_epoch": 1791217874.5003402,
+  "official_validation": false
+}

@@ -1,0 +1,33 @@
+{
+  "step_failed_m3_mirror_league": {
+    "message": "步驟 m3_mirror_league exit=1，log: E:\\ai_pilot\\campaign_2026\\win\\logs\\m3_mirror_league.log",
+    "eli5": [
+      "開啟上面的 log 檔，看最後 30 行。",
+      "如果是 OOM，把 Chrome 關掉後重新執行這一步。"
+    ],
+    "raised_utc": "2026-10-14T15:03:35.258080+00:00",
+    "email": "email_unavailable",
+    "status": "resolved",
+    "resolved_utc": "2026-10-14T16:02:11.716540+00:00"
+  },
+  "step_failed_league_4actor": {
+    "message": "步驟 league_4actor exit=1，log: E:\\ai_pilot\\campaign_2026\\win\\logs\\league_4actor.log",
+    "eli5": [
+      "開啟上面的 log 檔，看最後 30 行。",
+      "如果是 OOM，把 Chrome 關掉後重新執行這一步。"
+    ],
+    "raised_utc": "2026-10-14T16:55:19.330840+00:00",
+    "email": "email_unavailable",
+    "status": "open"
+  },
+  "step_failed_m4_tactical_rl": {
+    "message": "步驟 m4_tactical_rl exit=1，log: E:\\ai_pilot\\campaign_2026\\win\\logs\\m4_tactical_rl.log",
+    "eli5": [
+      "開啟上面的 log 檔，看最後 30 行。",
+      "如果是 OOM，把 Chrome 關掉後重新執行這一步。"
+    ],
+    "raised_utc": "2026-10-14T18:13:34.060388+00:00",
+    "email": "email_unavailable",
+    "status": "open"
+  }
+}

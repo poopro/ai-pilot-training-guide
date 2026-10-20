@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "E:\ai_pilot\campaign_2026\experiments\opponent_pool\smoke_executor\guard.py", line 57, in <module>
+    raise SystemExit(run_guard(p.parse_args().out))
+  File "E:\ai_pilot\campaign_2026\experiments\opponent_pool\smoke_executor\guard.py", line 30, in run_guard
+    write(out/'guard.json',receipt)
+  File "E:\ai_pilot\campaign_2026\experiments\opponent_pool\benchmark_pool.py", line 48, in atomic_json
+    os.replace(temporary, path)
+PermissionError: [WinError 5] 存取被拒。: 'E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\run_20261014_195159_f7d760\\guard.json.tmp_7084c83e45a343dfb8b325a9fbb81d99' -> 'E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\run_20261014_195159_f7d760\\guard.json'

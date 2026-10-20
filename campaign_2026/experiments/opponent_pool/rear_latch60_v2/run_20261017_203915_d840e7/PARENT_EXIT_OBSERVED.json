@@ -1,0 +1,7 @@
+{
+  "actual_exit": 0,
+  "tool_session": 69239,
+  "tool_chunk": "1534de",
+  "observed_utc": "2026-10-17T12:44:13.143250+00:00",
+  "evidence": "Actual exec wait completion, all four child receipts retained"
+}

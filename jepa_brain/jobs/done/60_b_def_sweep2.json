@@ -1,0 +1,1 @@
+{"script": "rollout_bfm.py", "args": ["eval", "--arms", "tdef:hy,tdef:out,tdef:break:turn_cap=380", "--n", "24", "--workers", "3", "--seed0", "960000", "--opponents", "sac:25600000", "--out", "runs/def_sweep2"], "max_minutes": 120}

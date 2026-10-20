@@ -1,0 +1,17 @@
+{
+  "out": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v2\\run_20261017_203915_d840e7",
+  "case": {
+    "id": "normal_latch60_2026310600",
+    "opening": 0,
+    "side": "normal",
+    "seed": 2026310600,
+    "actor": "latch60",
+    "red": "sac5000",
+    "distance_ft": 6000,
+    "max_ticks": 18000
+  },
+  "limits": {
+    "deadline_monotonic": 59216.75,
+    "deadline_epoch": 1792240917.9698787
+  }
+}

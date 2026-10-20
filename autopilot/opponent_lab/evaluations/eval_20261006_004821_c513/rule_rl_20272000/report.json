@@ -1,0 +1,92 @@
+{
+  "status": "completed",
+  "official_validation": false,
+  "scenario": "side_by_side_opposite_headings",
+  "attack_angle_deg": 1.0,
+  "collision_model": "not modeled; not official validation",
+  "p2": "rule",
+  "blue": "rl",
+  "training_steps_added": 0,
+  "rl_type": "existing frozen guided SAC residual; strength not guaranteed",
+  "bundle": "E:\\ai_pilot\\autopilot\\opponent_lab\\overnight_verification\\night_20261006_004746_e188\\train_02\\final_0000000256",
+  "red_bundle": null,
+  "lab_sha256": "9f358a7a04b09728199ac33de120146e3aa0bcbb37fe18dbae2a2b5a7cfcb9a6",
+  "v3_sources": {
+    "env.py": "4b4e91dd8168517039ed7092a0536dcefd5297582c4f3722be8d7ca5d3b9d7b4",
+    "fdm.py": "c59e705d248f1678f64ba6788639260c739a1b1a6e8f6830d62e4a11f3a1dba6",
+    "controller.py": "d772bf49a8d8408aaafec691c981d0612de7dada6450e0afcecbc3d958b7813b",
+    "interface.py": "50f63ee563a8cb13b9bb472b0de7905579bcc9c70bc69efc571681879eb02555",
+    "rules.py": "40857e278e8f3902fc9e8c39acf0aebb7bc8e02fafb9627a3f5561512a2f4e05",
+    "config.json": "d4fba053617240e07ffc67fe389d944313ba12dff491e569a0ae764e0f7b88ec"
+  },
+  "episodes": [
+    {
+      "seed": 20272000,
+      "initial": {
+        "distance_ft": 2999.9930397729754,
+        "blue_heading": 286.3478169985097,
+        "red_heading": 106.34781699850969,
+        "blue_cas_kts": 340.0000000000003,
+        "red_cas_kts": 339.99999999999955
+      },
+      "steps": 18000,
+      "full_round_completed": true,
+      "local_reward": -44.62397815787916,
+      "wall_seconds": 29.59400000000096,
+      "p2_mode_ticks": {
+        "precision_track": 815,
+        "altitude_controlled_pursuit": 17185
+      },
+      "final": {
+        "outcome": "timeout",
+        "is_kill": 0,
+        "was_hit": 0,
+        "survived": 1,
+        "own_crash": 0,
+        "enemy_crash": 0,
+        "timeout": 1,
+        "attack_seconds": 0.0,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0,
+        "guard_fraction": 0.22227777777777777,
+        "min_altitude_m": 752.6685434217061,
+        "opponent": "duel",
+        "distance": 2187.937864853984,
+        "blue_angle_deg": 153.57344138054816,
+        "red_angle_deg": 13.53342002069982,
+        "altitude_m": 1213.4431053483547,
+        "speed_kts": 524.7383134748058,
+        "load_factor": 3.5658480238060735,
+        "mean_residual": 0.15403386040363692,
+        "position_mean": 0.045211913100488645,
+        "advantage_blue_estimate": 8138.144358087956,
+        "advantage_red_estimate": 79268.72013228701,
+        "estimated_winner": "red",
+        "spawn_distance_ft": 3000,
+        "stage": 2,
+        "local_win": 0,
+        "failure_reason": "timeout",
+        "guard_active": false,
+        "actual_action": [
+          0.6627317134684183,
+          0.7359974997688601,
+          0.00011606812477111815,
+          0.6749999999999997
+        ],
+        "residual": [
+          0.12131941318511963,
+          -0.6911661028862,
+          0.007737874984741211,
+          0.18710076808929443
+        ],
+        "p2_type": "rule",
+        "p2_mode": "altitude_controlled_pursuit",
+        "p2_guard": false,
+        "attack_angle_deg": 1.0,
+        "blue_hp": 180,
+        "red_hp": 180
+      },
+      "acmi": "E:\\ai_pilot\\autopilot\\opponent_lab\\evaluations\\eval_20261006_004821_c513\\rule_rl_20272000\\duel_20272000_rule.acmi"
+    }
+  ]
+}

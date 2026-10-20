@@ -1,0 +1,65 @@
+{
+  "actual_exit": 0,
+  "reason": null,
+  "identity": {
+    "pid": 22048,
+    "create": 1792327527.090798,
+    "cmd": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_eval_v1\\test_contract.py",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_eval_v1\\run_20261018_204527_a6f90a"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent": 21712
+  },
+  "descendants": [
+    {
+      "identity": {
+        "pid": 1524,
+        "create": 1792327527.1008904,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 22048
+      },
+      "chain": [
+        {
+          "pid": 1524,
+          "create": 1792327527.1008904,
+          "cmd": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent": 22048
+        }
+      ],
+      "worker": {
+        "pid": 22048,
+        "create": 1792327527.090798,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_eval_v1\\test_contract.py",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_eval_v1\\run_20261018_204527_a6f90a"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 21712
+      }
+    }
+  ],
+  "absent": true,
+  "cleanup_actions": [],
+  "wall_seconds": 10.718999999997322,
+  "limits": {
+    "deadline_epoch": 1792327557.0879197,
+    "deadline_monotonic": 73294.281
+  }
+}

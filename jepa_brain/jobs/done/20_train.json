@@ -1,0 +1,1 @@
+{"script":"train_brain.py","args":["--data","runs/collect01/data","--out","brain_v1.pt","--epochs","40"],"max_minutes":90}

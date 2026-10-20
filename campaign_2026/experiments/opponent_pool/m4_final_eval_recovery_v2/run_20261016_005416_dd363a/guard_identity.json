@@ -1,0 +1,15 @@
+{
+  "pid": 10296,
+  "creation_epoch": 1792083256.7324476,
+  "cmdline": [
+    "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_final_eval_recovery_v2\\guard.py",
+    "--out",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_final_eval_recovery_v2\\run_20261016_005416_dd363a"
+  ],
+  "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+  "parent_pid": 19184
+}

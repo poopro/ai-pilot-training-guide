@@ -1,0 +1,1 @@
+{"script": "tune2.py", "args": ["--smoke"], "max_minutes": 20}

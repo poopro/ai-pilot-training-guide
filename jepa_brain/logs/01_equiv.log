@@ -1,0 +1,10 @@
+PURSUE equivalence max abs diff = 0.0
+tactic 0 pursue     ok  last_cmd=[ 1.    -0.152  0.     1.   ]
+tactic 1 lead       ok  last_cmd=[ 1.    -0.156  0.     1.   ]
+tactic 2 lag        ok  last_cmd=[ 1.    -0.218  0.     1.   ]
+tactic 3 break_in   ok  last_cmd=[-0.04  -0.157  0.     1.   ]
+tactic 4 break_out  ok  last_cmd=[ 0.04  -0.192  0.     1.   ]
+tactic 5 high_yoyo  ok  last_cmd=[ 0.934 -0.596  0.     0.294]
+tactic 6 low_yoyo   ok  last_cmd=[1.    0.112 0.    1.   ]
+tactic 7 extend     ok  last_cmd=[-0.095 -0.188  0.     1.   ]
+ALL OK

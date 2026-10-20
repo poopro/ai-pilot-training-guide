@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-10-15T16:24:53.047808+00:00",
+  "actual_static_exit_code": 0,
+  "static_tests": 5,
+  "seed_base": 2026101620,
+  "planned_pairs": 2,
+  "planned_workers": 4,
+  "max_FDM_ticks": 4800,
+  "total_wall_seconds": 240,
+  "new_FDM_ticks": 0,
+  "new_learner": false,
+  "source_contract": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_yaw_pair_v1\\CONTRACT.json",
+  "usage_observation": {
+    "observed_utc": "2026-10-15T16:22:19Z",
+    "lower_remaining_percent": 40,
+    "five_hour_reset_epoch": 1792094944,
+    "weekly_reset_epoch": 1792654206
+  }
+}

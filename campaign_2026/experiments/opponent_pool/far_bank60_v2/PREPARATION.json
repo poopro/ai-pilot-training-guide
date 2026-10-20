@@ -1,0 +1,26 @@
+{
+  "status": "prepared_not_launched",
+  "failed_source_branch": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_bank60_v1",
+  "root_cause": "m4_tactical_rl mutates import order; generic candidate import resolved near_bank80/candidate.py after reset",
+  "unique_fix": "Resolve and bind candidate.py by absolute path before framework imports; no changes to physical/control/candidate arithmetic",
+  "prior_failure_preserved": true,
+  "failed_seeds_not_reused": [
+    2026310300,
+    2026310301
+  ],
+  "new_seed_plan": [
+    2026310400,
+    2026310401
+  ],
+  "original_worker_seconds": 90,
+  "original_whole_seconds": 600,
+  "verifier_seconds": 120,
+  "training_started": false,
+  "static_validation": {
+    "actual_exit": 0,
+    "boundary_AST_checks": 12,
+    "cold_import_collision_test": "passed",
+    "environment_constructed": false,
+    "tool_chunk": "0ee51c"
+  }
+}

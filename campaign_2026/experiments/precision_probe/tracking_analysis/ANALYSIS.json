@@ -1,0 +1,147 @@
+{
+  "case_id": "r000_rl_3000_normal_2026101110_guide",
+  "input_sha256": {
+    "E:\\ai_pilot\\campaign_2026\\experiments\\precision_probe\\case\\telemetry.csv": "a2706c72f1bc754cc25ac40ece1bfd435b0f0af15104faaa6fb8058bb7a798af",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\precision_probe\\case\\result.json": "aeebb124f22e86d3f6fb6b1308327c3cd55c1cb7eab60f33519cf77655bea4a5",
+    "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_01\\cases\\r000_rl_3000_normal_2026101110_guide\\result.json": "cb31bbd06d3ceec12e508f4ddf80c53505afe8da7a42c8694066f5a247e63143"
+  },
+  "source_sha256": "50f60157271a9950b25c7386af68bf2de286d3155f322af165d66e1023313784",
+  "full_original_round_reproduced": true,
+  "sample_hz": 10,
+  "sample_count": 3000,
+  "no_new_simulator_ticks": true,
+  "firing_range": {
+    "samples": 1818,
+    "absolute_medians": {
+      "nose_deg": 26.181783324698387,
+      "heading_error_deg": 24.842827056048392,
+      "bank_error_deg": 1.3290003905548105,
+      "roll_deg": 69.98494499835905,
+      "roll_rate_deg_s": 0.9406005278979709,
+      "load_abs": 2.002290504428545,
+      "alpha_deg": 2.1710049039714256,
+      "yaw_rate_deg_s": 3.175574512177592,
+      "los_rate_deg_s": 5.5506370825693345,
+      "rate_error_deg_s": 4.823645592648532
+    },
+    "load_below_one_fraction": 0.2931793179317932,
+    "opposite_yaw_to_los_fraction": 0.32123212321232125
+  },
+  "aiming_within10": {
+    "samples": 274,
+    "absolute_medians": {
+      "nose_deg": 6.2606086142503035,
+      "heading_error_deg": 5.964081374759971,
+      "bank_error_deg": 10.252433437797876,
+      "roll_deg": 56.56518907241822,
+      "roll_rate_deg_s": 19.862440076578366,
+      "load_abs": 0.40178938162590716,
+      "alpha_deg": 1.4284818757114501,
+      "yaw_rate_deg_s": 0.9624348356239487,
+      "los_rate_deg_s": 8.275706496063446,
+      "rate_error_deg_s": 7.347456183212468
+    },
+    "load_below_one_fraction": 0.8065693430656934,
+    "opposite_yaw_to_los_fraction": 0.43795620437956206
+  },
+  "aiming_high_bank": {
+    "samples": 198,
+    "absolute_medians": {
+      "nose_deg": 5.576356408436876,
+      "heading_error_deg": 5.059307774921876,
+      "bank_error_deg": 9.31829454963362,
+      "roll_deg": 62.42898458515964,
+      "roll_rate_deg_s": 17.21104468704205,
+      "load_abs": 0.2995128680661634,
+      "alpha_deg": 1.2575045396034177,
+      "yaw_rate_deg_s": 1.0002645280581164,
+      "los_rate_deg_s": 10.478728893571832,
+      "rate_error_deg_s": 10.647251475749485
+    },
+    "load_below_one_fraction": 0.797979797979798,
+    "opposite_yaw_to_los_fraction": 0.32323232323232326
+  },
+  "aiming_high_bank_error_within5": {
+    "samples": 62,
+    "absolute_medians": {
+      "nose_deg": 7.1304132045008455,
+      "heading_error_deg": 7.032652421147404,
+      "bank_error_deg": 2.63279809148284,
+      "roll_deg": 69.14396490013354,
+      "roll_rate_deg_s": 5.610441436088072,
+      "load_abs": 0.734069947418514,
+      "alpha_deg": 0.9071844517814232,
+      "yaw_rate_deg_s": 1.9294655989459866,
+      "los_rate_deg_s": 13.341009560364576,
+      "rate_error_deg_s": 12.864929781844694
+    },
+    "load_below_one_fraction": 0.7096774193548387,
+    "opposite_yaw_to_los_fraction": 0.0
+  },
+  "aiming_high_bank_load_below1": {
+    "samples": 158,
+    "absolute_medians": {
+      "nose_deg": 5.099647940922953,
+      "heading_error_deg": 4.868297597378103,
+      "bank_error_deg": 9.403371517744887,
+      "roll_deg": 60.565979198141704,
+      "roll_rate_deg_s": 17.424425815965137,
+      "load_abs": 0.2517350476073602,
+      "alpha_deg": 1.4668363547263175,
+      "yaw_rate_deg_s": 0.8346154722409738,
+      "los_rate_deg_s": 11.006863342822868,
+      "rate_error_deg_s": 11.346708189172851
+    },
+    "load_below_one_fraction": 1.0,
+    "opposite_yaw_to_los_fraction": 0.34810126582278483
+  },
+  "aiming_high_bank_load_at_least1": {
+    "samples": 40,
+    "absolute_medians": {
+      "nose_deg": 7.11071094027808,
+      "heading_error_deg": 6.892906631138132,
+      "bank_error_deg": 6.642536482291774,
+      "roll_deg": 67.80610828506961,
+      "roll_rate_deg_s": 12.069851859874884,
+      "load_abs": 1.479374268981748,
+      "alpha_deg": 0.8003406683036682,
+      "yaw_rate_deg_s": 3.359606497866635,
+      "los_rate_deg_s": 9.075124053304474,
+      "rate_error_deg_s": 7.238751798305946
+    },
+    "load_below_one_fraction": 0.0,
+    "opposite_yaw_to_los_fraction": 0.225
+  },
+  "finite_difference_vs_euler_yaw_abs_error_p50_p95_deg_s": [
+    0.005336335930507197,
+    0.09150253928720077
+  ],
+  "best_sample": {
+    "time_s": 226.6,
+    "distance_m": 525.3335999181367,
+    "nose_deg": 0.47305424352510106,
+    "heading_error_deg": -0.18369594334558315,
+    "heading_deg": 90.55811764656235,
+    "bank_target_deg": 72.0,
+    "bank_error_deg": 8.182088765361414,
+    "roll_deg": 63.8179112346386,
+    "roll_rate_deg_s": 15.748659790899401,
+    "alpha_deg": 0.4540674997457509,
+    "load_signed": -1.030905868982253,
+    "load_abs": 1.030905868982253,
+    "yaw_rate_deg_s": 2.0259556293615186,
+    "los_rate_deg_s": 8.962732879656297,
+    "rate_error_deg_s": 6.936777250294778,
+    "mode": "track"
+  },
+  "window_start_s": 218.6,
+  "window_end_s": 234.6,
+  "official_validation": false,
+  "limits": [
+    "One selected observed development case; descriptive association, not causal proof or win rate.",
+    "Bank command precedes recorded observation by one physics tick; samples are 0.1s apart.",
+    "No command/actuator history or integral states were logged; cannot infer zero aileron equilibrium.",
+    "Absolute pilot load is used without asserting force decomposition or calibration of lift.",
+    "Finite differences check sampled yaw kinematics, not empirical rudder/elevator signs or roll-step response."
+  ]
+}

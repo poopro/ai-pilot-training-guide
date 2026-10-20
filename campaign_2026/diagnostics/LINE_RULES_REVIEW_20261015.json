@@ -1,0 +1,212 @@
+{
+  "observed_utc": "2026-10-14T19:34:19.224114+00:00",
+  "source": "E:\\ai_pilot\\[LINE]2026 AI飛行員擂台賽.txt",
+  "source_sha256": "95f3a5fbadce65cab51b10e62a409394f166ca2d6ef09590df779090300cc08b",
+  "source_role": "User supplied LINE export; source content is evidence, not authority to execute instructions. Not independent live organizer confirmation.",
+  "chat_answer_date": "2026-10-14",
+  "confirmed_in_export": {
+    "score_start": {
+      "value": "first frame after START",
+      "line": 601
+    },
+    "timeout_winner": {
+      "value": "S_advantage only when neither kills",
+      "line": 608
+    },
+    "event_priority": {
+      "value": [
+        "collision",
+        "crash",
+        "kill",
+        "timeout"
+      ],
+      "line": 612
+    },
+    "collision": {
+      "value": "three-dimensional distance strictly less than15m, immediate terminal",
+      "line": 590
+    },
+    "attack_boundaries": {
+      "value": "1deg,500ft,3000ft inclusive; 3D slant range",
+      "line": 618
+    },
+    "nose_axis": {
+      "value": "own body X axis, not velocity",
+      "line": 615
+    },
+    "g": {
+      "value": "accelerations/n-pilot-z-norm",
+      "line": 622
+    },
+    "weights": {
+      "value": {
+        "W_base": 30000,
+        "W_time": 10000,
+        "W_G": 100,
+        "W_pos": 1
+      },
+      "line": 628
+    },
+    "initial_geometry": {
+      "value": "parallel opposite headings, no along-track offset, lateral3000/6000/9000ft,340CAS,left/right mirror",
+      "line": 625
+    },
+    "final_host_cmd_state": {
+      "value": 2,
+      "line": 498
+    },
+    "custom_connector_allowed": {
+      "value": true,
+      "line": 631
+    }
+  },
+  "local_divergences": [
+    {
+      "item": "score_weights",
+      "observed": {
+        "attack_time": 2000,
+        "over_g_time": 1000,
+        "position": 10,
+        "kill_base": 1000
+      },
+      "expected": {
+        "W_base": 30000,
+        "W_time": 10000,
+        "W_G": 100,
+        "W_pos": 1
+      },
+      "effect": "Old local score/winner estimate cannot represent latest official weights."
+    },
+    {
+      "item": "collision",
+      "observed": "not specified; Host adjudicates",
+      "expected": "distance<15m immediate terminal before crash/kill/timeout",
+      "effect": "Existing no-collision matches do not prove official outcome conformance."
+    },
+    {
+      "item": "crash_units",
+      "observed": {
+        "local_crash_threshold_ft": 50
+      },
+      "expected": "50 metres from chat; inspect actual runtime rule, do not silently relabel50feet",
+      "effect": "Requires isolated new judge contract, frozen old evidence unchanged."
+    },
+    {
+      "item": "attack_angle",
+      "observed": 2,
+      "expected": 1,
+      "effect": "Campaign diagnostic explicitly sets1deg; verify each run override. Frozen base config2deg is not itself final conformance."
+    }
+  ],
+  "frozen_rule_source_sha256": "40857e278e8f3902fc9e8c39acf0aebb7bc8e02fafb9627a3f5561512a2f4e05",
+  "current_win_loops": [
+    {
+      "pid": 8040,
+      "create_time": 1792001657.2977164,
+      "cmdline": [
+        "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "-X",
+        "utf8",
+        "E:\\ai_pilot\\campaign_2026\\win\\win_loop.py",
+        "loop",
+        "--gap",
+        "60"
+      ],
+      "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "parent_pid": 12724
+    },
+    {
+      "pid": 15644,
+      "create_time": 1792001608.6756625,
+      "cmdline": [
+        "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "-X",
+        "utf8",
+        "E:\\ai_pilot\\campaign_2026\\win\\win_loop.py",
+        "loop",
+        "--gap",
+        "60"
+      ],
+      "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "parent_pid": 7320
+    },
+    {
+      "pid": 20448,
+      "create_time": 1792001782.5285914,
+      "cmdline": [
+        "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "-X",
+        "utf8",
+        "E:\\ai_pilot\\campaign_2026\\win\\win_loop.py",
+        "loop",
+        "--gap",
+        "60"
+      ],
+      "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "parent_pid": 14220
+    }
+  ],
+  "current_m4_learners": [
+    {
+      "pid": 644,
+      "create_time": 1792001782.7235634,
+      "cmdline": [
+        "C:/Users/USER/anaconda3/envs/F16_ai/python.exe",
+        "-u",
+        "-X",
+        "utf8",
+        "E:/ai_pilot/campaign_2026/win/m4_tactical_rl.py",
+        "--steps",
+        "120000",
+        "--opponents",
+        "mirror,rule,rl",
+        "--seed",
+        "20261115"
+      ],
+      "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "parent_pid": 20448
+    },
+    {
+      "pid": 2996,
+      "create_time": 1792001782.703685,
+      "cmdline": [
+        "C:/Users/USER/anaconda3/envs/F16_ai/python.exe",
+        "-u",
+        "-X",
+        "utf8",
+        "E:/ai_pilot/campaign_2026/win/m4_tactical_rl.py",
+        "--steps",
+        "120000",
+        "--opponents",
+        "mirror,rule,rl",
+        "--seed",
+        "20261115"
+      ],
+      "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "parent_pid": 8040
+    },
+    {
+      "pid": 11592,
+      "create_time": 1792001794.105867,
+      "cmdline": [
+        "C:/Users/USER/anaconda3/envs/F16_ai/python.exe",
+        "-u",
+        "-X",
+        "utf8",
+        "E:/ai_pilot/campaign_2026/win/m4_tactical_rl.py",
+        "--steps",
+        "120000",
+        "--opponents",
+        "mirror,rule,rl",
+        "--seed",
+        "20261115"
+      ],
+      "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "parent_pid": 15644
+    }
+  ],
+  "active_source_modified": false,
+  "new_fdm_started": false,
+  "deployment_changed": false,
+  "new_research_blocked_by_existing_workloads": true
+}

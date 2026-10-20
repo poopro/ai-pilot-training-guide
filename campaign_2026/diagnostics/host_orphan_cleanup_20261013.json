@@ -1,0 +1,41 @@
+{
+  "observed_utc": "2026-10-13T11:54:19.898100+00:00",
+  "reservation_id": "host_guide_six_rounds_20261013_140016",
+  "original_parent_receipt": "E:\\ai_pilot\\campaign_2026\\diagnostics\\host_execution_latest.json",
+  "verified_original_parent": {
+    "role": "owned_host_child",
+    "pid": 23036,
+    "creation_epoch": 1791871233.451377,
+    "cmdline": [
+      "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe"
+    ],
+    "terminated": true
+  },
+  "owned_internal_player2_cleanup": [
+    {
+      "pid": 20040,
+      "parent_pid": 8236,
+      "creation_epoch": 1791871281.617909,
+      "cmdline": [
+        "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe",
+        "--internal-player2"
+      ],
+      "identity_verified": true,
+      "terminated": true
+    },
+    {
+      "pid": 8236,
+      "parent_pid": 23036,
+      "creation_epoch": 1791871280.7287102,
+      "cmdline": [
+        "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe",
+        "--internal-player2"
+      ],
+      "identity_verified": true,
+      "terminated": true
+    }
+  ],
+  "remaining_related_hosts": [],
+  "new_host_rounds": 0,
+  "reason": "Internal P2 descendants survived original GUI/launcher termination; ancestry and PID/create/cmd checked before cleanup"
+}

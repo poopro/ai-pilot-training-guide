@@ -1,0 +1,1 @@
+{"script": "tune.py", "args": ["--budget-min", "240", "--out", "runs/tune01"], "max_minutes": 270}

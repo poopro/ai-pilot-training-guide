@@ -1,0 +1,51 @@
+{
+  "status": "consumed_completed_verified_development",
+  "syntax_files": 5,
+  "pure_boundary_cases": 140,
+  "static_exit": 0,
+  "new_FDM_ticks": 72000,
+  "cold_framework_import_tested": true,
+  "saved_packet_precheck_tested": true,
+  "worker_or_seed_launched": true,
+  "resource_precheck_actual_tool_exit": 1,
+  "resource_precheck_tool_chunk": "ec52dc",
+  "reason": "Completed new bounded development; earlier resource-only refusal retained in its own report",
+  "resource_wait_report": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\PREFLIGHT_RESOURCE_WAIT_20261018.json",
+  "hypothesis_plan": "E:\\ai_pilot\\campaign_2026\\diagnostics\\latch_window_v1_20261017_213638_941961\\NEXT_HYPOTHESIS.json",
+  "planned_seeds_not_claimed": [
+    2026310700,
+    2026310701
+  ],
+  "seed_collisions_at_observation": [],
+  "full_precheck_launcher": "E:\\ai_pilot\\campaign_2026\\diagnostics\\far_speed_precheck_guardian_v1.py",
+  "full_precheck_seconds": 120,
+  "full_precheck_parent_exit_not_observed_as_success": false,
+  "FDM_launch_allowed": false,
+  "proposed_worker_seconds": 90,
+  "proposed_whole_seconds": 600,
+  "proposed_verifier_seconds": 120,
+  "source_sha256": {
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\battle.py": "223dec3796989499b872499c466c9d06c1c435ba999e334b14bbc46bf980a1cc",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\candidate.py": "b8b869c6ddb2f7a01118d120fe23a95187097a20bf9f55f622f55afacc5f7f38",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\post_review.py": "40d1666d04aedc686c84f992767493eacd5ecf00e79ef31a4f142b0a5ded4f66",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\test_static.py": "af935a356811dbaee4c362c5ddf2b883778b52ee1187f6c9f3ae0157b15bfc15",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\verify.py": "d9100153821314790cfae3a4b4d593941a572c9ef4856cec37f073021f5bdff9"
+  },
+  "next_action": "Wait for unchanged resource gate RAM>=2GiB/CPU<95/disk>=10GiB and singleton/STOP. Then run full guarded precheck, observe real parent0 and worker0, inspect VERIFICATION. Only then source-freeze and battle --check-only/--launch; no bypass or new-seed claim before launcher.",
+  "original_sources_unchanged": true,
+  "formal_deployment": "repair_guide",
+  "precheck_run": "E:\\ai_pilot\\campaign_2026\\diagnostics\\far_speed_precheck_v1_20261018_032954_f0151b",
+  "precheck_actual_parent_exit": 0,
+  "precheck_actual_worker_exit": 0,
+  "precheck_verification_sha256": "cb81bd58d566807c55d9afe7474904e91dc3773d461f9e4196acc7096ab4e86a",
+  "resource_wait_resolved_at_precheck": true,
+  "latest_precheck_resources": {
+    "ram_bytes": 6645075968,
+    "disk_bytes": 193643610112,
+    "cpu_percent": 40.0,
+    "GPU_used": false
+  },
+  "completed_run": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\run_20261018_033053_98bc0f",
+  "gate": "reject_position_score_regression",
+  "same_trial_must_not_restart": true
+}

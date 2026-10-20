@@ -1,0 +1,1 @@
+{"id": "61_4a_val_guide_lag", "script": "rollout_bfm.py", "args": ["eval", "--arms", "base_t3,tuned", "--workers", "3", "--n", "48", "--seed0", "1000000", "--opponents", "guide,lag", "--out", "runs/val_gl"], "exit_code": 0, "reason": null, "seconds": 965.6}

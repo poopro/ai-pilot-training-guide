@@ -1,0 +1,73 @@
+{
+  "format": "opponent_lab_sac_v1",
+  "timesteps": 1,
+  "n_updates": 0,
+  "replay_size": 0,
+  "model_sha256": "e4fe145e8b7248e8465b1b0fa76ae6e52b55a230fde751f141e7f3a93c51b077",
+  "replay_sha256": "ce93b19ecf9765c13f4495fc4cc051caac1ff8f41bec106978046fffee6f8603",
+  "config": {
+    "environment_fingerprint": "944078e6fc2eaa38b710c997f32b6db60b339ea1c2acec3a9c6472559db4831f",
+    "environment": {
+      "sources": {
+        "base": {
+          "env.py": "4b4e91dd8168517039ed7092a0536dcefd5297582c4f3722be8d7ca5d3b9d7b4",
+          "controller.py": "d772bf49a8d8408aaafec691c981d0612de7dada6450e0afcecbc3d958b7813b",
+          "interface.py": "50f63ee563a8cb13b9bb472b0de7905579bcc9c70bc69efc571681879eb02555",
+          "fdm.py": "c59e705d248f1678f64ba6788639260c739a1b1a6e8f6830d62e4a11f3a1dba6",
+          "rules.py": "40857e278e8f3902fc9e8c39acf0aebb7bc8e02fafb9627a3f5561512a2f4e05",
+          "config.json": "d4fba053617240e07ffc67fe389d944313ba12dff491e569a0ae764e0f7b88ec"
+        },
+        "original_fdm": "6d193634ccaff77db6f3d1e248b2276c4a7177c47dbfa82fd466154b67d8c541",
+        "lab": "9f358a7a04b09728199ac33de120146e3aa0bcbb37fe18dbae2a2b5a7cfcb9a6",
+        "trainer": "a75973e230080b386213096a51101b7a7ec70818d956caa1d8a54b72d4652f1c"
+      },
+      "p2_pool": "rule",
+      "red_model_sha256": null,
+      "attack_angle": 1.0,
+      "distance_schedule": [
+        3000,
+        6000,
+        9000
+      ],
+      "mixed_probabilities": [
+        0.75,
+        0.25
+      ],
+      "action_semantics": "v3_bounded_residual"
+    },
+    "base_source_sha256": {
+      "env.py": "4b4e91dd8168517039ed7092a0536dcefd5297582c4f3722be8d7ca5d3b9d7b4",
+      "controller.py": "d772bf49a8d8408aaafec691c981d0612de7dada6450e0afcecbc3d958b7813b",
+      "interface.py": "50f63ee563a8cb13b9bb472b0de7905579bcc9c70bc69efc571681879eb02555",
+      "fdm.py": "c59e705d248f1678f64ba6788639260c739a1b1a6e8f6830d62e4a11f3a1dba6",
+      "rules.py": "40857e278e8f3902fc9e8c39acf0aebb7bc8e02fafb9627a3f5561512a2f4e05",
+      "config.json": "d4fba053617240e07ffc67fe389d944313ba12dff491e569a0ae764e0f7b88ec"
+    },
+    "actor_from": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\candidate1_to_199000\\final_0000148682",
+    "resume_parent": null,
+    "red_bundle": null,
+    "new_requested_steps": 128,
+    "run_status": "stopped_by_user",
+    "max_minutes": 2.0,
+    "seed": 20266000,
+    "official_validation": false,
+    "critic_reused": false,
+    "old_v3_replay_reused": false,
+    "resume_replay_reused": false,
+    "transfer_checks": {
+      "actor_weights_exactly_copied": true,
+      "new_replay_empty": true,
+      "new_actor_optimizer_empty": true,
+      "new_critic_optimizer_empty": true,
+      "new_update_count_zero": true,
+      "old_model_timesteps": 148682,
+      "new_model_timesteps": 0
+    },
+    "start_timesteps": 0,
+    "device": "cuda",
+    "learning_starts": 32,
+    "buffer_size": 512,
+    "batch_size": 16
+  },
+  "official_validation": false
+}

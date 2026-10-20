@@ -1,0 +1,19 @@
+{
+  "identity": {
+    "pid": 20048,
+    "creation_epoch": 1791981867.9179003,
+    "cmdline": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\v5\\run_smoke.py",
+      "--worker",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\v5\\run_20261014_204421_9a31c4\\cases\\smoke_rule_6000_normal_2026102701\\input.json"
+    ]
+  },
+  "actual_worker_exit_code": 0,
+  "case_id": "smoke_rule_6000_normal_2026102701",
+  "input_sha256": "0fb275f0d80c4792355cb00a52743210bec74e05262498ed318484aec392fe4c",
+  "result_sha256": "35d46a940d2940816b55a57892167814fe0bd50522b24a9a1ea846c2ce697097"
+}

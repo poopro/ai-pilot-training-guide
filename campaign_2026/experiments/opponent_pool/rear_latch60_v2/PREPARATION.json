@@ -1,0 +1,31 @@
+{
+  "status": "ready_no_new_FDM",
+  "production_change": "Only normalize he/body_angle NumPy scalars to Python float before boolean trace computations; numerical control law unchanged",
+  "additional_verifier_only_fix": "CSV writes None as empty cell; compare that exact encoding, retain all numeric/event checks",
+  "prior_failure": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v1\\run_20261017_203724_6cbe6e\\FAILURE_REVIEW.json",
+  "prior_pretrigger_proof": "E:\\ai_pilot\\campaign_2026\\diagnostics\\rear_latch_precheck_v1_20261017_203552_9a320f\\VERIFICATION.json",
+  "new_seeds": [
+    2026310600,
+    2026310601
+  ],
+  "prior_seeds_not_reused": true,
+  "whole_seconds": 600,
+  "worker_seconds": 90,
+  "preplanned_verifier_seconds": 120,
+  "training_started": false,
+  "deployment_allowed": false,
+  "baseline": "rejected unlatched60, not original72 or repair_guide",
+  "static_test_actual_exit": 0,
+  "static_tool_chunk": "be6102",
+  "regression_checks": [
+    "17 inherited tests",
+    "NumPy scalar JSON serialization",
+    "control AST identical except two float normalizations"
+  ],
+  "sources": {
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v2\\battle.py": "5f8c4b8bb32018454675383bbebfc4471c5d5b5a04d3c2790a5ee3119a22a244",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v2\\candidate.py": "4ab441c2fc11f1b1fcfdb412271392a7fd2f07a64228f08b5a8143c1cc8c5d83",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v2\\test_static.py": "9e8502efec0535f97ffcb84bc2fefec976fbcf469364097bfe0d1f699e296e59",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v2\\verify.py": "f17bf1883c3f1d99ce51d6c689e0ac11a415beddf4487fb299901d9ed4b7d964"
+  }
+}

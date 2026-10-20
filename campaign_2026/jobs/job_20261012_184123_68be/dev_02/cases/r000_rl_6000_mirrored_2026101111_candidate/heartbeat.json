@@ -1,0 +1,9 @@
+{
+  "updated_at": "2026-10-12T11:42:35.583390+00:00",
+  "phase": "completed",
+  "case_id": "r000_rl_6000_mirrored_2026101111_candidate",
+  "steps": 18000,
+  "wall_seconds": 61.202999999999975,
+  "pid": 22336,
+  "official_validation": false
+}

@@ -1,0 +1,15 @@
+{
+  "verified_prelaunch_evaluation": true,
+  "groups": 7,
+  "checks": [
+    "true frozen17x1 deterministic actor bytes/reload/dimensions/source",
+    "100 saved real packets original neutral=None exact, fresh deterministic/reset state, one act-command and3Hz",
+    "duplicate act/private clock failclosed",
+    "first frame START private counter once and duplicate observe idempotent",
+    "all three actual CPU opponent APIs/private RNG/reset sources no fallback",
+    "strict ACMI WGS84 geodetic versus packet geocentric mapping",
+    "policy boundary AST no hidden judge/env/simulator state"
+  ],
+  "new_FDM_ticks": 0,
+  "training_started": false
+}

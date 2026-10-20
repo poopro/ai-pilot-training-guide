@@ -1,0 +1,9 @@
+{
+  "failed_run": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_train_v2\\run_20261018_184325_38d521",
+  "failed_receipt_sha256": "fbaab52e705f735368320e3a9ebde456a459dd5f7c445de08405652b3522f2d5",
+  "unique_production_fix": "Normalize actual RuleFighter command-only API and separate guard in shared opponent_command; same controller/reward/learner; test all three real opponent branches before physics",
+  "fresh_actor_critic_optimizer_replay": true,
+  "partial_v2_model_not_loaded": true,
+  "new_seedpool": true,
+  "old_source_untouched": true
+}

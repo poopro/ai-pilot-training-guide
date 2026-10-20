@@ -1,0 +1,136 @@
+{
+  "event_id": "m4_duplicate_same_output_20261015",
+  "status": "awaiting_explicit_process_cleanup_authorization",
+  "observed_utc": "2026-10-14T19:34:19.224114+00:00",
+  "processes": {
+    "loops": [
+      {
+        "pid": 8040,
+        "create_time": 1792001657.2977164,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\win\\win_loop.py",
+          "loop",
+          "--gap",
+          "60"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent_pid": 12724
+      },
+      {
+        "pid": 15644,
+        "create_time": 1792001608.6756625,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\win\\win_loop.py",
+          "loop",
+          "--gap",
+          "60"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent_pid": 7320
+      },
+      {
+        "pid": 20448,
+        "create_time": 1792001782.5285914,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\win\\win_loop.py",
+          "loop",
+          "--gap",
+          "60"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent_pid": 14220
+      }
+    ],
+    "learners": [
+      {
+        "pid": 644,
+        "create_time": 1792001782.7235634,
+        "cmdline": [
+          "C:/Users/USER/anaconda3/envs/F16_ai/python.exe",
+          "-u",
+          "-X",
+          "utf8",
+          "E:/ai_pilot/campaign_2026/win/m4_tactical_rl.py",
+          "--steps",
+          "120000",
+          "--opponents",
+          "mirror,rule,rl",
+          "--seed",
+          "20261115"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent_pid": 20448
+      },
+      {
+        "pid": 2996,
+        "create_time": 1792001782.703685,
+        "cmdline": [
+          "C:/Users/USER/anaconda3/envs/F16_ai/python.exe",
+          "-u",
+          "-X",
+          "utf8",
+          "E:/ai_pilot/campaign_2026/win/m4_tactical_rl.py",
+          "--steps",
+          "120000",
+          "--opponents",
+          "mirror,rule,rl",
+          "--seed",
+          "20261115"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent_pid": 8040
+      },
+      {
+        "pid": 11592,
+        "create_time": 1792001794.105867,
+        "cmdline": [
+          "C:/Users/USER/anaconda3/envs/F16_ai/python.exe",
+          "-u",
+          "-X",
+          "utf8",
+          "E:/ai_pilot/campaign_2026/win/m4_tactical_rl.py",
+          "--steps",
+          "120000",
+          "--opponents",
+          "mirror,rule,rl",
+          "--seed",
+          "20261115"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent_pid": 15644
+      }
+    ]
+  },
+  "output": "E:\\ai_pilot\\campaign_2026\\experiments\\m4_tactical",
+  "proposed_action": "After human confirmation, revalidate and stop the three remaining idle win_loop identities. Prior learner identities are absent; no learner is stopped or restarted. Preserve shared outputs as provenance-unverified and prepare isolated singleton orchestration.",
+  "reason_for_question": "Current automation allows stopping only self-created verified processes. Launch ownership is not verified for these three loops; no process stopped.",
+  "evidence": "E:\\ai_pilot\\campaign_2026\\diagnostics\\LINE_RULES_REVIEW_20261015.json",
+  "notes": [
+    "All three learners use same seed20261115 and default output path.",
+    "TRACE records their Popen PIDs, but no ownership/creation receipts authorize this root to stop them.",
+    "win_loop lacks singleton lock/STOP/hard deadline; 24h notice is after wait returns.",
+    "Shared progress/model files cannot establish one learner progress or model provenance."
+  ],
+  "latest_observation_utc": "2026-10-14T22:38:49.746388+00:00",
+  "latest_phase": "old_cleanup_targets_absent_or_pid_reused_no_stop_performed",
+  "current_preservation": "E:\\ai_pilot\\campaign_2026\\quarantine\\m4_shared_outputs_20261015\\PRESERVATION.json",
+  "reported_daily_compute_hours": 7.6456,
+  "latest_observed_utc": "2026-10-15T15:12:44.325381+00:00",
+  "latest_identity_checks": "E:\\ai_pilot\\campaign_2026\\diagnostics\\monitor_20261015_2313.json",
+  "actual_loop_exit_codes_unknown": true,
+  "cleanup_performed": false,
+  "cleanup_request_status": "obsolete_no_original_targets_remain",
+  "closure_evidence": "E:\\ai_pilot\\campaign_2026\\diagnostics\\monitor_20261015_2313.json",
+  "human_current_request": "keep and see opencode chatlog",
+  "processes_stopped_for_cleanup": [],
+  "note": "Current continuation requires no termination of original targets. Never stop a reused PID. General singleton/source/STOP/deadline gates remain."
+}

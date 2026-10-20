@@ -1,0 +1,11 @@
+{
+  "updated_utc": "2026-10-12T17:54:13.300222+00:00",
+  "mode": "fresh_validation_completed_candidate_rejected",
+  "research_run": "E:\\ai_pilot\\campaign_2026\\experiments\\fresh_bank80\\run_20261013_013609_5218",
+  "actual_tool_parent_exit_code": 0,
+  "verified_comparison": true,
+  "next_action": "Daily review: localize the transient overload near track/recover before proposing a single-factor safety candidate. No unchanged full rerun, expanded pool, holdout or Host promotion for this rejected candidate. Keep all source and artifacts frozen.",
+  "goal_complete": false,
+  "new_host_rounds": 0,
+  "deployed": "repair_guide"
+}

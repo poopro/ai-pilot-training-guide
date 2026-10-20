@@ -1,0 +1,39 @@
+{
+  "status": "waiting_for_resource_before_precheck",
+  "observed_utc": "2026-10-17T16:40:35.361014+00:00",
+  "latest_resource_observation": {
+    "observed_utc": "2026-10-17T16:39:25.549432+00:00",
+    "available_ram_gib": 1.3578300476074219,
+    "cpu_percent": 77.9,
+    "free_disk_gib": 180.3450813293457
+  },
+  "earlier_resource_observation": {
+    "observed_utc": "2026-10-17T16:37:59.069637+00:00",
+    "available_ram_gib": 1.4339637756347656,
+    "cpu_percent": 68.1,
+    "GPU_percent": 73,
+    "GPU_memory_used_MiB": 6128,
+    "GPU_total_MiB": 12288
+  },
+  "required_ram_gib": 2.0,
+  "required_free_disk_gib": 10.0,
+  "required_cpu_percent_below": 95,
+  "own_GPU_used": false,
+  "other_campaign_workloads": [],
+  "actual_precheck_tool_exit": 1,
+  "actual_precheck_tool_chunk": "ec52dc",
+  "exit_reason": "base.resources failed before unique out folder, budget reserve, child creation or seed claim",
+  "new_FDM_ticks": 0,
+  "new_model_inference": false,
+  "full_static_and_saved_packet_precheck_completed": false,
+  "planned_seeds": [
+    2026310700,
+    2026310701
+  ],
+  "planned_seed_collisions": [],
+  "seeds_claimed": false,
+  "new_compute_reservation_made": false,
+  "needs_user_action": false,
+  "no_unrelated_processes_stopped": true,
+  "no_resource_threshold_lowered": true
+}

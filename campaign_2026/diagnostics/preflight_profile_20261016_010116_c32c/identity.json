@@ -1,0 +1,18 @@
+{
+  "pid": 8300,
+  "creation_epoch": 1792083676.8115225,
+  "cmdline": [
+    "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+    "-I",
+    "-S",
+    "-B",
+    "-X",
+    "utf8",
+    "-u",
+    "E:\\ai_pilot\\campaign_2026\\diagnostics\\profile_portable_preflight_20261016.py",
+    "--child",
+    "E:\\ai_pilot\\campaign_2026\\diagnostics\\preflight_profile_20261016_010116_c32c"
+  ],
+  "exe": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+  "parent_pid": 5276
+}

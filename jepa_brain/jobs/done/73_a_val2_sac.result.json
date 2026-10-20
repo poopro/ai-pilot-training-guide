@@ -1,0 +1,1 @@
+{"id": "73_a_val2_sac", "script": "rollout_open.py", "args": ["eval", "--arms", "tuned2,tuned", "--workers", "3", "--seed0", "1400000", "--n", "12", "--opponents", "sac:22400000,sac:23200000,sac:24000000,sac:24800000,sac:25600000,sac:26400000", "--out", "runs/val2_sac"], "exit_code": 0, "reason": null, "seconds": 1675.5}

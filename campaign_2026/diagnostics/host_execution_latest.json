@@ -1,0 +1,39 @@
+{
+  "reservation_id": "host_guide_six_rounds_20261013_140016",
+  "started_utc": "2026-10-13T06:00:16.477602+00:00",
+  "hard_deadline_epoch": 1791874816.477602,
+  "status": "expired_before_match_started",
+  "planned_rounds": 6,
+  "completed_reports": [],
+  "usage_observed_lower_remaining_percent": 95,
+  "controller": "repair_guide",
+  "ended_utc": "2026-10-13T11:50:31.154361+00:00",
+  "completed_rounds": 0,
+  "cleanup": [
+    {
+      "role": "player",
+      "pid": 4316,
+      "identity_verified": true,
+      "terminated": true
+    },
+    {
+      "role": "owned_host_child",
+      "pid": 23036,
+      "creation_epoch": 1791871233.451377,
+      "cmdline": [
+        "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe"
+      ],
+      "terminated": true
+    },
+    {
+      "role": "host_launcher",
+      "pid": 18472,
+      "identity_verified": true,
+      "terminated": true
+    }
+  ],
+  "actual_attempt_wall_seconds": 21014.676759004593,
+  "reason": "GUI remained STOPPED/READY; delayed execution exceeded one-hour deadline. No valid round or winner. GUI action verification did not confirm START/close. Budget not refunded.",
+  "computer_use_interface_available": true,
+  "host_ui_start_confirmed": false
+}

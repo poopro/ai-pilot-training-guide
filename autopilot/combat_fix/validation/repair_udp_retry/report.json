@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "tests": {
+    "init_frozen": true,
+    "initializing_state": true,
+    "ready_state": true,
+    "still_frozen_before_motion": true,
+    "duplicate_preserves_command": true,
+    "no_unsolicited_on_missing_obs": true,
+    "invalid_length_and_nan_ignored": true,
+    "resume_after_missing_obs": true
+  },
+  "scope": "real UDP player loopback; NOT official Host",
+  "bundle": null,
+  "utc": "2026-10-06T11:25:55.321223+00:00",
+  "round_reset": "must restart player before every round; no round ID in published OBS",
+  "network_latency_p50_ms": 0.9018500059028156,
+  "network_latency_p95_ms": 1.3161999915610065,
+  "network_latency_p99_ms": 1.873233007354426,
+  "network_latency_max_ms": 2.7674000011757016,
+  "source_sha256": {
+    "interface.py": "50f63ee563a8cb13b9bb472b0de7905579bcc9c70bc69efc571681879eb02555",
+    "config.json": "d4fba053617240e07ffc67fe389d944313ba12dff491e569a0ae764e0f7b88ec"
+  },
+  "repair_source_sha256": {
+    "player.py": "28571c396ef067bbd01f8fb6f41763cb41e2a2c9c001e7bf3114da81677cd825",
+    "controller.py": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+    "artifacts.py": "938c184366b55843e59250e2d1b544c10ebb67daca451e2701e8e631c7fd041e"
+  },
+  "official_validation": false
+}

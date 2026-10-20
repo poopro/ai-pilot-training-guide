@@ -1,0 +1,29 @@
+{
+  "status": "completed_verified_saved_windows",
+  "analysis": "E:\\ai_pilot\\campaign_2026\\diagnostics\\far_speed_window_v1_20261018_063707_c7e30d\\ANALYSIS.json",
+  "verification": "E:\\ai_pilot\\campaign_2026\\diagnostics\\far_speed_window_v1_20261018_063707_c7e30d\\VERIFICATION.json",
+  "selected_rows": 8101,
+  "actual_worker_exit": 0,
+  "actual_parent_exit": 0,
+  "wall_seconds": 11.172,
+  "evidence": [
+    "In both speed-unclipped late windows all1200 raw goals exceed450; median raw532.026/547.670, enemy-equivalentCAS proxy441.229/439.059 plus desired-closeCAS term96.124/108.611 (medians not additive identities).",
+    "Late actualCAS444.092/450.715 follows target450; guard and8.5G input zero; actualbank tracks within median1.892/2.333degrees. Not a simple failure to apply speed or bank in these windows.",
+    "At the same240–260s times original72 CAS290.076/290.337, heading-rate6.576/7.155deg/s versus accelerated4.837/4.939; candidate median headingerror139.186/153.516 versus70.833/60.908. These are paired trajectory observations, not isolated speed-cause proof.",
+    "Candidate normal minimum occurs at terminaltick18000, mirrored minimum at firstposttick1. Their clipped closest windows are not two full +/-5s events. No extrapolated future samples.",
+    "Original72 closest-window LOS rates13.126/14.000deg/s exceed own heading rates6.632/7.162; shows a pursuit geometry/turn-response gap in those windows, not a reason to blindly raise speed or bank."
+  ],
+  "limitations": [
+    "Only8101 unique selected saved rows, not fullflight causal attribution. Stream-reading artifacts is not controller replay or new combat.",
+    "Enemy-equivalentCAS is enemy velocity-magnitude proxy times own CAS/TAS ratio, not measured enemyCAS/TAS or true enemy heading.",
+    "HSL pre-command versus AGL post-step kept separate. Side seeds differ; no independent left/right causal claim.",
+    "Scalar trace calculations were independently audited using vector NumPy in the same bounded worker, not an independent second simulation/process.",
+    "No trained model, improved combat score or winning correction produced by this diagnostic."
+  ],
+  "deployment_allowed": false,
+  "new_FDM_ticks": 0,
+  "controller_calls": 0,
+  "model_inference_calls": 0,
+  "training_started": false,
+  "seed_claims": []
+}

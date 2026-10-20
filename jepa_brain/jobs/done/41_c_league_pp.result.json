@@ -1,0 +1,1 @@
+{"id": "41_c_league_pp", "script": "rollout_bfm.py", "args": ["eval", "--arms", "base,base_t3,tuned,user_nz_t", "--n", "12", "--workers", "3", "--seed0", "950000", "--opponents", "pp0,pp1,pp2,pp3,pp4,pp5", "--out", "runs/league_c"], "exit_code": 0, "reason": null, "seconds": 1672.5}

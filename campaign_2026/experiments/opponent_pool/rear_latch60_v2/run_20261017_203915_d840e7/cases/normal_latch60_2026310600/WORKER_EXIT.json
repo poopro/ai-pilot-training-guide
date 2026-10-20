@@ -1,0 +1,74 @@
+{
+  "case": {
+    "id": "normal_latch60_2026310600",
+    "opening": 0,
+    "side": "normal",
+    "seed": 2026310600,
+    "actor": "latch60",
+    "red": "sac5000",
+    "distance_ft": 6000,
+    "max_ticks": 18000
+  },
+  "actual_worker_exit": 0,
+  "identity": {
+    "pid": 23916,
+    "create": 1792240827.974624,
+    "cmd": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v2\\battle.py",
+      "--worker",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v2\\run_20261017_203915_d840e7\\cases\\normal_latch60_2026310600"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent": 22728
+  },
+  "reason": null,
+  "worker_and_descendants_absent": true,
+  "descendants": [
+    {
+      "identity": {
+        "pid": 25844,
+        "create": 1792240828.003924,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 23916
+      },
+      "chain": [
+        {
+          "pid": 25844,
+          "create": 1792240828.003924,
+          "cmd": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent": 23916
+        }
+      ],
+      "worker": {
+        "pid": 23916,
+        "create": 1792240827.974624,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v2\\battle.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v2\\run_20261017_203915_d840e7\\cases\\normal_latch60_2026310600"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 22728
+      }
+    }
+  ],
+  "cleanup_actions": [],
+  "input_sha256": "99c4abb333d998c914ac0185890aa78708a17c9262cf6b669445949a2e33f025",
+  "result_sha256": "6e94cf4f54beda9d5a27de6ba3b40e62420812735f18274a853de4e8b17cc018"
+}

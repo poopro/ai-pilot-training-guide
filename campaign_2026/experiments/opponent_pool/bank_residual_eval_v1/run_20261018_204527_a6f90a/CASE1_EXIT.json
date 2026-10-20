@@ -1,0 +1,66 @@
+{
+  "actual_exit": 0,
+  "reason": null,
+  "identity": {
+    "pid": 23704,
+    "create": 1792327601.3327289,
+    "cmd": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_eval_v1\\worker.py",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_eval_v1\\run_20261018_204527_a6f90a\\cases\\sac5000_learned"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent": 21712
+  },
+  "descendants": [
+    {
+      "identity": {
+        "pid": 24512,
+        "create": 1792327601.350057,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 23704
+      },
+      "chain": [
+        {
+          "pid": 24512,
+          "create": 1792327601.350057,
+          "cmd": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent": 23704
+        }
+      ],
+      "worker": {
+        "pid": 23704,
+        "create": 1792327601.3327289,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_eval_v1\\worker.py",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_eval_v1\\run_20261018_204527_a6f90a\\cases\\sac5000_learned"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 21712
+      }
+    }
+  ],
+  "absent": true,
+  "cleanup_actions": [],
+  "wall_seconds": 73.73399999999674,
+  "limits": {
+    "deadline_epoch": 1792327691.328596,
+    "deadline_monotonic": 73428.531
+  },
+  "result_sha256": "cb6b7fdcaacd3037b40a10e62113fa8351970b05ea4da14132c1da7114edcf21"
+}

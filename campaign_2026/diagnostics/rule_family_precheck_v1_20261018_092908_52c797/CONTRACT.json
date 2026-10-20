@@ -1,0 +1,58 @@
+{
+  "guardian": {
+    "pid": 11552,
+    "create": 1792286948.167713,
+    "cmd": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\rule_family_precheck_guardian_v1.py"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent": 7784
+  },
+  "deadline_epoch": 1792287068.985542,
+  "deadline_monotonic": 32806.171,
+  "seconds": 120,
+  "diagnostic_source_sha256": "bdc7ab74afe3c3a5b195b3cd8a1dac6de696b8acd6fc9986bbc7cefad18ee930",
+  "source_run": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\run_20261018_033053_98bc0f",
+  "original_source_contract_sha256": "f701e7a09afe6fe0173d938afe4fe6da3ef72e5e0ae0e924e710d2191a05956a",
+  "resources": {
+    "ram_bytes": 7298367488,
+    "disk_bytes": 193370243072,
+    "cpu_percent": 22.0,
+    "GPU_used": false
+  },
+  "usage_observation": {
+    "observed_utc": "2026-10-18 01:26:48 UTC",
+    "remaining_percent": 85,
+    "primary": {
+      "usedPercent": 15,
+      "windowDurationMins": 300,
+      "resetsAt": 1792292334
+    },
+    "weekly": {
+      "usedPercent": 2,
+      "windowDurationMins": 10080,
+      "resetsAt": 1792879134
+    },
+    "reset_credit_used": false
+  },
+  "new_FDM_ticks": 0,
+  "seed_claims": [],
+  "training_started": false,
+  "comparison_path": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\run_20261018_033053_98bc0f\\COMPARISON.json",
+  "comparison_sha256": "813f5f205448a112e3dbb06d3b11971c808731cd0163434e5770faff7a3b0560",
+  "analysis_worker_sha256": "fce3a0766ea71e6ed2f621d22cad4bd54533690811d05d0e09b56c47f699d97d",
+  "window_definitions": "first300 saved baseline packets per two openings",
+  "hypothesis": "Real untouched pure RepairController.act versus zero-tactical StationController, actual saved-packet command/reset/safety wiring before any new FDM",
+  "model_inference_calls": 0,
+  "controller_calls": "real act and real inherited command on saved prefixes",
+  "new_sources": {
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rule_family_v1\\policy.py": "85648cff99986d78245aa5fb75388f541edfcf1febb38eb7e65eb331d5118576",
+    "E:\\ai_pilot\\campaign_2026\\diagnostics\\rule_family_precheck_worker_v1.py": "fce3a0766ea71e6ed2f621d22cad4bd54533690811d05d0e09b56c47f699d97d",
+    "E:\\ai_pilot\\campaign_2026\\diagnostics\\rule_family_precheck_guardian_v1.py": "bdc7ab74afe3c3a5b195b3cd8a1dac6de696b8acd6fc9986bbc7cefad18ee930"
+  },
+  "comparison_goal": "controller family only, no new parameter"
+}

@@ -1,0 +1,56 @@
+{
+  "verified_actor_transfer_training": true,
+  "errors": [],
+  "decisions": 10000,
+  "new_fdm_ticks": 200000,
+  "gradient_updates": 1125,
+  "completed_episodes": 11,
+  "actual_cells": [
+    [
+      "mirror",
+      3000
+    ],
+    [
+      "mirror",
+      6000
+    ],
+    [
+      "mirror",
+      9000
+    ],
+    [
+      "rl",
+      3000
+    ],
+    [
+      "rl",
+      6000
+    ],
+    [
+      "rl",
+      9000
+    ],
+    [
+      "rule",
+      3000
+    ],
+    [
+      "rule",
+      6000
+    ],
+    [
+      "rule",
+      9000
+    ]
+  ],
+  "peak_abs_G": 8.553431811332672,
+  "over9G_ticks": 0,
+  "min_AGL_m": 770.2350615121392,
+  "bundle_reload_verified": true,
+  "win_rate_evidence": false,
+  "official_validation": false,
+  "deployment_allowed": false,
+  "next_action": "Freeze final model; separate same-seed initial-SHA matched evaluation, no blind training continuation.",
+  "launcher_receipt_sha256": "6035df9047c3e0e8e2370b5a90c63c21d459e7cfc25819a615b84977f4cd240b",
+  "result_sha256": "87de5f5acc8829e99d394a1ce04574a277614a500093ec155bb9719405653fdc"
+}

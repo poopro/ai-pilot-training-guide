@@ -1,0 +1,13 @@
+{
+  "status": "completed",
+  "run_dir": "E:\\ai_pilot\\autopilot\\combat_fix\\validation\\trainer_smoke_200",
+  "final_bundle": "E:\\ai_pilot\\autopilot\\combat_fix\\validation\\trainer_smoke_200\\final_0000000200",
+  "decision_repeat": 4,
+  "decision_steps": 200,
+  "physics_ticks": 800,
+  "critic_updates": 42,
+  "actor_updates": 0,
+  "stop_file": "E:\\ai_pilot\\autopilot\\combat_fix\\validation\\trainer_smoke_200\\STOP",
+  "wall_seconds": 7.0939999999973224,
+  "official_validation": false
+}

@@ -1,0 +1,9 @@
+{
+  "static_tests": 6,
+  "actual_static_exit": 0,
+  "compile_all": true,
+  "training": false,
+  "actual_FDM_started": false,
+  "frozen_model_sha256": "9f93eb56483558ad56283c00b1ba34af96a236583bc977ef7d9fad375d9a0fea",
+  "next": "check-only then real paireddevelopment launch once; nopromotion"
+}

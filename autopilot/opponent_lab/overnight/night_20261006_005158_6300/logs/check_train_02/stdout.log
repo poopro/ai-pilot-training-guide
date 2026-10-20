@@ -1,0 +1,1 @@
+{"bundle": "E:\\ai_pilot\\autopilot\\opponent_lab\\training\\run_night_20261006_005158_6300_02\\final_0000500000", "timesteps": 500000, "updates": 61873, "replay_size": 50000, "reload_and_finite_check": true}

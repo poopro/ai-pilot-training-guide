@@ -1,0 +1,8 @@
+{
+  "actual_exit": 0,
+  "session_id": 68456,
+  "chunk_id": "e72bf6",
+  "actual_wall_seconds": 66.359,
+  "observed_utc": "2026-10-18T01:33:45.464497+00:00",
+  "observation_source": "unified exec process wait"
+}

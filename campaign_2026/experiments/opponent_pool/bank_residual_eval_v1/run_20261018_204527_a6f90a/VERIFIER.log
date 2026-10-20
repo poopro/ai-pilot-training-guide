@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "E:\ai_pilot\campaign_2026\experiments\opponent_pool\bank_residual_eval_v1\verify.py", line 86, in <module>
+    if __name__=='__main__':raise SystemExit(run(Path(sys.argv[1])))
+  File "E:\ai_pilot\campaign_2026\experiments\opponent_pool\bank_residual_eval_v1\verify.py", line 67, in run
+    if tick%1000==0:c.check(out,'VERIFIER')
+  File "E:\ai_pilot\campaign_2026\experiments\opponent_pool\bank_residual_eval_v1\common.py", line 24, in check
+    if stop(out) or b.expired(spec,limits) or not live(spec['guardian']):raise RuntimeError('STOP/original phase wall/guardian')
+RuntimeError: STOP/original phase wall/guardian

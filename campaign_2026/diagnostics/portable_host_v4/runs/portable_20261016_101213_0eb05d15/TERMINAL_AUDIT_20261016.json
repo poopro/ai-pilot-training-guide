@@ -1,0 +1,61 @@
+{
+  "observed_utc": "2026-10-16T02:16:13.453180+00:00",
+  "verified_new_portable_round": true,
+  "actual_collector_exit_code": 0,
+  "actual_watchdog_exit_code": 0,
+  "rows": 9611,
+  "sim_seconds": 160.2,
+  "raw_host_winner": "1.0",
+  "final_HP": [
+    180.0,
+    0.0
+  ],
+  "physical_G_columns": [
+    "player1_g_acc",
+    "player2_g_acc"
+  ],
+  "over9G_ticks": [
+    0,
+    0
+  ],
+  "max_abs_G": [
+    4.598401353782297,
+    3.6816458770060825
+  ],
+  "same_fixed_profile_hash": "15e0bd4a1783a1071a7a43456e2d871593299707886157054cf110bd756ed76a",
+  "original_identity_audit": [
+    {
+      "pid": 8048,
+      "state": "absent"
+    },
+    {
+      "pid": 23708,
+      "state": "absent"
+    },
+    {
+      "pid": 22608,
+      "state": "absent"
+    },
+    {
+      "pid": 11928,
+      "state": "absent"
+    },
+    {
+      "pid": 18292,
+      "state": "absent"
+    },
+    {
+      "pid": 23092,
+      "state": "absent"
+    },
+    {
+      "pid": 22100,
+      "state": "absent"
+    },
+    {
+      "pid": 7032,
+      "state": "absent"
+    }
+  ],
+  "competition_certification": false
+}

@@ -1,0 +1,8 @@
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+{"case": "rule_learned", "ticks": 18000, "event": "timeout", "winner": "blue", "wall_seconds": 72.875}

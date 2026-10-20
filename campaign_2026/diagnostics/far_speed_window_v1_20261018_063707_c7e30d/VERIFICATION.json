@@ -1,0 +1,15 @@
+{
+  "verified_selected_saved_packet_math": true,
+  "errors": [],
+  "cases": 4,
+  "selected_rows": 8101,
+  "independent_numpy_audit": true,
+  "source_fixed": true,
+  "saved_artifacts_hashed": true,
+  "logged_speed_mapping_recomputed": true,
+  "unchanged_non_speed_goals": true,
+  "new_FDM_ticks": 0,
+  "model_inference_calls": 0,
+  "controller_calls": 0,
+  "seed_claims": []
+}

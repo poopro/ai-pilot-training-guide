@@ -1,0 +1,7 @@
+{
+  "failed_precheck": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_train_v3\\run_20261018_184540_d504d0",
+  "failed_receipt_sha256": "bbf8500f39eae505569fe14d203cf3b643af98aad829d222c1c501d5d7b9f2f2",
+  "unique_change": "Only precheck imports actual already-loaded duel_lab module matching repair_v1.env; production code unchanged from v3",
+  "seedpool": "Same proposed v3 pool was never claimed or used by a learner/FDM; guard must recheck registry before claim",
+  "old_sources_unchanged": true
+}

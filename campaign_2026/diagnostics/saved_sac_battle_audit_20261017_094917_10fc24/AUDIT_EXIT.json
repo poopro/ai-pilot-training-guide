@@ -1,0 +1,51 @@
+{
+  "actual_worker_exit": 0,
+  "guardian_return_intended": 0,
+  "reason": "normal_exit",
+  "identity": {
+    "pid": 23688,
+    "create": 1792201757.5054936,
+    "cmd": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\saved_sac_battle_audit_v1.py",
+      "--worker",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\saved_sac_battle_audit_20261017_094917_10fc24"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent": 5128
+  },
+  "owned_descendants": [
+    {
+      "identity": {
+        "pid": 1564,
+        "create": 1792201757.5189848,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 23688
+      },
+      "chain": [
+        {
+          "pid": 1564,
+          "create": 1792201757.5189848,
+          "cmd": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent": 23688
+        }
+      ]
+    }
+  ],
+  "original_identities_absent": true,
+  "wall_seconds": 91.61000000000058,
+  "source_run": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_battle_v2\\run_20261017_093943_16bee6",
+  "original_failure_preserved": true,
+  "new_FDM_ticks": 0
+}

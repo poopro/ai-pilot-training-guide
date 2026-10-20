@@ -1,0 +1,64 @@
+{
+  "actual_worker_exit": 0,
+  "reason": null,
+  "identity": {
+    "pid": 7608,
+    "create": 1792211265.663138,
+    "cmd": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\sac_goal_projection_v1.py",
+      "--worker",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\sac_goal_projection_20261017_122745_b73993"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent": 20364
+  },
+  "descendants": [
+    {
+      "identity": {
+        "pid": 19840,
+        "create": 1792211265.676282,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 7608
+      },
+      "chain": [
+        {
+          "pid": 19840,
+          "create": 1792211265.676282,
+          "cmd": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent": 7608
+        }
+      ],
+      "worker": {
+        "pid": 7608,
+        "create": 1792211265.663138,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\diagnostics\\sac_goal_projection_v1.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\diagnostics\\sac_goal_projection_20261017_122745_b73993"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 20364
+      }
+    }
+  ],
+  "absent": true,
+  "cleanup_actions": [],
+  "wall_seconds": 67.5,
+  "guardian_return_intended": 0
+}

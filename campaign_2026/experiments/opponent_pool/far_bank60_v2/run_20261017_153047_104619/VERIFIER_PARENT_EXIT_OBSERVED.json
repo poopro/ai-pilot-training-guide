@@ -1,0 +1,7 @@
+{
+  "actual_exit": 0,
+  "tool_chunk": "f6af8e",
+  "note": "Observed wrapper session completion, separate from internal verifier actual wait receipt",
+  "tool_session": 41114,
+  "observed_utc": "2026-10-17T07:36:52.6824766Z"
+}

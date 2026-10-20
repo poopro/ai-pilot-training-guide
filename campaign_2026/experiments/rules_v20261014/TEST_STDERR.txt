@@ -1,0 +1,27 @@
+test_accumulated_nonconsecutive180_and_kill_time_bonus (__main__.JudgeTests) ... ok
+test_collision_strict15_and_crash_strict50 (__main__.JudgeTests) ... ok
+test_collision_uses_advantage_without_kill_bonus (__main__.JudgeTests) ... ok
+test_event_priority_table (__main__.JudgeTests) ... ok
+test_exact_simultaneous_kill_tie_requires_rematch (__main__.JudgeTests) ... ok
+test_explicit_profile_and_datum_required (__main__.JudgeTests) ... ok
+test_g_both_signs_strictly_over9 (__main__.JudgeTests) ... ok
+test_inclusive_attack_boundaries (__main__.JudgeTests) ... ok
+test_invalid_input_cannot_partially_update_state (__main__.JudgeTests) ... ok
+test_mirror_swap_changes_winner_and_preserves_scores (__main__.JudgeTests) ... ok
+test_mutual_ground_crash_winner_not_invented (__main__.JudgeTests) ... ok
+test_no_accumulation_before_start_then_first_frame_counts (__main__.JudgeTests) ... ok
+test_one_second_numeric_oracle_raw_position_sum (__main__.JudgeTests) ... ok
+test_pdf_and_later_line_disagreement_preserved (__main__.JudgeTests) ... ok
+test_position_factor_ambiguous_table_ties_are_explicit (__main__.JudgeTests) ... ok
+test_simultaneous_kill_uses_advantage (__main__.JudgeTests) ... ok
+test_single_crash_beats_same_frame_kill (__main__.JudgeTests) ... ok
+test_tail_aspect_not_enemy_nose_angle (__main__.JudgeTests) ... ok
+test_terminal_frame_counts_but_later_frames_rejected (__main__.JudgeTests) ... ok
+test_three_second_early_kill_bonus_numeric_oracle (__main__.JudgeTests) ... ok
+test_timeout_can_win_with_zero_kills (__main__.JudgeTests) ... ok
+test_timeout_exact_tie (__main__.JudgeTests) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.787s
+
+OK

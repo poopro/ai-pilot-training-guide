@@ -1,0 +1,170 @@
+{
+  "date_taipei": "2026-10-18",
+  "daily_limit_hours": 6.0,
+  "reserved_hours": 1.65,
+  "items": [
+    {
+      "id": "far_speed_precheck_v1_20261018_032954_f0151b",
+      "hours": 0.03333333333333333,
+      "status": "offline_far_speed_precheck_complete_pending_parent",
+      "output": "E:\\ai_pilot\\campaign_2026\\diagnostics\\far_speed_precheck_v1_20261018_032954_f0151b",
+      "warning_only": true,
+      "actual_worker_exit": 0,
+      "actual_wall_seconds": 11.265999999999622
+    },
+    {
+      "id": "run_20261018_033053_98bc0f",
+      "hours": 0.16666666666666666,
+      "status": "completed_verified_development",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\run_20261018_033053_98bc0f",
+      "warning_only": true,
+      "actual_guard_wall_seconds": 265.4220000000005,
+      "worker_exits": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actual_parent_exit": 0,
+      "actual_verifier_exit": 0,
+      "actual_parent_wall_seconds": 265.125,
+      "actual_verification_phase_wall_seconds": 76.875,
+      "original_600s_reservation_retained": true
+    },
+    {
+      "id": "far_speed_window_v1_20261018_063707_c7e30d",
+      "hours": 0.03333333333333333,
+      "status": "completed_verified_saved_window_diagnostic",
+      "output": "E:\\ai_pilot\\campaign_2026\\diagnostics\\far_speed_window_v1_20261018_063707_c7e30d",
+      "warning_only": true,
+      "actual_worker_exit": 0,
+      "actual_wall_seconds": 11.172,
+      "actual_parent_exit": 0,
+      "selected_rows": 8101
+    },
+    {
+      "id": "rule_family_precheck_v1_20261018_092908_52c797",
+      "hours": 0.03333333333333333,
+      "status": "completed_verified_saved_packet_wiring",
+      "output": "E:\\ai_pilot\\campaign_2026\\diagnostics\\rule_family_precheck_v1_20261018_092908_52c797",
+      "warning_only": true,
+      "actual_worker_exit": 0,
+      "actual_wall_seconds": 14.547,
+      "actual_parent_exit": 0
+    },
+    {
+      "id": "rule_family_activation_v1_20261018_093119_cda2d7",
+      "hours": 0.03333333333333333,
+      "status": "completed_verified_wiring_and_prefix_activation",
+      "output": "E:\\ai_pilot\\campaign_2026\\diagnostics\\rule_family_activation_v1_20261018_093119_cda2d7",
+      "warning_only": true,
+      "actual_worker_exit": 0,
+      "actual_wall_seconds": 66.359,
+      "actual_parent_exit": 0
+    },
+    {
+      "id": "bank_authority_v1_20261018_123907_985ac0",
+      "hours": 0.03333333333333333,
+      "status": "completed_verified_existing_bank_authority",
+      "output": "E:\\ai_pilot\\campaign_2026\\diagnostics\\bank_authority_v1_20261018_123907_985ac0",
+      "warning_only": true,
+      "actual_worker_exit": 0,
+      "actual_wall_seconds": 6.656,
+      "actual_parent_exit": 0,
+      "unique_saved_packets": 600,
+      "alternative_action_rows": 1800
+    },
+    {
+      "id": "run_20261018_153511_6fb16a",
+      "hours": 0.06666666666666667,
+      "status": "verified_short_bank_residual_FDM_interface",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_fdm_v1\\run_20261018_153511_6fb16a",
+      "warning_only": true,
+      "actual_phase_exits": {
+        "PRECHECK": 0,
+        "WORKER": 0,
+        "VERIFIER": 0
+      },
+      "actual_wall_seconds": 42.125,
+      "seed_claimed": true,
+      "actual_parent_exit": 0,
+      "new_FDM_ticks": 600
+    },
+    {
+      "id": "run_20261018_184204_2af616",
+      "hours": 0.25,
+      "status": "failed_pilot",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_train_v1\\run_20261018_184204_2af616",
+      "warning_only": true,
+      "actual_phase_exits": {
+        "PRECHECK": 0,
+        "WORKER": 2
+      },
+      "actual_wall_seconds": 19.452999999994063,
+      "seeds_claimed": true
+    },
+    {
+      "id": "run_20261018_184325_38d521",
+      "hours": 0.25,
+      "status": "failed_pilot",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_train_v2\\run_20261018_184325_38d521",
+      "warning_only": true,
+      "actual_phase_exits": {
+        "PRECHECK": 0,
+        "WORKER": 2
+      },
+      "actual_wall_seconds": 71.375,
+      "seeds_claimed": true
+    },
+    {
+      "id": "run_20261018_184540_d504d0",
+      "hours": 0.25,
+      "status": "failed_pilot",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_train_v3\\run_20261018_184540_d504d0",
+      "warning_only": true,
+      "actual_phase_exits": {
+        "PRECHECK": 1
+      },
+      "actual_wall_seconds": 10.437999999994645,
+      "seeds_claimed": false
+    },
+    {
+      "id": "run_20261018_184640_29092b",
+      "hours": 0.25,
+      "status": "verified_fresh_training_pilot_not_strength",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_train_v4\\run_20261018_184640_29092b",
+      "warning_only": true,
+      "actual_phase_exits": {
+        "PRECHECK": 0,
+        "WORKER": 0,
+        "VERIFIER": 0
+      },
+      "actual_wall_seconds": 200.51499999999942,
+      "seeds_claimed": true,
+      "actual_parent_exit": 0,
+      "actual_decisions": 3000,
+      "new_FDM_ticks": 60000,
+      "gradient_updates": 338
+    },
+    {
+      "id": "run_20261018_204527_a6f90a",
+      "hours": 0.25,
+      "status": "failed_partial_evaluation",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_eval_v1\\run_20261018_204527_a6f90a",
+      "warning_only": true,
+      "actual_phase_exits": {
+        "PRECHECK": 0,
+        "CASE0": 0,
+        "CASE1": 0,
+        "CASE2": 0,
+        "CASE3": 0,
+        "CASE4": 0,
+        "CASE5": 0,
+        "VERIFIER": 1
+      },
+      "actual_wall_seconds": 637.0929999999935,
+      "seeds_claimed": true
+    }
+  ],
+  "policy": "warning_only_no_refund"
+}

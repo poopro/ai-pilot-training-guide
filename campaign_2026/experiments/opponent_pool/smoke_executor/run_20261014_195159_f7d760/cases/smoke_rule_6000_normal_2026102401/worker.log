@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "E:\ai_pilot\campaign_2026\experiments\opponent_pool\smoke_executor\run_smoke.py", line 132, in <module>
+    raise SystemExit(worker(a.worker) if a.worker else supervisor(a.out))
+  File "E:\ai_pilot\campaign_2026\experiments\opponent_pool\smoke_executor\run_smoke.py", line 20, in worker
+    if guard['status']!='armed' or not matching(guard['guard']):raise RuntimeError('Worker lacks active guard')
+RuntimeError: Worker lacks active guard

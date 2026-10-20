@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "E:\ai_pilot\campaign_2026\experiments\opponent_pool\bank_residual_train_v3\test_contract.py", line 65, in <module>
+    if __name__=='__main__':raise SystemExit(run(Path(sys.argv[1])))
+  File "E:\ai_pilot\campaign_2026\experiments\opponent_pool\bank_residual_train_v3\test_contract.py", line 53, in run
+    from opponent_lab.duel_lab import RuleFighter
+ModuleNotFoundError: No module named 'opponent_lab'

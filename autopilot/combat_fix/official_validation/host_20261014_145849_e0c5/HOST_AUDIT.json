@@ -1,0 +1,53 @@
+{
+  "report": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_20261014_145849_e0c5\\host_result.json",
+  "report_sha256": "39cbb5b5187fdfcecc86cda40a408464318047c5be5a5cfe969841a9608abc26",
+  "round_identity": "ca669425286d4ef6accbf1185e25694ab40096dabf01e0b374bfee3309d63052",
+  "csv_sha256": "2f6ee3b2fe359b3bd6c87e55dc6008872d4fbfcdc2a133613a2b574264c74419",
+  "stdout_sha256": "2286b11c58f3f9d1d761045bb584d83419a249c02fd79a8275b98a0a035136a4",
+  "checks": {
+    "finite_csv": true,
+    "strictly_increasing_time": true,
+    "full_round_or_early_adjudication": true,
+    "csv_terminal_log_consistent": true,
+    "csv_sha_matches": true,
+    "reported_rows_match": true,
+    "reported_duration_matches": true,
+    "observed_player1_ready": true,
+    "observed_player1_moved": true,
+    "host_stderr_exists": true,
+    "acmi_hash_and_terminal_time": true,
+    "host_terminal_evidence_verified": true
+  },
+  "saved_host_artifact_valid": true,
+  "fixed_profile_hash": "affea1b63d8f9c6b8774332af0d5b5c074700b239d5f6ef6965a2c64f080c290",
+  "actual_validation_exit_code": 0,
+  "host_setting_hash_recorded": true,
+  "fixed_metadata_checks": {
+    "source_hashes_valid": true,
+    "player_hash_valid": true,
+    "host_exe_hash_valid": true,
+    "host_setting_hash_valid": true,
+    "actual_validation_exit_zero": true
+  },
+  "capture_receipt_checks": {
+    "setting_snapshot_matches": true,
+    "player_snapshot_matches": true,
+    "source_snapshots_match": true,
+    "host_exe_snapshot_matches": true,
+    "prelaunch_receipt_matches": true,
+    "collector_receipt_matches": true
+  },
+  "eligible_for_six_round_fixed_source_gate": true,
+  "terminal_evidence": {
+    "host_game_over_logged": false,
+    "fresh_owned_p2_stop": true,
+    "p2_checks": {
+      "fresh_owned_p2_stop_verified": true,
+      "prelaunch_p2_receipt_matches": true,
+      "p2_snapshots_match": true,
+      "p2_csv_hash_matches": true
+    }
+  },
+  "host_winner_raw": "1.0",
+  "scope": "Historical evidence audit only; no new Host, package approval, or competition certification"
+}

@@ -1,0 +1,21 @@
+{
+  "observed_utc": "2026-10-15T16:16:26.518673+00:00",
+  "reset_time_went_backwards": [
+    {
+      "file": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_interface_v1\\run_20261015_232701_f27ecd\\cases\\m4_mirror_2026103101\\duel.acmi",
+      "sha256": "d89d5e4a4f662a2367ab18feb9f153b43b1949731d67a5eaec557679136c2bc6"
+    },
+    {
+      "file": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_interface_v1\\run_20261015_232701_f27ecd\\cases\\m4_rl_2026103102\\duel.acmi",
+      "sha256": "3e2f3d1d3077860e3b7c46afaf54b3a181ad1ad6fffb78c88deb247debff781f"
+    },
+    {
+      "file": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_interface_v1\\run_20261015_232701_f27ecd\\cases\\m4_rule_2026103100\\duel.acmi",
+      "sha256": "87e4a983072b8ff25423a113e92d31ea106ec49157537fd5b3777355e6cd0f16"
+    }
+  ],
+  "physical_counts_and_commands_still_verified": true,
+  "visual_time_axis_verified": false,
+  "old_raw_unchanged": true,
+  "new_rules_workers_use_monotonic_episode_offset": true
+}

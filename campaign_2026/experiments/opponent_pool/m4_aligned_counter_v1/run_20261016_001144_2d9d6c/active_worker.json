@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "pid": 22652,
+    "creation_epoch": 1792080705.5938034,
+    "cmdline": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_aligned_counter_v1\\run_smoke.py",
+      "--worker",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_aligned_counter_v1\\run_20261016_001144_2d9d6c\\cases\\aligned_counter_2026101610\\input.json"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent_pid": 23704
+  },
+  "deadline_epoch": 1792080750.5919542,
+  "deadline_monotonic": 95796.781,
+  "case_id": "aligned_counter_2026101610"
+}

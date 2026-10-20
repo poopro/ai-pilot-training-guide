@@ -1,0 +1,29 @@
+[connectome] 138639 neurons, 15091983 edges, annotations OK
+ours dt=0.1 seed=0  10.6s  spikes=21764
+ours dt=0.1 seed=1  9.3s  spikes=21661
+ours dt=0.1 seed=2  10.7s  spikes=21678
+ours dt=0.5 seed=0  2.5s  spikes=21996
+ours dt=0.5 seed=1  2.1s  spikes=21735
+ours dt=0.5 seed=2  3.0s  spikes=21573
+brian2 built in 3s
+brian2 trial 0 done 101s  spikes=20666
+brian2 built in 104s
+brian2 trial 1 done 200s  spikes=20977
+{
+ "ours_0.1": {
+  "total_spikes": 21701.0,
+  "brian2_total": 20821.5,
+  "corr_all": 0.9968591746832942,
+  "corr_dn": 0.9919844631913541,
+  "n_active": 886,
+  "n_active_brian": 785
+ },
+ "ours_0.5": {
+  "total_spikes": 21768.0,
+  "brian2_total": 20821.5,
+  "corr_all": 0.9964610887697751,
+  "corr_dn": 0.973059698755743,
+  "n_active": 951,
+  "n_active_brian": 785
+ }
+}

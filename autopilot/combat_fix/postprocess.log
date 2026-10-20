@@ -1,0 +1,28 @@
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+{"passed": true, "bundle": "E:\\ai_pilot\\autopilot\\combat_fix\\training\\run_20261006_192453_c95b\\final_0000024000", "model_sha_verified": true, "replay_sha_verified": true, "actual_replay_size": 24000, "manifest_replay_size": 24000, "decision_steps": 24000, "physics_ticks": 95929, "n_updates": 5750, "actor_updates": 5250, "sampled_replay_finite": true, "action": [0.1894981861114502, -0.21853190660476685, -0.19686877727508545, -0.5457300543785095], "official_validation": false}
+
+
+baseline/rule/20276000: timeout, attack=0.000s
+candidate/rule/20276000: timeout, attack=0.000s
+baseline/rule/20276001: kill, attack=3.000s
+candidate/rule/20276001: timeout, attack=0.000s
+baseline/rule/20276002: timeout, attack=0.000s
+candidate/rule/20276002: timeout, attack=0.000s
+baseline/rl/20276000: timeout, attack=0.283s
+candidate/rl/20276000: timeout, attack=0.250s
+baseline/rl/20276001: timeout, attack=0.233s
+candidate/rl/20276001: timeout, attack=0.000s
+baseline/rl/20276002: timeout, attack=0.000s
+candidate/rl/20276002: timeout, attack=0.000s
+{"baseline_rule": {"n": 3, "kills": 1, "survived": 3, "crashes": 0, "mean_attack_seconds": 1.0, "minimum_altitude_m": 2695.9043220485582}, "baseline_rl": {"n": 3, "kills": 0, "survived": 3, "crashes": 0, "mean_attack_seconds": 0.1722222222222222, "minimum_altitude_m": 783.5262166649896}, "candidate_rule": {"n": 3, "kills": 0, "survived": 3, "crashes": 0, "mean_attack_seconds": 0.0, "minimum_altitude_m": 1643.6564405857118}, "candidate_rl": {"n": 3, "kills": 0, "survived": 3, "crashes": 0, "mean_attack_seconds": 0.08333333333333333, "minimum_altitude_m": 781.7844354066423}}
+
+
+E:\ai_pilot\autopilot\最新結果.md
+
+

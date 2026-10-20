@@ -1,0 +1,26 @@
+{
+  "created_utc": "2026-10-16T16:37:09.507185+00:00",
+  "verified_real_cpu_factories": true,
+  "actual_watchdog_shell_exit": 0,
+  "watchdog_shell_exit_tool": "fe5891",
+  "actual_worker_exit": 0,
+  "source_model_and_input_hashes_verified": true,
+  "result_sha256": "be3b67a097aefc431beee31277dbc6b9ae2625387cfcfd1a65ba40e6b55b031d",
+  "new_FDM_ticks": 0,
+  "FDM_timing_verified": false,
+  "combat_strength_verified": false,
+  "deployment_changed": false,
+  "decision": "CPU production factories pass; next short independently guarded real FDM timing diagnostic only",
+  "prior_failure_preserved": "diagnostics/frozen_sac_cpu_probe_20261016_231331_e45d41",
+  "limitations": [
+    "Repeated saved legal packet, not physical response",
+    "No first-frame simulator/judge timing proof",
+    "Latency values include controller and selected policy calls, not real network p99",
+    "Original v1 failure fingerprints were aggregate; moved cold import passes new per-stream check but root cause not isolated with exact same fingerprint implementation"
+  ],
+  "preflight_failure": {
+    "actual_shell_exit": 1,
+    "tool": "dbcf52",
+    "reason": "v2 staging initially omitted manifest-tracked test_adapter.py; no worker, budget reservation or FDM. Copied exact parent file then one new reserved CPU probe."
+  }
+}

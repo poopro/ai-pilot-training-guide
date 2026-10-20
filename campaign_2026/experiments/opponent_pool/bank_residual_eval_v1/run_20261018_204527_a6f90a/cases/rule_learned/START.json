@@ -1,0 +1,115 @@
+{
+  "case": {
+    "id": "rule_learned",
+    "pair": 1,
+    "episode": 0,
+    "seed": 2026315001,
+    "opponent": "rule",
+    "side": "mirrored",
+    "distance_ft": 6000,
+    "mode": "learned",
+    "max_ticks": 18000
+  },
+  "initial": [
+    [
+      23.07630403740869,
+      121.95362550812557,
+      19409.33153804764,
+      -4.0271501629766034e-16,
+      -2.7778396651658567e-15,
+      106.49787616213497,
+      -214.0050259364733,
+      722.5672140320409,
+      1.83141548183452e-13,
+      0.0,
+      0.0,
+      0.0,
+      573.8553514144071,
+      753.5924163101014,
+      -0.4567524693733127,
+      753.5924163101007,
+      -5.684341886080802e-14,
+      9.947598300641403e-14,
+      7.563178537663609e-15,
+      -2.4739657802141006e-15,
+      23.060552,
+      121.94855500000001,
+      19409.33153804764,
+      214.0050259364728,
+      -722.5672140320407,
+      -9.332397926708072e-14
+    ],
+    [
+      23.060552,
+      121.94855500000001,
+      19409.33153804764,
+      -5.8319871869813575e-15,
+      1.1126795704007589e-14,
+      286.49787616213496,
+      214.0050259364728,
+      -722.5672140320407,
+      -9.332397926708072e-14,
+      0.0,
+      0.0,
+      0.0,
+      573.8553514144071,
+      753.5924163101009,
+      -0.45675246938984865,
+      753.5924163101004,
+      -2.842170943040401e-14,
+      4.263256414560601e-14,
+      3.2413622304272745e-15,
+      6.961532932182626e-17,
+      23.07630403740869,
+      121.95362550812557,
+      19409.33153804764,
+      -214.0050259364733,
+      722.5672140320409,
+      1.83141548183452e-13
+    ]
+  ],
+  "initial_sha256": "118f510acb7fc9a3c58d82c6ea264d8e0f64f2536e455a0c19b776d6771b6540",
+  "side_transform": {
+    "side": "mirrored",
+    "normal_cross_track_m": -1828.7999999996055,
+    "actual_cross_track_m": 1828.7999999995714,
+    "distance_m": 1828.7913680208885
+  },
+  "blue": {
+    "class_name": "RepairController",
+    "class_path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+    "class_sha256": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+    "act_path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+    "act_sha256": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+    "command_path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+    "command_sha256": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+    "MRO": [
+      {
+        "name": "RepairController",
+        "path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py"
+      }
+    ]
+  },
+  "command_source": {
+    "path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+    "sha256": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f"
+  },
+  "red": {
+    "class_name": "RuleFighter",
+    "module": "duel_lab",
+    "path": "E:\\ai_pilot\\autopilot\\opponent_lab\\duel_lab.py",
+    "sha256": "9f358a7a04b09728199ac33de120146e3aa0bcbb37fe18dbae2a2b5a7cfcb9a6"
+  },
+  "red_rng_state": {
+    "bit_generator": "PCG64",
+    "state": {
+      "state": 248191335130102004821792062867848012537,
+      "inc": 115145882946755174337283900170113020089
+    },
+    "has_uint32": 1,
+    "uinteger": 1393194656
+  },
+  "candidate_model_sha256": "b9bcce79185343c4fdf1b022feb42c4dceb62c8e312da29962c07ae34513b176",
+  "parent_step_path": "E:\\ai_pilot\\campaign_2026\\repair_v1\\env.py",
+  "opponent_fallback": false
+}

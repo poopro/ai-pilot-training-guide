@@ -1,0 +1,29 @@
+{
+  "status": "proposed_not_implemented",
+  "basis": "E:\\ai_pilot\\campaign_2026\\diagnostics\\latch_window_v1_20261017_213638_941961\\FINDINGS.json",
+  "hypothesis": "The hard 290kt speed target outside firing range with |heading error|>45 may constrain energy/repositioning in the saturated pursuit law. Remove that ceiling only and measure; higher speed can also hurt turning and is not presumed beneficial.",
+  "single_factor": "Only disable the far distance>914.4m heading-based speed ceiling290 in zero-tactical StationController. Retain original unlatched roll72, same pitch/rudder, final speed bounds260..450, and original inner safety/G/trim/slew. No bank60/latch branch or simultaneous controller changes.",
+  "implementation_scope": "New isolated wrapper before unchanged command. Reconstruct original pre-ceiling speed from legal packet geometry and zero tactical law; outside specified condition emit identical original goals. Verify source formula and exact helper module binding before launch.",
+  "baseline": "Original zero-tactical unlatched StationController72, not pure repair_guide",
+  "candidate": "Same72 controller, only far heading speed ceiling removed",
+  "red": "Fixed frozen sac5000",
+  "prerequisites": [
+    "No current learner/evaluation; new unique output and unclaimed seed registry entries",
+    "Exact frozen source/XML/red model hashes, OS lock, STOP and CPU/RAM/disk/GPU-used flags",
+    "Static/saved-packet tests for conditional speed mapping, unchanged bank/pitch/rudder/safety/reset; NumPy scalar JSON and proper ACMI geodetic mapping",
+    "Same both-aircraft initial SHA per pair; new development openings including opposite side, not holdout"
+  ],
+  "planned_games": 4,
+  "planned_pairs": 2,
+  "worker_hard_seconds": 90,
+  "whole_hard_seconds": 600,
+  "verifier_cap_seconds_preplanned": 120,
+  "seeds_selected": false,
+  "seeds_claimed": false,
+  "FDM_started": false,
+  "training_started": false,
+  "acceptance": "Complete games and actual0 receipts with full source/initial/red policy/judge/CSV/ACMI checks; reject any >9G. Compare event/score/hits/death/crash/collision and common AGL per opening. Loss/regression cannot be hidden in average; no promotion from two development openings.",
+  "no_parameter_sweep": true,
+  "deployment_allowed": false,
+  "formal_deployment": "repair_guide"
+}

@@ -1,0 +1,8 @@
+{
+  "comparison": "E:\\ai_pilot\\campaign_2026\\diagnostics\\saved_latch_audit_v1_20261017_204803_78cf4a\\COMPARISON.json",
+  "comparison_sha256": "1cd83b75f02b06f1e4562767e9552e024d1beabba72ccb9b13276bbbc0fae05d",
+  "original_failed_comparison": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v2\\run_20261017_203915_d840e7\\COMPARISON.json",
+  "original_failed_comparison_sha256": "b12b7e2a3a16e8fc7cb7031856b3b5ebe9491f1d19625d628fff83aa34b3b95e",
+  "audit_source_sha256": "3c4039d377ebf200da0ce00b1fc558cf63ac16099d495d9c22835136166c5fe0",
+  "no_new_FDM": true
+}

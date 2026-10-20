@@ -1,0 +1,43 @@
+{
+  "updated_utc": "2026-10-12T13:06:08.680150+00:00",
+  "status": "completed",
+  "experiment": "near_bank80",
+  "supervisor": {
+    "pid": 4460,
+    "creation_epoch": 1791809304.0193005,
+    "cmdline": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\benchmark_bank80.py",
+      "--out",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050",
+      "--remaining-percent",
+      "69",
+      "--usage-epoch",
+      "1791808989"
+    ]
+  },
+  "report": "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\report.json",
+  "candidate_factor": "near distance <1100m bank ceiling 72 to 80 only",
+  "actor_policy_used": false,
+  "calibration_reports": [
+    "E:\\ai_pilot\\campaign_2026\\experiments\\turn_calibration\\run_20261012_203318_c4ff\\report.json",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\turn_calibration\\run_20261012_204358_9da0\\report.json"
+  ],
+  "planned_cases": 24,
+  "max_wall_minutes": 40,
+  "daily_compute_reserved_hours": 5.75,
+  "daily_limit_hours": 6,
+  "retained_deployment": "repair_guide",
+  "official_validation": false,
+  "next_action": "On a new daily budget, verify the frozen candidate on fresh development starts, review floor/recovery and the lost rule kill; then expand opponents. No extra research compute today.",
+  "actual_parent_exit_code": 0,
+  "comparison": "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\COMPARISON.json",
+  "verified_comparison": true,
+  "gate": "promising_candidate_safety_validation_required",
+  "snapshot": "E:\\ai_pilot\\campaign_2026\\candidates\\near_bank80_20261012",
+  "safety_review": "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\SAFETY_REVIEW.json",
+  "next_plan": "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\NEXT_VALIDATION.json"
+}

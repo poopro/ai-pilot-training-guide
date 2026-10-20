@@ -1,0 +1,54 @@
+{
+  "created_utc": "2026-10-15T16:24:52.599249+00:00",
+  "executor_sha256": {
+    "actor_transfer.py": "a64934b22d037493ab7c3750a871ee8fef55bfa25aa3e55120bb55a922886240",
+    "common.py": "049de266ab86c2ab29f655ec76f43e1efd89752736e11e48d617c619dc78963a",
+    "guard.py": "487bcff8994be9a27cead6cdc4609ff3393979fbfd2aeda8da54dd9af30c1bec",
+    "launch_smoke.py": "a429cb9e724b4f906a3caae3efafe6057c8dd22f0427fb8bcc8051dbdcb92806",
+    "run_smoke.py": "4f4dafdbc82be387cb139d606fb509ef2244e892e708a0fb6ae6444b05c87fa7",
+    "test_preparation.py": "5e89a00c06589972edc10e3e4fd37fc655372ddff16026a28ee226534a4ab2c0",
+    "train_worker.py": "656470ff9a521af671c2e8a7d4fabe22f0986a989a75b19e5287e26a0a6aadb7",
+    "verify_training.py": "8c45f4cae79e6f668fd10a232387faf78e7b9775092c2864b6b5d544b1056678"
+  },
+  "readme_sha256": "eb58d7021a51b45febf6c8a2e565ac4bfd7fbba1a184f1d451a56fa47e43a3df",
+  "mode_contract": {
+    "actor_transfer_10k": {
+      "cases": 1,
+      "distinct_seeds": 257,
+      "total_wall_seconds": 900,
+      "case_wall_seconds": 840,
+      "decisions": 10000,
+      "max_physics_ticks": 200000
+    }
+  },
+  "m4_sources_sha256": {
+    "experiments/m4_tactical_v3/judge_adapter.py": "94067c9b38ef25d15022996d7a7f0fd1c8cb250e849e80da6c30c78a25506b19",
+    "experiments/m4_tactical_v3/m1_station.py": "5d53e18676d18158f3e0bc278e02ed7d42ecca1b1c7c7a6562611184454717ef",
+    "experiments/m4_tactical_v3/m3_mirror_league.py": "e6f47242eb344dacbb68b78d0b229ca5018b787c71d3ee94d660e25ead0371c1",
+    "experiments/m4_tactical_v3/m4_tactical_rl.py": "4475c8b94eee0ee94a17010004930b8ae286f0a6a299064dc34864e45ca0d1f7",
+    "experiments/m4_tactical_v3/test_adapter.py": "8a2aad48dc4e2f05e1e213c31785d7723e2b755fdf8f182affa19b2c43f03a0c",
+    "experiments/m4_tactical_v4/judge_adapter.py": "94067c9b38ef25d15022996d7a7f0fd1c8cb250e849e80da6c30c78a25506b19",
+    "experiments/m4_tactical_v4/m1_station.py": "fcda220748b0a64413d10c987df850ea975d2925994b556157c62331e97795fc",
+    "experiments/m4_tactical_v4/m3_mirror_league.py": "e6f47242eb344dacbb68b78d0b229ca5018b787c71d3ee94d660e25ead0371c1",
+    "experiments/m4_tactical_v4/m4_tactical_rl.py": "4475c8b94eee0ee94a17010004930b8ae286f0a6a299064dc34864e45ca0d1f7",
+    "experiments/m4_tactical_v4/reward_wrapper.py": "daf74a4b643530efd4fae0719cf005611d53d665959c4df48c1b10abfd131431",
+    "experiments/m4_tactical_v4/test_candidate.py": "80be785a8b6573c04b71bc709a2e4e3fcf82b79af60c4a4f5ef328c036b78e32",
+    "experiments/rules_v20261014/judge.py": "11694e29c54fecfa9d39750839688a4c870636e729dd33923a6f78450e837a06"
+  },
+  "score_eligible": false,
+  "official_validation": false,
+  "deployment_allowed": false,
+  "format": "m4_train_pilot_v1",
+  "actor_transfer_source": {
+    "model_path": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_train_pilot_v1\\run_20261016_003919_a5c748\\cases\\fresh_sac_5000\\model.zip",
+    "model_sha256": "9f93eb56483558ad56283c00b1ba34af96a236583bc977ef7d9fad375d9a0fea",
+    "manifest_path": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_train_pilot_v1\\run_20261016_003919_a5c748\\BUNDLE_MANIFEST.json",
+    "manifest_sha256": "72ee3d82d4bd3c435f1f942d314cb85865f19a7c7ea7679725391508eedfd0ef",
+    "review_path": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_train_pilot_v1\\run_20261016_003919_a5c748\\FINAL_REVIEW.json",
+    "review_sha256": "3a67352d5c4d8dc9aeb2154e6d8aaa2636a611b58b2bc2ccdb71fe4d96eccc6d"
+  },
+  "preparation_only": true,
+  "exact_resume": false,
+  "reward_profile": "publication90_LINE1deg_AGL_right_bin",
+  "hypothesis": "More complete diverse training coverage may improve generalization; requires paired development review before launch."
+}

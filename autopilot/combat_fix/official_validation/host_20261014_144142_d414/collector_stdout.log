@@ -1,0 +1,49 @@
+{
+  "controller": "repair_guide",
+  "model": null,
+  "source_csv": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\飛行競賽Host端Record_20261014_1443.csv",
+  "csv_sha256": "7ba9bbed7704b49d6ce0abe478b0ca814051d425d10c287da1bb9edf566c7a8f",
+  "rows": 6876,
+  "sim_seconds": 114.617,
+  "checks": {
+    "finite": true,
+    "strictly_increasing_sim_time": true,
+    "full_round_or_host_early_adjudication": true,
+    "player1_state2": true,
+    "player1_moved": true
+  },
+  "full_five_minute_round": false,
+  "host_early_adjudication": true,
+  "players": {
+    "1": {
+      "hp": 180.0,
+      "score_kills": 3.0,
+      "advantage": 39363.1370876062,
+      "attack_advantage": 0.9957146633358634,
+      "position_advantage": 0.9946959519378347,
+      "gforce_overload": 0.0,
+      "min_altitude_m": 3238.5822758339436
+    },
+    "2": {
+      "hp": 0.0,
+      "score_kills": 0.0,
+      "advantage": 2042.5013791043364,
+      "attack_advantage": 0.0,
+      "position_advantage": 0.0,
+      "gforce_overload": 0.0,
+      "min_altitude_m": 3254.306664046544
+    }
+  },
+  "host_winner_raw": "1.0",
+  "host_timer_remaining_raw": "185.42397809028625",
+  "published_host_round_completed": true,
+  "competition_certification": false,
+  "score_source": "unchanged published Host CSV; no local estimate",
+  "acmi": [
+    {
+      "path": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_20261014_144142_d414\\飛行競賽Host端Record_20261014_1443.acmi",
+      "sha256": "f5a439b98947565203e4fd146b3d9673a1451dbb40eeb604cfc60c92ec9a9ec8"
+    }
+  ],
+  "host_game_over_logged": false
+}

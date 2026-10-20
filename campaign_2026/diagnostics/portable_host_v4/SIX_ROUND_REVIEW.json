@@ -1,0 +1,63 @@
+{
+  "verified_packaged_rounds": 6,
+  "rounds": [
+    {
+      "run": "portable_20261016_094406_3a3b7d3a",
+      "sim_seconds": 80.35,
+      "rows": 4820,
+      "winner": "1.0",
+      "profile_hash": "15e0bd4a1783a1071a7a43456e2d871593299707886157054cf110bd756ed76a",
+      "result_sha256": "bc3547eed2028adedad419010eaee95f4da06585bf23284c9caa046aa9326c83"
+    },
+    {
+      "run": "portable_20261016_100246_b31457d7",
+      "sim_seconds": 102.933,
+      "rows": 6175,
+      "winner": "1.0",
+      "profile_hash": "15e0bd4a1783a1071a7a43456e2d871593299707886157054cf110bd756ed76a",
+      "result_sha256": "ff5b7d962d6d3468bf3bdbb030ba0e0865b4b7f235c7d1003775ac429f8d3387"
+    },
+    {
+      "run": "portable_20261016_100600_e4616010",
+      "sim_seconds": 288.617,
+      "rows": 17316,
+      "winner": "1.0",
+      "profile_hash": "15e0bd4a1783a1071a7a43456e2d871593299707886157054cf110bd756ed76a",
+      "result_sha256": "8e8f0b1a695996c20c1fec747b3f58e7dca108cbc7a0e1f7ded60eb94cef080b"
+    },
+    {
+      "run": "portable_20261016_101213_0eb05d15",
+      "sim_seconds": 160.2,
+      "rows": 9611,
+      "winner": "1.0",
+      "profile_hash": "15e0bd4a1783a1071a7a43456e2d871593299707886157054cf110bd756ed76a",
+      "result_sha256": "37a41bd111e9ca29a39b4e7a536263a3ff62572189a9f85fdef97fdc66cc81a9"
+    },
+    {
+      "run": "portable_20261016_101618_3bc0a1d8",
+      "sim_seconds": 82.717,
+      "rows": 4962,
+      "winner": "1.0",
+      "profile_hash": "15e0bd4a1783a1071a7a43456e2d871593299707886157054cf110bd756ed76a",
+      "result_sha256": "03c61e6dc5a11683c869de2d835a7599d7d0d38d3ce014c3ee8724300dfebeec"
+    },
+    {
+      "run": "portable_20261016_101928_5aceb10c",
+      "sim_seconds": 80.75,
+      "rows": 4844,
+      "winner": "1.0",
+      "profile_hash": "15e0bd4a1783a1071a7a43456e2d871593299707886157054cf110bd756ed76a",
+      "result_sha256": "b4d623208e36d99e400c0ef4414a3aaf0447103e74cdc15bc38a3e59c66956f4"
+    }
+  ],
+  "all_actual_collector_watchdog_wait_exit0": true,
+  "all_children_exact_cleanup": true,
+  "all_blue_wins_HP180_0": true,
+  "both_over9G_ticks": 0,
+  "same_fixed_profile": true,
+  "gate": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\GATE_LATEST.json",
+  "old_legacy_imported": 0,
+  "LAN_or_other_PC_verified": false,
+  "competition_certification": false,
+  "finished_utc": "2026-10-16T02:23:08.014332+00:00"
+}

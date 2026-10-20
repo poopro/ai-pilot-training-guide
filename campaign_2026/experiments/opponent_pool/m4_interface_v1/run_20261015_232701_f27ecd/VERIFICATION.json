@@ -1,0 +1,35 @@
+{
+  "verified_real_FDM_interface": true,
+  "errors": [],
+  "new_FDM_ticks": 1800,
+  "case_summaries": [
+    {
+      "opponent": "rule",
+      "ticks": 600,
+      "initial_sha256": "a745b1b4064259a641c40ae8a8553b58315436ee2297a2ada0fb599d91239eef",
+      "same_seed_reset_reproduced": true,
+      "attack_ticks_per_reset": 0
+    },
+    {
+      "opponent": "mirror",
+      "ticks": 600,
+      "initial_sha256": "53d6286dfbf2352bfee66a7478d7bb7b80fb9731c42beba747dc6db2d8cabdd7",
+      "same_seed_reset_reproduced": true,
+      "attack_ticks_per_reset": 0
+    },
+    {
+      "opponent": "rl",
+      "ticks": 600,
+      "initial_sha256": "2c05ba5165415372b74c2d2eb7ae526694a2a64a2eba0eae75fe5f4edab9730e",
+      "same_seed_reset_reproduced": true,
+      "attack_ticks_per_reset": 0
+    }
+  ],
+  "actual_observed_launcher_exit_code": 0,
+  "score_eligible": false,
+  "combat_win_rate_evidence": false,
+  "official_validation": false,
+  "deployment_allowed": false,
+  "source_contract": "legacy_diagnostic_not_official",
+  "report_sha256": "d0ed00ca2fbfebe8f01223d581899810bde0b0358bedb26d58a071c15141abb3"
+}

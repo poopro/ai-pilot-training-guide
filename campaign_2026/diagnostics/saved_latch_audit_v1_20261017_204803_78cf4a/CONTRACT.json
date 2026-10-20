@@ -1,0 +1,52 @@
+{
+  "guardian": {
+    "pid": 6048,
+    "create": 1792241282.2847242,
+    "cmd": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\saved_latch_audit_guardian_v1.py"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent": 8280
+  },
+  "deadline_epoch": 1792241463.4565735,
+  "deadline_monotonic": 59762.218,
+  "seconds": 180,
+  "diagnostic_source_sha256": "9e45a2d8cdaa506a87f1916c8a156a56f0bee671ac5e739937029f6ebd372847",
+  "source_run": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v2\\run_20261017_203915_d840e7",
+  "original_source_contract_sha256": "c0e9aa8175f89cfd9904f380ec9cafd80e8888d67d3c861a61585f55ee7a3654",
+  "resources": {
+    "ram_bytes": 3340959744,
+    "disk_bytes": 193656721408,
+    "cpu_percent": 37.5,
+    "GPU_used": false
+  },
+  "usage_observation": {
+    "observed_utc": "2026-10-17 12:30:56 UTC",
+    "remaining_percent": 26,
+    "primary": {
+      "usedPercent": 1,
+      "windowDurationMins": 300,
+      "resetsAt": 1792258256
+    },
+    "weekly": {
+      "usedPercent": 74,
+      "windowDurationMins": 10080,
+      "resetsAt": 1792654206
+    }
+  },
+  "new_FDM_ticks": 0,
+  "seed_claims": [],
+  "training_started": false,
+  "failed_comparison_sha256": "b12b7e2a3a16e8fc7cb7031856b3b5ebe9491f1d19625d628fff83aa34b3b95e",
+  "audit_source_sha256": "3c4039d377ebf200da0ce00b1fc558cf63ac16099d495d9c22835136166c5fe0",
+  "correction": "Wrong latitude coordinate equality corrected with WGS84 transform; all strict numeric/event/source/policy/initial/CSV/ACMI checks retained. No new FDM, no original deadline extension.",
+  "primary_sources": [
+    "https://raw.githubusercontent.com/JSBSim-Team/jsbsim/master/src/math/FGLocation.cpp",
+    "https://raw.githubusercontent.com/JSBSim-Team/jsbsim/master/src/models/FGInertial.cpp"
+  ],
+  "review_worker_sha256": "c9c50c027712e3e2928fe39d7cc590037a99997f290520c58b3af5f3c77d262d"
+}

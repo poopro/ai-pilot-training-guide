@@ -1,0 +1,38 @@
+{
+  "status": "prepared_saved_packet_precheck_only",
+  "hypothesis": "Compare retained pure guide versus StationController directly; no assumed superiority",
+  "families": [
+    "station_zero",
+    "pure_guide"
+  ],
+  "single_factor": "blue rule family, not a one-line ablation",
+  "residual": null,
+  "learned_tactical_injection": false,
+  "allowed_input": "legal OWN20+ENEMY6 packet only",
+  "policy_path": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rule_family_v1\\policy.py",
+  "pure_guide_source": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+  "station_source": "E:\\ai_pilot\\campaign_2026\\experiments\\m4_tactical_v4\\m1_station.py",
+  "unchanged_shared_command_source": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+  "sources_sha256": {
+    "E:\\ai_pilot\\campaign_2026\\diagnostics\\rule_family_precheck_guardian_v1.py": "bdc7ab74afe3c3a5b195b3cd8a1dac6de696b8acd6fc9986bbc7cefad18ee930",
+    "E:\\ai_pilot\\campaign_2026\\diagnostics\\rule_family_precheck_worker_v1.py": "fce3a0766ea71e6ed2f621d22cad4bd54533690811d05d0e09b56c47f699d97d",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rule_family_v1\\policy.py": "85648cff99986d78245aa5fb75388f541edfcf1febb38eb7e65eb331d5118576"
+  },
+  "formal_sources_sha256": {
+    "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\m4_tactical_v4\\m1_station.py": "fcda220748b0a64413d10c987df850ea975d2925994b556157c62331e97795fc"
+  },
+  "precheck": {
+    "seconds": 120,
+    "guardian": "E:\\ai_pilot\\campaign_2026\\diagnostics\\rule_family_precheck_guardian_v1.py",
+    "expected_saved_prefixes": 2,
+    "frames_per_prefix": 300,
+    "checks": "actual act/command, baseline saved exact, pure guide direct exact, reset, safety parity, no residual/tactic injection"
+  },
+  "new_FDM_ticks": 0,
+  "model_inference_calls": 0,
+  "training_started": false,
+  "seed_claims": [],
+  "FDM_launch_allowed": false,
+  "reason": "Real saved-packet precheck still pending; comparison runner and verifier not implemented."
+}

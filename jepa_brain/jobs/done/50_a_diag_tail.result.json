@@ -1,0 +1,1 @@
+{"id": "50_a_diag_tail", "script": "diag_game.py", "args": ["base_t3", "sac:25600000", "950000", "3,9,11,0", "18000"], "exit_code": 0, "reason": null, "seconds": 120.3}

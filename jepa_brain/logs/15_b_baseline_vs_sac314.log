@@ -1,0 +1,29 @@
+[1/12] baseline/sac314 red_crash winner=blue atk 0/0
+[2/12] baseline/sac314 red_crash winner=blue atk 0/0
+[3/12] baseline/sac314 red_crash winner=blue atk 0/0
+[4/12] baseline/sac314 red_crash winner=blue atk 0/0
+[5/12] baseline/sac314 timeout winner=blue atk 0/0
+[6/12] baseline/sac314 red_crash winner=blue atk 0/0
+[7/12] baseline/sac314 red_crash winner=blue atk 0/0
+[8/12] baseline/sac314 red_crash winner=blue atk 0/0
+[9/12] baseline/sac314 red_crash winner=blue atk 0/0
+[10/12] baseline/sac314 red_crash winner=blue atk 0/0
+[11/12] baseline/sac314 red_crash winner=blue atk 0/0
+[12/12] baseline/sac314 red_crash winner=blue atk 0/0
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+opp      policy      n  win loss draw  atkB  atkR  margin   minAGLm
+sac314   baseline   12   12    0    0     0     0     101      1731

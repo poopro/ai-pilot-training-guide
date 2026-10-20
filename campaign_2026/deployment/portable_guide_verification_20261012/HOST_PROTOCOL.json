@@ -1,0 +1,25 @@
+{
+  "host_dir": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線",
+  "host_program": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe",
+  "host_sources_sha256": {
+    "JSB_host_GUI_publish.exe": "635b0ca956695a74e662f7f3a91e50d17ddeffb6e6be468ed8b916d305c19013",
+    "Setting.txt": "c5236a1fc9db2ae18d4cb2b310da72dfceb1a569f916f1ad9bc6c02ba6efb418",
+    "readme_part1.txt": "6a76268c0df6444027df7292b6dadec97897924cf97471e02e81f64c34a180c0",
+    "readme_part2.txt": "787cab0e4adf58705bd52ea2c37bf42fa153e91248008528ddd95b07fdbc982c"
+  },
+  "default_player1_ports": {
+    "receive_observation": 8199,
+    "send_command": 8099
+  },
+  "host_requires_cwd": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線",
+  "published_host_starts_internal_player2": true,
+  "restart_player_before_each_round": true,
+  "historical_host_result": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_20261006_204436_608d\\host_result.json",
+  "historical_csv_and_acmi_sha_verified": true,
+  "historical_complete_rounds": 1,
+  "historical_round_is_not_portable_package_validation": true,
+  "new_host_rounds": 0,
+  "package_official_host_validation": false,
+  "minimum_new_host_rounds_required": 6,
+  "scope": "Published GUI local Host P1 vs internal P2; not official P1/P2 role swap or competition certification."
+}

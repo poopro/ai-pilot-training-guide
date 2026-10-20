@@ -1,0 +1,21 @@
+{
+  "status": "exited",
+  "pid": 21204,
+  "creation_epoch": 1791285893.7772365,
+  "command": [
+    "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "-X",
+    "utf8",
+    "E:\\ai_pilot\\autopilot\\combat_fix\\train.py",
+    "--run-dir",
+    "E:\\ai_pilot\\autopilot\\combat_fix\\training\\run_20261006_192453_c95b",
+    "--decisions",
+    "24000",
+    "--max-minutes",
+    "6.0"
+  ],
+  "run_dir": "E:\\ai_pilot\\autopilot\\combat_fix\\training\\run_20261006_192453_c95b",
+  "log": "E:\\ai_pilot\\autopilot\\combat_fix\\training\\run_20261006_192453_c95b.log",
+  "stop_file": "E:\\ai_pilot\\autopilot\\combat_fix\\training\\run_20261006_192453_c95b\\STOP",
+  "exit_code": 0
+}

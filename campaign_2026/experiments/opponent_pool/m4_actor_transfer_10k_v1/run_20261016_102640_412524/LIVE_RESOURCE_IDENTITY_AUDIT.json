@@ -1,0 +1,28 @@
+{
+  "observed_utc": "2026-10-16T02:28:54.172580+00:00",
+  "identity_checks": {
+    "24412": {
+      "same_identity": true,
+      "actual_parent_pid": 21568,
+      "expected_parent_pid": 21568
+    },
+    "21924": {
+      "same_identity": true,
+      "actual_parent_pid": 24412,
+      "expected_parent_pid": 24412
+    },
+    "23732": {
+      "same_identity": true,
+      "actual_parent_pid": 24412,
+      "expected_parent_pid": 24412
+    },
+    "2608": {
+      "same_identity": true,
+      "actual_parent_pid": 21924,
+      "expected_parent_pid": 21924
+    }
+  },
+  "cpu_percent": 41.9,
+  "RAM_available_GiB": 8.216381072998047,
+  "disk_free_GiB": 182.2372932434082
+}

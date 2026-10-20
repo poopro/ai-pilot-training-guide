@@ -1,0 +1,19 @@
+{
+  "exit_code": 0,
+  "wait_reason": "exited",
+  "identity": {
+    "pid": 7128,
+    "create_time": 1791960621.3253772,
+    "cmdline": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\g_latch_smoke\\launch_smoke.py",
+      "worker",
+      "--input",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\g_latch_smoke\\run_20261014_145019_d9db\\cases\\r000_rl_6000_mirrored_2026101311_guide\\input.json"
+    ],
+    "parent_pid": 4084
+  }
+}

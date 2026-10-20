@@ -1,0 +1,24 @@
+{
+  "source": {
+    "path": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\player2_runtime.log",
+    "size": 13644722,
+    "mtime_ns": 1791961108497537600,
+    "sha256": "37c39c2eba4ed8555de6e1ec15366873e6a473d64883d2b154be0ed5fb7917f8"
+  },
+  "csv": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\飛行競賽Host端Record_20261014_1455.csv",
+  "csv_sha256": "e57ce7236660eccdcf1b65cbfeb8d89f6865b5ce11922055045cf85432e615e7",
+  "checks": {
+    "new_capture_version": true,
+    "fresh_log": true,
+    "owned_child": true,
+    "stopped_then_exited": true,
+    "csv_adjudicated": true,
+    "initial_positions_match": true
+  },
+  "captured_epoch": 1791961111.3548632,
+  "log_snapshot": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_20261014_145407_177e\\p2_runtime_terminal.log",
+  "ledger_snapshot": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_20261014_145407_177e\\p2_watchdog_observation.json",
+  "ledger_sha256": "73ccaa2d7c312665ec0586d6b5f813660ab86d12e0a3a817a52a62982166d422",
+  "terminal_capture_version": 1,
+  "captured_utc": "2026-10-14T06:58:31.751985+00:00"
+}

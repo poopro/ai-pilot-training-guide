@@ -1,0 +1,146 @@
+{
+  "passed": true,
+  "rounds": [
+    {
+      "passed": true,
+      "tests": {
+        "fresh_process_starts_state1": true,
+        "init_frozen": true,
+        "ready_state2_before_motion": true,
+        "still_frozen_before_motion": true,
+        "60_stateful_commands_match_original_guide": true,
+        "duplicate_preserves_command": true,
+        "no_unsolicited_on_missing_obs": true,
+        "malformed_and_nan_ignored": true,
+        "resumes_after_missing_obs": true
+      },
+      "actual_exit_code": 0,
+      "identity": {
+        "pid": 21868,
+        "creation_epoch": 1791819138.9623528,
+        "cmdline": [
+          "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+          "-I",
+          "-S",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\tools\\player.py",
+          "--network",
+          "E:\\ai_pilot\\campaign_2026\\deployment\\portable_guide_verification_20261012\\udp_round_1\\network.json",
+          "--max-seconds",
+          "8"
+        ]
+      },
+      "cmdline": [
+        "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+        "-I",
+        "-S",
+        "-B",
+        "-X",
+        "utf8",
+        "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\tools\\player.py",
+        "--network",
+        "E:\\ai_pilot\\campaign_2026\\deployment\\portable_guide_verification_20261012\\udp_round_1\\network.json",
+        "--max-seconds",
+        "8"
+      ],
+      "source_sha256": {
+        "policy/controller.py": "7a40f2ada59b4e8f2862f64c0d672d15f8676bca3456946038e203f0ee3c9430",
+        "policy/combat_v3/interface.py": "50f63ee563a8cb13b9bb472b0de7905579bcc9c70bc69efc571681879eb02555",
+        "policy/combat_v3/controller.py": "d772bf49a8d8408aaafec691c981d0612de7dada6450e0afcecbc3d958b7813b",
+        "tools/player.py": "340e2d17acbbbe4257f8fa4e59bb6afd68913bf1df8764386ca838fd1ba743dd",
+        "manifest.json": "80b95bd39dd6c050518fef91be648f5ea088ba5bea65ec0396629aa6763c5a67"
+      },
+      "loopback_ports": {
+        "listen_ip": "127.0.0.1",
+        "listen_port": 56506,
+        "host_ip": "127.0.0.1",
+        "host_port": 56505,
+        "max_hz": 60
+      },
+      "samples": 60,
+      "latency_p50_ms": 0.8395500008191448,
+      "latency_p95_ms": 1.0115949997270943,
+      "latency_p99_ms": 1.43484700078261,
+      "latency_max_ms": 1.6040000009525102,
+      "wall_seconds": 9.26600000000326,
+      "scope": "Actual packaged player and private loopback; no simulator or official Host. Stateful outputs compare with original guide.",
+      "new_fdm_ticks": 0,
+      "official_host_validation": false
+    },
+    {
+      "passed": true,
+      "tests": {
+        "fresh_process_starts_state1": true,
+        "init_frozen": true,
+        "ready_state2_before_motion": true,
+        "still_frozen_before_motion": true,
+        "60_stateful_commands_match_original_guide": true,
+        "duplicate_preserves_command": true,
+        "no_unsolicited_on_missing_obs": true,
+        "malformed_and_nan_ignored": true,
+        "resumes_after_missing_obs": true
+      },
+      "actual_exit_code": 0,
+      "identity": {
+        "pid": 8628,
+        "creation_epoch": 1791819148.25221,
+        "cmdline": [
+          "E:\\ai_pilot\\campaign_2026\\deployment\\portable_guide_verification_20261012\\不同路徑 空白 賽場副本\\runtime\\python.exe",
+          "-I",
+          "-S",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\deployment\\portable_guide_verification_20261012\\不同路徑 空白 賽場副本\\tools\\player.py",
+          "--network",
+          "E:\\ai_pilot\\campaign_2026\\deployment\\portable_guide_verification_20261012\\udp_round_2\\network.json",
+          "--max-seconds",
+          "8"
+        ]
+      },
+      "cmdline": [
+        "E:\\ai_pilot\\campaign_2026\\deployment\\portable_guide_verification_20261012\\不同路徑 空白 賽場副本\\runtime\\python.exe",
+        "-I",
+        "-S",
+        "-B",
+        "-X",
+        "utf8",
+        "E:\\ai_pilot\\campaign_2026\\deployment\\portable_guide_verification_20261012\\不同路徑 空白 賽場副本\\tools\\player.py",
+        "--network",
+        "E:\\ai_pilot\\campaign_2026\\deployment\\portable_guide_verification_20261012\\udp_round_2\\network.json",
+        "--max-seconds",
+        "8"
+      ],
+      "source_sha256": {
+        "policy/controller.py": "7a40f2ada59b4e8f2862f64c0d672d15f8676bca3456946038e203f0ee3c9430",
+        "policy/combat_v3/interface.py": "50f63ee563a8cb13b9bb472b0de7905579bcc9c70bc69efc571681879eb02555",
+        "policy/combat_v3/controller.py": "d772bf49a8d8408aaafec691c981d0612de7dada6450e0afcecbc3d958b7813b",
+        "tools/player.py": "340e2d17acbbbe4257f8fa4e59bb6afd68913bf1df8764386ca838fd1ba743dd",
+        "manifest.json": "80b95bd39dd6c050518fef91be648f5ea088ba5bea65ec0396629aa6763c5a67"
+      },
+      "loopback_ports": {
+        "listen_ip": "127.0.0.1",
+        "listen_port": 58980,
+        "host_ip": "127.0.0.1",
+        "host_port": 58979,
+        "max_hz": 60
+      },
+      "samples": 60,
+      "latency_p50_ms": 0.8321500008605653,
+      "latency_p95_ms": 1.173889997699007,
+      "latency_p99_ms": 1.35875399922952,
+      "latency_max_ms": 1.4645999981439672,
+      "wall_seconds": 9.15599999999904,
+      "scope": "Actual packaged player and private loopback; no simulator or official Host. Stateful outputs compare with original guide.",
+      "new_fdm_ticks": 0,
+      "official_host_validation": false
+    }
+  ],
+  "fresh_process_reset_verified": true,
+  "original_guide_stateful_commands_compared": 120,
+  "new_fdm_ticks": 0,
+  "learner_started": false,
+  "official_host_validation": false
+}

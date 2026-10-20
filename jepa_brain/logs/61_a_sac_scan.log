@@ -1,0 +1,891 @@
+[1/378] tuned/sac:800000 red_crash winner=blue atk 0/0 margin 242.0
+[2/378] tuned/sac:800000 red_crash winner=blue atk 0/0 margin 238.0
+[3/378] tuned/sac:800000 red_crash winner=blue atk 0/0 margin 274.5
+[4/378] tuned/sac:800000 red_crash winner=blue atk 0/0 margin 241.3
+[5/378] tuned/sac:800000 red_crash winner=blue atk 0/0 margin 259.0
+[6/378] tuned/sac:800000 red_crash winner=blue atk 0/0 margin 235.0
+[7/378] tuned/sac:1600000 red_crash winner=blue atk 0/0 margin 410.8
+[8/378] tuned/sac:1600000 red_crash winner=blue atk 0/0 margin 515.9
+[9/378] tuned/sac:1600000 red_crash winner=blue atk 0/0 margin 140.8
+[10/378] tuned/sac:1600000 red_crash winner=blue atk 0/0 margin 14.6
+[11/378] tuned/sac:1600000 red_crash winner=blue atk 0/0 margin 1336.2
+[12/378] tuned/sac:1600000 red_crash winner=blue atk 0/0 margin 1003.8
+[13/378] tuned/sac:2400000 red_crash winner=blue atk 0/0 margin 333.5
+[14/378] tuned/sac:2400000 red_crash winner=blue atk 0/0 margin 744.8
+[15/378] tuned/sac:2400000 red_crash winner=blue atk 0/0 margin 2500.0
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[16/378] tuned/sac:2400000 red_crash winner=blue atk 0/0 margin 341.5
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[17/378] tuned/sac:2400000 red_crash winner=blue atk 6/0 margin 3696.5
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[18/378] tuned/sac:2400000 red_crash winner=blue atk 0/0 margin 2531.7
+[19/378] tuned/sac:3200000 red_crash winner=blue atk 0/0 margin 946.1
+[20/378] tuned/sac:3200000 red_crash winner=blue atk 0/0 margin 510.6
+[21/378] tuned/sac:3200000 red_crash winner=blue atk 0/0 margin 645.4
+[22/378] tuned/sac:3200000 red_crash winner=blue atk 0/0 margin 106.8
+[23/378] tuned/sac:3200000 red_crash winner=blue atk 0/0 margin 993.4
+[24/378] tuned/sac:4000000 red_crash winner=blue atk 0/0 margin 255.7
+[25/378] tuned/sac:4000000 red_crash winner=blue atk 0/0 margin 172.5
+[26/378] tuned/sac:3200000 red_crash winner=blue atk 0/0 margin 1334.2
+[27/378] tuned/sac:4000000 red_crash winner=blue atk 0/0 margin 271.0
+[28/378] tuned/sac:4000000 red_crash winner=blue atk 0/0 margin 176.1
+[29/378] tuned/sac:4800000 red_crash winner=blue atk 0/0 margin 773.3
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[30/378] tuned/sac:4000000 red_crash winner=blue atk 0/0 margin 1323.3
+[31/378] tuned/sac:4000000 timeout winner=blue atk 0/0 margin 1172.2
+[32/378] tuned/sac:4800000 red_crash winner=blue atk 0/0 margin 164.2
+[33/378] tuned/sac:4800000 red_crash winner=blue atk 0/0 margin 2172.7
+[34/378] tuned/sac:4800000 blue_kill winner=blue atk 180/0 margin 85788.5
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[35/378] tuned/sac:4800000 red_crash winner=blue atk 0/0 margin 348.1
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[36/378] tuned/sac:5600000 red_crash winner=blue atk 0/0 margin 526.6
+[37/378] tuned/sac:4800000 red_crash winner=blue atk 0/0 margin 3911.6
+[38/378] tuned/sac:5600000 red_crash winner=blue atk 0/0 margin 335.7
+[39/378] tuned/sac:5600000 red_crash winner=blue atk 0/0 margin 542.8
+[40/378] tuned/sac:5600000 red_crash winner=blue atk 0/0 margin 606.9
+[41/378] tuned/sac:5600000 red_crash winner=blue atk 0/0 margin 4228.9
+[42/378] tuned/sac:6400000 red_crash winner=blue atk 0/0 margin 659.6
+[43/378] tuned/sac:6400000 red_crash winner=blue atk 0/0 margin 441.5
+[44/378] tuned/sac:5600000 red_crash winner=blue atk 0/0 margin 1260.1
+[45/378] tuned/sac:6400000 red_crash winner=blue atk 0/0 margin 3094.9
+[46/378] tuned/sac:6400000 timeout winner=red atk 0/0 margin -33.0
+[47/378] tuned/sac:6400000 timeout winner=red atk 0/0 margin -1585.7
+[48/378] tuned/sac:6400000 red_crash winner=blue atk 0/0 margin 2064.4
+[49/378] tuned/sac:7200000 red_crash winner=blue atk 0/0 margin 665.7
+[50/378] tuned/sac:7200000 red_crash winner=blue atk 0/0 margin 1101.7
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[51/378] tuned/sac:7200000 red_crash winner=blue atk 0/0 margin 716.9
+[52/378] tuned/sac:7200000 timeout winner=blue atk 0/0 margin 3134.1
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[53/378] tuned/sac:7200000 timeout winner=blue atk 0/0 margin 3082.3
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[54/378] tuned/sac:8000000 red_crash winner=blue atk 0/0 margin 593.1
+[55/378] tuned/sac:8000000 red_crash winner=blue atk 0/0 margin 309.9
+[56/378] tuned/sac:8000000 red_crash winner=blue atk 0/0 margin 504.3
+[57/378] tuned/sac:7200000 timeout winner=blue atk 0/0 margin 3230.1
+[58/378] tuned/sac:8000000 red_crash winner=blue atk 0/0 margin 519.1
+[59/378] tuned/sac:8000000 red_crash winner=blue atk 0/0 margin 457.2
+[60/378] tuned/sac:8000000 blue_kill winner=blue atk 180/0 margin 82022.4
+[61/378] tuned/sac:8800000 blue_kill winner=blue atk 180/0 margin 84215.4
+[62/378] tuned/sac:8800000 red_crash winner=blue atk 0/0 margin 1251.0
+[63/378] tuned/sac:8800000 red_crash winner=blue atk 0/0 margin 6425.4
+[64/378] tuned/sac:8800000 red_crash winner=blue atk 0/0 margin 2194.2
+[65/378] tuned/sac:8800000 red_crash winner=blue atk 56/0 margin 15157.8
+[66/378] tuned/sac:8800000 red_crash winner=blue atk 0/0 margin 1842.1
+[67/378] tuned/sac:9600000 red_crash winner=blue atk 0/0 margin 2803.3
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[68/378] tuned/sac:9600000 timeout winner=blue atk 0/0 margin 4216.8
+[69/378] tuned/sac:9600000 timeout winner=red atk 9/0 margin -2439.0
+[70/378] tuned/sac:9600000 red_crash winner=blue atk 0/0 margin 1782.7
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[71/378] tuned/sac:9600000 red_crash winner=blue atk 0/0 margin 771.8
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[72/378] tuned/sac:10400000 red_crash winner=blue atk 0/0 margin 849.5
+[73/378] tuned/sac:10400000 red_crash winner=blue atk 0/0 margin 599.9
+[74/378] tuned/sac:10400000 red_crash winner=blue atk 0/0 margin 2350.8
+[75/378] tuned/sac:9600000 timeout winner=blue atk 0/0 margin 3583.7
+[76/378] tuned/sac:10400000 red_crash winner=blue atk 140/0 margin 22641.6
+[77/378] tuned/sac:10400000 timeout winner=blue atk 116/0 margin 14809.6
+[78/378] tuned/sac:10400000 red_crash winner=blue atk 167/0 margin 31135.4
+[79/378] tuned/sac:11200000 red_crash winner=blue atk 0/0 margin 448.7
+[80/378] tuned/sac:11200000 red_crash winner=blue atk 0/0 margin 321.0
+[81/378] tuned/sac:11200000 red_crash winner=blue atk 0/0 margin 278.9
+[82/378] tuned/sac:11200000 red_crash winner=blue atk 0/0 margin 2596.4
+[83/378] tuned/sac:11200000 timeout winner=blue atk 0/0 margin 3164.4
+[84/378] tuned/sac:12000000 red_crash winner=blue atk 0/0 margin 616.9
+[85/378] tuned/sac:12000000 blue_kill winner=blue atk 180/0 margin 84437.4
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[86/378] tuned/sac:11200000 timeout winner=blue atk 0/0 margin 3158.4
+[87/378] tuned/sac:12000000 timeout winner=blue atk 0/0 margin 3030.9
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[88/378] tuned/sac:12000000 timeout winner=blue atk 0/0 margin 3025.7
+[89/378] tuned/sac:12000000 red_crash winner=blue atk 0/0 margin 4809.2
+[90/378] tuned/sac:12000000 red_crash winner=blue atk 0/0 margin 6466.5
+[91/378] tuned/sac:12800000 timeout winner=blue atk 0/0 margin 1766.9
+[92/378] tuned/sac:12800000 timeout winner=blue atk 0/0 margin 2471.9
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[93/378] tuned/sac:12800000 timeout winner=blue atk 0/0 margin 3783.8
+[94/378] tuned/sac:12800000 red_crash winner=blue atk 0/0 margin 3066.1
+[95/378] tuned/sac:12800000 timeout winner=red atk 0/0 margin -1838.5
+[96/378] tuned/sac:13600000 red_crash winner=blue atk 0/0 margin 1063.4
+[97/378] tuned/sac:13600000 red_crash winner=blue atk 0/0 margin 637.4
+[98/378] tuned/sac:12800000 red_crash winner=blue atk 0/0 margin 1558.6
+[99/378] tuned/sac:13600000 red_crash winner=blue atk 0/0 margin 544.4
+[100/378] tuned/sac:13600000 red_crash winner=blue atk 0/0 margin 1895.6
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[101/378] tuned/sac:13600000 red_crash winner=blue atk 0/0 margin 1158.6
+[102/378] tuned/sac:13600000 red_crash winner=blue atk 0/0 margin 2650.8
+[103/378] tuned/sac:14400000 timeout winner=blue atk 0/0 margin 7915.8
+[104/378] tuned/sac:14400000 red_crash winner=blue atk 0/0 margin 7957.8
+[105/378] tuned/sac:14400000 red_crash winner=blue atk 0/0 margin 3836.4
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[106/378] tuned/sac:14400000 red_crash winner=blue atk 0/0 margin 3590.0
+[107/378] tuned/sac:14400000 timeout winner=blue atk 0/0 margin 6755.7
+[108/378] tuned/sac:14400000 timeout winner=red atk 25/0 margin -5157.9
+[109/378] tuned/sac:15200000 timeout winner=blue atk 0/0 margin 2589.5
+[110/378] tuned/sac:15200000 timeout winner=blue atk 0/0 margin 4209.7
+[111/378] tuned/sac:15200000 timeout winner=blue atk 0/0 margin 8209.2
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[112/378] tuned/sac:15200000 blue_kill winner=blue atk 180/0 margin 79163.9
+[113/378] tuned/sac:15200000 timeout winner=blue atk 26/0 margin 12285.9
+[114/378] tuned/sac:15200000 timeout winner=blue atk 0/0 margin 4499.0
+[115/378] tuned/sac:16000000 red_crash winner=blue atk 0/0 margin 3233.8
+[116/378] tuned/sac:16000000 red_crash winner=blue atk 0/0 margin 2570.1
+[117/378] tuned/sac:16000000 red_crash winner=blue atk 0/0 margin 405.0
+[118/378] tuned/sac:16000000 red_crash winner=blue atk 0/0 margin 178.7
+[119/378] tuned/sac:16000000 red_crash winner=blue atk 0/0 margin 384.8
+[120/378] tuned/sac:16000000 red_crash winner=blue atk 0/0 margin 5167.6
+[121/378] tuned/sac:16800000 blue_kill winner=blue atk 180/0 margin 82760.3
+[122/378] tuned/sac:16800000 timeout winner=red atk 0/0 margin -6186.9
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[123/378] tuned/sac:16800000 timeout winner=blue atk 96/0 margin 28368.3
+[124/378] tuned/sac:16800000 timeout winner=blue atk 0/0 margin 3440.5
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[125/378] tuned/sac:16800000 blue_kill winner=blue atk 180/0 margin 82903.6
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[126/378] tuned/sac:17600000 red_crash winner=blue atk 0/0 margin 3605.3
+[127/378] tuned/sac:17600000 red_crash winner=blue atk 0/0 margin 4478.3
+[128/378] tuned/sac:16800000 timeout winner=blue atk 0/0 margin 1306.8
+[129/378] tuned/sac:17600000 timeout winner=blue atk 0/0 margin 6482.6
+[130/378] tuned/sac:17600000 timeout winner=blue atk 0/0 margin 6331.4
+[131/378] tuned/sac:17600000 blue_kill winner=blue atk 180/0 margin 84637.6
+[132/378] tuned/sac:17600000 timeout winner=blue atk 0/0 margin 5338.2
+[133/378] tuned/sac:18400000 timeout winner=blue atk 171/10 margin 30980.4
+[134/378] tuned/sac:18400000 timeout winner=blue atk 128/0 margin 29399.3
+[135/378] tuned/sac:18400000 timeout winner=red atk 0/18 margin -4223.0
+[136/378] tuned/sac:18400000 red_crash winner=blue atk 0/0 margin 4907.8
+[137/378] tuned/sac:18400000 timeout winner=blue atk 0/0 margin 3429.4
+[138/378] tuned/sac:18400000 red_crash winner=blue atk 0/0 margin 6354.8
+[139/378] tuned/sac:19200000 timeout winner=blue atk 36/0 margin 9367.6
+[140/378] tuned/sac:19200000 timeout winner=red atk 0/0 margin -3094.3
+[141/378] tuned/sac:19200000 timeout winner=blue atk 0/0 margin 4542.9
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[142/378] tuned/sac:19200000 blue_kill winner=blue atk 180/0 margin 74100.6
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[143/378] tuned/sac:19200000 timeout winner=blue atk 15/0 margin 10240.3
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[144/378] tuned/sac:19200000 timeout winner=blue atk 0/0 margin 5771.0
+[145/378] tuned/sac:20000000 red_crash winner=blue atk 0/0 margin 4349.4
+[146/378] tuned/sac:20000000 blue_kill winner=blue atk 180/0 margin 78456.8
+[147/378] tuned/sac:20000000 timeout winner=blue atk 0/0 margin 5483.7
+[148/378] tuned/sac:20000000 red_crash winner=blue atk 0/0 margin -2817.0
+[149/378] tuned/sac:20000000 timeout winner=red atk 0/0 margin -4387.7
+[150/378] tuned/sac:20000000 timeout winner=blue atk 0/0 margin 6786.6
+[151/378] tuned/sac:20800000 red_crash winner=blue atk 0/0 margin 5527.7
+[152/378] tuned/sac:20800000 timeout winner=blue atk 0/0 margin 3071.1
+[153/378] tuned/sac:20800000 timeout winner=blue atk 0/0 margin 2886.4
+[154/378] tuned/sac:20800000 timeout winner=blue atk 0/0 margin 3071.9
+[155/378] tuned/sac:20800000 timeout winner=blue atk 0/7 margin 102.3
+[156/378] tuned/sac:20800000 timeout winner=red atk 0/11 margin -283.4
+[157/378] tuned/sac:21600000 timeout winner=blue atk 0/0 margin 3077.9
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[158/378] tuned/sac:21600000 red_crash winner=blue atk 0/0 margin 1871.1
+[159/378] tuned/sac:21600000 timeout winner=blue atk 0/0 margin 3082.2
+[160/378] tuned/sac:21600000 timeout winner=blue atk 0/0 margin 2930.3
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[161/378] tuned/sac:21600000 timeout winner=red atk 0/0 margin -6244.8
+[162/378] tuned/sac:21600000 timeout winner=blue atk 0/0 margin 3090.5
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[163/378] tuned/sac:22400000 timeout winner=blue atk 0/0 margin 2562.6
+[164/378] tuned/sac:22400000 red_crash winner=blue atk 0/0 margin 454.7
+[165/378] tuned/sac:22400000 timeout winner=red atk 0/12 margin -1610.1
+[166/378] tuned/sac:22400000 timeout winner=red atk 0/0 margin -3405.6
+[167/378] tuned/sac:22400000 timeout winner=red atk 0/0 margin -6588.4
+[168/378] tuned/sac:22400000 timeout winner=blue atk 34/4 margin 3856.1
+[169/378] tuned/sac:23200000 red_crash winner=blue atk 0/0 margin 3227.1
+[170/378] tuned/sac:23200000 timeout winner=red atk 15/35 margin -6326.8
+[171/378] tuned/sac:23200000 blue_kill winner=blue atk 180/0 margin 82792.9
+[172/378] tuned/sac:23200000 blue_kill winner=blue atk 180/0 margin 67751.1
+[173/378] tuned/sac:23200000 blue_kill winner=blue atk 180/0 margin 84092.8
+[174/378] tuned/sac:23200000 blue_kill winner=blue atk 180/0 margin 74885.3
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[175/378] tuned/sac:24000000 red_crash winner=blue atk 0/0 margin 711.3
+[176/378] tuned/sac:24000000 red_crash winner=blue atk 0/0 margin 1672.7
+[177/378] tuned/sac:24000000 red_crash winner=blue atk 0/0 margin 355.7
+[178/378] tuned/sac:24000000 timeout winner=red atk 0/11 margin -4090.6
+[179/378] tuned/sac:24000000 red_crash winner=blue atk 0/0 margin -3938.0
+[180/378] tuned/sac:24000000 timeout winner=red atk 0/0 margin -3128.4
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[181/378] tuned/sac:24800000 blue_kill winner=blue atk 180/0 margin 71772.1
+[182/378] tuned/sac:24800000 timeout winner=red atk 0/0 margin -4764.1
+[183/378] tuned/sac:24800000 red_crash winner=blue atk 0/0 margin 1076.9
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[184/378] tuned/sac:24800000 timeout winner=red atk 0/0 margin -1040.9
+[185/378] tuned/sac:24800000 timeout winner=red atk 0/0 margin -4023.1
+[186/378] tuned/sac:24800000 timeout winner=red atk 0/0 margin -3826.7
+[187/378] tuned/sac:25600000 timeout winner=blue atk 0/0 margin 3253.4
+[188/378] tuned/sac:25600000 timeout winner=red atk 0/0 margin -292.9
+[189/378] tuned/sac:25600000 timeout winner=blue atk 0/0 margin 3224.1
+[190/378] tuned/sac:25600000 timeout winner=blue atk 0/0 margin 2074.7
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[191/378] tuned/sac:25600000 timeout winner=red atk 0/33 margin -15967.4
+[192/378] tuned/sac:25600000 timeout winner=red atk 15/0 margin -941.0
+[193/378] tuned/sac:26400000 timeout winner=blue atk 169/0 margin 30873.0
+[194/378] tuned/sac:26400000 timeout winner=red atk 0/0 margin -9032.4
+[195/378] tuned/sac:26400000 timeout winner=blue atk 0/0 margin 3646.2
+[196/378] tuned/sac:26400000 timeout winner=blue atk 0/0 margin 1185.6
+[197/378] tuned/sac:26400000 timeout winner=red atk 0/0 margin -4501.5
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[198/378] tuned/sac:26400000 timeout winner=red atk 0/0 margin -12464.4
+[199/378] tuned/sac:27200000 red_crash winner=blue atk 0/0 margin 404.6
+[200/378] tuned/sac:27200000 red_crash winner=blue atk 0/0 margin 484.0
+[201/378] tuned/sac:27200000 timeout winner=blue atk 0/0 margin 3184.0
+[202/378] tuned/sac:27200000 red_crash winner=blue atk 0/0 margin 412.6
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[203/378] tuned/sac:27200000 red_crash winner=blue atk 0/0 margin 2758.3
+[204/378] tuned/sac:27200000 timeout winner=blue atk 0/0 margin 3068.3
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[205/378] tuned/sac:28000000 timeout winner=blue atk 0/0 margin 3147.1
+[206/378] tuned/sac:28000000 timeout winner=blue atk 0/0 margin 3103.6
+[207/378] tuned/sac:28000000 red_crash winner=blue atk 0/0 margin 1070.3
+[208/378] tuned/sac:28000000 timeout winner=blue atk 0/0 margin 3025.3
+[209/378] tuned/sac:28000000 red_crash winner=blue atk 0/0 margin 554.0
+[210/378] tuned/sac:28000000 timeout winner=blue atk 0/0 margin 3063.4
+[211/378] tuned/sac:28800000 timeout winner=blue atk 0/0 margin 3013.6
+[212/378] tuned/sac:28800000 timeout winner=blue atk 0/0 margin 3072.8
+[213/378] tuned/sac:28800000 red_crash winner=blue atk 0/0 margin 1723.1
+[214/378] tuned/sac:28800000 timeout winner=blue atk 0/0 margin 3971.1
+[215/378] tuned/sac:28800000 timeout winner=blue atk 0/0 margin 3227.3
+[216/378] tuned/sac:28800000 timeout winner=blue atk 17/0 margin 5752.1
+[217/378] tuned/sac:29600000 timeout winner=blue atk 0/0 margin 2520.5
+[218/378] tuned/sac:29600000 timeout winner=blue atk 0/0 margin 1677.5
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[219/378] tuned/sac:29600000 timeout winner=blue atk 0/0 margin 3100.8
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[220/378] tuned/sac:29600000 timeout winner=blue atk 0/0 margin 4161.1
+[221/378] tuned/sac:29600000 timeout winner=blue atk 0/0 margin 5496.1
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[222/378] tuned/sac:30400000 timeout winner=blue atk 0/0 margin 6336.6
+[223/378] tuned/sac:29600000 timeout winner=blue atk 0/0 margin 4922.9
+[224/378] tuned/sac:30400000 timeout winner=blue atk 26/0 margin 5091.4
+[225/378] tuned/sac:30400000 red_crash winner=blue atk 0/0 margin 9238.3
+[226/378] tuned/sac:30400000 timeout winner=blue atk 0/0 margin 1174.6
+[227/378] tuned/sac:30400000 timeout winner=blue atk 0/0 margin 2778.2
+[228/378] tuned/sac:31200000 red_crash winner=blue atk 0/0 margin 699.7
+[229/378] tuned/sac:30400000 timeout winner=blue atk 0/0 margin 6002.2
+[230/378] tuned/sac:31200000 timeout winner=blue atk 0/0 margin 6073.2
+[231/378] tuned/sac:31200000 collision winner=blue atk 0/0 margin 7791.1
+[232/378] tuned/sac:31200000 red_crash winner=blue atk 0/0 margin 1020.8
+[233/378] tuned/sac:31200000 timeout winner=blue atk 0/0 margin 9328.3
+[234/378] tuned/sac:31200000 timeout winner=blue atk 0/0 margin 4023.7
+[235/378] tuned/sac:32000000 timeout winner=blue atk 0/0 margin 2613.2
+[236/378] tuned/sac:32000000 timeout winner=blue atk 0/0 margin 2083.5
+[237/378] tuned/sac:32000000 timeout winner=blue atk 0/0 margin 3352.5
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[238/378] tuned/sac:32000000 timeout winner=blue atk 0/0 margin 2596.8
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[239/378] tuned/sac:32000000 timeout winner=blue atk 43/0 margin 11639.4
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[240/378] tuned/sac:32000000 timeout winner=blue atk 0/0 margin 1527.6
+[241/378] tuned/sac:32800000 red_crash winner=blue atk 0/0 margin 1997.0
+[242/378] tuned/sac:32800000 red_crash winner=blue atk 0/0 margin 1161.6
+[243/378] tuned/sac:32800000 timeout winner=blue atk 0/0 margin 5509.4
+[244/378] tuned/sac:32800000 timeout winner=blue atk 0/0 margin 2805.0
+[245/378] tuned/sac:32800000 timeout winner=blue atk 0/0 margin 2711.0
+[246/378] tuned/sac:33600000 red_crash winner=blue atk 0/0 margin 1040.2
+[247/378] tuned/sac:32800000 timeout winner=blue atk 0/0 margin 2110.3
+[248/378] tuned/sac:33600000 red_crash winner=blue atk 0/0 margin 1237.9
+[249/378] tuned/sac:33600000 timeout winner=blue atk 0/0 margin 8594.0
+[250/378] tuned/sac:33600000 red_crash winner=blue atk 0/0 margin 840.2
+[251/378] tuned/sac:33600000 red_crash winner=blue atk 0/0 margin 3227.8
+[252/378] tuned/sac:34400000 red_crash winner=blue atk 0/0 margin 710.2
+[253/378] tuned/sac:34400000 red_crash winner=blue atk 0/0 margin -1161.5
+[254/378] tuned/sac:33600000 timeout winner=blue atk 0/0 margin 3935.8
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[255/378] tuned/sac:34400000 red_crash winner=blue atk 0/0 margin 599.1
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[256/378] tuned/sac:34400000 red_crash winner=blue atk 0/0 margin 540.7
+[257/378] tuned/sac:34400000 red_crash winner=blue atk 0/0 margin 1420.6
+[258/378] tuned/sac:34400000 red_crash winner=blue atk 0/0 margin 458.4
+[259/378] tuned/sac:35200000 red_crash winner=blue atk 0/0 margin 744.6
+[260/378] tuned/sac:35200000 red_crash winner=blue atk 0/0 margin 5652.8
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[261/378] tuned/sac:35200000 timeout winner=blue atk 0/0 margin 8391.7
+[262/378] tuned/sac:35200000 red_crash winner=blue atk 0/0 margin 2030.7
+[263/378] tuned/sac:35200000 red_crash winner=blue atk 0/0 margin 1436.3
+[264/378] tuned/sac:36000000 timeout winner=blue atk 0/0 margin 2835.9
+[265/378] tuned/sac:36000000 timeout winner=blue atk 0/0 margin 2854.0
+[266/378] tuned/sac:35200000 red_crash winner=blue atk 46/0 margin 15002.5
+[267/378] tuned/sac:36000000 red_crash winner=blue atk 0/0 margin 2483.1
+[268/378] tuned/sac:36000000 red_crash winner=blue atk 0/0 margin 2723.0
+[269/378] tuned/sac:36000000 red_crash winner=blue atk 0/0 margin 3967.5
+[270/378] tuned/sac:36000000 timeout winner=blue atk 0/4 margin 1577.6
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[271/378] tuned/sac:36800000 timeout winner=blue atk 0/0 margin 3149.1
+[272/378] tuned/sac:36800000 red_crash winner=blue atk 0/0 margin 2751.1
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[273/378] tuned/sac:36800000 red_crash winner=blue atk 0/0 margin 1241.8
+[274/378] tuned/sac:36800000 red_crash winner=blue atk 0/0 margin 1718.7
+[275/378] tuned/sac:36800000 timeout winner=blue atk 0/0 margin 2798.1
+[276/378] tuned/sac:37600000 timeout winner=red atk 0/0 margin -793.4
+[277/378] tuned/sac:36800000 timeout winner=blue atk 0/0 margin 2887.9
+[278/378] tuned/sac:37600000 timeout winner=red atk 0/0 margin -10734.4
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[279/378] tuned/sac:37600000 timeout winner=blue atk 47/0 margin 10690.8
+[280/378] tuned/sac:37600000 timeout winner=blue atk 0/0 margin 1237.5
+[281/378] tuned/sac:37600000 collision winner=blue atk 0/0 margin 1654.2
+[282/378] tuned/sac:37600000 red_crash winner=blue atk 0/0 margin -273.4
+[283/378] tuned/sac:38400000 timeout winner=blue atk 0/0 margin 578.4
+[284/378] tuned/sac:38400000 timeout winner=blue atk 0/0 margin 1809.4
+[285/378] tuned/sac:38400000 timeout winner=blue atk 0/0 margin 2929.2
+[286/378] tuned/sac:38400000 timeout winner=blue atk 0/0 margin 2260.5
+[287/378] tuned/sac:38400000 timeout winner=red atk 0/0 margin -3931.1
+[288/378] tuned/sac:38400000 red_crash winner=blue atk 0/0 margin 1824.6
+[289/378] tuned/sac:39200000 timeout winner=red atk 0/0 margin -10480.5
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[290/378] tuned/sac:39200000 timeout winner=red atk 0/0 margin -3000.0
+[291/378] tuned/sac:39200000 timeout winner=blue atk 2/4 margin 1115.5
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[292/378] tuned/sac:39200000 timeout winner=blue atk 0/0 margin 6430.8
+[293/378] tuned/sac:39200000 timeout winner=blue atk 0/0 margin 5387.1
+[294/378] tuned/sac:40000000 red_crash winner=blue atk 0/0 margin 458.8
+[295/378] tuned/sac:39200000 timeout winner=red atk 0/0 margin -3194.8
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[296/378] tuned/sac:40000000 red_crash winner=blue atk 0/0 margin 483.8
+[297/378] tuned/sac:40000000 timeout winner=blue atk 0/0 margin 1593.1
+[298/378] tuned/sac:40000000 timeout winner=blue atk 0/0 margin 2304.8
+[299/378] tuned/sac:40000000 timeout winner=blue atk 0/0 margin 2156.7
+[300/378] tuned/sac:40800000 red_crash winner=blue atk 0/0 margin 228.4
+[301/378] tuned/sac:40000000 timeout winner=blue atk 0/0 margin 1701.0
+[302/378] tuned/sac:40800000 timeout winner=blue atk 0/0 margin 2847.9
+[303/378] tuned/sac:40800000 red_crash winner=blue atk 0/0 margin 228.1
+[304/378] tuned/sac:40800000 red_crash winner=blue atk 0/0 margin 1531.8
+[305/378] tuned/sac:40800000 timeout winner=blue atk 0/0 margin 2896.8
+[306/378] tuned/sac:41600000 red_crash winner=blue atk 0/0 margin 323.7
+[307/378] tuned/sac:40800000 timeout winner=blue atk 0/0 margin 1840.3
+[308/378] tuned/sac:41600000 red_crash winner=blue atk 0/0 margin 1908.7
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[309/378] tuned/sac:41600000 red_crash winner=blue atk 0/0 margin 1456.2
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[310/378] tuned/sac:41600000 red_crash winner=blue atk 0/0 margin 636.7
+[311/378] tuned/sac:42400000 red_crash winner=blue atk 0/0 margin 247.0
+[312/378] tuned/sac:42400000 red_crash winner=blue atk 0/0 margin 305.5
+[313/378] tuned/sac:41600000 timeout winner=blue atk 0/0 margin 2993.1
+[314/378] tuned/sac:41600000 red_crash winner=blue atk 0/0 margin 2241.1
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[315/378] tuned/sac:42400000 red_crash winner=blue atk 0/0 margin 490.8
+[316/378] tuned/sac:42400000 red_crash winner=blue atk 0/0 margin 425.5
+[317/378] tuned/sac:42400000 red_crash winner=blue atk 0/0 margin 484.8
+[318/378] tuned/sac:42400000 timeout winner=blue atk 0/0 margin 2680.5
+[319/378] tuned/sac:43200000 red_crash winner=blue atk 0/0 margin 900.9
+[320/378] tuned/sac:43200000 timeout winner=blue atk 0/0 margin 3208.4
+[321/378] tuned/sac:43200000 timeout winner=blue atk 0/0 margin 3177.1
+[322/378] tuned/sac:43200000 timeout winner=blue atk 0/0 margin 2430.5
+[323/378] tuned/sac:43200000 timeout winner=blue atk 0/0 margin 2656.7
+[324/378] tuned/sac:43200000 timeout winner=blue atk 0/0 margin 2563.5
+[325/378] tuned/sac:44000000 timeout winner=blue atk 0/0 margin 3055.5
+[326/378] tuned/sac:44000000 timeout winner=blue atk 0/0 margin 2177.7
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[327/378] tuned/sac:44000000 timeout winner=blue atk 0/0 margin 2895.8
+[328/378] tuned/sac:44000000 timeout winner=blue atk 0/0 margin 994.6
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[329/378] tuned/sac:44800000 red_crash winner=blue atk 0/0 margin 109.9
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[330/378] tuned/sac:44000000 timeout winner=blue atk 0/0 margin 2498.7
+[331/378] tuned/sac:44800000 red_crash winner=blue atk 0/0 margin 902.5
+[332/378] tuned/sac:44000000 timeout winner=blue atk 0/0 margin 3108.2
+[333/378] tuned/sac:44800000 red_crash winner=blue atk 0/0 margin 1921.5
+[334/378] tuned/sac:44800000 red_crash winner=blue atk 0/0 margin 292.5
+[335/378] tuned/sac:44800000 red_crash winner=blue atk 0/0 margin 979.7
+[336/378] tuned/sac:45600000 red_crash winner=blue atk 0/0 margin 379.9
+[337/378] tuned/sac:44800000 timeout winner=blue atk 14/0 margin 8783.5
+[338/378] tuned/sac:45600000 timeout winner=blue atk 32/0 margin 12249.7
+[339/378] tuned/sac:45600000 timeout winner=blue atk 0/0 margin 5912.6
+[340/378] tuned/sac:45600000 red_crash winner=blue atk 0/0 margin 1610.3
+[341/378] tuned/sac:46400000 red_crash winner=blue atk 0/0 margin 83.9
+[342/378] tuned/sac:45600000 red_crash winner=blue atk 0/0 margin -739.5
+[343/378] tuned/sac:46400000 red_crash winner=blue atk 0/0 margin 84.3
+[344/378] tuned/sac:46400000 red_crash winner=blue atk 0/0 margin 87.9
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[345/378] tuned/sac:46400000 red_crash winner=blue atk 0/0 margin 316.3
+[346/378] tuned/sac:45600000 timeout winner=blue atk 41/0 margin 10140.3
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[347/378] tuned/sac:47200000 red_crash winner=blue atk 0/0 margin 58.5
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[348/378] tuned/sac:46400000 timeout winner=blue atk 0/0 margin 4246.7
+[349/378] tuned/sac:47200000 red_crash winner=blue atk 0/0 margin 85.2
+[350/378] tuned/sac:47200000 red_crash winner=blue atk 0/0 margin 63.1
+[351/378] tuned/sac:46400000 timeout winner=blue atk 0/0 margin 2653.2
+[352/378] tuned/sac:47200000 red_crash winner=blue atk 0/0 margin 437.0
+[353/378] tuned/sac:47200000 timeout winner=blue atk 0/0 margin 2020.9
+[354/378] tuned/sac:48000000 red_crash winner=blue atk 0/0 margin 518.0
+[355/378] tuned/sac:47200000 timeout winner=blue atk 86/0 margin 19872.6
+[356/378] tuned/sac:48000000 timeout winner=blue atk 0/0 margin 1315.4
+[357/378] tuned/sac:48000000 red_crash winner=blue atk 0/0 margin 579.1
+[358/378] tuned/sac:48000000 timeout winner=blue atk 0/21 margin 1481.2
+[359/378] tuned/sac:48000000 timeout winner=red atk 0/0 margin -14397.1
+[360/378] tuned/sac:48800000 blue_kill winner=blue atk 180/0 margin 78030.5
+[361/378] tuned/sac:48000000 timeout winner=blue atk 0/0 margin 3495.3
+[362/378] tuned/sac:48800000 red_crash winner=blue atk 0/0 margin 2221.0
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[363/378] tuned/sac:48800000 timeout winner=blue atk 1/0 margin 9730.3
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[364/378] tuned/sac:48800000 red_crash winner=blue atk 0/0 margin 2155.2
+[365/378] tuned/sac:48800000 timeout winner=blue atk 0/0 margin 1918.9
+[366/378] tuned/sac:48800000 red_crash winner=blue atk 0/0 margin 326.3
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+[367/378] tuned/sac:49600000 timeout winner=blue atk 0/0 margin 3037.9
+[368/378] tuned/sac:49600000 blue_kill winner=blue atk 180/0 margin 63038.6
+[369/378] tuned/sac:49600000 timeout winner=blue atk 0/0 margin 3248.8
+[370/378] tuned/sac:49600000 red_crash winner=blue atk 0/0 margin 1212.6
+[371/378] tuned/sac:49600000 timeout winner=blue atk 0/0 margin 2544.1
+[372/378] tuned/sac:49600000 timeout winner=blue atk 0/0 margin 985.3
+[373/378] tuned/sac:50400000 timeout winner=blue atk 7/0 margin 4974.2
+[374/378] tuned/sac:50400000 red_crash winner=blue atk 0/0 margin 2772.2
+[375/378] tuned/sac:50400000 timeout winner=blue atk 0/0 margin 5693.3
+[376/378] tuned/sac:50400000 red_crash winner=blue atk 0/0 margin 773.9
+[377/378] tuned/sac:50400000 timeout winner=blue atk 0/0 margin 1646.2
+[378/378] tuned/sac:50400000 timeout winner=blue atk 13/0 margin 3874.7
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+
+opp      policy      n  win loss draw  atkB  atkR  margin   minAGLm
+sac:10400000 tuned       6    6    0    0    70     0   12064      1471
+sac:11200000 tuned       6    6    0    0     0     0    1661       796
+sac:12000000 tuned       6    6    0    0    30     0   17064      1658
+sac:12800000 tuned       6    5    1    0     0     0    1801      4009
+sac:13600000 tuned       6    6    0    0     0     0    1325      1908
+sac:14400000 tuned       6    5    1    0     4     0    4150       904
+sac:15200000 tuned       6    6    0    0    34     0   18493       735
+sac:1600000 tuned       6    6    0    0     0     0     570      4008
+sac:16000000 tuned       6    6    0    0     0     0    1990       883
+sac:16800000 tuned       6    5    1    0    76     0   32099       773
+sac:17600000 tuned       6    6    0    0    30     0   18479       697
+sac:18400000 tuned       6    5    1    0    50     5   11808       771
+sac:19200000 tuned       6    5    1    0    38     0   16821       859
+sac:20000000 tuned       6    5    1    0    30     0   14645      1093
+sac:20800000 tuned       6    5    1    0     0     3    2396       785
+sac:21600000 tuned       6    5    1    0     0     0    1301       796
+sac:22400000 tuned       6    3    3    0     6     3    -788       795
+sac:23200000 tuned       6    5    1    0   122     6   51070       794
+sac:2400000 tuned       6    6    0    0     1     0    1691      3158
+sac:24000000 tuned       6    4    2    0     0     2   -1403      3745
+sac:24800000 tuned       6    2    4    0    30     0    9866      1544
+sac:25600000 tuned       6    3    3    0     2     6   -1442       794
+sac:26400000 tuned       6    3    3    0    28     0    1618       795
+sac:27200000 tuned       6    6    0    0     0     0    1719       942
+sac:28000000 tuned       6    6    0    0     0     0    2327       794
+sac:28800000 tuned       6    6    0    0     3     0    3460      1261
+sac:29600000 tuned       6    6    0    0     0     0    3646       741
+sac:30400000 tuned       6    6    0    0     4     0    5104       730
+sac:31200000 tuned       6    6    0    0     0     0    4823       790
+sac:3200000 tuned       6    6    0    0     0     0     756      1166
+sac:32000000 tuned       6    6    0    0     7     0    3969       787
+sac:32800000 tuned       6    6    0    0     0     0    2716       920
+sac:33600000 tuned       6    6    0    0     0     0    3146       797
+sac:34400000 tuned       6    6    0    0     0     0     428      2784
+sac:35200000 tuned       6    6    0    0     8     0    5543       795
+sac:36000000 tuned       6    6    0    0     0     1    2740       793
+sac:36800000 tuned       6    6    0    0     0     0    2424       794
+sac:37600000 tuned       6    4    2    0     8     0     297      1326
+sac:38400000 tuned       6    5    1    0     0     0     912      1513
+sac:39200000 tuned       6    3    3    0     0     1    -624       772
+sac:4000000 tuned       6    6    0    0     0     0     562      1428
+sac:40000000 tuned       6    6    0    0     0     0    1450       788
+sac:40800000 tuned       6    6    0    0     0     0    1596       794
+sac:41600000 tuned       6    6    0    0     0     0    1593       795
+sac:42400000 tuned       6    6    0    0     0     0     772       788
+sac:43200000 tuned       6    6    0    0     0     0    2490       794
+sac:44000000 tuned       6    6    0    0     0     0    2455       795
+sac:44800000 tuned       6    6    0    0     2     0    2165       991
+sac:45600000 tuned       6    6    0    0    12     0    4926       778
+sac:46400000 tuned       6    6    0    0     0     0    1245       744
+sac:47200000 tuned       6    6    0    0    14     0    3756      1454
+sac:4800000 tuned       6    6    0    0    30     0   15526      2856
+sac:48000000 tuned       6    5    1    0     0     4   -1168       743
+sac:48800000 tuned       6    6    0    0    30     0   15730       986
+sac:49600000 tuned       6    6    0    0    30     0   12345       800
+sac:50400000 tuned       6    6    0    0     3     0    3289       778
+sac:5600000 tuned       6    6    0    0     0     0    1250      2200
+sac:6400000 tuned       6    4    2    0     0     0     774       748
+sac:7200000 tuned       6    6    0    0     0     0    1988      1094
+sac:800000 tuned       6    6    0    0     0     0     248      3452
+sac:8000000 tuned       6    6    0    0    30     0   14068      1765
+sac:8800000 tuned       6    6    0    0    39     0   18514      2070
+sac:9600000 tuned       6    5    1    0     2     0    1787      1801

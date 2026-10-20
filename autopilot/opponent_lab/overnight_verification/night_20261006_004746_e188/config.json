@@ -1,0 +1,30 @@
+{
+  "job_id": "night_20261006_004746_e188",
+  "job_dir": "E:\\ai_pilot\\autopilot\\opponent_lab\\overnight_verification\\night_20261006_004746_e188",
+  "status": "preparing",
+  "phase": "準備夜間作業",
+  "started_epoch": 1791218866.72613,
+  "deadline_epoch": 1791219226.72613,
+  "training_deadline_epoch": 1791219166.72613,
+  "deadline_taipei": "2026-10-06T00:53:46.726130+08:00",
+  "step_budget": 256,
+  "segment_steps": 128,
+  "new_steps": 0,
+  "next_evaluation": 500000,
+  "retries": 0,
+  "stages": [],
+  "evaluations": [],
+  "child": null,
+  "supervisor": null,
+  "publish": false,
+  "smoke": true,
+  "source_sha256": {
+    "train_opponents.py": "a75973e230080b386213096a51101b7a7ec70818d956caa1d8a54b72d4652f1c",
+    "duel_lab.py": "9f358a7a04b09728199ac33de120146e3aa0bcbb37fe18dbae2a2b5a7cfcb9a6",
+    "training_control.py": "66c6b556d0899b3765834d74e9e6fe3f88dec38f3aa08430a9a7ee346dec7951",
+    "overnight.py": "5be5faa7bb71015f7810112f5c902a360c4537be49f6afe234802dc4a36536cc",
+    "check_bundle.py": "9c65ea09fb2fe4405cc9d84f6e0f6aed4b0fe274badbc01c4d76acd3fb14e89e"
+  },
+  "official_validation": false,
+  "poll_seconds": 0.5
+}

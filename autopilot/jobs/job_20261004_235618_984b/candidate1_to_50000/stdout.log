@@ -1,0 +1,1155 @@
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+藍色＝你；紅色＝mixed 對手。
+輸出資料夾：E:\ai_pilot\autopilot\jobs\job_20261004_235618_984b\candidate1_to_50000
+接續第三版模型與 replay，保留既有訓練狀態。
+Logging to E:\ai_pilot\autopilot\jobs\job_20261004_235618_984b\candidate1_to_50000\tensorboard\SAC_0
+進度 20002/50000；階段 0；SAC 更新 624
+進度 20530/50000；階段 0；SAC 更新 657
+進度 21090/50000；階段 0；SAC 更新 692
+----------------------------------------------
+| episode/                        |          |
+|    attack_seconds_last100       | 3        |
+|    crash_rate_last100           | 0        |
+|    enemy_attack_seconds_last100 | 0        |
+|    guard_fraction_last100       | 0        |
+|    kill_rate_last100            | 1        |
+|    min_altitude_m_last100       | 3.08e+03 |
+|    over_9g_seconds_last100      | 0        |
+|    sample_count                 | 1        |
+|    shot_down_rate_last100       | 0        |
+|    survival_rate_last100        | 1        |
+|    timeout_rate_last100         | 0        |
+| opponent/                       |          |
+|    maneuver/attack_seconds      | 3        |
+|    maneuver/is_kill             | 1        |
+|    maneuver/own_crash           | 0        |
+|    maneuver/sample_count        | 1        |
+|    maneuver/survived            | 1        |
+| rollout/                        |          |
+|    ep_len_mean                  | 813      |
+|    ep_rew_mean                  | 42.5     |
+| time/                           |          |
+|    episodes                     | 24       |
+|    fps                          | 105      |
+|    time_elapsed                 | 11       |
+|    total_timesteps              | 21236    |
+| train/                          |          |
+|    actor_loss                   | -0.193   |
+|    critic_loss                  | 0.00251  |
+|    ent_coef                     | 0.001    |
+|    learning_rate                | 5e-05    |
+|    n_updates                    | 701      |
+----------------------------------------------
+進度 21698/50000；階段 0；SAC 更新 730
+----------------------------------------------
+| episode/                        |          |
+|    attack_seconds_last100       | 3        |
+|    crash_rate_last100           | 0        |
+|    enemy_attack_seconds_last100 | 0        |
+|    guard_fraction_last100       | 0        |
+|    kill_rate_last100            | 1        |
+|    min_altitude_m_last100       | 3.07e+03 |
+|    over_9g_seconds_last100      | 0        |
+|    sample_count                 | 2        |
+|    shot_down_rate_last100       | 0        |
+|    survival_rate_last100        | 1        |
+|    timeout_rate_last100         | 0        |
+| opponent/                       |          |
+|    easy/attack_seconds          | 3        |
+|    easy/is_kill                 | 1        |
+|    easy/own_crash               | 0        |
+|    easy/sample_count            | 1        |
+|    easy/survived                | 1        |
+|    maneuver/attack_seconds      | 3        |
+|    maneuver/is_kill             | 1        |
+|    maneuver/own_crash           | 0        |
+|    maneuver/sample_count        | 1        |
+|    maneuver/survived            | 1        |
+| rollout/                        |          |
+|    ep_len_mean                  | 816      |
+|    ep_rew_mean                  | 42.5     |
+| time/                           |          |
+|    episodes                     | 25       |
+|    fps                          | 109      |
+|    time_elapsed                 | 16       |
+|    total_timesteps              | 21806    |
+| train/                          |          |
+|    actor_loss                   | -0.189   |
+|    critic_loss                  | 3.32     |
+|    ent_coef                     | 0.001    |
+|    learning_rate                | 5e-05    |
+|    n_updates                    | 736      |
+----------------------------------------------
+進度 22302/50000；階段 0；SAC 更新 767
+----------------------------------------------
+| episode/                        |          |
+|    attack_seconds_last100       | 3        |
+|    crash_rate_last100           | 0        |
+|    enemy_attack_seconds_last100 | 0        |
+|    guard_fraction_last100       | 0        |
+|    kill_rate_last100            | 1        |
+|    min_altitude_m_last100       | 3.5e+03  |
+|    over_9g_seconds_last100      | 0        |
+|    sample_count                 | 3        |
+|    shot_down_rate_last100       | 0        |
+|    survival_rate_last100        | 1        |
+|    timeout_rate_last100         | 0        |
+| opponent/                       |          |
+|    easy/attack_seconds          | 3        |
+|    easy/is_kill                 | 1        |
+|    easy/own_crash               | 0        |
+|    easy/sample_count            | 2        |
+|    easy/survived                | 1        |
+|    maneuver/attack_seconds      | 3        |
+|    maneuver/is_kill             | 1        |
+|    maneuver/own_crash           | 0        |
+|    maneuver/sample_count        | 1        |
+|    maneuver/survived            | 1        |
+| rollout/                        |          |
+|    ep_len_mean                  | 811      |
+|    ep_rew_mean                  | 42.5     |
+| time/                           |          |
+|    episodes                     | 26       |
+|    fps                          | 112      |
+|    time_elapsed                 | 22       |
+|    total_timesteps              | 22566    |
+| train/                          |          |
+|    actor_loss                   | -0.209   |
+|    critic_loss                  | 0.00187  |
+|    ent_coef                     | 0.001    |
+|    learning_rate                | 5e-05    |
+|    n_updates                    | 784      |
+----------------------------------------------
+進度 22884/50000；階段 0；SAC 更新 804
+進度 23420/50000；階段 0；SAC 更新 837
+----------------------------------------------
+| episode/                        |          |
+|    attack_seconds_last100       | 3        |
+|    crash_rate_last100           | 0        |
+|    enemy_attack_seconds_last100 | 0        |
+|    guard_fraction_last100       | 0        |
+|    kill_rate_last100            | 1        |
+|    min_altitude_m_last100       | 3.86e+03 |
+|    over_9g_seconds_last100      | 0        |
+|    sample_count                 | 4        |
+|    shot_down_rate_last100       | 0        |
+|    survival_rate_last100        | 1        |
+|    timeout_rate_last100         | 0        |
+| opponent/                       |          |
+|    easy/attack_seconds          | 3        |
+|    easy/is_kill                 | 1        |
+|    easy/own_crash               | 0        |
+|    easy/sample_count            | 3        |
+|    easy/survived                | 1        |
+|    maneuver/attack_seconds      | 3        |
+|    maneuver/is_kill             | 1        |
+|    maneuver/own_crash           | 0        |
+|    maneuver/sample_count        | 1        |
+|    maneuver/survived            | 1        |
+| rollout/                        |          |
+|    ep_len_mean                  | 811      |
+|    ep_rew_mean                  | 42.5     |
+| time/                           |          |
+|    episodes                     | 27       |
+|    fps                          | 111      |
+|    time_elapsed                 | 31       |
+|    total_timesteps              | 23446    |
+| train/                          |          |
+|    actor_loss                   | -0.204   |
+|    critic_loss                  | 0.000959 |
+|    ent_coef                     | 0.001    |
+|    learning_rate                | 5e-05    |
+|    n_updates                    | 839      |
+----------------------------------------------
+進度 23910/50000；階段 0；SAC 更新 868
+進度 24422/50000；階段 0；SAC 更新 900
+----------------------------------------------
+| episode/                        |          |
+|    attack_seconds_last100       | 3        |
+|    crash_rate_last100           | 0        |
+|    enemy_attack_seconds_last100 | 0        |
+|    guard_fraction_last100       | 0        |
+|    kill_rate_last100            | 1        |
+|    min_altitude_m_last100       | 3.77e+03 |
+|    over_9g_seconds_last100      | 0        |
+|    sample_count                 | 5        |
+|    shot_down_rate_last100       | 0        |
+|    survival_rate_last100        | 1        |
+|    timeout_rate_last100         | 0        |
+| opponent/                       |          |
+|    easy/attack_seconds          | 3        |
+|    easy/is_kill                 | 1        |
+|    easy/own_crash               | 0        |
+|    easy/sample_count            | 4        |
+|    easy/survived                | 1        |
+|    maneuver/attack_seconds      | 3        |
+|    maneuver/is_kill             | 1        |
+|    maneuver/own_crash           | 0        |
+|    maneuver/sample_count        | 1        |
+|    maneuver/survived            | 1        |
+| rollout/                        |          |
+|    ep_len_mean                  | 821      |
+|    ep_rew_mean                  | 42.6     |
+| time/                           |          |
+|    episodes                     | 28       |
+|    fps                          | 108      |
+|    time_elapsed                 | 43       |
+|    total_timesteps              | 24744    |
+| train/                          |          |
+|    actor_loss                   | -0.227   |
+|    critic_loss                  | 0.00118  |
+|    ent_coef                     | 0.001    |
+|    learning_rate                | 5e-05    |
+|    n_updates                    | 920      |
+----------------------------------------------
+進度 24928/50000；階段 0；SAC 更新 931
+----------------------------------------------
+| episode/                        |          |
+|    attack_seconds_last100       | 3        |
+|    crash_rate_last100           | 0        |
+|    enemy_attack_seconds_last100 | 0        |
+|    guard_fraction_last100       | 0        |
+|    kill_rate_last100            | 1        |
+|    min_altitude_m_last100       | 3.96e+03 |
+|    over_9g_seconds_last100      | 0        |
+|    sample_count                 | 6        |
+|    shot_down_rate_last100       | 0        |
+|    survival_rate_last100        | 1        |
+|    timeout_rate_last100         | 0        |
+| opponent/                       |          |
+|    easy/attack_seconds          | 3        |
+|    easy/is_kill                 | 1        |
+|    easy/own_crash               | 0        |
+|    easy/sample_count            | 4        |
+|    easy/survived                | 1        |
+|    maneuver/attack_seconds      | 3        |
+|    maneuver/is_kill             | 1        |
+|    maneuver/own_crash           | 0        |
+|    maneuver/sample_count        | 2        |
+|    maneuver/survived            | 1        |
+| rollout/                        |          |
+|    ep_len_mean                  | 820      |
+|    ep_rew_mean                  | 42.6     |
+| time/                           |          |
+|    episodes                     | 29       |
+|    fps                          | 107      |
+|    time_elapsed                 | 47       |
+|    total_timesteps              | 25058    |
+| train/                          |          |
+|    actor_loss                   | -0.225   |
+|    critic_loss                  | 0.000926 |
+|    ent_coef                     | 0.001    |
+|    learning_rate                | 5e-05    |
+|    n_updates                    | 940      |
+----------------------------------------------
+進度 25346/50000；階段 0；SAC 更新 958
+進度 25794/50000；階段 0；SAC 更新 986
+進度 26370/50000；階段 0；SAC 更新 1022
+----------------------------------------------
+| episode/                        |          |
+|    attack_seconds_last100       | 3        |
+|    crash_rate_last100           | 0        |
+|    enemy_attack_seconds_last100 | 0        |
+|    guard_fraction_last100       | 0        |
+|    kill_rate_last100            | 1        |
+|    min_altitude_m_last100       | 3.87e+03 |
+|    over_9g_seconds_last100      | 0        |
+|    sample_count                 | 7        |
+|    shot_down_rate_last100       | 0        |
+|    survival_rate_last100        | 1        |
+|    timeout_rate_last100         | 0        |
+| opponent/                       |          |
+|    easy/attack_seconds          | 3        |
+|    easy/is_kill                 | 1        |
+|    easy/own_crash               | 0        |
+|    easy/sample_count            | 4        |
+|    easy/survived                | 1        |
+|    maneuver/attack_seconds      | 3        |
+|    maneuver/is_kill             | 1        |
+|    maneuver/own_crash           | 0        |
+|    maneuver/sample_count        | 3        |
+|    maneuver/survived            | 1        |
+| rollout/                        |          |
+|    ep_len_mean                  | 817      |
+|    ep_rew_mean                  | 42.5     |
+| time/                           |          |
+|    episodes                     | 30       |
+|    fps                          | 105      |
+|    time_elapsed                 | 61       |
+|    total_timesteps              | 26490    |
+| train/                          |          |
+|    actor_loss                   | -0.256   |
+|    critic_loss                  | 0.00134  |
+|    ent_coef                     | 0.001    |
+|    learning_rate                | 5e-05    |
+|    n_updates                    | 1029     |
+----------------------------------------------
+----------------------------------------------
+| episode/                        |          |
+|    attack_seconds_last100       | 3        |
+|    crash_rate_last100           | 0        |
+|    enemy_attack_seconds_last100 | 0        |
+|    guard_fraction_last100       | 0        |
+|    kill_rate_last100            | 1        |
+|    min_altitude_m_last100       | 4.12e+03 |
+|    over_9g_seconds_last100      | 0        |
+|    sample_count                 | 8        |
+|    shot_down_rate_last100       | 0        |
+|    survival_rate_last100        | 1        |
+|    timeout_rate_last100         | 0        |
+| opponent/                       |          |
+|    easy/attack_seconds          | 3        |
+|    easy/is_kill                 | 1        |
+|    easy/own_crash               | 0        |
+|    easy/sample_count            | 5        |
+|    easy/survived                | 1        |
+|    maneuver/attack_seconds      | 3        |
+|    maneuver/is_kill             | 1        |
+|    maneuver/own_crash           | 0        |
+|    maneuver/sample_count        | 3        |
+|    maneuver/survived            | 1        |
+| rollout/                        |          |
+|    ep_len_mean                  | 819      |
+|    ep_rew_mean                  | 42.5     |
+| time/                           |          |
+|    episodes                     | 31       |
+|    fps                          | 105      |
+|    time_elapsed                 | 62       |
+|    total_timesteps              | 26532    |
+| train/                          |          |
+|    actor_loss                   | -0.254   |
+|    critic_loss                  | 0.00145  |
+|    ent_coef                     | 0.001    |
+|    learning_rate                | 5e-05    |
+|    n_updates                    | 1032     |
+----------------------------------------------
+進度 26980/50000；階段 0；SAC 更新 1060
+進度 27610/50000；階段 0；SAC 更新 1099
+----------------------------------------------
+| episode/                        |          |
+|    attack_seconds_last100       | 3        |
+|    crash_rate_last100           | 0        |
+|    enemy_attack_seconds_last100 | 0        |
+|    guard_fraction_last100       | 0        |
+|    kill_rate_last100            | 1        |
+|    min_altitude_m_last100       | 4.05e+03 |
+|    over_9g_seconds_last100      | 0        |
+|    sample_count                 | 9        |
+|    shot_down_rate_last100       | 0        |
+|    survival_rate_last100        | 1        |
+|    timeout_rate_last100         | 0        |
+| opponent/                       |          |
+|    easy/attack_seconds          | 3        |
+|    easy/is_kill                 | 1        |
+|    easy/own_crash               | 0        |
+|    easy/sample_count            | 6        |
+|    easy/survived                | 1        |
+|    maneuver/attack_seconds      | 3        |
+|    maneuver/is_kill             | 1        |
+|    maneuver/own_crash           | 0        |
+|    maneuver/sample_count        | 3        |
+|    maneuver/survived            | 1        |
+| rollout/                        |          |
+|    ep_len_mean                  | 814      |
+|    ep_rew_mean                  | 42.5     |
+| time/                           |          |
+|    episodes                     | 32       |
+|    fps                          | 108      |
+|    time_elapsed                 | 72       |
+|    total_timesteps              | 27810    |
+| train/                          |          |
+|    actor_loss                   | -0.275   |
+|    critic_loss                  | 6.52     |
+|    ent_coef                     | 0.001    |
+|    learning_rate                | 5e-05    |
+|    n_updates                    | 1112     |
+----------------------------------------------
+進度 28222/50000；階段 0；SAC 更新 1137
+進度 28770/50000；階段 0；SAC 更新 1172
+----------------------------------------------
+| episode/                        |          |
+|    attack_seconds_last100       | 3        |
+|    crash_rate_last100           | 0        |
+|    enemy_attack_seconds_last100 | 0        |
+|    guard_fraction_last100       | 0        |
+|    kill_rate_last100            | 1        |
+|    min_altitude_m_last100       | 4.22e+03 |
+|    over_9g_seconds_last100      | 0        |
+|    sample_count                 | 10       |
+|    shot_down_rate_last100       | 0        |
+|    survival_rate_last100        | 1        |
+|    timeout_rate_last100         | 0        |
+| opponent/                       |          |
+|    easy/attack_seconds          | 3        |
+|    easy/is_kill                 | 1        |
+|    easy/own_crash               | 0        |
+|    easy/sample_count            | 7        |
+|    easy/survived                | 1        |
+|    maneuver/attack_seconds      | 3        |
+|    maneuver/is_kill             | 1        |
+|    maneuver/own_crash           | 0        |
+|    maneuver/sample_count        | 3        |
+|    maneuver/survived            | 1        |
+| rollout/                        |          |
+|    ep_len_mean                  | 829      |
+|    ep_rew_mean                  | 42.6     |
+| time/                           |          |
+|    episodes                     | 33       |
+|    fps                          | 109      |
+|    time_elapsed                 | 83       |
+|    total_timesteps              | 29140    |
+| train/                          |          |
+|    actor_loss                   | -0.279   |
+|    critic_loss                  | 0.00159  |
+|    ent_coef                     | 0.001    |
+|    learning_rate                | 5e-05    |
+|    n_updates                    | 1195     |
+----------------------------------------------
+進度 29334/50000；階段 0；SAC 更新 1207
+----------------------------------------------
+| episode/                        |          |
+|    attack_seconds_last100       | 3        |
+|    crash_rate_last100           | 0        |
+|    enemy_attack_seconds_last100 | 0        |
+|    guard_fraction_last100       | 0        |
+|    kill_rate_last100            | 1        |
+|    min_altitude_m_last100       | 4.23e+03 |
+|    over_9g_seconds_last100      | 0        |
+|    sample_count                 | 11       |
+|    shot_down_rate_last100       | 0        |
+|    survival_rate_last100        | 1        |
+|    timeout_rate_last100         | 0        |
+| opponent/                       |          |
+|    easy/attack_seconds          | 3        |
+|    easy/is_kill                 | 1        |
+|    easy/own_crash               | 0        |
+|    easy/sample_count            | 8        |
+|    easy/survived                | 1        |
+|    maneuver/attack_seconds      | 3        |
+|    maneuver/is_kill             | 1        |
+|    maneuver/own_crash           | 0        |
+|    maneuver/sample_count        | 3        |
+|    maneuver/survived            | 1        |
+| rollout/                        |          |
+|    ep_len_mean                  | 835      |
+|    ep_rew_mean                  | 42.6     |
+| time/                           |          |
+|    episodes                     | 34       |
+|    fps                          | 109      |
+|    time_elapsed                 | 89       |
+|    total_timesteps              | 29854    |
+| train/                          |          |
+|    actor_loss                   | -0.312   |
+|    critic_loss                  | 0.00205  |
+|    ent_coef                     | 0.001    |
+|    learning_rate                | 5e-05    |
+|    n_updates                    | 1239     |
+----------------------------------------------
+進度 29940/50000；階段 0；SAC 更新 1245
+已完整儲存：E:\ai_pilot\autopilot\jobs\job_20261004_235618_984b\candidate1_to_50000\checkpoint_0000030000
+----------------------------------------------
+| episode/                        |          |
+|    attack_seconds_last100       | 3        |
+|    crash_rate_last100           | 0        |
+|    enemy_attack_seconds_last100 | 0        |
+|    guard_fraction_last100       | 0        |
+|    kill_rate_last100            | 1        |
+|    min_altitude_m_last100       | 4.28e+03 |
+|    over_9g_seconds_last100      | 0        |
+|    sample_count                 | 12       |
+|    shot_down_rate_last100       | 0        |
+|    survival_rate_last100        | 1        |
+|    timeout_rate_last100         | 0        |
+| opponent/                       |          |
+|    easy/attack_seconds          | 3        |
+|    easy/is_kill                 | 1        |
+|    easy/own_crash               | 0        |
+|    easy/sample_count            | 9        |
+|    easy/survived                | 1        |
+|    maneuver/attack_seconds      | 3        |
+|    maneuver/is_kill             | 1        |
+|    maneuver/own_crash           | 0        |
+|    maneuver/sample_count        | 3        |
+|    maneuver/survived            | 1        |
+| rollout/                        |          |
+|    ep_len_mean                  | 828      |
+|    ep_rew_mean                  | 42.6     |
+| time/                           |          |
+|    episodes                     | 35       |
+|    fps                          | 109      |
+|    time_elapsed                 | 94       |
+|    total_timesteps              | 30312    |
+| train/                          |          |
+|    actor_loss                   | -0.316   |
+|    critic_loss                  | 0.00177  |
+|    ent_coef                     | 0.001    |
+|    learning_rate                | 5e-05    |
+|    n_updates                    | 1268     |
+----------------------------------------------
+進度 30498/50000；階段 0；SAC 更新 1280
+----------------------------------------------
+| episode/                        |          |
+|    attack_seconds_last100       | 3        |
+|    crash_rate_last100           | 0        |
+|    enemy_attack_seconds_last100 | 0        |
+|    guard_fraction_last100       | 0        |
+|    kill_rate_last100            | 1        |
+|    min_altitude_m_last100       | 4.21e+03 |
+|    over_9g_seconds_last100      | 0        |
+|    sample_count                 | 13       |
+|    shot_down_rate_last100       | 0        |
+|    survival_rate_last100        | 1        |
+|    timeout_rate_last100         | 0        |
+| opponent/                       |          |
+|    easy/attack_seconds          | 3        |
+|    easy/is_kill                 | 1        |
+|    easy/own_crash               | 0        |
+|    easy/sample_count            | 9        |
+|    easy/survived                | 1        |
+|    maneuver/attack_seconds      | 3        |
+|    maneuver/is_kill             | 1        |
+|    maneuver/own_crash           | 0        |
+|    maneuver/sample_count        | 4        |
+|    maneuver/survived            | 1        |
+| rollout/                        |          |
+|    ep_len_mean                  | 810      |
+|    ep_rew_mean                  | 42.4     |
+| time/                           |          |
+|    episodes                     | 36       |
+|    fps                          | 109      |
+|    time_elapsed                 | 97       |
+|    total_timesteps              | 30672    |
+| train/                          |          |
+|    actor_loss                   | -0.311   |
+|    critic_loss                  | 0.00178  |
+|    ent_coef                     | 0.001    |
+|    learning_rate                | 5e-05    |
+|    n_updates                    | 1290     |
+----------------------------------------------
+進度 31138/50000；階段 0；SAC 更新 1320
+----------------------------------------------
+| episode/                        |          |
+|    attack_seconds_last100       | 3        |
+|    crash_rate_last100           | 0        |
+|    enemy_attack_seconds_last100 | 0        |
+|    guard_fraction_last100       | 0        |
+|    kill_rate_last100            | 1        |
+|    min_altitude_m_last100       | 4.29e+03 |
+|    over_9g_seconds_last100      | 0        |
+|    sample_count                 | 14       |
+|    shot_down_rate_last100       | 0        |
+|    survival_rate_last100        | 1        |
+|    timeout_rate_last100         | 0        |
+| opponent/                       |          |
+|    easy/attack_seconds          | 3        |
+|    easy/is_kill                 | 1        |
+|    easy/own_crash               | 0        |
+|    easy/sample_count            | 10       |
+|    easy/survived                | 1        |
+|    maneuver/attack_seconds      | 3        |
+|    maneuver/is_kill             | 1        |
+|    maneuver/own_crash           | 0        |
+|    maneuver/sample_count        | 4        |
+|    maneuver/survived            | 1        |
+| rollout/                        |          |
+|    ep_len_mean                  | 809      |
+|    ep_rew_mean                  | 42.4     |
+| time/                           |          |
+|    episodes                     | 37       |
+|    fps                          | 110      |
+|    time_elapsed                 | 103      |
+|    total_timesteps              | 31438    |
+| train/                          |          |
+|    actor_loss                   | -0.338   |
+|    critic_loss                  | 3.27     |
+|    ent_coef                     | 0.001    |
+|    learning_rate                | 5e-05    |
+|    n_updates                    | 1338     |
+----------------------------------------------
+進度 31762/50000；階段 0；SAC 更新 1359
+----------------------------------------------
+| episode/                        |          |
+|    attack_seconds_last100       | 3        |
+|    crash_rate_last100           | 0        |
+|    enemy_attack_seconds_last100 | 0        |
+|    guard_fraction_last100       | 0        |
+|    kill_rate_last100            | 1        |
+|    min_altitude_m_last100       | 4.34e+03 |
+|    over_9g_seconds_last100      | 0        |
+|    sample_count                 | 15       |
+|    shot_down_rate_last100       | 0        |
+|    survival_rate_last100        | 1        |
+|    timeout_rate_last100         | 0        |
+| opponent/                       |          |
+|    easy/attack_seconds          | 3        |
+|    easy/is_kill                 | 1        |
+|    easy/own_crash               | 0        |
+|    easy/sample_count            | 11       |
+|    easy/survived                | 1        |
+|    maneuver/attack_seconds      | 3        |
+|    maneuver/is_kill             | 1        |
+|    maneuver/own_crash           | 0        |
+|    maneuver/sample_count        | 4        |
+|    maneuver/survived            | 1        |
+| rollout/                        |          |
+|    ep_len_mean                  | 809      |
+|    ep_rew_mean                  | 42.4     |
+| time/                           |          |
+|    episodes                     | 38       |
+|    fps                          | 111      |
+|    time_elapsed                 | 109      |
+|    total_timesteps              | 32232    |
+| train/                          |          |
+|    actor_loss                   | -0.307   |
+|    critic_loss                  | 0.00119  |
+|    ent_coef                     | 0.001    |
+|    learning_rate                | 5e-05    |
+|    n_updates                    | 1388     |
+----------------------------------------------
+進度 32368/50000；階段 0；SAC 更新 1396
+進度 32990/50000；階段 0；SAC 更新 1435
+----------------------------------------------
+| episode/                        |          |
+|    attack_seconds_last100       | 3        |
+|    crash_rate_last100           | 0        |
+|    enemy_attack_seconds_last100 | 0        |
+|    guard_fraction_last100       | 0        |
+|    kill_rate_last100            | 1        |
+|    min_altitude_m_last100       | 4.38e+03 |
+|    over_9g_seconds_last100      | 0        |
+|    sample_count                 | 16       |
+|    shot_down_rate_last100       | 0        |
+|    survival_rate_last100        | 1        |
+|    timeout_rate_last100         | 0        |
+| opponent/                       |          |
+|    easy/attack_seconds          | 3        |
+|    easy/is_kill                 | 1        |
+|    easy/own_crash               | 0        |
+|    easy/sample_count            | 11       |
+|    easy/survived                | 1        |
+|    maneuver/attack_seconds      | 3        |
+|    maneuver/is_kill             | 1        |
+|    maneuver/own_crash           | 0        |
+|    maneuver/sample_count        | 5        |
+|    maneuver/survived            | 1        |
+| rollout/                        |          |
+|    ep_len_mean                  | 812      |
+|    ep_rew_mean                  | 42.4     |
+| time/                           |          |
+|    episodes                     | 39       |
+|    fps                          | 112      |
+|    time_elapsed                 | 118      |
+|    total_timesteps              | 33358    |
+| train/                          |          |
+|    actor_loss                   | -0.38    |
+|    critic_loss                  | 6.49     |
+|    ent_coef                     | 0.001    |
+|    learning_rate                | 5e-05    |
+|    n_updates                    | 1458     |
+----------------------------------------------
+進度 33516/50000；階段 0；SAC 更新 1468
+----------------------------------------------
+| episode/                        |          |
+|    attack_seconds_last100       | 3        |
+|    crash_rate_last100           | 0        |
+|    enemy_attack_seconds_last100 | 0        |
+|    guard_fraction_last100       | 0        |
+|    kill_rate_last100            | 1        |
+|    min_altitude_m_last100       | 4.32e+03 |
+|    over_9g_seconds_last100      | 0        |
+|    sample_count                 | 17       |
+|    shot_down_rate_last100       | 0        |
+|    survival_rate_last100        | 1        |
+|    timeout_rate_last100         | 0        |
+| opponent/                       |          |
+|    easy/attack_seconds          | 3        |
+|    easy/is_kill                 | 1        |
+|    easy/own_crash               | 0        |
+|    easy/sample_count            | 12       |
+|    easy/survived                | 1        |
+|    maneuver/attack_seconds      | 3        |
+|    maneuver/is_kill             | 1        |
+|    maneuver/own_crash           | 0        |
+|    maneuver/sample_count        | 5        |
+|    maneuver/survived            | 1        |
+| rollout/                        |          |
+|    ep_len_mean                  | 810      |
+|    ep_rew_mean                  | 42.4     |
+| time/                           |          |
+|    episodes                     | 40       |
+|    fps                          | 111      |
+|    time_elapsed                 | 122      |
+|    total_timesteps              | 33638    |
+| train/                          |          |
+|    actor_loss                   | -0.387   |
+|    critic_loss                  | 0.00236  |
+|    ent_coef                     | 0.001    |
+|    learning_rate                | 5e-05    |
+|    n_updates                    | 1476     |
+----------------------------------------------
+----------------------------------------------
+| episode/                        |          |
+|    attack_seconds_last100       | 3        |
+|    crash_rate_last100           | 0        |
+|    enemy_attack_seconds_last100 | 0        |
+|    guard_fraction_last100       | 0        |
+|    kill_rate_last100            | 1        |
+|    min_altitude_m_last100       | 4.34e+03 |
+|    over_9g_seconds_last100      | 0        |
+|    sample_count                 | 18       |
+|    shot_down_rate_last100       | 0        |
+|    survival_rate_last100        | 1        |
+|    timeout_rate_last100         | 0        |
+| opponent/                       |          |
+|    easy/attack_seconds          | 3        |
+|    easy/is_kill                 | 1        |
+|    easy/own_crash               | 0        |
+|    easy/sample_count            | 13       |
+|    easy/survived                | 1        |
+|    maneuver/attack_seconds      | 3        |
+|    maneuver/is_kill             | 1        |
+|    maneuver/own_crash           | 0        |
+|    maneuver/sample_count        | 5        |
+|    maneuver/survived            | 1        |
+| rollout/                        |          |
+|    ep_len_mean                  | 794      |
+|    ep_rew_mean                  | 42.3     |
+| time/                           |          |
+|    episodes                     | 41       |
+|    fps                          | 111      |
+|    time_elapsed                 | 123      |
+|    total_timesteps              | 33730    |
+| train/                          |          |
+|    actor_loss                   | -0.375   |
+|    critic_loss                  | 0.00252  |
+|    ent_coef                     | 0.001    |
+|    learning_rate                | 5e-05    |
+|    n_updates                    | 1482     |
+----------------------------------------------
+進度 34034/50000；階段 0；SAC 更新 1501
+進度 34642/50000；階段 0；SAC 更新 1539
+進度 35258/50000；階段 0；SAC 更新 1577
+----------------------------------------------
+| episode/                        |          |
+|    attack_seconds_last100       | 3        |
+|    crash_rate_last100           | 0        |
+|    enemy_attack_seconds_last100 | 0        |
+|    guard_fraction_last100       | 0        |
+|    kill_rate_last100            | 1        |
+|    min_altitude_m_last100       | 4.42e+03 |
+|    over_9g_seconds_last100      | 0        |
+|    sample_count                 | 19       |
+|    shot_down_rate_last100       | 0        |
+|    survival_rate_last100        | 1        |
+|    timeout_rate_last100         | 0        |
+| opponent/                       |          |
+|    easy/attack_seconds          | 3        |
+|    easy/is_kill                 | 1        |
+|    easy/own_crash               | 0        |
+|    easy/sample_count            | 13       |
+|    easy/survived                | 1        |
+|    maneuver/attack_seconds      | 3        |
+|    maneuver/is_kill             | 1        |
+|    maneuver/own_crash           | 0        |
+|    maneuver/sample_count        | 6        |
+|    maneuver/survived            | 1        |
+| rollout/                        |          |
+|    ep_len_mean                  | 795      |
+|    ep_rew_mean                  | 42.3     |
+| time/                           |          |
+|    episodes                     | 42       |
+|    fps                          | 112      |
+|    time_elapsed                 | 136      |
+|    total_timesteps              | 35282    |
+| train/                          |          |
+|    actor_loss                   | -0.389   |
+|    critic_loss                  | 0.0014   |
+|    ent_coef                     | 0.001    |
+|    learning_rate                | 5e-05    |
+|    n_updates                    | 1579     |
+----------------------------------------------
+進度 35832/50000；階段 0；SAC 更新 1613
+----------------------------------------------
+| episode/                        |          |
+|    attack_seconds_last100       | 3        |
+|    crash_rate_last100           | 0        |
+|    enemy_attack_seconds_last100 | 0        |
+|    guard_fraction_last100       | 0        |
+|    kill_rate_last100            | 1        |
+|    min_altitude_m_last100       | 4.43e+03 |
+|    over_9g_seconds_last100      | 0        |
+|    sample_count                 | 20       |
+|    shot_down_rate_last100       | 0        |
+|    survival_rate_last100        | 1        |
+|    timeout_rate_last100         | 0        |
+| opponent/                       |          |
+|    easy/attack_seconds          | 3        |
+|    easy/is_kill                 | 1        |
+|    easy/own_crash               | 0        |
+|    easy/sample_count            | 14       |
+|    easy/survived                | 1        |
+|    maneuver/attack_seconds      | 3        |
+|    maneuver/is_kill             | 1        |
+|    maneuver/own_crash           | 0        |
+|    maneuver/sample_count        | 6        |
+|    maneuver/survived            | 1        |
+| rollout/                        |          |
+|    ep_len_mean                  | 802      |
+|    ep_rew_mean                  | 42.3     |
+| time/                           |          |
+|    episodes                     | 43       |
+|    fps                          | 112      |
+|    time_elapsed                 | 141      |
+|    total_timesteps              | 35888    |
+| train/                          |          |
+|    actor_loss                   | -0.382   |
+|    critic_loss                  | 3.19     |
+|    ent_coef                     | 0.001    |
+|    learning_rate                | 5e-05    |
+|    n_updates                    | 1616     |
+----------------------------------------------
+進度 36370/50000；階段 0；SAC 更新 1647
+----------------------------------------------
+| episode/                        |          |
+|    attack_seconds_last100       | 3        |
+|    crash_rate_last100           | 0        |
+|    enemy_attack_seconds_last100 | 0        |
+|    guard_fraction_last100       | 0        |
+|    kill_rate_last100            | 1        |
+|    min_altitude_m_last100       | 4.4e+03  |
+|    over_9g_seconds_last100      | 0        |
+|    sample_count                 | 21       |
+|    shot_down_rate_last100       | 0        |
+|    survival_rate_last100        | 1        |
+|    timeout_rate_last100         | 0        |
+| opponent/                       |          |
+|    easy/attack_seconds          | 3        |
+|    easy/is_kill                 | 1        |
+|    easy/own_crash               | 0        |
+|    easy/sample_count            | 14       |
+|    easy/survived                | 1        |
+|    maneuver/attack_seconds      | 3        |
+|    maneuver/is_kill             | 1        |
+|    maneuver/own_crash           | 0        |
+|    maneuver/sample_count        | 7        |
+|    maneuver/survived            | 1        |
+| rollout/                        |          |
+|    ep_len_mean                  | 800      |
+|    ep_rew_mean                  | 42.3     |
+| time/                           |          |
+|    episodes                     | 44       |
+|    fps                          | 111      |
+|    time_elapsed                 | 149      |
+|    total_timesteps              | 36720    |
+| train/                          |          |
+|    actor_loss                   | -0.395   |
+|    critic_loss                  | 0.0016   |
+|    ent_coef                     | 0.001    |
+|    learning_rate                | 5e-05    |
+|    n_updates                    | 1668     |
+----------------------------------------------
+進度 36840/50000；階段 0；SAC 更新 1676
+----------------------------------------------
+| episode/                        |          |
+|    attack_seconds_last100       | 3        |
+|    crash_rate_last100           | 0        |
+|    enemy_attack_seconds_last100 | 0        |
+|    guard_fraction_last100       | 0        |
+|    kill_rate_last100            | 1        |
+|    min_altitude_m_last100       | 4.36e+03 |
+|    over_9g_seconds_last100      | 0        |
+|    sample_count                 | 22       |
+|    shot_down_rate_last100       | 0        |
+|    survival_rate_last100        | 1        |
+|    timeout_rate_last100         | 0        |
+| opponent/                       |          |
+|    easy/attack_seconds          | 3        |
+|    easy/is_kill                 | 1        |
+|    easy/own_crash               | 0        |
+|    easy/sample_count            | 15       |
+|    easy/survived                | 1        |
+|    maneuver/attack_seconds      | 3        |
+|    maneuver/is_kill             | 1        |
+|    maneuver/own_crash           | 0        |
+|    maneuver/sample_count        | 7        |
+|    maneuver/survived            | 1        |
+| rollout/                        |          |
+|    ep_len_mean                  | 798      |
+|    ep_rew_mean                  | 42.3     |
+| time/                           |          |
+|    episodes                     | 45       |
+|    fps                          | 112      |
+|    time_elapsed                 | 154      |
+|    total_timesteps              | 37340    |
+| train/                          |          |
+|    actor_loss                   | -0.431   |
+|    critic_loss                  | 0.00331  |
+|    ent_coef                     | 0.001    |
+|    learning_rate                | 5e-05    |
+|    n_updates                    | 1707     |
+----------------------------------------------
+進度 37448/50000；階段 0；SAC 更新 1714
+進度 38098/50000；階段 0；SAC 更新 1755
+----------------------------------------------
+| episode/                        |          |
+|    attack_seconds_last100       | 3        |
+|    crash_rate_last100           | 0        |
+|    enemy_attack_seconds_last100 | 0        |
+|    guard_fraction_last100       | 0        |
+|    kill_rate_last100            | 1        |
+|    min_altitude_m_last100       | 4.34e+03 |
+|    over_9g_seconds_last100      | 0        |
+|    sample_count                 | 23       |
+|    shot_down_rate_last100       | 0        |
+|    survival_rate_last100        | 1        |
+|    timeout_rate_last100         | 0        |
+| opponent/                       |          |
+|    easy/attack_seconds          | 3        |
+|    easy/is_kill                 | 1        |
+|    easy/own_crash               | 0        |
+|    easy/sample_count            | 16       |
+|    easy/survived                | 1        |
+|    maneuver/attack_seconds      | 3        |
+|    maneuver/is_kill             | 1        |
+|    maneuver/own_crash           | 0        |
+|    maneuver/sample_count        | 7        |
+|    maneuver/survived            | 1        |
+| rollout/                        |          |
+|    ep_len_mean                  | 799      |
+|    ep_rew_mean                  | 42.3     |
+| time/                           |          |
+|    episodes                     | 46       |
+|    fps                          | 112      |
+|    time_elapsed                 | 162      |
+|    total_timesteps              | 38360    |
+| train/                          |          |
+|    actor_loss                   | -0.418   |
+|    critic_loss                  | 0.00112  |
+|    ent_coef                     | 0.001    |
+|    learning_rate                | 5e-05    |
+|    n_updates                    | 1771     |
+----------------------------------------------
+----------------------------------------------
+| episode/                        |          |
+|    attack_seconds_last100       | 3        |
+|    crash_rate_last100           | 0        |
+|    enemy_attack_seconds_last100 | 0        |
+|    guard_fraction_last100       | 0        |
+|    kill_rate_last100            | 1        |
+|    min_altitude_m_last100       | 4.39e+03 |
+|    over_9g_seconds_last100      | 0        |
+|    sample_count                 | 24       |
+|    shot_down_rate_last100       | 0        |
+|    survival_rate_last100        | 1        |
+|    timeout_rate_last100         | 0        |
+| opponent/                       |          |
+|    easy/attack_seconds          | 3        |
+|    easy/is_kill                 | 1        |
+|    easy/own_crash               | 0        |
+|    easy/sample_count            | 17       |
+|    easy/survived                | 1        |
+|    maneuver/attack_seconds      | 3        |
+|    maneuver/is_kill             | 1        |
+|    maneuver/own_crash           | 0        |
+|    maneuver/sample_count        | 7        |
+|    maneuver/survived            | 1        |
+| rollout/                        |          |
+|    ep_len_mean                  | 796      |
+|    ep_rew_mean                  | 42.3     |
+| time/                           |          |
+|    episodes                     | 47       |
+|    fps                          | 112      |
+|    time_elapsed                 | 165      |
+|    total_timesteps              | 38652    |
+| train/                          |          |
+|    actor_loss                   | -0.41    |
+|    critic_loss                  | 0.000527 |
+|    ent_coef                     | 0.001    |
+|    learning_rate                | 5e-05    |
+|    n_updates                    | 1789     |
+----------------------------------------------
+進度 38722/50000；階段 0；SAC 更新 1794
+進度 39276/50000；階段 0；SAC 更新 1828
+進度 39780/50000；階段 0；SAC 更新 1860
+已完整儲存：E:\ai_pilot\autopilot\jobs\job_20261004_235618_984b\candidate1_to_50000\checkpoint_0000040000
+----------------------------------------------
+| episode/                        |          |
+|    attack_seconds_last100       | 3        |
+|    crash_rate_last100           | 0        |
+|    enemy_attack_seconds_last100 | 0        |
+|    guard_fraction_last100       | 0        |
+|    kill_rate_last100            | 1        |
+|    min_altitude_m_last100       | 4.43e+03 |
+|    over_9g_seconds_last100      | 0        |
+|    sample_count                 | 25       |
+|    shot_down_rate_last100       | 0        |
+|    survival_rate_last100        | 1        |
+|    timeout_rate_last100         | 0        |
+| opponent/                       |          |
+|    easy/attack_seconds          | 3        |
+|    easy/is_kill                 | 1        |
+|    easy/own_crash               | 0        |
+|    easy/sample_count            | 17       |
+|    easy/survived                | 1        |
+|    maneuver/attack_seconds      | 3        |
+|    maneuver/is_kill             | 1        |
+|    maneuver/own_crash           | 0        |
+|    maneuver/sample_count        | 8        |
+|    maneuver/survived            | 1        |
+| rollout/                        |          |
+|    ep_len_mean                  | 796      |
+|    ep_rew_mean                  | 42.3     |
+| time/                           |          |
+|    episodes                     | 48       |
+|    fps                          | 112      |
+|    time_elapsed                 | 179      |
+|    total_timesteps              | 40236    |
+| train/                          |          |
+|    actor_loss                   | -0.463   |
+|    critic_loss                  | 3.21     |
+|    ent_coef                     | 0.001    |
+|    learning_rate                | 5e-05    |
+|    n_updates                    | 1888     |
+----------------------------------------------
+進度 40370/50000；階段 1；SAC 更新 1897
+----------------------------------------------
+| episode/                        |          |
+|    attack_seconds_last100       | 3        |
+|    crash_rate_last100           | 0        |
+|    enemy_attack_seconds_last100 | 0        |
+|    guard_fraction_last100       | 0        |
+|    kill_rate_last100            | 1        |
+|    min_altitude_m_last100       | 4.45e+03 |
+|    over_9g_seconds_last100      | 0        |
+|    sample_count                 | 26       |
+|    shot_down_rate_last100       | 0        |
+|    survival_rate_last100        | 1        |
+|    timeout_rate_last100         | 0        |
+| opponent/                       |          |
+|    easy/attack_seconds          | 3        |
+|    easy/is_kill                 | 1        |
+|    easy/own_crash               | 0        |
+|    easy/sample_count            | 18       |
+|    easy/survived                | 1        |
+|    maneuver/attack_seconds      | 3        |
+|    maneuver/is_kill             | 1        |
+|    maneuver/own_crash           | 0        |
+|    maneuver/sample_count        | 8        |
+|    maneuver/survived            | 1        |
+| rollout/                        |          |
+|    ep_len_mean                  | 803      |
+|    ep_rew_mean                  | 42.3     |
+| time/                           |          |
+|    episodes                     | 49       |
+|    fps                          | 112      |
+|    time_elapsed                 | 183      |
+|    total_timesteps              | 40664    |
+| train/                          |          |
+|    actor_loss                   | -0.465   |
+|    critic_loss                  | 0.00149  |
+|    ent_coef                     | 0.001    |
+|    learning_rate                | 5e-05    |
+|    n_updates                    | 1915     |
+----------------------------------------------
+進度 40946/50000；階段 1；SAC 更新 1933
+進度 41490/50000；階段 1；SAC 更新 1967
+進度 42124/50000；階段 1；SAC 更新 2006
+進度 42742/50000；階段 1；SAC 更新 2045
+進度 43378/50000；階段 1；SAC 更新 2085
+進度 43982/50000；階段 1；SAC 更新 2122
+進度 44514/50000；階段 1；SAC 更新 2156
+進度 45026/50000；階段 1；SAC 更新 2188
+進度 45602/50000；階段 1；SAC 更新 2224
+進度 46194/50000；階段 1；SAC 更新 2261
+進度 46818/50000；階段 1；SAC 更新 2300
+----------------------------------------------
+| episode/                        |          |
+|    attack_seconds_last100       | 3        |
+|    crash_rate_last100           | 0        |
+|    enemy_attack_seconds_last100 | 0        |
+|    guard_fraction_last100       | 0        |
+|    kill_rate_last100            | 1        |
+|    min_altitude_m_last100       | 4.43e+03 |
+|    over_9g_seconds_last100      | 0        |
+|    sample_count                 | 27       |
+|    shot_down_rate_last100       | 0        |
+|    survival_rate_last100        | 1        |
+|    timeout_rate_last100         | 0        |
+| opponent/                       |          |
+|    easy/attack_seconds          | 3        |
+|    easy/is_kill                 | 1        |
+|    easy/own_crash               | 0        |
+|    easy/sample_count            | 19       |
+|    easy/survived                | 1        |
+|    maneuver/attack_seconds      | 3        |
+|    maneuver/is_kill             | 1        |
+|    maneuver/own_crash           | 0        |
+|    maneuver/sample_count        | 8        |
+|    maneuver/survived            | 1        |
+| rollout/                        |          |
+|    ep_len_mean                  | 857      |
+|    ep_rew_mean                  | 42.4     |
+| time/                           |          |
+|    episodes                     | 50       |
+|    fps                          | 113      |
+|    time_elapsed                 | 239      |
+|    total_timesteps              | 47240    |
+| train/                          |          |
+|    actor_loss                   | -0.551   |
+|    critic_loss                  | 3.13     |
+|    ent_coef                     | 0.001    |
+|    learning_rate                | 5e-05    |
+|    n_updates                    | 2326     |
+----------------------------------------------
+進度 47390/50000；階段 1；SAC 更新 2335
+----------------------------------------------
+| episode/                        |          |
+|    attack_seconds_last100       | 3        |
+|    crash_rate_last100           | 0        |
+|    enemy_attack_seconds_last100 | 0        |
+|    guard_fraction_last100       | 0        |
+|    kill_rate_last100            | 1        |
+|    min_altitude_m_last100       | 4.36e+03 |
+|    over_9g_seconds_last100      | 0        |
+|    sample_count                 | 28       |
+|    shot_down_rate_last100       | 0        |
+|    survival_rate_last100        | 1        |
+|    timeout_rate_last100         | 0        |
+| opponent/                       |          |
+|    easy/attack_seconds          | 3        |
+|    easy/is_kill                 | 1        |
+|    easy/own_crash               | 0        |
+|    easy/sample_count            | 20       |
+|    easy/survived                | 1        |
+|    maneuver/attack_seconds      | 3        |
+|    maneuver/is_kill             | 1        |
+|    maneuver/own_crash           | 0        |
+|    maneuver/sample_count        | 8        |
+|    maneuver/survived            | 1        |
+| rollout/                        |          |
+|    ep_len_mean                  | 908      |
+|    ep_rew_mean                  | 42.4     |
+| time/                           |          |
+|    episodes                     | 51       |
+|    fps                          | 113      |
+|    time_elapsed                 | 242      |
+|    total_timesteps              | 47564    |
+| train/                          |          |
+|    actor_loss                   | -0.581   |
+|    critic_loss                  | 0.00499  |
+|    ent_coef                     | 0.001    |
+|    learning_rate                | 5e-05    |
+|    n_updates                    | 2346     |
+----------------------------------------------
+進度 48002/50000；階段 1；SAC 更新 2374
+進度 48568/50000；階段 1；SAC 更新 2409
+進度 49118/50000；階段 1；SAC 更新 2443
+進度 49580/50000；階段 1；SAC 更新 2472
+已完整儲存：E:\ai_pilot\autopilot\jobs\job_20261004_235618_984b\candidate1_to_50000\checkpoint_0000050000
+已完整儲存：E:\ai_pilot\autopilot\jobs\job_20261004_235618_984b\candidate1_to_50000\final_0000050000

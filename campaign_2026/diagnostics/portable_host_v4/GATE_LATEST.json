@@ -1,0 +1,10 @@
+{
+  "profile": "portable_repair_guide_rehearsal_v4",
+  "requested_reports": 6,
+  "verified_unique_packaged_rounds": 6,
+  "required_packaged_rounds": 6,
+  "packaged_six_round_gate_complete": true,
+  "legacy_rounds_imported": 0,
+  "eligible_for_old_six_round_gate": false,
+  "competition_certification": false
+}

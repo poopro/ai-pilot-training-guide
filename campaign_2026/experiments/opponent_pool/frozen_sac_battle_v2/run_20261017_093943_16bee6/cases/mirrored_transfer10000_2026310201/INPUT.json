@@ -1,0 +1,17 @@
+{
+  "out": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_battle_v2\\run_20261017_093943_16bee6",
+  "case": {
+    "id": "mirrored_transfer10000_2026310201",
+    "opening": 1,
+    "side": "mirrored",
+    "seed": 2026310201,
+    "actor": "transfer10000",
+    "red": "sac5000",
+    "distance_ft": 6000,
+    "max_ticks": 18000
+  },
+  "limits": {
+    "deadline_monotonic": 19945.062,
+    "deadline_epoch": 1792201643.8672438
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-10-16T16:35:24.459007+00:00",
+  "unique_change": "v2: stable_baselines3 cold import moved inside Python/NumPy/Torch RNG restoration scope; no control math, model or packet changes",
+  "parent_sources_unchanged": true,
+  "new_FDM_ticks": 0,
+  "actual_CPU_probe_pending": false,
+  "probe": "E:\\ai_pilot\\campaign_2026\\diagnostics\\frozen_sac_cpu_probe_v2_20261017.py",
+  "probe_sha256": "4f399e616d57bfa8f339ffb2ab287afa3b6bdf31aaad9997859813aa1611cd34",
+  "scope": "offline production factory/interface, not physical response or battle strength",
+  "first_probe_failure_preserved": "diagnostics/frozen_sac_cpu_probe_20261016_231331_e45d41/FAILURE_REVIEW.json",
+  "verified_real_cpu_factories": true,
+  "probe_run": "E:\\ai_pilot\\campaign_2026\\diagnostics\\frozen_sac_cpu_probe_v2_20261017_003552_e2ae02",
+  "verification_sha256": "b7533796f483ae95e7082088416b2323a7a86c2b80af0f48c2907539991c6f0d",
+  "FDM_timing_verified": false,
+  "learned_selfplay_verified": false,
+  "preflight_failure": {
+    "actual_shell_exit": 1,
+    "tool": "dbcf52",
+    "reason": "v2 staging initially omitted manifest-tracked test_adapter.py; no worker, budget reservation or FDM. Copied exact parent file then one new reserved CPU probe."
+  }
+}

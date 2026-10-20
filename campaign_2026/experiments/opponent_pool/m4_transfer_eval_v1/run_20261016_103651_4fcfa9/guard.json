@@ -1,0 +1,554 @@
+{
+  "status": "finished",
+  "guard": {
+    "pid": 4256,
+    "creation_epoch": 1792118212.0071442,
+    "cmdline": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\guard.py",
+      "--out",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_20261016_103651_4fcfa9"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent_pid": 9228
+  },
+  "target": {
+    "pid": 660,
+    "creation_epoch": 1792118211.9680912,
+    "cmdline": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_smoke.py",
+      "--out",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_20261016_103651_4fcfa9"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent_pid": 9228
+  },
+  "deadline_epoch": 1792118571.936173,
+  "deadline_monotonic": 8774.125,
+  "total_wall_seconds": 360,
+  "stopped": [],
+  "unknown": [],
+  "observed_descendants": [
+    {
+      "identity": {
+        "pid": 21556,
+        "creation_epoch": 1792118211.980588,
+        "cmdline": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent_pid": 660
+      },
+      "ancestors": [
+        {
+          "pid": 660,
+          "creation_epoch": 1792118211.9680912,
+          "cmdline": [
+            "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_smoke.py",
+            "--out",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_20261016_103651_4fcfa9"
+          ],
+          "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "parent_pid": 9228
+        }
+      ],
+      "observed_epoch": 1792118212.532118
+    },
+    {
+      "identity": {
+        "pid": 23444,
+        "creation_epoch": 1792118213.080389,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_smoke.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_20261016_103651_4fcfa9\\cases\\final_rule_sac5000_2026300200\\input.json"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent_pid": 660
+      },
+      "ancestors": [
+        {
+          "pid": 660,
+          "creation_epoch": 1792118211.9680912,
+          "cmdline": [
+            "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_smoke.py",
+            "--out",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_20261016_103651_4fcfa9"
+          ],
+          "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "parent_pid": 9228
+        }
+      ],
+      "observed_epoch": 1792118213.2780821
+    },
+    {
+      "identity": {
+        "pid": 5040,
+        "creation_epoch": 1792118213.0918157,
+        "cmdline": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent_pid": 23444
+      },
+      "ancestors": [
+        {
+          "pid": 23444,
+          "creation_epoch": 1792118213.080389,
+          "cmdline": [
+            "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_smoke.py",
+            "--worker",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_20261016_103651_4fcfa9\\cases\\final_rule_sac5000_2026300200\\input.json"
+          ],
+          "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "parent_pid": 660
+        },
+        {
+          "pid": 660,
+          "creation_epoch": 1792118211.9680912,
+          "cmdline": [
+            "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_smoke.py",
+            "--out",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_20261016_103651_4fcfa9"
+          ],
+          "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "parent_pid": 9228
+        }
+      ],
+      "observed_epoch": 1792118213.323083
+    },
+    {
+      "identity": {
+        "pid": 22524,
+        "creation_epoch": 1792118251.9535341,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_smoke.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_20261016_103651_4fcfa9\\cases\\final_rule_transfer10000_2026300200\\input.json"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent_pid": 660
+      },
+      "ancestors": [
+        {
+          "pid": 660,
+          "creation_epoch": 1792118211.9680912,
+          "cmdline": [
+            "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_smoke.py",
+            "--out",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_20261016_103651_4fcfa9"
+          ],
+          "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "parent_pid": 9228
+        }
+      ],
+      "observed_epoch": 1792118252.0361109
+    },
+    {
+      "identity": {
+        "pid": 12428,
+        "creation_epoch": 1792118251.9633844,
+        "cmdline": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent_pid": 22524
+      },
+      "ancestors": [
+        {
+          "pid": 22524,
+          "creation_epoch": 1792118251.9535341,
+          "cmdline": [
+            "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_smoke.py",
+            "--worker",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_20261016_103651_4fcfa9\\cases\\final_rule_transfer10000_2026300200\\input.json"
+          ],
+          "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "parent_pid": 660
+        },
+        {
+          "pid": 660,
+          "creation_epoch": 1792118211.9680912,
+          "cmdline": [
+            "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_smoke.py",
+            "--out",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_20261016_103651_4fcfa9"
+          ],
+          "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "parent_pid": 9228
+        }
+      ],
+      "observed_epoch": 1792118252.0738184
+    },
+    {
+      "identity": {
+        "pid": 22176,
+        "creation_epoch": 1792118290.8553984,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_smoke.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_20261016_103651_4fcfa9\\cases\\final_mirror_transfer10000_2026300201\\input.json"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent_pid": 660
+      },
+      "ancestors": [
+        {
+          "pid": 660,
+          "creation_epoch": 1792118211.9680912,
+          "cmdline": [
+            "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_smoke.py",
+            "--out",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_20261016_103651_4fcfa9"
+          ],
+          "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "parent_pid": 9228
+        }
+      ],
+      "observed_epoch": 1792118290.983851
+    },
+    {
+      "identity": {
+        "pid": 19608,
+        "creation_epoch": 1792118290.864617,
+        "cmdline": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent_pid": 22176
+      },
+      "ancestors": [
+        {
+          "pid": 22176,
+          "creation_epoch": 1792118290.8553984,
+          "cmdline": [
+            "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_smoke.py",
+            "--worker",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_20261016_103651_4fcfa9\\cases\\final_mirror_transfer10000_2026300201\\input.json"
+          ],
+          "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "parent_pid": 660
+        },
+        {
+          "pid": 660,
+          "creation_epoch": 1792118211.9680912,
+          "cmdline": [
+            "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_smoke.py",
+            "--out",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_20261016_103651_4fcfa9"
+          ],
+          "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "parent_pid": 9228
+        }
+      ],
+      "observed_epoch": 1792118291.017515
+    },
+    {
+      "identity": {
+        "pid": 22612,
+        "creation_epoch": 1792118325.2649095,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_smoke.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_20261016_103651_4fcfa9\\cases\\final_mirror_sac5000_2026300201\\input.json"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent_pid": 660
+      },
+      "ancestors": [
+        {
+          "pid": 660,
+          "creation_epoch": 1792118211.9680912,
+          "cmdline": [
+            "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_smoke.py",
+            "--out",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_20261016_103651_4fcfa9"
+          ],
+          "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "parent_pid": 9228
+        }
+      ],
+      "observed_epoch": 1792118325.4605746
+    },
+    {
+      "identity": {
+        "pid": 11064,
+        "creation_epoch": 1792118325.2772453,
+        "cmdline": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent_pid": 22612
+      },
+      "ancestors": [
+        {
+          "pid": 22612,
+          "creation_epoch": 1792118325.2649095,
+          "cmdline": [
+            "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_smoke.py",
+            "--worker",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_20261016_103651_4fcfa9\\cases\\final_mirror_sac5000_2026300201\\input.json"
+          ],
+          "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "parent_pid": 660
+        },
+        {
+          "pid": 660,
+          "creation_epoch": 1792118211.9680912,
+          "cmdline": [
+            "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_smoke.py",
+            "--out",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_20261016_103651_4fcfa9"
+          ],
+          "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "parent_pid": 9228
+        }
+      ],
+      "observed_epoch": 1792118325.5018432
+    },
+    {
+      "identity": {
+        "pid": 11112,
+        "creation_epoch": 1792118364.2379124,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_smoke.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_20261016_103651_4fcfa9\\cases\\final_rl_sac5000_2026300202\\input.json"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent_pid": 660
+      },
+      "ancestors": [
+        {
+          "pid": 660,
+          "creation_epoch": 1792118211.9680912,
+          "cmdline": [
+            "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_smoke.py",
+            "--out",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_20261016_103651_4fcfa9"
+          ],
+          "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "parent_pid": 9228
+        }
+      ],
+      "observed_epoch": 1792118364.3748252
+    },
+    {
+      "identity": {
+        "pid": 16604,
+        "creation_epoch": 1792118364.2493153,
+        "cmdline": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent_pid": 11112
+      },
+      "ancestors": [
+        {
+          "pid": 11112,
+          "creation_epoch": 1792118364.2379124,
+          "cmdline": [
+            "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_smoke.py",
+            "--worker",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_20261016_103651_4fcfa9\\cases\\final_rl_sac5000_2026300202\\input.json"
+          ],
+          "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "parent_pid": 660
+        },
+        {
+          "pid": 660,
+          "creation_epoch": 1792118211.9680912,
+          "cmdline": [
+            "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_smoke.py",
+            "--out",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_20261016_103651_4fcfa9"
+          ],
+          "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "parent_pid": 9228
+        }
+      ],
+      "observed_epoch": 1792118364.4137216
+    },
+    {
+      "identity": {
+        "pid": 14724,
+        "creation_epoch": 1792118428.7970111,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_smoke.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_20261016_103651_4fcfa9\\cases\\final_rl_transfer10000_2026300202\\input.json"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent_pid": 660
+      },
+      "ancestors": [
+        {
+          "pid": 660,
+          "creation_epoch": 1792118211.9680912,
+          "cmdline": [
+            "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_smoke.py",
+            "--out",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_20261016_103651_4fcfa9"
+          ],
+          "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "parent_pid": 9228
+        }
+      ],
+      "observed_epoch": 1792118429.038105
+    },
+    {
+      "identity": {
+        "pid": 13752,
+        "creation_epoch": 1792118428.8071072,
+        "cmdline": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent_pid": 14724
+      },
+      "ancestors": [
+        {
+          "pid": 14724,
+          "creation_epoch": 1792118428.7970111,
+          "cmdline": [
+            "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_smoke.py",
+            "--worker",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_20261016_103651_4fcfa9\\cases\\final_rl_transfer10000_2026300202\\input.json"
+          ],
+          "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "parent_pid": 660
+        },
+        {
+          "pid": 660,
+          "creation_epoch": 1792118211.9680912,
+          "cmdline": [
+            "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_smoke.py",
+            "--out",
+            "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_20261016_103651_4fcfa9"
+          ],
+          "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "parent_pid": 9228
+        }
+      ],
+      "observed_epoch": 1792118429.0774267
+    }
+  ],
+  "publication_error_count": 0,
+  "publication_errors": [],
+  "reason": "supervisor_missing",
+  "wall_seconds": 274.5159999999996
+}

@@ -1,0 +1,24 @@
+{
+  "actual_all_worker_exits": [
+    2
+  ],
+  "guardian": {
+    "pid": 6688,
+    "create": 1792222156.4675093,
+    "cmd": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_bank60_v1\\battle.py",
+      "--launch"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent": 18632
+  },
+  "status": "failed_partial",
+  "wall_seconds": 17.578999999997905,
+  "error": "RuntimeError('Incomplete/failed worker normal_station_zero_2026310300')",
+  "source_unchanged": true,
+  "guardian_return_intended": 2
+}

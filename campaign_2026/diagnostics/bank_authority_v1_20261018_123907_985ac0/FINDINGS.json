@@ -1,0 +1,29 @@
+{
+  "status": "verified_existing_bank_residual_control_authority_not_strength",
+  "verification": "E:\\ai_pilot\\campaign_2026\\diagnostics\\bank_authority_v1_20261018_123907_985ac0\\VERIFICATION.json",
+  "facts": [
+    "Neutral residual0 exactly reproduces residual=None and saved original commands on all600 packets.",
+    "Normal negative-turn prefix: bank residual+1 reduces requested bank magnitude72to64 on all300 inputs and changes aileron285/300; residual-1 clips outward on all300 with no goal/command change.",
+    "Mirrored positive-turn prefix: bank residual-1 reduces magnitude72to64 and changes aileron285/300; residual+1 clips outward on all300 with no goal/command change.",
+    "Both first changed counterfactual command outputs occur at saved tick16. First15 goal changes are masked by output clipping;8 of these also have active slew, overlapping counts not additive.",
+    "Other command channels and requested pitch/speed/rudder remain exact for all alternatives; original aileron clip/slew independently reconstructed with scalar math.",
+    "Synthetic lowaltitude/lowCAS invoke original recover behavior and override bank to0; synthetic ownG8.6 retains original elevator-limiter behavior. guard=False there is not evidence the G limiter is absent."
+  ],
+  "actual_worker_exit": 0,
+  "actual_parent_exit": 0,
+  "wall_seconds": 6.656,
+  "unique_saved_packets": 600,
+  "alternative_action_rows": 1800,
+  "limitations": [
+    "Private one-step clones share identical neutral history; this does not test sustained closed-loop alternative dynamics.",
+    "All sampled saved packets use the far8degree residual limit. Near2.5degree limit was read from frozen source, not newly established in near-range flight.",
+    "Actual controller function output on saved packets is not a new simulator-sent action. No safety guarantee, victory or trained model produced.",
+    "Existing3D tactical actors are incompatible with a new1D bank-action contract; no direct relabeling or exact resume."
+  ],
+  "new_FDM_ticks": 0,
+  "model_inference_calls": 0,
+  "training_started": false,
+  "seed_claims": [],
+  "formal_deployment": "repair_guide",
+  "deployment_allowed": false
+}

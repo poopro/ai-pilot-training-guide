@@ -1,0 +1,10 @@
+test_changed_actor_or_seed_cannot_be_reserved (__main__.PairedPlanTests) ... ok
+test_four_workers_two_paired_seeds_and_both_signs (__main__.PairedPlanTests) ... ok
+test_guard_algorithm_same_as_completed_v5 (__main__.PairedPlanTests) ... ok
+test_no_attack_counter_injection (__main__.PairedPlanTests) ... ok
+test_original_deadline_is_fixed (__main__.PairedPlanTests) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.012s
+
+OK

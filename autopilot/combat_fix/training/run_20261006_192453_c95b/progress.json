@@ -1,0 +1,13 @@
+{
+  "status": "saving_final",
+  "pid": 21204,
+  "decision_steps": 24000,
+  "target_decisions": 24000,
+  "physics_ticks": 95929,
+  "critic_updates": 5750,
+  "actor_updates": 5250,
+  "training_stage": "official",
+  "stop_file": "E:\\ai_pilot\\autopilot\\combat_fix\\training\\run_20261006_192453_c95b\\STOP",
+  "heartbeat_epoch": 1791286242.8045633,
+  "official_validation": false
+}

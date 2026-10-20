@@ -1,0 +1,32 @@
+{
+  "profile": "portable_repair_guide_rehearsal_v2",
+  "captured_utc": "2026-10-15T17:03:13.271024+00:00",
+  "setting_capture_phase": "before_host_Popen",
+  "terminal_capture_version": 1,
+  "p2_logs_before_launch": {
+    "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\player2_runtime.log": {
+      "exists": true,
+      "size": 7877569,
+      "mtime_ns": 1791981727856952700,
+      "sha256": "174cf9af34dec6acbfb51385b3b5db0d97d9f66044ad296c93b8b64e93f9b249"
+    },
+    "C:\\Users\\USER\\AppData\\Local\\JSBsimHost_1_0_0_0\\player2_runtime.log": {
+      "exists": false
+    }
+  },
+  "host_exe_sha256": "635b0ca956695a74e662f7f3a91e50d17ddeffb6e6be468ed8b916d305c19013",
+  "host_setting_sha256": "c5236a1fc9db2ae18d4cb2b310da72dfceb1a569f916f1ad9bc6c02ba6efb418",
+  "cached_executable_receipt": {
+    "path": "C:\\Users\\USER\\AppData\\Local\\JSBsimHost_1_0_0_0\\JSB_host_GUI_publish.exe",
+    "sha256": "00d29bf4ae4b98ad97211076320953bc27c436b6a9bcc680c731172304162a44",
+    "snapshot": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v2\\runs\\portable_20261016_010307_05d6734c\\cachedHost_executable.bin",
+    "phase": "before_host_Popen"
+  },
+  "pid": 24896,
+  "create_time": 1792083793.6995032,
+  "command": [
+    "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe"
+  ],
+  "exe": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe",
+  "parent_pid": 6384
+}

@@ -1,0 +1,19 @@
+{
+  "started_utc": "2026-10-15T15:11:10.861639+00:00",
+  "actual_exit_code": null,
+  "command": [
+    "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+    "-I",
+    "-S",
+    "-B",
+    "-X",
+    "utf8",
+    "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v2\\portable_host.py",
+    "check",
+    "--out",
+    "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v2\\PREFLIGHT_20261015_2312.json"
+  ],
+  "status": "preflight_timed_out_45s_no_Host",
+  "new_Host_rounds": 0,
+  "new_FDM_ticks": 0
+}

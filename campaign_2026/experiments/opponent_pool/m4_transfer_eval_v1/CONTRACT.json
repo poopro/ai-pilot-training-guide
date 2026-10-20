@@ -1,0 +1,54 @@
+{
+  "created_utc": "2026-10-16T02:35:11.046987+00:00",
+  "executor_sha256": {
+    "common.py": "fb9875508b3673319af9a3acc0a96ffdf325dc0cbaf1acbd569a9ef6095ab6ed",
+    "guard.py": "487bcff8994be9a27cead6cdc4609ff3393979fbfd2aeda8da54dd9af30c1bec",
+    "launch_smoke.py": "0d54bd67b5e849eb2e2a3ab758d24143630bc5554617484317cfbe6e7a43adab",
+    "run_smoke.py": "d7260b987afa7c1d5b27ab516208df93b6284bc7e80614baf0c0f2fd921c778d",
+    "test_static.py": "d49e9c02998ec80267cc2881dbfd9553009efe8e968f0c461b5b2d591bd2e678",
+    "verify_final.py": "955daf61594c4b16f548e4e37285ddc471e038df4a59d01d044dbe6d2018392c"
+  },
+  "readme_sha256": "b24f5eb1b9789d3de440968b684eaf98e6f7f35e0797f354cbe81f187af62af5",
+  "mode_contract": {
+    "m4_transfer6": {
+      "cases": 6,
+      "distinct_seeds": 3,
+      "total_wall_seconds": 360,
+      "case_wall_seconds": 90,
+      "max_ticks": 18000,
+      "reset_repeats": 1
+    }
+  },
+  "m4_sources_sha256": {
+    "experiments/m4_tactical_v3/judge_adapter.py": "94067c9b38ef25d15022996d7a7f0fd1c8cb250e849e80da6c30c78a25506b19",
+    "experiments/m4_tactical_v3/m1_station.py": "5d53e18676d18158f3e0bc278e02ed7d42ecca1b1c7c7a6562611184454717ef",
+    "experiments/m4_tactical_v3/m3_mirror_league.py": "e6f47242eb344dacbb68b78d0b229ca5018b787c71d3ee94d660e25ead0371c1",
+    "experiments/m4_tactical_v3/m4_tactical_rl.py": "4475c8b94eee0ee94a17010004930b8ae286f0a6a299064dc34864e45ca0d1f7",
+    "experiments/m4_tactical_v3/test_adapter.py": "8a2aad48dc4e2f05e1e213c31785d7723e2b755fdf8f182affa19b2c43f03a0c",
+    "experiments/m4_tactical_v4/judge_adapter.py": "94067c9b38ef25d15022996d7a7f0fd1c8cb250e849e80da6c30c78a25506b19",
+    "experiments/m4_tactical_v4/m1_station.py": "fcda220748b0a64413d10c987df850ea975d2925994b556157c62331e97795fc",
+    "experiments/m4_tactical_v4/m3_mirror_league.py": "e6f47242eb344dacbb68b78d0b229ca5018b787c71d3ee94d660e25ead0371c1",
+    "experiments/m4_tactical_v4/m4_tactical_rl.py": "4475c8b94eee0ee94a17010004930b8ae286f0a6a299064dc34864e45ca0d1f7",
+    "experiments/m4_tactical_v4/reward_wrapper.py": "daf74a4b643530efd4fae0719cf005611d53d665959c4df48c1b10abfd131431",
+    "experiments/m4_tactical_v4/test_candidate.py": "80be785a8b6573c04b71bc709a2e4e3fcf82b79af60c4a4f5ef328c036b78e32",
+    "experiments/rules_v20261014/judge.py": "11694e29c54fecfa9d39750839688a4c870636e729dd33923a6f78450e837a06",
+    "experiments/opponent_pool/m4_train_pilot_v1/run_20261016_003919_a5c748/cases/fresh_sac_5000/model.zip": "9f93eb56483558ad56283c00b1ba34af96a236583bc977ef7d9fad375d9a0fea",
+    "experiments/opponent_pool/m4_train_pilot_v1/run_20261016_003919_a5c748/BUNDLE_MANIFEST.json": "72ee3d82d4bd3c435f1f942d314cb85865f19a7c7ea7679725391508eedfd0ef"
+  },
+  "score_eligible": false,
+  "official_validation": false,
+  "deployment_allowed": false,
+  "format": "m4_rule_mirror_eval_v1",
+  "candidate_finalized": true,
+  "official_conformance_verified": false,
+  "reward_contract": "publication90_LINE1deg_AGL_right_bin",
+  "actor_comparison": [
+    "sac5000",
+    "transfer10000"
+  ],
+  "origin_contract_created_utc": "2026-10-15T16:54:05.439121+00:00",
+  "origin_contract_path": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_rule_mirror_eval_v1\\CONTRACT.json",
+  "origin_contract_sha256": "46c1cdb72cc6cdb6f862b5f8bdd0b9ad2c756faaf287a13e539c49a858106c9f",
+  "frozen_utc": "2026-10-16T02:35:50.909020+00:00",
+  "model_freeze_sha256": "ab1718f4edf3d21d2c349df5b5589127ffa686fdac92864649014d2b250fac7b"
+}

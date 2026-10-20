@@ -1,0 +1,51 @@
+{
+  "observed_utc": "2026-10-15T16:45:18.151324+00:00",
+  "verified_fresh_training_pilot": true,
+  "new_decisions": 5000,
+  "new_physics_ticks": 100000,
+  "gradient_updates": 500,
+  "completed_training_games": 5,
+  "last_episode_partial": {
+    "episode": 5,
+    "ticks": 10000,
+    "event": "ongoing",
+    "not_counted_as_completed": true
+  },
+  "actual_cells": [
+    [
+      "mirror",
+      3000
+    ],
+    [
+      "mirror",
+      9000
+    ],
+    [
+      "rl",
+      3000
+    ],
+    [
+      "rl",
+      6000
+    ],
+    [
+      "rule",
+      3000
+    ],
+    [
+      "rule",
+      9000
+    ]
+  ],
+  "scheduled_cells": 9,
+  "actual_cells_count": 6,
+  "not_full_balanced_league": true,
+  "peak_abs_G": 7.6767049979934106,
+  "min_AGL_m": 797.6087834210305,
+  "zero_over9G": true,
+  "bundle_reload_verified": true,
+  "interpretation": "Technical training/reload passed. Behavior during changing exploratory training is not a frozen-policy comparison, win-rate estimate or evidence of superiority.",
+  "decision": "freeze_final_for_separate_paired_development_evaluation",
+  "formal_deployment": "repair_guide",
+  "deployment_allowed": false
+}

@@ -1,0 +1,19 @@
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+seed=20272001 t=30s P2=altitude_controlled_pursuit HP blue/red=180/180
+seed=20272001 t=60s P2=altitude_controlled_pursuit HP blue/red=180/180
+seed=20272001 t=90s P2=altitude_controlled_pursuit HP blue/red=180/180
+seed=20272001 t=120s P2=altitude_controlled_pursuit HP blue/red=180/180
+seed=20272001 t=150s P2=altitude_controlled_pursuit HP blue/red=180/180
+seed=20272001 t=180s P2=altitude_controlled_pursuit HP blue/red=180/180
+seed=20272001 t=210s P2=altitude_controlled_pursuit HP blue/red=180/180
+seed=20272001 t=240s P2=altitude_controlled_pursuit HP blue/red=180/180
+seed=20272001 t=270s P2=altitude_controlled_pursuit HP blue/red=180/180
+seed=20272001 t=300s P2=altitude_controlled_pursuit HP blue/red=180/180
+本地對戰報告：E:\ai_pilot\autopilot\opponent_lab\evaluations\eval_20261006_044647_0d64\rule_guide_20272001\report.json
+藍色=P1（你）；紅色=P2（rule）；這是本地模擬，不是官方裁判。

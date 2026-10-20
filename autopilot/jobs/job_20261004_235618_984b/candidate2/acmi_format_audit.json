@@ -1,0 +1,2042 @@
+[
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\guide_preflight\\easy_20261200_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 3289,
+    "last_seconds": 164.367,
+    "sha256": "573a9fe04da377bb0adca9df8aa69b2ddf27762996774842076fbac4b4c47f78"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\guide_preflight\\easy_20261201_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1753,
+    "last_seconds": 87.567,
+    "sha256": "fec8590c54b8fcb87d42b53b69d6cf5e48c95fa015740bee8e12d3161dca72e7"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\guide_preflight\\easy_20261202_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 4265,
+    "last_seconds": 213.2,
+    "sha256": "877f29d61b1b51f78888fba3cde7c201e640c4ccef70765a91145f1324fd4237"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\guide_preflight\\easy_20261203_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 872,
+    "last_seconds": 43.55,
+    "sha256": "1dc9a5c6c2c01ad9aa3fcf2bd59ca4d4ff094042b3b9862723cdb8b0fc4b0492"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\guide_preflight\\easy_20261204_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 3123,
+    "last_seconds": 156.1,
+    "sha256": "25b4f0e3579977a167598eca0a5e34a16efd8e9f1bfab4be5909d5cd65300cd0"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\guide_preflight\\maneuver_20261200_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 3018,
+    "last_seconds": 150.833,
+    "sha256": "b41dc05fbdd5d7e7ee66ace323d94510af877f2a66d4489534521204c0283e87"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\guide_preflight\\maneuver_20261201_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1827,
+    "last_seconds": 91.267,
+    "sha256": "a1048b691f39dd9301fcd55e30fc48ee720a06747b9519fb3e14513f00a65ab0"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\guide_preflight\\maneuver_20261202_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 4816,
+    "last_seconds": 240.75,
+    "sha256": "539dc2698b531bc5225238c8e69ace6a3ae6142f826d64ec3d9be7c6f7da1f5a"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\guide_preflight\\maneuver_20261203_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1101,
+    "last_seconds": 54.967,
+    "sha256": "84561e2c0e0122105192f4a39453de3d854c54b2f5f40ff54cbaf8f3a0f12413"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\guide_preflight\\maneuver_20261204_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 2721,
+    "last_seconds": 135.983,
+    "sha256": "b54d67bf4eafd0560d9b6dac794728203823fa8b9541ef8f3f2f00b86466b957"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\guide_preflight\\duel_20261200_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "2f3163e480b4a643f2f7f2ec68ed397eaa87aa90b62656d8b0f458f74f565bc2"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\guide_preflight\\duel_20261201_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "6576020a5b413bc7fb80122f96283c6cc163485b542746ec3bec82dd71292394"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\guide_preflight\\duel_20261202_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "caaafbda01e34a4379031e75411f386d8d40b356d83290e8952d3a37b1961739"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\guide_preflight\\duel_20261203_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "e58f08fb5f057ad4f910a8de7d99da13a401beb130b978b9c983b1148bd5b9c4"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\guide_preflight\\duel_20261204_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "c5cb71f031a851907887c0730ccb0f5d5069d7adfeeb805915b8709af7b4dc13"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_20000\\easy_20261200_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 3289,
+    "last_seconds": 164.367,
+    "sha256": "430522daf1c50f56b8a71b46ef9cfc9faec40b85733429cb7f3197040e0e380c"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_20000\\easy_20261200_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 3127,
+    "last_seconds": 156.267,
+    "sha256": "ee78eab831466e60c1316ec5a0ef4ca1c53298de2a8782b79cf29ac3c9f97713"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_20000\\easy_20261201_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1753,
+    "last_seconds": 87.567,
+    "sha256": "8ae4cbb7398e2c56410d24f40ba3effbd3520e295a1514b02cc16249209dda50"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_20000\\easy_20261201_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1696,
+    "last_seconds": 84.733,
+    "sha256": "3f3380b659a08f97fc03bd6b96c1c5c57a67e757473882aa7106d2521f65b8df"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_20000\\easy_20261202_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 4265,
+    "last_seconds": 213.2,
+    "sha256": "504ee2cff0c4d5cea0d62121895167aa802eb9ce64558b54d24b778cd64740b2"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_20000\\easy_20261202_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 4175,
+    "last_seconds": 208.683,
+    "sha256": "0762d17dff56e64f1b3fec6027eee7bbbc3f1370099ce670b2030fab55441a29"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_20000\\easy_20261203_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 872,
+    "last_seconds": 43.55,
+    "sha256": "68df88763174ba21ba49bc1ccf566de4c9e3c6e6d1dae00afb18c8cd76af68fc"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_20000\\easy_20261203_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 851,
+    "last_seconds": 42.5,
+    "sha256": "46cea29c78aa185be4c15443b50a18a4a5e9a7c4a17aee459dd9ed1b801a242f"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_20000\\easy_20261204_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 3123,
+    "last_seconds": 156.1,
+    "sha256": "9cd6647de8c851b70d154ab7fa50d8d27e9bf355fea35dd6c157352cb03dc96e"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_20000\\easy_20261204_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 2984,
+    "last_seconds": 149.117,
+    "sha256": "73ab6f1cfc34a72009638298d30c5e3cd93e43b4d44703bcd56d96e09a29423f"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_20000\\maneuver_20261200_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 3018,
+    "last_seconds": 150.833,
+    "sha256": "2e9471bd60765d8ba0dfda3860d4168dba91c1e4787d1755da11a6cd55febbdc"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_20000\\maneuver_20261200_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 2879,
+    "last_seconds": 143.867,
+    "sha256": "878e79ee1ad4c4d7558e6d216ee6b3922a1505a94a01574fa627c449f3e96692"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_20000\\maneuver_20261201_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1827,
+    "last_seconds": 91.267,
+    "sha256": "fbb6143096ccf790b667e0064310e217e612813415d88e486dd4a6274ba991c8"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_20000\\maneuver_20261201_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1773,
+    "last_seconds": 88.567,
+    "sha256": "d4802fc4db3e77e26505103e91d6e3bc534e01dae2db12fdb01836b72e307bea"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_20000\\maneuver_20261202_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 4816,
+    "last_seconds": 240.75,
+    "sha256": "58863ea268d4a71677f853923103f2ae9bea32cc166ab0c3e1ce4e5a53eed214"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_20000\\maneuver_20261202_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 4817,
+    "last_seconds": 240.8,
+    "sha256": "120c51d8678e83b2c44937b26a6bccb1ff3dabf9c97149de9228d7b194377a24"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_20000\\maneuver_20261203_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1101,
+    "last_seconds": 54.967,
+    "sha256": "522808087120183a78aa6316f1492b754baef1d8c795d8a4ba8f3f116799c501"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_20000\\maneuver_20261203_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1089,
+    "last_seconds": 54.367,
+    "sha256": "0401230531e5708058001328af79aa30af1c5b8b1b71b32104c723a079044a44"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_20000\\maneuver_20261204_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 2721,
+    "last_seconds": 135.983,
+    "sha256": "951ab89257fab36b4ebb135793cfd0b4d140cf6f1dfdcf9b7722262173265461"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_20000\\maneuver_20261204_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 2621,
+    "last_seconds": 131.0,
+    "sha256": "f00ce2c702b023108521cff9bccb45e6c55e328d102f4b98b42b54c92b872e78"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_20000\\duel_20261200_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "5b1ee50c559b44e4b67e081d7a42b7fa346296368068cb6b87a2b6c7c5c3f6af"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_20000\\duel_20261200_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 4616,
+    "last_seconds": 230.717,
+    "sha256": "8f4c8a4aa7609cabc8f08a74e86e601aecff045b4744a9848601e06610d4b7ee"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_20000\\duel_20261201_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "29a198b86ff93ee2a5a38e33d8967d230bd5702fce2bc739f397e3960b6f6062"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_20000\\duel_20261201_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "f2e1598ca1e38a82e1f9f628cf999c1a68e3a22c80cc2483202e80b6cff8cec0"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_20000\\duel_20261202_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "86250d3bd24bf5e667a9a3e6e97eb2d57660e2b946d052d5e2a39b618422c8fa"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_20000\\duel_20261202_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "3d327d7f47d4eadccfcb5c1a98e439003bef578968e4b8bba49fad603a1c3886"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_20000\\duel_20261203_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "2453041bd4797f191140f229f7203f5eebf4f08c7afc589ed230ee74cc29e210"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_20000\\duel_20261203_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 2616,
+    "last_seconds": 130.717,
+    "sha256": "99dcdcbad4a75deca614bbd9d3abf393dc2ab85f28e6ef1c28b49e5bbfdfd879"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_20000\\duel_20261204_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "12de8f0586ab6a021556f2b3cea4ea8819707ba592f9a8ed5df0b9e81b193d33"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_20000\\duel_20261204_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "a4fe3ce0a9dc88386f88f737d1e6a822c0da0a7a210111d516b0523b67f5fe8c"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_50000\\easy_20261200_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 3289,
+    "last_seconds": 164.367,
+    "sha256": "dcbafaf9d9e4943b8320454483c3eebf93eec3328a67f67433deda2093fdd29f"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_50000\\easy_20261200_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 3145,
+    "last_seconds": 157.183,
+    "sha256": "a8862f0364dd5071b1ddba66fe61d9c3d13890100422761b17c963a5c8dbe6a5"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_50000\\easy_20261201_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1753,
+    "last_seconds": 87.567,
+    "sha256": "dc2f020787dd66654e866dc0bc55af7bcaf8338bedf9e1e7826e62146ddf54ef"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_50000\\easy_20261201_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1675,
+    "last_seconds": 83.7,
+    "sha256": "0cd2f80224d4ec87c9e69566ecbde81306252684996c65839840d154a470c2fd"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_50000\\easy_20261202_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 4265,
+    "last_seconds": 213.2,
+    "sha256": "ae2b5e7821d943080111f864367df8643f32ed4d446a8651aec2015d008f1f17"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_50000\\easy_20261202_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 4247,
+    "last_seconds": 212.267,
+    "sha256": "7be9ba148d72212ec55dc2849fd611a263ac5806b532be38736542fa6d3d2da7"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_50000\\easy_20261203_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 872,
+    "last_seconds": 43.55,
+    "sha256": "96bb6cab72d35a73640f90653151e75ccc7a7995c23168b3d6ef8f81ce1db4ee"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_50000\\easy_20261203_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 832,
+    "last_seconds": 41.517,
+    "sha256": "e2be2b9c22a2c424f06016691a72564f552a830e5b660304f537d0a2c27025a1"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_50000\\easy_20261204_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 3123,
+    "last_seconds": 156.1,
+    "sha256": "40abba22920326eb170c3efa4b9e41135f2efa253820d611368773481363f324"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_50000\\easy_20261204_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 3036,
+    "last_seconds": 151.75,
+    "sha256": "0661ad3df63bb4a91d105369946126e6547f528a36d78bc5a7f2a1d3ba1594db"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_50000\\maneuver_20261200_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 3018,
+    "last_seconds": 150.833,
+    "sha256": "84499a85da4f2639bccf8d9c21c1a203b97e9e495523ff2bc6c598311ce4e641"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_50000\\maneuver_20261200_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 2884,
+    "last_seconds": 144.15,
+    "sha256": "c416fee042a158f3977096378c8398b770befc37b1d2feb831ac57a3056ceda7"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_50000\\maneuver_20261201_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1827,
+    "last_seconds": 91.267,
+    "sha256": "19fd67dede6c3caad058486e80152b0100778fdf9951fad1532aa8b4011ee85f"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_50000\\maneuver_20261201_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1757,
+    "last_seconds": 87.783,
+    "sha256": "635cf8f62a35b5a3bf0c824e5384ad758f73e8f09f5c8d07879867e85c60aa39"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_50000\\maneuver_20261202_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 4816,
+    "last_seconds": 240.75,
+    "sha256": "9c0366b35aba1091994af480ee7d5a7114aa4172de9cc24f505d7287435f057f"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_50000\\maneuver_20261202_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 4795,
+    "last_seconds": 239.667,
+    "sha256": "15a640546bf87b994caa5d3d7d7d566ab11903864e625aa51abba5681ff36135"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_50000\\maneuver_20261203_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1101,
+    "last_seconds": 54.967,
+    "sha256": "21721acc8cdd730e45e4b9105f899b57bd9b0204a5c1a63c4ec5b52a708339b4"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_50000\\maneuver_20261203_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1080,
+    "last_seconds": 53.95,
+    "sha256": "4f078fc91bb8eefa7fd6289b43393c77b15038398c981adf74a01a7ae578ed5a"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_50000\\maneuver_20261204_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 2721,
+    "last_seconds": 135.983,
+    "sha256": "a403ac7b6ef405e97c3155856c2a9446e293e54970235d327017b4233869fde9"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_50000\\maneuver_20261204_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 2631,
+    "last_seconds": 131.483,
+    "sha256": "f1aa0ae52a5f61d9551d145269807c1083032bfb0d40afd7594a46eb71294f9f"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_50000\\duel_20261200_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "8ca6df27a6e01ca7b31eefd4065d8efeac910f1920397ef983c542be7036556d"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_50000\\duel_20261200_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "c6a7ad408b8da63e8f73cb6e6c76283646da483b2b8327d0fb02ac277cac371f"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_50000\\duel_20261201_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "7a658db0a040ad2a496977ba99ec48f16db43a1dd36e0eaadaeed09018dcc09b"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_50000\\duel_20261201_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 3511,
+    "last_seconds": 175.5,
+    "sha256": "7367d05b6e9c03ea6767fdc2b0d2e1f40485d3f66a53226d888555b304432f86"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_50000\\duel_20261202_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "bc11def8bde4adea4c3279f5e5faedffc902c19aed395c2ac37180f68e3bd0ec"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_50000\\duel_20261202_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "85a349e6387018c9a3dea388dfada027525598be344ce2ef1a359ae30102c9f2"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_50000\\duel_20261203_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "47ef1928047189bc5a3f2f855cb746cfb334f61a6fd6c7aad1366ad882ef6fee"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_50000\\duel_20261203_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "ab5da0cf23125fb1bc980ab083796a86046cd7750410e17d7e28ae414b5001eb"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_50000\\duel_20261204_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "b580aa0c4394690a231413e3a0aef7148a1439c4632bb17480465293e8efbbb1"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_50000\\duel_20261204_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "ac816148d763cfde2726e3d3b3f63fcc3928062990da8faba73e922fc3a2137a"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_100000\\easy_20261200_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 3289,
+    "last_seconds": 164.367,
+    "sha256": "81a73cb339a2872ae7e130fa3869b61f10baf1dccab112f3b951c14c0e7e43b6"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_100000\\easy_20261200_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 3214,
+    "last_seconds": 160.617,
+    "sha256": "982721f696150106b16adf5f38796a0eb56d9d27d3e70ec2f49a18759d348039"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_100000\\easy_20261201_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1753,
+    "last_seconds": 87.567,
+    "sha256": "4192bfb9b2b431e2aa07e365290b9f2cfde8228381ae45fd8f9c19ad228fd923"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_100000\\easy_20261201_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1718,
+    "last_seconds": 85.833,
+    "sha256": "9d9b63940f6d782fc4dd98572ab8ab8d6eb53129d8f18cb48f964be0217e6df6"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_100000\\easy_20261202_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 4265,
+    "last_seconds": 213.2,
+    "sha256": "bc8a7c072a135f2972bb2235fea29c04dd4aec6c32b07eb39db26d67a3717b66"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_100000\\easy_20261202_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 4224,
+    "last_seconds": 211.133,
+    "sha256": "a5a8dcc422aca66241c5f1e95e779d532122a25a56d3bce04b91b0988013c760"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_100000\\easy_20261203_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 872,
+    "last_seconds": 43.55,
+    "sha256": "7461831c4fe2324ace7b388321f123d193c001ec71b5369a46090a668bd285d6"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_100000\\easy_20261203_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 849,
+    "last_seconds": 42.367,
+    "sha256": "e1294f23e9c77c6baf72d9733feb81882c6a35d33f53a2b203b5021c6144d2fd"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_100000\\easy_20261204_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 3123,
+    "last_seconds": 156.1,
+    "sha256": "58b4dae56dd74d6e20e14c0762cefbf1ec1c7fcb01f5f16a68f19bb609c0939b"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_100000\\easy_20261204_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 3061,
+    "last_seconds": 153.0,
+    "sha256": "22a27f63efedf0251041cbd58121ce4d2c46366e042931337d4eda8dfb9fa446"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_100000\\maneuver_20261200_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 3018,
+    "last_seconds": 150.833,
+    "sha256": "0214ecd2c92f424797d5d8033a6fc635fc4eacef204fad13b28717d49fa03eb0"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_100000\\maneuver_20261200_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 2951,
+    "last_seconds": 147.483,
+    "sha256": "2ed0c938517ba8908d3f590011df2cc13ea489d820417ec2fbb68c70d52edd53"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_100000\\maneuver_20261201_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1827,
+    "last_seconds": 91.267,
+    "sha256": "5adb8e97541b6237f2d4bfdde13c270327268f45bc7ac178e330d1cc7c9a32c7"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_100000\\maneuver_20261201_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1800,
+    "last_seconds": 89.933,
+    "sha256": "c46963b0568ab22738fcffdf949c9393064497196b3cb8ab003cc391171f1411"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_100000\\maneuver_20261202_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 4816,
+    "last_seconds": 240.75,
+    "sha256": "ac367220afcd1d3b7bc9615ba61309483122b6f5c21309de1ad43af0569c22e4"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_100000\\maneuver_20261202_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 4796,
+    "last_seconds": 239.733,
+    "sha256": "9cea1067842b5fd9e9fc508e795fda03ce7d894cf9ed4fab3ce3b2a454ab72e1"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_100000\\maneuver_20261203_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1101,
+    "last_seconds": 54.967,
+    "sha256": "2ae8ef02eb9d5a9ba6065ff4738eb148eeb87a0b8b2f0abf89f0387d32af1890"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_100000\\maneuver_20261203_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1096,
+    "last_seconds": 54.717,
+    "sha256": "6305ab44c01f52d79b9c286d85777ae5d63cd98b6ca66cb0e2685f582cfd1367"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_100000\\maneuver_20261204_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 2721,
+    "last_seconds": 135.983,
+    "sha256": "e78b5303ae76581e87c2fa2ab241123c7bee78cae311b4dbf43d5411b6d61828"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_100000\\maneuver_20261204_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 2660,
+    "last_seconds": 132.95,
+    "sha256": "8a3bebbee5ed11456974d67f6efd80c1453e74474e87cf670fcf2cc85d33c7ca"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_100000\\duel_20261200_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "296217143acb31fa6e2066c4a35c2845fda1b1f23f0cd62e69d8e03603cd830c"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_100000\\duel_20261200_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "24f4517922ef2bd973fa15005d83a83b427f8669d0c33c7711b7689d91e9dd83"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_100000\\duel_20261201_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "c6fe29b881de27c0b8e7d338e363db36856357618643a3ab936e16b76a2ac51d"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_100000\\duel_20261201_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "987ddfd7176f8440884f0c1af3b6027bb0b86a3beccb44200d90fa3dd1b55ddd"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_100000\\duel_20261202_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "adc2b9ca0700795cfaa776ee70e6627f4e3c1f07a3f1ae9c1fc9d8b36b6428c8"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_100000\\duel_20261202_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "f21ee106e19c044ba0cf80c3a0b7e14a9d451c5a998e5b10dddba8473cca2973"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_100000\\duel_20261203_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "faf554f237b5c945dd7a8aec71597c7c292024e16a13d046f57575a253cbf055"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_100000\\duel_20261203_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "d6fe984389f2247859993f59aa61b1472d3872003c859defc273cc74c7a43750"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_100000\\duel_20261204_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "da23c145ae2ec8f47f7df4e2c6163ea2f8ab250b115c540c9b75a3f068dcc0db"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_100000\\duel_20261204_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "03034108786741711008e1eaf532d986a8c3a9a00fe6278a518d2dd2c99739f2"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_199000\\easy_20261200_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 3289,
+    "last_seconds": 164.367,
+    "sha256": "d6cdd8ef92bcbdef15e13ebe13eed5c64bc113e48467b56c96bcbf77801fdcbc"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_199000\\easy_20261200_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 3382,
+    "last_seconds": 169.017,
+    "sha256": "d95eda5d7cf98fee2a087b8b6e7f9ca7be2c400a1ef7e4ac81883b5f2c859165"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_199000\\easy_20261201_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1753,
+    "last_seconds": 87.567,
+    "sha256": "e810f95a719176f6fa049b5db319926e983257ec8817d96379d1b2b711a430b6"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_199000\\easy_20261201_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1770,
+    "last_seconds": 88.45,
+    "sha256": "4c350ac5d70036e97530beecb6243a20b32d58075054631ecbf59206f11d92a4"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_199000\\easy_20261202_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 4265,
+    "last_seconds": 213.2,
+    "sha256": "b38f764d2f850485183042f5f3770eee4cae3edb245da5a79e6e860f81cc66cd"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_199000\\easy_20261202_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 4288,
+    "last_seconds": 214.333,
+    "sha256": "d48f722f8e71c830748d07ca3147b1d0c28f33bb0c9a2a06d7eeaf94f771d1f6"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_199000\\easy_20261203_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 872,
+    "last_seconds": 43.55,
+    "sha256": "bab84eb07a1e5949ce3f9d140d5474414c184ade5ff777ed3107db09d7422e97"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_199000\\easy_20261203_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 840,
+    "last_seconds": 41.917,
+    "sha256": "b84dc4e3d19bf3e924cc3fbbbe0cc9fd8abfdb8bc08dfc05d475e4e4e84f9203"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_199000\\easy_20261204_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 3123,
+    "last_seconds": 156.1,
+    "sha256": "4eca2aae7be793907b134fa5877aaaf2b5f422b1165cb9f3fd9ec7d2906b9472"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_199000\\easy_20261204_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 3100,
+    "last_seconds": 154.95,
+    "sha256": "7e6d5aca8299399ce0c46afbb254e6382233cb7921b70e01c2accea38abfc5c7"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_199000\\maneuver_20261200_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 3018,
+    "last_seconds": 150.833,
+    "sha256": "bf0f35662e389db8ee95706410cc235c22bd7f804f7bf6194b6bc9d6837b6db1"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_199000\\maneuver_20261200_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 3107,
+    "last_seconds": 155.283,
+    "sha256": "40301c42febec2451031ec7eabab6c2952c189c7294c6a859b20204b5b806b04"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_199000\\maneuver_20261201_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1827,
+    "last_seconds": 91.267,
+    "sha256": "27f2b297c2c93fcba5b8e8e57d8112c8d1b7aec4351a688bd0462b4bd23410ea"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_199000\\maneuver_20261201_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1970,
+    "last_seconds": 98.417,
+    "sha256": "103e6c2010636024f19803d74cb9b7896dc68495dee5893fdc757f32107b0790"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_199000\\maneuver_20261202_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 4816,
+    "last_seconds": 240.75,
+    "sha256": "94912169523ad8a2fecde1c8769395d8ca0e7125ceef5c671632da1cde79e5d0"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_199000\\maneuver_20261202_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 4405,
+    "last_seconds": 220.167,
+    "sha256": "661e718095f5a440a9c69d62b77de06e5d6165fa77b5a0b1cb48ee9f59f608c5"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_199000\\maneuver_20261203_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1101,
+    "last_seconds": 54.967,
+    "sha256": "202fb15d5a080ef0e257bfa2c9eeaf6d0d24cc0ffd28006595d49a597343e1ee"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_199000\\maneuver_20261203_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1098,
+    "last_seconds": 54.85,
+    "sha256": "24673850003e7ea5c0ef71b44ac906ac347b81384442a3615b04d901542eb965"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_199000\\maneuver_20261204_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 2721,
+    "last_seconds": 135.983,
+    "sha256": "9451ee888691afa3de21f3718503c4d3b2b4a2da815a8adc0d495def58fa4631"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_199000\\maneuver_20261204_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 2681,
+    "last_seconds": 134.0,
+    "sha256": "16cced08bfb38ce494b4b835e4c9ffd307f9cfe1ef2b1a1df2cf7d0795e81b08"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_199000\\duel_20261200_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "56f076d904b32858c575ccee31f48937c27be00546f5d3d5521c5cafa80c4b40"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_199000\\duel_20261200_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "103c0d541b1764580d4b67597909cce5f4c8bd5ba537a1dc7a2a1e8745b5af35"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_199000\\duel_20261201_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "1f67b645a5046f28ffed737b0d3163e5dcaf6a48da66bfc72f54f4afe958abdc"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_199000\\duel_20261201_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 2847,
+    "last_seconds": 142.267,
+    "sha256": "7d7285ea7b49de6c9389c95fd3179468c920761ae52158076e827284afe61c21"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_199000\\duel_20261202_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "36425264c14710fcdfa52ae97dfac04ec700e919871e33adf1243338912cab20"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_199000\\duel_20261202_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "fe16da33d2a97e43fb1f628e4b37a4677561f08d2c013ae24d7c1207e3ff054d"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_199000\\duel_20261203_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "dc6a43f8491ac5718772b5502e085eec5184136ae9cbad25ef597111ee8a4e15"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_199000\\duel_20261203_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "2ea306687b1b785177cbcc826fa41329273d97a0582e700b48075433734160ac"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_199000\\duel_20261204_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "e5ac8e4481761374511d9df8ce639eb36798f81c4e5f9dca181f3e8ca5612939"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\dev_199000\\duel_20261204_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 4680,
+    "last_seconds": 233.933,
+    "sha256": "fbe38d2843e6e606b0c16e64f1bc740de604e2758e04ac3cdab17d55d168897d"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262000_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1409,
+    "last_seconds": 70.367,
+    "sha256": "1dbe1d20dbd9f0ecf980bc44e72c04abac7d75935aa43f2f52f0478c3be1053f"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262000_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1337,
+    "last_seconds": 66.783,
+    "sha256": "42d2960a6ef820535faa912da76e7aa2071c050609d7640090ff999c5e5b9417"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262001_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 954,
+    "last_seconds": 47.633,
+    "sha256": "ebe38f0b95117bd02d82cab2a2f07507db1b32efb2f372d7745f59d13fd1becb"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262001_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 948,
+    "last_seconds": 47.317,
+    "sha256": "c5402e8eb6698a85194c5848847567781f956bd75442785eeea1330522fe4819"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262002_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 2326,
+    "last_seconds": 116.217,
+    "sha256": "e996174ed0434fbe69b003f7dbcecea9709fb91012eec744b01b19dd0b44dd83"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262002_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 3423,
+    "last_seconds": 171.1,
+    "sha256": "e0199642ddd479f7ba1fbef2fd746564ab12f90097db15b984992cf6fcc6f6e3"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262003_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 5517,
+    "last_seconds": 275.767,
+    "sha256": "07f8fc2871999d634ed24b27997907c2c017b6aaf5692ff9b9d937d568ee1b2c"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262003_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 5377,
+    "last_seconds": 268.8,
+    "sha256": "e42a681bf99a76262efe1bb361a78c32edc0b51e1e1ac86ec5f03023944a5a71"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262004_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 4313,
+    "last_seconds": 215.567,
+    "sha256": "7866bf8ef2b61c03051a1873ac51e2813637fdc53aa3f9f30ebc85b3f231bee2"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262004_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 4505,
+    "last_seconds": 225.167,
+    "sha256": "4ba037449a160e3cc65b576fe0ef993ef198f2391ba381794757d7011db99714"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262005_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 704,
+    "last_seconds": 35.117,
+    "sha256": "0c7a3a60e857c1513cd582845541401d1987b1121e954fa057dd711618161ed5"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262005_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 706,
+    "last_seconds": 35.25,
+    "sha256": "ab16c25f8566621922234bceddbaaecccc2532cf51cded8c301584b215698474"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262006_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1080,
+    "last_seconds": 53.95,
+    "sha256": "4ffa9aad0408f99e48d721030c9b34d1463b7cb6c41fe70c81b165ddd8e0db3e"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262006_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1180,
+    "last_seconds": 58.933,
+    "sha256": "4ec0db033cb771bd0b3a825e4cf6317f4ac5cedf1bed5f606f9ff6c38b9345c3"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262007_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1786,
+    "last_seconds": 89.233,
+    "sha256": "86e64ed4d5e5f0768de233471821fb31da15c409b31e6e8d266e6e4418702b6a"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262007_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1588,
+    "last_seconds": 79.35,
+    "sha256": "6200f111a707bf6f112608e431934ad3c69874838d0405c7c197fc410eb99fe1"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262008_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 674,
+    "last_seconds": 33.65,
+    "sha256": "3d5bb2feeb73f808518815cb5d519cb66cd0b227f0e5628a25821b3de5d9f2cc"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262008_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 675,
+    "last_seconds": 33.683,
+    "sha256": "b0efd5bb715e01ec11100223dabd1accbbf57494ae3b380819da4d0f48dfd98e"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262009_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 4263,
+    "last_seconds": 213.083,
+    "sha256": "c275fdd04456b53154594f71001b5809eb42cd057376fb86146521346cae5372"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262009_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 4468,
+    "last_seconds": 223.35,
+    "sha256": "e1bc318374703c4a4c5c3ec5b9de1cdff96ac9f9e5a3f1b9ce37837c2875d0f2"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262010_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1912,
+    "last_seconds": 95.533,
+    "sha256": "cf59e83f4612c829cd26c3ee82edf6d22151162885795314fd5941add077e4b4"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262010_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 2088,
+    "last_seconds": 104.317,
+    "sha256": "16adcb13bf95ad5d22c121d53cfb49c63748017bbd0e6c00e6050e8b4c135741"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262011_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 571,
+    "last_seconds": 28.467,
+    "sha256": "9f88bc381f179afb1d1fb4642a5c3400487d11b3f9f93885075467ae401889c2"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262011_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 547,
+    "last_seconds": 27.283,
+    "sha256": "bcac97d94b532cf01fabf60ea0976f01ac37ba5ed4fb6fa2dc249bed192839c0"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262012_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1802,
+    "last_seconds": 90.033,
+    "sha256": "15e94c1481497f233288377aa4428e4546a266a0c8405a25e45697c8735be655"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262012_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1721,
+    "last_seconds": 85.967,
+    "sha256": "cc76dc9e760217cd222ed6080679f1b2e00127e5dcd41159af9cacc9ca301cad"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262013_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1423,
+    "last_seconds": 71.083,
+    "sha256": "bc90093c936cb30be4195c70ccb49a52b3d3565427c07b4c370f65d21ae452e3"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262013_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1496,
+    "last_seconds": 74.75,
+    "sha256": "fd06b2d0ae6dacc85a7078deb1f3da6cf4e8443f6c9de7996c319df70f040c06"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262014_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 2347,
+    "last_seconds": 117.283,
+    "sha256": "39ca7d6717f9d8ef773324e91b5af1f69e41f0c679eba4089b116c42e57bcf8b"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262014_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 2465,
+    "last_seconds": 123.183,
+    "sha256": "03729d5476314eb5b9d55822fb429b37788059b0b659bd83752554bc7a0a7901"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262015_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 938,
+    "last_seconds": 46.85,
+    "sha256": "017209831c3443576f74b4f764bf3a561c9cd3b85926217ad97980b16121fda2"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262015_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 983,
+    "last_seconds": 49.1,
+    "sha256": "3e631e12cb3447bdd4cb71a95e98bd8872760ef74f11ff07a0fbede6e80cfcbe"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262016_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1527,
+    "last_seconds": 76.3,
+    "sha256": "79caba547b541346c14ca9534bbe345b3e326af9fea8578006d335d34e967ccb"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262016_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1600,
+    "last_seconds": 79.917,
+    "sha256": "ecd69cfa22c515a5ca68e2dba3fee492eb4fc90841a040ab3c4e355f1cbe70ad"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262017_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 4774,
+    "last_seconds": 238.633,
+    "sha256": "2eaa48f131754736c4669325878f049ca75f7b81df7d0aa429a6c8b7f65db979"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262017_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 4728,
+    "last_seconds": 236.333,
+    "sha256": "06f8ca71dce21febd78036bee3085a7ab5ded54d43711639361f5ce75d184af4"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262018_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1837,
+    "last_seconds": 91.783,
+    "sha256": "0ec3bbabfc4c80c7553c3df0ae39b25b2b7765d8fe37b821d16aa3702f390848"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262018_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1759,
+    "last_seconds": 87.883,
+    "sha256": "8b81fb62140081b57ddbb551023bdeef9339260460a537941275924b15726c18"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262019_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 911,
+    "last_seconds": 45.483,
+    "sha256": "0c8314087c373dc8c68b8d730248aa9d3e3526bfbad685c44f824726d5eeb518"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\easy_20262019_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 942,
+    "last_seconds": 47.05,
+    "sha256": "bd827a22342f721a3d7f50bc9f8f3c95a4f3614553aeb3a40a34b39ff07e7c06"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262000_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1710,
+    "last_seconds": 85.433,
+    "sha256": "cb06dd1912dddd1714190c37b5bf6b12c0a79a293b7e3c948b819675b0b43631"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262000_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1700,
+    "last_seconds": 84.95,
+    "sha256": "ed25e38d465cc229e71486332606135a2caca7302db550efff02b795ff55b1fe"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262001_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1114,
+    "last_seconds": 55.65,
+    "sha256": "d9f400afecd41c4beb73c3ccb34a8dd6dbf4f1b465e31688fbc97474b505caf5"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262001_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1105,
+    "last_seconds": 55.183,
+    "sha256": "7778be859c9b1a49fa9a76fe6a48aadd60ff2a159870cf98dd1421459061072d"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262002_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 3169,
+    "last_seconds": 158.4,
+    "sha256": "61c8ff383030f498fc6e5ccff70dd078bd2184fedc8adbfbb7c0cddffa9d1944"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262002_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 4154,
+    "last_seconds": 207.65,
+    "sha256": "0e22cedb709c303ce0ace8e7b62f766bbd3b28c76f65cf5619038dd7b6687c2d"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262003_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 5064,
+    "last_seconds": 253.133,
+    "sha256": "78de6cfe68bbf71eead93f86249b753434981b00acd8721def0ba265913c4e9e"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262003_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 4937,
+    "last_seconds": 246.8,
+    "sha256": "0b6cda80d017729444fd333fbd564d5034aeb5c8306e6932fe8b734f88eb98d9"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262004_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 4323,
+    "last_seconds": 216.1,
+    "sha256": "318db786f4a8611462d5a9ab47d9718d8d3088b10f9c4c0ff520c259de423f0e"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262004_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 4495,
+    "last_seconds": 224.667,
+    "sha256": "f10413357142b0708cbe85243ee94122fd515e0f3bcfb3452a27ed6f3c6f2b47"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262005_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1166,
+    "last_seconds": 58.233,
+    "sha256": "9bcde8556e327687330ff009c5ada3d381b7badbe3afa33b9f1dec2cdf557492"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262005_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1158,
+    "last_seconds": 57.817,
+    "sha256": "356aeb0235c4ca0627092a1869b8e7a35d4eaa6f33b5c96d50d68eb109f1db8a"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262006_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1045,
+    "last_seconds": 52.183,
+    "sha256": "6861736f45bfdbfed502a77ac8966c8e24d5f673fb51647cd36fb02f693d66fd"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262006_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 2236,
+    "last_seconds": 111.717,
+    "sha256": "e1a2e0e518351d2f87ce5a29b7dc5b9aab9b463d6dffe102958852c7c87219fb"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262007_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 2309,
+    "last_seconds": 115.383,
+    "sha256": "0a1ea2e0ed42a342dcd5edbd236383e2f7dc16de2a5422a77e7107597a5c4d6c"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262007_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1898,
+    "last_seconds": 94.85,
+    "sha256": "d5c9c39364e28499bd7e0461cbafa8c3f6c9a265370a1ecb21cd6368a6bfb9f7"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262008_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 679,
+    "last_seconds": 33.867,
+    "sha256": "2008ba950435c6ffe74cab95847a49cfa2dde77a235865c0570850549f60312e"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262008_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 680,
+    "last_seconds": 33.917,
+    "sha256": "33440546a0293d1b16d8cc447362e9028a49039d8ba45a22252dbdd898cf270d"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262009_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 3371,
+    "last_seconds": 168.5,
+    "sha256": "c2b558f02d3a3cbb52596f6ecdf059f97976c0c241ac18843008e82e6807df55"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262009_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 3525,
+    "last_seconds": 176.2,
+    "sha256": "7f2447b4ed8043f9b828af582351995867c724030b7b1452f4ed40a9c990f40c"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262010_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1983,
+    "last_seconds": 99.067,
+    "sha256": "f1944f4dd24992fbabfa1d18bb36c174331e83b60c2770243d099f62431728f8"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262010_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 2740,
+    "last_seconds": 136.917,
+    "sha256": "76297add1f9973f57e381abb070e997f9072b159992c35771edc0efb9216681a"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262011_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 686,
+    "last_seconds": 34.217,
+    "sha256": "88471b5fa3b358e9d566576b7759b4e1273fec9b34be6ef4f2607b5cf4793bb5"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262011_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 662,
+    "last_seconds": 33.05,
+    "sha256": "5b58226e3063aa49e9060565e1d0389c5253e2616017dd5524c07cd42303a78f"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262012_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1720,
+    "last_seconds": 85.95,
+    "sha256": "3edb7cdd5dddd7c253326ea2a8072be9c55900124192c3f33e7b07d53561e0d4"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262012_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1735,
+    "last_seconds": 86.667,
+    "sha256": "d2be34f5d06049a5ab9fd9dd92e3c520994f879aa67673880ac042d88f29c7b1"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262013_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1801,
+    "last_seconds": 90.0,
+    "sha256": "b08269dcaf17e84b263a6f34693b757f00ea89f8c6a7d1d13047088b59f4d10a"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262013_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1635,
+    "last_seconds": 81.667,
+    "sha256": "ec9182858238674decfbb4fdb5dfc8ad128bab21cf6f482f066fb6d2843d5593"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262014_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 2933,
+    "last_seconds": 146.583,
+    "sha256": "f158dcc4a110398248e6baf9c378a63dce10d885f62ce5203059dba8b799f06f"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262014_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 2982,
+    "last_seconds": 149.033,
+    "sha256": "087fc4688e03367102ba63eecc701bfa421ffc4be37eee1bbd95167a6944c707"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262015_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 958,
+    "last_seconds": 47.817,
+    "sha256": "a24b92db1dbae05d5ffc8b5e4ce82c7380e4dd2eac12e96d6bf90f5a0f0d1ec0"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262015_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1024,
+    "last_seconds": 51.117,
+    "sha256": "3e9691a6574a5f2822bad7258d579222cc2fbf11e431b8c0ce5148c28fa7c6d8"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262016_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 2007,
+    "last_seconds": 100.267,
+    "sha256": "e69700f5f2d856d9a93c5704471d15e4dd6b704172b6669440b3f19670a0b4d6"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262016_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 2025,
+    "last_seconds": 101.183,
+    "sha256": "8f64bdd50975a0f9c46cf47524f3673b439f6bbc8db18875c2fed8673244ae78"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262017_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 3820,
+    "last_seconds": 190.933,
+    "sha256": "8eaaa0010e76da951f8158e29c5c4a183139fc6dcbbbd7a376ec9402f70c50b9"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262017_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 3736,
+    "last_seconds": 186.733,
+    "sha256": "ad409dd185a30221e34ffaca858f5cc33ab74026f7f70a88cb532f96415327d4"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262018_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1628,
+    "last_seconds": 81.333,
+    "sha256": "88f8362c245f9d50dc9909d34b057386a5046c932bc078b1bc321dfff8bf279f"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262018_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1634,
+    "last_seconds": 81.633,
+    "sha256": "34271e1b43af07baa59afe2eaafd3609191dfce32b8d5927c4da6333458b5e35"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262019_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1473,
+    "last_seconds": 73.6,
+    "sha256": "57aded400f6dcac0a7076606cf46a1ed8318096ffb7794446fd85962f0e80b40"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\maneuver_20262019_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 1480,
+    "last_seconds": 73.917,
+    "sha256": "8bf7c3f450a525c6048e84798067284f964feabff70f121eca266bcbe77064ad"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262000_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "5a52b3f724c7c93065b422f1fd65f04a2dcba08e5110ed25190346cdec603546"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262000_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "40eaa2e675210ebecae5911a94e34a1b1e9c5f604545a9645b2a382618b771e2"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262001_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 2444,
+    "last_seconds": 122.133,
+    "sha256": "4fee309d4626c6ee2f37d0b6135e89d20f9ca4968c8580dd4e137e1489e281ee"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262001_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 5971,
+    "last_seconds": 298.483,
+    "sha256": "a170cef6475c84363a943f0a3a71ade5c6ed682c5d92826c64dc09ecf1b4f3fb"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262002_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "169ecad5f4d61567f5418656558730464e7039c11621a6d05508cb977495ea8c"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262002_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 4988,
+    "last_seconds": 249.35,
+    "sha256": "c5d3a78441b28c8a9a1eb9a4d546a2f1665fc8da78ebdbf6e60532c9a5d6d1da"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262003_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "4336ec6451cba4b392cfd837d6f5871e8ded6a6226e001f11d9b5dd062b03cdd"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262003_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "27e5f336cb824fec689b7e460cd4423819dda0570a270981cdf068145a22308b"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262004_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "ba3828f5c9d0cc6e3283756f2a971a834e32e9c5483916d9131c935cc52bc379"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262004_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "84f17e5877a1f232fbca399df0340d3cfd03a7d18d518b7f5e1b649f343f770c"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262005_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "a9cf8c7f79b944e1e6402ab3f85bd617cf7f364ef585fa799e3b71581ee2b0de"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262005_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 5722,
+    "last_seconds": 286.033,
+    "sha256": "3f45a801a1d78726b69abee070c96595e4f7d8cc88688cc0fdb2de7ad95adbe5"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262006_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 5510,
+    "last_seconds": 275.45,
+    "sha256": "728794837d90d06964418288fec25b078ae50aa9090f895487fcb390828449e9"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262006_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "637f3c7d7ba87d7361ff805b698b8d368b40ec7e4364ed533d4dffbc003f23d7"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262007_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "68ab2f7f7389fb67d36bc8e91d4c8238f8c73dc56929e782f816fa5b887ffb75"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262007_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "a486eaa67d5c878e12fd3621c86439660b73085f03482f9445ec8095701ab597"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262008_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 3169,
+    "last_seconds": 158.383,
+    "sha256": "79f47e0ae0cebbd9cc595e346efb0078484f40fc051db9e05b74ce8c15c8ba98"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262008_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "e479f1d34db0ff750b1aa6d90c82b6c5b5afc50219ad74319164e137b7c707a1"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262009_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "0cddeb8d76434c0f8ef4e4fad434b53a9cc3c8bd10c1c02c4a7a1ef3ef3fc919"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262009_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "5c7f92bf0c99e04053a6f8214fe26a04c27fc6da997a01d4ea3c0d5f9ccce4d2"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262010_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "9ccedc5726601f6523618cda4e8dbf736c0ab57f6758d48824da85b3bfe90e46"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262010_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 5453,
+    "last_seconds": 272.6,
+    "sha256": "af2cb994258bd3a86f26ca86419d8fe58679d76c28844f7c08d889fe2f88e825"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262011_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 4991,
+    "last_seconds": 249.467,
+    "sha256": "8aee5f2c9b64af8ad013b13905bc9198784d9b34cee85ecf418fda0ffa435ade"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262011_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "54c463160f5ee6bc2700ce2886f00b09a8bd7f1b2c55875ee581f7b0ce437af9"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262012_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 4694,
+    "last_seconds": 234.633,
+    "sha256": "de427f85c6fe989c8c76340164e16c1aac3e9e4bd8e85ac92a9dffadd1506064"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262012_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 4274,
+    "last_seconds": 213.617,
+    "sha256": "2df8ca6ed6e2325781a2d51d275f43f4040354db1a1be24dd621569cffc6f936"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262013_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 5185,
+    "last_seconds": 259.167,
+    "sha256": "81e19c7ed26ae75a852dd2315ce66d34bb72d74cb33b51d73e42c2e5347a6098"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262013_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "367529def81cd2665d159ff2b1dfd2b17e8a2953180e53cb3be4d6e6a73517d0"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262014_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "2c0b2f0847a3c58bf3d9ed6fa198a5d30ccb9634597bc4e36895fdebc294f85e"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262014_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "7da07bd52b977a5ce79c91d4a25094acfeca2dd8fac347215b7b44fabfff7122"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262015_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "a8bcaff9ebf42ae503861bd6dcab8aa8010aa0acb7ab51127bf615407a0809bf"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262015_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "a2ea2e7803e562d1c75dbdd10350228cd5a9d744dfc5eee22ced31073986037f"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262016_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "9e8464a04c027c77eeaa6dc5f6d21911c8957fc5c8b245fc9a05a17aa3f10683"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262016_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "96594344121492fafc95ec8b1fcbafec526599669a40aa5144cc06ee741e7d39"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262017_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "33631122d7dc702744008e8851f020908e406b4aab5167da6883a1683b84e292"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262017_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 3952,
+    "last_seconds": 197.55,
+    "sha256": "7fb3a1af36131aac7e4f298cafe641db75cadc47fcaa161db50ede7415ce3438"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262018_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "b0b6788bc06686cb102a2c9956080134c7bae85c0910265a2a079d9eb08e0ac1"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262018_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "1e7fc143aa05fd7172d4d0c66b7da9b77547c838ea5169112bd605bc00a2ec84"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262019_guide.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "3c4ce904a33bc9195f7d23ae159591fd3ec90dc0c17a9fb61776ffaea92758a9"
+  },
+  {
+    "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\holdout\\duel_20262019_policy.acmi",
+    "two_aircraft": true,
+    "monotonic_time": true,
+    "frames": 6001,
+    "last_seconds": 300.0,
+    "sha256": "cbfe7cfdeb0bdb0442d9123ba4c71eddf3172f40beac446805d34b8cee904163"
+  }
+]

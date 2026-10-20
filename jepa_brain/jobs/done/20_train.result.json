@@ -1,0 +1,1 @@
+{"id": "20_train", "script": "train_brain.py", "args": ["--data", "runs/collect01/data", "--out", "brain_v1.pt", "--epochs", "40"], "exit_code": 0, "reason": null, "seconds": 803.3}

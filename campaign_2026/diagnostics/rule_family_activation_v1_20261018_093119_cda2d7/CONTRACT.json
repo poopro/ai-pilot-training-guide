@@ -1,0 +1,61 @@
+{
+  "guardian": {
+    "pid": 3416,
+    "create": 1792287079.1339457,
+    "cmd": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\rule_family_activation_guardian_v1.py"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent": 10964
+  },
+  "deadline_epoch": 1792287199.961423,
+  "deadline_monotonic": 32937.156,
+  "seconds": 120,
+  "diagnostic_source_sha256": "f6389f354912457921d6900b2e20bc40d6cb1ccbf69d61c5512a16c02f1a26e3",
+  "source_run": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\run_20261018_033053_98bc0f",
+  "original_source_contract_sha256": "f701e7a09afe6fe0173d938afe4fe6da3ef72e5e0ae0e924e710d2191a05956a",
+  "resources": {
+    "ram_bytes": 7299452928,
+    "disk_bytes": 193370177536,
+    "cpu_percent": 0.0,
+    "GPU_used": false
+  },
+  "usage_observation": {
+    "observed_utc": "2026-10-18 01:26:48 UTC",
+    "remaining_percent": 85,
+    "primary": {
+      "usedPercent": 15,
+      "windowDurationMins": 300,
+      "resetsAt": 1792292334
+    },
+    "weekly": {
+      "usedPercent": 2,
+      "windowDurationMins": 10080,
+      "resetsAt": 1792879134
+    },
+    "reset_credit_used": false
+  },
+  "new_FDM_ticks": 0,
+  "seed_claims": [],
+  "training_started": false,
+  "comparison_path": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\run_20261018_033053_98bc0f\\COMPARISON.json",
+  "comparison_sha256": "813f5f205448a112e3dbb06d3b11971c808731cd0163434e5770faff7a3b0560",
+  "analysis_worker_sha256": "8199f2e52db68e9f60628e61d7570fdf82797c6a223a8f328da657bb3432b2e1",
+  "window_definitions": "Stateful first300 history rebuild, then new suffix through3600 or first output difference",
+  "hypothesis": "Determine first changed actual controller output, if any, before spending four new FDM games",
+  "model_inference_calls": 0,
+  "controller_calls": "real act and real inherited command on saved prefixes",
+  "new_sources": {
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rule_family_v1\\policy.py": "85648cff99986d78245aa5fb75388f541edfcf1febb38eb7e65eb331d5118576",
+    "E:\\ai_pilot\\campaign_2026\\diagnostics\\rule_family_activation_worker_v1.py": "8199f2e52db68e9f60628e61d7570fdf82797c6a223a8f328da657bb3432b2e1",
+    "E:\\ai_pilot\\campaign_2026\\diagnostics\\rule_family_activation_guardian_v1.py": "f6389f354912457921d6900b2e20bc40d6cb1ccbf69d61c5512a16c02f1a26e3"
+  },
+  "comparison_goal": "controller family only, no new parameter",
+  "prior_precheck": "E:\\ai_pilot\\campaign_2026\\diagnostics\\rule_family_precheck_v1_20261018_092908_52c797",
+  "prior_precheck_verification_sha256": "08f7ee74a66b76e856f0705e12b37ba9e15ec791cea2d3a2115084307f4187dd",
+  "max_prefix_ticks": 3600
+}

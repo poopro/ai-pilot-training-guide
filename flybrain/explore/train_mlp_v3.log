@@ -1,0 +1,7 @@
+77 games, 3562 near states (2935 core), opponents {np.str_('breaker'): 151, np.str_('defender'): 145, np.str_('guide'): 661, np.str_('lag'): 623, np.str_('lead'): 1346, np.str_('level'): 38, np.str_('mix'): 145, np.str_('pp0'): 148, np.str_('sac:25600000'): 305}
+always LEAD: core 11.4  all 15.3  {np.str_('breaker'): 73.3, np.str_('defender'): 52.1, np.str_('guide'): 22.7, np.str_('lag'): 29.5, np.str_('lead'): -2.6, np.str_('level'): -3.2, np.str_('mix'): -2.1, np.str_('pp0'): 50.5, np.str_('sac:25600000'): -3.7}
+ridge     core  29.6  all  27.9  tau 0  {np.str_('breaker'): 76.4, np.str_('defender'): 76.9, np.str_('guide'): 22.6, np.str_('lag'): 25.2, np.str_('lead'): 5.8, np.str_('level'): 6.9, np.str_('mix'): 83.1, np.str_('pp0'): 42.8, np.str_('sac:25600000'): 64.7}  (0s)
+mlp a3    core  51.8  all  39.1  tau 0  {np.str_('breaker'): 97.2, np.str_('defender'): 69.8, np.str_('guide'): 26.1, np.str_('lag'): 25.0, np.str_('lead'): 18.8, np.str_('level'): 17.8, np.str_('mix'): 57.8, np.str_('pp0'): 37.7, np.str_('sac:25600000'): 137.5}  (91s)
+mlp a10   core  54.7  all  35.9  tau 0  {np.str_('breaker'): 104.4, np.str_('defender'): 68.0, np.str_('guide'): 20.8, np.str_('lag'): 25.6, np.str_('lead'): 11.7, np.str_('level'): 6.7, np.str_('mix'): 0.5, np.str_('pp0'): 49.3, np.str_('sac:25600000'): 160.8}  (83s)
+chosen: mlp a10 tau 0.0
+saved ro/opt_mlp_v3.npz

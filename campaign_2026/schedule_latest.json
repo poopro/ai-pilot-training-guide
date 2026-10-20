@@ -1,0 +1,20 @@
+{
+  "updated_utc": "2026-10-12T15:51:58.343295+00:00",
+  "automation_id": "ai-4",
+  "native_update_status": "ACTIVE",
+  "saved_rule_readback_verified": true,
+  "saved_prompt_readback_verified": true,
+  "target_thread_preserved": true,
+  "minimum_remaining_percent_observed": 33,
+  "primary_resets_epoch": 1791826234,
+  "primary_reset_utc": "2026-10-12T17:30:34+00:00",
+  "primary_reset_taipei": "2026-10-13T01:30:34+08:00",
+  "previous_taipei": "2026-10-13 00:35",
+  "new_taipei": "2026-10-13 01:35",
+  "expected_utc_window": [
+    "2026-10-12T17:35:00+00:00",
+    "2026-10-12T17:36:00+00:00"
+  ],
+  "reason": "Observed remaining33 below35 research launch threshold; wait for natural reset then read fresh usage. Do not spend reset credits.",
+  "schedule_scope": "Saved UTC recurrence and native API acceptance verified; actual execution still requires available app/PC/files/permissions. Live usage >=35 and budget/identity/source/seed gates remain required."
+}

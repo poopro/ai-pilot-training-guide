@@ -1,0 +1,43 @@
+{
+  "report": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_20261013_234621_6d0b\\host_result.json",
+  "report_sha256": "45dac037e01a32b090f4fb85515fe2d807e9e0bd9e813b7b63f4c30d6bfcf8fe",
+  "round_identity": "b6a96665ffd375a55b0fbbddf65d64853fffc71778133ee013b817d37ef02057",
+  "csv_sha256": "0e0ea42cda61f7961fa0be275563863d3741d9f25628e18243dee04a24dad874",
+  "stdout_sha256": "79e2f7cb4dfe291da1a27ce8e74de6c441587dcfd1827f18e7b28bb37fdd827d",
+  "checks": {
+    "finite_csv": true,
+    "strictly_increasing_time": true,
+    "full_round_or_early_adjudication": true,
+    "host_game_over_logged": false,
+    "csv_terminal_log_consistent": true,
+    "csv_sha_matches": true,
+    "reported_rows_match": true,
+    "reported_duration_matches": true,
+    "observed_player1_ready": true,
+    "observed_player1_moved": true,
+    "host_stderr_exists": true,
+    "acmi_hash_and_terminal_time": true
+  },
+  "saved_host_artifact_valid": false,
+  "fixed_profile_hash": "affea1b63d8f9c6b8774332af0d5b5c074700b239d5f6ef6965a2c64f080c290",
+  "actual_validation_exit_code": 0,
+  "host_setting_hash_recorded": true,
+  "fixed_metadata_checks": {
+    "source_hashes_valid": true,
+    "player_hash_valid": true,
+    "host_exe_hash_valid": true,
+    "host_setting_hash_valid": true,
+    "actual_validation_exit_zero": true
+  },
+  "capture_receipt_checks": {
+    "setting_snapshot_matches": true,
+    "player_snapshot_matches": true,
+    "source_snapshots_match": true,
+    "host_exe_snapshot_matches": true,
+    "prelaunch_receipt_matches": true,
+    "collector_receipt_matches": true
+  },
+  "eligible_for_six_round_fixed_source_gate": false,
+  "host_winner_raw": "1.0",
+  "scope": "Historical evidence audit only; no new Host, package approval, or competition certification"
+}

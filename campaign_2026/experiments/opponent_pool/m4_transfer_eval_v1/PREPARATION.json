@@ -1,0 +1,78 @@
+{
+  "created_utc": "2026-10-16T02:30:19.309355+00:00",
+  "stage": "candidate_terminal_bundle_verified_final_frozen_ready_for_main_launch",
+  "new_FDM_ticks": 0,
+  "model_zip_reads": 0,
+  "model_inferences": 0,
+  "training_launched": false,
+  "evaluation_launched": false,
+  "registry_budget_pointer_automation_modified": false,
+  "actual_static_test_exit_code": 0,
+  "tool_chunk": "2285cc",
+  "static_tests": 7,
+  "test_runtime_seconds": 0.082,
+  "old5000_source_model_sha256": "9f93eb56483558ad56283c00b1ba34af96a236583bc977ef7d9fad375d9a0fea",
+  "candidate_model_sha256": "6c7ceea74457557be60f4156313cf1d75ffff20196159ae8fe22a7809190c012",
+  "planned_seedbase": 2026300200,
+  "planned_seeds": [
+    2026300200,
+    2026300201,
+    2026300202
+  ],
+  "seed_check_scope": "Current registry numeric seed metadata only, no registration/reservation; public launch rechecks via original prep.seed_status",
+  "games": 6,
+  "pairs": 3,
+  "distance_opponents": [
+    [
+      "rule",
+      3000
+    ],
+    [
+      "mirror",
+      6000
+    ],
+    [
+      "rl",
+      9000
+    ]
+  ],
+  "actor_order": [
+    [
+      "sac5000",
+      "transfer10000"
+    ],
+    [
+      "transfer10000",
+      "sac5000"
+    ],
+    [
+      "sac5000",
+      "transfer10000"
+    ]
+  ],
+  "total_hard_deadline_seconds": 360,
+  "case_seconds": 90,
+  "worker_difference_ast_test": "Only actual model selector/deterministic predict and reserved distance changed; all physics/control/judge code otherwise byte-to-AST equal inherited worker",
+  "guard_sha256": "487bcff8994be9a27cead6cdc4609ff3393979fbfd2aeda8da54dd9af30c1bec",
+  "candidate_freeze_requirements": [
+    "Completed: terminal verified_training true/errors[], actual parent/worker/guard0, result/replay/model/source actor linkage verified read-only.",
+    "Main agent alone may launch with new quota epoch and original full gates; no reviewer subagent launch."
+  ],
+  "source_inventory_sha256": "22d4bc44ce2d933baf605c8c97b4afa2a413af3482a3548adbcbb459e8dc974b",
+  "deployment_allowed": false,
+  "official_Host_conformance_verified": false,
+  "not_holdout": true,
+  "candidate_finalized": true,
+  "freeze_utc": "2026-10-16T02:35:50.909020+00:00",
+  "model_freeze_sha256": "ab1718f4edf3d21d2c349df5b5589127ffa686fdac92864649014d2b250fac7b",
+  "final_readonly_preflight": {
+    "actual_tool_exit_code": 0,
+    "tool_chunk": "878440",
+    "execution_allowed": true,
+    "occupied": [],
+    "requested_seed_collisions": [],
+    "available_ram_bytes": 9234493440,
+    "free_disk_bytes": 195638128640,
+    "new_FDM_ticks": 0
+  }
+}

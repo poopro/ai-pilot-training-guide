@@ -1,0 +1,17 @@
+{
+  "full_batch_replay_forbidden": true,
+  "all_original_seeds_attempted_retained": [
+    2026310100,
+    2026310101
+  ],
+  "complete_comparison": false,
+  "original_case_seconds": 90,
+  "next_repair": "Isolated v2 keeps60Hz model/control/judge and original90/600 deadlines; verify every3Hz model decision and every60Hz emitted command, remove redundant worker full-controller replay; use new seeds",
+  "actual_parent_exit": 2,
+  "verified_comparison": false,
+  "reason": "Full18000 physics trace saved; repeated full-controller saved-packet replay hit original case deadline, caught by guardian",
+  "parent_tool": "8e4066/session66600",
+  "observed_utc": "2026-10-17T01:37:52.9889925Z",
+  "actual_worker_exit": 1,
+  "original_600s_reservation_retained": true
+}

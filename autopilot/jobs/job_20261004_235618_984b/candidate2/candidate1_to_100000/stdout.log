@@ -1,0 +1,255 @@
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+藍色＝你；紅色＝mixed 對手。
+輸出資料夾：E:\ai_pilot\autopilot\jobs\job_20261004_235618_984b\candidate2\candidate1_to_100000
+接續第三版模型與 replay，保留既有訓練狀態。
+Logging to E:\ai_pilot\autopilot\jobs\job_20261004_235618_984b\candidate2\candidate1_to_100000\tensorboard\SAC_0
+進度 50002/100000；階段 1；SAC 更新 2498
+進度 51090/100000；階段 1；SAC 更新 2566
+----------------------------------------------
+| episode/                        |          |
+|    attack_seconds_last100       | 3        |
+|    crash_rate_last100           | 0        |
+|    enemy_attack_seconds_last100 | 0        |
+|    guard_fraction_last100       | 0        |
+|    kill_rate_last100            | 1        |
+|    min_altitude_m_last100       | 3.11e+03 |
+|    over_9g_seconds_last100      | 0        |
+|    sample_count                 | 1        |
+|    shot_down_rate_last100       | 0        |
+|    survival_rate_last100        | 1        |
+|    timeout_rate_last100         | 0        |
+| opponent/                       |          |
+|    maneuver/attack_seconds      | 3        |
+|    maneuver/is_kill             | 1        |
+|    maneuver/own_crash           | 0        |
+|    maneuver/sample_count        | 1        |
+|    maneuver/survived            | 1        |
+| rollout/                        |          |
+|    ep_len_mean                  | 824      |
+|    ep_rew_mean                  | 42.6     |
+| time/                           |          |
+|    episodes                     | 51       |
+|    fps                          | 203      |
+|    time_elapsed                 | 6        |
+|    total_timesteps              | 51232    |
+| train/                          |          |
+|    actor_loss                   | -0.429   |
+|    critic_loss                  | 3.2      |
+|    ent_coef                     | 0.001    |
+|    learning_rate                | 5e-05    |
+|    n_updates                    | 2574     |
+----------------------------------------------
+進度 52216/100000；階段 1；SAC 更新 2636
+----------------------------------------------
+| episode/                        |          |
+|    attack_seconds_last100       | 3        |
+|    crash_rate_last100           | 0        |
+|    enemy_attack_seconds_last100 | 0        |
+|    guard_fraction_last100       | 0        |
+|    kill_rate_last100            | 1        |
+|    min_altitude_m_last100       | 3.09e+03 |
+|    over_9g_seconds_last100      | 0        |
+|    sample_count                 | 2        |
+|    shot_down_rate_last100       | 0        |
+|    survival_rate_last100        | 1        |
+|    timeout_rate_last100         | 0        |
+| opponent/                       |          |
+|    easy/attack_seconds          | 3        |
+|    easy/is_kill                 | 1        |
+|    easy/own_crash               | 0        |
+|    easy/sample_count            | 1        |
+|    easy/survived                | 1        |
+|    maneuver/attack_seconds      | 3        |
+|    maneuver/is_kill             | 1        |
+|    maneuver/own_crash           | 0        |
+|    maneuver/sample_count        | 1        |
+|    maneuver/survived            | 1        |
+| rollout/                        |          |
+|    ep_len_mean                  | 830      |
+|    ep_rew_mean                  | 42.7     |
+| time/                           |          |
+|    episodes                     | 52       |
+|    fps                          | 211      |
+|    time_elapsed                 | 10       |
+|    total_timesteps              | 52254    |
+| train/                          |          |
+|    actor_loss                   | -0.459   |
+|    critic_loss                  | 0.00107  |
+|    ent_coef                     | 0.001    |
+|    learning_rate                | 5e-05    |
+|    n_updates                    | 2638     |
+----------------------------------------------
+進度 53266/100000；階段 1；SAC 更新 2702
+進度 54242/100000；階段 1；SAC 更新 2763
+進度 55292/100000；階段 1；SAC 更新 2828
+進度 56370/100000；階段 1；SAC 更新 2896
+進度 57470/100000；階段 1；SAC 更新 2964
+----------------------------------------------
+| episode/                        |          |
+|    attack_seconds_last100       | 3        |
+|    crash_rate_last100           | 0        |
+|    enemy_attack_seconds_last100 | 0        |
+|    guard_fraction_last100       | 0        |
+|    kill_rate_last100            | 1        |
+|    min_altitude_m_last100       | 3.64e+03 |
+|    over_9g_seconds_last100      | 0        |
+|    sample_count                 | 3        |
+|    shot_down_rate_last100       | 0        |
+|    survival_rate_last100        | 1        |
+|    timeout_rate_last100         | 0        |
+| opponent/                       |          |
+|    easy/attack_seconds          | 3        |
+|    easy/is_kill                 | 1        |
+|    easy/own_crash               | 0        |
+|    easy/sample_count            | 1        |
+|    easy/survived                | 1        |
+|    maneuver/attack_seconds      | 3        |
+|    maneuver/is_kill             | 1        |
+|    maneuver/own_crash           | 0        |
+|    maneuver/sample_count        | 2        |
+|    maneuver/survived            | 1        |
+| rollout/                        |          |
+|    ep_len_mean                  | 874      |
+|    ep_rew_mean                  | 42.8     |
+| time/                           |          |
+|    episodes                     | 53       |
+|    fps                          | 211      |
+|    time_elapsed                 | 40       |
+|    total_timesteps              | 58542    |
+| train/                          |          |
+|    actor_loss                   | -0.509   |
+|    critic_loss                  | 0.0022   |
+|    ent_coef                     | 0.001    |
+|    learning_rate                | 5e-05    |
+|    n_updates                    | 3031     |
+----------------------------------------------
+進度 58546/100000；階段 1；SAC 更新 3032
+進度 59586/100000；階段 1；SAC 更新 3097
+已完整儲存：E:\ai_pilot\autopilot\jobs\job_20261004_235618_984b\candidate2\candidate1_to_100000\checkpoint_0000060000
+進度 60600/100000；階段 1；SAC 更新 3160
+進度 61730/100000；階段 1；SAC 更新 3231
+進度 62818/100000；階段 1；SAC 更新 3299
+進度 63842/100000；階段 1；SAC 更新 3363
+----------------------------------------------
+| episode/                        |          |
+|    attack_seconds_last100       | 3        |
+|    crash_rate_last100           | 0        |
+|    enemy_attack_seconds_last100 | 0        |
+|    guard_fraction_last100       | 0        |
+|    kill_rate_last100            | 1        |
+|    min_altitude_m_last100       | 3.65e+03 |
+|    over_9g_seconds_last100      | 0        |
+|    sample_count                 | 4        |
+|    shot_down_rate_last100       | 0        |
+|    survival_rate_last100        | 1        |
+|    timeout_rate_last100         | 0        |
+| opponent/                       |          |
+|    easy/attack_seconds          | 3        |
+|    easy/is_kill                 | 1        |
+|    easy/own_crash               | 0        |
+|    easy/sample_count            | 2        |
+|    easy/survived                | 1        |
+|    maneuver/attack_seconds      | 3        |
+|    maneuver/is_kill             | 1        |
+|    maneuver/own_crash           | 0        |
+|    maneuver/sample_count        | 2        |
+|    maneuver/survived            | 1        |
+| rollout/                        |          |
+|    ep_len_mean                  | 984      |
+|    ep_rew_mean                  | 42.8     |
+| time/                           |          |
+|    episodes                     | 54       |
+|    fps                          | 211      |
+|    time_elapsed                 | 70       |
+|    total_timesteps              | 64862    |
+| train/                          |          |
+|    actor_loss                   | -0.471   |
+|    critic_loss                  | 0.000935 |
+|    ent_coef                     | 0.001    |
+|    learning_rate                | 5e-05    |
+|    n_updates                    | 3426     |
+----------------------------------------------
+進度 64898/100000；階段 1；SAC 更新 3429
+進度 65970/100000；階段 1；SAC 更新 3496
+進度 67042/100000；階段 1；SAC 更新 3563
+進度 68096/100000；階段 1；SAC 更新 3628
+進度 69122/100000；階段 1；SAC 更新 3693
+已完整儲存：E:\ai_pilot\autopilot\jobs\job_20261004_235618_984b\candidate2\candidate1_to_100000\checkpoint_0000070000
+進度 70162/100000；階段 1；SAC 更新 3758
+進度 71280/100000；階段 1；SAC 更新 3827
+進度 72354/100000；階段 1；SAC 更新 3895
+進度 73378/100000；階段 1；SAC 更新 3959
+進度 74402/100000；階段 1；SAC 更新 4023
+進度 75462/100000；階段 1；SAC 更新 4089
+進度 76574/100000；階段 1；SAC 更新 4158
+進度 77662/100000；階段 1；SAC 更新 4226
+進度 78690/100000；階段 1；SAC 更新 4291
+進度 79728/100000；階段 1；SAC 更新 4355
+已完整儲存：E:\ai_pilot\autopilot\jobs\job_20261004_235618_984b\candidate2\candidate1_to_100000\checkpoint_0000080000
+進度 80732/100000；階段 2；SAC 更新 4418
+進度 81838/100000；階段 2；SAC 更新 4487
+進度 82898/100000；階段 2；SAC 更新 4554
+進度 83938/100000；階段 2；SAC 更新 4619
+進度 84914/100000；階段 2；SAC 更新 4680
+進度 85986/100000；階段 2；SAC 更新 4747
+進度 87048/100000；階段 2；SAC 更新 4813
+----------------------------------------------
+| episode/                        |          |
+|    attack_seconds_last100       | 3        |
+|    crash_rate_last100           | 0        |
+|    enemy_attack_seconds_last100 | 0        |
+|    guard_fraction_last100       | 0        |
+|    kill_rate_last100            | 1        |
+|    min_altitude_m_last100       | 3.87e+03 |
+|    over_9g_seconds_last100      | 0        |
+|    sample_count                 | 5        |
+|    shot_down_rate_last100       | 0        |
+|    survival_rate_last100        | 1        |
+|    timeout_rate_last100         | 0        |
+| opponent/                       |          |
+|    easy/attack_seconds          | 3        |
+|    easy/is_kill                 | 1        |
+|    easy/own_crash               | 0        |
+|    easy/sample_count            | 3        |
+|    easy/survived                | 1        |
+|    maneuver/attack_seconds      | 3        |
+|    maneuver/is_kill             | 1        |
+|    maneuver/own_crash           | 0        |
+|    maneuver/sample_count        | 2        |
+|    maneuver/survived            | 1        |
+| rollout/                        |          |
+|    ep_len_mean                  | 1.23e+03 |
+|    ep_rew_mean                  | 42.5     |
+| time/                           |          |
+|    episodes                     | 55       |
+|    fps                          | 210      |
+|    time_elapsed                 | 177      |
+|    total_timesteps              | 87286    |
+| train/                          |          |
+|    actor_loss                   | -0.287   |
+|    critic_loss                  | 0.000282 |
+|    ent_coef                     | 0.001    |
+|    learning_rate                | 5e-05    |
+|    n_updates                    | 4828     |
+----------------------------------------------
+進度 87970/100000；階段 2；SAC 更新 4871
+進度 88964/100000；階段 2；SAC 更新 4933
+進度 89978/100000；階段 2；SAC 更新 4996
+已完整儲存：E:\ai_pilot\autopilot\jobs\job_20261004_235618_984b\candidate2\candidate1_to_100000\checkpoint_0000090000
+進度 91010/100000；階段 2；SAC 更新 5061
+進度 92114/100000；階段 2；SAC 更新 5130
+進度 93138/100000；階段 2；SAC 更新 5194
+進度 94130/100000；階段 2；SAC 更新 5256
+進度 95130/100000；階段 2；SAC 更新 5318
+進度 96210/100000；階段 2；SAC 更新 5386
+進度 97234/100000；階段 2；SAC 更新 5450
+進度 98226/100000；階段 2；SAC 更新 5512
+進度 99220/100000；階段 2；SAC 更新 5574
+已完整儲存：E:\ai_pilot\autopilot\jobs\job_20261004_235618_984b\candidate2\candidate1_to_100000\checkpoint_0000100000
+已完整儲存：E:\ai_pilot\autopilot\jobs\job_20261004_235618_984b\candidate2\candidate1_to_100000\final_0000100000

@@ -1,0 +1,17 @@
+{
+  "unit_tests": 8,
+  "unit_actual_exit_code": 0,
+  "smoke_cli_actual_exit_code": 0,
+  "smoke_positive": "post_audit_smoke_positive.json",
+  "development_cli_actual_exit_code": 0,
+  "development_positive": "post_audit_development_positive.json",
+  "development_cases": 24,
+  "matched_pairs": 12,
+  "gate": "metric_pass_safety_review_pending",
+  "simulator_started": false,
+  "learner_started": false,
+  "frozen_sources_modified": false,
+  "partial_live_refusal": "test_partial_live_run_is_refused_before_receipts",
+  "post_audit_sha256": "3fe5a57c875f04456dfa4a037192cf7e4aafb0a422936ade131298fae64c3e63",
+  "tests_sha256": "df6b149e51b72b15a9353e9e98dce0346f8d449c654c86fe5c53971eeb25db8a"
+}

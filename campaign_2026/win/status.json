@@ -1,0 +1,14 @@
+{
+  "updated": "2026-10-14T20:26:48.687111+00:00",
+  "running": false,
+  "last": {
+    "id": "m4_tactical_rl",
+    "status": "completed",
+    "exit_code": 0,
+    "wall_hours": 2.1739,
+    "log": "E:\\ai_pilot\\campaign_2026\\win\\logs\\m4_tactical_rl.log"
+  },
+  "done": [
+    "m4_tactical_rl"
+  ]
+}

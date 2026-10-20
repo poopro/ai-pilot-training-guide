@@ -1,0 +1,64 @@
+{
+  "created_utc": "2026-10-16T02:58:54.022359+00:00",
+  "stage": "packet_adapter_static_preparation_only_no_FDM_wiring",
+  "new_FDM_ticks": 0,
+  "research_evaluation_started": false,
+  "training_started": false,
+  "Host_started": false,
+  "actual_frozen_actor_inferences": 0,
+  "actual_StationController_act_calls": 0,
+  "fake_packet_tests_only": true,
+  "last_tests": {
+    "actual_exit_code": 0,
+    "tool_chunk": "394b32",
+    "test_count": 10,
+    "runtime_seconds": 0.211
+  },
+  "earlier_attempts": [
+    {
+      "actual_exit_code": 1,
+      "tool_chunk": "c68236",
+      "reason": "Test/read normalization used invalid codec spelling utf8-sig; no model/FDM execution",
+      "runtime_seconds": 0.156
+    },
+    {
+      "actual_exit_code": 0,
+      "tool_chunk": "b9b3b9",
+      "tests": 9,
+      "runtime_seconds": 0.15
+    }
+  ],
+  "counter_clock_contract": "command at completedtick0 no attack, completedtick n>0 counts new own legalwindow once; predict0/20/...; output is pending command for n→n+1, not evidence physics advanced",
+  "synthetic_100_unique_states_result": {
+    "states": [
+      0,
+      20,
+      40,
+      60,
+      80
+    ],
+    "act_calls": 100,
+    "predict_calls": 5,
+    "attack_ticks_with_allinwindow_packets": 99,
+    "duplicate_mutations": 0
+  },
+  "source_gate_verified_readonly": true,
+  "source_feature_AST_equal": true,
+  "fixed_model_ids": [
+    "sac5000",
+    "transfer10000"
+  ],
+  "source_file_changes": false,
+  "pointer_registry_budget_automation_changes": false,
+  "contract_sha256": "f01a6efe10dcff42500810ab57df7cdd11591c95f14864ed2a3ceecd4e766f0e",
+  "pending": [
+    "No env._red_action/current_step wiring; do not guess completedtick order",
+    "No realSAC model load/inference/latency/RNG-restoration validation",
+    "No realStationController synthetic physical response validation",
+    "No first-frame FDM counter/control timing validation",
+    "No learnedselfplay/league/safety/strength evidence",
+    "Later caller must freeze exactsettings/source/model and use independentSTOP/OSlock/resource/identity/watchdog before one small diagnostic"
+  ],
+  "deployment_allowed": false,
+  "learned_selfplay_verified": false
+}

@@ -1,0 +1,8 @@
+{
+  "actual_exit": 0,
+  "tool_chunk": "38434f",
+  "observed_utc": "2026-10-17T01:47:27.2779520Z",
+  "note": "Actual exec session completion observed before independent verifier launch",
+  "tool_session": 61003,
+  "wall_seconds": 444.625
+}

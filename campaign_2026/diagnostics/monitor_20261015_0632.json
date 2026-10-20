@@ -1,0 +1,19 @@
+{
+  "observed_utc": "2026-10-14T22:34:16.876793+00:00",
+  "idle_loop_count": 3,
+  "live_learner_count": 0,
+  "old_expected_learner_pids": [
+    644,
+    2996,
+    11592
+  ],
+  "absent_does_not_establish_exit_code": true,
+  "new_outputs_saved": 10,
+  "preservation": "E:\\ai_pilot\\campaign_2026\\quarantine\\m4_shared_outputs_20261015\\PRESERVATION.json",
+  "usage_observation": {
+    "remaining_percent": 28,
+    "observed_utc": "2026-10-14T22:32:07Z",
+    "five_hour_resets_epoch": 1792019566,
+    "weekly_resets_epoch": 1792475858
+  }
+}

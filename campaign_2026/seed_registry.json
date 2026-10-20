@@ -1,0 +1,1593 @@
+{
+  "format": "campaign_seed_registry_v1",
+  "scope": "Recorded campaign case inputs only; not proof of all historical training RNG or worldwide unseen seeds",
+  "observed_seeds": {
+    "2026101110": [
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\cases\\r000_rl_3000_mirrored_2026101110_candidate\\input.json",
+        "sha256": "12ad6d8ad12296004e9c5563fb18ea905a0e87bca1161aa26cea13f56ca9fb9d",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\cases\\r000_rl_3000_mirrored_2026101110_guide\\input.json",
+        "sha256": "0ceaedd56d54a6b00c41e637b0f3e6b1cbd87adf269a09fc108bf063e86a9dc9",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\cases\\r000_rl_3000_normal_2026101110_candidate\\input.json",
+        "sha256": "19ed6740d285a45852abd1adfe965bfa431c6364c6d893eeeac4bf41dd18b679",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\cases\\r000_rl_3000_normal_2026101110_guide\\input.json",
+        "sha256": "a81530a22e128be7515b3e9dec9311058afedfdba3948ac6f6117ea802155b56",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\precision_probe\\case\\input.json",
+        "sha256": "c19308d3641570a897c2987bb34d4a51196d4231185b18b947c7424c803fb19a",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\residual_gate\\run_20261012_191703_f102\\cases\\r000_rl_3000_mirrored_2026101110_candidate\\input.json",
+        "sha256": "419c5a62593196631568f16436d3ec04d20347b44805e6535b81a36af32c2ad7",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\residual_gate\\run_20261012_191703_f102\\cases\\r000_rl_3000_mirrored_2026101110_guide\\input.json",
+        "sha256": "20ae9c6d3bf19ae63c0bf11f4890f8e333eb048598e6a129164505579e4dfb57",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\residual_gate\\run_20261012_191703_f102\\cases\\r000_rl_3000_normal_2026101110_candidate\\input.json",
+        "sha256": "992ee5d2d175dd938e25dba9eb334b23fc50d9b26c76114e252837268ac293a9",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\residual_gate\\run_20261012_191703_f102\\cases\\r000_rl_3000_normal_2026101110_guide\\input.json",
+        "sha256": "9f11dc89cf2ca9341e9c8efc378d62bc87da7c93664a11d8c3e17a42f992a973",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_01\\cases\\r000_rl_3000_mirrored_2026101110_candidate\\input.json",
+        "sha256": "c5d1794dd18279a1aa135c14015b6b865e300cabc55712ed62106abf7c3193d0",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_01\\cases\\r000_rl_3000_mirrored_2026101110_guide\\input.json",
+        "sha256": "1344889df739fc7d3d9d0a5254d227c52f045b662d3f2f4f467fff11de0fc0ad",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_01\\cases\\r000_rl_3000_normal_2026101110_candidate\\input.json",
+        "sha256": "1a84cdae8ffd48c7702cf2e3de10524147d28ddc6d1b847806925950de0af644",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_01\\cases\\r000_rl_3000_normal_2026101110_guide\\input.json",
+        "sha256": "e9afdd185bc4f3e3dc2dd2034df0c81579992a7aaab0c2021dd9389d02b56629",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_02\\cases\\r000_rl_3000_mirrored_2026101110_candidate\\input.json",
+        "sha256": "34dd9a5953453483f884acb39354ab92d275c7f893a7eb09aabf452b6bb14027",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_02\\cases\\r000_rl_3000_mirrored_2026101110_guide\\input.json",
+        "sha256": "9fdd5345e733fc34fd685c68ced46e650e6893906244f8964f5e5c38dd162201",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_02\\cases\\r000_rl_3000_normal_2026101110_candidate\\input.json",
+        "sha256": "4833b0e83abe23dc77812a68c2773f102887a7484c6cb917691e9e3a5642eeb2",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_02\\cases\\r000_rl_3000_normal_2026101110_guide\\input.json",
+        "sha256": "0e6a4eb53bb50a3b2ef98a762090084fa6691dbd7b43a952ca21cc2b16f56377",
+        "role": "observed_campaign_development_or_diagnostic"
+      }
+    ],
+    "2026101111": [
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\cases\\r000_rl_6000_mirrored_2026101111_candidate\\input.json",
+        "sha256": "a6974edeffecdfefd0740a9850a331c8a0046095f14eaf556d6de310f02d7fd2",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\cases\\r000_rl_6000_mirrored_2026101111_guide\\input.json",
+        "sha256": "e210f0ba1906e3c2f2b61ed1b165311cd7ec61457305dbf40ec7b9e416cc5edf",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\cases\\r000_rl_6000_normal_2026101111_candidate\\input.json",
+        "sha256": "e71f81740e99262aa8677775ac8d84531f5e69c7de4536d3eed8a60ef1eefa6a",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\cases\\r000_rl_6000_normal_2026101111_guide\\input.json",
+        "sha256": "4666322e2d40d41eb66f20132d3a861f444dbea2b6a87b298f3cd15382002b3e",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\residual_gate\\run_20261012_191703_f102\\cases\\r000_rl_6000_mirrored_2026101111_candidate\\input.json",
+        "sha256": "2c7a028b8cfe54bb96e3524ca5fc7f1096d4c93cf0ad9ce5f2a3f806b51b7e0e",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\residual_gate\\run_20261012_191703_f102\\cases\\r000_rl_6000_mirrored_2026101111_guide\\input.json",
+        "sha256": "9be34aa03ddff5cc63b5b92421eedfdf08537a2ef92ed1bf2f941c13dc2c968b",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\residual_gate\\run_20261012_191703_f102\\cases\\r000_rl_6000_normal_2026101111_candidate\\input.json",
+        "sha256": "d33762fa52d9514bb7b007e71803d88f4fc421a39bad23be82ae617a721fbf03",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\residual_gate\\run_20261012_191703_f102\\cases\\r000_rl_6000_normal_2026101111_guide\\input.json",
+        "sha256": "8d3bee4a79a105a1678764e2d481647e517ecc20e8f5e7f23d97bed00f23ebae",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\residual_gate\\run_20261012_191703_f102\\recovery_01\\cases\\r000_rl_6000_mirrored_2026101111_guide\\input.json",
+        "sha256": "889ea37f2cf5f811c0d2e5cbfb181a6a4910c2c2a0e60f99d77af4bffda815ab",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_01\\cases\\r000_rl_6000_mirrored_2026101111_candidate\\input.json",
+        "sha256": "f14ff525502ff60a3a35ad4d6c6ad3df19a9068cd8534df9a33fc84b0a313267",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_01\\cases\\r000_rl_6000_mirrored_2026101111_guide\\input.json",
+        "sha256": "022f27de6efeb10ea9ebabe2d59e547ff5f984e458aa090836bfe6176eca25ee",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_01\\cases\\r000_rl_6000_normal_2026101111_candidate\\input.json",
+        "sha256": "7c4850ddb0c0acbb1a673b02fe48a8c31bf84dce0e37b93323be635e40b92a43",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_01\\cases\\r000_rl_6000_normal_2026101111_guide\\input.json",
+        "sha256": "1a2f1dfcd368f5905ec9760f8833819ff8bfd2769eef9aac55781f19a6269a0c",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_02\\cases\\r000_rl_6000_mirrored_2026101111_candidate\\input.json",
+        "sha256": "4fa12fa5826774fbace18717c26f80b9021a0211fd28a3f9d2b0ea030c679fd6",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_02\\cases\\r000_rl_6000_mirrored_2026101111_guide\\input.json",
+        "sha256": "fb84409bcab92d3490d1e76d0f1aab057dba38f464876732e1e1532d6ced1371",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_02\\cases\\r000_rl_6000_normal_2026101111_candidate\\input.json",
+        "sha256": "bc53c107274f84a880c48d4744c1e339eec77ff2ce14b1cba8b0696387b5c76a",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_02\\cases\\r000_rl_6000_normal_2026101111_guide\\input.json",
+        "sha256": "30ddb660b098217f3af97ef551091c28f72fda5c0a1c175f468dcc797e03da9c",
+        "role": "observed_campaign_development_or_diagnostic"
+      }
+    ],
+    "2026101112": [
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\cases\\r000_rl_9000_mirrored_2026101112_candidate\\input.json",
+        "sha256": "c76e261334164e79ac56a3b80115e5364b43e9654ee41017f7c239b4d41734ba",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\cases\\r000_rl_9000_mirrored_2026101112_guide\\input.json",
+        "sha256": "bc4fd73de897914b54c74f5c20d3aebf0b3c7dc5bb7537d569e5d0b2c43af788",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\cases\\r000_rl_9000_normal_2026101112_candidate\\input.json",
+        "sha256": "13ff8596f75b76852a646a435afd76bc58c3434432b49999bc33ce6379526615",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\cases\\r000_rl_9000_normal_2026101112_guide\\input.json",
+        "sha256": "8bd8bdc7c73c9e5c7b19fc28ecbb7c64d487be7c08d49e69851bbaa974d32dae",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\residual_gate\\run_20261012_191703_f102\\cases\\r000_rl_9000_mirrored_2026101112_candidate\\input.json",
+        "sha256": "37ed81506cf7b31e06a19d46ac43add9365e29a6827757617b9321f39e33772b",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\residual_gate\\run_20261012_191703_f102\\cases\\r000_rl_9000_mirrored_2026101112_guide\\input.json",
+        "sha256": "2a995ca3bdf035b5c932078c3d8f5075f37b75b231fb734c66e9ae3efeeed2af",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\residual_gate\\run_20261012_191703_f102\\cases\\r000_rl_9000_normal_2026101112_candidate\\input.json",
+        "sha256": "f34f4e60fdaa177d9b937f7864b9964f17041f031973539af5aaa6c87306427b",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\residual_gate\\run_20261012_191703_f102\\cases\\r000_rl_9000_normal_2026101112_guide\\input.json",
+        "sha256": "ee292ee3ab16628ba724e527c820b2770947ab583c5486ff6699f76417b3aab0",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_01\\cases\\r000_rl_9000_mirrored_2026101112_candidate\\input.json",
+        "sha256": "58fd14f098290b19fb529ddd9e4594d3cba394f7f28167a5779273d933cf452c",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_01\\cases\\r000_rl_9000_mirrored_2026101112_guide\\input.json",
+        "sha256": "1f7b59428269f0258cd5299c77ba5f568965e74e2ce202b8a271daf94f49df78",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_01\\cases\\r000_rl_9000_normal_2026101112_candidate\\input.json",
+        "sha256": "9ef621eeaee349906b3e5868430124aebed032ea44634af471d605f6dec305b6",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_01\\cases\\r000_rl_9000_normal_2026101112_guide\\input.json",
+        "sha256": "a32b84080ec21346e780255cc2f4ef0f8e730f63a1f9fdaf8301731304a1a2ed",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_02\\cases\\r000_rl_9000_mirrored_2026101112_candidate\\input.json",
+        "sha256": "d459c0fa43f23dc31e73277a6d3e5c9789d9831bb2b4cc30e099f6546a0f2838",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_02\\cases\\r000_rl_9000_mirrored_2026101112_guide\\input.json",
+        "sha256": "0d8b29b32a08d460552ccef4f627394710be705907b43213786c4165a4448f3a",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_02\\cases\\r000_rl_9000_normal_2026101112_candidate\\input.json",
+        "sha256": "e93d33f7a3a79905f673c33d74d083c284651c929aef7f6d2552cfb612cfa72c",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_02\\cases\\r000_rl_9000_normal_2026101112_guide\\input.json",
+        "sha256": "06b225b6a8e2a01006e3a0a2a74a1b5ac824cee95e81203c5a056e7075aa443b",
+        "role": "observed_campaign_development_or_diagnostic"
+      }
+    ],
+    "2026101100": [
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\cases\\r000_rule_3000_mirrored_2026101100_candidate\\input.json",
+        "sha256": "202a46682ebdfb7310eff03f0d70ad01fd4d848d453df1683c4acaae518f2ebf",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\cases\\r000_rule_3000_mirrored_2026101100_guide\\input.json",
+        "sha256": "46b22fb07aeb35b190389cae01d86908c4722e9ec026a6784c2c2346d4af3f3f",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\cases\\r000_rule_3000_normal_2026101100_candidate\\input.json",
+        "sha256": "7e6c31ae27d1db9f4dadd737e31da1beca843b0a4c8e5f215fef69b873a1d8a2",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\cases\\r000_rule_3000_normal_2026101100_guide\\input.json",
+        "sha256": "af863a52870c6c7c0b63d54898b99ee6b99143bd9cd329199e92a95f874f019c",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\residual_gate\\run_20261012_191703_f102\\cases\\r000_rule_3000_mirrored_2026101100_candidate\\input.json",
+        "sha256": "92addf9b7eb6f1eb0d51dc3082bc5f6709bbc75aa1d5da93226832f8861b39a9",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\residual_gate\\run_20261012_191703_f102\\cases\\r000_rule_3000_mirrored_2026101100_guide\\input.json",
+        "sha256": "dbd4e62f29b6e63f9111373116038ca4c9692721c184f8437c3a195e72a0d46b",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\residual_gate\\run_20261012_191703_f102\\cases\\r000_rule_3000_normal_2026101100_candidate\\input.json",
+        "sha256": "a56668fce7bde60b018e5fa675e659c84a9d492e7866fd03e8b61536466671c7",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\residual_gate\\run_20261012_191703_f102\\cases\\r000_rule_3000_normal_2026101100_guide\\input.json",
+        "sha256": "e85bd8ccb9a60b4e3d312532393a21776b50b3cf84226e718d0dab9b395fcb8e",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_01\\cases\\r000_rule_3000_mirrored_2026101100_candidate\\input.json",
+        "sha256": "7a7199f7da68058528fba86efa8cbe1127702a982bc2f14ccad7899b66f0c4fa",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_01\\cases\\r000_rule_3000_mirrored_2026101100_guide\\input.json",
+        "sha256": "bd36eccabe17da387c35aa9c9f4baedb7ac3d5453a2dcca9f687d884d627cfe9",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_01\\cases\\r000_rule_3000_normal_2026101100_candidate\\input.json",
+        "sha256": "624353186e25112b174aaf0eed337bbcf682e99a816537d1f002ad9cd491f7b3",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_01\\cases\\r000_rule_3000_normal_2026101100_guide\\input.json",
+        "sha256": "af4fe6179dd0d11a2e1918ffb580e129463f12c52d48911ac057e73a52dbdd20",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_02\\cases\\r000_rule_3000_mirrored_2026101100_candidate\\input.json",
+        "sha256": "5bfc6145830ab485a7f57244d10396fe525838258263d5b71d2153c7bd7fcf6c",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_02\\cases\\r000_rule_3000_mirrored_2026101100_guide\\input.json",
+        "sha256": "5c677d3b6d0357d32cfc43932b1befbb3c6ea9630883c3c0bbc8140e46cd4aad",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_02\\cases\\r000_rule_3000_normal_2026101100_candidate\\input.json",
+        "sha256": "9d31c0a2f1f876c2676266581cd5d0644b1f310246b111c1d46412631707ed3b",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_02\\cases\\r000_rule_3000_normal_2026101100_guide\\input.json",
+        "sha256": "3bff34b7c0597a15e11a79326d6ba9159807e3de2f1377f9301b6435fece8c18",
+        "role": "observed_campaign_development_or_diagnostic"
+      }
+    ],
+    "2026101101": [
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\cases\\r000_rule_6000_mirrored_2026101101_candidate\\input.json",
+        "sha256": "c2fd4fc3b1b8b4a9023af4da8385275ad827f5af33257d489c4b6905f43e9da8",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\cases\\r000_rule_6000_mirrored_2026101101_guide\\input.json",
+        "sha256": "b13b726899d5127f46de0f2a079e9ebbccf7d2fe6662546202d8cebe6f67c445",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\cases\\r000_rule_6000_normal_2026101101_candidate\\input.json",
+        "sha256": "d47269a4a2495a8c6e3200f39470e814c305cc3688cc8467e34b1d485a487d85",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\cases\\r000_rule_6000_normal_2026101101_guide\\input.json",
+        "sha256": "0147e43cf31b8594af44339796b14fe02eabf0923bf1496b06a02e913ed64ad7",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\residual_gate\\run_20261012_191703_f102\\cases\\r000_rule_6000_mirrored_2026101101_candidate\\input.json",
+        "sha256": "80bb1a37bfa2f0e2e8cb7677eabdea37fcb25502c9b37a1100efafc4ff1e4ff4",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\residual_gate\\run_20261012_191703_f102\\cases\\r000_rule_6000_mirrored_2026101101_guide\\input.json",
+        "sha256": "8a7028b13be7f407ea94b24df247eba67b4343fc8903ece0ce587a509cb0991b",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\residual_gate\\run_20261012_191703_f102\\cases\\r000_rule_6000_normal_2026101101_candidate\\input.json",
+        "sha256": "2a915db0ad6232d5d07836b92bea3177368c061a754fbcce0829ce5aadc7b985",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\residual_gate\\run_20261012_191703_f102\\cases\\r000_rule_6000_normal_2026101101_guide\\input.json",
+        "sha256": "286df5d1c18b3efc386d918165f86315d97c7b1568a044a662728bdbeff0f4ed",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_01\\cases\\r000_rule_6000_mirrored_2026101101_candidate\\input.json",
+        "sha256": "1e11eaefc8f3581354f469ea85ee6536887500dad2a2a5e4b0bca8a0541f1bab",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_01\\cases\\r000_rule_6000_mirrored_2026101101_guide\\input.json",
+        "sha256": "187a86f6eb3a638c8168e33d17e6ef8447b652ffec4bc30c8f1f9426891c3a2b",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_01\\cases\\r000_rule_6000_normal_2026101101_candidate\\input.json",
+        "sha256": "2f6ca7b9362ff6c240a06c36702526086986ee8784d2b98c36f97445a6632541",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_01\\cases\\r000_rule_6000_normal_2026101101_guide\\input.json",
+        "sha256": "171d896872a1a60242c9ca6fe14c1d6c5d9d13d9c17633c15dc11d366d0949a3",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_02\\cases\\r000_rule_6000_mirrored_2026101101_candidate\\input.json",
+        "sha256": "b48c59d018b7069796e1f03714e4c701e6b5827d244be6284b5c4d3470f74b09",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_02\\cases\\r000_rule_6000_mirrored_2026101101_guide\\input.json",
+        "sha256": "f8c3419974e8ce65d2b2b0ceab1fd50c03007c549561a2bcddf5c1d14a9f7575",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_02\\cases\\r000_rule_6000_normal_2026101101_candidate\\input.json",
+        "sha256": "8b318a8ff8a310fbbd458fecc66f0a925002659c540424fd9f6887a9203979a2",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_02\\cases\\r000_rule_6000_normal_2026101101_guide\\input.json",
+        "sha256": "d8fb8e2d2c4a3d1ceb1177712f16d088c96bf8c35b7633590672ef5381be4931",
+        "role": "observed_campaign_development_or_diagnostic"
+      }
+    ],
+    "2026101102": [
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\cases\\r000_rule_9000_mirrored_2026101102_candidate\\input.json",
+        "sha256": "29448d64f8a8ef14fe54de621989fce60b0e1cf5ffea1557fe6b0c26fd716710",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\cases\\r000_rule_9000_mirrored_2026101102_guide\\input.json",
+        "sha256": "e96ee3ea8988b3650c3f9687619b685d1dce895bc9c6368d06aa418f1de4d67f",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\cases\\r000_rule_9000_normal_2026101102_candidate\\input.json",
+        "sha256": "73d6b9ce84f58e6effe77cab5f395b33b7cafbb383fcab47ddbe1862d066bc5c",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\near_bank80\\run_20261012_2050\\cases\\r000_rule_9000_normal_2026101102_guide\\input.json",
+        "sha256": "2f678ae52e818ea42f01bddc1f0dd429eb7a4f9dd457f640ea0f911ce8490701",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\residual_gate\\run_20261012_191703_f102\\cases\\r000_rule_9000_mirrored_2026101102_candidate\\input.json",
+        "sha256": "35e79ced1a91d2335587e4026ac58e1015ce802313486f14d6fa924ea1e58825",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\residual_gate\\run_20261012_191703_f102\\cases\\r000_rule_9000_mirrored_2026101102_guide\\input.json",
+        "sha256": "b60f3c890d1f001e12fafb18a613b2b56a2031b7c540abb2187a28c4be35ff04",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\residual_gate\\run_20261012_191703_f102\\cases\\r000_rule_9000_normal_2026101102_candidate\\input.json",
+        "sha256": "5c2235357b849fe437cd5b03dce23ccf25990f4b287afe93f19a1eca4911144a",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\residual_gate\\run_20261012_191703_f102\\cases\\r000_rule_9000_normal_2026101102_guide\\input.json",
+        "sha256": "3baeb4f51c1f025197238015aecce3d97a2a57821844f110998742ab60b65b01",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_01\\cases\\r000_rule_9000_mirrored_2026101102_candidate\\input.json",
+        "sha256": "652f33a338681d13c445cf1f909564127825950edc567ca8f5d6899d5d157893",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_01\\cases\\r000_rule_9000_mirrored_2026101102_guide\\input.json",
+        "sha256": "3f56b450993c9d6f27c176554d0318c1b653f493878da2af2cc3ca09ddbf6ee5",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_01\\cases\\r000_rule_9000_normal_2026101102_candidate\\input.json",
+        "sha256": "1d209016c88c609c524ca7c3059a91e3999ac4bc8ef2e80c113aeefb7155a434",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_01\\cases\\r000_rule_9000_normal_2026101102_guide\\input.json",
+        "sha256": "02eac847ddffcbf887f2a34c6865838ff6ad319952751cd92412d8bc4e7068f9",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_02\\cases\\r000_rule_9000_mirrored_2026101102_candidate\\input.json",
+        "sha256": "c99a9ea30e805ad8e18f4de232bab2d63f649f0a489de4f61fd362bb127d9ff2",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_02\\cases\\r000_rule_9000_mirrored_2026101102_guide\\input.json",
+        "sha256": "780006552862c927407aedc7a63e0355b8686cf50524e2c494d17b6a031a99a9",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_02\\cases\\r000_rule_9000_normal_2026101102_candidate\\input.json",
+        "sha256": "c87e4231933e814dccd9a94f33951917add2aa6c288333ce14e9750883a0e186",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\dev_02\\cases\\r000_rule_9000_normal_2026101102_guide\\input.json",
+        "sha256": "f21a38bf1460a928090f6ed34a41bc88b1e74765737f11eacd06854e72ba7f92",
+        "role": "observed_campaign_development_or_diagnostic"
+      }
+    ],
+    "2026101200": [
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\turn_calibration\\run_20261012_203318_c4ff\\cases\\bank00_path_alpha\\input.json",
+        "sha256": "02ce12e84ce968a0f2ce2f51ee8f660b15cc401f06b3600efdb577c31e2f704f",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\turn_calibration\\run_20261012_203318_c4ff\\cases\\bank30_nose0\\input.json",
+        "sha256": "2a22c9eaf3e7353a23fdbbd9c62f7dd4f028440e3c85776cfc545611e2a47d79",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\turn_calibration\\run_20261012_203318_c4ff\\cases\\bank30_path_alpha\\input.json",
+        "sha256": "8c18da6eddbfa38543b756eb77f04620029fca9b7c2ad13a507d85d25ed05777",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\turn_calibration\\run_20261012_203318_c4ff\\cases\\bank50_nose0\\input.json",
+        "sha256": "67ef451f61b82bb36c51fd0a3651c11bb04c68c537e35fd5acef140aca1466bd",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\turn_calibration\\run_20261012_203318_c4ff\\cases\\bank50_path_alpha\\input.json",
+        "sha256": "a62b1e973d2e654b3254f235bd7c8e0088697477b2d398ac223c4bf6a77de19a",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\turn_calibration\\run_20261012_203318_c4ff\\cases\\bank70_nose0\\input.json",
+        "sha256": "9e4fd053d24178551795f0b870501222efdfee4a6102699da7211ef74ea02a48",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\turn_calibration\\run_20261012_203318_c4ff\\cases\\bank70_path_alpha\\input.json",
+        "sha256": "5c3117f46be4fc75950a726457e9bce71d15b40bd27524e760414347009329a7",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\turn_calibration\\run_20261012_204358_9da0\\cases\\bank70_nose0\\input.json",
+        "sha256": "85a081ada8e55ff1d5357082b070aede875ca2afd69c3f7ced4e4985a53bff69",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\turn_calibration\\run_20261012_204358_9da0\\cases\\bank80_nose0\\input.json",
+        "sha256": "73336fbae16a4180e0d62c878fc2454ef03af75fb85a07caa827c27cced31224",
+        "role": "observed_campaign_development_or_diagnostic"
+      },
+      {
+        "input": "E:\\ai_pilot\\campaign_2026\\experiments\\turn_calibration\\run_20261012_204358_9da0\\cases\\bank80_path_alpha\\input.json",
+        "sha256": "71fa34bf12cff3196db99690fe390af848d97b1b964bf4fed36ad337e3f55b2c",
+        "role": "observed_campaign_development_or_diagnostic"
+      }
+    ]
+  },
+  "reserved_holdout_seeds": [
+    2026102900,
+    2026102901,
+    2026102902,
+    2026102910,
+    2026102911,
+    2026102912
+  ],
+  "trials": {
+    "bank80_fresh_dev_2026101300_7ddbf0893840": {
+      "seed_role": "development_from_reservation",
+      "seeds": [
+        2026101300,
+        2026101301,
+        2026101302,
+        2026101310,
+        2026101311,
+        2026101312
+      ],
+      "status": "completed",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\fresh_bank80\\run_20261013_013609_5218",
+      "reserved_utc": "2026-10-12T17:36:09.459893+00:00",
+      "benchmark_return_code": 0
+    },
+    "g_latch_development_2026101400_ceacb8b08b05": {
+      "seeds": [
+        2026101400,
+        2026101401,
+        2026101402,
+        2026101410,
+        2026101411,
+        2026101412
+      ],
+      "status": "completed_verified",
+      "seed_role": "fresh_development_attempted_not_holdout",
+      "preparation": "E:\\ai_pilot\\campaign_2026\\experiments\\g_latch_development\\MANIFEST.json",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\g_latch_development\\run_20261014_150515_b846",
+      "actual_parent_exit_code": 0,
+      "verified_cases": 24,
+      "matched_pairs": 12,
+      "post_audit_passed": true,
+      "report": "E:\\ai_pilot\\campaign_2026\\experiments\\g_latch_development\\run_20261014_150515_b846\\VERIFIED_DEVELOPMENT.json"
+    },
+    "guide_pool_smoke_2026102400": {
+      "seeds": [
+        2026102400,
+        2026102401,
+        2026102402,
+        2026102410,
+        2026102411,
+        2026102412,
+        2026102420,
+        2026102421,
+        2026102422,
+        2026102430,
+        2026102431,
+        2026102432
+      ],
+      "status": "attempted_terminal",
+      "seed_role": "development_interface_smoke_not_holdout",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\run_20261014_195159_f7d760",
+      "parent_exit_code": 2
+    },
+    "guide_pool_smoke_v3_2026102500_diagnostic_2": {
+      "seeds": [
+        2026102501
+      ],
+      "status": "attempted_terminal",
+      "seed_role": "development_interface_smoke_not_holdout",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\v3\\run_20261014_202846_6d8021",
+      "parent_exit_code": 15
+    },
+    "guide_pool_smoke_v4_2026102600_diagnostic_2": {
+      "seeds": [
+        2026102601
+      ],
+      "status": "attempted_terminal",
+      "seed_role": "development_interface_smoke_not_holdout",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\v4\\run_20261014_203352_611acd",
+      "parent_exit_code": 0
+    },
+    "guide_pool_smoke_v5_2026102700_full24": {
+      "seeds": [
+        2026102700,
+        2026102701,
+        2026102702,
+        2026102710,
+        2026102711,
+        2026102712,
+        2026102720,
+        2026102721,
+        2026102722,
+        2026102730,
+        2026102731,
+        2026102732
+      ],
+      "status": "completed_interface_verified",
+      "seed_role": "development_interface_smoke_not_holdout",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\v5\\run_20261014_204421_9a31c4",
+      "parent_exit_code": 0,
+      "verified_cases": 24,
+      "matched_geometry_pairs": 12,
+      "score_eligible": false,
+      "verification": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\v5\\run_20261014_204421_9a31c4\\VERIFICATION.json"
+    },
+    "m4_interface_v1_2026103100_three_opponents_two_resets": {
+      "seeds": [
+        2026103100,
+        2026103101,
+        2026103102
+      ],
+      "status": "completed_interface_verified",
+      "seed_role": "development_interface_smoke_not_holdout",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_interface_v1\\run_20261015_232701_f27ecd",
+      "parent_exit_code": 0,
+      "verified_real_FDM_interface": true,
+      "actual_launcher_exit_code": 0,
+      "actual_guard_exit_code": 0,
+      "new_FDM_ticks": 1800,
+      "score_eligible": false
+    },
+    "m4_rules_interface_v1_2026101600_five_cases_two_resets": {
+      "seeds": [
+        2026101600,
+        2026101601,
+        2026101602,
+        2026101603,
+        2026101604
+      ],
+      "status": "partial_rear_counter_unexercised",
+      "seed_role": "development_interface_smoke_not_holdout",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_rules_interface_v1\\run_20261016_000620_fffa59",
+      "parent_exit_code": 2,
+      "guard_exit_code": 0,
+      "new_FDM_ticks": 2400,
+      "partial_audit": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_rules_interface_v1\\run_20261016_000620_fffa59\\PARTIAL_AUDIT.json"
+    },
+    "m4_aligned_counter_v1_2026101610_single_aligned_counter": {
+      "seeds": [
+        2026101610
+      ],
+      "status": "completed_aligned_counter_verified",
+      "seed_role": "development_interface_smoke_not_holdout",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_aligned_counter_v1\\run_20261016_001144_2d9d6c",
+      "parent_exit_code": 0,
+      "guard_exit_code": 0,
+      "new_FDM_ticks": 360,
+      "verification": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_aligned_counter_v1\\run_20261016_001144_2d9d6c\\VERIFICATION.json"
+    },
+    "m4_yaw_pair_v1_2026101620_two_error_sign_pairs": {
+      "seeds": [
+        2026101620,
+        2026101621
+      ],
+      "status": "completed_paired_yaw_verified",
+      "seed_role": "development_interface_smoke_not_holdout",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_yaw_pair_v1\\run_20261016_002509_917302",
+      "parent_exit_code": 0,
+      "new_FDM_ticks": 3960,
+      "score_eligible": false
+    },
+    "m4_train_pilot_v1_2026101650_fresh5000": {
+      "seeds": [
+        2026101650,
+        2026200000,
+        2026200001,
+        2026200002,
+        2026200003,
+        2026200004,
+        2026200005,
+        2026200006,
+        2026200007,
+        2026200008,
+        2026200009,
+        2026200010,
+        2026200011,
+        2026200012,
+        2026200013,
+        2026200014,
+        2026200015,
+        2026200016,
+        2026200017,
+        2026200018,
+        2026200019,
+        2026200020,
+        2026200021,
+        2026200022,
+        2026200023,
+        2026200024,
+        2026200025,
+        2026200026,
+        2026200027,
+        2026200028,
+        2026200029,
+        2026200030,
+        2026200031,
+        2026200032,
+        2026200033,
+        2026200034,
+        2026200035,
+        2026200036,
+        2026200037,
+        2026200038,
+        2026200039,
+        2026200040,
+        2026200041,
+        2026200042,
+        2026200043,
+        2026200044,
+        2026200045,
+        2026200046,
+        2026200047,
+        2026200048,
+        2026200049,
+        2026200050,
+        2026200051,
+        2026200052,
+        2026200053,
+        2026200054,
+        2026200055,
+        2026200056,
+        2026200057,
+        2026200058,
+        2026200059,
+        2026200060,
+        2026200061,
+        2026200062,
+        2026200063,
+        2026200064,
+        2026200065,
+        2026200066,
+        2026200067,
+        2026200068,
+        2026200069,
+        2026200070,
+        2026200071,
+        2026200072,
+        2026200073,
+        2026200074,
+        2026200075,
+        2026200076,
+        2026200077,
+        2026200078,
+        2026200079,
+        2026200080,
+        2026200081,
+        2026200082,
+        2026200083,
+        2026200084,
+        2026200085,
+        2026200086,
+        2026200087,
+        2026200088,
+        2026200089,
+        2026200090,
+        2026200091,
+        2026200092,
+        2026200093,
+        2026200094,
+        2026200095,
+        2026200096,
+        2026200097,
+        2026200098,
+        2026200099,
+        2026200100,
+        2026200101,
+        2026200102,
+        2026200103,
+        2026200104,
+        2026200105,
+        2026200106,
+        2026200107,
+        2026200108,
+        2026200109,
+        2026200110,
+        2026200111,
+        2026200112,
+        2026200113,
+        2026200114,
+        2026200115,
+        2026200116,
+        2026200117,
+        2026200118,
+        2026200119,
+        2026200120,
+        2026200121,
+        2026200122,
+        2026200123,
+        2026200124,
+        2026200125,
+        2026200126,
+        2026200127,
+        2026200128,
+        2026200129,
+        2026200130,
+        2026200131,
+        2026200132,
+        2026200133,
+        2026200134,
+        2026200135,
+        2026200136,
+        2026200137,
+        2026200138,
+        2026200139,
+        2026200140,
+        2026200141,
+        2026200142,
+        2026200143,
+        2026200144,
+        2026200145,
+        2026200146,
+        2026200147,
+        2026200148,
+        2026200149,
+        2026200150,
+        2026200151,
+        2026200152,
+        2026200153,
+        2026200154,
+        2026200155,
+        2026200156,
+        2026200157,
+        2026200158,
+        2026200159,
+        2026200160,
+        2026200161,
+        2026200162,
+        2026200163,
+        2026200164,
+        2026200165,
+        2026200166,
+        2026200167,
+        2026200168,
+        2026200169,
+        2026200170,
+        2026200171,
+        2026200172,
+        2026200173,
+        2026200174,
+        2026200175,
+        2026200176,
+        2026200177,
+        2026200178,
+        2026200179,
+        2026200180,
+        2026200181,
+        2026200182,
+        2026200183,
+        2026200184,
+        2026200185,
+        2026200186,
+        2026200187,
+        2026200188,
+        2026200189,
+        2026200190,
+        2026200191,
+        2026200192,
+        2026200193,
+        2026200194,
+        2026200195,
+        2026200196,
+        2026200197,
+        2026200198,
+        2026200199,
+        2026200200,
+        2026200201,
+        2026200202,
+        2026200203,
+        2026200204,
+        2026200205,
+        2026200206,
+        2026200207,
+        2026200208,
+        2026200209,
+        2026200210,
+        2026200211,
+        2026200212,
+        2026200213,
+        2026200214,
+        2026200215,
+        2026200216,
+        2026200217,
+        2026200218,
+        2026200219,
+        2026200220,
+        2026200221,
+        2026200222,
+        2026200223,
+        2026200224,
+        2026200225,
+        2026200226,
+        2026200227,
+        2026200228,
+        2026200229,
+        2026200230,
+        2026200231,
+        2026200232,
+        2026200233,
+        2026200234,
+        2026200235,
+        2026200236,
+        2026200237,
+        2026200238,
+        2026200239,
+        2026200240,
+        2026200241,
+        2026200242,
+        2026200243,
+        2026200244,
+        2026200245,
+        2026200246,
+        2026200247,
+        2026200248,
+        2026200249,
+        2026200250,
+        2026200251,
+        2026200252,
+        2026200253,
+        2026200254,
+        2026200255
+      ],
+      "status": "completed_fresh_training_verified",
+      "seed_role": "fresh_training_and_reserved_unused_not_holdout",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_train_pilot_v1\\run_20261016_003919_a5c748",
+      "parent_exit_code": 0,
+      "actual_used_episode_seeds": [
+        2026200000,
+        2026200001,
+        2026200002,
+        2026200003,
+        2026200004,
+        2026200005
+      ],
+      "policy_seed": 2026101650,
+      "remaining_episode_seeds_reserved_unused": true,
+      "verification": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_train_pilot_v1\\run_20261016_003919_a5c748\\VERIFICATION.json"
+    },
+    "m4_final_eval_v1_2026300000_three_opponent_pairs": {
+      "seeds": [
+        2026300000,
+        2026300001,
+        2026300002
+      ],
+      "status": "attempted_terminal",
+      "seed_role": "development_interface_smoke_not_holdout",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_final_eval_v1\\run_20261016_004816_8297e0",
+      "parent_exit_code": 15
+    },
+    "m4_final_eval_recovery_v2_2026300010_fresh_RL_pair": {
+      "seeds": [
+        2026300010
+      ],
+      "status": "verified_RL_pair_complete",
+      "seed_role": "development_interface_smoke_not_holdout",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_final_eval_recovery_v2\\run_20261016_005416_dd363a",
+      "parent_exit_code": 0,
+      "verification": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_final_eval_recovery_v2\\run_20261016_005416_dd363a\\VERIFICATION.json"
+    },
+    "m4_rule_mirror_eval_v1_2026300100_fresh_rule_mirror_pairs": {
+      "seeds": [
+        2026300100,
+        2026300101
+      ],
+      "status": "attempted_terminal",
+      "seed_role": "development_paired_rule_mirror_not_holdout",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_rule_mirror_eval_v1\\run_20261016_102257_9f7cd7",
+      "parent_exit_code": 0
+    },
+    "m4_actor_transfer_10k_v1_2026101691_actor10000": {
+      "seeds": [
+        2026101691,
+        2026401000,
+        2026401001,
+        2026401002,
+        2026401003,
+        2026401004,
+        2026401005,
+        2026401006,
+        2026401007,
+        2026401008,
+        2026401009,
+        2026401010,
+        2026401011,
+        2026401012,
+        2026401013,
+        2026401014,
+        2026401015,
+        2026401016,
+        2026401017,
+        2026401018,
+        2026401019,
+        2026401020,
+        2026401021,
+        2026401022,
+        2026401023,
+        2026401024,
+        2026401025,
+        2026401026,
+        2026401027,
+        2026401028,
+        2026401029,
+        2026401030,
+        2026401031,
+        2026401032,
+        2026401033,
+        2026401034,
+        2026401035,
+        2026401036,
+        2026401037,
+        2026401038,
+        2026401039,
+        2026401040,
+        2026401041,
+        2026401042,
+        2026401043,
+        2026401044,
+        2026401045,
+        2026401046,
+        2026401047,
+        2026401048,
+        2026401049,
+        2026401050,
+        2026401051,
+        2026401052,
+        2026401053,
+        2026401054,
+        2026401055,
+        2026401056,
+        2026401057,
+        2026401058,
+        2026401059,
+        2026401060,
+        2026401061,
+        2026401062,
+        2026401063,
+        2026401064,
+        2026401065,
+        2026401066,
+        2026401067,
+        2026401068,
+        2026401069,
+        2026401070,
+        2026401071,
+        2026401072,
+        2026401073,
+        2026401074,
+        2026401075,
+        2026401076,
+        2026401077,
+        2026401078,
+        2026401079,
+        2026401080,
+        2026401081,
+        2026401082,
+        2026401083,
+        2026401084,
+        2026401085,
+        2026401086,
+        2026401087,
+        2026401088,
+        2026401089,
+        2026401090,
+        2026401091,
+        2026401092,
+        2026401093,
+        2026401094,
+        2026401095,
+        2026401096,
+        2026401097,
+        2026401098,
+        2026401099,
+        2026401100,
+        2026401101,
+        2026401102,
+        2026401103,
+        2026401104,
+        2026401105,
+        2026401106,
+        2026401107,
+        2026401108,
+        2026401109,
+        2026401110,
+        2026401111,
+        2026401112,
+        2026401113,
+        2026401114,
+        2026401115,
+        2026401116,
+        2026401117,
+        2026401118,
+        2026401119,
+        2026401120,
+        2026401121,
+        2026401122,
+        2026401123,
+        2026401124,
+        2026401125,
+        2026401126,
+        2026401127,
+        2026401128,
+        2026401129,
+        2026401130,
+        2026401131,
+        2026401132,
+        2026401133,
+        2026401134,
+        2026401135,
+        2026401136,
+        2026401137,
+        2026401138,
+        2026401139,
+        2026401140,
+        2026401141,
+        2026401142,
+        2026401143,
+        2026401144,
+        2026401145,
+        2026401146,
+        2026401147,
+        2026401148,
+        2026401149,
+        2026401150,
+        2026401151,
+        2026401152,
+        2026401153,
+        2026401154,
+        2026401155,
+        2026401156,
+        2026401157,
+        2026401158,
+        2026401159,
+        2026401160,
+        2026401161,
+        2026401162,
+        2026401163,
+        2026401164,
+        2026401165,
+        2026401166,
+        2026401167,
+        2026401168,
+        2026401169,
+        2026401170,
+        2026401171,
+        2026401172,
+        2026401173,
+        2026401174,
+        2026401175,
+        2026401176,
+        2026401177,
+        2026401178,
+        2026401179,
+        2026401180,
+        2026401181,
+        2026401182,
+        2026401183,
+        2026401184,
+        2026401185,
+        2026401186,
+        2026401187,
+        2026401188,
+        2026401189,
+        2026401190,
+        2026401191,
+        2026401192,
+        2026401193,
+        2026401194,
+        2026401195,
+        2026401196,
+        2026401197,
+        2026401198,
+        2026401199,
+        2026401200,
+        2026401201,
+        2026401202,
+        2026401203,
+        2026401204,
+        2026401205,
+        2026401206,
+        2026401207,
+        2026401208,
+        2026401209,
+        2026401210,
+        2026401211,
+        2026401212,
+        2026401213,
+        2026401214,
+        2026401215,
+        2026401216,
+        2026401217,
+        2026401218,
+        2026401219,
+        2026401220,
+        2026401221,
+        2026401222,
+        2026401223,
+        2026401224,
+        2026401225,
+        2026401226,
+        2026401227,
+        2026401228,
+        2026401229,
+        2026401230,
+        2026401231,
+        2026401232,
+        2026401233,
+        2026401234,
+        2026401235,
+        2026401236,
+        2026401237,
+        2026401238,
+        2026401239,
+        2026401240,
+        2026401241,
+        2026401242,
+        2026401243,
+        2026401244,
+        2026401245,
+        2026401246,
+        2026401247,
+        2026401248,
+        2026401249,
+        2026401250,
+        2026401251,
+        2026401252,
+        2026401253,
+        2026401254,
+        2026401255
+      ],
+      "status": "attempted_terminal",
+      "seed_role": "fresh_training_and_reserved_unused_not_holdout",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_actor_transfer_10k_v1\\run_20261016_102640_412524",
+      "parent_exit_code": 0
+    },
+    "m4_transfer_eval_v1_2026300200_fresh_old5000_transfer10000_pairs": {
+      "seeds": [
+        2026300200,
+        2026300201,
+        2026300202
+      ],
+      "status": "attempted_terminal",
+      "seed_role": "development_paired_rule_mirror_not_holdout",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_20261016_103651_4fcfa9",
+      "parent_exit_code": 0
+    },
+    "m4_grid_eval_v1_2026300300_fresh_3opponent_3distance_grid": {
+      "seeds": [
+        2026300300,
+        2026300301,
+        2026300302,
+        2026300303,
+        2026300304,
+        2026300305,
+        2026300306,
+        2026300307,
+        2026300308
+      ],
+      "status": "attempted_terminal",
+      "seed_role": "development_paired_rule_mirror_not_holdout",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_20261016_104729_96f65a",
+      "parent_exit_code": 0
+    },
+    "run_20261017_063110_af2e25": {
+      "seeds": [
+        2026310000,
+        2026310001
+      ],
+      "status": "attempted",
+      "seed_role": "development_fdm_interface_not_holdout",
+      "output": "E:\\ai_pilot\\campaign_2026\\diagnostics\\frozen_sac_fdm_v1\\run_20261017_063110_af2e25"
+    },
+    "frozen_sac_battle_v1_2026310100_two_openings_three_actors": {
+      "seeds": [
+        2026310100,
+        2026310101
+      ],
+      "status": "failed_partial",
+      "seed_role": "new_development_not_holdout",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_battle_v1\\run_20261017_093451_16086d",
+      "reusable": false
+    },
+    "frozen_sac_battle_v2_2026310200_two_openings_three_actors": {
+      "seeds": [
+        2026310200,
+        2026310201
+      ],
+      "status": "completed_verified_development",
+      "seed_role": "new_development_not_holdout",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_battle_v2\\run_20261017_093943_16bee6",
+      "comparison": "E:\\ai_pilot\\campaign_2026\\diagnostics\\saved_sac_battle_audit_20261017_094917_10fc24\\COMPARISON.json",
+      "reusable": false
+    },
+    "far_bank60_v1_2026310300_two_openings_two_doctrines": {
+      "seeds": [
+        2026310300,
+        2026310301
+      ],
+      "status": "failed_import_collision",
+      "seed_role": "new_development_not_holdout",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_bank60_v1\\run_20261017_152917_6fba7c",
+      "reusable": false
+    },
+    "far_bank60_v2_2026310400_two_openings_two_doctrines": {
+      "seeds": [
+        2026310400,
+        2026310401
+      ],
+      "status": "completed_verified_development",
+      "seed_role": "new_development_not_holdout",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_bank60_v2\\run_20261017_153047_104619",
+      "comparison": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_bank60_v2\\run_20261017_153047_104619\\COMPARISON.json",
+      "reusable": false
+    },
+    "rear_latch60_v1_2026310500_two_openings_latch_mechanism": {
+      "seeds": [
+        2026310500,
+        2026310501
+      ],
+      "status": "attempted",
+      "seed_role": "new_development_not_holdout",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v1\\run_20261017_203724_6cbe6e"
+    },
+    "rear_latch60_v2_2026310600_two_openings_latch_mechanism": {
+      "seeds": [
+        2026310600,
+        2026310601
+      ],
+      "status": "completed_verified_saved_data_audit",
+      "seed_role": "new_development_not_holdout",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v2\\run_20261017_203915_d840e7",
+      "comparison": "E:\\ai_pilot\\campaign_2026\\diagnostics\\saved_latch_audit_v1_20261017_204803_78cf4a\\COMPARISON.json",
+      "gate": "reject_latch_no_paired_score_improvement"
+    },
+    "far_speed_v1_2026310700_two_openings_two_doctrines": {
+      "seeds": [
+        2026310700,
+        2026310701
+      ],
+      "status": "completed_verified_development",
+      "seed_role": "new_development_not_holdout",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\run_20261018_033053_98bc0f",
+      "comparison": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\run_20261018_033053_98bc0f\\COMPARISON.json",
+      "gate": "reject_position_score_regression",
+      "reusable": false
+    },
+    "run_20261018_153511_6fb16a": {
+      "seeds": [
+        2026310800
+      ],
+      "status": "verified_short_bank_FDM_interface",
+      "seed_role": "development_short_bank_interface_not_holdout",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_fdm_v1\\run_20261018_153511_6fb16a",
+      "reusable": false,
+      "verification": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_fdm_v1\\run_20261018_153511_6fb16a\\VERIFICATION.json",
+      "new_FDM_ticks": 600
+    },
+    "run_20261018_184204_2af616": {
+      "seeds": [
+        2026310999,
+        2026311000,
+        2026311001,
+        2026311002,
+        2026311003,
+        2026311004,
+        2026311005,
+        2026311006,
+        2026311007,
+        2026311008,
+        2026311009,
+        2026311010,
+        2026311011,
+        2026311012,
+        2026311013,
+        2026311014,
+        2026311015,
+        2026311016,
+        2026311017,
+        2026311018,
+        2026311019,
+        2026311020,
+        2026311021,
+        2026311022,
+        2026311023,
+        2026311024,
+        2026311025,
+        2026311026,
+        2026311027,
+        2026311028,
+        2026311029,
+        2026311030,
+        2026311031
+      ],
+      "status": "failed_metadata_before_first_recorded_tick",
+      "seed_role": "fresh_training_new_development_not_holdout",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_train_v1\\run_20261018_184204_2af616",
+      "reusable": false,
+      "actual_decisions": 0
+    },
+    "run_20261018_184325_38d521": {
+      "seeds": [
+        2026311999,
+        2026312000,
+        2026312001,
+        2026312002,
+        2026312003,
+        2026312004,
+        2026312005,
+        2026312006,
+        2026312007,
+        2026312008,
+        2026312009,
+        2026312010,
+        2026312011,
+        2026312012,
+        2026312013,
+        2026312014,
+        2026312015,
+        2026312016,
+        2026312017,
+        2026312018,
+        2026312019,
+        2026312020,
+        2026312021,
+        2026312022,
+        2026312023,
+        2026312024,
+        2026312025,
+        2026312026,
+        2026312027,
+        2026312028,
+        2026312029,
+        2026312030,
+        2026312031
+      ],
+      "status": "failed_rule_API_partial900_not_verified",
+      "seed_role": "fresh_training_new_development_not_holdout",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_train_v2\\run_20261018_184325_38d521",
+      "reusable": false,
+      "actual_decisions": 900,
+      "gradient_updates": 75,
+      "new_FDM_ticks": 18000
+    },
+    "run_20261018_184640_29092b": {
+      "seeds": [
+        2026312999,
+        2026314000,
+        2026314001,
+        2026314002,
+        2026314003,
+        2026314004,
+        2026314005,
+        2026314006,
+        2026314007,
+        2026314008,
+        2026314009,
+        2026314010,
+        2026314011,
+        2026314012,
+        2026314013,
+        2026314014,
+        2026314015,
+        2026314016,
+        2026314017,
+        2026314018,
+        2026314019,
+        2026314020,
+        2026314021,
+        2026314022,
+        2026314023,
+        2026314024,
+        2026314025,
+        2026314026,
+        2026314027,
+        2026314028,
+        2026314029,
+        2026314030,
+        2026314031
+      ],
+      "status": "verified_pilot_model_frozen_no_promotion",
+      "seed_role": "fresh_training_new_development_not_holdout",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_train_v4\\run_20261018_184640_29092b",
+      "reusable": false,
+      "used_episode_seeds": [
+        2026314000,
+        2026314001,
+        2026314002,
+        2026314003
+      ],
+      "unused_reserved_episode_seeds": [
+        2026314004,
+        2026314005,
+        2026314006,
+        2026314007,
+        2026314008,
+        2026314009,
+        2026314010,
+        2026314011,
+        2026314012,
+        2026314013,
+        2026314014,
+        2026314015,
+        2026314016,
+        2026314017,
+        2026314018,
+        2026314019,
+        2026314020,
+        2026314021,
+        2026314022,
+        2026314023,
+        2026314024,
+        2026314025,
+        2026314026,
+        2026314027,
+        2026314028,
+        2026314029,
+        2026314030,
+        2026314031
+      ],
+      "actual_decisions": 3000,
+      "model_sha256": "b9bcce79185343c4fdf1b022feb42c4dceb62c8e312da29962c07ae34513b176"
+    },
+    "run_20261018_204527_a6f90a": {
+      "seeds": [
+        2026315000,
+        2026315001,
+        2026315002
+      ],
+      "status": "attempted",
+      "seed_role": "new_paired_development_not_holdout",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_eval_v1\\run_20261018_204527_a6f90a",
+      "reusable": false
+    }
+  },
+  "holdout_policy": "Never execute reserved holdout until candidate frozen and preregistered; once read, relabel as development"
+}

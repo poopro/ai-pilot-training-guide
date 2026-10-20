@@ -1,0 +1,7 @@
+{
+  "profile": "portable_repair_guide_rehearsal_v1",
+  "folder": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v1\\runs\\portable_20261014_203837_2976b892",
+  "host_started": true,
+  "player_started": true,
+  "instruction": "INIT; wait both READY/GO; mark-start then START"
+}

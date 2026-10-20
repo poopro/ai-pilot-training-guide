@@ -1,0 +1,264 @@
+{
+  "date_taipei": "2026-10-16",
+  "daily_limit_hours": 6.0,
+  "reserved_hours": 3.108233408305556,
+  "items": [
+    {
+      "id": "m4_rules_interface_v1_2026101600_five_cases_two_resets",
+      "hours": 0.06666666666666667,
+      "status": "partial_rear_counter_unexercised",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_rules_interface_v1\\run_20261016_000620_fffa59",
+      "warning_only_daily_policy": true,
+      "parent_exit_code": 2,
+      "actual_wall_seconds": 38.73500000000058
+    },
+    {
+      "id": "m4_aligned_counter_v1_2026101610_single_aligned_counter",
+      "hours": 0.025,
+      "status": "completed_aligned_counter_verified",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_aligned_counter_v1\\run_20261016_001144_2d9d6c",
+      "warning_only_daily_policy": true,
+      "parent_exit_code": 0,
+      "actual_wall_seconds": 8.421999999991385
+    },
+    {
+      "id": "m4_yaw_pair_v1_2026101620_two_error_sign_pairs",
+      "hours": 0.06666666666666667,
+      "status": "completed_paired_yaw_verified",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_yaw_pair_v1\\run_20261016_002509_917302",
+      "warning_only_daily_policy": true,
+      "parent_exit_code": 0,
+      "actual_wall_seconds": 35.26600000000326,
+      "actual_parent_exit_code": 0,
+      "actual_guard_exit_code": 0,
+      "new_FDM_ticks": 3960
+    },
+    {
+      "id": "m4_train_pilot_v1_2026101650_fresh5000",
+      "hours": 0.25,
+      "status": "completed_fresh_training_verified",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_train_pilot_v1\\run_20261016_003919_a5c748",
+      "warning_only_daily_policy": true,
+      "parent_exit_code": 0,
+      "actual_wall_seconds": 279.2969999999914,
+      "new_physics_ticks": 100000,
+      "decisions": 5000
+    },
+    {
+      "id": "m4_final_eval_v1_2026300000_three_opponent_pairs",
+      "hours": 0.16666666666666666,
+      "status": "partial_parent15_guard2_after4workers",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_final_eval_v1\\run_20261016_004816_8297e0",
+      "warning_only_daily_policy": true,
+      "parent_exit_code": 15,
+      "actual_wall_seconds": null,
+      "complete_worker_physics_ticks": 70616,
+      "actual_guard_wall_seconds": 214.57800000000861
+    },
+    {
+      "id": "m4_final_eval_recovery_v2_2026300010_fresh_RL_pair",
+      "hours": 0.06666666666666667,
+      "status": "verified_RL_pair_complete",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_final_eval_recovery_v2\\run_20261016_005416_dd363a",
+      "warning_only_daily_policy": true,
+      "parent_exit_code": 0,
+      "actual_wall_seconds": 132.48399999999674,
+      "new_physics_ticks": 36000
+    },
+    {
+      "id": "preflight_profile_20261016_010116_c32c",
+      "hours": 0.016666666666666666,
+      "status": "terminal",
+      "output": "E:\\ai_pilot\\campaign_2026\\diagnostics\\preflight_profile_20261016_010116_c32c",
+      "no_FDM": true,
+      "actual_exit_code": 0,
+      "actual_wall_seconds": 13.46799999999348
+    },
+    {
+      "id": "portable_20261016_010307_05d6734c",
+      "hours": 0.2,
+      "status": "incomplete",
+      "profile": "portable_repair_guide_rehearsal_v2",
+      "warning_only": true,
+      "reserved_utc": "2026-10-15T17:03:07.627308+00:00",
+      "output": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v2\\runs\\portable_20261016_010307_05d6734c"
+    },
+    {
+      "id": "portable_v3_static_repair_20261016_0825",
+      "hours": 0.016666666666666666,
+      "status": "static_v3_and_v4_terminal",
+      "note": "bounded static/mock and read-only package preflight, no Host/FDM;includes first28.278s failed test",
+      "actual_static_test_seconds": 39.138999999999996,
+      "first_exit": 1,
+      "second_exit": 0,
+      "v4_exit": 0,
+      "tests": 28
+    },
+    {
+      "id": "portable_20261016_082436_fe5a8fee",
+      "hours": 0.2,
+      "status": "incomplete",
+      "profile": "portable_repair_guide_rehearsal_v3",
+      "warning_only": true,
+      "reserved_utc": "2026-10-16T00:24:36.869675+00:00",
+      "output": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v3\\runs\\portable_20261016_082436_fe5a8fee"
+    },
+    {
+      "id": "host_saved_rules_audit_20261016_0935",
+      "hours": 0.008333333333333333,
+      "status": "completed_saved_trace_audit_no_FDM",
+      "no_new_FDM": true,
+      "original_wall_limit_seconds": 25,
+      "actual_main_audit_wall_seconds": 0.937,
+      "rows": 10384,
+      "probe_count": 3,
+      "new_fdm_ticks": 0,
+      "actual_exit0_tool": "9ca026"
+    },
+    {
+      "id": "portable_v4_RAM_preflight_block_20261016_0934",
+      "hours": 0.00169035275,
+      "status": "post_observation_charge_before_newHostreservation",
+      "actual_wall_seconds": 6.0852699,
+      "actual_exit": 1,
+      "no_new_host_or_guard": true
+    },
+    {
+      "id": "portable_20261016_094406_3a3b7d3a",
+      "hours": 0.2,
+      "status": "completed",
+      "profile": "portable_repair_guide_rehearsal_v4",
+      "warning_only": true,
+      "reserved_utc": "2026-10-16T01:44:06.275507+00:00",
+      "output": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\runs\\portable_20261016_094406_3a3b7d3a",
+      "actual_wall_seconds": 176.66696095466614
+    },
+    {
+      "id": "portable_20261016_100246_b31457d7",
+      "hours": 0.2,
+      "status": "completed",
+      "profile": "portable_repair_guide_rehearsal_v4",
+      "warning_only": true,
+      "reserved_utc": "2026-10-16T02:02:46.093400+00:00",
+      "output": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\runs\\portable_20261016_100246_b31457d7",
+      "actual_wall_seconds": 169.34656953811646
+    },
+    {
+      "id": "portable_20261016_100600_e4616010",
+      "hours": 0.2,
+      "status": "completed",
+      "profile": "portable_repair_guide_rehearsal_v4",
+      "warning_only": true,
+      "reserved_utc": "2026-10-16T02:06:00.488581+00:00",
+      "output": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\runs\\portable_20261016_100600_e4616010",
+      "actual_wall_seconds": 349.998331785202
+    },
+    {
+      "id": "portable_20261016_101213_0eb05d15",
+      "hours": 0.2,
+      "status": "completed",
+      "profile": "portable_repair_guide_rehearsal_v4",
+      "warning_only": true,
+      "reserved_utc": "2026-10-16T02:12:13.013852+00:00",
+      "output": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\runs\\portable_20261016_101213_0eb05d15",
+      "actual_wall_seconds": 228.17678880691528
+    },
+    {
+      "id": "portable_20261016_101618_3bc0a1d8",
+      "hours": 0.2,
+      "status": "completed",
+      "profile": "portable_repair_guide_rehearsal_v4",
+      "warning_only": true,
+      "reserved_utc": "2026-10-16T02:16:18.090199+00:00",
+      "output": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\runs\\portable_20261016_101618_3bc0a1d8",
+      "actual_wall_seconds": 147.4913489818573
+    },
+    {
+      "id": "portable_20261016_101928_5aceb10c",
+      "hours": 0.2,
+      "status": "completed",
+      "profile": "portable_repair_guide_rehearsal_v4",
+      "warning_only": true,
+      "reserved_utc": "2026-10-16T02:19:28.732060+00:00",
+      "output": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\runs\\portable_20261016_101928_5aceb10c",
+      "actual_wall_seconds": 153.25133180618286
+    },
+    {
+      "id": "m4_actor_transfer_10k_static_20261016",
+      "hours": 0.006543055555555555,
+      "status": "completed_static_no_FDM",
+      "actual_wall_seconds": 23.555,
+      "source": "m4_actor_transfer_10k_v1/PREPARATION.json",
+      "warning_only": true
+    },
+    {
+      "id": "m4_rule_mirror_eval_v1_2026300100_fresh_rule_mirror_pairs",
+      "hours": 0.06666666666666667,
+      "status": "attempted_terminal",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_rule_mirror_eval_v1\\run_20261016_102257_9f7cd7",
+      "warning_only_daily_policy": true,
+      "parent_exit_code": 0,
+      "actual_wall_seconds": 142.21900000000005
+    },
+    {
+      "id": "m4_actor_transfer_10k_v1_2026101691_actor10000",
+      "hours": 0.25,
+      "status": "attempted_terminal",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_actor_transfer_10k_v1\\run_20261016_102640_412524",
+      "warning_only_daily_policy": true,
+      "parent_exit_code": 0,
+      "actual_wall_seconds": 415.8279999999995
+    },
+    {
+      "id": "m4_transfer_eval_v1_2026300200_fresh_old5000_transfer10000_pairs",
+      "hours": 0.1,
+      "status": "attempted_terminal",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_20261016_103651_4fcfa9",
+      "warning_only_daily_policy": true,
+      "parent_exit_code": 0,
+      "actual_wall_seconds": 274.34399999999914
+    },
+    {
+      "id": "vivobook_handoff_static_20261016",
+      "hours": 0.03333333333333333,
+      "status": "completed_static_probe",
+      "warning_only": true,
+      "actual_wall_seconds": 29.54699999999866,
+      "output": "E:\\ai_pilot\\campaign_2026\\diagnostics\\vivobook_handoff_local_smoke_20261016"
+    },
+    {
+      "id": "m4_grid_eval_v1_2026300300_fresh_3opponent_3distance_grid",
+      "hours": 0.25,
+      "status": "attempted_terminal",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_20261016_104729_96f65a",
+      "warning_only_daily_policy": true,
+      "parent_exit_code": 0,
+      "actual_wall_seconds": 820.9840000000004
+    },
+    {
+      "id": "frozen_sac_opponent_static_20261016",
+      "hours": 0.016666666666666666,
+      "status": "completed_static_only",
+      "warning_only": true,
+      "actual_reported_test_seconds": 1.071,
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_opponent_v1"
+    },
+    {
+      "id": "free_cpu_controller_review_20261016",
+      "hours": 0.06666666666666667,
+      "status": "completed_free_max_review_no_patch",
+      "warning_only": true,
+      "actual_wall_seconds": 60.36,
+      "output": "E:\\ai_pilot\\campaign_2026\\delegations\\20261016_110512_be0f"
+    },
+    {
+      "id": "frozen_sac_cpu_probe_20261016_231331_e45d41",
+      "hours": 0.03333333333333333,
+      "status": "terminal_cpu_probe",
+      "output": "E:\\ai_pilot\\campaign_2026\\diagnostics\\frozen_sac_cpu_probe_20261016_231331_e45d41",
+      "warning_only": true,
+      "actual_worker_exit": 1,
+      "actual_wall_seconds": 15.682568550109863
+    }
+  ]
+}

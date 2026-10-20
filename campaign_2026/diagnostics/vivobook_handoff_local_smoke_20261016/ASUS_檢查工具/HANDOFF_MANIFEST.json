@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-10-16T02:39:04.770913+00:00",
+  "scope": "Exact copy of baseline portable package plus external CPU readiness helper; no controller/model change",
+  "checked_manifest_files": 2115,
+  "original_manifest_sha256": "bf24309b4f0f8180632ea070e82c7f124ecfaac484d8dea50578021d492d0454",
+  "copied_manifest_sha256": "bf24309b4f0f8180632ea070e82c7f124ecfaac484d8dea50578021d492d0454",
+  "ASUS_execution_verified": false,
+  "LAN_verified": false
+}

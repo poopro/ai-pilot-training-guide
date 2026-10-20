@@ -1,0 +1,49 @@
+ENTER frozen_profile
+{"hash_count": 100, "last_path": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\DLLs\\_testmultiphase.pyd", "last_seconds": 0.0, "total_seconds": 0.4210000000020955}
+{"hash_count": 200, "last_path": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\Lib\\re.py", "last_seconds": 0.014999999999417923, "total_seconds": 0.6399999999994179}
+{"hash_count": 300, "last_path": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\Lib\\asyncio\\windows_events.py", "last_seconds": 0.0, "total_seconds": 0.9060000000026776}
+{"hash_count": 400, "last_path": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\Lib\\distutils\\file_util.py", "last_seconds": 0.0, "total_seconds": 1.1560000000026776}
+{"hash_count": 500, "last_path": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\Lib\\email\\_parseaddr.py", "last_seconds": 0.014999999999417923, "total_seconds": 1.4210000000020955}
+{"hash_count": 600, "last_path": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\Lib\\encodings\\mac_cyrillic.py", "last_seconds": 0.0, "total_seconds": 1.75}
+{"hash_count": 700, "last_path": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\Lib\\idlelib\\replace.py", "last_seconds": 0.0, "total_seconds": 2.062000000005355}
+{"hash_count": 800, "last_path": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\Lib\\idlelib\\idle_test\\test_warning.py", "last_seconds": 0.0, "total_seconds": 2.2960000000020955}
+{"hash_count": 900, "last_path": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\Lib\\lib2to3\\pgen2\\literals.py", "last_seconds": 0.0, "total_seconds": 2.514999999999418}
+{"hash_count": 1000, "last_path": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\Lib\\site-packages\\numpy\\core\\function_base.pyi", "last_seconds": 0.0, "total_seconds": 2.8589999999967404}
+{"hash_count": 1100, "last_path": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\Lib\\site-packages\\numpy\\core\\tests\\test_deprecations.py", "last_seconds": 0.0, "total_seconds": 3.125}
+{"hash_count": 1200, "last_path": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\Lib\\site-packages\\numpy\\distutils\\system_info.py", "last_seconds": 0.0, "total_seconds": 3.375}
+{"hash_count": 1300, "last_path": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\Lib\\site-packages\\numpy\\distutils\\tests\\test_shell_utils.py", "last_seconds": 0.0, "total_seconds": 3.6089999999967404}
+{"hash_count": 1400, "last_path": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\Lib\\site-packages\\numpy\\f2py\\tests\\src\\f2cmap\\.f2py_f2cmap", "last_seconds": 0.0, "total_seconds": 3.8589999999967404}
+{"hash_count": 1500, "last_path": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\Lib\\site-packages\\numpy\\lib\\__init__.pyi", "last_seconds": 0.0, "total_seconds": 4.092999999993481}
+{"hash_count": 1600, "last_path": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\Lib\\site-packages\\numpy\\polynomial\\tests\\test_classes.py", "last_seconds": 0.01600000000325963, "total_seconds": 4.375}
+{"hash_count": 1700, "last_path": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\Lib\\site-packages\\numpy\\typing\\tests\\test_runtime.py", "last_seconds": 0.0, "total_seconds": 4.60899999999674}
+Timeout (0:00:05)!
+Thread 0x00006124 (most recent call first):
+  File "E:\ai_pilot\campaign_2026\deployment\repair_guide_portable_20261012\runtime\Lib\pathlib.py", line 1097 in stat
+  File "E:\ai_pilot\campaign_2026\deployment\repair_guide_portable_20261012\runtime\Lib\pathlib.py", line 1090 in resolve
+  File "E:\ai_pilot\campaign_2026\diagnostics\portable_host_v2\portable_host.py", line 156 in frozen_profile
+  File "E:\ai_pilot\campaign_2026\diagnostics\profile_portable_preflight_20261016.py", line 24 in measured
+  File "E:\ai_pilot\campaign_2026\diagnostics\portable_host_v2\portable_host.py", line 225 in preflight
+  File "E:\ai_pilot\campaign_2026\diagnostics\profile_portable_preflight_20261016.py", line 28 in child
+  File "E:\ai_pilot\campaign_2026\diagnostics\profile_portable_preflight_20261016.py", line 61 in <module>
+{"hash_count": 1800, "last_path": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\Lib\\site-packages\\numpy\\typing\\tests\\data\\reveal\\fromnumeric.pyi", "last_seconds": 0.0, "total_seconds": 4.842999999993481}
+{"hash_count": 1900, "last_path": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\Lib\\tkinter\\constants.py", "last_seconds": 0.014999999999417923, "total_seconds": 6.1710000000020955}
+{"hash_count": 2000, "last_path": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\Lib\\urllib\\response.py", "last_seconds": 0.0, "total_seconds": 7.827999999994063}
+Timeout (0:00:05)!
+Thread 0x00006124 (most recent call first):
+  File "E:\ai_pilot\campaign_2026\deployment\repair_guide_portable_20261012\runtime\Lib\pathlib.py", line 1119 in open
+  File "E:\ai_pilot\campaign_2026\diagnostics\portable_host_v2\portable_host.py", line 42 in sha
+  File "E:\ai_pilot\campaign_2026\diagnostics\profile_portable_preflight_20261016.py", line 15 in timed_sha
+  File "E:\ai_pilot\campaign_2026\diagnostics\portable_host_v2\portable_host.py", line 156 in frozen_profile
+  File "E:\ai_pilot\campaign_2026\diagnostics\profile_portable_preflight_20261016.py", line 24 in measured
+  File "E:\ai_pilot\campaign_2026\diagnostics\portable_host_v2\portable_host.py", line 225 in preflight
+  File "E:\ai_pilot\campaign_2026\diagnostics\profile_portable_preflight_20261016.py", line 28 in child
+  File "E:\ai_pilot\campaign_2026\diagnostics\profile_portable_preflight_20261016.py", line 61 in <module>
+{"hash_count": 2100, "last_path": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\Library\\bin\\libssl-3-x64.dll", "last_seconds": 0.01600000000325963, "total_seconds": 10.23399999999674}
+{"hash_count": 2118, "last_path": "E:\\ai_pilot\\2026 AI \u98db\u884c\u54e1  \u76f8\u95dc\u8cc7\u6599\\AI\u7a7a\u6230\u7af6\u8cfd\u7cfb\u7d71\u5b89\u88dd\u53ca\u6e2c\u8a66\u6307\u5f15\\AI\u7a7a\u6230\u7af6\u8cfd\u7cfb\u7d71\u5b89\u88dd\u53ca\u6e2c\u8a66\u6307\u5f15\\AirCombat_Train_Test\\D.\u6bd4\u8cfd\u7528\u4e3b\u8fa6\u65b9\u9023\u7dda\u7a0b\u5f0f_\u9a57\u8b49\u662f\u5426\u7b26\u5408\u80fd\u6b63\u78ba\u9023\u7dda\\JSB_host_GUI_publish.exe", "last_seconds": 0.5460000000020955, "total_seconds": 11.421000000002095}
+{"hash_count": 2142, "last_path": "C:\\Users\\USER\\AppData\\Local\\JSBsimHost_1_0_0_0\\JSB_host_GUI_publish.exe", "last_seconds": 0.9839999999967404, "total_seconds": 12.639999999999418}
+EXIT frozen_profile 12.639999999999418
+ENTER commands
+EXIT commands 0.0
+ENTER workload_conflicts
+EXIT workload_conflicts 0.031000000002677552
+PROFILE_FINISHED

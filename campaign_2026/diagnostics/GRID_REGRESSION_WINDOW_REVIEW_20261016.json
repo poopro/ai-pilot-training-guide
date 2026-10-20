@@ -1,0 +1,250 @@
+{
+  "created_utc": "2026-10-16T15:11:03.184754+00:00",
+  "scope": "saved development telemetry only; no new FDM/model inference or training",
+  "source_verification_sha256": "05fe0ecc9a1c270851cb32f79d522e95b6075c971dfa6f47cd66d532e0ed9fa5",
+  "cases": {
+    "rule": {
+      "old": {
+        "ticks": 17352,
+        "end_event": "blue_kill",
+        "end_attack_ticks": 180,
+        "recomputed_hit_ticks": 180,
+        "range_window_ticks": 1627,
+        "angle_within_1deg_ticks": 180,
+        "range_ok_angle_out_ticks": 1447,
+        "angle_ok_range_out_ticks": 0,
+        "attack_segments_tick_inclusive": [
+          [
+            16596,
+            16648
+          ],
+          [
+            17170,
+            17235
+          ],
+          [
+            17292,
+            17352
+          ]
+        ],
+        "min_AGL_m": 4167.967862557879
+      },
+      "new": {
+        "ticks": 18000,
+        "end_event": "timeout",
+        "end_attack_ticks": 144,
+        "recomputed_hit_ticks": 144,
+        "range_window_ticks": 2351,
+        "angle_within_1deg_ticks": 144,
+        "range_ok_angle_out_ticks": 2207,
+        "angle_ok_range_out_ticks": 0,
+        "attack_segments_tick_inclusive": [
+          [
+            16249,
+            16360
+          ],
+          [
+            17466,
+            17497
+          ]
+        ],
+        "min_AGL_m": 4138.992663773679
+      },
+      "csv_sha256": {
+        "old": "268466dabf9c79d9c8d83c151ca70378da9108872a474b6cdaf50b4ab292a67d",
+        "new": "2908fe16a618dca323f67f4a8feb4e82fc750a4371c1450488acd1862583dd8b"
+      },
+      "common_exposure_ticks": 17352,
+      "common_exposure": {
+        "old": {
+          "ticks": 17352,
+          "end_event": "blue_kill",
+          "end_attack_ticks": 180,
+          "recomputed_hit_ticks": 180,
+          "range_window_ticks": 1627,
+          "angle_within_1deg_ticks": 180,
+          "range_ok_angle_out_ticks": 1447,
+          "angle_ok_range_out_ticks": 0,
+          "attack_segments_tick_inclusive": [
+            [
+              16596,
+              16648
+            ],
+            [
+              17170,
+              17235
+            ],
+            [
+              17292,
+              17352
+            ]
+          ],
+          "min_AGL_m": 4167.967862557879
+        },
+        "new": {
+          "ticks": 17352,
+          "end_event": "ongoing",
+          "end_attack_ticks": 112,
+          "recomputed_hit_ticks": 112,
+          "range_window_ticks": 1703,
+          "angle_within_1deg_ticks": 112,
+          "range_ok_angle_out_ticks": 1591,
+          "angle_ok_range_out_ticks": 0,
+          "attack_segments_tick_inclusive": [
+            [
+              16249,
+              16360
+            ]
+          ],
+          "min_AGL_m": 4138.992663773679
+        }
+      },
+      "first_command_divergence": {
+        "tick": 4976,
+        "old_command": [
+          -0.04841676279957515,
+          -0.4122246878585094,
+          0.0,
+          0.47659055230986647
+        ],
+        "new_command": [
+          -0.04841676279957515,
+          -0.4122246878585094,
+          0.0,
+          0.4515876987360871
+        ],
+        "same_recorded_observation_hash": true
+      },
+      "hypothesis": "Both earliest differing commands change throttle only at equal recorded observation hashes. Later loss of angle-window retention may involve tactical speed/energy modulation; this is an association, not a demonstrated cause. A later one-factor throttle-channel ablation requires a new isolated contract and paired diagnostics before training.",
+      "next_single_factor": "First validate frozen learned-red adapter with true model and private controller timing; do not retrain or change gains based on this descriptive analysis."
+    },
+    "mirror": {
+      "old": {
+        "ticks": 18000,
+        "end_event": "timeout",
+        "end_attack_ticks": 131,
+        "recomputed_hit_ticks": 131,
+        "range_window_ticks": 4403,
+        "angle_within_1deg_ticks": 146,
+        "range_ok_angle_out_ticks": 4272,
+        "angle_ok_range_out_ticks": 15,
+        "attack_segments_tick_inclusive": [
+          [
+            12814,
+            12906
+          ],
+          [
+            14009,
+            14019
+          ],
+          [
+            15077,
+            15097
+          ],
+          [
+            15473,
+            15478
+          ]
+        ],
+        "min_AGL_m": 4141.554673150692
+      },
+      "new": {
+        "ticks": 18000,
+        "end_event": "timeout",
+        "end_attack_ticks": 2,
+        "recomputed_hit_ticks": 2,
+        "range_window_ticks": 5380,
+        "angle_within_1deg_ticks": 2,
+        "range_ok_angle_out_ticks": 5378,
+        "angle_ok_range_out_ticks": 0,
+        "attack_segments_tick_inclusive": [
+          [
+            15852,
+            15853
+          ]
+        ],
+        "min_AGL_m": 4028.457377983838
+      },
+      "csv_sha256": {
+        "old": "ca3d825e416f68cb177fb85e2105fdd6322b35ecc61ab50f5c5322d4351f2324",
+        "new": "47632c7bf587e2f478776907dfe14c1e3c820e1b8eeb99b5a25bc62ee5222285"
+      },
+      "common_exposure_ticks": 18000,
+      "common_exposure": {
+        "old": {
+          "ticks": 18000,
+          "end_event": "timeout",
+          "end_attack_ticks": 131,
+          "recomputed_hit_ticks": 131,
+          "range_window_ticks": 4403,
+          "angle_within_1deg_ticks": 146,
+          "range_ok_angle_out_ticks": 4272,
+          "angle_ok_range_out_ticks": 15,
+          "attack_segments_tick_inclusive": [
+            [
+              12814,
+              12906
+            ],
+            [
+              14009,
+              14019
+            ],
+            [
+              15077,
+              15097
+            ],
+            [
+              15473,
+              15478
+            ]
+          ],
+          "min_AGL_m": 4141.554673150692
+        },
+        "new": {
+          "ticks": 18000,
+          "end_event": "timeout",
+          "end_attack_ticks": 2,
+          "recomputed_hit_ticks": 2,
+          "range_window_ticks": 5380,
+          "angle_within_1deg_ticks": 2,
+          "range_ok_angle_out_ticks": 5378,
+          "angle_ok_range_out_ticks": 0,
+          "attack_segments_tick_inclusive": [
+            [
+              15852,
+              15853
+            ]
+          ],
+          "min_AGL_m": 4028.457377983838
+        }
+      },
+      "first_command_divergence": {
+        "tick": 1958,
+        "old_command": [
+          -0.04631443800841659,
+          -0.4052235348556432,
+          0.0,
+          0.4718725136256493
+        ],
+        "new_command": [
+          -0.04631443800841659,
+          -0.4052235348556432,
+          0.0,
+          0.4468791033812868
+        ],
+        "same_recorded_observation_hash": true
+      },
+      "hypothesis": "Both earliest differing commands change throttle only at equal recorded observation hashes. Later loss of angle-window retention may involve tactical speed/energy modulation; this is an association, not a demonstrated cause. A later one-factor throttle-channel ablation requires a new isolated contract and paired diagnostics before training.",
+      "next_single_factor": "First validate frozen learned-red adapter with true model and private controller timing; do not retrain or change gains based on this descriptive analysis."
+    }
+  },
+  "usage_observation": {
+    "observed_utc": "2026-10-16T15:11:03.185760+00:00",
+    "five_hour_remaining": 85,
+    "weekly_remaining": 55,
+    "primary_reset": 1792169034,
+    "weekly_reset": 1792654206
+  },
+  "process_inventory": [],
+  "elapsed_seconds": 6.144216060638428
+}

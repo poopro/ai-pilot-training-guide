@@ -1,0 +1,64 @@
+{
+  "verified_offline_goal_projection": true,
+  "created_utc": "2026-10-17T04:30:21.553059+00:00",
+  "analysis_sha256": "718dbdf958e56c31b67ecfceecf6f9043a8a790ec5aa70fd4a6e1ad22c8d68a4",
+  "actual_parent_exit": 0,
+  "actual_worker_exit": 0,
+  "saved_packets_projected": 108000,
+  "new_FDM_ticks": 0,
+  "training_started": false,
+  "source_unchanged": true,
+  "terminal_identity_audit": [
+    {
+      "identity": {
+        "pid": 20364,
+        "create": 1792211263.8816338,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\diagnostics\\sac_goal_projection_v1.py"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 22796
+      },
+      "state": "absent_no_exit_inferred"
+    },
+    {
+      "identity": {
+        "pid": 7608,
+        "create": 1792211265.663138,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\diagnostics\\sac_goal_projection_v1.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\diagnostics\\sac_goal_projection_20261017_122745_b73993"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 20364
+      },
+      "state": "absent_no_exit_inferred"
+    },
+    {
+      "identity": {
+        "pid": 19840,
+        "create": 1792211265.676282,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 7608
+      },
+      "state": "absent_no_exit_inferred"
+    }
+  ],
+  "inner_controller_replayed": false,
+  "saved_stub_outputs_not_new_evidence": true,
+  "statement": "所有保存幀的tactical確實到達離線act；裁切前bank有差異，但6軌跡108000幀均在bank與290節速度上限binding，兩開局內三actor requested goals hash一致。只說明保存軌跡的映射，不是新閉迴路戰力。",
+  "deployment_allowed": false
+}

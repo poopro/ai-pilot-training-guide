@@ -1,0 +1,5 @@
+#{"t_start": 1791135280.2323904, "env_id": "None"}
+r,l,t,outcome,is_kill,was_hit,survived,own_crash,enemy_crash,timeout,attack_seconds,enemy_attack_seconds,over_9g_seconds,guard_fraction,min_altitude_m,opponent,mean_residual,position_mean,advantage_blue_estimate,advantage_red_estimate,estimated_winner,spawn_distance_ft,stage,local_win,failure_reason
+45.212164,1136,14.198582,kill,1,0,1,0,0,0,3.0,0.0,0.0,0.0,3063.3201222306675,easy,0.026073945578413978,1.9040270618500006,27629.747422616005,0.0,blue,3000,0,1,none
+50.271603,3143,42.815197,kill,1,0,1,0,0,0,3.0,0.0,0.0,0.0,4723.620484350214,maneuver,0.04198132424220927,1.1996259729026912,43704.24432833159,0.0,blue,6000,2,1,none
+32.181525,10997,145.277386,kill,1,0,1,0,0,0,3.0,0.0,0.0,0.0,4758.007797477575,maneuver,0.10152325468624651,0.4087817805911508,50953.73241160886,828.9680907590698,blue,6000,2,1,none

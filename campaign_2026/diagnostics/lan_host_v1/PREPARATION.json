@@ -1,0 +1,15 @@
+{
+  "profile": "main_pc_asus_lan_host_v1",
+  "status": "prepared_static_only_not_started",
+  "profile_path": "E:\\ai_pilot\\campaign_2026\\diagnostics\\lan_host_v1\\LAN_HOST_PROFILE.json",
+  "host_instance": "E:\\ai_pilot\\campaign_2026\\diagnostics\\lan_host_v1\\host_instance",
+  "static_verification": "E:\\ai_pilot\\campaign_2026\\diagnostics\\lan_host_v1\\STATIC_VERIFICATION.json",
+  "host_started": false,
+  "firewall_changed": false,
+  "next_blockers": [
+    "Dedicated LAN supervisor/watchdog and automatic artifact collector are not yet prepared",
+    "ASUS CPU readiness and actual ASUS Player listener are not yet verified",
+    "Both Windows networks use Public profile; no scoped firewall path has been approved or configured",
+    "A supervised LAN round requires a coordinated time window"
+  ]
+}

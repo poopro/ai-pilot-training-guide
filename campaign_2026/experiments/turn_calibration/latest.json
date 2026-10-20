@@ -1,0 +1,27 @@
+{
+  "run": "E:\\ai_pilot\\campaign_2026\\experiments\\turn_calibration\\run_20261012_204358_9da0",
+  "report": "E:\\ai_pilot\\campaign_2026\\experiments\\turn_calibration\\run_20261012_204358_9da0\\report.json",
+  "status": "completed",
+  "complete": true,
+  "supervisor": {
+    "pid": 22300,
+    "creation_epoch": 1791809037.8725436,
+    "cmdline": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\turn_calibration\\calibrate80.py",
+      "--remaining-percent",
+      "69",
+      "--usage-epoch",
+      "1791808989"
+    ]
+  },
+  "current": null,
+  "completed_cases": 3,
+  "planned_cases": 3,
+  "official_validation": false,
+  "combat_score_eligible": false,
+  "daily_compute_reserved_hours": 5.083333333333333
+}

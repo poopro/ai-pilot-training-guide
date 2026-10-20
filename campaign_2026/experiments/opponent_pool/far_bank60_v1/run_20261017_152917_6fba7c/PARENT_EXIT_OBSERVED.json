@@ -1,0 +1,7 @@
+{
+  "observed_utc": "2026-10-17T07:30:24.4794228Z",
+  "tool_session": 51189,
+  "tool_chunk": "bdf560",
+  "actual_exit": 1,
+  "note": "Actual PowerShell tool exit1; Python guardian intended2 and worker actual2 are separately retained"
+}

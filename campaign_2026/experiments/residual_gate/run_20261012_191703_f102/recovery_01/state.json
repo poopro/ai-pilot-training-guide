@@ -1,0 +1,28 @@
+{
+  "status": "completed",
+  "original_report_sha256": "be8bfe00d28b971412922d505dc8f94819311963ca92a72aa0777efa9f0e9802",
+  "max_retries": 1,
+  "case_seconds": 150,
+  "reserved_total_compute_hours": 4.75,
+  "daily_compute_limit_hours": 6,
+  "official_validation": false,
+  "case_id": "r000_rl_6000_mirrored_2026101111_guide",
+  "original_input_sha256": "9be34aa03ddff5cc63b5b92421eedfdf08537a2ef92ed1bf2f941c13dc2c968b",
+  "process": {
+    "pid": 22344,
+    "creation_epoch": 1791805622.288072,
+    "cmdline": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\residual_gate\\benchmark_gate.py",
+      "--_worker",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\residual_gate\\run_20261012_191703_f102\\recovery_01\\cases\\r000_rl_6000_mirrored_2026101111_guide\\input.json"
+    ]
+  },
+  "observed_exit_code": 0,
+  "wait_reason": "exited",
+  "merged_report_sha256": "8a776172663bc86a5f85869f5a14a627e24d4d89ede0452d2edeec02c51afb6b",
+  "candidate_gate": "reject_promotion"
+}

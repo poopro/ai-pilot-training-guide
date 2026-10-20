@@ -1,0 +1,1 @@
+{"script": "rollout.py", "args": ["smoke", "--out", "runs/smoke"], "max_minutes": 15}

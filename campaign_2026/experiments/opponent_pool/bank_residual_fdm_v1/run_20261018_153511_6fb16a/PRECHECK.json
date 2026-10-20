@@ -1,0 +1,16 @@
+{
+  "verified_prelaunch_bridge": true,
+  "checks": [
+    "scalar_to4_residual_exact",
+    "invalid_shape_finite_bound_failclosed",
+    "20tick_hold_and_first100_neutral",
+    "clock_type_range",
+    "two20packet_new_bridge_neutral_exact_private_controllers",
+    "parent4residual_path_no_tactical_or_learning",
+    "all_source_AST"
+  ],
+  "groups": 7,
+  "saved_neutral_frames": 40,
+  "new_FDM_ticks": 0,
+  "model_inference_calls": 0
+}

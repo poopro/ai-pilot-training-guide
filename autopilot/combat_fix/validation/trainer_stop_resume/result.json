@@ -1,0 +1,13 @@
+{
+  "status": "stopped_by_user",
+  "run_dir": "E:\\ai_pilot\\autopilot\\combat_fix\\validation\\trainer_stop_resume",
+  "final_bundle": "E:\\ai_pilot\\autopilot\\combat_fix\\validation\\trainer_stop_resume\\final_0000000201",
+  "decision_repeat": 4,
+  "decision_steps": 201,
+  "physics_ticks": 804,
+  "critic_updates": 42,
+  "actor_updates": 0,
+  "stop_file": "E:\\ai_pilot\\autopilot\\combat_fix\\validation\\STOP_test_signal",
+  "wall_seconds": 3.4060000000026776,
+  "official_validation": false
+}

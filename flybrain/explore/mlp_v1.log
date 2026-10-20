@@ -1,0 +1,8 @@
+36 games 2110 states 1776 core
+ridge feat_e0.9        core  15.4 all  30.2 tau 0 {'guide': 21.1, 'lag': 22.6, 'lead': 7.3, 'breaker': 106.8, 'mix': 137.4} (0s)
+mlp64 a3 x3 feat_e.9   core  20.5 all  34.4 tau 0 {'guide': 20.0, 'lag': 23.5, 'lead': 19.1, 'breaker': 96.3, 'mix': 141.5} (161s)
+mlp64 a3 x3 DNens pca32 core  14.5 all  17.3 tau 0 {'guide': 19.4, 'lag': 22.5, 'lead': 6.4, 'breaker': 98.8, 'mix': -30.6} (61s)
+mlp64 a3 x3 DN1 pca32  core  13.4 all  17.1 tau 0 {'guide': 20.0, 'lag': 23.0, 'lead': 3.2, 'breaker': 83.2, 'mix': -0.5} (54s)
+mlp64 a10 x3 feat_e.9  core  17.2 all  23.3 tau 5 {'guide': 20.1, 'lag': 22.8, 'lead': 12.0, 'breaker': 110.1, 'mix': 13.2} (79s)
+mlp64 a3 x3 feat_e0    core  16.9 all  19.8 tau 5 {'guide': 19.1, 'lag': 22.1, 'lead': 12.4, 'breaker': 90.8, 'mix': -14.8} (144s)
+mlp64 a10 x3 DNens pca16 core  13.7 all  16.5 tau 10 {'guide': 18.9, 'lag': 25.5, 'lead': 3.4, 'breaker': 62.7, 'mix': 6.7} (80s)

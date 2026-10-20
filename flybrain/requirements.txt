@@ -1,0 +1,7 @@
+numpy
+pandas
+pyarrow
+scipy
+# torch is already installed for jepa_brain (2.5.1+cu121 on your machine); nothing else is needed.
+# Optional, only for the Brian2 cross-check described in README section 5:  brian2
+numba

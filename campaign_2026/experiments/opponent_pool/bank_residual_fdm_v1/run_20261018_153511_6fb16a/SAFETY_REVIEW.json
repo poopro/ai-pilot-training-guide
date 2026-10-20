@@ -1,0 +1,98 @@
+{
+  "status": "verified_short_bank_FDM_interface_not_combat",
+  "gate": "interface_pass_no_strength_or_promotion",
+  "seed": 2026310800,
+  "initial_sha256": "b4cd1d29062efbc569987d5c795caaad45befbf0b3eb91277f2b3a022ae6414c",
+  "new_FDM_ticks": 600,
+  "episode_count": 2,
+  "seconds_each": 5,
+  "complete_combat_rounds": 0,
+  "facts": [
+    "Original pure RepairController through unchanged RepairDuel.step four-residual path, no3-tactic set_tactical/command-as-residual confusion.",
+    "Two fresh resets have identical full both-aircraft initialSHA and first100 pre/post packet+actual command frames.",
+    "Exercise schedule is an API test:0 for completed0..99,-1 for100..199,+1 for200..299 at20tick holds. Not a learned tactical policy.",
+    "First actual sent blue command differs at201, first physics-packet difference202. Both exact full blue-controller and frozen-red-model/controller replays pass.",
+    "Each600 physical tick has one act/command/send/physics/judge; CSV allfields, post-step judge/counters/score, WGS84 ACMI and source/XML/model verified.",
+    "Both5s cutoffs remain judge ongoing/no winner. Both have0 attack/over9G. Blue peakG2.736380/2.493242; this is limited safety observation, not long-flight safety or advantage."
+  ],
+  "episodes": [
+    {
+      "mode": "neutral",
+      "ticks": 300,
+      "full_blue_act_command_replay": true,
+      "full_red_actor_controller_replay": true,
+      "judge_exact": true,
+      "CSV_all_fields_exact": true,
+      "ACMI_WGS84_exact": true,
+      "peak_g": [
+        2.736379607166583,
+        2.7485474448659737
+      ],
+      "min_AGL_m": [
+        4583.265353181156,
+        4582.973805936844
+      ],
+      "attack": [
+        0,
+        0
+      ],
+      "over9G": [
+        0,
+        0
+      ]
+    },
+    {
+      "mode": "exercise",
+      "ticks": 300,
+      "full_blue_act_command_replay": true,
+      "full_red_actor_controller_replay": true,
+      "judge_exact": true,
+      "CSV_all_fields_exact": true,
+      "ACMI_WGS84_exact": true,
+      "peak_g": [
+        2.493242085017024,
+        2.750227524018339
+      ],
+      "min_AGL_m": [
+        4584.702906934553,
+        4582.9741781506855
+      ],
+      "attack": [
+        0,
+        0
+      ],
+      "over9G": [
+        0,
+        0
+      ]
+    }
+  ],
+  "phase_receipts": {
+    "PRECHECK": {
+      "actual_exit": 0,
+      "wall_seconds": 2.3440000000045984,
+      "receipt": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_fdm_v1\\run_20261018_153511_6fb16a\\PRECHECK_EXIT.json"
+    },
+    "WORKER": {
+      "actual_exit": 0,
+      "wall_seconds": 21.343999999997322,
+      "receipt": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_fdm_v1\\run_20261018_153511_6fb16a\\WORKER_EXIT.json"
+    },
+    "VERIFIER": {
+      "actual_exit": 0,
+      "wall_seconds": 17.45300000000134,
+      "receipt": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_fdm_v1\\run_20261018_153511_6fb16a\\VERIFIER_EXIT.json"
+    }
+  },
+  "actual_parent_exit": 0,
+  "actual_wall_seconds": 42.125,
+  "source_freeze": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_fdm_v1\\BRANCH_FREEZE.json",
+  "limitations": [
+    "One development opening only; no full battle, league, holdout, trained blue policy or professional win rate.",
+    "The bridge has operational authority; this does not establish that choosing a bank residual improves fighting.",
+    "Old3D tactical models are incompatible with a fresh1D bank output and any changed observation space."
+  ],
+  "training_started": false,
+  "formal_deployment": "repair_guide",
+  "deployment_allowed": false
+}

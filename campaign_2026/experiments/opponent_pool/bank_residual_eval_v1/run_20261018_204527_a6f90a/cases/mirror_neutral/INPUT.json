@@ -1,0 +1,15 @@
+{
+  "out": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_eval_v1\\run_20261018_204527_a6f90a",
+  "case": {
+    "id": "mirror_neutral",
+    "pair": 2,
+    "episode": 0,
+    "seed": 2026315002,
+    "opponent": "mirror",
+    "side": "normal",
+    "distance_ft": 6000,
+    "mode": "neutral",
+    "max_ticks": 18000
+  },
+  "phase": "CASE4"
+}

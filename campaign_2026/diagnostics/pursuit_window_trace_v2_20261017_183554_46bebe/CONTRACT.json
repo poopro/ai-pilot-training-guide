@@ -1,0 +1,113 @@
+{
+  "guardian": {
+    "pid": 25824,
+    "create": 1792233353.103832,
+    "cmd": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\pursuit_window_trace_v2.py"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent": 19640
+  },
+  "deadline_epoch": 1792233474.2463522,
+  "deadline_monotonic": 51773.015,
+  "seconds": 120,
+  "diagnostic_source_sha256": "e99541cf32d4c387d8364a4fdd78fecd84e207ced25cdb16078d0ee68368cc2c",
+  "source_run": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_bank60_v2\\run_20261017_153047_104619",
+  "original_source_contract_sha256": "906c45fc51c2458cf05bec9f911e2b435a6ef3e85bda3b745aa903886414bdab",
+  "resources": {
+    "ram_bytes": 3579092992,
+    "disk_bytes": 193945395200,
+    "cpu_percent": 48.3,
+    "GPU_used": false
+  },
+  "usage_observation": {
+    "observed_utc": "2026-10-17 10:31:12 UTC",
+    "remaining_percent": 27,
+    "primary": {
+      "usedPercent": 18,
+      "windowDurationMins": 300,
+      "resetsAt": 1792240039
+    },
+    "weekly": {
+      "usedPercent": 73,
+      "windowDurationMins": 10080,
+      "resetsAt": 1792654206
+    }
+  },
+  "new_FDM_ticks": 0,
+  "seed_claims": [],
+  "training_started": false,
+  "prior_trace_inputs": {
+    "E:\\ai_pilot\\campaign_2026\\diagnostics\\pursuit_window_trace_20261017_183319_9e78be\\normal_far_bank60_2026310400.csv": "642d5ad4f61e2c3dadbe59ec17996f296f59bdfaefd91924a635df864c653237",
+    "E:\\ai_pilot\\campaign_2026\\diagnostics\\pursuit_window_trace_20261017_183319_9e78be\\normal_station_zero_2026310400.csv": "fba21f83f98f0448f330eb9e75dfd77f7ff043e080ed40bf8d12a1f8697893c9"
+  },
+  "prior_failed_worker_receipt": {
+    "actual_worker_exit": 1,
+    "reason": null,
+    "identity": {
+      "pid": 26620,
+      "create": 1792233199.8446243,
+      "cmd": [
+        "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "-B",
+        "-X",
+        "utf8",
+        "E:\\ai_pilot\\campaign_2026\\diagnostics\\pursuit_window_trace_v1.py",
+        "--worker",
+        "E:\\ai_pilot\\campaign_2026\\diagnostics\\pursuit_window_trace_20261017_183319_9e78be"
+      ],
+      "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "parent": 24688
+    },
+    "descendants": [
+      {
+        "identity": {
+          "pid": 25240,
+          "create": 1792233199.8558536,
+          "cmd": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent": 26620
+        },
+        "chain": [
+          {
+            "pid": 25240,
+            "create": 1792233199.8558536,
+            "cmd": [
+              "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+              "0x4"
+            ],
+            "exe": "C:\\Windows\\System32\\conhost.exe",
+            "parent": 26620
+          }
+        ],
+        "worker": {
+          "pid": 26620,
+          "create": 1792233199.8446243,
+          "cmd": [
+            "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+            "-B",
+            "-X",
+            "utf8",
+            "E:\\ai_pilot\\campaign_2026\\diagnostics\\pursuit_window_trace_v1.py",
+            "--worker",
+            "E:\\ai_pilot\\campaign_2026\\diagnostics\\pursuit_window_trace_20261017_183319_9e78be"
+          ],
+          "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "parent": 24688
+        }
+      }
+    ],
+    "absent": true,
+    "cleanup_actions": [],
+    "wall_seconds": 27.17199999999866,
+    "guardian_return_intended": 2
+  },
+  "prior_failed_source_sha256": "55e7b7ecc3d699a6b64d943808a81b94b3bd5b53cef59ad44e45f47834ab188f"
+}

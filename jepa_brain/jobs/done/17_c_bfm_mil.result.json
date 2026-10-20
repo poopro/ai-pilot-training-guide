@@ -1,0 +1,1 @@
+{"id": "17_c_bfm_mil", "script": "rollout_bfm.py", "args": ["eval", "--arms", "mil,mil_s", "--n", "12", "--workers", "3", "--seed0", "900000", "--out", "runs/bfm_mil"], "exit_code": 0, "reason": null, "seconds": 2481.9}

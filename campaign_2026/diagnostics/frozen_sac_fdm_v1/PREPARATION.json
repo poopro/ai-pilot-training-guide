@@ -1,0 +1,33 @@
+{
+  "limits": [
+    "Short FDM interface only, no complete battle or learned-selfplay strength claim",
+    "1200 ticks total includes same-seed reset repeats",
+    "No source, model, replay or optimizer updates"
+  ],
+  "training_started": false,
+  "deadline_seconds": 240,
+  "unique_change": "Red action uses immutable SAC adapter, blue zero tactical / FDM / judge unchanged",
+  "static_preflight_actual_exit": 0,
+  "prepared_utc": "2026-10-16T22:31:08.8446881Z",
+  "total_planned_ticks": 1200,
+  "ticks_per_repeat": 300,
+  "repeats_per_model": 2,
+  "preflight_tool": "78e338",
+  "deployment_allowed": false,
+  "new_development_seeds": [
+    2026310000,
+    2026310001
+  ],
+  "models": [
+    "sac5000",
+    "transfer10000"
+  ],
+  "hypothesis": "Existing frozen SAC red adapter maps completed state n to next physics command exactly once",
+  "simulator_started": true,
+  "terminal_verification": "E:\\ai_pilot\\campaign_2026\\diagnostics\\frozen_sac_fdm_v1\\run_20261017_063110_af2e25\\VERIFICATION.json",
+  "actual_parent_worker_verifier_exit": [
+    0,
+    0,
+    0
+  ]
+}

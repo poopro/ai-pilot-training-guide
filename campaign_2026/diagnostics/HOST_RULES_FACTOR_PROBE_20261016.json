@@ -1,0 +1,50 @@
+{
+  "factor_histograms": [
+    {
+      "1.0": 4033,
+      "0.5": 1592,
+      "0.1": 4759
+    },
+    {
+      "1.0": 35,
+      "0.5": 334,
+      "0.1": 684,
+      "0.0": 6006
+    }
+  ],
+  "mismatch_examples": [
+    {
+      "actor": 2,
+      "time": 17.583,
+      "distance_m": 6212.510700376264,
+      "tail180": 0.49969207782110553,
+      "host_position": 0.0,
+      "effective_factor": 0.0
+    },
+    {
+      "actor": 2,
+      "time": 17.6,
+      "distance_m": 6215.993447314418,
+      "tail180": 0.49935777125915026,
+      "host_position": 0.0,
+      "effective_factor": 0.0
+    },
+    {
+      "actor": 2,
+      "time": 17.617,
+      "distance_m": 6219.472277830265,
+      "tail180": 0.4990234151102137,
+      "host_position": 0.0,
+      "effective_factor": 0.0
+    },
+    {
+      "actor": 2,
+      "time": 17.633,
+      "distance_m": 6222.947191237535,
+      "tail180": 0.49868900857716364,
+      "host_position": 0.0,
+      "effective_factor": 0.0
+    }
+  ],
+  "scope": "savedtrace_only_no_source_change"
+}

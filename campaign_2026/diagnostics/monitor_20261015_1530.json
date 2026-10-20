@@ -1,0 +1,86 @@
+{
+  "observed_utc": "2026-10-15T07:30:29.475623+00:00",
+  "loop_identities": [
+    {
+      "pid": 8040,
+      "create_time": 1792001657.2977164,
+      "command": [
+        "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "-X",
+        "utf8",
+        "E:\\ai_pilot\\campaign_2026\\win\\win_loop.py",
+        "loop",
+        "--gap",
+        "60"
+      ],
+      "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "parent_pid": 12724,
+      "state": "identity_verified_live"
+    },
+    {
+      "pid": 15644,
+      "create_time": 1792001608.6756625,
+      "command": [
+        "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "-X",
+        "utf8",
+        "E:\\ai_pilot\\campaign_2026\\win\\win_loop.py",
+        "loop",
+        "--gap",
+        "60"
+      ],
+      "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "parent_pid": 7320,
+      "state": "identity_verified_live"
+    },
+    {
+      "pid": 20448,
+      "create_time": 1792001782.5285914,
+      "command": [
+        "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "-X",
+        "utf8",
+        "E:\\ai_pilot\\campaign_2026\\win\\win_loop.py",
+        "loop",
+        "--gap",
+        "60"
+      ],
+      "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "parent_pid": 14220,
+      "state": "identity_verified_live"
+    }
+  ],
+  "learners": [],
+  "hosts": [],
+  "workload_scan_observed_utc": "2026-10-15T07:30:06Z",
+  "queue": {
+    "steps": []
+  },
+  "usage_observation": {
+    "observed_utc": "2026-10-15T07:30:06Z",
+    "five_hour_remaining_percent": 98,
+    "weekly_remaining_percent": 100,
+    "lower_remaining_percent": 98,
+    "five_hour_resets_epoch": 1792067406,
+    "weekly_resets_epoch": 1792654206,
+    "reset_credit_used_by_this_observer": false
+  },
+  "resources": {
+    "cpu_percent": 0.0,
+    "available_ram_gib": 6.81,
+    "free_disk_gib": 194.08,
+    "gpu": {
+      "exit_code": 0,
+      "output": "NVIDIA GeForce RTX 3060, 612, 12288, 0",
+      "error": ""
+    }
+  },
+  "root_STOP": false,
+  "frozen_v2_source_mismatches": [],
+  "new_host_rounds": 0,
+  "new_FDM_ticks": 0,
+  "new_learner": false,
+  "pending_permission_unchanged": true,
+  "notification": "deduplicated_no_change",
+  "processes_stopped": []
+}

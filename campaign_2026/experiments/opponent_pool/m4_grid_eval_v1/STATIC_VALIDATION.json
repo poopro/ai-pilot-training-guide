@@ -1,0 +1,11 @@
+{
+  "actual_static_test_exit_code": 0,
+  "test_count": 7,
+  "tool_chunk": "32c281",
+  "runtime_seconds": 0.183,
+  "source_and_model_gates_verified_readonly": true,
+  "new_FDM_ticks": 0,
+  "model_inferences": 0,
+  "contract_sha256": "75f04063d10ac4d05953a8bedb3333c97d02d46eea4654ae170ba97e7bcaf028",
+  "model_freeze_sha256": "a9451aa9ae671583dd54532a77e031eaf41cdb9713cb8e9a3b108d14cd3dcf1c"
+}

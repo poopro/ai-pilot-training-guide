@@ -1,0 +1,71 @@
+{
+  "observed_utc": "2026-10-16T01:39:20.904121+00:00",
+  "source_run": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v3\\runs\\portable_20261016_082436_fe5a8fee",
+  "source_csv_sha256": "1a53b0702a2c2b8774288a735314728a007868537fae62eaa6b19e20eb7c84c6",
+  "source_package_round_ineligible_collector2_guard2": true,
+  "row_count": 10384,
+  "first_row_time": 0.033,
+  "initial_scores": {
+    "player1_initial_final_score": 683.5035376428948,
+    "player2_initial_final_score": 683.5087561389546
+  },
+  "actors": [
+    {
+      "actor": 1,
+      "rows": 10384,
+      "damage_ticks": 180.0,
+      "predicted_1deg": 180,
+      "predicted_2deg": 1201,
+      "cone_mismatch": {
+        "1deg_current": 0,
+        "2deg_current": 1021,
+        "1deg_previous": 3,
+        "2deg_previous": 1020
+      },
+      "attack_index_error_max": 0.8939648022799265,
+      "tail90_error_max": 0.8573870514964265,
+      "tail180_error_max": 0.8798149170548238,
+      "score_delta_error_unweighted_max": 8.530065542800003e-12,
+      "score_delta_error_rangeweighted_max": 0.4954500441628894,
+      "damage_vs_scoreKills_seconds_error_max": 2.3092638912203256e-14,
+      "over9G_ticks": 0,
+      "tail90_mean_abs_error": 0.34898424578634357,
+      "tail180_mean_abs_error": 0.4169417251322208
+    },
+    {
+      "actor": 2,
+      "rows": 10384,
+      "damage_ticks": 0.0,
+      "predicted_1deg": 0,
+      "predicted_2deg": 0,
+      "cone_mismatch": {
+        "1deg_current": 0,
+        "2deg_current": 0,
+        "1deg_previous": 0,
+        "2deg_previous": 0
+      },
+      "attack_index_error_max": 0.0,
+      "tail90_error_max": 0.49725008039908425,
+      "tail180_error_max": 0.6372155131041455,
+      "score_delta_error_unweighted_max": 5.6593618680267355e-14,
+      "score_delta_error_rangeweighted_max": 0.17929372535967011,
+      "damage_vs_scoreKills_seconds_error_max": 0.0,
+      "over9G_ticks": 0,
+      "tail90_mean_abs_error": 0.014760522506761698,
+      "tail180_mean_abs_error": 0.09596586145764952
+    }
+  ],
+  "actual_wall_seconds": 0.8429999999998472,
+  "geometry": "local spherical NED, bodyX from pitch/yaw; enemy trueattitude used only in private audit",
+  "limitations": [
+    "Observed one installed publishedHost binary and one saved trace only",
+    "Approximate geometry may differ near boundaries",
+    "G penalty coefficient not identifiable if no overload events",
+    "Nonzero initial cumulative score does not identify cause",
+    "No changes to frozen judge/controller/reward/model or old result eligibility",
+    "New training/critic/replay contract required if scoring implementation changes"
+  ],
+  "new_Host_rounds": 0,
+  "new_FDM_ticks": 0,
+  "formal_rules_certified": false
+}

@@ -1,0 +1,1 @@
+{"script": "rollout_bfm.py", "args": ["eval", "--arms", "base,base_t3,tuned,user_nz_t", "--n", "12", "--workers", "3", "--seed0", "950000", "--opponents", "ctl:base,ctl:base_t3,ctl:tuned,ctl:user_nz_t", "--out", "runs/league_b"], "max_minutes": 180}

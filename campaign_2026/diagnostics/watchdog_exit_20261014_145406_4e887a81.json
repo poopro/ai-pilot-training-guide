@@ -1,0 +1,24 @@
+{
+  "identity": {
+    "token": "20261014_145406_4e887a81",
+    "status": "armed",
+    "pid": 9176,
+    "create_time": 1791960846.635523,
+    "command": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\host_watchdog.py",
+      "--token",
+      "20261014_145406_4e887a81",
+      "--deadline-epoch",
+      "1791961566.632695"
+    ],
+    "armed_utc": "2026-10-14T06:54:06.836695+00:00",
+    "deadline_epoch": 1791961566.632695,
+    "poll_seconds": 0.25
+  },
+  "actual_watchdog_exit_code": 0,
+  "observed_epoch": 1791961113.9097326
+}

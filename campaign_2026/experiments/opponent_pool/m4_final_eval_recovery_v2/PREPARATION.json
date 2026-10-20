@@ -1,0 +1,12 @@
+{
+  "static_tests": 7,
+  "actual_static_exit": 0,
+  "guard_only_semantic_change": "activeJSONreadPermissionErrorretry<=250ms,STOP/deadlinebounded,identityunknownstillfailsclosed",
+  "no_FDM_yet": false,
+  "whole_original_rerun": false,
+  "actual_run": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_final_eval_recovery_v2\\run_20261016_005416_dd363a",
+  "actual_FDM_ticks": 36000,
+  "verified_one_RL_pair": true,
+  "actual_launcher_exit": 0,
+  "actual_verifier_exit": 0
+}

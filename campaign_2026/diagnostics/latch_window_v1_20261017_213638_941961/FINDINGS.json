@@ -1,0 +1,41 @@
+{
+  "status": "completed_verified_selected_window_diagnostic",
+  "extract": "E:\\ai_pilot\\campaign_2026\\diagnostics\\latch_window_v1_20261017_213638_941961",
+  "independent_audit": "E:\\ai_pilot\\campaign_2026\\diagnostics\\latch_window_audit_v1_20261017_213931_a2c1a1",
+  "selected_rows": 10800,
+  "source_complete_games": 4,
+  "new_FDM_ticks": 0,
+  "controller_projection_calls": 0,
+  "model_inference_calls": 0,
+  "training_started": false,
+  "candidate_posttrigger_rows": 4800,
+  "guard_active_ticks": 0,
+  "G_limiter_input_ticks": 0,
+  "energy_guard_input_ticks": 0,
+  "full_throttle_ticks": 0,
+  "all_candidate_window_median_roll_tracking_error_below_2deg": true,
+  "post20to40": [
+    {
+      "case": "normal_latch60_2026310600",
+      "median_roll_tracking_error_deg": 1.3997983881580183,
+      "median_CAS_kts": 290.7955947910671,
+      "speed_goal_kts": 290.0,
+      "median_abs_speed_error_kts": 0.7955947910671171,
+      "median_heading_error_abs_deg": 154.83061857816597,
+      "HSL_change_m": -6.637174491387668
+    },
+    {
+      "case": "mirrored_latch60_2026310601",
+      "median_roll_tracking_error_deg": 1.7266146671852454,
+      "median_CAS_kts": 289.7278565695054,
+      "speed_goal_kts": 290.0,
+      "median_abs_speed_error_kts": 0.47412445800804903,
+      "median_heading_error_abs_deg": 158.54444130962017,
+      "HSL_change_m": 21.98647497937418
+    }
+  ],
+  "scope": "Four selected -5..+40s windows relative to first actual latch command difference. Full battle safety/gate unchanged. No new fix/counterfactual tested.",
+  "inference": "In selected candidate windows the inner controller tracks roll/speed goals and no logged safety/G/energy guard is active. This disfavors safety blocking or full-throttle inability as the primary local explanation; pursuit geometry and range-dependent speed targets deserve a controlled test.",
+  "not_proven": "Removing the 290kt ceiling may reduce turning performance or worsen safety/position. No evidence yet that accelerating wins or that these windows explain every episode.",
+  "deployment_allowed": false
+}

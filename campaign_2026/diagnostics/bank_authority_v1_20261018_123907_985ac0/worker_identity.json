@@ -1,0 +1,15 @@
+{
+  "pid": 16104,
+  "create": 1792298347.1547604,
+  "cmd": [
+    "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "E:\\ai_pilot\\campaign_2026\\diagnostics\\bank_authority_guardian_v1.py",
+    "--worker",
+    "E:\\ai_pilot\\campaign_2026\\diagnostics\\bank_authority_v1_20261018_123907_985ac0"
+  ],
+  "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+  "parent": 7124
+}

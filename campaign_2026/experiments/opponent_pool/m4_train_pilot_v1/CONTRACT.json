@@ -1,0 +1,41 @@
+{
+  "created_utc": "2026-10-15T16:24:52.599249+00:00",
+  "executor_sha256": {
+    "common.py": "0c47d17ad5f2039cb4979d544497b5862fd010d52e33992c5aef9c4c7f8a57a2",
+    "guard.py": "4b55459d638f33c01b768e12c14f1baed0e99e360319625081104a0cc9797eeb",
+    "launch_smoke.py": "eea37fab584b9132e4e231f9848d960ec6a419587a405603bb70d7622a9caefb",
+    "run_smoke.py": "4f4dafdbc82be387cb139d606fb509ef2244e892e708a0fb6ae6444b05c87fa7",
+    "test_plan.py": "87675c55d9010d1dc41029a58304820ee1df8dd9a6562dcb70ec15558e40f3f9",
+    "train_worker.py": "c60034ff7982ec90c09343cb0bc0446fb2dc5a5e9a3d3b5abd879abcf01baf5a",
+    "verify_training.py": "72a1d76047e805e962d501eb475ec51b9b1b62936b4787e4c749879ad8c45e92"
+  },
+  "readme_sha256": "8c81d4669de26b7a0180d3e78fbf2bc76468d52ec21d4d3c45d9727aeb4c1a06",
+  "mode_contract": {
+    "fresh_sac_pilot": {
+      "cases": 1,
+      "distinct_seeds": 257,
+      "total_wall_seconds": 900,
+      "case_wall_seconds": 840,
+      "decisions": 5000,
+      "max_physics_ticks": 100000
+    }
+  },
+  "m4_sources_sha256": {
+    "experiments/m4_tactical_v3/judge_adapter.py": "94067c9b38ef25d15022996d7a7f0fd1c8cb250e849e80da6c30c78a25506b19",
+    "experiments/m4_tactical_v3/m1_station.py": "5d53e18676d18158f3e0bc278e02ed7d42ecca1b1c7c7a6562611184454717ef",
+    "experiments/m4_tactical_v3/m3_mirror_league.py": "e6f47242eb344dacbb68b78d0b229ca5018b787c71d3ee94d660e25ead0371c1",
+    "experiments/m4_tactical_v3/m4_tactical_rl.py": "4475c8b94eee0ee94a17010004930b8ae286f0a6a299064dc34864e45ca0d1f7",
+    "experiments/m4_tactical_v3/test_adapter.py": "8a2aad48dc4e2f05e1e213c31785d7723e2b755fdf8f182affa19b2c43f03a0c",
+    "experiments/m4_tactical_v4/judge_adapter.py": "94067c9b38ef25d15022996d7a7f0fd1c8cb250e849e80da6c30c78a25506b19",
+    "experiments/m4_tactical_v4/m1_station.py": "fcda220748b0a64413d10c987df850ea975d2925994b556157c62331e97795fc",
+    "experiments/m4_tactical_v4/m3_mirror_league.py": "e6f47242eb344dacbb68b78d0b229ca5018b787c71d3ee94d660e25ead0371c1",
+    "experiments/m4_tactical_v4/m4_tactical_rl.py": "4475c8b94eee0ee94a17010004930b8ae286f0a6a299064dc34864e45ca0d1f7",
+    "experiments/m4_tactical_v4/reward_wrapper.py": "daf74a4b643530efd4fae0719cf005611d53d665959c4df48c1b10abfd131431",
+    "experiments/m4_tactical_v4/test_candidate.py": "80be785a8b6573c04b71bc709a2e4e3fcf82b79af60c4a4f5ef328c036b78e32",
+    "experiments/rules_v20261014/judge.py": "11694e29c54fecfa9d39750839688a4c870636e729dd33923a6f78450e837a06"
+  },
+  "score_eligible": false,
+  "official_validation": false,
+  "deployment_allowed": false,
+  "format": "m4_train_pilot_v1"
+}

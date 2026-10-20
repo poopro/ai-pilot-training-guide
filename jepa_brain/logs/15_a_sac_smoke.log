@@ -1,0 +1,42 @@
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+{
+ "seed": 1,
+ "red": "sac314",
+ "distance_ft": 3000,
+ "side": 1,
+ "altitude_ft": 14550.4,
+ "policy": "baseline",
+ "event": "ongoing",
+ "winner": null,
+ "ticks": 3600,
+ "atk_b": 0,
+ "atk_r": 0,
+ "pos_b": 578.6,
+ "pos_r": 116.8,
+ "overg_b": 0,
+ "margin": 461.8,
+ "min_agl_m": 4364.5,
+ "tactics": [
+  180,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "wall_s": 14.0,
+ "fidelity": {
+  "gear": true,
+  "tanks": 4
+ },
+ "ticks_per_s": 258.0
+}
+SMOKE_SAC OK in 14.0s

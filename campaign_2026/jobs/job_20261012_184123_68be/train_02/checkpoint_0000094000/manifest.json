@@ -1,0 +1,362 @@
+{
+  "format": "combat_fix_sac_v1",
+  "complete": true,
+  "official_validation": false,
+  "decision_repeat": 4,
+  "physics_hz": 60,
+  "decision_hz": 15.0,
+  "observation_shape": [
+    20
+  ],
+  "action_shape": [
+    4
+  ],
+  "timesteps": 94000,
+  "decision_steps": 94000,
+  "physics_ticks": 375929,
+  "n_updates": 23249,
+  "actor_updates": 22749,
+  "critic_burnin_updates": 500,
+  "replay_size": 50000,
+  "model_sha256": "95d556bf9b802dd2cb3d297fd3b51633136eb29cdc5fa0c2b9e68b7341015290",
+  "replay_sha256": "ad2e1a1c42f80b887fb6d1bf25904e849714136d044e3886a63ba60744c00327",
+  "source_sha256": {
+    "repair/controller.py": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+    "repair/env.py": "8bb9078809d28ab2117abc3b928c138acf1da1dc4442e69de4c4632d8c3c9607",
+    "lab/duel_lab.py": "9f358a7a04b09728199ac33de120146e3aa0bcbb37fe18dbae2a2b5a7cfcb9a6",
+    "base/combat_v3/env.py": "4b4e91dd8168517039ed7092a0536dcefd5297582c4f3722be8d7ca5d3b9d7b4",
+    "base/combat_v3/controller.py": "d772bf49a8d8408aaafec691c981d0612de7dada6450e0afcecbc3d958b7813b",
+    "base/combat_v3/interface.py": "50f63ee563a8cb13b9bb472b0de7905579bcc9c70bc69efc571681879eb02555",
+    "base/combat_v3/fdm.py": "c59e705d248f1678f64ba6788639260c739a1b1a6e8f6830d62e4a11f3a1dba6",
+    "base/combat_v3/rules.py": "40857e278e8f3902fc9e8c39acf0aebb7bc8e02fafb9627a3f5561512a2f4e05",
+    "base/combat_v3/config.json": "d4fba053617240e07ffc67fe389d944313ba12dff491e569a0ae764e0f7b88ec",
+    "base/envs/jsbsimEnv/jsbsimFdm.py": "6d193634ccaff77db6f3d1e248b2276c4a7177c47dbfa82fd466154b67d8c541"
+  },
+  "snapshot_sha256": {
+    "base/combat_v3/config.json": "d4fba053617240e07ffc67fe389d944313ba12dff491e569a0ae764e0f7b88ec",
+    "base/combat_v3/controller.py": "d772bf49a8d8408aaafec691c981d0612de7dada6450e0afcecbc3d958b7813b",
+    "base/combat_v3/env.py": "4b4e91dd8168517039ed7092a0536dcefd5297582c4f3722be8d7ca5d3b9d7b4",
+    "base/combat_v3/fdm.py": "c59e705d248f1678f64ba6788639260c739a1b1a6e8f6830d62e4a11f3a1dba6",
+    "base/combat_v3/interface.py": "50f63ee563a8cb13b9bb472b0de7905579bcc9c70bc69efc571681879eb02555",
+    "base/combat_v3/rules.py": "40857e278e8f3902fc9e8c39acf0aebb7bc8e02fafb9627a3f5561512a2f4e05",
+    "base/envs/jsbsimEnv/jsbsimFdm.py": "6d193634ccaff77db6f3d1e248b2276c4a7177c47dbfa82fd466154b67d8c541",
+    "lab/duel_lab.py": "9f358a7a04b09728199ac33de120146e3aa0bcbb37fe18dbae2a2b5a7cfcb9a6",
+    "repair/artifacts.py": "938c184366b55843e59250e2d1b544c10ebb67daca451e2701e8e631c7fd041e",
+    "repair/controller.py": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+    "repair/env.py": "8bb9078809d28ab2117abc3b928c138acf1da1dc4442e69de4c4632d8c3c9607",
+    "repair/evaluate.py": "4d9d70d241f8629562bd21ba38b92782a2a25960199c944f1bcd2b36c2a63d8e",
+    "repair/train.py": "1c009fa225446866ab5c78fdbd2201761215415cbf6a1cacda4bd0fcffe9aee6"
+  },
+  "contract": {
+    "source_sha256": {
+      "repair/controller.py": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+      "repair/env.py": "8bb9078809d28ab2117abc3b928c138acf1da1dc4442e69de4c4632d8c3c9607",
+      "lab/duel_lab.py": "9f358a7a04b09728199ac33de120146e3aa0bcbb37fe18dbae2a2b5a7cfcb9a6",
+      "base/combat_v3/env.py": "4b4e91dd8168517039ed7092a0536dcefd5297582c4f3722be8d7ca5d3b9d7b4",
+      "base/combat_v3/controller.py": "d772bf49a8d8408aaafec691c981d0612de7dada6450e0afcecbc3d958b7813b",
+      "base/combat_v3/interface.py": "50f63ee563a8cb13b9bb472b0de7905579bcc9c70bc69efc571681879eb02555",
+      "base/combat_v3/fdm.py": "c59e705d248f1678f64ba6788639260c739a1b1a6e8f6830d62e4a11f3a1dba6",
+      "base/combat_v3/rules.py": "40857e278e8f3902fc9e8c39acf0aebb7bc8e02fafb9627a3f5561512a2f4e05",
+      "base/combat_v3/config.json": "d4fba053617240e07ffc67fe389d944313ba12dff491e569a0ae764e0f7b88ec",
+      "base/envs/jsbsimEnv/jsbsimFdm.py": "6d193634ccaff77db6f3d1e248b2276c4a7177c47dbfa82fd466154b67d8c541"
+    },
+    "controller": "repair",
+    "reward_profile": "precision",
+    "reward_gamma": 0.9997499061952749,
+    "gamma": 0.999,
+    "decision_repeat": 4,
+    "physics_hz": 60,
+    "decision_hz": 15.0,
+    "attack_angle_deg": 1.0,
+    "observation_shape": [
+      20
+    ],
+    "action_shape": [
+      4
+    ],
+    "p2_pool": "mixed",
+    "red_model_sha256": "f79e711c704978e462bb9b42b27c0a1f1bdf74e3914d6a2dd7f1b29edad01b94",
+    "curriculum": true,
+    "stage_boundaries": [
+      8000,
+      16000
+    ],
+    "stage_transition": "next_episode_reset",
+    "mixed_probabilities": [
+      0.75,
+      0.25
+    ],
+    "rear_maneuver_p2": "rule",
+    "distance_schedule_ft": [
+      3000,
+      6000,
+      9000
+    ],
+    "episode_physics_ticks": 18000,
+    "base_config": {
+      "hz": 60,
+      "round_seconds": 300,
+      "attack_angle_deg": 2,
+      "attack_min_ft": 500,
+      "attack_max_ft": 3000,
+      "attack_seconds": 3,
+      "initial_distances_ft": [
+        3000,
+        6000,
+        9000
+      ],
+      "initial_altitude_ft": [
+        10000,
+        20000
+      ],
+      "initial_speed_kts": 340,
+      "local_crash_threshold_ft": 50,
+      "collision_model": "not specified; Host adjudicates",
+      "safety_floor_m": 800,
+      "residual_limits": [
+        8,
+        2,
+        0.015,
+        15
+      ],
+      "tracking_limits": [
+        2.5,
+        0.8,
+        0.005,
+        8
+      ],
+      "reward": {
+        "attack_per_second": 2.0,
+        "position_per_second": 0.4,
+        "progress_scale": 4.0,
+        "residual_per_second": 0.25,
+        "guard_per_second": 0.1,
+        "low_altitude_per_second": 0.5,
+        "over_g_per_second": 1.0,
+        "kill_bonus": 30.0,
+        "loss_penalty": 35.0
+      },
+      "reference_score_weights": {
+        "attack_time": 2000,
+        "over_g_time": 1000,
+        "position": 10,
+        "kill_base": 1000
+      },
+      "reference_score_note": "Published reference values; final Host weights and exact boundary/collision handling require Host validation.",
+      "guidance": {
+        "heading_gain": 2.8,
+        "bank_limit_deg": 70,
+        "lead_min_distance_m": 1200,
+        "range_target_m": 600,
+        "closure_gain": 0.11
+      }
+    },
+    "reward_config": {
+      "progress_scale": 4.0,
+      "alignment_per_second": 0.12,
+      "precision_per_second": 1.0,
+      "attack_per_second": 4.0,
+      "residual_per_second": 0.03,
+      "guard_per_second": 0.1,
+      "low_altitude_per_second": 0.7,
+      "over_g_per_second": 2.0,
+      "kill_bonus": 30.0,
+      "loss_penalty": 35.0
+    },
+    "actor_semantics": "repair_bounded_residual_hold4",
+    "net_arch": [
+      128,
+      128
+    ],
+    "learning_rate": 5e-05,
+    "train_freq": 4,
+    "gradient_steps": 1,
+    "ent_coef": 0.001,
+    "buffer_size": 50000,
+    "batch_size": 128,
+    "learning_starts": 1000,
+    "critic_burnin_updates": 500
+  },
+  "environment_fingerprint": "f30b5ea47b0de6324a86bf1ca6a4038dd2bbc4fd7fab5bb01880e8b1816aa804",
+  "config": {
+    "contract": {
+      "source_sha256": {
+        "repair/controller.py": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+        "repair/env.py": "8bb9078809d28ab2117abc3b928c138acf1da1dc4442e69de4c4632d8c3c9607",
+        "lab/duel_lab.py": "9f358a7a04b09728199ac33de120146e3aa0bcbb37fe18dbae2a2b5a7cfcb9a6",
+        "base/combat_v3/env.py": "4b4e91dd8168517039ed7092a0536dcefd5297582c4f3722be8d7ca5d3b9d7b4",
+        "base/combat_v3/controller.py": "d772bf49a8d8408aaafec691c981d0612de7dada6450e0afcecbc3d958b7813b",
+        "base/combat_v3/interface.py": "50f63ee563a8cb13b9bb472b0de7905579bcc9c70bc69efc571681879eb02555",
+        "base/combat_v3/fdm.py": "c59e705d248f1678f64ba6788639260c739a1b1a6e8f6830d62e4a11f3a1dba6",
+        "base/combat_v3/rules.py": "40857e278e8f3902fc9e8c39acf0aebb7bc8e02fafb9627a3f5561512a2f4e05",
+        "base/combat_v3/config.json": "d4fba053617240e07ffc67fe389d944313ba12dff491e569a0ae764e0f7b88ec",
+        "base/envs/jsbsimEnv/jsbsimFdm.py": "6d193634ccaff77db6f3d1e248b2276c4a7177c47dbfa82fd466154b67d8c541"
+      },
+      "controller": "repair",
+      "reward_profile": "precision",
+      "reward_gamma": 0.9997499061952749,
+      "gamma": 0.999,
+      "decision_repeat": 4,
+      "physics_hz": 60,
+      "decision_hz": 15.0,
+      "attack_angle_deg": 1.0,
+      "observation_shape": [
+        20
+      ],
+      "action_shape": [
+        4
+      ],
+      "p2_pool": "mixed",
+      "red_model_sha256": "f79e711c704978e462bb9b42b27c0a1f1bdf74e3914d6a2dd7f1b29edad01b94",
+      "curriculum": true,
+      "stage_boundaries": [
+        8000,
+        16000
+      ],
+      "stage_transition": "next_episode_reset",
+      "mixed_probabilities": [
+        0.75,
+        0.25
+      ],
+      "rear_maneuver_p2": "rule",
+      "distance_schedule_ft": [
+        3000,
+        6000,
+        9000
+      ],
+      "episode_physics_ticks": 18000,
+      "base_config": {
+        "hz": 60,
+        "round_seconds": 300,
+        "attack_angle_deg": 2,
+        "attack_min_ft": 500,
+        "attack_max_ft": 3000,
+        "attack_seconds": 3,
+        "initial_distances_ft": [
+          3000,
+          6000,
+          9000
+        ],
+        "initial_altitude_ft": [
+          10000,
+          20000
+        ],
+        "initial_speed_kts": 340,
+        "local_crash_threshold_ft": 50,
+        "collision_model": "not specified; Host adjudicates",
+        "safety_floor_m": 800,
+        "residual_limits": [
+          8,
+          2,
+          0.015,
+          15
+        ],
+        "tracking_limits": [
+          2.5,
+          0.8,
+          0.005,
+          8
+        ],
+        "reward": {
+          "attack_per_second": 2.0,
+          "position_per_second": 0.4,
+          "progress_scale": 4.0,
+          "residual_per_second": 0.25,
+          "guard_per_second": 0.1,
+          "low_altitude_per_second": 0.5,
+          "over_g_per_second": 1.0,
+          "kill_bonus": 30.0,
+          "loss_penalty": 35.0
+        },
+        "reference_score_weights": {
+          "attack_time": 2000,
+          "over_g_time": 1000,
+          "position": 10,
+          "kill_base": 1000
+        },
+        "reference_score_note": "Published reference values; final Host weights and exact boundary/collision handling require Host validation.",
+        "guidance": {
+          "heading_gain": 2.8,
+          "bank_limit_deg": 70,
+          "lead_min_distance_m": 1200,
+          "range_target_m": 600,
+          "closure_gain": 0.11
+        }
+      },
+      "reward_config": {
+        "progress_scale": 4.0,
+        "alignment_per_second": 0.12,
+        "precision_per_second": 1.0,
+        "attack_per_second": 4.0,
+        "residual_per_second": 0.03,
+        "guard_per_second": 0.1,
+        "low_altitude_per_second": 0.7,
+        "over_g_per_second": 2.0,
+        "kill_bonus": 30.0,
+        "loss_penalty": 35.0
+      },
+      "actor_semantics": "repair_bounded_residual_hold4",
+      "net_arch": [
+        128,
+        128
+      ],
+      "learning_rate": 5e-05,
+      "train_freq": 4,
+      "gradient_steps": 1,
+      "ent_coef": 0.001,
+      "buffer_size": 50000,
+      "batch_size": 128,
+      "learning_starts": 1000,
+      "critic_burnin_updates": 500
+    },
+    "environment_fingerprint": "f30b5ea47b0de6324a86bf1ca6a4038dd2bbc4fd7fab5bb01880e8b1816aa804",
+    "format": "combat_fix_sac_v1",
+    "actor_from": null,
+    "resume_parent": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_01\\final_0000074000",
+    "red_bundle": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\candidate1_to_199000\\final_0000148682",
+    "requested_decisions": 50000,
+    "max_minutes": 60.0,
+    "seed": 2026110102,
+    "decision_repeat": 4,
+    "physics_hz": 60,
+    "decision_hz": 15.0,
+    "stop_file": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_02\\STOP",
+    "run_status": "training",
+    "official_validation": false,
+    "old_critic_reused": false,
+    "old_replay_reused": false,
+    "new_contract_critic_reused": true,
+    "new_contract_replay_reused": true,
+    "transfer_checks": {
+      "actor_source": "zero",
+      "new_replay_empty": true,
+      "new_actor_optimizer_empty": true,
+      "new_critic_optimizer_empty": true,
+      "new_update_count_zero": true,
+      "new_timesteps_zero": true,
+      "critic_reused": false,
+      "old_replay_reused": false
+    },
+    "start_decisions": 74000,
+    "device": "cuda"
+  },
+  "counters": {
+    "decision_steps": 94000,
+    "physics_ticks": 375929,
+    "episodes": 89,
+    "stages": {
+      "rear": {
+        "decisions": 8248,
+        "physics_ticks": 32937
+      },
+      "maneuver": {
+        "decisions": 8142,
+        "physics_ticks": 32552
+      },
+      "official": {
+        "decisions": 77610,
+        "physics_ticks": 310440
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "verified_saved_packet_precheck": true,
+  "static_checks": 16,
+  "results": [
+    {
+      "case": "normal_station_zero_2026310400",
+      "saved_packet_frames": 300,
+      "baseline_actual_inner_commands_exact": true,
+      "single_act_and_command_counts": [
+        300,
+        300
+      ],
+      "candidate_only_speed_goal_changed_frames": 300,
+      "fresh_controller_state_per_case": true
+    },
+    {
+      "case": "mirrored_station_zero_2026310401",
+      "saved_packet_frames": 300,
+      "baseline_actual_inner_commands_exact": true,
+      "single_act_and_command_counts": [
+        300,
+        300
+      ],
+      "candidate_only_speed_goal_changed_frames": 300,
+      "fresh_controller_state_per_case": true
+    }
+  ],
+  "saved_packet_frames": 600,
+  "candidate_goal_changes": 600,
+  "new_FDM_ticks": 0,
+  "new_model_inference": false,
+  "training_started": false,
+  "scope": "Two new controller instances per saved prefix, original baseline exact command replay, candidate changes speed target only. No closed-loop strength result."
+}

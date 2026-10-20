@@ -1,0 +1,10 @@
+{
+  "host_setting_sha256": "c5236a1fc9db2ae18d4cb2b310da72dfceb1a569f916f1ad9bc6c02ba6efb418",
+  "host_setting_bytes": 750,
+  "evidence_capture_version": 2,
+  "setting_capture_phase": "before_host_Popen",
+  "captured_utc": "2026-10-13T14:00:16.682158+08:00",
+  "host_exe_sha256": "635b0ca956695a74e662f7f3a91e50d17ddeffb6e6be468ed8b916d305c19013",
+  "setting_snapshot": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_launch_20261013_140017_075a\\Setting.txt",
+  "host_exe_snapshot": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_launch_20261013_140017_075a\\Host_executable.bin"
+}

@@ -1,0 +1,58 @@
+{
+  "observed_utc": "2026-10-17T22:39:18.301151+00:00",
+  "identities": [
+    {
+      "recorded": {
+        "pid": 4184,
+        "create": 1792276626.520502,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\diagnostics\\far_speed_window_guardian_v1.py"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 11920
+      },
+      "current": null,
+      "original_core_live": false
+    },
+    {
+      "recorded": {
+        "pid": 13680,
+        "create": 1792276627.4362435,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\diagnostics\\far_speed_window_guardian_v1.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\diagnostics\\far_speed_window_v1_20261018_063707_c7e30d"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 4184
+      },
+      "current": null,
+      "original_core_live": false
+    },
+    {
+      "recorded": {
+        "pid": 10132,
+        "create": 1792276627.445361,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 13680
+      },
+      "current": null,
+      "original_core_live": false
+    }
+  ],
+  "all_original_core_absent": true,
+  "source_fixed": true,
+  "other_campaign_workloads": []
+}

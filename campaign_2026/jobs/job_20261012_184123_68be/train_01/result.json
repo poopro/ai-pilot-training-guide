@@ -1,0 +1,13 @@
+{
+  "status": "completed",
+  "run_dir": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_01",
+  "final_bundle": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_01\\final_0000074000",
+  "decision_repeat": 4,
+  "decision_steps": 74000,
+  "physics_ticks": 295929,
+  "critic_updates": 18250,
+  "actor_updates": 17750,
+  "stop_file": "E:\\ai_pilot\\campaign_2026\\jobs\\job_20261012_184123_68be\\train_01\\STOP",
+  "wall_seconds": 777.719,
+  "official_validation": false
+}

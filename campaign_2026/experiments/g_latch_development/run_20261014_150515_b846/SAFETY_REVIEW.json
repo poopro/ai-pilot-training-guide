@@ -1,0 +1,241 @@
+{
+  "parent_exit_code": 0,
+  "base_verifier_exit_code": 0,
+  "supplemental_post_audit": "passed",
+  "candidate_over9g_seconds": 0.0,
+  "paired_cases": [
+    {
+      "pair_key": "r000_rule_3000_normal_2026101400",
+      "opponent": "rule",
+      "guide_outcome": "timeout",
+      "candidate_outcome": "kill",
+      "guide_steps": 18000,
+      "candidate_steps": 17317,
+      "full_min_altitude_delta_m": 406.4366017829957,
+      "common_exposure_seconds": 288.6166666666667,
+      "common_min_altitude_m": {
+        "guide": 2103.691373077333,
+        "candidate": 2510.1291603984564
+      },
+      "common_min_altitude_delta_m": 406.4377873211233,
+      "guide_peak_abs_g": 7.509233488265614,
+      "candidate_peak_abs_g": 7.662066366672873
+    },
+    {
+      "pair_key": "r000_rule_3000_mirrored_2026101400",
+      "opponent": "rule",
+      "guide_outcome": "timeout",
+      "candidate_outcome": "timeout",
+      "guide_steps": 18000,
+      "candidate_steps": 18000,
+      "full_min_altitude_delta_m": -319.3174744200903,
+      "common_exposure_seconds": 300.0,
+      "common_min_altitude_m": {
+        "guide": 1794.5736225144,
+        "candidate": 1475.255270024255
+      },
+      "common_min_altitude_delta_m": -319.3183524901451,
+      "guide_peak_abs_g": 7.491984386210202,
+      "candidate_peak_abs_g": 6.762620705949123
+    },
+    {
+      "pair_key": "r000_rule_6000_normal_2026101401",
+      "opponent": "rule",
+      "guide_outcome": "kill",
+      "candidate_outcome": "kill",
+      "guide_steps": 15271,
+      "candidate_steps": 14897,
+      "full_min_altitude_delta_m": 49.28472756554993,
+      "common_exposure_seconds": 248.28333333333333,
+      "common_min_altitude_m": {
+        "guide": 3755.8541061812284,
+        "candidate": 3805.1389734535396
+      },
+      "common_min_altitude_delta_m": 49.2848672723112,
+      "guide_peak_abs_g": 7.34773240168509,
+      "candidate_peak_abs_g": 7.144494440521418
+    },
+    {
+      "pair_key": "r000_rule_6000_mirrored_2026101401",
+      "opponent": "rule",
+      "guide_outcome": "timeout",
+      "candidate_outcome": "timeout",
+      "guide_steps": 18000,
+      "candidate_steps": 18000,
+      "full_min_altitude_delta_m": 0.0,
+      "common_exposure_seconds": 300.0,
+      "common_min_altitude_m": {
+        "guide": 3048.700263540763,
+        "candidate": 3048.700263540763
+      },
+      "common_min_altitude_delta_m": 0.0,
+      "guide_peak_abs_g": 2.9898256529656755,
+      "candidate_peak_abs_g": 2.9898256529656755
+    },
+    {
+      "pair_key": "r000_rule_9000_normal_2026101402",
+      "opponent": "rule",
+      "guide_outcome": "timeout",
+      "candidate_outcome": "kill",
+      "guide_steps": 18000,
+      "candidate_steps": 15178,
+      "full_min_altitude_delta_m": 495.1846771981002,
+      "common_exposure_seconds": 252.96666666666667,
+      "common_min_altitude_m": {
+        "guide": 2292.088970924369,
+        "candidate": 2389.7028270937176
+      },
+      "common_min_altitude_delta_m": 97.61385616934876,
+      "guide_peak_abs_g": 7.415377137727432,
+      "candidate_peak_abs_g": 7.570664121815296
+    },
+    {
+      "pair_key": "r000_rule_9000_mirrored_2026101402",
+      "opponent": "rule",
+      "guide_outcome": "timeout",
+      "candidate_outcome": "timeout",
+      "guide_steps": 18000,
+      "candidate_steps": 18000,
+      "full_min_altitude_delta_m": 0.0,
+      "common_exposure_seconds": 300.0,
+      "common_min_altitude_m": {
+        "guide": 1609.1503739144684,
+        "candidate": 1609.1503739144684
+      },
+      "common_min_altitude_delta_m": 0.0,
+      "guide_peak_abs_g": 2.867885874096208,
+      "candidate_peak_abs_g": 2.867885874096208
+    },
+    {
+      "pair_key": "r000_rl_3000_normal_2026101410",
+      "opponent": "rl",
+      "guide_outcome": "timeout",
+      "candidate_outcome": "timeout",
+      "guide_steps": 18000,
+      "candidate_steps": 18000,
+      "full_min_altitude_delta_m": 2.06720739415357,
+      "common_exposure_seconds": 300.0,
+      "common_min_altitude_m": {
+        "guide": 784.0672409263731,
+        "candidate": 786.1344535223723
+      },
+      "common_min_altitude_delta_m": 2.0672125959991945,
+      "guide_peak_abs_g": 7.969422852455442,
+      "candidate_peak_abs_g": 7.397751531974105
+    },
+    {
+      "pair_key": "r000_rl_3000_mirrored_2026101410",
+      "opponent": "rl",
+      "guide_outcome": "timeout",
+      "candidate_outcome": "timeout",
+      "guide_steps": 18000,
+      "candidate_steps": 18000,
+      "full_min_altitude_delta_m": -14.017170839969936,
+      "common_exposure_seconds": 300.0,
+      "common_min_altitude_m": {
+        "guide": 792.207292818752,
+        "candidate": 778.1901134859681
+      },
+      "common_min_altitude_delta_m": -14.017179332783826,
+      "guide_peak_abs_g": 7.121550445654585,
+      "candidate_peak_abs_g": 8.676650272964947
+    },
+    {
+      "pair_key": "r000_rl_6000_normal_2026101411",
+      "opponent": "rl",
+      "guide_outcome": "timeout",
+      "candidate_outcome": "timeout",
+      "guide_steps": 18000,
+      "candidate_steps": 18000,
+      "full_min_altitude_delta_m": -15.66256203796081,
+      "common_exposure_seconds": 300.0,
+      "common_min_altitude_m": {
+        "guide": 793.8264869355351,
+        "candidate": 778.1638503270507
+      },
+      "common_min_altitude_delta_m": -15.662636608484377,
+      "guide_peak_abs_g": 6.833329787078533,
+      "candidate_peak_abs_g": 8.675990315902329
+    },
+    {
+      "pair_key": "r000_rl_6000_mirrored_2026101411",
+      "opponent": "rl",
+      "guide_outcome": "timeout",
+      "candidate_outcome": "timeout",
+      "guide_steps": 18000,
+      "candidate_steps": 18000,
+      "full_min_altitude_delta_m": 23.030154706865687,
+      "common_exposure_seconds": 300.0,
+      "common_min_altitude_m": {
+        "guide": 772.3281650586426,
+        "candidate": 795.3583795315415
+      },
+      "common_min_altitude_delta_m": 23.03021447289882,
+      "guide_peak_abs_g": 6.4915520072490995,
+      "candidate_peak_abs_g": 8.178052435161383
+    },
+    {
+      "pair_key": "r000_rl_9000_normal_2026101412",
+      "opponent": "rl",
+      "guide_outcome": "timeout",
+      "candidate_outcome": "timeout",
+      "guide_steps": 18000,
+      "candidate_steps": 18000,
+      "full_min_altitude_delta_m": -0.6320002543715191,
+      "common_exposure_seconds": 300.0,
+      "common_min_altitude_m": {
+        "guide": 783.4729707012802,
+        "candidate": 782.8409611304999
+      },
+      "common_min_altitude_delta_m": -0.632009570780383,
+      "guide_peak_abs_g": 7.900642543224624,
+      "candidate_peak_abs_g": 8.740946280642927
+    },
+    {
+      "pair_key": "r000_rl_9000_mirrored_2026101412",
+      "opponent": "rl",
+      "guide_outcome": "timeout",
+      "candidate_outcome": "timeout",
+      "guide_steps": 18000,
+      "candidate_steps": 18000,
+      "full_min_altitude_delta_m": -3.311093161688177,
+      "common_exposure_seconds": 300.0,
+      "common_min_altitude_m": {
+        "guide": 780.0239879968107,
+        "candidate": 776.7128624584079
+      },
+      "common_min_altitude_delta_m": -3.3111255384027345,
+      "guide_peak_abs_g": 7.307495707824441,
+      "candidate_peak_abs_g": 8.69530114482461
+    }
+  ],
+  "worst_common_altitude_delta": {
+    "pair_key": "r000_rule_3000_mirrored_2026101400",
+    "opponent": "rule",
+    "guide_outcome": "timeout",
+    "candidate_outcome": "timeout",
+    "guide_steps": 18000,
+    "candidate_steps": 18000,
+    "full_min_altitude_delta_m": -319.3174744200903,
+    "common_exposure_seconds": 300.0,
+    "common_min_altitude_m": {
+      "guide": 1794.5736225144,
+      "candidate": 1475.255270024255
+    },
+    "common_min_altitude_delta_m": -319.3183524901451,
+    "guide_peak_abs_g": 7.491984386210202,
+    "candidate_peak_abs_g": 6.762620705949123
+  },
+  "promotion_allowed": false,
+  "interpretation": "Worst rule3000 mirrored altitude regression is not due to latch activation: zero active latch ticks. Bank80 trajectory tradeoff requires review; no causal claim from peak time.",
+  "post_audit": "E:\\ai_pilot\\campaign_2026\\experiments\\g_latch_development\\run_20261014_150515_b846\\POST_AUDIT.json",
+  "altitude_references": {
+    "full_min_altitude_delta_m": "judge altitude AGL",
+    "common_min_altitude_m": "CSV altitude HSL",
+    "common_min_altitude_delta_m": "CSV altitude HSL; equal-time exposure"
+  },
+  "worst_case_latch_active_ticks": 0,
+  "worst_case_latch_field": "g_guard_latched",
+  "deployment_allowed": false,
+  "updated_utc": "2026-10-14T11:53:53.200773+00:00"
+}

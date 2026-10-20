@@ -1,0 +1,83 @@
+{
+  "verified_saved_real_FDM_blue_counter": true,
+  "cases": [
+    {
+      "case_id": "r000_rl_9000_mirrored_2026101412_candidate",
+      "source_60hz_sha256": "ff9b23504ace176d6d3c304dd6b218fe6a16b565719f65e26f63c604abba5633",
+      "source_result_sha256": "0a8c48902d34dcfa4003daaaed9640031545b4a1cb87c7e6e9cf4334fbc94513",
+      "saved_real_FDM_rows": 18000,
+      "line1deg_attack_ticks": 166,
+      "source_counter_ticks": 166,
+      "checkpoints_matched": 300,
+      "nonconsecutive_bursts": [
+        {
+          "start_tick": 6931,
+          "ticks": 51
+        },
+        {
+          "start_tick": 7617,
+          "ticks": 51
+        },
+        {
+          "start_tick": 8290,
+          "ticks": 44
+        },
+        {
+          "start_tick": 8952,
+          "ticks": 20
+        }
+      ],
+      "pdf2deg_attack_ticks_on_same_saved_trace": 735,
+      "first180tick_line1deg": null,
+      "first180tick_pdf2deg": 7614,
+      "full_new_winner_verified": false,
+      "reason": "Red60Hz/G/altitude are absent;2deg may truncate earlier, so raw prefix thresholds are not counterfactual full battles."
+    },
+    {
+      "case_id": "r000_rule_3000_normal_2026101400_candidate",
+      "source_60hz_sha256": "d79571f66461f30209594c932e882b7463cf2497d56ec46a288908a9e8587df0",
+      "source_result_sha256": "839a48346c7f27068c86c4786f5bb3d2efa1dec8b699795124de6247a375706d",
+      "saved_real_FDM_rows": 17317,
+      "line1deg_attack_ticks": 180,
+      "source_counter_ticks": 180,
+      "checkpoints_matched": 289,
+      "nonconsecutive_bursts": [
+        {
+          "start_tick": 13097,
+          "ticks": 28
+        },
+        {
+          "start_tick": 14542,
+          "ticks": 29
+        },
+        {
+          "start_tick": 15950,
+          "ticks": 30
+        },
+        {
+          "start_tick": 16778,
+          "ticks": 41
+        },
+        {
+          "start_tick": 17065,
+          "ticks": 47
+        },
+        {
+          "start_tick": 17313,
+          "ticks": 5
+        }
+      ],
+      "pdf2deg_attack_ticks_on_same_saved_trace": 816,
+      "first180tick_line1deg": 17317,
+      "first180tick_pdf2deg": 13329,
+      "full_new_winner_verified": false,
+      "reason": "Red60Hz/G/altitude are absent;2deg may truncate earlier, so raw prefix thresholds are not counterfactual full battles."
+    }
+  ],
+  "new_FDM_ticks": 0,
+  "source_unchanged": true,
+  "new_training_steps": 0,
+  "official_Host_conformance_verified": false,
+  "deployment_allowed": false,
+  "full_S_advantage_recomputed": false
+}

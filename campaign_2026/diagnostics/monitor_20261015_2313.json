@@ -1,0 +1,83 @@
+{
+  "observed_utc": "2026-10-15T15:12:44.325381+00:00",
+  "old_loop_checks": [
+    {
+      "expected": {
+        "pid": 8040,
+        "create_time": 1792001657.2977164,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\win\\win_loop.py",
+          "loop",
+          "--gap",
+          "60"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent_pid": 12724
+      },
+      "state": "absent_exit_code_unknown"
+    },
+    {
+      "expected": {
+        "pid": 15644,
+        "create_time": 1792001608.6756625,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\win\\win_loop.py",
+          "loop",
+          "--gap",
+          "60"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent_pid": 7320
+      },
+      "state": "absent_exit_code_unknown"
+    },
+    {
+      "expected": {
+        "pid": 20448,
+        "create_time": 1792001782.5285914,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\win\\win_loop.py",
+          "loop",
+          "--gap",
+          "60"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent_pid": 14220
+      },
+      "state": "pid_reused_do_not_touch",
+      "current_create_time": 1792076845.3062856
+    }
+  ],
+  "remaining_campaign_python": [],
+  "current_learner_or_Host_observed": false,
+  "queue": {
+    "steps": []
+  },
+  "usage_observation": {
+    "observed_utc": "2026-10-15T15:09:17Z",
+    "five_hour_remaining_percent": 99,
+    "weekly_remaining_percent": 99,
+    "lower_remaining_percent": 99,
+    "five_hour_resets_epoch": 1792094944,
+    "weekly_resets_epoch": 1792654206
+  },
+  "resources": {
+    "available_ram_gib": 2.33,
+    "free_disk_gib": 194.08,
+    "STOP": false
+  },
+  "preflight": "portable_host_v2/PREFLIGHT_EXIT_20261015_2312.json",
+  "preflight_status": "timed_out_45s_no_Host_no_claim_of_pass",
+  "processes_stopped_by_agent": [],
+  "new_FDM_ticks": 0,
+  "deployment_allowed": false
+}

@@ -1,0 +1,13 @@
+test_discounted_shaping_telescopes_to_actual_winner (__main__.CandidateTests) ... ok
+test_learner_gamma_must_match (__main__.CandidateTests) ... ok
+test_only_one_control_assignment_changed (__main__.CandidateTests) ... ok
+test_original_wrong_sign_is_reproduced (__main__.CandidateTests) ... ok
+test_short_cutoff_is_not_a_win_and_does_not_get_terminal_bonus (__main__.CandidateTests) ... ok
+test_signed_candidate_is_mirror_symmetric (__main__.CandidateTests) ... ok
+test_unknown_terminal_winner_has_no_learning_target (__main__.CandidateTests) ... ok
+test_vertical_nose_error_does_not_invent_lateral_bank (__main__.CandidateTests) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.013s
+
+OK

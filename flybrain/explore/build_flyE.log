@@ -1,0 +1,20 @@
+[connectome] 138639 neurons, 15091983 edges, annotations OK
+encoder channels (36, 2, 20) replaying 18 games with the FULL brain (numba)
+  g800000_breaker.npz: 900 decisions, 4017 neurons active, 32s
+  g800000_mix.npz: 900 decisions, 4056 neurons active, 32s
+  g800001_level.npz: 378 decisions, 3978 neurons active, 12s
+  g800002_guide.npz: 900 decisions, 3179 neurons active, 32s
+  g800002_lead.npz: 900 decisions, 3505 neurons active, 33s
+  g800003_lag.npz: 900 decisions, 13250 neurons active, 50s
+  g800004_guide.npz: 900 decisions, 3139 neurons active, 28s
+  g800004_lead.npz: 900 decisions, 3791 neurons active, 30s
+  g800005_lag.npz: 900 decisions, 3084 neurons active, 29s
+  g800006_guide.npz: 900 decisions, 4057 neurons active, 30s
+  g800006_lead.npz: 900 decisions, 4156 neurons active, 28s
+  g800007_lag.npz: 900 decisions, 3448 neurons active, 30s
+  g800008_guide.npz: 900 decisions, 3133 neurons active, 29s
+  g800008_lead.npz: 900 decisions, 3804 neurons active, 28s
+  g800009_lag.npz: 900 decisions, 4177 neurons active, 29s
+  g800000_guide.npz: 900 decisions, 4093 neurons active, 29s
+  g800000_lead.npz: 900 decisions, 4086 neurons active, 31s
+  g800001_lag.npz: 900 decisions, 3954 neurons active, 29s

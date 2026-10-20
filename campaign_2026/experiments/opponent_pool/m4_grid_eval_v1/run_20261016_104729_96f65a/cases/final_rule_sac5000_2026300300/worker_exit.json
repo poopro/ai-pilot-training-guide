@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "pid": 14032,
+    "creation_epoch": 1792118850.8546617,
+    "cmdline": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_smoke.py",
+      "--worker",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_grid_eval_v1\\run_20261016_104729_96f65a\\cases\\final_rule_sac5000_2026300300\\input.json"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent_pid": 22504
+  },
+  "actual_worker_exit_code": 0,
+  "case_id": "final_rule_sac5000_2026300300",
+  "input_sha256": "99d9fe458e8b7b8c059b073b3dedab7fc189b262c1f233f25f09dfdb78ac664f",
+  "result_sha256": "df5916887a22ba40830394da9d0582f7e9820d7eba5b09d165e6b43bd9edbccc"
+}

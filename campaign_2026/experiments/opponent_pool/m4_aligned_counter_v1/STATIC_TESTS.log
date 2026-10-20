@@ -1,0 +1,10 @@
+test_actual_judge_attack_counter_is_never_written_by_fixture (__main__.AlignedFixtureTests) ... ok
+test_changed_initial_fixture_contract_rejected (__main__.AlignedFixtureTests) ... ok
+test_exact_guard_algorithm_reused_not_relaxed (__main__.AlignedFixtureTests) ... ok
+test_ninety_seconds_cannot_be_extended (__main__.AlignedFixtureTests) ... ok
+test_only_one_new_seed_and_explicit_nonofficial_opening (__main__.AlignedFixtureTests) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.012s
+
+OK

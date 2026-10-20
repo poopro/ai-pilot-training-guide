@@ -1,0 +1,85 @@
+{
+  "status": "tool_ready_runtime_pending",
+  "updated_utc": "2026-10-12T14:43:07.956626+00:00",
+  "unique_gate_tests_passed": 10,
+  "source_sha256": {
+    "candidate.py": "7ddbf0893840289fbd876e7d8b88e3e97e733a847a8ba808df9f7db0c31d5e02",
+    "benchmark_fresh.py": "a1e95bf8b754b9d7e1f99f07432df19615d1ed71141d49f7fb95ee2e46f7073d",
+    "budget.py": "8bbaa59bba4e349b1ef3324c46cff273bf5f8710bbf49e239505d452ae2e5956",
+    "launch_fresh.py": "9d12310d6f9314ff5d2533e2910efd6ad2ef39615477ccd2d32b8610cb0a1f16",
+    "verify_fresh.py": "0e03080ec185faf8a7b45ef2e9f86efd5c76e3491c4cc0bfd2b40374dece0a09",
+    "test_fresh.py": "c738d337f10774ca8b43fb7a5251ddc5f8b757a3c72f573cd1c02362b17b0c3e"
+  },
+  "tests": [
+    "Taipei midnight date and insufficient old-day budget",
+    "Corrupt or duplicate reservations rejected",
+    "Observed/attempted/holdout seeds rejected",
+    "Original FDM worker/metrics/reset/timeout AST unchanged and candidate byte identical",
+    "Incomplete/seed mismatch/initial mismatch/nonzero worker exit rejected",
+    "Unreadable process remains unknown",
+    "Second owner rejected by actual OS lock",
+    "Low usage rejected before launch",
+    "Unowned private worker rejected",
+    "Owned private worker accepted with mock execution, no simulator"
+  ],
+  "runtime_scope": "Gate logic, real child-process identity and OS lock only; new successful FDM-worker path and fresh development performance remain unverified",
+  "simulator_started": false,
+  "new_simulator_ticks": 0,
+  "learner_started": false,
+  "seed_trials_claimed": 0,
+  "check_only_result": {
+    "candidate_runtime_snapshot_verified": true,
+    "budget_fits_today": false,
+    "within_research_dates_today": false,
+    "date_taipei": "2026-10-12",
+    "reserved_hours_today": 5.75,
+    "next_trial_reservation_hours": 0.6666666666666666
+  },
+  "initial_errors": "Two tests initially failed because sandbox temporary directories were unwritable; a host copy from the ephemeral sandbox path also failed and provided no test evidence. Recreated test file in project test_work; nine tests passed. Fixed subprocess UTF8 decoding and verified lock rejection explicitly; added one positive mock identity test, passed.",
+  "official_validation": false,
+  "deployment_allowed": false,
+  "next_action": "Fresh usage check then check-only and bounded launch on 10/13 or later, at most24 full cases/40min; observe actual exit then verify_fresh.py",
+  "schedules": {
+    "ai": {
+      "next_utc_calculated": "2026-10-12T16:30:40+00:00",
+      "next_taipei_calculated": "2026-10-13T00:30:40+08:00",
+      "engine_observation": "Native API accepted UTC16:35 with UTC16:36 cutoff, rejected hour0:35 with that same cutoff; supports UTC interpretation"
+    },
+    "ai-2": {
+      "next_utc_calculated": "2026-10-13T12:35:44+00:00",
+      "next_taipei_calculated": "2026-10-13T20:35:44+08:00",
+      "engine_observation": "Native API accepted UTC16:35 with UTC16:36 cutoff, rejected hour0:35 with that same cutoff; supports UTC interpretation"
+    },
+    "ai-4": {
+      "next_utc_calculated": "2026-10-12T17:35:00+00:00",
+      "next_taipei_calculated": "2026-10-13T01:35:00+08:00",
+      "engine_observation": "Native API accepted UTC16:35 with UTC16:36 cutoff, rejected hour0:35 with that same cutoff; supports UTC interpretation",
+      "time_precision": "minute window; native API does not expose exact next execution timestamp"
+    }
+  },
+  "oneoff_automation_id": "ai-4",
+  "oneoff_taipei": "2026-10-13 01:35",
+  "schedule_scope": "Next times calculated from saved UTC recurrence rules and API validation behavior; actual execution still requires powered-on app and access.",
+  "schedule_updates": [
+    {
+      "updated_utc": "2026-10-12T15:51:58.343295+00:00",
+      "automation_id": "ai-4",
+      "native_update_status": "ACTIVE",
+      "saved_rule_readback_verified": true,
+      "saved_prompt_readback_verified": true,
+      "target_thread_preserved": true,
+      "minimum_remaining_percent_observed": 33,
+      "primary_resets_epoch": 1791826234,
+      "primary_reset_utc": "2026-10-12T17:30:34+00:00",
+      "primary_reset_taipei": "2026-10-13T01:30:34+08:00",
+      "previous_taipei": "2026-10-13 00:35",
+      "new_taipei": "2026-10-13 01:35",
+      "expected_utc_window": [
+        "2026-10-12T17:35:00+00:00",
+        "2026-10-12T17:36:00+00:00"
+      ],
+      "reason": "Observed remaining33 below35 research launch threshold; wait for natural reset then read fresh usage. Do not spend reset credits.",
+      "schedule_scope": "Saved UTC recurrence and native API acceptance verified; actual execution still requires available app/PC/files/permissions. Live usage >=35 and budget/identity/source/seed gates remain required."
+    }
+  ]
+}

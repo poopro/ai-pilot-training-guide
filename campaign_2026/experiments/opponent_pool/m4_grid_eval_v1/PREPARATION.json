@@ -1,0 +1,57 @@
+{
+  "created_utc": "2026-10-16T02:46:27.480177+00:00",
+  "stage": "static_grid_preparation_complete_not_launched",
+  "hypothesis": "Rule regression across distances/new openings versus mirror speed and RL attack robustness; keep both models frozen before more training",
+  "games": 18,
+  "paired_openings": 9,
+  "opponents": [
+    "rule",
+    "mirror",
+    "rl"
+  ],
+  "distances_ft": [
+    3000,
+    6000,
+    9000
+  ],
+  "seeds_requested": [
+    2026300300,
+    2026300301,
+    2026300302,
+    2026300303,
+    2026300304,
+    2026300305,
+    2026300306,
+    2026300307,
+    2026300308
+  ],
+  "seeds_checked_current_registry_only_not_claimed": true,
+  "actor_order_alternates": true,
+  "development_not_holdout": true,
+  "explicit_left_right_contract": false,
+  "left_right_coverage_claimed": false,
+  "new_total_deadline_seconds": 900,
+  "case_deadline_seconds": 90,
+  "deadline_is_new_plan_not_extension": true,
+  "worker_guard_bytes_identical_to_previous_eval": true,
+  "candidate_models_readonly_frozen": true,
+  "source_gate_verified": true,
+  "model_sha256": {
+    "sac5000": "9f93eb56483558ad56283c00b1ba34af96a236583bc977ef7d9fad375d9a0fea",
+    "transfer10000": "6c7ceea74457557be60f4156313cf1d75ffff20196159ae8fe22a7809190c012"
+  },
+  "new_FDM_ticks": 0,
+  "model_inferences": 0,
+  "training_started": false,
+  "evaluation_started": false,
+  "live_registry_budget_pointer_changes": false,
+  "static_test_actual_exit_code": 0,
+  "static_test_tool_chunk": "32c281",
+  "static_test_count": 7,
+  "static_test_runtime_seconds": 0.183,
+  "event_summary_fix": "Actual Judge tags classify kills/deaths/crashes separately, simultaneous and mutual both sides, collision no kill; winner blue never implies kill",
+  "contract_sha256": "75f04063d10ac4d05953a8bedb3333c97d02d46eea4654ae170ba97e7bcaf028",
+  "model_freeze_sha256": "a9451aa9ae671583dd54532a77e031eaf41cdb9713cb8e9a3b108d14cd3dcf1c",
+  "launch_requires": "Main agent next fresh usage/seed/source/XML/red/model/resource/STOP/OSlock gates; static preparation did not launch or reserve anything.",
+  "deployment_allowed": false
+}

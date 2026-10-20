@@ -1,0 +1,20 @@
+{
+  "identity": {
+    "pid": 2608,
+    "creation_epoch": 1792117602.3541543,
+    "cmdline": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_actor_transfer_10k_v1\\run_smoke.py",
+      "--worker",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_actor_transfer_10k_v1\\run_20261016_102640_412524\\cases\\actor_transfer_10000\\input.json"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent_pid": 21924
+  },
+  "deadline_epoch": 1792118442.3523517,
+  "deadline_monotonic": 8644.546,
+  "case_id": "actor_transfer_10000"
+}

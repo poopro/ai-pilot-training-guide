@@ -1,0 +1,82 @@
+{
+  "status": "failed_partial",
+  "cases": [
+    {
+      "case": {
+        "id": "normal_bank60_2026310500",
+        "opening": 0,
+        "side": "normal",
+        "seed": 2026310500,
+        "actor": "bank60",
+        "red": "sac5000",
+        "distance_ft": 6000,
+        "max_ticks": 18000
+      },
+      "actual_worker_exit": 2,
+      "identity": {
+        "pid": 3020,
+        "create": 1792240645.064934,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v1\\battle.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v1\\run_20261017_203724_6cbe6e\\cases\\normal_bank60_2026310500"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 23632
+      },
+      "reason": null,
+      "worker_and_descendants_absent": true,
+      "descendants": [
+        {
+          "identity": {
+            "pid": 15196,
+            "create": 1792240645.0774102,
+            "cmd": [
+              "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+              "0x4"
+            ],
+            "exe": "C:\\Windows\\System32\\conhost.exe",
+            "parent": 3020
+          },
+          "chain": [
+            {
+              "pid": 15196,
+              "create": 1792240645.0774102,
+              "cmd": [
+                "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+                "0x4"
+              ],
+              "exe": "C:\\Windows\\System32\\conhost.exe",
+              "parent": 3020
+            }
+          ],
+          "worker": {
+            "pid": 3020,
+            "create": 1792240645.064934,
+            "cmd": [
+              "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+              "-B",
+              "-X",
+              "utf8",
+              "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v1\\battle.py",
+              "--worker",
+              "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v1\\run_20261017_203724_6cbe6e\\cases\\normal_bank60_2026310500"
+            ],
+            "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+            "parent": 23632
+          }
+        }
+      ],
+      "cleanup_actions": [],
+      "input_sha256": "7921651df44188d4769c3544a8090cd94a4cbd6c257940c04374102839eb8a59",
+      "result_sha256": "678ee6b5719de1be24fa0e020979f0b15de19d9e903eeecd35e3af63aebd6d18"
+    }
+  ],
+  "verified_comparison": false,
+  "training_started": false,
+  "error": "RuntimeError('Incomplete/failed worker normal_bank60_2026310500')"
+}

@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "pid": 22176,
+    "creation_epoch": 1792118290.8553984,
+    "cmdline": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_smoke.py",
+      "--worker",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_transfer_eval_v1\\run_20261016_103651_4fcfa9\\cases\\final_mirror_transfer10000_2026300201\\input.json"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent_pid": 660
+  },
+  "actual_worker_exit_code": 0,
+  "case_id": "final_mirror_transfer10000_2026300201",
+  "input_sha256": "3ce95ac092c06d8f826c08218ca85868415403a5c139c538048768392473c9ee",
+  "result_sha256": "e9828c987334793787128f8e413a877f76d48aef9570ccbda2fa03622de32f22"
+}

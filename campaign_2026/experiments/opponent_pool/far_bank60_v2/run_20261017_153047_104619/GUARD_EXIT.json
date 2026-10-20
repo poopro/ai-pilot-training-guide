@@ -1,0 +1,27 @@
+{
+  "actual_all_worker_exits": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "guardian": {
+    "pid": 23364,
+    "create": 1792222246.74811,
+    "cmd": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_bank60_v2\\battle.py",
+      "--launch"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent": 23884
+  },
+  "status": "completed_pending_verifier",
+  "wall_seconds": 276.07800000000134,
+  "error": null,
+  "source_unchanged": true,
+  "guardian_return_intended": 0
+}

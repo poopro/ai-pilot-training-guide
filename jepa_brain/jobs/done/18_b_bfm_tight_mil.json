@@ -1,0 +1,1 @@
+{"script": "rollout_bfm.py", "args": ["eval","--arms","mil_t","--n","12","--workers","3","--seed0","900000","--out","runs/bfm_tight_b"], "max_minutes": 90}

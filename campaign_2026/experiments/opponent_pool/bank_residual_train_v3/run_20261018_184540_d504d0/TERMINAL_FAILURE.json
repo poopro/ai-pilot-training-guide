@@ -1,0 +1,58 @@
+{
+  "failure": "New precheck imported nonexistent opponent_lab package; existing runtime module is duel_lab loaded from exact original LAB path",
+  "actual_precheck_exit": 1,
+  "actual_parent_shell_exit": 1,
+  "learner_started": false,
+  "new_FDM_ticks": 0,
+  "seedpool_claimed": false,
+  "source_unchanged": true,
+  "terminal_process_audit": [
+    {
+      "identity": {
+        "pid": 11952,
+        "create": 1792320339.6961021,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_train_v3\\guard.py"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 21692
+      },
+      "original_identity_alive": false
+    },
+    {
+      "identity": {
+        "pid": 11524,
+        "create": 1792320340.609881,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_train_v3\\test_contract.py",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\bank_residual_train_v3\\run_20261018_184540_d504d0"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 11952
+      },
+      "original_identity_alive": false
+    },
+    {
+      "identity": {
+        "pid": 16996,
+        "create": 1792320340.6207635,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 11524
+      },
+      "original_identity_alive": false
+    }
+  ],
+  "reservation_not_refunded": true
+}

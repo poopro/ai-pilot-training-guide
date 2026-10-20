@@ -1,0 +1,26 @@
+{
+  "observed_utc": "2026-10-15T15:53:19.101787+00:00",
+  "command": [
+    "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\rules_v20261014\\test_judge.py",
+    "-v"
+  ],
+  "actual_exit_code": 0,
+  "source_sha256": {
+    "judge.py": "11694e29c54fecfa9d39750839688a4c870636e729dd33923a6f78450e837a06",
+    "test_judge.py": "2d703af41d1b1558cba392ed06802bde36a156c851ff34e7961881cb042119c0"
+  },
+  "scope": "Pure scoring/event numeric tests, not flight or official Host verification",
+  "new_FDM_ticks": 0,
+  "training_started": false,
+  "deployment_allowed": false,
+  "Host_conformance_verified": false,
+  "tests_run": 22,
+  "tests_passed": 22,
+  "reported_test_wall_seconds": 0.787,
+  "actual_replay_exit_code": 0,
+  "nonzero_saved_counter_replay": "E:\\ai_pilot\\campaign_2026\\experiments\\rules_v20261014\\NONZERO_COUNTER_REPLAY.json"
+}

@@ -1,0 +1,24 @@
+test_broken_parent_chain_or_postlaunch_snapshot_cannot_count (__main__.OwnedCacheTreeTests) ... ok
+test_cache_bytes_changed_after_prelaunch_snapshot_are_unknown (__main__.OwnedCacheTreeTests) ... ok
+test_different_cache_binary_is_captured_only_under_owned_root (__main__.OwnedCacheTreeTests) ... ok
+test_missed_cache_executable_rejects_completeness_instead_of_silent_skip (__main__.OwnedCacheTreeTests) ... ok
+test_same_cache_executable_outside_root_is_never_discovered (__main__.OwnedCacheTreeTests) ... ok
+test_v1_metadata_key_failure_is_fixed_in_memory_without_reclassifying_old_round (__main__.OwnedCacheTreeTests) ... ok
+test_absent_pid_does_not_invent_exit_zero (__main__.PortableHostTests) ... ok
+test_absent_watchdog_cannot_be_attached_or_assumed_exit_zero (__main__.PortableHostTests) ... ok
+test_access_denied_is_unknown (__main__.PortableHostTests) ... ok
+test_actual_windows_wait_observes_real_nonzero_exit_without_host (__main__.PortableHostTests) ... ok
+test_clock_rollback_cannot_extend_deadline (__main__.PortableHostTests) ... ok
+test_command_uses_frozen_package_python_and_player (__main__.PortableHostTests) ... ok
+test_legacy_six_reports_are_never_imported (__main__.PortableHostTests) ... ok
+test_missing_watchdog_handle_receipt_cannot_pass_aggregate (__main__.PortableHostTests) ... ok
+test_persistent_write_failure_is_reported_without_fake_success (__main__.PortableHostTests) ... Receipt write failed: PermissionError(5, 'sharing violation')
+ok
+test_reused_pid_is_not_terminated (__main__.PortableHostTests) ... ok
+test_self_check_and_host_are_forbidden_during_plain_preflight (__main__.PortableHostTests) ... ok
+test_transient_winerror5_atomic_retry_is_bounded (__main__.PortableHostTests) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 26.113s
+
+OK

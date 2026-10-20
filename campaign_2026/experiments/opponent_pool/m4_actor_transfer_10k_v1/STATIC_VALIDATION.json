@@ -1,0 +1,10 @@
+{
+  "actual_exit_code": 0,
+  "test_count": 11,
+  "runtime_seconds": 10.461,
+  "tool_chunk": "69a7bf",
+  "new_FDM_ticks": 0,
+  "actor_transfer_verified_without_training": true,
+  "preparation_sha256": "043770ddef3ee2aaddfdbbb90bec67683d1954aeca439f2b31393b6e7abd03c1",
+  "contract_sha256": "2382e73c943e164cc16e9d171daab8b8b4a02795a4dc0d7ddafb358fbc418e22"
+}

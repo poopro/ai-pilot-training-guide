@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "E:\ai_pilot\autopilot\combat_fix\player.py", line 9, in <module>
+    from combat_v3.interface import decode_packet,encode_command,policy_state
+ModuleNotFoundError: No module named 'combat_v3'

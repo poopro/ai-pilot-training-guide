@@ -1,0 +1,25 @@
+{
+  "kind": "single_factor_guided_candidate",
+  "factor": "near <1100m bank ceiling 72 to 80",
+  "original_controller_sha256": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+  "candidate_bundle": null,
+  "actor_policy_used": false,
+  "official_validation": false,
+  "development_seed": 2026101100,
+  "planned_cases": 24,
+  "max_wall_minutes": 40,
+  "daily_compute_reserved_hours": 5.75,
+  "promotion": "requires complete comparison and safety review",
+  "text_normalized_sha256": "977292d2df3d1eeb9efed53f31986a5fe473ce4fac2b16f3c75550e8cb5408eb",
+  "preflight": {
+    "single_factor_source_restore_matches": true,
+    "inherited_command_and_init": true,
+    "near_command_bank_only_72_to_80": true,
+    "50_far_commands_exact": true,
+    "bank70_all_physics_and_commands_exact": true,
+    "comparison_ignored_columns": [
+      "wall_s"
+    ],
+    "calibration_initials_and_warmup_match": true
+  }
+}

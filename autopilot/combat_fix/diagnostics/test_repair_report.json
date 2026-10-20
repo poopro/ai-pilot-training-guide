@@ -1,0 +1,191 @@
+{
+  "status": "passed",
+  "tests_run": 9,
+  "failures": 0,
+  "errors": 0,
+  "cases": [
+    {
+      "test": "__main__.RepairChecks.test_coordinated_turn_damps_euler_pitch_rate",
+      "status": "passed"
+    },
+    {
+      "test": "__main__.RepairChecks.test_curriculum_rear_is_labeled_training",
+      "status": "passed"
+    },
+    {
+      "test": "__main__.RepairChecks.test_exact_diagnostic_window_and_179_180_frame_kill",
+      "status": "passed"
+    },
+    {
+      "test": "__main__.RepairChecks.test_invalid_official_observations_are_rejected",
+      "status": "passed"
+    },
+    {
+      "test": "__main__.RepairChecks.test_legal_rate_limits_integral_bounds_and_init_state",
+      "status": "passed"
+    },
+    {
+      "test": "__main__.RepairChecks.test_official_reset_preserves_side_opposite_ic",
+      "status": "passed"
+    },
+    {
+      "test": "__main__.RepairChecks.test_official_zero_residual_regression_kill_at_true_one_degree",
+      "status": "passed"
+    },
+    {
+      "test": "__main__.RepairChecks.test_precision_improves_before_one_degree_window",
+      "status": "passed"
+    },
+    {
+      "test": "__main__.RepairChecks.test_rear_zero_residual_kills_moving_red_at_true_one_degree",
+      "status": "passed"
+    }
+  ],
+  "evidence": {
+    "coordinated_turn": {
+      "body_q_deg_s": 4.961960058796128,
+      "body_r_deg_s": 2.864788975654117,
+      "euler_pitch_rate_deg_s": -3.975693351829396e-16,
+      "command": [
+        0.0,
+        -0.06999999999999999,
+        0.0,
+        0.775
+      ]
+    },
+    "exact_judge": {
+      "range_m": [
+        152.4,
+        914.4000000000001
+      ],
+      "angle_deg": 1.0,
+      "kill_ticks": 180,
+      "not_kill_ticks": 179
+    },
+    "init_state_preserved": true,
+    "official_initial_conditions": [
+      {
+        "distance_ft": 3000,
+        "actual_distance_ft": 3000.0343674330857,
+        "shared_altitude_ft": 15117.456956151873,
+        "blue_cas_kts": 340.00000000000034,
+        "red_cas_kts": 340.00000000000034,
+        "blue_heading_deg": 30.109275514510838,
+        "red_heading_deg": 210.1092755145108
+      },
+      {
+        "distance_ft": 6000,
+        "actual_distance_ft": 6000.137464190179,
+        "shared_altitude_ft": 15117.456956151873,
+        "blue_cas_kts": 340.00000000000034,
+        "red_cas_kts": 340.00000000000034,
+        "blue_heading_deg": 30.10927551451085,
+        "red_heading_deg": 210.1092755145108
+      },
+      {
+        "distance_ft": 9000,
+        "actual_distance_ft": 9000.309281949765,
+        "shared_altitude_ft": 15117.456956151873,
+        "blue_cas_kts": 340.00000000000034,
+        "red_cas_kts": 340.00000000000034,
+        "blue_heading_deg": 30.109275514510845,
+        "red_heading_deg": 210.1092755145108
+      }
+    ],
+    "zero_residual_official": {
+      "stage": "official",
+      "seed": 20271000,
+      "ticks": 15118,
+      "seconds": 251.96666666666667,
+      "terminated": true,
+      "truncated": false,
+      "outcome": "kill",
+      "angle_deg": 1.0,
+      "independent_attack_ticks": 180,
+      "enemy_attack_ticks": 0,
+      "attack_seconds": 3.0,
+      "min_altitude_m": 3199.8296731058567,
+      "max_g": 7.47052126743645,
+      "guard_frames": 0,
+      "initial_red_position": [
+        23.060551999999994,
+        121.94855500000001,
+        15117.456956151873
+      ],
+      "final_red_position": [
+        23.144540639389692,
+        122.21620282035826,
+        10841.056701462716
+      ],
+      "wall_seconds": 23.156000000002678,
+      "official_validation": false
+    },
+    "precision_angles_20_5_1": [
+      [
+        0.6794715535159362,
+        0.807387949078133,
+        0.0019304541362277093
+      ],
+      [
+        0.9016582981806296,
+        0.8309066735532153,
+        0.676633846161729
+      ],
+      [
+        0.9952956244063594,
+        0.8324272164353229,
+        0.9844964370054085
+      ]
+    ],
+    "zero_residual_rear": {
+      "stage": "rear",
+      "seed": 20271000,
+      "ticks": 842,
+      "seconds": 14.033333333333333,
+      "terminated": true,
+      "truncated": false,
+      "outcome": "kill",
+      "angle_deg": 1.0,
+      "independent_attack_ticks": 180,
+      "enemy_attack_ticks": 0,
+      "attack_seconds": 3.0,
+      "min_altitude_m": 4590.697629329896,
+      "max_g": 1.1295998646885883,
+      "guard_frames": 0,
+      "initial_red_position": [
+        23.060551999999994,
+        121.94855500000001,
+        15117.456956151873
+      ],
+      "final_red_position": [
+        23.03575719567842,
+        121.93292025344397,
+        15093.652356497943
+      ],
+      "wall_seconds": 1.4220000000059372,
+      "official_validation": false
+    }
+  },
+  "sources_before": {
+    "E:\\ai_pilot\\autopilot\\combat_fix\\controller.py": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+    "E:\\ai_pilot\\autopilot\\combat_fix\\env.py": "8bb9078809d28ab2117abc3b928c138acf1da1dc4442e69de4c4632d8c3c9607",
+    "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\combat_v3\\interface.py": "50f63ee563a8cb13b9bb472b0de7905579bcc9c70bc69efc571681879eb02555",
+    "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\combat_v3\\rules.py": "40857e278e8f3902fc9e8c39acf0aebb7bc8e02fafb9627a3f5561512a2f4e05",
+    "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\combat_v3\\config.json": "d4fba053617240e07ffc67fe389d944313ba12dff491e569a0ae764e0f7b88ec",
+    "E:\\ai_pilot\\autopilot\\opponent_lab\\duel_lab.py": "9f358a7a04b09728199ac33de120146e3aa0bcbb37fe18dbae2a2b5a7cfcb9a6"
+  },
+  "sources_after": {
+    "E:\\ai_pilot\\autopilot\\combat_fix\\controller.py": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+    "E:\\ai_pilot\\autopilot\\combat_fix\\env.py": "8bb9078809d28ab2117abc3b928c138acf1da1dc4442e69de4c4632d8c3c9607",
+    "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\combat_v3\\interface.py": "50f63ee563a8cb13b9bb472b0de7905579bcc9c70bc69efc571681879eb02555",
+    "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\combat_v3\\rules.py": "40857e278e8f3902fc9e8c39acf0aebb7bc8e02fafb9627a3f5561512a2f4e05",
+    "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\combat_v3\\config.json": "d4fba053617240e07ffc67fe389d944313ba12dff491e569a0ae764e0f7b88ec",
+    "E:\\ai_pilot\\autopilot\\opponent_lab\\duel_lab.py": "9f358a7a04b09728199ac33de120146e3aa0bcbb37fe18dbae2a2b5a7cfcb9a6"
+  },
+  "source_drift": false,
+  "wall_seconds": 24.953000000008615,
+  "finished_utc": "2026-10-06T06:10:15.218470+00:00",
+  "official_validation": false,
+  "training_steps_added": 0,
+  "test_source_sha256": "6d147efc53fa3692e188cfbf184819dc19efc6aa72990ba6709eaf8c59cf6e58"
+}

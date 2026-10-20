@@ -1,0 +1,52 @@
+{
+  "status": "proposed_not_implemented",
+  "hypothesis": "The current StationController doctrine may be weaker against the frozenSAC opponent than the retained pure repair_guide. Test the two existing rule controllers directly before changing further speed/bank constants or training on an ineffective action channel.",
+  "rationale": "Acceleration reaches its target but does not solve pursuit. All recent complete far60/latch/speed variants regress; compare the actual retained baseline with StationController rather than optimizing a rejected branch. No claim pure repair_guide will win.",
+  "single_factor": "Blue guidance controller family only: frozen zero-tactical StationController original72 versus exact retained RepairController.act with residual=None. Shared inherited command/safety/G/trim/slew remain frozen. Not a one-line ablation or attribution to one doctrine subterm.",
+  "baseline": "station_zero original72, NOT pure repair_guide",
+  "candidate": "pure repair_guide frozen repair_v1/controller.py; must verify actual runtime source and no tactical injection",
+  "red": "same frozen sac5000, independent controller/clock/cache/reset/privatecounter",
+  "next_work": "Build isolated wrapper and precheck actual RepairController.act wiring. Verify singleact/command/send, source/reset, legalOWN26 policy, actual runtime class/MRO and fresh state, no extra tactics or reused controller state. No source edits to frozen original.",
+  "FDM_launch_allowed": false,
+  "reason": "No pure-guide comparison runner/precheck/contract or new seeds have been implemented/claimed; new guarded precheck required first.",
+  "contingent_full_comparison": {
+    "new_unused_openings": 2,
+    "explicit_sides": [
+      "normal",
+      "mirrored"
+    ],
+    "same_both_initial_SHA_within_each_pair": true,
+    "games": 4,
+    "seconds_per_worker": 90,
+    "total_hard_seconds": 600,
+    "strict_verification_seconds_included": 120,
+    "gates": [
+      "unique_output",
+      "unused_seedregistry",
+      "OSlock",
+      "STOP",
+      "resources",
+      "source_XML_red_model_SHA",
+      "independent_original_watchdog",
+      "actual_exits0",
+      "fulljudge/event/score/CSV/ACMI",
+      "runtime_controller_class_and_source_receipt"
+    ],
+    "reports": [
+      "wins/losses",
+      "attack/kill/death/crash/collision/over9G",
+      "scoremargin",
+      "inrange/frontinrange",
+      "commonAGL",
+      "worstcase"
+    ],
+    "candidate_over9G": "reject",
+    "deployment_allowed": false
+  },
+  "no_speed_or_bank_sweep": true,
+  "no_blind_SAC": true,
+  "no_replay_completed_batches": true,
+  "new_training_allowed": false,
+  "seed_claims": [],
+  "uncertainty": "Proposed comparison only; no evidence of pure-guide advantage over this frozen opponent."
+}

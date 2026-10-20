@@ -1,0 +1,1 @@
+{"id": "17_d_bfm_user_nz", "script": "rollout_bfm.py", "args": ["eval", "--arms", "user_nz,user_nz_t", "--n", "12", "--workers", "3", "--seed0", "900000", "--out", "runs/bfm_user_nz"], "exit_code": 0, "reason": null, "seconds": 1013.7}

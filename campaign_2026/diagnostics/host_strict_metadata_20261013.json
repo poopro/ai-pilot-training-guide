@@ -1,0 +1,68 @@
+{
+  "updated_utc": "2026-10-12T16:08:08.401805+00:00",
+  "tests_passed": [
+    "real historical artifact remains valid; fixed six-round eligibility remains false",
+    "well-formed complete metadata shape accepted; not actual session proof",
+    "source_sha256 invalid value rejected",
+    "source_sha256 invalid value rejected",
+    "source_sha256 invalid value rejected",
+    "player_sha256 invalid value rejected",
+    "host_exe_sha256 invalid value rejected",
+    "host_setting_sha256 invalid value rejected",
+    "validation_exit_code invalid value rejected",
+    "validation_exit_code invalid value rejected",
+    "same raw CSV under six altered session identities counts once",
+    "six distinct synthetic raw CSV identities demonstrate aggregate branch only; no Host proof"
+  ],
+  "actual_history_audit": {
+    "report": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_20261006_204436_608d\\host_result.json",
+    "report_sha256": "cab94c7811cfc35f5cece2f3e1a340c3d4549625cd831d3bb18f392bc576d5f1",
+    "round_identity": "3533e90fd4bd1fb994eed5d79e538ab78234ed8e46930628b0b8f7f68b648f11",
+    "csv_sha256": "afc6970119e741a8406e4bfbb5ada9c508d936332bd4dbbcdcd9c825b0d759f0",
+    "stdout_sha256": "018b4abd95143bedc6f55af2bfac830ac68c43031f2e9b64281a4e54cc2eafb6",
+    "checks": {
+      "finite_csv": true,
+      "strictly_increasing_time": true,
+      "full_round_or_early_adjudication": true,
+      "host_game_over_logged": true,
+      "csv_terminal_log_consistent": true,
+      "csv_sha_matches": true,
+      "reported_rows_match": true,
+      "reported_duration_matches": true,
+      "observed_player1_ready": true,
+      "observed_player1_moved": true,
+      "host_stderr_exists": true,
+      "acmi_hash_and_terminal_time": true
+    },
+    "saved_host_artifact_valid": true,
+    "fixed_profile_hash": "7fb97433ef7f6aa0ac2e7d89627c2947b0ca280aea8cc34bcb2df4246d23716c",
+    "actual_validation_exit_code": null,
+    "host_setting_hash_recorded": false,
+    "fixed_metadata_checks": {
+      "source_hashes_valid": true,
+      "player_hash_valid": true,
+      "host_exe_hash_valid": true,
+      "host_setting_hash_valid": false,
+      "actual_validation_exit_zero": false
+    },
+    "eligible_for_six_round_fixed_source_gate": false,
+    "host_winner_raw": "1.0",
+    "scope": "Historical evidence audit only; no new Host, package approval, or competition certification"
+  },
+  "renamed_same_csv_summary": {
+    "requested_reports": 6,
+    "unique_saved_rounds": 1,
+    "duplicates_excluded": 5,
+    "valid_saved_host_artifacts": 1,
+    "eligible_fixed_source_rounds": 1,
+    "six_round_fixed_source_evidence_complete": false,
+    "new_host_rounds": 0,
+    "competition_certification": false
+  },
+  "script_sha256": "b520c385520eb85d6202a158903bd979761997bf51d7b00e9f186dcf6159d98b",
+  "backup": "E:\\ai_pilot\\campaign_2026\\diagnostics\\audit_host_evidence.before_strict_metadata_20261013.py.bak",
+  "legacy_artifacts_unchanged": true,
+  "new_host_rounds": 0,
+  "new_fdm_ticks": 0,
+  "scope": "Fail-closed saved evidence gate repair only. Hash syntax is not provenance. Actual future session capture and setting/source byte verification remain required."
+}

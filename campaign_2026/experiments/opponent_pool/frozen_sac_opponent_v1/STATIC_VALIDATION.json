@@ -1,0 +1,17 @@
+{
+  "actual_exit_code": 0,
+  "tool_chunk": "394b32",
+  "test_count": 10,
+  "runtime_seconds": 0.211,
+  "new_FDM_ticks": 0,
+  "real_model_inferences": 0,
+  "source_gate_verified_readonly": true,
+  "contract_sha256": "f01a6efe10dcff42500810ab57df7cdd11591c95f14864ed2a3ceecd4e766f0e",
+  "executor_sha256": {
+    "adapter.py": "e23e37b65d46bc601a79d30d2f213e1b8f524b17e64fc64685048635cf647398",
+    "factory.py": "cd92426d72483ad82a41404431561ca31c9e14dec0564b5abe1aa46974a57b71",
+    "packet_features.py": "7e43ee18ad962981b782c3d62841b0e91807729398c2724a46b3d33d91e26b34",
+    "test_adapter.py": "dbddff432f2117e59f24f3a2798f2f8b733225b523b090ca592ffb4ed5923ff8"
+  },
+  "preparation_sha256": "1e0a4873c538a1828017c834211fb74befc772132a1e0962973737d9f87a9800"
+}

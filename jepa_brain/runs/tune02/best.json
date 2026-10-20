@@ -1,0 +1,27 @@
+{
+ "params": {
+  "kp_head": 2.5043240748028532,
+  "bank_lim": 75.14197420266456,
+  "hold_m": 715.3569245383599,
+  "close_gain": 0.0908981225379508,
+  "lead_blend": 0.621943273035301,
+  "near_m": 1061.2404759048363,
+  "elev_rate_gain": 0.5593290184172319,
+  "ff_gain": 1.0072528098477374,
+  "turn_cap_deg": 47.08463902035993,
+  "turn_cap": 267.2075878629207
+ },
+ "gen": 12,
+ "default": {
+  "kp_head": 1.8,
+  "bank_lim": 72.0,
+  "hold_m": 600.0,
+  "close_gain": 0.07,
+  "lead_blend": 0.35,
+  "near_m": 1100.0,
+  "elev_rate_gain": 0.5,
+  "ff_gain": 1.0,
+  "turn_cap_deg": 45.0,
+  "turn_cap": 290.0
+ }
+}

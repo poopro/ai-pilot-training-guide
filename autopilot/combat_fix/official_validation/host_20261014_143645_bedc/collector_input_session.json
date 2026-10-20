@@ -1,0 +1,136 @@
+{
+  "status": "start_boundary_marked",
+  "controller": "repair_guide",
+  "model": null,
+  "player": {
+    "pid": 18588,
+    "create_time": 1791959806.2720597,
+    "command": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-X",
+      "utf8",
+      "-u",
+      "E:\\ai_pilot\\autopilot\\combat_fix\\player.py",
+      "--guide",
+      "--network",
+      "E:\\ai_pilot\\autopilot\\combat_fix\\udp_config.json"
+    ]
+  },
+  "host_processes": [
+    {
+      "pid": 4940,
+      "create_time": 1791959802.9195669,
+      "exe": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe",
+      "command": [
+        "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe"
+      ]
+    }
+  ],
+  "host_dir": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線",
+  "runtime_dir": "C:\\Users\\USER\\AppData\\Local\\JSBsimHost_1_0_0_0",
+  "folder": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_20261014_143645_bedc",
+  "source_sha256": {
+    "repair/controller.py": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+    "repair/env.py": "8bb9078809d28ab2117abc3b928c138acf1da1dc4442e69de4c4632d8c3c9607",
+    "lab/duel_lab.py": "9f358a7a04b09728199ac33de120146e3aa0bcbb37fe18dbae2a2b5a7cfcb9a6",
+    "base/combat_v3/env.py": "4b4e91dd8168517039ed7092a0536dcefd5297582c4f3722be8d7ca5d3b9d7b4",
+    "base/combat_v3/controller.py": "d772bf49a8d8408aaafec691c981d0612de7dada6450e0afcecbc3d958b7813b",
+    "base/combat_v3/interface.py": "50f63ee563a8cb13b9bb472b0de7905579bcc9c70bc69efc571681879eb02555",
+    "base/combat_v3/fdm.py": "c59e705d248f1678f64ba6788639260c739a1b1a6e8f6830d62e4a11f3a1dba6",
+    "base/combat_v3/rules.py": "40857e278e8f3902fc9e8c39acf0aebb7bc8e02fafb9627a3f5561512a2f4e05",
+    "base/combat_v3/config.json": "d4fba053617240e07ffc67fe389d944313ba12dff491e569a0ae764e0f7b88ec",
+    "base/envs/jsbsimEnv/jsbsimFdm.py": "6d193634ccaff77db6f3d1e248b2276c4a7177c47dbfa82fd466154b67d8c541"
+  },
+  "player_sha256": "28571c396ef067bbd01f8fb6f41763cb41e2a2c9c001e7bf3114da81677cd825",
+  "host_exe_sha256": "635b0ca956695a74e662f7f3a91e50d17ddeffb6e6be468ed8b916d305c19013",
+  "preexisting_csv": {
+    "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\飛行競賽Host端Record_20261005_1847.csv": {
+      "size": 14932323,
+      "mtime_ns": 1791197541439860500
+    },
+    "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\飛行競賽Host端Record_20261006_2045.csv": {
+      "size": 4923510,
+      "mtime_ns": 1791290801752768600
+    },
+    "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\飛行競賽Host端Record_20261013_2347.csv": {
+      "size": 5733776,
+      "mtime_ns": 1791906560398151300
+    },
+    "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\飛行競賽Host端Record_20261014_0631.csv": {
+      "size": 4661505,
+      "mtime_ns": 1791930778668516300
+    }
+  },
+  "network": {
+    "listen_ip": "127.0.0.1",
+    "listen_port": 8199,
+    "host_ip": "127.0.0.1",
+    "host_port": 8099,
+    "max_hz": 60
+  },
+  "host_validation_completed": false,
+  "competition_certification": false,
+  "watchdog_token": "20261014_143638_0b33a895",
+  "watchdog": {
+    "token": "20261014_143638_0b33a895",
+    "status": "armed",
+    "pid": 7756,
+    "create_time": 1791959798.9114065,
+    "command": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\host_watchdog.py",
+      "--token",
+      "20261014_143638_0b33a895",
+      "--deadline-epoch",
+      "1791960518.9087465"
+    ],
+    "armed_utc": "2026-10-14T06:36:39.250855+00:00",
+    "deadline_epoch": 1791960518.9087465,
+    "poll_seconds": 0.25
+  },
+  "evidence_capture_version": 2,
+  "host_exe_snapshot": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_20261014_143645_bedc\\Host_executable.bin",
+  "host_setting_sha256": "c5236a1fc9db2ae18d4cb2b310da72dfceb1a569f916f1ad9bc6c02ba6efb418",
+  "host_launch_record": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_20261014_143645_bedc\\host_launch_snapshot.json",
+  "host_log_dir": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_launch_20261014_143640_2021",
+  "source_snapshots": {
+    "repair/controller.py": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_20261014_143645_bedc\\source_snapshot\\repair\\controller.py",
+    "repair/env.py": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_20261014_143645_bedc\\source_snapshot\\repair\\env.py",
+    "lab/duel_lab.py": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_20261014_143645_bedc\\source_snapshot\\lab\\duel_lab.py",
+    "base/combat_v3/env.py": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_20261014_143645_bedc\\source_snapshot\\base\\combat_v3\\env.py",
+    "base/combat_v3/controller.py": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_20261014_143645_bedc\\source_snapshot\\base\\combat_v3\\controller.py",
+    "base/combat_v3/interface.py": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_20261014_143645_bedc\\source_snapshot\\base\\combat_v3\\interface.py",
+    "base/combat_v3/fdm.py": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_20261014_143645_bedc\\source_snapshot\\base\\combat_v3\\fdm.py",
+    "base/combat_v3/rules.py": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_20261014_143645_bedc\\source_snapshot\\base\\combat_v3\\rules.py",
+    "base/combat_v3/config.json": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_20261014_143645_bedc\\source_snapshot\\base\\combat_v3\\config.json",
+    "base/envs/jsbsimEnv/jsbsimFdm.py": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_20261014_143645_bedc\\source_snapshot\\base\\envs\\jsbsimEnv\\jsbsimFdm.py"
+  },
+  "setting_capture_phase": "before_host_Popen",
+  "capture_bridge_sha256": "258c27f6b0da4b8f5fce66bab48a883c99e7fc2617948b61d404524a49e44bdd",
+  "validation_exit_code": null,
+  "terminal_capture_version": 1,
+  "p2_logs_before_launch": {
+    "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\player2_runtime.log": {
+      "exists": true,
+      "size": 7315412,
+      "mtime_ns": 1791930778950440000,
+      "sha256": "b736d271d7485c984a126458b238a6f967f64245e9a64aa048d216674bb5a7e7"
+    },
+    "C:\\Users\\USER\\AppData\\Local\\JSBsimHost_1_0_0_0\\player2_runtime.log": {
+      "exists": false
+    }
+  },
+  "host_launch_identity": {
+    "pid": 4940,
+    "create_time": 1791959802.9195669,
+    "command": [
+      "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe"
+    ]
+  },
+  "start_clicked_epoch": 1791959921.4665668,
+  "start_marker_scope": "Operator boundary immediately BEFORE pressing START; not direct UI observation",
+  "p2_terminal_receipt": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_20261014_143645_bedc\\p2_terminal_receipt.json"
+}

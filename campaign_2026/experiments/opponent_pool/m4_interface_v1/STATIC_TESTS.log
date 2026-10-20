@@ -1,0 +1,13 @@
+test_access_denied_remains_unknown (__main__.PlanTests) ... ok
+test_altered_plan_rejected (__main__.PlanTests) ... ok
+test_exact_three_opponents_two_same_seed_resets (__main__.PlanTests) ... ok
+test_executable_identity_mismatch_rejected (__main__.PlanTests) ... ok
+test_guard_algorithm_byte_identical_to_completed_v5 (__main__.PlanTests) ... ok
+test_invalid_commands_fail (__main__.PlanTests) ... ok
+test_original_deadline_not_extendable (__main__.PlanTests) ... ok
+test_worker_checks_guard_before_model_import (__main__.PlanTests) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.015s
+
+OK

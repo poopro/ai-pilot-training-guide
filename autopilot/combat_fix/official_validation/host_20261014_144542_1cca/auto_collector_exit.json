@@ -1,0 +1,30 @@
+{
+  "command": [
+    "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "E:\\ai_pilot\\campaign_2026\\diagnostics\\collect_host_recorded.py",
+    "collect"
+  ],
+  "token": "20261014_144541_e12aaabc",
+  "started_utc": "2026-10-14T06:49:44.723498+00:00",
+  "trigger": "fresh owned P2 STOPPED + new terminal CSV + converted stable ACMI",
+  "identity": {
+    "pid": 7860,
+    "parent_pid": 17088,
+    "create_time": 1791960584.7269287,
+    "command": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\collect_host_recorded.py",
+      "collect"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe"
+  },
+  "actual_exit_code": 0,
+  "timed_out": false,
+  "exited_utc": "2026-10-14T06:49:47.145826+00:00"
+}

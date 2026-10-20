@@ -1,0 +1,17 @@
+{
+  "out": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_bank60_v2\\run_20261017_153047_104619",
+  "case": {
+    "id": "mirrored_far_bank60_2026310401",
+    "opening": 1,
+    "side": "mirrored",
+    "seed": 2026310401,
+    "actor": "far_bank60",
+    "red": "sac5000",
+    "distance_ft": 6000,
+    "max_ticks": 18000
+  },
+  "limits": {
+    "deadline_monotonic": 40844.406,
+    "deadline_epoch": 1792222545.636526
+  }
+}

@@ -1,0 +1,1 @@
+{"id": "61_2_open_reg", "script": "rollout_open.py", "args": ["eval", "--arms", "tuned,topen:out:6:side=-1", "--n", "24", "--side", "-1", "--workers", "3", "--seed0", "985000", "--opponents", "guide,lead,lag,mix,breaker,level,sac314,defender,pp0,pp2,pp5", "--out", "runs/open_reg"], "exit_code": 0, "reason": null, "seconds": 3144.1}

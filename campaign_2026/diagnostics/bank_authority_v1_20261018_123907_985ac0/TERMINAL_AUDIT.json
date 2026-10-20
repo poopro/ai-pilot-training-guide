@@ -1,0 +1,58 @@
+{
+  "observed_utc": "2026-10-18T04:41:17.423521+00:00",
+  "identities": [
+    {
+      "recorded": {
+        "pid": 7124,
+        "create": 1792298346.2602756,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\diagnostics\\bank_authority_guardian_v1.py"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 19816
+      },
+      "current": null,
+      "original_core_live": false
+    },
+    {
+      "recorded": {
+        "pid": 16104,
+        "create": 1792298347.1547604,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\diagnostics\\bank_authority_guardian_v1.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\diagnostics\\bank_authority_v1_20261018_123907_985ac0"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 7124
+      },
+      "current": null,
+      "original_core_live": false
+    },
+    {
+      "recorded": {
+        "pid": 3004,
+        "create": 1792298347.1637254,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 16104
+      },
+      "current": null,
+      "original_core_live": false
+    }
+  ],
+  "all_original_core_absent": true,
+  "source_fixed": true,
+  "other_campaign_workloads": []
+}

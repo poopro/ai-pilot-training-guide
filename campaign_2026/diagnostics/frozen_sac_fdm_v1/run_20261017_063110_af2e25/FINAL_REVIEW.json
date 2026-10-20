@@ -1,0 +1,30 @@
+{
+  "completed_utc": "2026-10-16T22:34:15.180260+00:00",
+  "hypothesis": "The frozen SAC red bridge consumes state n before physical n+1, emits once, and counts completed post-step windows once",
+  "unique_change": "Replace red rule action with existing immutable packet-only frozen SAC adapter; blue zero tactical and physics/judge unchanged",
+  "verified_FDM_packet_timing": true,
+  "actual_parent_exit": 0,
+  "actual_worker_exit": 0,
+  "actual_verifier_exit": 0,
+  "new_FDM_ticks": 1200,
+  "distinct_development_seeds": [
+    2026310000,
+    2026310001
+  ],
+  "same_seed_repeats": 2,
+  "source_xml_model_fixed": true,
+  "source_freeze_sha256": "2bdd630e613d0153dda4c0b6001e89fead35f428d462fcef7a7de0f00cf39723",
+  "verification_sha256": "c882afe2887aea9458d3dbd4e3e4e90321bcf6d2b0d76bdeffd9de1eb691e2b4",
+  "parent_wall_seconds": 25.59400000000005,
+  "verifier_wall_seconds": 1.0723828,
+  "reserved_seconds": 240,
+  "attack_counter_nonzero_exercised": false,
+  "over9G_ticks": 0,
+  "max_cold_command_ms": 36.5313000002061,
+  "max_observed_warm_command_ms": 2.2587000003113644,
+  "decision": "interface_pass_prepare_full_battle_not_promotion",
+  "next_action": "Implement a new independently guarded six-full-game development comparison: blue zero-tactical StationController / frozen sac5000 / transfer10000 against fixed frozen sac5000 red, two new openings including left/right, same full initial SHA per opening. Planned only, not implemented or launched. Retain baseline; no blind training or replay reuse.",
+  "full_battle_verified": false,
+  "training_started": false,
+  "formal_deployment": "repair_guide"
+}

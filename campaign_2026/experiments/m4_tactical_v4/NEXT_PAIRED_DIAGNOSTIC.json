@@ -1,0 +1,39 @@
+{
+  "created_utc": "2026-10-15T16:21:12.545532+00:00",
+  "status": "completed_verified",
+  "hypothesis": "Unsigned3D nose magnitude reverses small left yaw correction. Change only that bank-feedback input to signed heading_error.",
+  "reference_failure": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_rules_interface_v1\\run_20261016_000620_fffa59\\PARTIAL_AUDIT.json",
+  "actors": [
+    "frozen_m4_v3_unsigned",
+    "frozen_m4_v4_signed"
+  ],
+  "paired_initial_yaw_offsets_deg": [
+    -1.2,
+    1.2
+  ],
+  "planned_seed_by_offset": {
+    "-1.2": 2026101620,
+    "1.2": 2026101621
+  },
+  "seed_role": "planned_paired_development_physical_fixture_not_holdout",
+  "seeds_claimed": false,
+  "case_count": 4,
+  "resets_each": 2,
+  "max_ticks_each_reset": 600,
+  "max_total_self_ticks": 4800,
+  "total_wall_seconds": 240,
+  "case_wall_seconds": 45,
+  "controller_actions": "fixed zero tactical, no reward wrapper or learner",
+  "required_gates": [
+    "fresh actual occupancy/resources/STOP, source/red/XML/model freeze, registry/ledger reservation, OS lock, original independent guard deadline",
+    "private worker exact parent/exe/create/cmd/ancestor and reserved case",
+    "each side actor initial full blue/red packet SHA match, repeated resets match",
+    "each60Hz actual control equals sole act output, full blue/red judge telemetry and true exits",
+    "monotonic ACMI; early terminal exposure aligned when comparing height/G/attack"
+  ],
+  "decision_rule": "Do not promote. Diagnose whether left error moves toward1deg, compare both sides attack/minTA and common exposure altitude/G. Any over9G or opposite-side regression requires review before official-opening development. No parameter sweep.",
+  "actual_run": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_yaw_pair_v1\\run_20261016_002509_917302",
+  "verified_paired_yaw_FDM": true,
+  "new_fdm_ticks": 3960,
+  "source_frozen_unchanged": true
+}

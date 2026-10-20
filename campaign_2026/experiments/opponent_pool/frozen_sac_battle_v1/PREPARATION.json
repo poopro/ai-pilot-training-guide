@@ -1,0 +1,38 @@
+{
+  "new_development_seeds": [
+    2026310100,
+    2026310101
+  ],
+  "rounds": 6,
+  "batch_wall_cap_seconds": 600,
+  "deployment_allowed": false,
+  "side_by_seed": {
+    "2026310101": "mirrored",
+    "2026310100": "normal"
+  },
+  "round_wall_cap_seconds": 90,
+  "source_count": 144,
+  "red": "frozen sac5000",
+  "test_exit": 0,
+  "hypothesis": "Existing learned policies may improve or regress against fixed frozen learned red compared with zero tactical StationController",
+  "sole_within_opening_factor": "Blue actor selection",
+  "preflight_actual_exit": 0,
+  "score_profile": "publication90_LINE1deg_AGL_right_bin",
+  "prelaunch_metadata_error": "Initial PowerShell ConvertTo-Json rejected integer keys in side_by_seed; launcher independent gates succeeded and real CONTRACT.json was saved before workers; this metadata-only preparation file corrected during run without changing frozen sources",
+  "limits": [
+    "Two development openings only, no professional-team win probability",
+    "Station-zero is signed-yaw StationController, not pure repair_guide",
+    "Distinct seeds across left/right, not a pure isolated side-effect comparison",
+    "One attempt, no repeated completed18 or prior1200 interface ticks"
+  ],
+  "tests": 5,
+  "training_started": false,
+  "round_tick_cap": 18000,
+  "prepared_utc": "2026-10-17T01:35:53.4802391Z",
+  "blue_actors": [
+    "station_zero",
+    "sac5000",
+    "transfer10000"
+  ],
+  "preflight_tool": "586c88"
+}

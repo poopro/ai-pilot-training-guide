@@ -1,0 +1,69 @@
+{
+  "observed_utc": "2026-10-13T04:31:40.061556+00:00",
+  "observed_taipei": "2026-10-13T12:31:40.061556+08:00",
+  "automation_id": "ai",
+  "mode": "monitor_only_no_new_research",
+  "usage": {
+    "primary_used_percent": 0,
+    "weekly_used_percent": 47,
+    "lower_remaining_percent": 53,
+    "primary_resets_at": 1791883859,
+    "weekly_resets_at": 1792306393,
+    "credits_or_reset_used": false,
+    "primary_resets_utc": "2026-10-13T09:30:59+00:00",
+    "weekly_resets_utc": "2026-10-18T06:53:13+00:00"
+  },
+  "processes": {
+    "pointer_identity": {
+      "research": "原記錄的 PID 已不存在",
+      "training": "原記錄的 PID 已不存在"
+    },
+    "related_live_python": [],
+    "unknown_python": []
+  },
+  "comparison": {
+    "path": "E:\\ai_pilot\\campaign_2026\\experiments\\fresh_bank80\\run_20261013_013609_5218\\COMPARISON.json",
+    "sha256": "78192becf6c06caaf7dc1bfbbe1855e666baefdab1205dda35219d9f495bbeff",
+    "verified_complete": true,
+    "gate": "reject_promotion",
+    "already_notified": true,
+    "notice_key": "fresh_bank80/run_20261013_013609_5218|reject_promotion|78192becf6c06caaf7dc1bfbbe1855e666baefdab1205dda35219d9f495bbeff"
+  },
+  "training_bundle_presence": {
+    "model.zip": {
+      "exists": true,
+      "bytes": 924047
+    },
+    "replay.pkl": {
+      "exists": true,
+      "bytes": 9401547
+    },
+    "manifest.json": {
+      "exists": true,
+      "bytes": 13097
+    }
+  },
+  "resources": {
+    "ram_available_gib": 7.210075378417969,
+    "disk_free_gib": 195.1188507080078,
+    "root_stop_present": false
+  },
+  "compute_budget": {
+    "date_taipei": "2026-10-13",
+    "daily_limit_hours": 6.0,
+    "reserved_hours": 0.6666666666666666,
+    "items": [
+      {
+        "id": "bank80_fresh_dev_2026101300_7ddbf0893840",
+        "hours": 0.6666666666666666,
+        "status": "completed",
+        "actual_elapsed_seconds": 812.0,
+        "output": "E:\\ai_pilot\\campaign_2026\\experiments\\fresh_bank80\\run_20261013_013609_5218"
+      }
+    ]
+  },
+  "retained_deployment": "repair_guide",
+  "deployment_allowed": false,
+  "next_action": "Daily review: localize the transient overload near track/recover before proposing a single-factor safety candidate. No unchanged full rerun, expanded pool, holdout or Host promotion for this rejected candidate. Keep all source and artifacts frozen.",
+  "decision": "DONT_NOTIFY"
+}

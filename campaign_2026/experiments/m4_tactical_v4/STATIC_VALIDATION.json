@@ -1,0 +1,25 @@
+{
+  "observed_utc": "2026-10-15T16:18:56.394611+00:00",
+  "actual_exit_code": 0,
+  "command": [
+    "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\m4_tactical_v4\\test_candidate.py",
+    "-v"
+  ],
+  "tests": 8,
+  "source_sha256": {
+    "judge_adapter.py": "94067c9b38ef25d15022996d7a7f0fd1c8cb250e849e80da6c30c78a25506b19",
+    "m1_station.py": "fcda220748b0a64413d10c987df850ea975d2925994b556157c62331e97795fc",
+    "m3_mirror_league.py": "e6f47242eb344dacbb68b78d0b229ca5018b787c71d3ee94d660e25ead0371c1",
+    "m4_tactical_rl.py": "4475c8b94eee0ee94a17010004930b8ae286f0a6a299064dc34864e45ca0d1f7",
+    "reward_wrapper.py": "daf74a4b643530efd4fae0719cf005611d53d665959c4df48c1b10abfd131431",
+    "test_candidate.py": "80be785a8b6573c04b71bc709a2e4e3fcf82b79af60c4a4f5ef328c036b78e32"
+  },
+  "scope": "Actual StationController AST sign/one-factor tests and independent reward telescoping algebra; no FDM or learner",
+  "new_FDM_ticks": 0,
+  "training_started": false,
+  "deployment_allowed": false
+}

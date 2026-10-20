@@ -1,0 +1,17 @@
+{
+  "out": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\run_20261018_033053_98bc0f",
+  "case": {
+    "id": "mirrored_far_speed_unclipped_2026310701",
+    "opening": 1,
+    "side": "mirrored",
+    "seed": 2026310701,
+    "actor": "far_speed_unclipped",
+    "red": "sac5000",
+    "distance_ft": 6000,
+    "max_ticks": 18000
+  },
+  "limits": {
+    "deadline_monotonic": 11479.453,
+    "deadline_epoch": 1792265742.2545104
+  }
+}

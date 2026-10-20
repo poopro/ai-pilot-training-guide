@@ -1,0 +1,1 @@
+{"id": "70_b_tune02", "script": "tune2.py", "args": ["--budget-min", "330", "--workers", "3", "--out", "runs/tune02"], "exit_code": 0, "reason": null, "seconds": 19472.6}

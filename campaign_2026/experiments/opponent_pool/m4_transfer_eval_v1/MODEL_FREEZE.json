@@ -1,0 +1,32 @@
+{
+  "created_utc": "2026-10-16T02:35:11.046987+00:00",
+  "candidate_finalized": true,
+  "read_only_source_policy": true,
+  "sac5000": {
+    "model_path": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_train_pilot_v1\\run_20261016_003919_a5c748\\cases\\fresh_sac_5000\\model.zip",
+    "model_sha256": "9f93eb56483558ad56283c00b1ba34af96a236583bc977ef7d9fad375d9a0fea",
+    "manifest_path": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_train_pilot_v1\\run_20261016_003919_a5c748\\BUNDLE_MANIFEST.json",
+    "manifest_sha256": "72ee3d82d4bd3c435f1f942d314cb85865f19a7c7ea7679725391508eedfd0ef"
+  },
+  "transfer10000": {
+    "model_path": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_actor_transfer_10k_v1\\run_20261016_102640_412524\\cases\\actor_transfer_10000\\model.zip",
+    "model_sha256": "6c7ceea74457557be60f4156313cf1d75ffff20196159ae8fe22a7809190c012",
+    "training_run": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_actor_transfer_10k_v1\\run_20261016_102640_412524",
+    "training_evidence_sha256": {
+      "VERIFICATION.json": "72d6a8440519cce916530acf0279c9ba07ce4c6750a987eb6ba060bbb87139ab",
+      "launcher_receipt.json": "6035df9047c3e0e8e2370b5a90c63c21d459e7cfc25819a615b84977f4cd240b",
+      "supervisor_exit.json": "ac6c60df1e87166cdb33ede85d59758b20ae9fde398af6779f1775dbda9744a0",
+      "guard.json": "1d6d979cb8e17dfcb64c19b8da4aa1ea3b71ebdf4c02066afda69f64578ec9b8",
+      "report.json": "6c7ab130c2ddc39bef088804b5ceafd4fb4fb0ea6b828e5a0efa0ff79f17acbb",
+      "launch.json": "ded692cdd5441da326533afe2c65d674c6c845d51f9da0682efdafabbffe2963",
+      "reservation.json": "687eff4dd7763f0d3a237c91f2f8066ebf8ce589e531943cc84cd719140c9408"
+    }
+  },
+  "technical_training_verified": true,
+  "actual_parent_worker_guard_exit": [
+    0,
+    0,
+    0
+  ],
+  "deployment_allowed": false
+}

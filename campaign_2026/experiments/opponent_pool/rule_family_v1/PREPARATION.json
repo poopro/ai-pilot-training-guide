@@ -1,0 +1,24 @@
+{
+  "status": "wiring_verified_prefix_family_swap_has_no_effect",
+  "contract": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rule_family_v1\\CONTRACT.json",
+  "guardian": "E:\\ai_pilot\\campaign_2026\\diagnostics\\rule_family_precheck_guardian_v1.py",
+  "FDM_launch_allowed": false,
+  "full_comparison_runner_implemented": false,
+  "seed_claims": [],
+  "deployment_allowed": false,
+  "precheck_run": "E:\\ai_pilot\\campaign_2026\\diagnostics\\rule_family_precheck_v1_20261018_092908_52c797",
+  "verification": "E:\\ai_pilot\\campaign_2026\\diagnostics\\rule_family_precheck_v1_20261018_092908_52c797\\VERIFICATION.json",
+  "actual_parent_exit": 0,
+  "actual_worker_exit": 0,
+  "reason": "No actual controller-output or goal difference through60s on either saved opening. Four-game family comparison deferred rather than launch a null change; not proof of full300s equivalence.",
+  "activation_run": "E:\\ai_pilot\\campaign_2026\\diagnostics\\rule_family_activation_v1_20261018_093119_cda2d7",
+  "activation_verification": "E:\\ai_pilot\\campaign_2026\\diagnostics\\rule_family_activation_v1_20261018_093119_cda2d7\\VERIFICATION.json",
+  "first_counterfactual_difference_ticks": [
+    null,
+    null
+  ],
+  "tested_prefix_ticks_each": 3600,
+  "next_plan": "E:\\ai_pilot\\campaign_2026\\diagnostics\\bank_authority_v1_20261018_123907_985ac0\\NEXT_RESEARCH_PLAN.json",
+  "source_unchanged": true,
+  "latest_bank_authority": "E:\\ai_pilot\\campaign_2026\\diagnostics\\bank_authority_v1_20261018_123907_985ac0"
+}

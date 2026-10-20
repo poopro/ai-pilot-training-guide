@@ -1,0 +1,209 @@
+{
+  "date_taipei": "2026-10-17",
+  "daily_limit_hours": 6.0,
+  "reserved_hours": 1.4000000000000004,
+  "items": [
+    {
+      "id": "frozen_sac_cpu_probe_v2_20261017_003552_e2ae02",
+      "hours": 0.03333333333333333,
+      "status": "terminal_cpu_probe",
+      "output": "E:\\ai_pilot\\campaign_2026\\diagnostics\\frozen_sac_cpu_probe_v2_20261017_003552_e2ae02",
+      "warning_only": true,
+      "actual_worker_exit": 0,
+      "actual_wall_seconds": 31.480022430419922
+    },
+    {
+      "id": "run_20261017_063110_af2e25",
+      "hours": 0.06666666666666667,
+      "status": "completed",
+      "output": "E:\\ai_pilot\\campaign_2026\\diagnostics\\frozen_sac_fdm_v1\\run_20261017_063110_af2e25",
+      "warning_only": true,
+      "actual_worker_exit": 0,
+      "actual_wall_seconds": 25.59400000000005,
+      "actual_parent_exit": 0,
+      "actual_verifier_exit": 0,
+      "actual_verifier_seconds": 1.0723828,
+      "actual_parent_plus_verifier_seconds": 26.66638280000005,
+      "original_reservation_retained": true
+    },
+    {
+      "id": "run_20261017_093451_16086d",
+      "hours": 0.16666666666666666,
+      "status": "failed_partial",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_battle_v1\\run_20261017_093451_16086d",
+      "warning_only": true,
+      "actual_guard_wall_seconds": 91.01599999999962,
+      "worker_exits": [
+        1
+      ],
+      "actual_parent_exit": 2,
+      "actual_parent_exit_tool": "8e4066",
+      "verified_comparison": false,
+      "original_reservation_retained": true
+    },
+    {
+      "id": "run_20261017_093943_16bee6",
+      "hours": 0.16666666666666666,
+      "status": "completed_verified_via_independent_saved_data_audit",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_battle_v2\\run_20261017_093943_16bee6",
+      "warning_only": true,
+      "actual_guard_wall_seconds": 444.59400000000096,
+      "worker_exits": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "actual_parent_exit": 0,
+      "actual_initial_verifier_exit": 1,
+      "original_verifier_cap_seconds": 60,
+      "independent_audit": "E:\\ai_pilot\\campaign_2026\\diagnostics\\saved_sac_battle_audit_20261017_094917_10fc24",
+      "original_reservation_retained": true
+    },
+    {
+      "id": "saved_sac_battle_audit_20261017_094917_10fc24",
+      "hours": 0.05,
+      "status": "completed_verified_saved_data_audit",
+      "output": "E:\\ai_pilot\\campaign_2026\\diagnostics\\saved_sac_battle_audit_20261017_094917_10fc24",
+      "warning_only": true,
+      "actual_worker_exit": 0,
+      "actual_wall_seconds": 91.61000000000058,
+      "actual_guardian_exit": 0,
+      "actual_post_review_exit": 0,
+      "original_reservation_retained": true
+    },
+    {
+      "id": "sac_goal_projection_20261017_122745_b73993",
+      "hours": 0.03333333333333333,
+      "status": "completed_verified_offline_projection",
+      "output": "E:\\ai_pilot\\campaign_2026\\diagnostics\\sac_goal_projection_20261017_122745_b73993",
+      "warning_only": true,
+      "actual_worker_exit": 0,
+      "actual_wall_seconds": 67.5,
+      "actual_parent_exit": 0,
+      "original_reservation_retained": true
+    },
+    {
+      "id": "run_20261017_152917_6fba7c",
+      "hours": 0.16666666666666666,
+      "status": "failed_import_collision_before_recorded_combat",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_bank60_v1\\run_20261017_152917_6fba7c",
+      "warning_only": true,
+      "actual_guard_wall_seconds": 17.953999999997905,
+      "worker_exits": [
+        2
+      ],
+      "actual_shell_exit": 1,
+      "actual_worker_exit": 2,
+      "original_reservation_retained": true
+    },
+    {
+      "id": "run_20261017_153047_104619",
+      "hours": 0.16666666666666666,
+      "status": "completed_verified_development",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_bank60_v2\\run_20261017_153047_104619",
+      "warning_only": true,
+      "actual_guard_wall_seconds": 276.39100000000326,
+      "worker_exits": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "actual_parent_exit": 0,
+      "actual_verifier_exit": 0,
+      "original_reservation_retained": true
+    },
+    {
+      "id": "pursuit_window_trace_20261017_183319_9e78be",
+      "hours": 0.03333333333333333,
+      "status": "failed_post_trace_output_serialization",
+      "output": "E:\\ai_pilot\\campaign_2026\\diagnostics\\pursuit_window_trace_20261017_183319_9e78be",
+      "warning_only": true,
+      "actual_worker_exit": 1,
+      "actual_wall_seconds": 27.17199999999866,
+      "actual_parent_exit": 1,
+      "original_reservation_retained": true,
+      "normal_trace_inputs_preserved": true
+    },
+    {
+      "id": "pursuit_window_trace_v2_20261017_183554_46bebe",
+      "hours": 0.03333333333333333,
+      "status": "completed_verified_saved_trace_audit",
+      "output": "E:\\ai_pilot\\campaign_2026\\diagnostics\\pursuit_window_trace_v2_20261017_183554_46bebe",
+      "warning_only": true,
+      "actual_worker_exit": 0,
+      "actual_wall_seconds": 58.875,
+      "actual_parent_exit": 0,
+      "original_reservation_retained": true
+    },
+    {
+      "id": "rear_latch_precheck_v1_20261017_203552_9a320f",
+      "hours": 0.03333333333333333,
+      "status": "offline_rear_latch_precheck_complete_pending_parent",
+      "output": "E:\\ai_pilot\\campaign_2026\\diagnostics\\rear_latch_precheck_v1_20261017_203552_9a320f",
+      "warning_only": true,
+      "actual_worker_exit": 0,
+      "actual_wall_seconds": 24.75
+    },
+    {
+      "id": "run_20261017_203724_6cbe6e",
+      "hours": 0.16666666666666666,
+      "status": "failed_partial",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v1\\run_20261017_203724_6cbe6e",
+      "warning_only": true,
+      "actual_guard_wall_seconds": 14.905999999995402,
+      "worker_exits": [
+        2
+      ]
+    },
+    {
+      "id": "run_20261017_203915_d840e7",
+      "hours": 0.16666666666666666,
+      "status": "completed_physics_original_verifier_failed_saved_audit_verified",
+      "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v2\\run_20261017_203915_d840e7",
+      "warning_only": true,
+      "actual_guard_wall_seconds": 288.390999999996,
+      "worker_exits": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "original_verifier_exit": 2,
+      "original_verifier_cap_seconds": 120,
+      "independent_saved_audit": "E:\\ai_pilot\\campaign_2026\\diagnostics\\saved_latch_audit_v1_20261017_204803_78cf4a",
+      "actual_saved_audit_wall_seconds": 91.03199999999924,
+      "no_reservation_refund": true
+    },
+    {
+      "id": "saved_latch_audit_v1_20261017_204803_78cf4a",
+      "hours": 0.05,
+      "status": "offline_rear_latch_review_complete_pending_parent",
+      "output": "E:\\ai_pilot\\campaign_2026\\diagnostics\\saved_latch_audit_v1_20261017_204803_78cf4a",
+      "warning_only": true,
+      "actual_worker_exit": 0,
+      "actual_wall_seconds": 91.04699999999866
+    },
+    {
+      "id": "latch_window_v1_20261017_213638_941961",
+      "hours": 0.03333333333333333,
+      "status": "offline_latch_window_complete_pending_parent",
+      "output": "E:\\ai_pilot\\campaign_2026\\diagnostics\\latch_window_v1_20261017_213638_941961",
+      "warning_only": true,
+      "actual_worker_exit": 0,
+      "actual_wall_seconds": 8.0
+    },
+    {
+      "id": "latch_window_audit_v1_20261017_213931_a2c1a1",
+      "hours": 0.03333333333333333,
+      "status": "offline_latch_window_complete_pending_parent",
+      "output": "E:\\ai_pilot\\campaign_2026\\diagnostics\\latch_window_audit_v1_20261017_213931_a2c1a1",
+      "warning_only": true,
+      "actual_worker_exit": 0,
+      "actual_wall_seconds": 6.25
+    }
+  ]
+}

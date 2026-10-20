@@ -1,0 +1,36 @@
+{
+  "identity": {
+    "pid": 2532,
+    "creation_epoch": 1791981232.6812513,
+    "cmdline": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\v4\\run_smoke.py",
+      "--out",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\v4\\run_20261014_203352_611acd"
+    ]
+  },
+  "actual_parent_exit_code": 0,
+  "observed_by": {
+    "pid": 5292,
+    "creation_epoch": 1791981231.900376,
+    "cmdline": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\v4\\launch_smoke.py",
+      "--seed",
+      "2026102600",
+      "--diagnostic-case-index",
+      "2",
+      "--remaining-percent",
+      "39",
+      "--usage-epoch",
+      "1791980910"
+    ]
+  },
+  "observed_epoch": 1791981235.5363076
+}

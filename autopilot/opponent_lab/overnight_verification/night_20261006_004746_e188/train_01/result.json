@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "run_dir": "E:\\ai_pilot\\autopilot\\opponent_lab\\overnight_verification\\night_20261006_004746_e188\\train_01",
+  "final_bundle": "E:\\ai_pilot\\autopilot\\opponent_lab\\overnight_verification\\night_20261006_004746_e188\\train_01\\final_0000000128",
+  "pid": 11916,
+  "timesteps": 128,
+  "updates": 11,
+  "stop_file": "E:\\ai_pilot\\autopilot\\opponent_lab\\overnight_verification\\night_20261006_004746_e188\\train_01\\STOP",
+  "heartbeat_epoch": 1791218875.1352618,
+  "official_validation": false
+}

@@ -1,0 +1,44 @@
+{
+  "guardian": {
+    "pid": 20364,
+    "create": 1792211263.8816338,
+    "cmd": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\sac_goal_projection_v1.py"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent": 22796
+  },
+  "deadline_epoch": 1792211385.6508648,
+  "deadline_monotonic": 29686.843,
+  "seconds": 120,
+  "diagnostic_source_sha256": "f3ebd4f9b0f84a5358297fb1477934f97766c0d83be38a7d59b087026c3798d1",
+  "source_run": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\frozen_sac_battle_v2\\run_20261017_093943_16bee6",
+  "original_source_contract_sha256": "bb79f2ffeb744d93668384b0a8939c38489dcdbe67cfcaf505f7964737821235",
+  "resources": {
+    "ram_bytes": 4791025664,
+    "disk_bytes": 194249555968,
+    "cpu_percent": 48.3,
+    "GPU_used": false
+  },
+  "usage_observation": {
+    "observed_utc": "2026-10-17 04:25:43 UTC",
+    "remaining_percent": 32,
+    "primary": {
+      "usedPercent": 35,
+      "windowDurationMins": 300,
+      "resetsAt": 1792218521
+    },
+    "weekly": {
+      "usedPercent": 68,
+      "windowDurationMins": 10080,
+      "resetsAt": 1792654206
+    }
+  },
+  "new_FDM_ticks": 0,
+  "seed_claims": [],
+  "training_started": false
+}

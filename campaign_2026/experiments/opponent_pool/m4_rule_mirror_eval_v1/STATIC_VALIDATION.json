@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "four_complete_game_plan": true,
+    "two_opponents": true,
+    "paired_seeds": true,
+    "counterbalanced_order": true,
+    "no_easy_heading_fixture": true,
+    "original_hard_deadlines": true,
+    "tampered_plan_rejected": true,
+    "source_model_and_contract": true,
+    "new_registry_seeds": true
+  },
+  "passed": 9,
+  "actual_validation_exit": 0,
+  "new_FDM_ticks": 0,
+  "training_started": false,
+  "scope": "static plan and existing source/model/registry gates only"
+}

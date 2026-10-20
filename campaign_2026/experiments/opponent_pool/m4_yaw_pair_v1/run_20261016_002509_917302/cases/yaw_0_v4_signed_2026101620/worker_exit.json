@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "pid": 3936,
+    "creation_epoch": 1792081520.1532395,
+    "cmdline": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_yaw_pair_v1\\run_smoke.py",
+      "--worker",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\m4_yaw_pair_v1\\run_20261016_002509_917302\\cases\\yaw_0_v4_signed_2026101620\\input.json"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent_pid": 10888
+  },
+  "actual_worker_exit_code": 0,
+  "case_id": "yaw_0_v4_signed_2026101620",
+  "input_sha256": "eafcb5be491f73b2aaa9109868e810c6c570452dece594492c9f9c62f17a545c",
+  "result_sha256": "12656167468b46f8b7e8d2a4a0a4205dce5acfff4cb89a38d55898bc1261555f"
+}

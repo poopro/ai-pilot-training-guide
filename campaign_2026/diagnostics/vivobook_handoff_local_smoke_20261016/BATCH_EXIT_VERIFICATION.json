@@ -1,0 +1,8 @@
+{
+  "main_PC_batch_success_actual_exit": 0,
+  "missing_package_actual_exit": 1,
+  "ASUS_verified": false,
+  "new_FDM_ticks": 0,
+  "batch_preserves_python_exit_status": true,
+  "repair": "UTF8 LF batch parsed incorrectly under cmd; rewritten Windows CRLF and actual success/missing paths both verified; original failed attempts not success evidence"
+}

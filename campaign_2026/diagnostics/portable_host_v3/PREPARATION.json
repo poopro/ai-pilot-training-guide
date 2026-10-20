@@ -1,0 +1,14 @@
+{
+  "profile": "portable_repair_guide_rehearsal_v3",
+  "first_static_actual_exit": 1,
+  "first_static_reason": "BRANCH_FREEZE not written before inherited preflight test;22/23passed,createfreezebeforeactualrerun",
+  "first_static_exit_tool": "963916",
+  "source_change": "Exact own console helper prelaunch binary SHA and snapshot;direct chain to exact Player/collector ownroot,HostP2stillHostroot",
+  "new_Host_rounds": 0,
+  "deployment_allowed": false,
+  "actual_static_tests": 23,
+  "actual_static_exit": 0,
+  "actual_static_exit_tool": "7afa69",
+  "static_only": true,
+  "branch_freeze": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v3\\BRANCH_FREEZE.json"
+}

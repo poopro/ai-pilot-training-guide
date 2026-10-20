@@ -1,0 +1,11 @@
+{
+  "verification_job": "E:\\ai_pilot\\autopilot\\opponent_lab\\overnight_verification\\night_20261006_004746_e188",
+  "official_validation": false,
+  "usage_snapshot": {
+    "primary_remaining_percent": 18,
+    "weekly_remaining_percent": 53
+  },
+  "automation_id": "automation-3",
+  "ai_check_interval_hours": 2,
+  "ai_check_max_count": 4
+}

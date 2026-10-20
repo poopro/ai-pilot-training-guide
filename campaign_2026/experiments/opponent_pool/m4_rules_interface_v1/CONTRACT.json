@@ -1,0 +1,33 @@
+{
+  "created_utc": "2026-10-15T16:06:04.078437+00:00",
+  "executor_sha256": {
+    "common.py": "135ac2065e5dd33782c0c1a3e7553241adaf931d6f21947b95c2592a29e54320",
+    "guard.py": "4b55459d638f33c01b768e12c14f1baed0e99e360319625081104a0cc9797eeb",
+    "launch_smoke.py": "945504e4c3f1cb810ba8cd111466d68e466e67bdd225c079fb418ab6b6355478",
+    "run_smoke.py": "25fe0a759b65972964ca2103c3a8cf23bf90a4241eaf8c0d69b3c52a92c99cdc",
+    "test_plan.py": "32cad8870c78c4ae0b6747836683dcc94f2d56d6bef742601f5904c5a4ac81df",
+    "verify_rules_interface.py": "8c9c01864dcb0c5e8dfbdf96411fde322c56236991798b7fccc4216ec46de025"
+  },
+  "readme_sha256": "a042d4676a68b83233ec3dbd9eaa07b30405a4febf2a34af2068d5821fb7a42f",
+  "mode_contract": {
+    "m4_rules5": {
+      "cases": 5,
+      "distinct_seeds": 5,
+      "total_wall_seconds": 240,
+      "case_wall_seconds": 45,
+      "max_ticks": 600,
+      "reset_repeats": 2
+    }
+  },
+  "m4_sources_sha256": {
+    "experiments/m4_tactical_v3/judge_adapter.py": "94067c9b38ef25d15022996d7a7f0fd1c8cb250e849e80da6c30c78a25506b19",
+    "experiments/m4_tactical_v3/m1_station.py": "5d53e18676d18158f3e0bc278e02ed7d42ecca1b1c7c7a6562611184454717ef",
+    "experiments/m4_tactical_v3/m3_mirror_league.py": "e6f47242eb344dacbb68b78d0b229ca5018b787c71d3ee94d660e25ead0371c1",
+    "experiments/m4_tactical_v3/m4_tactical_rl.py": "4475c8b94eee0ee94a17010004930b8ae286f0a6a299064dc34864e45ca0d1f7",
+    "experiments/m4_tactical_v3/test_adapter.py": "8a2aad48dc4e2f05e1e213c31785d7723e2b755fdf8f182affa19b2c43f03a0c",
+    "experiments/rules_v20261014/judge.py": "11694e29c54fecfa9d39750839688a4c870636e729dd33923a6f78450e837a06"
+  },
+  "score_eligible": false,
+  "official_validation": false,
+  "deployment_allowed": false
+}

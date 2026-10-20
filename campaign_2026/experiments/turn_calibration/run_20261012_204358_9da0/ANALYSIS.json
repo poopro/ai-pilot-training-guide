@@ -1,0 +1,85 @@
+{
+  "report": "E:\\ai_pilot\\campaign_2026\\experiments\\turn_calibration\\run_20261012_204358_9da0\\report.json",
+  "report_sha256": "167e49690d383daf7c5e414e37fbdd1e4fdf48b8e52243e7b27226476fbbf5d6",
+  "cases": [
+    {
+      "case_id": "bank70_nose0",
+      "csv_sha256": "25a98fffa81a8b96ea4828404d5d25dbfb4dd6ff0692898a7f6687d63b8656fc",
+      "steady_samples": 300,
+      "median": {
+        "pre_phi_deg": 68.13616315738669,
+        "pre_theta_deg": -1.9379084546968435,
+        "pilot_load_signed": -2.3197608340959226,
+        "pilot_load_abs": 2.3197608340959226,
+        "euler_yaw_rate_deg_s": 6.03937774955636,
+        "cas_kts": 331.8220267005661,
+        "tas_kts": 385.46680047262225,
+        "alpha_deg": 6.220960850254623,
+        "beta_deg": 2.3079160803151852,
+        "cmd_elevator": -0.36981419223396805
+      },
+      "max_abs_load": 2.320161029614816,
+      "min_altitude_msl_m": 3235.931159178123,
+      "guard_ticks": 0,
+      "warmup_flags": [],
+      "yaw_fd_vs_midpoint_euler_abs_error_p50_p95_deg_s": [
+        0.00020714219321993355,
+        0.010653017320358405
+      ]
+    },
+    {
+      "case_id": "bank80_nose0",
+      "csv_sha256": "ba8805aee2ef84c09c702bdb5e10c65ea93ebd110f33159a7620aae722bafc94",
+      "steady_samples": 300,
+      "median": {
+        "pre_phi_deg": 75.99794654485692,
+        "pre_theta_deg": -6.132208751589207,
+        "pilot_load_signed": -3.569597936741574,
+        "pilot_load_abs": 3.569597936741574,
+        "euler_yaw_rate_deg_s": 10.421020415904405,
+        "cas_kts": 323.0537938998743,
+        "tas_kts": 372.5975162007972,
+        "alpha_deg": 11.762434916004537,
+        "beta_deg": 2.543804850902588,
+        "cmd_elevator": -0.8148184604345343
+      },
+      "max_abs_load": 3.620632115648947,
+      "min_altitude_msl_m": 3028.330173045436,
+      "guard_ticks": 0,
+      "warmup_flags": [],
+      "yaw_fd_vs_midpoint_euler_abs_error_p50_p95_deg_s": [
+        0.0003353167231576748,
+        0.00924981193227672
+      ]
+    },
+    {
+      "case_id": "bank80_path_alpha",
+      "csv_sha256": "92db92bf92bf5f6218758f8d3e1c63a71e0abc031f44c701d48f78597671f4b6",
+      "steady_samples": 300,
+      "median": {
+        "pre_phi_deg": 76.96057924260742,
+        "pre_theta_deg": 5.672662668467845,
+        "pilot_load_signed": -3.410417492196288,
+        "pilot_load_abs": 3.410417492196288,
+        "euler_yaw_rate_deg_s": 9.883653162970523,
+        "cas_kts": 311.57295395244654,
+        "tas_kts": 367.26775396365906,
+        "alpha_deg": 11.529923584760045,
+        "beta_deg": 2.28118374975256,
+        "cmd_elevator": -0.7968015477441325
+      },
+      "max_abs_load": 4.358258788052217,
+      "min_altitude_msl_m": 3555.854870204097,
+      "guard_ticks": 0,
+      "warmup_flags": [],
+      "yaw_fd_vs_midpoint_euler_abs_error_p50_p95_deg_s": [
+        0.000373178949720554,
+        0.027258733634942696
+      ]
+    }
+  ],
+  "official_validation": false,
+  "combat_score_eligible": false,
+  "window": "last 5 of 20 test simulation seconds",
+  "limits": "Fixed initialization, one speed/altitude and positive bank steps only. No aiming, negative-bank/rudder-sign test or competition win probability."
+}

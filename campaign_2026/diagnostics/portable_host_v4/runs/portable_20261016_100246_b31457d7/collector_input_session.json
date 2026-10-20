@@ -1,0 +1,322 @@
+{
+  "profile": "portable_repair_guide_rehearsal_v4",
+  "folder": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\runs\\portable_20261016_100246_b31457d7",
+  "controller": "repair_guide",
+  "model": null,
+  "fixed_profile": {
+    "profile": "portable_repair_guide_rehearsal_v4",
+    "package": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012",
+    "archive": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012.zip",
+    "package_manifest_sha256": "bf24309b4f0f8180632ea070e82c7f124ecfaac484d8dea50578021d492d0454",
+    "archive_sha256": "64f0787e5aec7c804a19d884ae1313196dc386c1cec669ef890cf18017f71f6e",
+    "runtime_sha256": "5812759bdd07062547301f59c2aaffeb4b4f50618601238380fcf3c9928ee6bb",
+    "player_sha256": "340e2d17acbbbe4257f8fa4e59bb6afd68913bf1df8764386ca838fd1ba743dd",
+    "network_sha256": "034d0d60ee1b3558b6cee47708160ea86f20111b042a8e97aad35c7ecf229687",
+    "host_dir": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線",
+    "host_inputs_sha256": {
+      "JSB_host_GUI_publish.exe": "635b0ca956695a74e662f7f3a91e50d17ddeffb6e6be468ed8b916d305c19013",
+      "Setting.txt": "c5236a1fc9db2ae18d4cb2b310da72dfceb1a569f916f1ad9bc6c02ba6efb418",
+      "readme_part1.txt": "6a76268c0df6444027df7292b6dadec97897924cf97471e02e81f64c34a180c0",
+      "readme_part2.txt": "787cab0e4adf58705bd52ea2c37bf42fa153e91248008528ddd95b07fdbc982c"
+    },
+    "cached_host_executable": "C:\\Users\\USER\\AppData\\Local\\JSBsimHost_1_0_0_0\\JSB_host_GUI_publish.exe",
+    "cached_host_sha256": "00d29bf4ae4b98ad97211076320953bc27c436b6a9bcc680c731172304162a44",
+    "cached_hash_is_not_assumed_equal_to_original": true,
+    "observer_sources_sha256": {
+      "portable_host.py": "7c978152d0fc2694f44e1dc236c7f47aa32a0bc6a3e233d75860647a9c16c784",
+      "p2_terminal_evidence.py": "5e7f9fc20e8732b0959997af9e18814066eeb30d31a1d9538841f62ee9cf8db1",
+      "vendor/psutil/__init__.py": "7b6a0675824eb1fa2ff0cb1eb36e358dc454703e51dfa4e9a0e6ccd26a159f0c",
+      "vendor/psutil/_common.py": "6fc6bf5f86491ba962521374472570238929003cebea8e9b6c55224084b52bb0",
+      "vendor/psutil/_ntuples.py": "96f42bc24549636b5707a949b7cc92e89c87f7cea7d343a6d17821ac670dfcd2",
+      "vendor/psutil/_psaix.py": "a51e0031f92ba5dab84f7750a0315e41b4b0bba545b6e62a8fb5d357dc8a0346",
+      "vendor/psutil/_psbsd.py": "68de935cb6556674a09f6106b36d70c18c4cc82ed9f8236b895ad98d869c33aa",
+      "vendor/psutil/_pslinux.py": "571c6cd7919971df4c1381cfd514808ff934f7f7fc79c312b52278fcd0c7dd10",
+      "vendor/psutil/_psosx.py": "c766ad9002385269c313afb8a1fa883364e1f951b46b54dde72a8de4896d85fc",
+      "vendor/psutil/_psposix.py": "3bad08a5eaec4e081fce822e1c4a3f95b1d54d9d0b0d5ca31583fbcdc7574809",
+      "vendor/psutil/_pssunos.py": "5b9be0b2790a0313c68f52a7a730aa15dd9f467ed0f849f79ec73d92b4c3a147",
+      "vendor/psutil/_psutil_windows.pyd": "0035450801bd7d938e9e146c5ec28e619cb5a5f4a18cdc53ac7e9734c7f94f78",
+      "vendor/psutil/_pswindows.py": "0bbd52dcb214735be4168d11a2ae192d5bc7265c8cf72c611179476479687f54",
+      "vendor/psutil_license/LICENSE": "c7adc4d5d1337a548b967421f1fbe258b93033a0417708fd6f4e38f8ecbceb80",
+      "vendor/psutil_license/METADATA": "a263a40220d921d9cb963fc636d34f817aa2eb72c2696e3e3465d088cdb1976b"
+    },
+    "checked_package_files": 2115,
+    "console_helper_executable": "C:\\WINDOWS\\System32\\conhost.exe",
+    "console_helper_sha256": "c86146188b78e484f32cc29e2331689659943b47689a85570342044f499938ac",
+    "terminal_cleanup_executable": "C:\\WINDOWS\\System32\\taskkill.exe",
+    "terminal_cleanup_sha256": "1249717315fc8f4d2df17d5db9da0444795fdb9fb83dfb1f763c3f39282244f7",
+    "fixed_profile_hash": "15e0bd4a1783a1071a7a43456e2d871593299707886157054cf110bd756ed76a"
+  },
+  "package_snapshots": {
+    "manifest.json": {
+      "snapshot": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\runs\\portable_20261016_100246_b31457d7\\package_snapshot\\manifest.json",
+      "sha256": "bf24309b4f0f8180632ea070e82c7f124ecfaac484d8dea50578021d492d0454"
+    },
+    "network.json": {
+      "snapshot": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\runs\\portable_20261016_100246_b31457d7\\package_snapshot\\network.json",
+      "sha256": "034d0d60ee1b3558b6cee47708160ea86f20111b042a8e97aad35c7ecf229687"
+    },
+    "tools/player.py": {
+      "snapshot": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\runs\\portable_20261016_100246_b31457d7\\package_snapshot\\tools\\player.py",
+      "sha256": "340e2d17acbbbe4257f8fa4e59bb6afd68913bf1df8764386ca838fd1ba743dd"
+    },
+    "policy/bootstrap.py": {
+      "snapshot": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\runs\\portable_20261016_100246_b31457d7\\package_snapshot\\policy\\bootstrap.py",
+      "sha256": "b45ff20cc846ecc4011fca29276c9ceae3405c80aa1c341dbd41de6446986199"
+    },
+    "policy/controller.py": {
+      "snapshot": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\runs\\portable_20261016_100246_b31457d7\\package_snapshot\\policy\\controller.py",
+      "sha256": "7a40f2ada59b4e8f2862f64c0d672d15f8676bca3456946038e203f0ee3c9430"
+    },
+    "policy/combat_v3/controller.py": {
+      "snapshot": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\runs\\portable_20261016_100246_b31457d7\\package_snapshot\\policy\\combat_v3\\controller.py",
+      "sha256": "d772bf49a8d8408aaafec691c981d0612de7dada6450e0afcecbc3d958b7813b"
+    },
+    "policy/combat_v3/interface.py": {
+      "snapshot": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\runs\\portable_20261016_100246_b31457d7\\package_snapshot\\policy\\combat_v3\\interface.py",
+      "sha256": "50f63ee563a8cb13b9bb472b0de7905579bcc9c70bc69efc571681879eb02555"
+    },
+    "policy/combat_v3/config.json": {
+      "snapshot": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\runs\\portable_20261016_100246_b31457d7\\package_snapshot\\policy\\combat_v3\\config.json",
+      "sha256": "d4fba053617240e07ffc67fe389d944313ba12dff491e569a0ae764e0f7b88ec"
+    },
+    "runtime/python.exe": {
+      "snapshot": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\runs\\portable_20261016_100246_b31457d7\\package_snapshot\\runtime\\python.exe",
+      "sha256": "5812759bdd07062547301f59c2aaffeb4b4f50618601238380fcf3c9928ee6bb"
+    },
+    "runtime/python310._pth": {
+      "snapshot": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\runs\\portable_20261016_100246_b31457d7\\package_snapshot\\runtime\\python310._pth",
+      "sha256": "b76cc3899a05590e6a8fd9e5df492ebb13e86874ee0c9309dff06aac8f040c9b"
+    }
+  },
+  "package_self_check": {
+    "command": [
+      "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+      "-I",
+      "-S",
+      "-B",
+      "-X",
+      "utf8",
+      "-u",
+      "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\tools\\self_check.py"
+    ],
+    "actual_exit_code": 0,
+    "result": {
+      "passed": true,
+      "runtime_executable": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+      "python": "3.10.21 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:35:39) [MSC v.1942 64 bit (AMD64)]",
+      "numpy": "1.26.4",
+      "sys_path": [
+        "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\policy",
+        "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime",
+        "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\Lib",
+        "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\DLLs",
+        "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\Lib/site-packages",
+        "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\../policy",
+        "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\../tools"
+      ],
+      "checked_files": 2115,
+      "loaded_dll_paths": [
+        "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+        "C:\\Windows\\System32\\ntdll.dll",
+        "C:\\Windows\\System32\\kernel32.dll",
+        "C:\\Windows\\System32\\KernelBase.dll",
+        "C:\\Windows\\System32\\ucrtbase.dll",
+        "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\vcruntime140.dll",
+        "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python310.dll",
+        "C:\\Windows\\System32\\ws2_32.dll",
+        "C:\\Windows\\System32\\rpcrt4.dll",
+        "C:\\Windows\\System32\\version.dll",
+        "C:\\Windows\\System32\\advapi32.dll",
+        "C:\\Windows\\System32\\msvcrt.dll",
+        "C:\\Windows\\System32\\sechost.dll",
+        "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\zlib.dll",
+        "C:\\Windows\\System32\\cryptsp.dll",
+        "C:\\Windows\\System32\\rsaenh.dll",
+        "C:\\Windows\\System32\\cryptbase.dll",
+        "C:\\Windows\\System32\\bcryptprimitives.dll",
+        "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python3.dll",
+        "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\DLLs\\_hashlib.pyd",
+        "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\Library\\bin\\libcrypto-3-x64.dll",
+        "C:\\Windows\\System32\\crypt32.dll",
+        "C:\\Windows\\System32\\user32.dll",
+        "C:\\Windows\\System32\\win32u.dll",
+        "C:\\Windows\\System32\\gdi32.dll",
+        "C:\\Windows\\System32\\gdi32full.dll",
+        "C:\\Windows\\System32\\msvcp_win.dll",
+        "C:\\Windows\\System32\\imm32.dll",
+        "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\DLLs\\_ctypes.pyd",
+        "C:\\Windows\\System32\\ole32.dll",
+        "C:\\Windows\\System32\\combase.dll",
+        "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\Library\\bin\\ffi.dll",
+        "C:\\Windows\\System32\\oleaut32.dll",
+        "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\Lib\\site-packages\\numpy\\core\\_multiarray_umath.cp310-win_amd64.pyd",
+        "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\Lib\\site-packages\\numpy.libs\\libopenblas64__v0.3.23-293-gc2f4bdbb-gcc_10_3_0-2bde3a66a51006b2b53eb373ff767a3f.dll",
+        "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\Lib\\site-packages\\numpy\\core\\_multiarray_tests.cp310-win_amd64.pyd",
+        "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\Lib\\site-packages\\numpy\\linalg\\_umath_linalg.cp310-win_amd64.pyd",
+        "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\Lib\\site-packages\\numpy\\fft\\_pocketfft_internal.cp310-win_amd64.pyd",
+        "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\Lib\\site-packages\\numpy\\random\\mtrand.cp310-win_amd64.pyd",
+        "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\Lib\\site-packages\\numpy\\random\\bit_generator.cp310-win_amd64.pyd",
+        "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\Lib\\site-packages\\numpy\\random\\_common.cp310-win_amd64.pyd",
+        "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\Lib\\site-packages\\numpy\\random\\_bounded_integers.cp310-win_amd64.pyd",
+        "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\Lib\\site-packages\\numpy\\random\\_mt19937.cp310-win_amd64.pyd",
+        "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\Lib\\site-packages\\numpy\\random\\_philox.cp310-win_amd64.pyd",
+        "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\Lib\\site-packages\\numpy\\random\\_pcg64.cp310-win_amd64.pyd",
+        "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\Lib\\site-packages\\numpy\\random\\_sfc64.cp310-win_amd64.pyd",
+        "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\Lib\\site-packages\\numpy\\random\\_generator.cp310-win_amd64.pyd",
+        "C:\\Windows\\System32\\psapi.dll"
+      ],
+      "external_python_modules": false,
+      "original_env_dlls_loaded": false,
+      "new_fdm_ticks": 0
+    }
+  },
+  "watchdog_token": "portable_20261016_100246_b31457d7",
+  "watchdog_identity": {
+    "pid": 22036,
+    "create_time": 1792116166.1040852,
+    "command": [
+      "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+      "-I",
+      "-S",
+      "-B",
+      "-X",
+      "utf8",
+      "-u",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\portable_host.py",
+      "watchdog",
+      "--folder",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\runs\\portable_20261016_100246_b31457d7"
+    ],
+    "exe": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+    "parent_pid": 16956
+  },
+  "host_launch_identity": {
+    "pid": 14684,
+    "create_time": 1792116170.5774453,
+    "command": [
+      "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe"
+    ]
+  },
+  "host_process_identity": {
+    "pid": 14684,
+    "create_time": 1792116170.5774453,
+    "command": [
+      "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe"
+    ],
+    "exe": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe",
+    "parent_pid": 22036
+  },
+  "host_processes": [
+    {
+      "pid": 14684,
+      "create_time": 1792116170.5774453,
+      "command": [
+        "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe"
+      ],
+      "exe": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe",
+      "parent_pid": 22036
+    }
+  ],
+  "player": {
+    "pid": 2740,
+    "create_time": 1792116171.6393456,
+    "command": [
+      "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+      "-I",
+      "-S",
+      "-B",
+      "-X",
+      "utf8",
+      "-u",
+      "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\tools\\player.py",
+      "--guide",
+      "--network",
+      "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\network.json",
+      "--max-seconds",
+      "720"
+    ],
+    "exe": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+    "parent_pid": 22036
+  },
+  "host_launch_record": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\runs\\portable_20261016_100246_b31457d7\\launch.json",
+  "host_dir": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線",
+  "runtime_dir": "C:\\Users\\USER\\AppData\\Local\\JSBsimHost_1_0_0_0",
+  "preexisting_csv": {
+    "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\飛行競賽Host端Record_20261005_1847.csv": {
+      "size": 14932323,
+      "mtime_ns": 1791197541439860500
+    },
+    "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\飛行競賽Host端Record_20261006_2045.csv": {
+      "size": 4923510,
+      "mtime_ns": 1791290801752768600
+    },
+    "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\飛行競賽Host端Record_20261013_2347.csv": {
+      "size": 5733776,
+      "mtime_ns": 1791906560398151300
+    },
+    "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\飛行競賽Host端Record_20261014_0631.csv": {
+      "size": 4661505,
+      "mtime_ns": 1791930778668516300
+    },
+    "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\飛行競賽Host端Record_20261014_1438.csv": {
+      "size": 4082301,
+      "mtime_ns": 1791960016160005500
+    },
+    "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\飛行競賽Host端Record_20261014_1443.csv": {
+      "size": 5632613,
+      "mtime_ns": 1791960306184006600
+    },
+    "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\飛行競賽Host端Record_20261014_1447.csv": {
+      "size": 7113331,
+      "mtime_ns": 1791960581399557700
+    },
+    "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\飛行競賽Host端Record_20261014_1455.csv": {
+      "size": 8375810,
+      "mtime_ns": 1791961108235923300
+    },
+    "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\飛行競賽Host端Record_20261014_1459.csv": {
+      "size": 6548484,
+      "mtime_ns": 1791961331415873300
+    },
+    "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\飛行競賽Host端Record_20261014_2040.csv": {
+      "size": 5079541,
+      "mtime_ns": 1791981727639667800
+    },
+    "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\飛行競賽Host端Record_20261016_0104.csv": {
+      "size": 1663709,
+      "mtime_ns": 1792083906391865100
+    },
+    "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\飛行競賽Host端Record_20261016_0825.csv": {
+      "size": 8585637,
+      "mtime_ns": 1792110525665888900
+    },
+    "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\飛行競賽Host端Record_20261016_0945.csv": {
+      "size": 3926789,
+      "mtime_ns": 1792115212828964800
+    }
+  },
+  "terminal_capture_version": 1,
+  "p2_logs_before_launch": {
+    "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\player2_runtime.log": {
+      "exists": true,
+      "size": 6043797,
+      "mtime_ns": 1792115213122579500,
+      "sha256": "9860710e85d1645dd93605c3530788ea455a71b5c7131d6f379b7edd009637e3"
+    },
+    "C:\\Users\\USER\\AppData\\Local\\JSBsimHost_1_0_0_0\\player2_runtime.log": {
+      "exists": false
+    }
+  },
+  "cached_executable_receipt": {
+    "path": "C:\\Users\\USER\\AppData\\Local\\JSBsimHost_1_0_0_0\\JSB_host_GUI_publish.exe",
+    "sha256": "00d29bf4ae4b98ad97211076320953bc27c436b6a9bcc680c731172304162a44",
+    "snapshot": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\runs\\portable_20261016_100246_b31457d7\\cachedHost_executable.bin",
+    "phase": "before_host_Popen"
+  },
+  "status": "waiting_init",
+  "validation_exit_code": null,
+  "start_clicked_epoch": 1792116215.566793,
+  "start_clicked_monotonic": 6417.765,
+  "start_marker_scope": "Operator boundary immediately BEFORE pressing Host START; not UI observation",
+  "p2_terminal_receipt": "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v4\\runs\\portable_20261016_100246_b31457d7\\p2_terminal_receipt.json"
+}

@@ -1,0 +1,117 @@
+{
+  "verified_comparison": true,
+  "checks": {
+    "seed": true,
+    "rounds": true,
+    "mirror": true,
+    "round_ticks": true,
+    "attack_angle_deg": true,
+    "physics_hz": true,
+    "requested_max_steps": true,
+    "candidate_bundle_sha256": true,
+    "red_bundle_sha256": true,
+    "base_sources_identical": true,
+    "source_additions_only_ablation": true,
+    "both_complete": true,
+    "full_24_cases": true,
+    "same_cases": true,
+    "within_pair_initials_identical": true,
+    "same_initials": true,
+    "guide_reproduced": true
+  },
+  "groups": {
+    "guide": {
+      "rule": {
+        "cases": 6,
+        "kills": 3,
+        "deaths": 0,
+        "own_crashes": 0,
+        "attack_seconds": 9.033333333333333,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0
+      },
+      "rl": {
+        "cases": 6,
+        "kills": 0,
+        "deaths": 0,
+        "own_crashes": 0,
+        "attack_seconds": 0.9666666666666667,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0
+      },
+      "all": {
+        "cases": 12,
+        "kills": 3,
+        "deaths": 0,
+        "own_crashes": 0,
+        "attack_seconds": 10.0,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0
+      }
+    },
+    "raw": {
+      "rule": {
+        "cases": 6,
+        "kills": 0,
+        "deaths": 0,
+        "own_crashes": 0,
+        "attack_seconds": 0.0,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0
+      },
+      "rl": {
+        "cases": 6,
+        "kills": 0,
+        "deaths": 0,
+        "own_crashes": 0,
+        "attack_seconds": 2.5166666666666666,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0
+      },
+      "all": {
+        "cases": 12,
+        "kills": 0,
+        "deaths": 0,
+        "own_crashes": 0,
+        "attack_seconds": 2.5166666666666666,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0
+      }
+    },
+    "gated": {
+      "rule": {
+        "cases": 6,
+        "kills": 0,
+        "deaths": 0,
+        "own_crashes": 0,
+        "attack_seconds": 0.0,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0
+      },
+      "rl": {
+        "cases": 6,
+        "kills": 0,
+        "deaths": 0,
+        "own_crashes": 0,
+        "attack_seconds": 3.116666666666667,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0
+      },
+      "all": {
+        "cases": 12,
+        "kills": 0,
+        "deaths": 0,
+        "own_crashes": 0,
+        "attack_seconds": 3.116666666666667,
+        "enemy_attack_seconds": 0.0,
+        "over_9g_seconds": 0.0
+      }
+    }
+  },
+  "candidate_gate": "reject_promotion",
+  "quality_improved_vs_guide": false,
+  "safety_nonregression": true,
+  "opponent_nonregression": false,
+  "official_validation": false,
+  "interpretation": "Same actor/controller-range ablation on a previously observed development set. No tournament win probability."
+}

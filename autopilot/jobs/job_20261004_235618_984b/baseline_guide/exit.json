@@ -1,0 +1,33 @@
+{
+  "name": "baseline_guide",
+  "folder": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\baseline_guide",
+  "command": [
+    "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "E:\\ai_pilot\\autopilot\\experiment.py",
+    "eval",
+    "--out",
+    "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\baseline_guide",
+    "--episodes",
+    "5"
+  ],
+  "started_utc": "2026-10-04T16:01:04.406723+00:00",
+  "training": false,
+  "start_step": 0,
+  "counted_steps": 0,
+  "process": {
+    "pid": 22920,
+    "create_time": 1791129664.414598,
+    "command": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "E:\\ai_pilot\\autopilot\\experiment.py",
+      "eval",
+      "--out",
+      "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\baseline_guide",
+      "--episodes",
+      "5"
+    ]
+  },
+  "exit_code": 0,
+  "finished_utc": "2026-10-04T16:10:23.833158+00:00",
+  "reason": null
+}

@@ -1,0 +1,101 @@
+{
+  "snapshot_checks": [
+    {
+      "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\baseline_source\\combat_v3\\compare.py",
+      "matches_recorded_sha256": true
+    },
+    {
+      "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\baseline_source\\combat_v3\\controller.py",
+      "matches_recorded_sha256": true
+    },
+    {
+      "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\baseline_source\\combat_v3\\env.py",
+      "matches_recorded_sha256": true
+    },
+    {
+      "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\baseline_source\\combat_v3\\evaluate.py",
+      "matches_recorded_sha256": true
+    },
+    {
+      "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\baseline_source\\combat_v3\\interface.py",
+      "matches_recorded_sha256": true
+    },
+    {
+      "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\baseline_source\\combat_v3\\player.py",
+      "matches_recorded_sha256": true
+    },
+    {
+      "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\baseline_source\\combat_v3\\rules.py",
+      "matches_recorded_sha256": true
+    },
+    {
+      "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\baseline_source\\combat_v3\\test_v3.py",
+      "matches_recorded_sha256": true
+    },
+    {
+      "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\baseline_source\\combat_v3\\train.py",
+      "matches_recorded_sha256": true
+    },
+    {
+      "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\baseline_source\\combat_v3\\verify_udp.py",
+      "matches_recorded_sha256": true
+    },
+    {
+      "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\baseline_source\\combat_v3\\__init__.py",
+      "matches_recorded_sha256": true
+    },
+    {
+      "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\baseline_source\\combat_v3\\config.json",
+      "matches_recorded_sha256": true
+    },
+    {
+      "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\baseline_source\\combat_v3\\udp_config.json",
+      "matches_recorded_sha256": true
+    },
+    {
+      "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\baseline_source\\combat_v2\\env.py",
+      "matches_recorded_sha256": true
+    },
+    {
+      "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\baseline_source\\combat_v2\\controller.py",
+      "matches_recorded_sha256": true
+    },
+    {
+      "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\baseline_source\\envs\\jsbsimEnv\\jsbsimEnv.py",
+      "matches_recorded_sha256": true
+    },
+    {
+      "path": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\baseline_source\\envs\\jsbsimEnv\\jsbsimFdm.py",
+      "matches_recorded_sha256": true
+    }
+  ],
+  "preserved_baseline_sources": [
+    {
+      "path": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\combat_v2\\env.py",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\combat_v2\\controller.py",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\envs\\jsbsimEnv\\jsbsimEnv.py",
+      "unchanged": true
+    },
+    {
+      "path": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\envs\\jsbsimEnv\\jsbsimFdm.py",
+      "unchanged": true
+    }
+  ],
+  "all_preserved": true,
+  "note": "Original v2 model bundles are untouched; source and FDM checks above compare first snapshot.",
+  "utc": "2026-10-04T21:06:52.126832+00:00",
+  "v2_bundle": {
+    "path": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\combat_v2\\outputs\\run_20261003_195337_befc\\final_0000200000",
+    "timesteps": 200000,
+    "checks": {
+      "model": true,
+      "replay": true
+    }
+  }
+}

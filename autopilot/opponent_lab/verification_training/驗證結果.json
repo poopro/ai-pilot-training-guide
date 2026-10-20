@@ -1,0 +1,62 @@
+{
+  "verification_only": true,
+  "main_training_started": false,
+  "official_validation": false,
+  "archive_items": 20,
+  "v3_and_original_dependencies_unchanged": true,
+  "bundles": [
+    {
+      "bundle": "E:\\ai_pilot\\autopilot\\jobs\\job_20261004_235618_984b\\candidate2\\candidate1_to_199000\\final_0000148682",
+      "timesteps": 148682,
+      "updates": 8664,
+      "replay_size": 25000,
+      "actor_optimizer_states": 8,
+      "critic_optimizer_states": 12,
+      "model_hash_ok": true,
+      "replay_hash_ok": true,
+      "reload_ok": true
+    },
+    {
+      "bundle": "E:\\ai_pilot\\autopilot\\opponent_lab\\verification_training\\actor_transfer_current\\final_0000000256",
+      "timesteps": 256,
+      "updates": 27,
+      "replay_size": 255,
+      "actor_optimizer_states": 8,
+      "critic_optimizer_states": 12,
+      "model_hash_ok": true,
+      "replay_hash_ok": true,
+      "reload_ok": true
+    },
+    {
+      "bundle": "E:\\ai_pilot\\autopilot\\opponent_lab\\verification_training\\resume_current\\final_0000000384",
+      "timesteps": 384,
+      "updates": 42,
+      "replay_size": 382,
+      "actor_optimizer_states": 8,
+      "critic_optimizer_states": 12,
+      "model_hash_ok": true,
+      "replay_hash_ok": true,
+      "reload_ok": true
+    },
+    {
+      "bundle": "E:\\ai_pilot\\autopilot\\opponent_lab\\verification_training\\save_stop\\final_0000000001",
+      "timesteps": 1,
+      "updates": 0,
+      "replay_size": 0,
+      "actor_optimizer_states": 0,
+      "critic_optimizer_states": 0,
+      "model_hash_ok": true,
+      "replay_hash_ok": true,
+      "reload_ok": true
+    }
+  ],
+  "transfer_cuda_steps": 256,
+  "resume_cuda_steps": 384,
+  "stop_save_passed": true,
+  "incompatible_resume_rejected_before_output": true,
+  "full_evaluation_flow_cases": 4,
+  "full_evaluation_flow_report": "E:\\ai_pilot\\autopilot\\opponent_lab\\evaluations\\eval_20261006_003722_fee5\\report.json",
+  "published_user_training_or_evaluation_pointer": false,
+  "onedrive_entry_updated": false,
+  "onedrive_limitation": "Existing file denied write; original content remains. Use E:/ai_pilot/autopilot/啟動入口.md"
+}

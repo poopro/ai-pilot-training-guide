@@ -1,0 +1,1 @@
+{"script": "rollout.py", "args": ["collect", "--games", "480", "--workers", "3", "--seed0", "600000", "--out", "runs/collect01"], "max_minutes": 150}

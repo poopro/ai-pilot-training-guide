@@ -1,0 +1,123 @@
+{
+  "observed_utc": "2026-10-16T00:22:25.717822+00:00",
+  "portable_validated_rounds_added": 0,
+  "mark_start_actual_exit_code": 1,
+  "operator_error": "START UI was clicked after CLI mark-start rejection; never count or retrofit boundary",
+  "watchdog_actual_exit_code": 2,
+  "observer_shell_actual_exit_code": 1,
+  "cause": "Package Player direct console child conhost.exe not in prelaunch frozen allowed executable map; descendants_unknown correctly rejected gate",
+  "terminal_identity_audit": [
+    {
+      "identity": {
+        "pid": 24896,
+        "create_time": 1792083793.6995032,
+        "command": [
+          "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe"
+        ],
+        "exe": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe",
+        "parent_pid": 6384
+      },
+      "state": "absent"
+    },
+    {
+      "identity": {
+        "pid": 20948,
+        "create_time": 1792083795.9426396,
+        "command": [
+          "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+          "-I",
+          "-S",
+          "-B",
+          "-X",
+          "utf8",
+          "-u",
+          "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\tools\\player.py",
+          "--guide",
+          "--network",
+          "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\network.json",
+          "--max-seconds",
+          "720"
+        ],
+        "exe": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+        "parent_pid": 6384
+      },
+      "state": "absent"
+    },
+    {
+      "identity": {
+        "pid": 6396,
+        "create_time": 1792083795.95425,
+        "command": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent_pid": 20948
+      },
+      "state": "reused_or_changed"
+    },
+    {
+      "identity": {
+        "pid": 10720,
+        "create_time": 1792083809.9278502,
+        "command": [
+          "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe"
+        ],
+        "exe": "C:\\Users\\USER\\AppData\\Local\\JSBsimHost_1_0_0_0\\JSB_host_GUI_publish.exe",
+        "parent_pid": 24896
+      },
+      "state": "absent"
+    },
+    {
+      "identity": {
+        "pid": 16016,
+        "create_time": 1792083840.3011785,
+        "command": [
+          "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe",
+          "--internal-player2"
+        ],
+        "exe": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe",
+        "parent_pid": 10720
+      },
+      "state": "absent"
+    },
+    {
+      "identity": {
+        "pid": 12336,
+        "create_time": 1792083841.025256,
+        "command": [
+          "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe",
+          "--internal-player2"
+        ],
+        "exe": "C:\\Users\\USER\\AppData\\Local\\JSBsimHost_1_0_0_0\\JSB_host_GUI_publish.exe",
+        "parent_pid": 16016
+      },
+      "state": "absent"
+    },
+    {
+      "identity": {
+        "pid": 6384,
+        "create_time": 1792083787.6440256,
+        "command": [
+          "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+          "-I",
+          "-S",
+          "-B",
+          "-X",
+          "utf8",
+          "-u",
+          "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v2\\portable_host.py",
+          "watchdog",
+          "--folder",
+          "E:\\ai_pilot\\campaign_2026\\diagnostics\\portable_host_v2\\runs\\portable_20261016_010307_05d6734c"
+        ],
+        "exe": "E:\\ai_pilot\\campaign_2026\\deployment\\repair_guide_portable_20261012\\runtime\\python.exe",
+        "parent_pid": 11460
+      },
+      "state": "absent"
+    }
+  ],
+  "cleanup_all_original_identities_absent_or_reused": true,
+  "old_budget_reserved_not_refunded": true,
+  "v3_pending": "Explicit exact prelaunchconhost hash/snapshot and direct own root chain; no global conhost whitelist"
+}

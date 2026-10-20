@@ -1,0 +1,13 @@
+{
+  "profile": "portable_repair_guide_rehearsal_v4",
+  "tests": 28,
+  "actual_exit_code": 0,
+  "actual_exit_tool_chunk": "770e92",
+  "actual_seconds": 5.273,
+  "scope": "mock/receipt/binary/ancestry gates and read-only preflight only;no FDM or actual v4 Host",
+  "console_tests": 5,
+  "terminal_helper_tests": 5,
+  "prior_tests": 18,
+  "new_Host_rounds": 0,
+  "deployment_allowed": false
+}

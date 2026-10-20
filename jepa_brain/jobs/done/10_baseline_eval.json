@@ -1,0 +1,1 @@
+{"script": "rollout.py", "args": ["eval", "--n", "12", "--workers", "3", "--seed0", "900000", "--out", "runs/eval_baseline"], "max_minutes": 60}

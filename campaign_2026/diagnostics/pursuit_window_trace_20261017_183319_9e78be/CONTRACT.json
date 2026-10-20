@@ -1,0 +1,44 @@
+{
+  "guardian": {
+    "pid": 24688,
+    "create": 1792233198.2534351,
+    "cmd": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\pursuit_window_trace_v1.py"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent": 22696
+  },
+  "deadline_epoch": 1792233319.8224092,
+  "deadline_monotonic": 51618.593,
+  "seconds": 120,
+  "diagnostic_source_sha256": "55e7b7ecc3d699a6b64d943808a81b94b3bd5b53cef59ad44e45f47834ab188f",
+  "source_run": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_bank60_v2\\run_20261017_153047_104619",
+  "original_source_contract_sha256": "906c45fc51c2458cf05bec9f911e2b435a6ef3e85bda3b745aa903886414bdab",
+  "resources": {
+    "ram_bytes": 4618952704,
+    "disk_bytes": 193953263616,
+    "cpu_percent": 42.1,
+    "GPU_used": false
+  },
+  "usage_observation": {
+    "observed_utc": "2026-10-17 10:31:12 UTC",
+    "remaining_percent": 27,
+    "primary": {
+      "usedPercent": 18,
+      "windowDurationMins": 300,
+      "resetsAt": 1792240039
+    },
+    "weekly": {
+      "usedPercent": 73,
+      "windowDurationMins": 10080,
+      "resetsAt": 1792654206
+    }
+  },
+  "new_FDM_ticks": 0,
+  "seed_claims": [],
+  "training_started": false
+}

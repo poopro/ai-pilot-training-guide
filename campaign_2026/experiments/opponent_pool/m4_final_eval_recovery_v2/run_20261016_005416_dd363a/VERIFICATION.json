@@ -1,0 +1,90 @@
+{
+  "verified_paired_final_policy": true,
+  "errors": [],
+  "new_FDM_ticks": 36000,
+  "cases": [
+    {
+      "case_id": "final_rl_zero_2026300010",
+      "pair_key": "final_rl_2026300010",
+      "actor_id": "zero",
+      "heading_error_deg": null,
+      "initial_blue_sha256": "ae27cf696077e3844289a8b395bb699236cb8bb98c18838ed69311f81427109c",
+      "initial_red_sha256": "0338c4f7afc33d088878c84ec01729e803949c2d3c5416f2015623d0875765ff",
+      "stage": "official",
+      "opponent": "rl",
+      "ticks_per_reset": 18000,
+      "attack_ticks_per_reset": 22,
+      "event": "timeout",
+      "winner": "blue",
+      "one_full_round": true,
+      "score_eligible": false
+    },
+    {
+      "case_id": "final_rl_sac5000_2026300010",
+      "pair_key": "final_rl_2026300010",
+      "actor_id": "sac5000",
+      "heading_error_deg": null,
+      "initial_blue_sha256": "ae27cf696077e3844289a8b395bb699236cb8bb98c18838ed69311f81427109c",
+      "initial_red_sha256": "0338c4f7afc33d088878c84ec01729e803949c2d3c5416f2015623d0875765ff",
+      "stage": "official",
+      "opponent": "rl",
+      "ticks_per_reset": 18000,
+      "attack_ticks_per_reset": 26,
+      "event": "timeout",
+      "winner": "blue",
+      "one_full_round": true,
+      "score_eligible": false
+    }
+  ],
+  "complete_worker_count": 2,
+  "paired_openings": 1,
+  "comparisons": [
+    {
+      "pair_key": "final_rl_2026300010",
+      "initial_heading_error_deg": null,
+      "same_initial_blue_red_SHA": true,
+      "common_exposure_ticks": 18000,
+      "actors": {
+        "zero": {
+          "ticks": 18000,
+          "attack_ticks": 22,
+          "event": "timeout",
+          "winner": "blue",
+          "red_attack_ticks": 0,
+          "final_advantage_blue": 20411.885813495515,
+          "final_advantage_red": 194.68700769637408,
+          "red_over9G_ticks": 0,
+          "min_TA_deg": 0.5123435688608083,
+          "max_abs_G": 7.604282685946046,
+          "over9G_ticks": 0,
+          "min_AGL_m": 779.5844445331688,
+          "common_min_AGL_m": 779.5844445331688,
+          "common_attack_ticks": 22
+        },
+        "sac5000": {
+          "ticks": 18000,
+          "attack_ticks": 26,
+          "event": "timeout",
+          "winner": "blue",
+          "red_attack_ticks": 0,
+          "final_advantage_blue": 21506.102780046655,
+          "final_advantage_red": 394.27526530059816,
+          "red_over9G_ticks": 0,
+          "min_TA_deg": 0.0285799815038845,
+          "max_abs_G": 7.393348390401047,
+          "over9G_ticks": 0,
+          "min_AGL_m": 785.0848443206687,
+          "common_min_AGL_m": 785.0848443206687,
+          "common_attack_ticks": 26
+        }
+      }
+    }
+  ],
+  "actual_observed_launcher_exit_code": 0,
+  "training_started": false,
+  "frozen_actor_model_sha256": "9f93eb56483558ad56283c00b1ba34af96a236583bc977ef7d9fad375d9a0fea",
+  "official_Host_conformance_verified": false,
+  "combat_win_rate_evidence": false,
+  "deployment_allowed": false,
+  "report_sha256": "f79fde615cd4bc20640d7e0f56c3cdd0227d6d7038b4945980db547b7603d7ee"
+}

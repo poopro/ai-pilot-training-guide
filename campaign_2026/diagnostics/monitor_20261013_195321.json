@@ -1,0 +1,97 @@
+{
+  "observed_utc": "2026-10-13T11:53:21.068984+00:00",
+  "automation_id": "ai",
+  "mode": "monitor_only",
+  "usage": {
+    "primary_used_percent": 5,
+    "weekly_used_percent": 5,
+    "lower_remaining_percent": 95,
+    "primary_resets_utc": "2026-10-13T16:30:32+00:00",
+    "weekly_resets_utc": "2026-10-20T05:57:38+00:00",
+    "credits_or_reset_used": false
+  },
+  "processes": {
+    "research": "原記錄的 PID 已不存在",
+    "training": "原記錄的 PID 已不存在",
+    "related_live": [
+      {
+        "pid": 8236,
+        "creation_epoch": 1791871280.7287102,
+        "cmdline": [
+          "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe",
+          "--internal-player2"
+        ]
+      },
+      {
+        "pid": 20040,
+        "creation_epoch": 1791871281.617909,
+        "cmdline": [
+          "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\JSB_host_GUI_publish.exe",
+          "--internal-player2"
+        ]
+      }
+    ],
+    "unknown": [],
+    "host_cleanup_current_state": [
+      {
+        "pid": 4316,
+        "status": "absent"
+      },
+      {
+        "pid": 23036,
+        "status": "absent"
+      },
+      {
+        "pid": 18472,
+        "status": "absent"
+      }
+    ]
+  },
+  "comparison": {
+    "verified_complete": true,
+    "sha256": "78192becf6c06caaf7dc1bfbbe1855e666baefdab1205dda35219d9f495bbeff",
+    "gate": "reject_promotion"
+  },
+  "host_attempt": {
+    "status": "expired_before_match_started",
+    "completed_rounds": 0,
+    "sha256": "aabf2a6e0329eb6653d886cc2d3f686d0fb90c2eaec150f8754f9b77a59df967",
+    "already_notified_in_human_turn": true
+  },
+  "resources": {
+    "ram_available_gib": 6.232109069824219,
+    "disk_free_gib": 193.9963150024414,
+    "STOP": false
+  },
+  "compute_budget": {
+    "date_taipei": "2026-10-13",
+    "daily_limit_hours": 6.0,
+    "reserved_hours": 6.5040768775012765,
+    "items": [
+      {
+        "id": "bank80_fresh_dev_2026101300_7ddbf0893840",
+        "hours": 0.6666666666666666,
+        "status": "completed",
+        "actual_elapsed_seconds": 812.0,
+        "output": "E:\\ai_pilot\\campaign_2026\\experiments\\fresh_bank80\\run_20261013_013609_5218"
+      },
+      {
+        "id": "host_guide_six_rounds_20261013_140016",
+        "hours": 5.8374102108346095,
+        "status": "expired_before_match_started",
+        "planned_rounds": 6,
+        "scope": "new independent unchanged published Host repair_guide rounds and evidence capture",
+        "reserved_utc": "2026-10-13T06:00:16.477602+00:00",
+        "hard_deadline_epoch": 1791874816.477602,
+        "non_refundable": true,
+        "original_reserved_hours": 1,
+        "actual_elapsed_seconds": 21014.676759004593,
+        "charged_scope": "Conservative full elapsed INIT/READY waiting interval included; exceeds original limit, no new research today",
+        "completed_rounds": 0
+      }
+    ],
+    "limit_exceeded_observed": true
+  },
+  "new_research_allowed_today": false,
+  "decision": "review_required"
+}

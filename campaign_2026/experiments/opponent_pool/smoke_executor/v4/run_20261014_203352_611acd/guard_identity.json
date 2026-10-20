@@ -1,0 +1,13 @@
+{
+  "pid": 14836,
+  "creation_epoch": 1791981232.6975534,
+  "cmdline": [
+    "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\v4\\guard.py",
+    "--out",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\v4\\run_20261014_203352_611acd"
+  ]
+}

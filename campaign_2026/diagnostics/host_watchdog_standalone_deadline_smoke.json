@@ -1,0 +1,31 @@
+{
+  "token": "standalone_deadline_smoke",
+  "status": "finished",
+  "pid": 13300,
+  "create_time": 1791906084.7522264,
+  "command": [
+    "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "E:\\ai_pilot\\campaign_2026\\diagnostics\\host_watchdog.py",
+    "--token",
+    "standalone_deadline_smoke",
+    "--deadline-epoch",
+    "1791906086",
+    "--poll-seconds",
+    "0.1"
+  ],
+  "armed_utc": "2026-10-13T15:41:24.935337+00:00",
+  "deadline_epoch": 1791906086.0,
+  "poll_seconds": 0.1,
+  "finished_utc": "2026-10-13T15:41:26.027664+00:00",
+  "terminal_reason": "deadline",
+  "tracked": {},
+  "events": [],
+  "cleanup": {
+    "reason": "deadline",
+    "results": []
+  },
+  "all_known_live_processes_stopped": true
+}

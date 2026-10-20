@@ -1,0 +1,109 @@
+{
+  "status": "armed",
+  "guard": {
+    "pid": 16720,
+    "creation_epoch": 1791978719.66156,
+    "cmdline": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\guard.py",
+      "--out",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\run_20261014_195159_f7d760"
+    ]
+  },
+  "target": {
+    "pid": 1248,
+    "creation_epoch": 1791978719.6483777,
+    "cmdline": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\run_smoke.py",
+      "--out",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\run_20261014_195159_f7d760"
+    ]
+  },
+  "deadline_epoch": 1791979620.0484955,
+  "stopped": [],
+  "unknown": [],
+  "observed_descendants": [
+    {
+      "identity": {
+        "pid": 19412,
+        "creation_epoch": 1791978719.6596029,
+        "cmdline": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ]
+      },
+      "observed_parent_pid": 1248,
+      "observed_under_supervisor": 1248,
+      "observed_epoch": 1791978720.06704
+    },
+    {
+      "identity": {
+        "pid": 1940,
+        "creation_epoch": 1791978720.528643,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\run_smoke.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\run_20261014_195159_f7d760\\cases\\smoke_rule_3000_normal_2026102400\\input.json"
+        ]
+      },
+      "observed_parent_pid": 1248,
+      "observed_under_supervisor": 1248,
+      "observed_epoch": 1791978720.7503316
+    },
+    {
+      "identity": {
+        "pid": 15104,
+        "creation_epoch": 1791978720.5391512,
+        "cmdline": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ]
+      },
+      "observed_parent_pid": 1940,
+      "observed_under_supervisor": 1248,
+      "observed_epoch": 1791978720.7633665
+    },
+    {
+      "identity": {
+        "pid": 17260,
+        "creation_epoch": 1791978723.0433228,
+        "cmdline": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\run_smoke.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\run_20261014_195159_f7d760\\cases\\smoke_rule_3000_mirrored_2026102400\\input.json"
+        ]
+      },
+      "observed_parent_pid": 1248,
+      "observed_under_supervisor": 1248,
+      "observed_epoch": 1791978723.2011821
+    },
+    {
+      "identity": {
+        "pid": 6848,
+        "creation_epoch": 1791978723.0520608,
+        "cmdline": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ]
+      },
+      "observed_parent_pid": 17260,
+      "observed_under_supervisor": 1248,
+      "observed_epoch": 1791978723.2106936
+    }
+  ]
+}

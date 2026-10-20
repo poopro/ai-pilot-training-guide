@@ -1,0 +1,11 @@
+{
+  "status": "stopped_by_user",
+  "run_dir": "E:\\ai_pilot\\autopilot\\opponent_lab\\verification_training\\save_stop",
+  "final_bundle": "E:\\ai_pilot\\autopilot\\opponent_lab\\verification_training\\save_stop\\final_0000000001",
+  "pid": 12480,
+  "timesteps": 1,
+  "updates": 0,
+  "stop_file": "E:\\ai_pilot\\autopilot\\opponent_lab\\verification_training\\STOP_regression",
+  "heartbeat_epoch": 1791218119.409525,
+  "official_validation": false
+}

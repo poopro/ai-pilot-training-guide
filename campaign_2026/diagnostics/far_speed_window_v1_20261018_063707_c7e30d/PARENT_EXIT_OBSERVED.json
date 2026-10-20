@@ -1,0 +1,21 @@
+{
+  "actual_exit": 0,
+  "observation_source": "unified exec Windows process wait",
+  "session_id": 90706,
+  "chunk_id": "10ed8e",
+  "observed_utc": "2026-10-17T22:39:18.301151+00:00",
+  "actual_wall_seconds": 11.172,
+  "identity": {
+    "pid": 4184,
+    "create": 1792276626.520502,
+    "cmd": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\far_speed_window_guardian_v1.py"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent": 11920
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "status": "implemented_offline_checks_passed",
+  "created_utc": "2026-10-14T07:13:50.932629+00:00",
+  "executor_implemented": true,
+  "actual_fdm_execution_attempted": false,
+  "new_fdm_ticks": 0,
+  "learner_started": false,
+  "official_host_started": false,
+  "deployment_allowed": false,
+  "source_freeze_verified": true,
+  "cases": 24,
+  "self_play_cases": 6,
+  "max_steps": 300,
+  "case_wall_seconds": 30,
+  "total_wall_seconds": 900,
+  "tests_passed": 11,
+  "test_exit_code": 0,
+  "test_scope": "Mock verifier 24x300 rows, malformed/seed/ownership/STOP/AccessDenied gates, own dummy process identity and cleanup. No FDM trajectory.",
+  "check_only_exit_code": 0,
+  "check_only_fdm_constructor_calls": 0,
+  "check_only_execution_allowed": false,
+  "occupied_pids": [
+    932,
+    3092,
+    12908
+  ],
+  "tools_sha256": {
+    "common.py": "8c945fbf88d38ed3061595bdfe786bcfac0cff436500d18febe62d4be0af8415",
+    "guard.py": "84883543ad2327c226fce06a2b48b7abf6a4d74278617e7ca6b12f675211d14c",
+    "launch_smoke.py": "1055331d155e6d76a39e8ce0264e5e8e4ed69394cfee8f074fbdae3f549f29f7",
+    "run_smoke.py": "e0763c1841dd1a46431dbd2b81f09ca7448f3655283099d956aae0df13fbd207",
+    "test_smoke_executor.py": "196bf85a5c6717628c9462ffa22c9b3fcb4a08965b01749b6ff9db697a86390a",
+    "verify_smoke.py": "4e49f42c03dca0d5b2c07668ead8190f70d91d16638e434cfe1509f0a233f26e"
+  },
+  "check_only_sha256": "1f7c2b003b61c2f714302b4f2ae839bbba8c3542f1debec07bba803fbacf36ac",
+  "entrypoint": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\launch_smoke.py",
+  "verifier": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\verify_smoke.py",
+  "remaining_unverified": [
+    "First real FDM success path",
+    "30s model loading budget",
+    "Real per-tick sendAction instrumentation and finite states",
+    "Real 24/12 completion and successful worker/supervisor exits",
+    "Real self-play trajectory; combat performance and league evidence remain absent"
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "scope": "Stored telemetry descriptive diagnostic only; no causal attribution or newFDM",
+  "observed_utc": "2026-10-16T02:44:50.583321+00:00",
+  "stats": [
+    {
+      "case_id": "final_rule_sac5000_2026300200",
+      "opponent": "rule",
+      "actor": "sac5000",
+      "total_ticks": 18000,
+      "range500to3000ft_ticks": 4217,
+      "angle_and_range_ticks": {
+        "1": 6,
+        "2": 22,
+        "5": 216,
+        "10": 419
+      },
+      "valid_range_angle_min": 0.2967281786595589,
+      "mean_abs_tactical_channels": [
+        0.55960984799597,
+        0.4885981867710749,
+        0.10571817325221168
+      ]
+    },
+    {
+      "case_id": "final_rule_transfer10000_2026300200",
+      "opponent": "rule",
+      "actor": "transfer10000",
+      "total_ticks": 18000,
+      "range500to3000ft_ticks": 4406,
+      "angle_and_range_ticks": {
+        "1": 3,
+        "2": 16,
+        "5": 136,
+        "10": 414
+      },
+      "valid_range_angle_min": 0.5943686297733707,
+      "mean_abs_tactical_channels": [
+        0.20455459912618001,
+        0.137540212670962,
+        0.2106591010093689
+      ]
+    },
+    {
+      "case_id": "final_mirror_transfer10000_2026300201",
+      "opponent": "mirror",
+      "actor": "transfer10000",
+      "total_ticks": 13604,
+      "range500to3000ft_ticks": 1454,
+      "angle_and_range_ticks": {
+        "1": 180,
+        "2": 672,
+        "5": 1133,
+        "10": 1454
+      },
+      "valid_range_angle_min": 0.24445162657902605,
+      "mean_abs_tactical_channels": [
+        0.21977661622253283,
+        0.16379815270021975,
+        0.25799511979154904
+      ]
+    },
+    {
+      "case_id": "final_mirror_sac5000_2026300201",
+      "opponent": "mirror",
+      "actor": "sac5000",
+      "total_ticks": 15547,
+      "range500to3000ft_ticks": 1165,
+      "angle_and_range_ticks": {
+        "1": 180,
+        "2": 424,
+        "5": 783,
+        "10": 1165
+      },
+      "valid_range_angle_min": 0.42851616965152084,
+      "mean_abs_tactical_channels": [
+        0.5772528129708797,
+        0.531701781602629,
+        0.04466543635856217
+      ]
+    },
+    {
+      "case_id": "final_rl_sac5000_2026300202",
+      "opponent": "rl",
+      "actor": "sac5000",
+      "total_ticks": 18000,
+      "range500to3000ft_ticks": 5939,
+      "angle_and_range_ticks": {
+        "1": 6,
+        "2": 44,
+        "5": 336,
+        "10": 1016
+      },
+      "valid_range_angle_min": 0.7391924043113502,
+      "mean_abs_tactical_channels": [
+        0.5854825564225514,
+        0.493512005077468,
+        0.09563324007723066
+      ]
+    },
+    {
+      "case_id": "final_rl_transfer10000_2026300202",
+      "opponent": "rl",
+      "actor": "transfer10000",
+      "total_ticks": 18000,
+      "range500to3000ft_ticks": 5909,
+      "angle_and_range_ticks": {
+        "1": 23,
+        "2": 96,
+        "5": 466,
+        "10": 1058
+      },
+      "valid_range_angle_min": 0.16473299287699641,
+      "mean_abs_tactical_channels": [
+        0.17998704307609134,
+        0.1367333440648185,
+        0.18346968637572394
+      ]
+    }
+  ],
+  "decision": "Hold both models fixed. New candidate has rule regression, mirror faster kill, RL23 vs6 attacktick. Before more training evaluate full3opponent3distance grid with new development seeds; no parameter sweep or promotion.",
+  "not_proven": "Single paired opening per opponent cannot attribute failure to bank/pitch/throttle component; tactical output magnitudes are observations, not causal evidence."
+}

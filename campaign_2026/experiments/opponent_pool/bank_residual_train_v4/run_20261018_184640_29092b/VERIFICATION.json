@@ -1,0 +1,278 @@
+{
+  "verified_fresh_bank_residual_pilot": true,
+  "errors": [],
+  "decisions": 3000,
+  "new_FDM_ticks": 60000,
+  "updates": 338,
+  "replay_size": 3000,
+  "full_tick_count_and_judge_recompute": true,
+  "full_decision_feature_reward_recompute": true,
+  "sampled_first_tick_original_blue_act_command_replay": 3000,
+  "sampled_nonzero_action_command_effect": 1462,
+  "frozen_red_model_decision_replay": 1200,
+  "full_frame_packet_geometry_replay": false,
+  "full_frame_red_controller_replay": false,
+  "ACMI_recorded": false,
+  "actual_reached_cells": [
+    {
+      "episode": 0,
+      "seed": 2026314000,
+      "opponent": "sac5000",
+      "distance_ft": 6000,
+      "side": "normal"
+    },
+    {
+      "episode": 1,
+      "seed": 2026314001,
+      "opponent": "rule",
+      "distance_ft": 3000,
+      "side": "mirrored"
+    },
+    {
+      "episode": 2,
+      "seed": 2026314002,
+      "opponent": "mirror",
+      "distance_ft": 9000,
+      "side": "normal"
+    },
+    {
+      "episode": 3,
+      "seed": 2026314003,
+      "opponent": "sac5000",
+      "distance_ft": 3000,
+      "side": "normal"
+    }
+  ],
+  "completed_episodes": [
+    {
+      "case": {
+        "episode": 0,
+        "seed": 2026314000,
+        "opponent": "sac5000",
+        "distance_ft": 6000,
+        "side": "normal"
+      },
+      "ticks": 18000,
+      "final": {
+        "profile": {
+          "angle_source": "line_20261014_1deg",
+          "altitude_basis": "AGL",
+          "distance_edge_policy": "right_bin"
+        },
+        "ticks": 18000,
+        "seconds": 300.0,
+        "event": "timeout",
+        "winner": "red",
+        "rematch": false,
+        "attack_ticks": [
+          0,
+          0
+        ],
+        "over_g_ticks": [
+          0,
+          0
+        ],
+        "position_sum": [
+          539.1928839477428,
+          2741.412640131081
+        ],
+        "advantage": [
+          539.1928839477428,
+          2741.412640131081
+        ],
+        "kill_score": [
+          0.0,
+          0.0
+        ],
+        "total_score": [
+          539.1928839477428,
+          2741.412640131081
+        ],
+        "unresolved": [],
+        "runtime_Host_conformance_verified": false
+      },
+      "terminated": true,
+      "truncated": false
+    },
+    {
+      "case": {
+        "episode": 1,
+        "seed": 2026314001,
+        "opponent": "rule",
+        "distance_ft": 3000,
+        "side": "mirrored"
+      },
+      "ticks": 18000,
+      "final": {
+        "profile": {
+          "angle_source": "line_20261014_1deg",
+          "altitude_basis": "AGL",
+          "distance_edge_policy": "right_bin"
+        },
+        "ticks": 18000,
+        "seconds": 300.0,
+        "event": "timeout",
+        "winner": "blue",
+        "rematch": false,
+        "attack_ticks": [
+          0,
+          0
+        ],
+        "over_g_ticks": [
+          0,
+          0
+        ],
+        "position_sum": [
+          1406.6522632126248,
+          1256.2730257528247
+        ],
+        "advantage": [
+          1406.6522632126248,
+          1256.2730257528247
+        ],
+        "kill_score": [
+          0.0,
+          0.0
+        ],
+        "total_score": [
+          1406.6522632126248,
+          1256.2730257528247
+        ],
+        "unresolved": [],
+        "runtime_Host_conformance_verified": false
+      },
+      "terminated": true,
+      "truncated": false
+    },
+    {
+      "case": {
+        "episode": 2,
+        "seed": 2026314002,
+        "opponent": "mirror",
+        "distance_ft": 9000,
+        "side": "normal"
+      },
+      "ticks": 18000,
+      "final": {
+        "profile": {
+          "angle_source": "line_20261014_1deg",
+          "altitude_basis": "AGL",
+          "distance_edge_policy": "right_bin"
+        },
+        "ticks": 18000,
+        "seconds": 300.0,
+        "event": "timeout",
+        "winner": "blue",
+        "rematch": false,
+        "attack_ticks": [
+          0,
+          0
+        ],
+        "over_g_ticks": [
+          0,
+          0
+        ],
+        "position_sum": [
+          1777.4749058523123,
+          28.873847662722252
+        ],
+        "advantage": [
+          1777.4749058523123,
+          28.873847662722252
+        ],
+        "kill_score": [
+          0.0,
+          0.0
+        ],
+        "total_score": [
+          1777.4749058523123,
+          28.873847662722252
+        ],
+        "unresolved": [],
+        "runtime_Host_conformance_verified": false
+      },
+      "terminated": true,
+      "truncated": false
+    }
+  ],
+  "last_episode": {
+    "case": {
+      "episode": 3,
+      "seed": 2026314003,
+      "opponent": "sac5000",
+      "distance_ft": 3000,
+      "side": "normal"
+    },
+    "ticks": 6000,
+    "final": {
+      "profile": {
+        "angle_source": "line_20261014_1deg",
+        "altitude_basis": "AGL",
+        "distance_edge_policy": "right_bin"
+      },
+      "ticks": 6000,
+      "seconds": 100.0,
+      "event": "ongoing",
+      "winner": null,
+      "rematch": false,
+      "attack_ticks": [
+        0,
+        0
+      ],
+      "over_g_ticks": [
+        0,
+        0
+      ],
+      "position_sum": [
+        549.5526337280183,
+        836.3553836513493
+      ],
+      "advantage": [
+        549.5526337280183,
+        836.3553836513493
+      ],
+      "kill_score": [
+        0.0,
+        0.0
+      ],
+      "total_score": [
+        549.5526337280183,
+        836.3553836513493
+      ],
+      "unresolved": [],
+      "runtime_Host_conformance_verified": false
+    }
+  },
+  "zero_tick_auto_reset_starts": [],
+  "action_by_opponent": {
+    "sac5000": {
+      "count": 1200,
+      "mean": -0.00115048348903656,
+      "minimum": -0.9926294684410095,
+      "maximum": 0.9912326335906982
+    },
+    "rule": {
+      "count": 900,
+      "mean": -0.0893872763050927,
+      "minimum": -0.9946296215057373,
+      "maximum": 0.9944069385528564
+    },
+    "mirror": {
+      "count": 900,
+      "mean": -0.11067964884969923,
+      "minimum": -0.9855855107307434,
+      "maximum": 0.9921412467956543
+    }
+  },
+  "peak_abs_blue_G": 3.6692202036184005,
+  "min_AGL_m": 894.8956536086012,
+  "blue_over9G": 0,
+  "model_sha256": "b9bcce79185343c4fdf1b022feb42c4dceb62c8e312da29962c07ae34513b176",
+  "actor_sha256": "13be8f2167f877e8d878ec4836939f837d9e657f4bde3d92cb07ff4e2e6cc13d",
+  "source_XML_red_model_fixed": true,
+  "bundle_reload_exact": true,
+  "strength_verified": false,
+  "fair_comparison": false,
+  "deployment_allowed": false,
+  "scope": "Fresh bounded learning/interface/bundle evidence; not a full league, matched policy evaluation, or competition win rate"
+}

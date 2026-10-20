@@ -1,0 +1,48 @@
+{
+  "name": "final_evaluation",
+  "command": [
+    "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "-X",
+    "utf8",
+    "E:\\ai_pilot\\autopilot\\opponent_lab\\training_control.py",
+    "evaluate",
+    "--bundle",
+    "E:\\ai_pilot\\autopilot\\opponent_lab\\overnight_verification\\night_20261006_004746_e188\\train_02\\final_0000000256",
+    "--rounds",
+    "1",
+    "--max-minutes",
+    "3",
+    "--seed",
+    "20272000",
+    "--no-publish"
+  ],
+  "folder": "E:\\ai_pilot\\autopilot\\opponent_lab\\overnight_verification\\night_20261006_004746_e188\\final_evaluation",
+  "log_dir": "E:\\ai_pilot\\autopilot\\opponent_lab\\overnight_verification\\night_20261006_004746_e188\\logs\\final_evaluation",
+  "start_step": 0,
+  "counted_steps": 0,
+  "started_epoch": 1791218900.90757,
+  "status": "finished",
+  "process": {
+    "pid": 23804,
+    "create_time": 1791218900.9137754,
+    "command": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\autopilot\\opponent_lab\\training_control.py",
+      "evaluate",
+      "--bundle",
+      "E:\\ai_pilot\\autopilot\\opponent_lab\\overnight_verification\\night_20261006_004746_e188\\train_02\\final_0000000256",
+      "--rounds",
+      "1",
+      "--max-minutes",
+      "3",
+      "--seed",
+      "20272000",
+      "--no-publish"
+    ]
+  },
+  "exit_code": 0,
+  "reason": null,
+  "finished_epoch": 1791219043.5628755
+}

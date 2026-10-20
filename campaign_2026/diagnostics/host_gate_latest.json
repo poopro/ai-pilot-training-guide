@@ -1,0 +1,82 @@
+{
+  "verified_utc": "2026-10-14T07:03:13.778497+00:00",
+  "eligible_rounds": 6,
+  "required_rounds": 6,
+  "fixed_profile_hash": "affea1b63d8f9c6b8774332af0d5b5c074700b239d5f6ef6965a2c64f080c290",
+  "rounds": [
+    {
+      "folder": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_20261014_063034_6f22",
+      "round_identity": "70fa66601b14697afccb42d0cb443c7768ae32369b07a51efa23d70e52348f82",
+      "winner_raw": "1.0",
+      "sim_seconds": 94.933,
+      "p1_hp": 180.0,
+      "p2_hp": 0.0,
+      "p1_overload": 0.0,
+      "eligible": true,
+      "actual_auto_collector_exit": 0,
+      "actual_watchdog_exit": 0
+    },
+    {
+      "folder": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_20261014_143645_bedc",
+      "round_identity": "dca0245a61cbe613cab849d4cb9566658ee0c54961f0770d47c7bc1dfd8bd6c2",
+      "winner_raw": "1.0",
+      "sim_seconds": 83.15,
+      "p1_hp": 180.0,
+      "p2_hp": 0.0,
+      "p1_overload": 0.0,
+      "eligible": true,
+      "actual_auto_collector_exit": 0,
+      "actual_watchdog_exit": 0
+    },
+    {
+      "folder": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_20261014_144142_d414",
+      "round_identity": "9c30ee268794f84c0647240ad5b6840e61fab24ccf0e294631f3ee2ea27259a0",
+      "winner_raw": "1.0",
+      "sim_seconds": 114.617,
+      "p1_hp": 180.0,
+      "p2_hp": 0.0,
+      "p1_overload": 0.0,
+      "eligible": true,
+      "actual_auto_collector_exit": 0,
+      "actual_watchdog_exit": 0
+    },
+    {
+      "folder": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_20261014_144542_1cca",
+      "round_identity": "11524452189c60de8d3699fd443e52fee6a5b9c234d654e11b42929636177909",
+      "winner_raw": "1.0",
+      "sim_seconds": 145.183,
+      "p1_hp": 180.0,
+      "p2_hp": 0.0,
+      "p1_overload": 0.0,
+      "eligible": true,
+      "actual_auto_collector_exit": 0,
+      "actual_watchdog_exit": 0
+    },
+    {
+      "folder": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_20261014_145407_177e",
+      "round_identity": "82e89beb20af9f55cf619307b83876651112c6c20afc8992f198963a341af0f1",
+      "winner_raw": "1.0",
+      "sim_seconds": 169.2,
+      "p1_hp": 180.0,
+      "p2_hp": 0.0,
+      "p1_overload": 0.0,
+      "eligible": true,
+      "actual_auto_collector_exit": 0,
+      "actual_watchdog_exit": 0
+    },
+    {
+      "folder": "E:\\ai_pilot\\autopilot\\combat_fix\\official_validation\\host_20261014_145849_e0c5",
+      "round_identity": "ca669425286d4ef6accbf1185e25694ab40096dabf01e0b374bfee3309d63052",
+      "winner_raw": "1.0",
+      "sim_seconds": 133.717,
+      "p1_hp": 180.0,
+      "p2_hp": 0.0,
+      "p1_overload": 0.0,
+      "eligible": true,
+      "actual_auto_collector_exit": 0,
+      "actual_watchdog_exit": 0
+    }
+  ],
+  "remaining": "0 additional fixed-profile rounds; LAN and clean-start rehearsal still pending",
+  "competition_certification": false
+}

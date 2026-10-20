@@ -1,0 +1,64 @@
+{
+  "observed_utc": "2026-10-15T16:16:26.518673+00:00",
+  "batch_complete": false,
+  "verified_full_batch": false,
+  "actual_parent_exit_code": 2,
+  "actual_guard_exit_code": 0,
+  "actual_shell_exit_code_observed": 1,
+  "complete_normal_worker_count": 3,
+  "attempted_worker_count": 4,
+  "unstarted_reserved_cases": 1,
+  "new_FDM_ticks_including_failed_fixture": 2400,
+  "cases": [
+    {
+      "case_id": "rules_rule_2026101600",
+      "actual_worker_exit_code": 0,
+      "result_status": "interface_pass",
+      "rows": 600,
+      "both_side_score_replay_matches": true,
+      "CSV_sha256": "fbcee0a3c97368d2c163d06549e216adf0063f2eb96ab108bcbbbab76e0b2115",
+      "error": null,
+      "range_ticks": 0,
+      "min_blue_TA_deg": 90.23626127440198,
+      "last_blue_TA_deg": 122.92158364058322
+    },
+    {
+      "case_id": "rules_mirror_2026101601",
+      "actual_worker_exit_code": 0,
+      "result_status": "interface_pass",
+      "rows": 600,
+      "both_side_score_replay_matches": true,
+      "CSV_sha256": "36914fc0d24903b00a673ea3bb36d958b17bec0228767612f5eb1c9c1135e99d",
+      "error": null,
+      "range_ticks": 0,
+      "min_blue_TA_deg": 90.22619380226733,
+      "last_blue_TA_deg": 122.73380603073396
+    },
+    {
+      "case_id": "rules_rl_2026101602",
+      "actual_worker_exit_code": 0,
+      "result_status": "interface_pass",
+      "rows": 600,
+      "both_side_score_replay_matches": true,
+      "CSV_sha256": "79edfb6f7409d17f8161e6bf53aabc8aa0dcb153532232881d84f6ebe88f61a8",
+      "error": null,
+      "range_ticks": 0,
+      "min_blue_TA_deg": 90.21311007691051,
+      "last_blue_TA_deg": 119.81678511682473
+    },
+    {
+      "case_id": "rear_counter_2026101603",
+      "actual_worker_exit_code": 2,
+      "result_status": "failed",
+      "rows": 600,
+      "both_side_score_replay_matches": true,
+      "CSV_sha256": "b5c14aee168facb44650f68624925f06604ea2694aea46caf1aeb457469341cc",
+      "error": "RuntimeError('Rear fixture did not exercise nonzero attack counter')",
+      "range_ticks": 600,
+      "min_blue_TA_deg": 1.199888158956966,
+      "last_blue_TA_deg": 2.5085759746692893
+    }
+  ],
+  "no_full_comparison_or_promotion": true,
+  "no_seed_or_budget_refund": true
+}

@@ -1,0 +1,46 @@
+{
+  "profile": "portable_repair_guide_rehearsal_v3",
+  "round_identity": "928b9229be99cd946a8c7639ae74a9492fc2475df2a5cc68865f0f461ed6befa",
+  "fixed_profile_hash": "503916892c3981660a87e7aec573bf41cb8563cbe4db7d498140fe42ecb2757b",
+  "source_csv": "E:\\ai_pilot\\2026 AI 飛行員  相關資料\\AI空戰競賽系統安裝及測試指引\\AI空戰競賽系統安裝及測試指引\\AirCombat_Train_Test\\D.比賽用主辦方連線程式_驗證是否符合能正確連線\\飛行競賽Host端Record_20261016_0825.csv",
+  "csv_sha256": "1a53b0702a2c2b8774288a735314728a007868537fae62eaa6b19e20eb7c84c6",
+  "acmi_sha256": "61eeb30d812131a328007392e286b218deb38894c26088eae651cf5f0ab829e4",
+  "rows": 10384,
+  "sim_seconds": 173.083,
+  "host_winner_raw": "1.0",
+  "checks": {
+    "finite_csv": true,
+    "strictly_increasing_time": true,
+    "full_or_early_adjudication": true,
+    "player1_ready": true,
+    "player1_moved": true,
+    "csv_matches_terminal_capture": true,
+    "acmi_terminal_time": true,
+    "fresh_owned_p2_terminal": true,
+    "all_owned_cached_children_captured": false,
+    "package_runtime_self_check": true,
+    "profile_hash_unchanged": true
+  },
+  "portable_rehearsal_artifacts_complete": false,
+  "eligible_for_old_six_round_gate": false,
+  "packaged_six_round_gate_complete": false,
+  "actual_collector_exit_code": 2,
+  "competition_certification": false,
+  "terminal_receipt_checks": {
+    "fresh_owned_p2_stop_verified": true,
+    "prelaunch_p2_receipt_matches": true,
+    "p2_snapshots_match": true,
+    "p2_csv_hash_matches": true
+  },
+  "owned_child_inventory_checks": {
+    "session_token_matches": true,
+    "prelaunch_cache_receipt_matches": true,
+    "all_owned_children_captured": false,
+    "cached_gui_captured": true,
+    "cached_internal_p2_captured": true,
+    "all_direct_parent_chains_verified": true,
+    "all_executable_snapshots_match": true
+  },
+  "scope": "Separate portable package vs unchanged published local GUI Host; not legacy six or competition certification.",
+  "portable_rehearsal_complete": false
+}

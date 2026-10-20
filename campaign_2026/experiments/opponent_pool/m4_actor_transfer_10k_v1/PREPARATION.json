@@ -1,0 +1,52 @@
+{
+  "created_utc": "2026-10-16T02:19:28.301955+00:00",
+  "stage": "isolated_static_preparation_only_not_launched",
+  "new_FDM_ticks": 0,
+  "training_decisions": 0,
+  "new_Host_rounds": 0,
+  "live_registry_or_budget_mutated": false,
+  "research_pointer_or_automation_changed": false,
+  "actual_test_exit_code": 0,
+  "test_count": 11,
+  "test_runtime_seconds": 10.461,
+  "tool_observation": "69a7bf (exec session12520 actualexit0); first pass be1ef1 actualexit0/13.094s before review gate tightening",
+  "total_static_test_runtime_seconds": 23.555,
+  "actor_transfer_test": "Loaded frozen local source SAC and copied actor state into a new unstepped dummy-gym SAC. No reset/step/learn/FDM. Critic/target digests unchanged, both optimizer states empty, replay0/updates0. No model artifact saved.",
+  "source_model_sha256": "9f93eb56483558ad56283c00b1ba34af96a236583bc977ef7d9fad375d9a0fea",
+  "seed_policy": 2026101691,
+  "episode_seed_range": [
+    2026401000,
+    2026401255
+  ],
+  "seeds_only_checked_not_reserved": true,
+  "source_contract_sha256": "2382e73c943e164cc16e9d171daab8b8b4a02795a4dc0d7ddafb358fbc418e22",
+  "source_hashes": {
+    "actor_transfer.py": "a64934b22d037493ab7c3750a871ee8fef55bfa25aa3e55120bb55a922886240",
+    "common.py": "049de266ab86c2ab29f655ec76f43e1efd89752736e11e48d617c619dc78963a",
+    "guard.py": "487bcff8994be9a27cead6cdc4609ff3393979fbfd2aeda8da54dd9af30c1bec",
+    "launch_smoke.py": "a429cb9e724b4f906a3caae3efafe6057c8dd22f0427fb8bcc8051dbdcb92806",
+    "run_smoke.py": "4f4dafdbc82be387cb139d606fb509ef2244e892e708a0fb6ae6444b05c87fa7",
+    "test_preparation.py": "5e89a00c06589972edc10e3e4fd37fc655372ddff16026a28ee226534a4ab2c0",
+    "train_worker.py": "656470ff9a521af671c2e8a7d4fabe22f0986a989a75b19e5287e26a0a6aadb7",
+    "verify_training.py": "8c45f4cae79e6f668fd10a232387faf78e7b9775092c2864b6b5d544b1056678"
+  },
+  "guard_exact_recovery_v2_sha256": "487bcff8994be9a27cead6cdc4609ff3393979fbfd2aeda8da54dd9af30c1bec",
+  "deadlines_seconds": {
+    "total": 900,
+    "worker": 840,
+    "internal": 810,
+    "save_margin": 25
+  },
+  "decision_cap": 10000,
+  "own_physics_tick_cap": 200000,
+  "launch_blocked_until": "Main agent reviews complete same5000-model m4_rule_mirror_eval_v1 four-worker/two-pair verification, zeroover9G and tradeoffs; writes REVIEW_ACCEPTANCE.json with immutable report path/SHA, exact allow_bounded_actor_transfer_10000 decision and review_note. Source/joblock/STOP/seed/resource/freshquota checks still run at launch.",
+  "pending": [
+    "No actual training launched",
+    "No actor-transfer learner FDM execution yet",
+    "No training model/replay reload artifact yet",
+    "No combat effectiveness comparison for new learner",
+    "Main agent must review and account static runtime before any live launch"
+  ],
+  "deployment_allowed": false,
+  "official_validation": false
+}

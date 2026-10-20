@@ -1,0 +1,8 @@
+{"stage": "unchanged_strict_verifier_start"}
+{"stage": "strict_case_replay", "case": "normal_station_zero_2026310200", "elapsed": 12.248639583587646}
+{"stage": "strict_case_replay", "case": "normal_sac5000_2026310200", "elapsed": 24.78640866279602}
+{"stage": "strict_case_replay", "case": "normal_transfer10000_2026310200", "elapsed": 38.111573219299316}
+{"stage": "strict_case_replay", "case": "mirrored_station_zero_2026310201", "elapsed": 51.43064880371094}
+{"stage": "strict_case_replay", "case": "mirrored_sac5000_2026310201", "elapsed": 63.908889055252075}
+{"stage": "strict_case_replay", "case": "mirrored_transfer10000_2026310201", "elapsed": 77.9703905582428}
+{"verified_comparison": true, "errors": [], "complete_games": 6, "new_FDM_ticks": 108000, "nonzero_attack_counter_exercised": false}

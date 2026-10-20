@@ -1,0 +1,19 @@
+{
+  "credential_review": "three initial matches inspected without printing candidate values; all were non-credential contexts",
+  "reviewed_contexts": [
+    {
+      "path": "flybrain/viewer_demo.html",
+      "finding": "embedded base64 diagram/data payload; no API credential assignment"
+    },
+    {
+      "path": "flybrain/portable/fighter_opt.py",
+      "finding": "embedded base64 model weights; not an API credential"
+    },
+    {
+      "path": "campaign_2026/deployment/publish_cpu_handoff.py",
+      "finding": "private-key header text inside a safety assertion; no key body"
+    }
+  ],
+  "scanner_checks": "synthetic credential strings rejected; embedded substrings and header-only safety assertions distinguished",
+  "new_training_or_FDM": false
+}

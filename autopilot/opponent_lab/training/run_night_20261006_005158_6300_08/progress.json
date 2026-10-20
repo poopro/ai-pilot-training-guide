@@ -1,0 +1,11 @@
+{
+  "status": "saving_final",
+  "run_dir": "E:\\ai_pilot\\autopilot\\opponent_lab\\training\\run_night_20261006_005158_6300_08",
+  "pid": 1604,
+  "timesteps": 2000000,
+  "target": 2000000,
+  "updates": 249367,
+  "heartbeat_epoch": 1791233158.3716803,
+  "stop_file": "E:\\ai_pilot\\autopilot\\opponent_lab\\training\\run_night_20261006_005158_6300_08\\STOP",
+  "episode_samples": 13
+}

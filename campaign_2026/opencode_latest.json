@@ -1,0 +1,54 @@
+{
+  "folder": "E:\\ai_pilot\\campaign_2026\\delegations\\20261016_110512_be0f",
+  "model": "opencode/space-bunny-free",
+  "variant": "max",
+  "selector": "opencode/space-bunny-free#max",
+  "effort_policy": "highest_supported",
+  "effort_status": "highest_supported",
+  "variant_settings": {
+    "reasoningEffort": "max"
+  },
+  "catalog_price_verified_zero": true,
+  "exe_sha256": "42921a10846ebcf19659e9c491e68852e959e0a1d1c7e57f1283322d4cb7cc15",
+  "inputs": [
+    {
+      "source": "E:\\ai_pilot\\campaign_2026\\repair_v1\\controller.py",
+      "sha256": "fff336a83896a977cfa6052f37eb8bfa8d3e03946342f5e69f7a557fb9887c5f",
+      "snapshot": "input_00_controller.py"
+    }
+  ],
+  "started_utc": "2026-10-16T03:05:25.630770+00:00",
+  "seconds_limit": 240,
+  "status": "completed",
+  "paid_fallback": false,
+  "tools": "ask_all_deny_edit_and_subagent_no_auto_approval",
+  "pid": 10492,
+  "creation_epoch": 1792119925.6368167,
+  "exit_code": 0,
+  "elapsed_seconds": 60.36,
+  "source_unchanged": true,
+  "errors": [],
+  "reported_costs": [],
+  "reported_model_ids": [],
+  "text_chars": 3827,
+  "verified_model_metadata": [
+    {
+      "model": {
+        "id": "space-bunny-free",
+        "providerID": "opencode",
+        "variant": "max"
+      },
+      "cost": 0,
+      "tokens": {
+        "input": 6166,
+        "output": 1776,
+        "reasoning": 5311,
+        "cache": {
+          "read": 271,
+          "write": 0
+        }
+      }
+    }
+  ],
+  "verified_model_effort_and_zero_cost": true
+}

@@ -1,0 +1,74 @@
+{
+  "case": {
+    "id": "normal_bank60_2026310600",
+    "opening": 0,
+    "side": "normal",
+    "seed": 2026310600,
+    "actor": "bank60",
+    "red": "sac5000",
+    "distance_ft": 6000,
+    "max_ticks": 18000
+  },
+  "actual_worker_exit": 0,
+  "identity": {
+    "pid": 21856,
+    "create": 1792240756.0367625,
+    "cmd": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v2\\battle.py",
+      "--worker",
+      "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v2\\run_20261017_203915_d840e7\\cases\\normal_bank60_2026310600"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent": 22728
+  },
+  "reason": null,
+  "worker_and_descendants_absent": true,
+  "descendants": [
+    {
+      "identity": {
+        "pid": 22708,
+        "create": 1792240756.049338,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 21856
+      },
+      "chain": [
+        {
+          "pid": 22708,
+          "create": 1792240756.049338,
+          "cmd": [
+            "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+            "0x4"
+          ],
+          "exe": "C:\\Windows\\System32\\conhost.exe",
+          "parent": 21856
+        }
+      ],
+      "worker": {
+        "pid": 21856,
+        "create": 1792240756.0367625,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v2\\battle.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\rear_latch60_v2\\run_20261017_203915_d840e7\\cases\\normal_bank60_2026310600"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 22728
+      }
+    }
+  ],
+  "cleanup_actions": [],
+  "input_sha256": "44b44dc18626d01b1b6bdfbde1a339a4dae4da715a54736a4a9c6d08abf76358",
+  "result_sha256": "b798e3d7cbf15fa960d837653d6e99604f2eb4559728bea965608a91bd14d10b"
+}

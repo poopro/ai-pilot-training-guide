@@ -1,0 +1,1 @@
+{"readout": null, "opt": "/home/claude/arena2/ai_pilot/flybrain/ro/opt_b1_frozen.feat.npz", "hold": null, "zone": null, "tau": null, "cooldown": 3, "only": null, "prune_cache": null, "backend": "auto", "margin": 0.01, "pursue_bonus": 0.0, "passive": false, "feat": false, "dt": 1.0, "arms": ["fly_t3"], "n": 24, "seed0": 960000}

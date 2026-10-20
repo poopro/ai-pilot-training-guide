@@ -1,0 +1,97 @@
+{
+  "format": "smoke_executor_v3_preflight_audit",
+  "created_utc": "2026-10-14T12:28:21.175323+00:00",
+  "tests_command": [
+    "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\v3",
+    "-p",
+    "test_guard_repair.py",
+    "-v"
+  ],
+  "tests_actual_exit_code": 0,
+  "tests_log_sha256": "aa4aee34d05ace759096d9bc0676a2e695fee3b1791e11f60598769b75afe802",
+  "test_count": 13,
+  "tests_scope": "fault injected process tree and mocked Popen; no FDM or actual workload termination",
+  "check_command": [
+    "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\v3\\launch_smoke.py",
+    "--check-only",
+    "--seed",
+    "2026102500",
+    "--diagnostic-case-index",
+    "2"
+  ],
+  "check_actual_exit_code": 0,
+  "check_stdout": "{\"resources\": {\"available_ram_bytes\": 7326531584, \"free_disk_bytes\": 208826187776}, \"seeds\": {\"requested\": [2026102501], \"observed_or_attempted_collisions\": [], \"holdout_collisions\": [], \"fresh_relative_to_registry\": true, \"seed_trials_claimed\": 0, \"seed_role\": \"planned_development_diagnostic_not_holdout\"}, \"occupied\": [], \"execution_allowed\": true, \"score_eligible\": false, \"official_validation\": false, \"new_fdm_ticks\": 0, \"diagnostic_only\": true, \"diagnostic_case_index\": 2}",
+  "check_stderr": "",
+  "preflight": {
+    "resources": {
+      "available_ram_bytes": 7326531584,
+      "free_disk_bytes": 208826187776
+    },
+    "seeds": {
+      "requested": [
+        2026102501
+      ],
+      "observed_or_attempted_collisions": [],
+      "holdout_collisions": [],
+      "fresh_relative_to_registry": true,
+      "seed_trials_claimed": 0,
+      "seed_role": "planned_development_diagnostic_not_holdout"
+    },
+    "occupied": [],
+    "execution_allowed": true,
+    "score_eligible": false,
+    "official_validation": false,
+    "new_fdm_ticks": 0,
+    "diagnostic_only": true,
+    "diagnostic_case_index": 2
+  },
+  "contract_sha256": "5ef5aafbf3c01fea48be16db489a16b1025a3dcfa0e88df5ff14147dbc79e700",
+  "legacy_27_artifacts_unchanged": true,
+  "legacy_sources_unchanged": true,
+  "legacy_seed_trial_retained": {
+    "seeds": [
+      2026102400,
+      2026102401,
+      2026102402,
+      2026102410,
+      2026102411,
+      2026102412,
+      2026102420,
+      2026102421,
+      2026102422,
+      2026102430,
+      2026102431,
+      2026102432
+    ],
+    "status": "attempted_terminal",
+    "seed_role": "development_interface_smoke_not_holdout",
+    "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\run_20261014_195159_f7d760",
+    "parent_exit_code": 2
+  },
+  "legacy_budget_item_retained": {
+    "id": "guide_pool_smoke_2026102400",
+    "hours": 0.25,
+    "status": "attempted_terminal",
+    "output": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\smoke_executor\\run_20261014_195159_f7d760",
+    "warning_only_daily_policy": true,
+    "parent_exit_code": 2,
+    "actual_wall_seconds": 5.672000000005937
+  },
+  "new_trial_registered": false,
+  "new_fdm_ticks": 0,
+  "fdm_diagnostic_started": false,
+  "score_eligible": false,
+  "official_validation": false
+}

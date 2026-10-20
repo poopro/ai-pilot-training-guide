@@ -1,0 +1,13 @@
+test_actual_initial_speed_and_distance (__main__.ComplianceTests) ... ok
+test_curriculum_applies_on_reset (__main__.ComplianceTests) ... ok
+test_deterministic_initialization_and_five_minute_limit (__main__.ComplianceTests) ... ok
+test_exact_udp_layout_and_reject_invalid (__main__.ComplianceTests) ... ok
+test_no_hidden_information_and_bounded_corrections (__main__.ComplianceTests) ... ok
+test_no_state_advances_in_initialization (__main__.ComplianceTests) ... ok
+test_rule_boundaries_and_accumulation (__main__.ComplianceTests) ... ok
+test_training_udp_encoder_controller_match (__main__.ComplianceTests) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.666s
+
+OK

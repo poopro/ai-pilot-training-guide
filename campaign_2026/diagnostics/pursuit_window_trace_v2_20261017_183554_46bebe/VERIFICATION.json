@@ -1,0 +1,116 @@
+{
+  "verified_saved_pursuit_trace": true,
+  "created_utc": "2026-10-17T10:39:31.099441+00:00",
+  "trace_audit_sha256": "7e7d5f7b4c50d820b7b2c9acde59ae2305e67d229ab85eb1c9f555f11d0aa82c",
+  "actual_parent_exit": 0,
+  "actual_worker_exit": 0,
+  "terminal_identity_audit": [
+    {
+      "identity": {
+        "pid": 25824,
+        "create": 1792233353.103832,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\diagnostics\\pursuit_window_trace_v2.py"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 19640
+      },
+      "state": "absent_no_exit_inferred"
+    },
+    {
+      "identity": {
+        "pid": 19696,
+        "create": 1792233354.305762,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\diagnostics\\pursuit_window_trace_v2.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\diagnostics\\pursuit_window_trace_v2_20261017_183554_46bebe"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 25824
+      },
+      "state": "absent_no_exit_inferred"
+    },
+    {
+      "identity": {
+        "pid": 3212,
+        "create": 1792233354.3293295,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 19696
+      },
+      "state": "absent_no_exit_inferred"
+    },
+    {
+      "identity": {
+        "pid": 24688,
+        "create": 1792233198.2534351,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\diagnostics\\pursuit_window_trace_v1.py"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 22696
+      },
+      "state": "absent_no_exit_inferred"
+    },
+    {
+      "identity": {
+        "pid": 26620,
+        "create": 1792233199.8446243,
+        "cmd": [
+          "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+          "-B",
+          "-X",
+          "utf8",
+          "E:\\ai_pilot\\campaign_2026\\diagnostics\\pursuit_window_trace_v1.py",
+          "--worker",
+          "E:\\ai_pilot\\campaign_2026\\diagnostics\\pursuit_window_trace_20261017_183319_9e78be"
+        ],
+        "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+        "parent": 24688
+      },
+      "state": "absent_no_exit_inferred"
+    },
+    {
+      "identity": {
+        "pid": 25240,
+        "create": 1792233199.8558536,
+        "cmd": [
+          "\\??\\C:\\WINDOWS\\system32\\conhost.exe",
+          "0x4"
+        ],
+        "exe": "C:\\Windows\\System32\\conhost.exe",
+        "parent": 26620
+      },
+      "state": "reused_or_identity_mismatch"
+    }
+  ],
+  "prior_failed_parent_exit": 1,
+  "prior_failed_worker_exit": 1,
+  "prior_failure_preserved": true,
+  "normal_controller_projection_not_repeated": true,
+  "scope": "2 preserved normal trace CSV + 2 new mirror projections; independent original-packet geometry/rate/goal and row audit for all 72000 saved states",
+  "new_FDM_ticks": 0,
+  "new_model_inference": false,
+  "training_started": false,
+  "inner_command_replayed": false,
+  "closed_loop_intervention_tested": false,
+  "deployment_allowed": false,
+  "finding": "Both bank60 cases have 13 goal reversals exactly on the 13 ±180 heading-error wrap frames; zero baseline has none. Only 2/13 candidate reversals are within2s of 914.4m crossings. Saved-state requested bank otherwise follows shortest heading-error sign. This identifies a discontinuous pursuit mechanism, not proof a latch wins.",
+  "timing_basis": "All diagnostic geometry/branches use pre-step packet. Candidate in-band counts7603/7535 differ by1 from original post-step7604/7536 because initial is outside and terminal is inside."
+}

@@ -1,0 +1,51 @@
+{
+  "guardian": {
+    "pid": 3648,
+    "create": 1792265393.2301688,
+    "cmd": [
+      "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+      "-B",
+      "-X",
+      "utf8",
+      "E:\\ai_pilot\\campaign_2026\\diagnostics\\far_speed_precheck_guardian_v1.py"
+    ],
+    "exe": "C:\\Users\\USER\\anaconda3\\envs\\F16_ai\\python.exe",
+    "parent": 8332
+  },
+  "deadline_epoch": 1792265514.9119997,
+  "deadline_monotonic": 11252.093,
+  "seconds": 120,
+  "diagnostic_source_sha256": "726b5d2b1c4b8ccb9f4f82189ecfee264bf26fe35172e3241719c2443c9a64a1",
+  "source_run": "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_bank60_v2\\run_20261017_153047_104619",
+  "original_source_contract_sha256": "906c45fc51c2458cf05bec9f911e2b435a6ef3e85bda3b745aa903886414bdab",
+  "resources": {
+    "ram_bytes": 6645075968,
+    "disk_bytes": 193643610112,
+    "cpu_percent": 40.0,
+    "GPU_used": false
+  },
+  "usage_observation": {
+    "observed_utc": "2026-10-17 19:29:36 UTC",
+    "remaining_percent": 19,
+    "primary": {
+      "usedPercent": 1,
+      "windowDurationMins": 300,
+      "resetsAt": 1792283376
+    },
+    "weekly": {
+      "usedPercent": 81,
+      "windowDurationMins": 10080,
+      "resetsAt": 1792654206
+    }
+  },
+  "new_FDM_ticks": 0,
+  "seed_claims": [],
+  "training_started": false,
+  "new_sources": {
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\battle.py": "223dec3796989499b872499c466c9d06c1c435ba999e334b14bbc46bf980a1cc",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\candidate.py": "b8b869c6ddb2f7a01118d120fe23a95187097a20bf9f55f622f55afacc5f7f38",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\post_review.py": "40d1666d04aedc686c84f992767493eacd5ecf00e79ef31a4f142b0a5ded4f66",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\test_static.py": "af935a356811dbaee4c362c5ddf2b883778b52ee1187f6c9f3ae0157b15bfc15",
+    "E:\\ai_pilot\\campaign_2026\\experiments\\opponent_pool\\far_speed_v1\\verify.py": "d9100153821314790cfae3a4b4d593941a572c9ef4856cec37f073021f5bdff9"
+  }
+}

@@ -1,0 +1,18 @@
+
+
+     JSBSim Flight Dynamics Model v1.3.1 [GitHub build 1837/commit 3b25f25e49b42d0489c04ac805674fc1450ca579] May 17 2026 14:28:34
+            [JSBSim-ML v2.0]
+
+JSBSim startup beginning ...
+
+base_s  vs mix     ongoing   atk 0/0 margin 99.9 minAGL 5112 shield 0 zoom 0 plan_ms None wall 1.2s tactics [90, 0, 0, 0, 0, 0, 0, 0]
+base_s  vs sac314  ongoing   atk 0/0 margin 177.1 minAGL 5004 shield 0 zoom 0 plan_ms None wall 10.5s tactics [90, 0, 0, 0, 0, 0, 0, 0]
+user    vs mix     ongoing   atk 0/0 margin 99.9 minAGL 5112 shield 0 zoom 0 plan_ms None wall 1.2s tactics [0, 0, 0, 0, 0, 0, 0, 0]
+user    vs sac314  ongoing   atk 0/0 margin 179.2 minAGL 5006 shield 0 zoom 0 plan_ms None wall 2.6s tactics [0, 0, 0, 0, 0, 0, 0, 0]
+user_s  vs mix     ongoing   atk 0/0 margin 99.9 minAGL 5112 shield 0 zoom 0 plan_ms None wall 1.3s tactics [0, 0, 0, 0, 0, 0, 0, 0]
+user_s  vs sac314  ongoing   atk 0/0 margin 179.2 minAGL 5006 shield 0 zoom 0 plan_ms None wall 3.1s tactics [0, 0, 0, 0, 0, 0, 0, 0]
+mil     vs mix     ongoing   atk 0/0 margin 99.9 minAGL 5112 shield 0 zoom 0 plan_ms 25.0 wall 3.5s tactics [90, 0, 0, 0, 0, 0, 0, 0]
+mil     vs sac314  ongoing   atk 0/0 margin 177.1 minAGL 5004 shield 0 zoom 0 plan_ms 25.4 wall 5.0s tactics [90, 0, 0, 0, 0, 0, 0, 0]
+mil_s   vs mix     ongoing   atk 0/0 margin 99.9 minAGL 5112 shield 0 zoom 0 plan_ms 24.9 wall 3.5s tactics [90, 0, 0, 0, 0, 0, 0, 0]
+mil_s   vs sac314  ongoing   atk 0/0 margin 177.1 minAGL 5004 shield 0 zoom 0 plan_ms 25.1 wall 5.0s tactics [90, 0, 0, 0, 0, 0, 0, 0]
+SMOKE_BFM OK

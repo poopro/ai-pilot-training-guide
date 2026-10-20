@@ -1,0 +1,17 @@
+{
+  "observed_utc": "2026-10-16T01:47:09.574318+00:00",
+  "publication_pdf": "E:\\ai_pilot\\campaign_2026\\diagnostics\\rules_contract_20261008\\official_download_5.pdf",
+  "publication_sha256": "0d7f2717b39e2b74c6a84f287dd0bec9b109772654825055e5a7374e6e79ba33",
+  "visually_reviewed_render": "E:\\ai_pilot\\campaign_2026\\diagnostics\\rules_contract_20261008\\current_announcement_page_10.png",
+  "PDF_page_1based": 10,
+  "printed_page": 9,
+  "publication_formula": "TA_norm=(90-|TA|)/90 for TA<90 else0; AA_norm=(90-|AA|)/90 for AA<90 else0; Pt=(TA_norm+AA_norm)*DistanceFactor",
+  "frozen_research_judge_matches_publication_position_formula": true,
+  "installed_connection_Host_inference": "Each angle index=(180-angle)/180 if angle<=90 else0, per saved10384row component errors<=6.45e-6; bodyX1deg damage180ticks matches exactly",
+  "source_probe": "E:\\ai_pilot\\campaign_2026\\diagnostics\\HOST_RULES_POSITION_PROBE_20261016.json",
+  "source_round_still_ineligible_packagegate": true,
+  "resolution": "Document-vs-installed-connection-tester scoring divergence, not established coding bug in frozenjudge. Keep named publication90/LINE1deg research contract; any Host180 adapter must be separate and not claim formalcontestnormative. Need actualcontestversion confirmation before finalscoringcertification.",
+  "no_frozen_rules_reward_model_changed": true,
+  "no_host_or_learner_spawned_by_this_review": true,
+  "additional_training": "No blind resume; existing5000pilot retains its publication90 reward meaning. A changedHost180 contract would require newcritic/optimizer/replay."
+}

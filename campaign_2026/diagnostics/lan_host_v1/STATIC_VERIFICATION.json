@@ -1,0 +1,21 @@
+{
+  "checked_utc": "2026-10-16T21:07:47.7920644Z",
+  "checks": {
+    "Setting.txt_original_unchanged": true,
+    "Setting.txt_clone_isolated_change": true,
+    "ICON.ico_identical_copy": true,
+    "readme_part2.txt_identical_copy": true,
+    "JSB_host_GUI_publish.exe_identical_copy": true,
+    "readme_part1.txt_identical_copy": true,
+    "only_P1_output_ip_changed": true,
+    "portable_v4_freeze_sha_unchanged": true,
+    "package_archive_sha_unchanged": true,
+    "package_manifest_sha_unchanged": true,
+    "candidate_ports_unbound": true,
+    "no_host_process": true,
+    "P1_output_is_only_routed_change": true
+  },
+  "all_pass": true,
+  "host_started": false,
+  "firewall_changed": false
+}
