@@ -1,0 +1,51 @@
+{
+ "name": "f2w80_04",
+ "x": [
+  0.66977,
+  0.54884,
+  0.73669,
+  0.41032,
+  0.88167,
+  0.9813,
+  0.14053,
+  0.80028,
+  0.81962,
+  0.82026,
+  0.48206,
+  0.57727,
+  0.00295,
+  0.6914,
+  0.41967,
+  0.69404,
+  0.53311,
+  0.97125,
+  0.19015
+ ],
+ "params": {
+  "kp_head": 2.34,
+  "hold_m": 771.397,
+  "close_gain": 0.118,
+  "lead_blend": 0.328,
+  "near_m": 1493.504,
+  "elev_rate_gain": 1.178,
+  "ff_gain": 0.211,
+  "turn_cap_deg": 62.011,
+  "turn_cap": 354.747,
+  "bank_cap": 82.967,
+  "open_s": 9.641,
+  "open_tac": "extend",
+  "def_range": 806.489,
+  "def_ata": 131.484,
+  "def_tac": "high_yoyo",
+  "def_hold": 3.776,
+  "off_range": 1566.217,
+  "off_ata": 43.85,
+  "off_tac": "pursue"
+ },
+ "source": "runs/adv_f2w80",
+ "confirm": {
+  "blue_wins": 0,
+  "red_wins": 24,
+  "n": 24
+ }
+}
