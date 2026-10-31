@@ -1,0 +1,51 @@
+{
+ "name": "f4rs_03",
+ "x": [
+  0.83723,
+  0.50777,
+  0.99442,
+  0.26383,
+  0.38408,
+  0.75158,
+  0.52883,
+  0.93286,
+  0.63287,
+  0.96736,
+  0.69024,
+  0.60291,
+  0.48356,
+  0.98188,
+  0.52084,
+  0.39626,
+  0.59044,
+  0.37517,
+  0.19882
+ ],
+ "params": {
+  "kp_head": 2.674,
+  "hold_m": 732.381,
+  "close_gain": 0.149,
+  "lead_blend": 0.211,
+  "near_m": 1045.671,
+  "elev_rate_gain": 0.902,
+  "ff_gain": 0.793,
+  "turn_cap_deg": 67.314,
+  "turn_cap": 328.602,
+  "bank_cap": 87.086,
+  "open_s": 13.805,
+  "open_tac": "extend",
+  "def_range": 1863.828,
+  "def_ata": 148.913,
+  "def_tac": "high_yoyo",
+  "def_hold": 2.585,
+  "off_range": 1680.881,
+  "off_ata": 20.007,
+  "off_tac": "pursue"
+ },
+ "source": "runs/adv_f4rs",
+ "confirm": {
+  "blue_wins": 11,
+  "red_wins": 1,
+  "n": 12
+ }
+}
