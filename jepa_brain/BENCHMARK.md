@@ -8,6 +8,7 @@
 1. Python 3.10+：`pip install jsbsim numpy`（不需要 torch、不需要 GPU）。
 2. 主辦方的 `AirCombat_Train_Test` 資料夾（每隊都有，**不在這個 repo**）：
    `set AIRCOMBAT_DIR=<路徑>\AirCombat_Train_Test`（Linux：`export AIRCOMBAT_DIR=...`）。
+   **還要把 `jepa_brain/setup/combat_v3.zip` 解壓到 `AirCombat_Train_Test` 裡面**（變成 `AirCombat_Train_Test\combat_v3\`）。`combat_v3` 是我們 10/3 在官方資料夾裡寫的觀測／判定介面，主辦方資料包裡沒有；它會讀官方的 `envs/jsbsimEnv/jsbsimFdm.py` 和 `aircraft/`，所以必須放在官方資料夾裡。
 3. 韓國隊模型（只有要用 `kr:`／`krl:` 時才需要；**權重不在這個 repo**，請自己下載原始 repo）：
    `git clone https://github.com/idearendil/2026_AI_Pilot_Challenge-1st_Solution`，然後
    `set KR_MODELS=<clone>\final_team_models`。
