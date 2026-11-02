@@ -39,13 +39,26 @@ SPEC = [
     ('off_range', (500., 2500.)), ('off_ata', (5., 45.)), ('off_tac', OFF_TACS),
 ]
 DIM = len(SPEC)
+# 2026-10-28: optional close-range lift-vector finisher for the red (a much stronger family of opponents: it fights like
+# our own tuned2f).  x longer than DIM -> these extra genes; AdvRed then wraps its pilot in finisher.FinisherPilot.
+FIN_SPEC = [('f_k_ang', (1.0, 3.5)), ('f_k_ff', (.4, 1.6)), ('f_hold_m', (300., 850.)), ('f_turn_cas', (280., 420.)),
+            ('f_n_cap', (7., 8.6)), ('f_enter_m', (1500., 4000.)), ('f_merge_off_m', (150., 800.))]
+FIN_DIM = len(FIN_SPEC)
+# 2026-10-28: vertical-manoeuvre reds (need the finisher genes too: they fly through its 3D lift-vector pilot).
+# When threatened (we are behind them inside v_range, their ATA to us > v_ata) they fly a vertical move for v_hold s:
+#   0 zoom (lift up, 4 g, full power)  1 loop/Immelmann (lift up, v_n g)  2 split-S (lift down, v_n g; only above
+#   v_alt_min)  3 oblique loop away from us (lift 45 deg off vertical, v_n g)
+VERT_SPEC = [('v_tac', (0, 1, 2, 3)), ('v_range', (800., 3500.)), ('v_ata', (60., 160.)), ('v_hold', (2., 12.)),
+             ('v_n', (5., 8.6)), ('v_alt_min', (1500., 4500.)), ('v_cool', (2., 20.))]
+VERT_DIM = len(VERT_SPEC)
 
 
 def decode(x):
     x = np.clip(np.asarray(x, dtype=float), 0., 1.)
     p = {}
-    for (name, rng), v in zip(SPEC, x):
-        if name.endswith('_tac'):
+    spec = SPEC + (FIN_SPEC if len(x) > DIM else []) + (VERT_SPEC if len(x) > DIM + FIN_DIM else [])
+    for (name, rng), v in zip(spec, x):
+        if name.endswith('_tac') or name == 'v_tac':
             p[name] = int(rng[min(int(v * len(rng)), len(rng) - 1)])
         else:
             p[name] = float(rng[0] + (rng[1] - rng[0]) * v)
@@ -120,6 +133,12 @@ class AdvRed:
         self.p = dict(params)
         self.pilot = AdvPilot(self.p)
         self.state, self.until, self.cool = None, 0, 0
+        self.fin = None
+        if 'f_k_ang' in self.p:
+            from finisher import FinisherPilot
+            cfg = {k[2:]: float(v) for k, v in self.p.items() if k.startswith('f_')}
+            cfg.update(aa_max=180., enter_deg=180., exit_deg=180., exit_m=cfg['enter_m'] + 500., rec_v2=1.)
+            self.fin = FinisherPilot(self.pilot, cfg)
 
     def _decide(self, o, tick):
         P = self.p
@@ -145,8 +164,47 @@ class AdvRed:
             return P['off_tac'] if (agl_ok or P['off_tac'] != HIGH_YOYO) else PURSUE
         return PURSUE
 
+    def _vertical(self, obs, tick):
+        """Vertical defensive move through the finisher's LiftPilot; returns a command or None."""
+        P = self.p
+        o = np.asarray(obs, dtype=np.float64)
+        if not hasattr(self, 'v_until'):
+            self.v_until, self.v_next, self.v_side = -1, 0, 1.
+        if tick >= self.v_until:
+            if tick < self.v_next:
+                return None
+            rel, ov, ev = frame(o)
+            d = float(np.linalg.norm(rel)); so = float(np.linalg.norm(ov))
+            if d < 1. or so < 1.:
+                return None
+            ata = math.degrees(math.acos(float(np.clip(np.dot(ov, rel) / (so * d), -1., 1.))))
+            alt = o[2] * FT
+            if not (d < P['v_range'] and ata > P['v_ata'] and alt > 1200.):
+                return None
+            if P['v_tac'] == 2 and alt < P['v_alt_min']:
+                return None
+            self.v_until = tick + int(P['v_hold'] * 60)
+            self.v_next = self.v_until + int(P['v_cool'] * 60)
+            self.v_side = 1. if float(ov[0] * rel[1] - ov[1] * rel[0]) < 0 else -1.      # away from the enemy side
+            low = self.fin.low
+            low.last = np.array(getattr(self.pilot, 'last', low.last), dtype=np.float64).copy()
+            low.ni = 0.; low.si = 0.; low.recovering = False
+        t = P['v_tac']
+        mu, n, cas = {0: (0., 4., 480.), 1: (0., P['v_n'], 420.), 2: (180., P['v_n'], 330.),
+                      3: (45. * self.v_side, P['v_n'], 420.)}[t]
+        out, _ = self.fin.low.command(o, mu, n, cas)
+        if hasattr(self.pilot, 'last'):
+            self.pilot.last = self.fin.low.last.copy()
+        return out
+
     def act(self, obs, tick):
         o = validate_observation(obs)
         if tick % 20 == 0:
             self.pilot.set_tactic(self._decide(o, tick))
+        if self.fin is not None and 'v_tac' in self.p:
+            v = self._vertical(obs, tick)
+            if v is not None:
+                return v
+        if self.fin is not None:
+            return self.fin.act(obs)[0]
         return self.pilot.act(obs)[0]

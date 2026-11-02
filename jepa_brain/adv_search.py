@@ -12,6 +12,7 @@ confirm: re-plays the best candidates on NEW seeds (selection in the search over
          adv_pool/<name>.json for pool3.py (opponent kind 'adv:<name>').
 Blue is tuned2 exactly as in rollout_bfm.play_game (ParamPilot + runs/tune02/best.json + shield v3).
 """
+import os
 import argparse, json, pickle, time, traceback
 from pathlib import Path
 import numpy as np
@@ -41,6 +42,9 @@ def make_blue(blue_arm):
         return wide_pilot.make_wide(float(blue_arm.split(':')[1]))
     if blue_arm == 'tuned2':
         return rollout_bfm.make_arm(tuned2_arm())
+    if isinstance(blue_arm, str) and blue_arm.split(':')[0] in ('tuned2f', 'dcsv2f', 'dcsv2fr', 'dcsv2frs', 'fin4', 'kr', 'krl'):
+        import dcsvet_pool
+        return dcsvet_pool.make_blue(blue_arm)
     return rollout_bfm.make_arm(blue_arm)
 
 
@@ -62,6 +66,8 @@ def play(cfg, red_params, blue_arm):
     margin = float(ts[0] - ts[1])
     w = snap['winner']
     u = (1. if w == 'blue' else (-1. if w == 'red' else 0.)) + .5 * float(np.clip(margin / 1000., -1., 1.))
+    if os.environ.get('ADV_OBJ') == 'shoot':   # 2026-10-28: find reds that SHOOT us / make us crash, not just win on points
+        u -= 1.5 * (snap['event'] in ('red_kill', 'blue_crash', 'collision')) + snap['attack_ticks'][1] / 180.
     return dict(seed=cfg['seed'], side=cfg['side'], distance_ft=cfg['distance_ft'], event=snap['event'], winner=w,
                 ticks=snap['ticks'], atk_b=snap['attack_ticks'][0], atk_r=snap['attack_ticks'][1],
                 pos_b=round(snap['position_sum'][0], 1), pos_r=round(snap['position_sum'][1], 1),
@@ -98,7 +104,7 @@ def cmd_search(a):
     if state.exists():
         es, gen = pickle.loads(state.read_bytes())
     else:
-        es = cma.CMAEvolutionStrategy(np.full(adv_red.DIM, .5), a.sigma,
+        es = cma.CMAEvolutionStrategy(np.full(adv_red.DIM + (adv_red.FIN_DIM if a.red in ('fin', 'vert') else 0) + (adv_red.VERT_DIM if a.red == 'vert' else 0), .5), a.sigma,
                                       {'bounds': [0., 1.], 'popsize': a.pop, 'seed': a.seed0 % 100000 + 1, 'verbose': -9})
         gen = 0
     pool = make_pool(a.workers)
@@ -205,11 +211,15 @@ def main():
     ap.add_argument('--seed0', type=int, default=5100000)
     ap.add_argument('--workers', type=int, default=2)
     ap.add_argument('--budget-min', type=float, default=600)
+    ap.add_argument('--red', default='plain', choices=['plain', 'fin', 'vert'], help='fin = reds also carry a lift-vector finisher (7 more genes); vert = + vertical defensive moves (7 more)')
+    ap.add_argument('--obj', default='points', choices=['points', 'shoot'], help='shoot = also reward reds that shoot blue / make it crash')
     ap.add_argument('--top', type=int, default=12)
     ap.add_argument('--n', type=int, default=24)
     ap.add_argument('--min-dist', type=float, default=.35)
     ap.add_argument('--blue', default='tuned2', help="tuned2 | tuned2w:<cap> | any rollout_bfm arm")
     a = ap.parse_args()
+    if a.obj == 'shoot':
+        os.environ['ADV_OBJ'] = 'shoot'   # inherited by the spawned workers
     (cmd_search if a.mode == 'search' else cmd_confirm)(a)
 
 

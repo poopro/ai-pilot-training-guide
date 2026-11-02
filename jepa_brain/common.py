@@ -8,7 +8,10 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
-_matches = sorted(ROOT.glob('2026 AI 飛行員*/*/*/AirCombat_Train_Test'))
+import os
+# the organisers' AirCombat_Train_Test folder (not in the repo): set AIRCOMBAT_DIR, or keep the original layout next to ROOT
+_matches = [Path(os.environ['AIRCOMBAT_DIR'])] if os.environ.get('AIRCOMBAT_DIR') else \
+    sorted(ROOT.glob('2026 AI 飛行員*/*/*/AirCombat_Train_Test')) or sorted(ROOT.glob('**/AirCombat_Train_Test'))[:1]
 if not _matches:
     raise RuntimeError('AirCombat_Train_Test folder not found under ' + str(ROOT))
 BASE = _matches[0]

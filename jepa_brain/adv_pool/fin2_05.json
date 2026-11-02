@@ -1,0 +1,51 @@
+{
+ "name": "fin2_05",
+ "x": [
+  0.87233,
+  0.41112,
+  0.51324,
+  0.61936,
+  0.45872,
+  0.02624,
+  0.14855,
+  0.99073,
+  0.68553,
+  0.96573,
+  0.20227,
+  0.03127,
+  0.29154,
+  0.75585,
+  0.00407,
+  0.09349,
+  0.95687,
+  0.47313,
+  0.82748
+ ],
+ "params": {
+  "kp_head": 2.745,
+  "hold_m": 640.568,
+  "close_gain": 0.092,
+  "lead_blend": 0.495,
+  "near_m": 1112.844,
+  "elev_rate_gain": 0.031,
+  "ff_gain": 0.223,
+  "turn_cap_deg": 69.629,
+  "turn_cap": 335.974,
+  "bank_cap": 87.04,
+  "open_s": 4.045,
+  "open_tac": "pursue",
+  "def_range": 1441.387,
+  "def_ata": 135.351,
+  "def_tac": "break_in",
+  "def_hold": 1.374,
+  "off_range": 2413.747,
+  "off_ata": 23.925,
+  "off_tac": "high_yoyo"
+ },
+ "source": "runs/adv_fin2",
+ "confirm": {
+  "blue_wins": 2,
+  "red_wins": 10,
+  "n": 12
+ }
+}

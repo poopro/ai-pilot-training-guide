@@ -1,14 +1,14 @@
 """Build the 'fighter' overlay (and a full zip) on top of the OFFICIAL portable package. Nothing official is modified.
   python portable/build_package.py        (run python gen_portable.py and portable/make_player_fighter.py first)
 Outputs:  portable/overlay/...   (copy its contents into the extracted repair_guide_portable_20261012 folder)
-          ../ai-pilot-fighter-player-win64-20261018.zip   (= official zip + overlay, ready to extract and run)"""
+          ../ai-pilot-fighter-player-win64-20261028.zip   (= official zip + overlay, ready to extract and run; adds tuned2w80, tuned2f, tuned2fr, dcsv2frs)"""
 import hashlib, json, zipfile
 from pathlib import Path
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent.parent
 BASE = 'ASUS_檢查工具/repair_guide_portable_20261012/'
 OFFICIAL = ROOT / 'ai-pilot-cpu-player-win64-20261016.zip'
-OUT_ZIP = ROOT / 'ai-pilot-fighter-player-win64-20261018.zip'
+OUT_ZIP = ROOT / 'ai-pilot-fighter-player-win64-20261028.zip'   # older zips are kept untouched
 
 SELF_CHECK = r'''"""Overlay self-check: (1) the official integrity/independence check, (2) overlay SHA256, (3) every profile builds and
 produces finite, in-range commands on synthetic observations (including a head-on case that triggers the collision shield)."""
@@ -36,7 +36,7 @@ def stream(kind):
         yield obs(own, en)
         for S in (own, en):
             S[0] += S[3] * math.cos(S[4]) / 60.; S[1] += S[3] * math.sin(S[4]) / 60.
-profiles = ('base', 'base_t3', 'tuned', 'tuned2', 'tuned_open:9')
+profiles = ('base', 'base_t3', 'tuned', 'tuned2', 'tuned2w:80', 'tuned2f', 'tuned2fr', 'tuned2t', 'dcsv2frs', 'tuned_open:9')
 for prof in profiles:
     for kind in ('abeam', 'headon'):
         p = fighter.build(prof)
@@ -59,37 +59,57 @@ README = '''# Fighter 套件(官方可攜 Player + fighter.py)
 
 | 啟動檔 | 設定 | 用途 |
 |---|---|---|
+| `啟動_tuned2t.cmd` | T17：tune4 整晚調參第 17 代（收尾參數、底層滾轉 74.4°、低空拉起 v2、拉起門檻 817 m） | **最強候選（10/28）**：最難轉彎型 10 種 116-4（擊落 106）、最難 15 種 180-0（擊落 161）、21 種 252-0（擊落 241）、0 被擊落；待官方 Host 實測 |
+| `啟動_dcsv2frs.cmd` | 3 km 外由 DCS Ace 資料訓練的意圖網路（v2b）飛、近距離收尾控制器 F4R、全程防撞與低空拉起 v2 | **新候選（10/28）**：留出對手 303-9（F4R 291-21）、最難 15 種 178-2、21 種 252-0、0 被擊落；待官方 Host 實測 |
+| `啟動_tuned2fr.cmd` | tuned2f + 低空拉起修正 v2（離地太近時依速度拉到 8.6G、太快時收油門） | **新候選（10/27）**：本地 21 種對手 252-0（擊落 232）、最難 15 種 173-7（擊落 146）、0 被擊落、最低離地高度 629 → 1048 m；待官方 Host 實測通過才改為預設 |
+| `啟動_tuned2f.cmd` | tuned2 + 近距離收尾控制器（3D 升力向量把機頭壓上對手、迎頭靠右通過、防撞） | **10/26 官方 Host 6/6 擊落**；目前的上場版本 |
 | `啟動_tuned2.cmd` | 第二輪調參追擊 + 碰撞盾 v3 | **預設上場版本** |
+| `啟動_tuned2w80.cmd` | tuned2,但最終滾轉上限 72° → 80°(其餘完全相同) | **候選**:本地對轉得比我們急的對手、鏡像局都較好;待官方 Host 實測後才決定是否改為預設 |
 | `啟動_tuned.cmd` | 第一輪調參追擊 + 碰撞盾 v3 | 次選(tuned2 出問題時) |
 | `啟動_base_t3.cmd` | 原版 repair_guide 追擊 + 碰撞盾 v3 | 備用(對 lag 型對手 tuned2 / tuned 較弱時) |
 | `啟動_tuned_open9.cmd` | tuned + 敵機在左側時開局先轉離 9 秒 | 僅在被 SAC 型尾追者壓制時的第二套設定 |
-| `重連_tuned2_僅限回合進行中.cmd` / `重連_tuned_…` / `重連_base_t3_…` | 同上,但一啟動就送 state = 2 | **只有**回合進行中程式當掉、要重連時用;回合開始前不要用 |
+| `重連_tuned2t_僅限回合進行中.cmd` / `重連_dcsv2frs_僅限回合進行中.cmd` / `重連_tuned2fr_僅限回合進行中.cmd` / `重連_tuned2f_僅限回合進行中.cmd` / `重連_tuned2_僅限回合進行中.cmd` / `重連_tuned2w80_…` / `重連_tuned_…` / `重連_base_t3_…` | 同上,但一啟動就送 state = 2 | **只有**回合進行中程式當掉、要重連時用;回合開始前不要用 |
 | `啟動Player.cmd`(官方原檔) | 原版 repair_guide,無盾 | 最後保底 |
 
 - 網路設定仍然是 `network.json`(官方原檔,未改動)。
 - 每個啟動檔先跑 `tools/self_check_fighter.py`:官方完整性檢查 + 新增檔案 SHA256 + 所有設定的合成觀測冒煙測試;失敗就不會啟動 Player。
-- 新增檔案只有:`policy/fighter.py`、`tools/player_fighter.py`、`tools/self_check_fighter.py`、`fighter_manifest.json`、各 .cmd、本說明。官方檔案一個位元都沒改。
+- 新增檔案只有:`policy/fighter.py`、`policy/fin_finisher.py`、`policy/fin_core.py`、`policy/fin_v2.py`、`policy/bc_v2b_all.npz`、`tools/player_fighter.py`、`tools/self_check_fighter.py`、`fighter_manifest.json`、各 .cmd、本說明。官方檔案一個位元都沒改。
 - `player_fighter.py` 與官方 `player.py` 只差 6 處(匯入 fighter、新增 `--profile` 與 `--resume`、建立控制器、`--resume` 時直接送 state = 2、啟動訊息)。
 - 本地研究結果(非 Host 認證,種子 1300000):對官方範例鏡像 tuned2 48-0、tuned 33-15、base_t3 20-28;對 lag 型 base_t3 44-4 最好、tuned2 39-9、tuned 38-10。上場前務必在官方 Host 實測至少一輪。
+- 10/23 新增 tuned2w80:對抗搜尋發現所有腳本與 tuned2 的滾轉都被夾在 72°,轉得比我們急的對手(81–88°)能整場咬住我們尾巴(tuned2 0-48)。放寬到 80° 的本地結果見專案文件 envelope_finding_20261023.md(非 Host 認證)。
 '''
 
 def main():
     ov = HERE / 'overlay'
     files = {
         'policy/fighter.py': (HERE / 'fighter.py').read_bytes(),
+        'policy/fin_finisher.py': (HERE / 'fin_finisher.py').read_bytes(),
+        'policy/fin_core.py': (HERE / 'fin_core.py').read_bytes(),
+        'policy/fin_v2.py': (HERE / 'fin_v2.py').read_bytes(),
+        'policy/bc_v2b_all.npz': (HERE / 'bc_v2b_all.npz').read_bytes(),
+        '啟動_tuned2t.cmd': launcher('tuned2t', 'Fighter - tuned2t (T17)').encode('utf-8'),
+        '重連_tuned2t_僅限回合進行中.cmd': launcher('tuned2t', 'Fighter - tuned2t RESUME (mid-round only)', ' --resume').encode('utf-8'),
+        '啟動_dcsv2frs.cmd': launcher('dcsv2frs', 'Fighter - dcsv2frs (DCS v2b + finisher)').encode('utf-8'),
+        '重連_dcsv2frs_僅限回合進行中.cmd': launcher('dcsv2frs', 'Fighter - dcsv2frs RESUME (mid-round only)', ' --resume').encode('utf-8'),
+        '啟動_tuned2f.cmd': launcher('tuned2f', 'Fighter - tuned2f (finisher)').encode('utf-8'),
+        '重連_tuned2f_僅限回合進行中.cmd': launcher('tuned2f', 'Fighter - tuned2f RESUME (mid-round only)', ' --resume').encode('utf-8'),
+        '啟動_tuned2fr.cmd': launcher('tuned2fr', 'Fighter - tuned2fr (finisher + recovery v2)').encode('utf-8'),
+        '重連_tuned2fr_僅限回合進行中.cmd': launcher('tuned2fr', 'Fighter - tuned2fr RESUME (mid-round only)', ' --resume').encode('utf-8'),
         'tools/player_fighter.py': (HERE / 'player_fighter.py').read_bytes(),
         'tools/self_check_fighter.py': SELF_CHECK.encode('utf-8'),
         '啟動_tuned2.cmd': launcher('tuned2', 'Fighter - tuned2').encode('utf-8'),
+        '啟動_tuned2w80.cmd': launcher('tuned2w:80', 'Fighter - tuned2w80').encode('utf-8'),
         '啟動_tuned.cmd': launcher('tuned', 'Fighter - tuned').encode('utf-8'),
         '啟動_base_t3.cmd': launcher('base_t3', 'Fighter - base_t3').encode('utf-8'),
         '啟動_tuned_open9.cmd': launcher('tuned_open:9', 'Fighter - tuned_open9').encode('utf-8'),
         '重連_tuned2_僅限回合進行中.cmd': launcher('tuned2', 'Fighter - tuned2 RESUME (mid-round only)', ' --resume').encode('utf-8'),
+        '重連_tuned2w80_僅限回合進行中.cmd': launcher('tuned2w:80', 'Fighter - tuned2w80 RESUME (mid-round only)', ' --resume').encode('utf-8'),
         '重連_tuned_僅限回合進行中.cmd': launcher('tuned', 'Fighter - tuned RESUME (mid-round only)', ' --resume').encode('utf-8'),
         '重連_base_t3_僅限回合進行中.cmd': launcher('base_t3', 'Fighter - base_t3 RESUME (mid-round only)', ' --resume').encode('utf-8'),
         '先讀我_fighter.md': README.encode('utf-8'),
     }
     manifest = {'format': 'fighter_overlay_v1', 'base_package': OFFICIAL.name,
-                'files_sha256': {k: hashlib.sha256(v).hexdigest() for k, v in files.items() if k.endswith('.py')}}
+                'files_sha256': {k: hashlib.sha256(v).hexdigest() for k, v in files.items() if k.endswith(('.py', '.npz'))}}
     files['fighter_manifest.json'] = json.dumps(manifest, indent=1, ensure_ascii=False).encode('utf-8')
     for rel, data in files.items():
         p = ov / BASE / rel

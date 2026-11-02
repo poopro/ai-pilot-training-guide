@@ -17,6 +17,10 @@ shield_part = bfm[a:b]
 c = bfm.index('PARAM_SPEC = {')
 d = re.search(r'^# -+ tail-chase defence', bfm, re.M).start()
 param_part = bfm[c:d]
+_old_clip = "return self.command(o, float(np.clip(bank, -72, 72)), float(np.clip(pitch, -18, 25)), speed, 0.)"
+assert param_part.count(_old_clip) == 1, 'ParamPilot final clip not found'
+param_part = param_part.replace(_old_clip, "cap = float(P.get('bank_cap', 72.))   # 72 unless a profile widens it (tuned2w)\n"
+                                "        return self.command(o, float(np.clip(bank, -cap, cap)), float(np.clip(pitch, -18, 25)), speed, 0.)")
 e = opn.index('class OpenPilot(ParamPilot):')
 f = opn.index('_orig_make_arm')
 open_part = opn[e:f]
@@ -28,6 +32,12 @@ Profiles (build(name)):
   base_t3     frozen pursuit + collision shield v3        (= local arm base_t3)
   tuned       ES-tuned pursuit constants + shield v3      (= local arm tuned)
   tuned2      round-2 ES-tuned constants (+ turn_cap_deg / turn_cap) + shield v3  (= local arm tuned2)
+  tuned2w[:cap]  tuned2 with the final bank clip widened from 72 to <cap> deg (default 80)  (= local arm tuned2w:<cap>, wide_pilot.py)
+  tuned2f     tuned2 + close-range lift-vector finisher (fin_finisher.py + fin_core.py, generated from finisher.py / dcsvet_core.py)  (= local arm tuned2f:<F4>)
+  tuned2fr    tuned2f + finisher ground recovery v2 (corner-speed G, idle when fast and diving)  (= local arm tuned2f:<F4>:rec_v2=1, "F4R")
+  tuned2t     T17: tune4 run tune04_fin12d gen 17 (finisher constants + bank cap ~74.4, rec_v2, floor 817 m)  (= local arm fin4:runs/tune04_fin12d)
+  dcsv2frs[:w] dcsv2fr + collision shield on the far-range net, weights bc_v2b_all (= local arm dcsv2frs:runs/bc_v2b_all.npz)
+  dcsv2fr     DCS-imitation intent net (far range, fin_v2.py + bc_v2_intent.npz) + finisher F4R  (= local arm dcsv2fr:runs/bc_v2_intent.npz)
   tuned_open[:secs]  tuned, but when the enemy starts on our LEFT (blue_az < 0) fly BREAK_OUT for the first <secs> s
   fly_feat    option tactician (raw-feature read-out, 54x7 weights, numpy only) on top of base_t3; implemented in flyopt.py (portable/gen_flyopt.py)
 Uses only numpy and the official package modules (controller.RepairController, combat_v3.*).
@@ -61,6 +71,11 @@ TIGHT3 = dict(tcpa_s=2.0, miss_m=60., range_m=1000.)
 TUNED = %s
 TUNED2 = %s
 OPEN_TACTIC = BREAK_OUT
+FIN_F4 = dict(aa_max=180., enter_deg=180., exit_deg=180., enter_m=3000., exit_m=3500., turn_cas=340., n_cap=8., merge_off_m=400.)
+FIN_F4R = dict(FIN_F4, rec_v2=1.)
+# T17 = tune4 run tune04_fin12d gen 17 (2026-10-28): finisher constants + base bank cap, rec_v2 on (full precision)
+FIN_T17 = dict(FIN_F4, **{'k_ang': 2.7381489569731503, 'k_ff': 0.7948903458313633, 'hold_m': 626.0734638647215, 'turn_cas': 322.8694973689891, 'turn_deg': 22.785508617479728, 'n_cap': 8.512577849891093, 'enter_m': 3017.370554423556, 'merge_off_m': 249.99925456570134, 'floor_m': 817.2447691311949, 'rec_v2': 1.0})
+CAP_T17 = 74.3759186171109
 
 
 def build(name='tuned'):
@@ -75,6 +90,24 @@ def build(name='tuned'):
         return ParamPilot(dict(TUNED), shield=TIGHT3)
     if base == 'tuned2':
         return ParamPilot(dict(TUNED2), shield=TIGHT3)
+    if base == 'tuned2w':
+        cap = float(arg or 80)
+        return ParamPilot(dict(TUNED2, bank_lim=cap, bank_cap=cap), shield=TIGHT3)
+    if base == 'tuned2f':
+        import fin_finisher    # portable/fin_finisher.py + fin_core.py (generated together with this file)
+        return fin_finisher.FinisherPilot(ParamPilot(dict(TUNED2), shield=TIGHT3), dict(FIN_F4))
+    if base == 'tuned2fr':
+        import fin_finisher
+        return fin_finisher.FinisherPilot(ParamPilot(dict(TUNED2), shield=TIGHT3), dict(FIN_F4R))
+    if base == 'tuned2t':
+        import fin_finisher
+        return fin_finisher.FinisherPilot(ParamPilot(dict(TUNED2, bank_lim=CAP_T17, bank_cap=CAP_T17), shield=TIGHT3), dict(FIN_T17))
+    if base == 'dcsv2fr':
+        import fin_v2          # portable/fin_v2.py (generated from dcsvet_v2.py) + weights next to it
+        return fin_v2.DcsV2Pilot(str(_BASE / ((arg or 'bc_v2_intent') + '.npz')), fin_cfg=dict(FIN_F4R)).fin
+    if base == 'dcsv2frs':     # + collision shield for the far-range net (2026-10-28); default weights = v2b (all Ace data)
+        import fin_v2
+        return fin_v2.DcsV2Pilot(str(_BASE / ((arg or 'bc_v2b_all') + '.npz')), fin_cfg=dict(FIN_F4R, v2_shield=1.)).fin
     if base == 'tuned_open':
         return OpenPilot(dict(TUNED), shield=TIGHT3, tactic=OPEN_TACTIC, secs=float(arg or 6), only_side=-1)
     if base == 'fly_feat':
@@ -87,4 +120,23 @@ out = HEADER + tac_body + '\n\n' + shield_part + '\n' + param_part + '\n' + open
 (HERE / 'portable').mkdir(exist_ok=True)
 (HERE / 'portable' / 'fighter.py').write_text(out, encoding='utf-8')
 compile(out, 'fighter.py', 'exec')
+core = (HERE / 'dcsvet_core.py').read_text(encoding='utf-8')
+fin = (HERE / 'finisher.py').read_text(encoding='utf-8')
+assert fin.count('import dcsvet_core as C') == 1
+fin = fin.replace('import dcsvet_core as C', 'import fin_core as C')
+banner = '# generated by gen_portable.py from %s -- do not edit by hand\n'
+(HERE / 'portable' / 'fin_core.py').write_text(banner % 'dcsvet_core.py' + core, encoding='utf-8')
+(HERE / 'portable' / 'fin_finisher.py').write_text(banner % 'finisher.py' + fin, encoding='utf-8')
+compile(core, 'fin_core.py', 'exec'); compile(fin, 'fin_finisher.py', 'exec')
+print('wrote portable/fin_core.py, portable/fin_finisher.py')
+# fin_v2.py: only the run-time part of dcsvet_v2.py (DcsV2Pilot + _load); the data-building code needs dcsvet_data
+v2 = (HERE / 'dcsvet_v2.py').read_text(encoding='utf-8')
+cls = v2[v2.index('class DcsV2Pilot:'):v2.index("if __name__ == '__main__':")]
+assert cls.count('from finisher import FinisherPilot, FIN_DEFAULT') == 1
+cls = cls.replace('from finisher import FinisherPilot, FIN_DEFAULT', 'from fin_finisher import FinisherPilot, FIN_DEFAULT')
+v2src = ('import math\nimport numpy as np\nimport fin_core as C\n\nDROP = %r\nH_S = %r\n\n\n' % (
+    __import__('dcsvet_v2').DROP, __import__('dcsvet_v2').H_S)) + cls
+(HERE / 'portable' / 'fin_v2.py').write_text(banner % 'dcsvet_v2.py (DcsV2Pilot, _load)' + v2src, encoding='utf-8')
+compile(v2src, 'fin_v2.py', 'exec')
+print('wrote portable/fin_v2.py')
 print('wrote portable/fighter.py', len(out), 'bytes', out.count('\n'), 'lines')

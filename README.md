@@ -4,6 +4,8 @@
 
 ## 新成員從這裡開始
 
+0. **[對戰報告與環境說明 REPORT（2026-11-02）](jepa_brain/REPORT_20261102.md)**、**[對手基準組 BENCHMARK](jepa_brain/BENCHMARK.md)**：拿自己的模型（例如微調後的 Korea V2）對我們所有對手、T17、tune05、韓國冠軍隊模型打同種子比賽的方法與已知結果。
+
 1. **[先讀我](docs/START_HERE.md)**：專案在做什麼、閱讀順序與下一個具體缺口。
 2. **[目前狀態](docs/STATUS_20261021.md)**：候選、保留基準、已否決方案，以及六場已完成但核對逾時的實驗。
 3. **[架構對照](docs/ARCHITECTURE.md)**：`campaign_2026`、`jepa_brain`、Claude 的 `flybrain` 及較早期工作。
