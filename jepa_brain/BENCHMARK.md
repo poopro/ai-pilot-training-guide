@@ -35,6 +35,17 @@ python league2.py runs/my_v3_vs_pool.jsonl krl:my_v3 '<下面第 3 節的對手�
 - `krl:` = **合法觀測**：敵機姿態只用速度／加速度估計（跟比賽 Host 給的資料一致）。`kr:` = 直接讀敵機真實姿態（作弊版，只做研究）。
 - 載入程式：`kr_red.py`（不用 torch 的安全 unpickler，只還原數字矩陣；4×21 bins argmax、10 Hz）。
 
+### 測隊友的 rl_client 模型（K／a50 這類 npz）
+
+把 `rl_client.py`、`np_policy.py`、`cpu_obs.py` 和 `.npz` 放到 repo 旁邊的 `ext_team/`（與 `jepa_brain/` 同一層），藍方字串：
+`rlk:<npz 檔名>:<grid lin|aip>:<mode aip|kr>[:<漏包率>]`，例如 `rlk:k_final.npz:lin:aip`。
+2026-11-02 的基準（種子 9300000，4 個韓國模型各 24 局）：
+
+```
+python league2.py runs/n100_K.jsonl rlk:k_final.npz:lin:aip 'krl:gylee_20k;krl:gylee_46k_headon;krl:junhwa_exploiter_survive_v1;krl:junhwa_wide1_v2' 24 9300000
+```
+結果：Korea V2 66–30、K 68–28、a50 64–32（對 krl:gylee_20k 分別 12–12、10–14、11–13）。同種子配對 p 皆 > 0.6。
+
 ## 3. 對手清單（紅方字串）
 
 | 等級 | 紅方字串 | 是什麼 |

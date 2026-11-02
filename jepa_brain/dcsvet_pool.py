@@ -6,7 +6,7 @@ and as a blue arm (DcsVetPilot), plus a small evaluator.
 
 Importing this module chains 'dcsvet' onto rollout.ScriptedRed (same pattern as pool2).
 """
-import os, sys, json, time, argparse
+import os, sys, json, time, argparse, math
 from pathlib import Path
 import numpy as np
 import rollout
@@ -129,7 +129,104 @@ if getattr(rollout.ScriptedRed, '__name__', '') != '_WrapDV':
     rollout.ScriptedRed = _WrapDV
 
 
+class _RLKBlue:
+    """Teammate's fine-tuned Korean-type pilot (team_pack RLPilot: official 26-D obs in, 4 controls out), 2026-11-01.
+    arm 'rlk:<npz path>:<grid lin|aip>:<mode aip|kr>'; relative paths are looked up in ../ext_team."""
+    def __init__(self, arm):
+        import sys
+        parts = arm.split(':')
+        path, grid, mode = parts[1], (parts[2] if len(parts) > 2 else 'lin'), (parts[3] if len(parts) > 3 else 'aip')
+        d = HERE.parent / 'ext_team'
+        if str(d) not in sys.path:
+            sys.path.insert(0, str(d))
+        from rl_client import RLPilot
+        p = Path(path) if Path(path).is_absolute() else d / path
+        self.p = RLPilot(str(p), grid=grid, mode=mode)
+        self.drop = float(parts[4]) if len(parts) > 4 else 0.          # optional packet-loss probability (2026-11-01)
+        self.rng = np.random.default_rng(7)
+        self.last = np.array([0., 0., 0., .8])
+
+    def set_tactic(self, t):
+        pass
+
+    def act(self, observation, residual=None, started=True):
+        if self.drop > 0 and self.rng.random() < self.drop:
+            return self.last.copy(), False
+        self.last = np.asarray(self.p.feed([float(x) for x in observation[:26]]), dtype=np.float64).copy()
+        return self.last.copy(), False
+
+
+class _KV2PkgBlue:
+    """ChatGPT's Korea V2 deployment code (korean_v1.policy.KoreanV1 + clock.PolicyClock, packet-count clock) fed with the
+    official 26-double packet, optionally dropping packets: arm 'kv2pkg:<drop prob>[:<seed>]' (2026-11-01, review item P1)."""
+    def __init__(self, arm):
+        import sys
+        parts = arm.split(':')
+        self.drop = float(parts[1]) if len(parts) > 1 else 0.
+        self.rng = np.random.default_rng(int(parts[2]) if len(parts) > 2 else 0)
+        d = HERE.parent / 'ext_kv1'
+        if str(d) not in sys.path:
+            sys.path.insert(0, str(d))
+        from korean_v1.policy import KoreanV1
+        if arm.startswith('kv2c:'):                                   # the patched deployment clock (korean_v2c)
+            from korean_v1.clock_v2c import PolicyClock
+        else:
+            from korean_v1.clock import PolicyClock
+        self.clock = PolicyClock(KoreanV1('gylee_20k'))
+        self.act_ = np.array([0., 0., 0., .8])
+        self.dropped = 0
+
+    def set_tactic(self, t):
+        pass
+
+    def act(self, observation, residual=None, started=True):
+        if self.drop > 0 and self.rng.random() < self.drop:
+            self.dropped += 1
+            return self.act_.copy(), False                       # packet lost: Host keeps the last command
+        self.act_ = np.asarray(self.clock.step([float(x) for x in observation[:26]], True), dtype=np.float64)
+        return self.act_.copy(), False
+
+
+class _KV2FixBlue(_KV2PkgBlue):
+    """Same deployment policy, but time = distance flown / speed between received packets (no packet counting);
+    decide whenever >= 0.1 s of estimated time has passed.  arm 'kv2fix:<drop prob>[:<seed>]'."""
+    def __init__(self, arm):
+        super().__init__(arm)
+        self.pol = self.clock.policy
+        self.pol.reset()
+        self.prev = None
+        self.t = 0.
+        self.t_dec = None
+
+    def act(self, observation, residual=None, started=True):
+        if self.drop > 0 and self.rng.random() < self.drop:
+            self.dropped += 1
+            return self.act_.copy(), False
+        o = np.asarray([float(x) for x in observation[:26]])
+        if self.prev is not None:
+            p = self.prev
+            dn = math.radians(o[0] - p[0]) * 6378137.
+            de = math.radians(o[1] - p[1]) * 6378137. * math.cos(math.radians(p[0]))
+            du = (o[2] - p[2]) * .3048
+            v = .5 * (np.linalg.norm(o[15:18]) + np.linalg.norm(p[15:18])) * .3048
+            if v > 1.:
+                self.t += float(np.sqrt(dn * dn + de * de + du * du)) / v
+            elif np.array_equal(o, p):
+                return self.act_.copy(), False
+        self.prev = o
+        if self.t_dec is None or self.t - self.t_dec >= .1 - .5 / 60.:
+            self.t_dec = self.t
+            self.act_ = np.asarray(self.pol.command(o, self.t), dtype=np.float64)
+        return self.act_.copy(), False
+
+
 def make_blue(arm, weights=None):
+    if arm.startswith('kv2fix:'):
+        return _KV2FixBlue(arm), None
+    if arm.startswith('kv2pkg:') or arm.startswith('kv2c:'):
+        return _KV2PkgBlue(arm), None
+    if arm.startswith('rlk:'):
+        return _RLKBlue(arm), None
     if arm.startswith('kr:') or arm.startswith('krl:'):      # Korean PPO pilot as blue (2026-10-28)
         from kr_red import KRBlue
         return KRBlue(arm), None

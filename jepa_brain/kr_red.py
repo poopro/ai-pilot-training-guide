@@ -66,8 +66,12 @@ class NumpyPolicy:
     def __init__(self, folder):
         ck = load_checkpoint(Path(folder) / 'model.pt')
         cfg, w = ck['cfg'], ck['model']
-        if cfg.get('gru_last') or cfg.get('gru_all'):
-            raise ValueError('GRU models not supported')
+        if cfg.get('gru_all'):
+            raise ValueError('gru_all models not supported')
+        self.gru = None
+        if cfg.get('gru_last'):                     # torch GRUCell after the tanh body (2026-11-01)
+            self.gru = tuple(np.asarray(w['actor_gru.' + k], np.float64) for k in ('weight_ih', 'weight_hh', 'bias_ih', 'bias_hh'))
+            self.h = np.zeros(self.gru[1].shape[1])
         self.W, self.b = [], []
         i = 0
         while 'actor_body.%d.weight' % i in w:
@@ -86,6 +90,15 @@ class NumpyPolicy:
             x = np.clip((x - self.mean) / np.sqrt(self.var + 1e-8), -10, 10)
         for W, b in zip(self.W, self.b):
             x = np.tanh(x @ W + b)
+        if self.gru is not None:
+            Wi, Wh, bi, bh = self.gru
+            gi, gh = Wi @ x + bi, Wh @ self.h + bh
+            H = len(self.h)
+            r = 1. / (1. + np.exp(-(gi[:H] + gh[:H])))
+            z = 1. / (1. + np.exp(-(gi[H:2 * H] + gh[H:2 * H])))
+            n = np.tanh(gi[2 * H:] + r * gh[2 * H:])
+            self.h = (1. - z) * n + z * self.h
+            x = self.h
         idx = (x @ self.Wl + self.bl).reshape(4, self.nb).argmax(-1)
         c = np.linspace(-1., 1., self.nb)[idx]
         c[3] = .5 * c[3] + .5
